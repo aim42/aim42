@@ -1,0 +1,8 @@
+language: java
+install: ""
+script: 
+    - "export TERM=dumb"
+    - "cd guide/"
+    - "./gradlew clean aim42 publishGhPages"
+jdk:
+    - openjdk7
