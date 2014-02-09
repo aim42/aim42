@@ -1,0 +1,33 @@
+:numbered:
+
+[[Evaluate]]
+== Evaluate
+
+In the evaluation phase we need to understand root causes of the problems found,
+potential interdependencies between issues and their impacts.
+
+
+
+=== Goals
+
+* Make the issues, problems and risks found during the *analysis* comparable by
+determining their *value* (that's why we call this activity *evaluate*).
+
+* Understand root causes for the issues or symptoms found during analysis
+
+=== Pattern and Practices for Evaluation
+
+* Determine Feature Value
+* Determine Problem Cost
+* Estimate Remedy Cost
+* Failure Mode And Effect Analysis
+* Impact Analysis
+* <<Root-Cause-Analysis, Root Cause Analysis>> - finding the root-cause of problems
+* Separate Cause From Effect
+
+// the detailed description of the evaluation-patterns
+
+
+include::patterns/root-cause-analysis.adoc[]
+
+

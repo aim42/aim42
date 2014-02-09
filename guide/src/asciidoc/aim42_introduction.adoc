@@ -1,0 +1,94 @@
+
+
+
+== aim42 - Short Introduction 
+
+
+=== Why is software being changed?
+
+Software systems, at least most of those that are practically used, are changed all the 
+time. Features are added, modified or removed, user interaction is streamlined, 
+performance is tuned, changes to external interfaces or systems are reflected.
+
+* people need new features
+* existing features have to be modified or removed
+* external interfaces have been changed - our system has to cope with these changes
+* data structures we rely on have been changed
+* system needs to be integrated with _new neighbour_
+* system needs to comply to new regulations or laws
+* system needs new or improved user interface
+* some technology, framework or product used within the system is not available any longer and needs to be replaced
+* resource consumption needs to be optimized
+* system needs to work faster 
+* system needs to become more reliable or fault-tolerant
+* operational costs have to be reduced
+* maintenance costs have to be reduced
+* technical debt has to be reduced
+* existing documentation does not reflect the truth (any more)
+
+You see - lots of good reasons :-)
+
+
+=== Why does software need improvement?
+
+The most important reason is depicted in the following diagram: The cost-of-change
+of most software increases heavily over time... making those people really unhappy that
+have to pay for these changes (called maintenance, evolution, new-features or else)
+
+An additional effect of long-term maintenance of software is the strong
+_decrease in understandability_: When a system matures it becomes more and more difficult to understand its inner workings, changes become increasingly risky and consequences of changes become difficult to foresee which can render effort estimations quite blurry.
+
+
+image::cost-of-change.jpg[]
+
+// TODO: exchange image to reflect both cost and understandability.
+
+
+These two effects have exactly the same root-causes: 
+
+. _internal disorder_ and
+. loss of _conceptual integrity_
+
+==== Long-Term Goal
+
+Investment in methodical and systematic software architecture improvement will have the following effect:
+
+image::target-situation.jpg[]
+ 
+
+=== How does aim42 work? 
+
+
+==== Three Simple Phases 
+
+. <<Analyze>>: note down problems, risks, deficiencies and technical debt within your system and your development process. Solely focus on problems in this phase, not on potential solution approaches.
+
+. <<Evaluate>>: understand root-causes of problems, determine the „value“ of problems, issues and their remedies, prioritize them
+
+. <<Improve>>: systematically improve code and structures, reduce technical debt, remove waste and optimize.
+
+
+
+=== Disclaimer
+We are *very* sure that aim42 can work for your system or your organization. 
+But (yes, there's always a but) we cannot guarantee: Maybe your software is so
+*extraordinaire*, so very special, that it needs other treatment.
+
+Maybe your organization does not fit our prerequisites, or is way more advanced
+than we anticipated in our approach...
+
+You have to use all practices, patterns and approaches of aim42 at your own risk 
+and responsibility. We (the aim42 contributor team) can by no means be held 
+responsible for any results of applying aim42.
+
+
+=== The Team
+
+* Gernot Starke (innoQ Fellow, project founder): setup
+* Stefan Tilkov (innoQ), maintenance and evolution patterns
+* Alex Heusingfeld (innoQ)
+
+
+
+
+

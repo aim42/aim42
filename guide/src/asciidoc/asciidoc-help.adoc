@@ -1,0 +1,85 @@
+:numbered!:
+
+[appendix]
+== Asciidoc Help
+
+To facilitate contributions we summarize the AsciiDoc (respectively AsciiDoctor) features used within this guide.
+
+
+=== Headings
+
+=== Cross-References and Links::
+
+=== Images and Diagrams::
+
+=== Lists
+
+----
+* first entry
+* one more
+----
+
+* first entry
+* one more
+
+
+=== Admonitions
+
+Special annotations rendering nicely:
+
+----
+NOTE: Admonition paragraphs call attention to special words of advice
+
+WARNING: a warning
+
+CAUTION: be careful
+
+IMPORTANT: must be really worth reading
+
+TIP: maybe some practice report
+----
+
+NOTE: Admonition paragraphs call attention to special words of advice
+
+WARNING: a warning
+
+CAUTION: be careful
+
+IMPORTANT: must be really worth reading
+
+TIP: maybe some practice report
+
+
+----
+[TIP]
+--
+Multi-line admonitions blocks need special treatment: 
+
+they need a block-masquerading (e.g. by "--" at the beginning and end.
+
+The result is rendered nicely.
+--
+----
+renders as follows:
+
+[TIP]
+--
+Multi-line admonitions blocks need special treatment: 
+
+they need a block-masquerading (e.g. by "--" at the beginning and end.
+
+The result is rendered nicely.
+--
+
+=== Files and Directories
+
+Files are included with the "include" directive:
+
+[listing]
+  include::asciidoc-help.adoc[]
+
+
+=== Attributes
+Some attributes are useful, e.g.
+
+* `{docdate}` will insert the last modification data (here: {docdate})

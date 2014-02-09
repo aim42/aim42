@@ -1,0 +1,42 @@
+[[Software-Archeologie]]
+
+=== Software Archeology 
+
+==== Intent
+Understand software by examining existing source code
+
+==== Description
+
+. Make sure you have the complete code, scripts, frameworks and tools required to build the system.
+. Ensure you have access rights to all required systems, at least to version control, database, participating servers etc.
+. Ensure you can build the system from scratch (compile, load all dependencies, link or whatever steps are neccessary)
+. Practice <<View-Based-Understanding, View-Based Understanding>> by sketching notes or diagrams. Get an _aerial view_, a glimpse of the topmost, biggest structures in the code.
+. Try to understand the _terminology_ of the original authors by scanning code and searching for multiple occurances. Start creating a _glossary_
+. Introduce _tracing_ or _logging_ statements. Aspect-oriented tools (like AspectJ) might be helpful.
+
+
+==== Experiences
+
+
+==== Applicability
+You have to understand a system with 
+
+* little or no current documentation.
+* no knowledgeable technical stakeholders or development team available 
+
+
+==== Consequences
+
+
+==== Also Known As
+
+
+==== Related Patterns
+* Code Reading
+* <<Runtime-Artifact-Analysis>>
+* Structural Analysis
+
+
+==== References
+* <<Hunt-Archeology>>, pleasant introduction without adherence to any strict pattern template. Recommended reading.
+* <<Moyer-Archeology>>, short report.

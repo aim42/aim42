@@ -1,0 +1,42 @@
+
+[[Improve]]
+== Improve
+
+
+
+=== Goals
+
+* Change code, structures, concepts or processes to achieve better software,
+* reduce costs and/or technical debt,
+* eliminate issues found during analysis phase,
+* optimize quality attributes (like performance, maintainability, security),
+* optimize operation and administration processes, effort and cost.
+
+
+==== Refactoring Source Code
+One important part of improving systems is refactoring, as initially described by <<Fowler-Refactoring>>.
+
+In our opinion, several refactoring patterns are especially important:
+
+* <<Handle If-Else-Chains>>: eliminate nested if-then-else blocks, so that code becomes more understandable.
+
+
+=== Patterns and Practices for Improvement
+(given in alphabetical order)
+
+* <<Automated-Tests>>
+* <<Branch-For-Improvement>>
+* <<Extract-Reusable-Component>>
+* <<Group-Improvement-Actions>>
+* <<Handle-If-Else-Chains>>
+* <<Impact-Analysis>>
+* <<Improve-Code-Layout>>
+* <<Isolate-Changes>>
+* <<Keep-Data-Toss-Code>>
+* <<Never-Change-Running-System>>
+* <<Quality-Driven-Software-Architecture>>
+* <<Refactoring>>
+* <<Refactoring-Plan>>
+* <<Schedule-Work>>
+* <<Remove-Nested-Control-Structures>>
+* <<Untangle-Code>>

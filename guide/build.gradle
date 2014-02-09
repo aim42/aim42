@@ -1,0 +1,60 @@
+// gradle build script for the aim42 documentation
+//
+// free software - without guarantee, use at your own risk
+// ========================================================
+
+buildscript {
+    repositories {
+        maven {
+            name 'Bintray Asciidoctor repo'
+            url  'http://dl.bintray.com/content/aalmiray/asciidoctor'
+        }
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:0.7.0'
+    }
+}
+
+apply plugin: 'asciidoctor'
+
+
+asciidoctor {
+    outputDir = new File("$buildDir/docs")
+    baseDir = project.file('src/asciidoc')
+    options = [
+        attributes: [
+            toc                 : 'left',
+            doctype             : 'book',
+            icons               : 'font',
+            sectlink            : true,
+            sectanchors         : true,
+            numbered            : true,
+            imagesdir           : 'images',
+        ]
+    ]
+}
+
+
+defaultTasks 'aim42'
+
+
+
+task copyImages(
+    type: Copy, 
+    description: 'copy images into build output folder ,so that references can be resolved '
+) {
+    from 'src/images'
+    into './build/docs/images'
+}
+
+
+
+task aim42(
+    dependsOn: [copyImages, asciidoctor],
+    description: 'collects all required tasks for creating aim42 documentation'
+) << {
+  
+}
+

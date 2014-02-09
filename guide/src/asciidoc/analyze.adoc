@@ -1,0 +1,64 @@
+[[Analyze]]
+
+== Analyze
+
+=== Goals
+
+Find all problems, issues, symptoms, risks or technical debt within the system, 
+its operation, maintenance or otherwise related processes.
+
+=== How it works
+
+Systematically look for such issues at various places and with various people.
+
+INFO: To effectively find issues, you need an appropriate amount of _understanding_ of the systems, its technical concepts, code-structure, inner workings, major external interfaces and its development process.
+
+
+. Start with a *qualitative analysis* of the system, its architecture and surrounding organization
+. Perform *static code analysis* 
+. Conduct stakeholder interviews
+. Perform a number of *runtime analysis*, e.g. performance and load monitoring, process and thread analysis
+. Inspect the data created, modified and queried by the system, for structure, size, volume
+   
+
+A word of warning:
+
+
+WARNING: Never start solving problems until you have a thourough understanding of current stakeholder requirements. Otherwise you risk wasting effort in areas that no influential stakeholder cares about.
+
+
+=== Where to look
+
+=== Patterns and Practices for Analysis
+(given in alphabetical order)
+
+* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM>>
+* <<Capture-Quality-Requirements>>
+* <<Context-Analysis>>
+* <<Data-Analysis>>
+* <<Development-Process-Analysis>>
+* <<Documentation-Analysis>>
+* <<Issue-Tracker-Analysis>>
+* <<Profiling>>
+* <<Qualitative-Analysis>>
+* <<Quantitative-Analysis>>
+* <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
+* <<Requirements-Analysis>>
+* <<Runtime-Artifact-Analysis>>* 
+* <<Software-Archaeology, Software Archeology>>
+* <<Stakeholder-Analysis>>
+* <<Stakeholder-Interview>>
+* <<Static-Code-Analysis>> (Structural analysis)
+* <<Use-Case-Cluster>>
+* <<View-Based-Understanding, View Based Understanding>>
+
+
+// the detailed description of tha analysis-patterns
+
+include::patterns/software-archeology.adoc[]
+
+include::patterns/static-analysis.adoc[]
+
+include::patterns/take-what-they-mean.adoc[]
+
+include::patterns/view-based-understanding.adoc[]

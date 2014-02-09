@@ -1,0 +1,47 @@
+[[View-Based-Understanding]]
+=== View-Based Understanding 
+
+==== Intent
+Understand the (code-) structure of the systems. Document (and communicate) this via
+architectural views, especially the building-block view.
+
+==== Description	
+
+* Apply arc42 views.
+* Apply static-code-analysis
+* Interview technical stakeholders
+* Start either from the 
+   ** business context, mainly the external business interfaces
+   ** technical context, the involved hardware and network structure
+   ** known technology areas, ie. prodcts, programming languages or frameworks used
+
+
+==== Applicability
+Use view-based-understanding when:
+
+* System has a medium to large codebase
+* Structural understanding of the code is limited: only few stakeholders can explain
+and reason about the code structure
+* Documentation of the code structure is not existing, outdated or wrong
+* Long-term maintenance and evolution of the system is required 
+
+
+==== Consequences
+
+* Structural overview of the larger units of source-code (subsystems, high-level components)
+and their relationships.
+* 
+
+==== Also Known As
+
+* building block view (formerly known as logical view)
+* high-level overview
+
+==== Related Patterns
+?
+
+==== References
+
+* arc42
+* Kruchten
+* 

@@ -1,0 +1,40 @@
+// header file for aim42-guide
+//
+// Includes all the rest
+// ====================================
+
+= aim42 - architecture improvement method 
+
+Dr. Gernot Starke <gernot.starke@innoq.com>
+Version 0.2, last update {docdate}
+
+
+:toc2: 
+
+:imagesdir: ./images
+:homepage: http://aim42.org
+:numbered:
+
+:keywords: software-architecture, evolution, maintenance, improvement, analysis, evaluation
+
+include::aim42_introduction.adoc[]
+
+include::license.adoc[]
+
+include::contributing.adoc[]
+
+include::analyze.adoc[]
+
+include::evaluate.adoc[]
+
+include::improve.adoc[]
+
+include::pattern-index.adoc[]
+
+include::bibliography.adoc[]
+
+// the following file is just ad addendum and shall be moved asap
+// TODO
+include::asciidoc-help.adoc[]
+
+

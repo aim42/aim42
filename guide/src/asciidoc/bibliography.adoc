@@ -1,0 +1,90 @@
+:numbered!:
+
+[[bibliography]]
+[appendix]
+== Bibliography
+
+
+* [[[arc42]]] arc42 - Resources for Software Architects. Practical template, liberal licence.
+Available in a variety of formats, see http://arc42.de[German website] or http://arc42.org[English website].
+
+* [[[Agans-Debugging]]] David J. Agans: Debugging: The 9 Indispensable Rules for Finding Even the Mose 
+Elusive Software and Hardware Problems. Amacom Press, 2002. Although most developers take "debugging skills" for granted,
+they sometimes spend too much time tracking too little bugs. 
+
+* [[[AIW]]] http://www.sei.cmu.edu/architecture/tools/evaluate/aiw.cfm[Architecture Improvement Workshop]. 
+Software Engineering Institute, Carnegie Mellon University.
+
+* [[[Annett-Legacy]]] Robert Annett: Working with Legacy Systems: A practical guide to the real systems we inherit.  http://leanpub.com/WorkingWithLegacySystems[Leanpub Publishing].
+
+* [[[ATAM]]] http://www.sei.cmu.edu/architecture/tools/evaluate/atam.cfm[Architecture Tradeoff Analysis Method]. 
+Software Engineering Institute, Carnegie Mellon University.
+
+ 
+* [[[Berglung-AfferentCoupling]]] Tim Berglund (GitHub) on 
+http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-development-tim-berglund[Complexity Theory and Software Development]. Look at slide 73ff on afferent coupling - and keep that in mind for your own refactorings.
+
+* [[[Bass09]]] Len Bass et.al.: Software Architecture in Practice. Addison-Wesley, 2. Edition 2009.
+
+* [[Bommer-Wartung]] Christoph Bommer, M. Spindler, V. Barr: Softwarewartung: Grundlagen, Management und Wartungstechniken.
+(in German) dpunkt Verlag, 2008. Interesting treatment of categories of software systems and their respective need for maintenance and evolution. Authors quote studies from Lehman and Belady from the 1970's.
+
+
+* [[Brodie-Stonebraker]] Migrating Legacy Systems: Gateway, Interfaces & the Incremental Approach; Morgan Kaufmann 1995.
+
+* [[[Clements09]]] Paul Clements et.al.: Evaluating Software Architecture - Methods and Case Studies. 
+Addison-Wesley, 2001. Detailed overview of ATAM (and other evaluation methods.
+
+* [[[Campbell14]]] Ann Campbell et. al: SonarQube in Action. Manning Publications, 2014. Great introduction to 
+the flexible, multi-language code-analysis toolkit. 
+
+
+* [[[Feathers]]] Michael Feathers: Working Effectively with Legacy Code. Prentice Hall, 2005. The author claims "Code without tests is bad code". So true...
+
+
+* [[[Fowler-Refactoring]]] Martin Fowler: Refactoring. Addision-Wesley. Addision-Wesley, 1999.
+
+
+* [[[Freemann]]] Steve Freeman, Nat Pryce: Growing Object Oriented Software By Tests. Addison-Wesley, 2010.
+
+* [[[Hunt-Archeology]]] Andy Hunt, Dave Thomas: http://media.pragprog.com/articles/mar_02_archeology.pdf[Software Archeology], IEEE Software, March/April 2002
+
+* [[[Impact-Mapping]]] Gojko Adzic: http://impactmapping.org[Impact Mapping. Making a Big Impact With Software Products and Projects].
+
+* [[[Keller-Migration]]] Wolfgang Keller: http://www.objectarchitects.de/ObjectArchitects/papers/WhitePapers/ZippedPapers/pacman03.pdf[The Bridge to the New Town] - A Legacy System Migration Pattern. EuroPLoP 2000, ISBN 3-87940-775-4
+
+
+* [[[Lippert-Refactoring]]] M.Lippert, S.Roock: Refactoring in Large Software Projects: 
+Performing Complex Restructurings Successfully, Wiley 2006
+
+
+* [[[Martin-CleanCode]]] Robert Martin: Clean Code - A Handbook of Agile Software Craftmanship. Prentice Hall, 2009.
+A detailed writeup of how (object-oriented) code should look like. Lots of things we like.
+
+* [[[Moyer-Archeology]]] Brian Moyer: http://adm.omg.org/docs/Software_Archeology_4-Mar-2009.pdf[Software Archeology]
+
+* [[[Ogawa-Evolution]]] Michael Ogawa: Software Evolution Storylines. Available as research paper, open-source code and  
+online. http://www.michaelogawa.com/research/storylines/[Visualizes interactions between developers in software systems]
+
+* [[[Quality-Requirements]]] 
+https://bitbucket.org/arc42/quality-requirements[(Free) Examples of Practical Software Quality Requirements].
+
+* [[[SERIOUS]]] Software Evolution, Refactoring, Improvement of Operational & Usable Systems. 
+http://www.hitech-projects.com/euprojects/serious/[ITEA / EUREKA research project]. 
+Completed in 2008, holds a fairly large number of deliverables. 
+
+* [[[SERIOUS-Refactoring]]] 
+http://www.hitech-projects.com/euprojects/serious/deliverables/public%20deliverables/deliverables%20wp1/D1.3%20Refactoring%20Handbook.pdf[SERIOUS Refactoring Handbook]. 
+
+* [[[SERIOUS-Methods]]] SERIOUS project.
+http://www.hitech-projects.com/euprojects/serious/deliverables/public%20deliverables/deliverables%20wp3/D3.3%20Overview%20and%20evaluation%20of%20design%20and%20refactoring%20methods.pdf[Overview and evaluation of design and refactoring methods]
+
+* [[[Software-Evolution]]] http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2047-7481[Journal of Software: Evolution and Process]. Academic journal on software evolution and maintenance.
+
+* [[[SonarQube]]] SonarQube is an http://sonarqube.org[free and open platform to measure manage code quality], lots of plugins for 
+a variety of programming languages, plugins for different metrics and checks. SonarQube can track results over time - showing the history of code quality for software systems.
+
+* [[[Spolsky-NeverRewrite]]] Joel Spolsky: http://www.joelonsoftware.com/articles/fog0000000069.html[Things You Should Never Do, Part-I] 
+
+
+

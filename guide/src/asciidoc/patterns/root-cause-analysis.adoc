@@ -1,0 +1,52 @@
+[[pattern-root-cause-analysis]]
+
+=== Root-Cause Analysis 
+[quote, W. Edwards Deming]
+To find mistakes is not enough. It is necessary to find the cause behind the mistake
+and build a system that minimises future mistakes. 
+
+==== Intent
+Explicitely differentiate between symptom and cause: 
+
+* Identify root causes of symptoms, problems or issues
+* Trace a problem to its origins
+
+==== Description
+Some people fight problems, not their real cause:
+
+==== Experiences 
+
+[TIP]
+--
+Users of a system complained about _low performance_. 
+
+Developers started tuning the database,
+tweaking the application server, optimizing inner loops and so on (you pretty well know what I mean).
+
+That did not solve the issue. 
+
+After applying <<Take-What-They-Mean>> we found out that users complained about low performance in data entry,
+as they had to switch back-and-forth between different regions on their input-screens.
+
+The actual _cause_ of their complaint was the improper field order in their input forms. After adapting this
+order by simply dragging fields/labels around the screen, users were perfectly happy with the systems.
+--
+
+
+==== Applicability
+when-and-where-is-this-pattern-applicable
+
+==== Consequences
+You can eleminate the cause, 
+
+
+==== Also Known As
+* Inspect-Cause
+* Separate cause from effect
+
+==== Related Patterns
+* <<Take-What-They-Mean>>, maybe what they told you was not the real problem.
+
+==== References
+
+* http://en.wikipedia.org/wiki/Root_cause_analysis

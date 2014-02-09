@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"gradlew",
+				"gradlew.bat"
+			],
+			"folder_exclude_patterns":
+			[
+				".gradle",
+				"gradle",
+				"build",
+				"resources"
+			],
+			"follow_symlinks": true,
+			"path": "."
+		}
+	]
+}

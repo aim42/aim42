@@ -1,0 +1,11 @@
+=== Contribute to aim42.org
+This content is open source! The source is hosted under the aim42 organization on Bitbucket and GitHub.
+
+If you want to help by improving upon it, fork the project, revise the content, then send a pull request. 
+
+Source:: aim42 currently provides a _method guide_, the asciidoc sources are hosted at 
+https://bitbucket.org/aim42_admin/aim42/overview[Bitbucket] (likely to move over to Github later this year - as site generation seems easier with github-pages)
+
+Issues:: Look over https://bitbucket.org/aim42_admin/aim42/issues?status=new&status=open[our open issues], pick one, fork the repository and resolve the issue. Send over a pull request!
+
+Twitter:: https://twitter.com/arc_improve42[@arc_improve42]

@@ -1,0 +1,36 @@
+
+[[Static-Code-Analysis]]
+
+=== Static Code Analysis 
+
+==== Intent
+Analyse source code to identivy building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties. 
+
+==== Description
+Use source code analysis tools to analyse static properties of the systems' source code,
+e.g. the following:
+
+Coupling and dependencies:: Where do the building-blocks (e.g. classes, packages, modules, subsystems) of your system depend upon? What are the intra-system call- and communication relationships?
+
+
+
+==== Experiences
+* Many projects (commercial and open-source) apply automated static code analysis as part of their build processes. 
+
+==== Applicability
+
+
+
+==== Also Known As
+* Code quality analysis
+* Software measurement and metrics
+
+==== Related Patterns
+* <<Software-Archeology>>
+* <<Structural-Analysis>>
+
+
+==== References
+
+* http://sonarqube.org[SonarQube], GPL-licenced open-source platform to analyze code.
+* http://clarkware.com/software/JDepend.html[JDepend], open-source Java dependency checker.
