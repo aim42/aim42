@@ -8,4 +8,5 @@ jdk:
     - openjdk7
 env:
   global:
-  - secure: "kbi5yQZ19ECqZJjbt3GWMbY6u/t3mMrOqGPeXX889EBk83fdOa+NAxwkYlZpkcSa0WAtbORprSmjkCYlQjlqZ4NNsZSgVUz1N1qeruXhweDN0yE6uvU4od6uZpt0BMJlSaLDhptYhT50x78i6UNE6Sru1Q/pkWwP+o1tYo0e3Rk="
+  - secure: NsYdysvLiBX1esW1XNQHn7TBsFDQOjxn6ztHJSo4pqji1zX9RKET+IIuDYSRVTQDe6s6vsIVb4xGbVbI1Co3Qn5hP9zvw8TzbDVCXrhjalgE1X+Xb6O9uI/I6Ri/YD1SiCIHuC4rSCzudvpIFh+mULpTTHfGiiGZ17CtbIKsUnw=
+
