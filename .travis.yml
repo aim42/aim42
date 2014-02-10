@@ -3,6 +3,9 @@ install: ""
 script: 
     - "export TERM=dumb"
     - "cd guide/"
-    - "./gradlew clean aim42 publishGhPages"
+    - "./gradlew clean aim42 publish --stacktrace"
 jdk:
     - openjdk7
+env:
+  global:
+  - secure: GdFRdv4de0VTHBpFgZjw9zdYhGOtdJtCnAsND7UdVMN+3dcvx5M8UJlundGjWVzd3vW7TqNKsbEkiS16Xwjg2u6i/1nu2zR818xNNVacseIxzwa3LYmB19vf+y5eGINkMssm5MUagbT3ePcY9gAzTF0316hX59K1kHdhFC298UM=
