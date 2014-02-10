@@ -1,5 +1,4 @@
 
-
 ## ![](http://aim42.org/rw_common/images/aim42-logo-180x81.png) Architecture Improvement Method
 
 ### Software Evolution, Maintenance and Improvement - Done Right!
@@ -31,7 +30,3 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 
 * follow us on [twitter](https://twitter.com/arc_improve42) 
  
-
-
-
-
