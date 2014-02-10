@@ -15,7 +15,7 @@ apply plugin: 'github-pages'
 githubPages {
   repoUri = 'https://github.com/aim42/aim42.github.io.git'
   pages {
-    from('docs')
+    from('build/docs')
   }
   credentials {
     username = System.getenv('GH_TOKEN')
