@@ -10,12 +10,10 @@ buildscript {
             url  'http://dl.bintray.com/content/aalmiray/asciidoctor'
         }
         jcenter()
-        mavenCentral()
     }
 
     dependencies {
         classpath 'org.asciidoctor:asciidoctor-gradle-plugin:0.7.0'
-        classpath 'org.ajoberstar:gradle-git:0.6.3'
     }
 }
 
@@ -36,16 +34,6 @@ asciidoctor {
             imagesdir           : 'images',
         ]
     ]
-}
-
-apply plugin: 'github-pages'
-githubPages {
-  repoUri = 'git@github.com:aim42/aim42.github.io.git'
-  pages {
-    from('build/docs')
-    from('docs')
-  }
-//  workingPath = 'build/aim42-pages'
 }
 
 
@@ -69,3 +57,7 @@ task aim42(
   
 }
 
+task publish(type: GradleBuild) {
+    buildFile = 'publish.gradle'
+    tasks = ['publishGhPages']
+}
