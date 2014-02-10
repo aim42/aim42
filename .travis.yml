@@ -8,6 +8,6 @@ jdk:
 - openjdk7
 env:
   global:
-  - secure: GdFRdv4de0VTHBpFgZjw9zdYhGOtdJtCnAsND7UdVMN+3dcvx5M8UJlundGjWVzd3vW7TqNKsbEkiS16Xwjg2u6i/1nu2zR818xNNVacseIxzwa3LYmB19vf+y5eGINkMssm5MUagbT3ePcY9gAzTF0316hX59K1kHdhFC298UM=
+ 
 GH_TOKEN=:
-  secure: jNJtAXg8CdSsS9YKGOx+D7QorBA6/1nE/wNFsfp/H9FuzMnfRX2n1qYjRu34jNXAbx80d2rKXQAHzvxOrBJQ46/TK+E1bQ1t5dB5UrAVSQPXVp7s3KRrOIhUUGFBVz4bLl1bbwEcKV3Lp3Z+IV1T6DPdXt0Ah5yPPt+joNHOUsE=
+  secure: "MsisBUvznuLGG3tcGNVuYXlhh0ukfKZ8fOVgCqMGhH0lLAliCXYPlXrKnly6bg2C33FbAgntHsnEifDKYSx1u3YbBxMXHmL1VfpVj3PIx7ZZ3glffHKqyjF6PTXwHdGReaRHMWLn/iVkgfXEAbxcEwvTxopSw72k3UJG0n/fce0="
