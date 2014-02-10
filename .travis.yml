@@ -9,5 +9,6 @@ jdk:
 env:
   global:
  
-GH_TOKEN=:
-  secure: "MsisBUvznuLGG3tcGNVuYXlhh0ukfKZ8fOVgCqMGhH0lLAliCXYPlXrKnly6bg2C33FbAgntHsnEifDKYSx1u3YbBxMXHmL1VfpVj3PIx7ZZ3glffHKqyjF6PTXwHdGReaRHMWLn/iVkgfXEAbxcEwvTxopSw72k3UJG0n/fce0="
+env:
+  global:
+  - secure: "MsisBUvznuLGG3tcGNVuYXlhh0ukfKZ8fOVgCqMGhH0lLAliCXYPlXrKnly6bg2C33FbAgntHsnEifDKYSx1u3YbBxMXHmL1VfpVj3PIx7ZZ3glffHKqyjF6PTXwHdGReaRHMWLn/iVkgfXEAbxcEwvTxopSw72k3UJG0n/fce0="
