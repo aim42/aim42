@@ -85,8 +85,8 @@ responsible for any results of applying aim42.
 === The Team
 
 * Gernot Starke (innoQ Fellow, project founder): setup
-* Stefan Tilkov (innoQ), maintenance and evolution patterns
-* Alex Heusingfeld (innoQ)
+* Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration
+* Stefan Tilkov (innoQ): maintenance and evolution patterns
 
 
 
