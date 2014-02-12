@@ -19,12 +19,12 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 #### Lean more
  
 * our [project homepage](http://aim42.org) gives an overview
-* the online method guide provides all (currently available) details (this our main artifact - currently under intensive development)
+* the [online method guide](http://aim42.github.io) provides all (currently available) details (this our main artifact - currently under intensive development). The method guide is automatically updated with every commit pushed to the central repository by Travis-CI.
 
 
 #### Contribute
 
 * found mistakes or ommissions: create an [issue](https://github.com/aim42/aim42/issues)
-* have ideas: fork the repo and create a pull request
+* have ideas: fork the [repository](https://github.com/aim42/aim42) and create a pull request. You need a basic understanding of [Git](http://git-scm.com) for this.
 * follow us on [twitter](https://twitter.com/arc_improve42) 
  
