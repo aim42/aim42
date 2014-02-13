@@ -28,3 +28,6 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 * have ideas: fork the [repository](https://github.com/aim42/aim42) and create a pull request. You need a basic understanding of [Git](http://git-scm.com) for this.
 * follow us on [twitter](https://twitter.com/arc_improve42) 
  
+#### Current Status
+
+* Build status (from Travis-CI) ![](https://travis-ci.org/aim42/aim42.png)
