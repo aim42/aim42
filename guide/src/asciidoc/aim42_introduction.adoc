@@ -61,7 +61,7 @@ image::target-situation.jpg[]
 
 ==== Three Simple Phases 
 
-. <<Analyze>>: note down problems, risks, deficiencies and technical debt within your system and your development process. Solely focus on problems in this phase, not on potential solution approaches.
+. <<Analyze>>: note down problems, risks, deficiencies and technical debt within your system and your development process. Focus on problems in this phase, not on potential solution approaches. In addition, develop (and document) an understanding of internal structures, concepts and architectural approaches.
 
 . <<Evaluate>>: understand root-causes of problems, determine the „value“ of problems, issues and their remedies, prioritize them
 
@@ -86,6 +86,8 @@ responsible for any results of applying aim42.
 
 * Gernot Starke (innoQ Fellow, project founder): setup
 * Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration
+* Michael Mahlberg (Consulting Guild): patterns and practices
+* Burkhard Neppert (innoQ): patterns and practices
 * Stefan Tilkov (innoQ): maintenance and evolution patterns
 
 

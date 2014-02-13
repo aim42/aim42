@@ -4,8 +4,9 @@
 
 === Goals
 
-Find all problems, issues, symptoms, risks or technical debt within the system, 
-its operation, maintenance or otherwise related processes.
+. Find all problems, issues, symptoms, risks or technical debt within the system, its operation, maintenance or otherwise related processes.
+
+. Develop and document an understanding of internal structures, concepts and architectural approaches.
 
 === How it works
 
@@ -14,20 +15,20 @@ Systematically look for such issues at various places and with various people.
 INFO: To effectively find issues, you need an appropriate amount of _understanding_ of the systems, its technical concepts, code-structure, inner workings, major external interfaces and its development process.
 
 
-. Start with a *qualitative analysis* of the system, its architecture and surrounding organization
-. Perform *static code analysis* 
-. Conduct stakeholder interviews
+. Start with a <<Qualitative-Analysis,qualitative analysis>> of the system, its architecture and surrounding organization
+. Perform <<Static-Code-Analysis, static code analysis>>
+. 
+. Conduct <<Stakeholder-Interviews, stakeholder interviews>>
 . Perform a number of *runtime analysis*, e.g. performance and load monitoring, process and thread analysis
-. Inspect the data created, modified and queried by the system, for structure, size, volume
-   
-
-A word of warning:
+. Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
+. Inspect and analyze all involved organizational processes
+(development, project-management, operations, requirements-analysis)   
 
 
 WARNING: Never start solving problems until you have a thourough understanding of current stakeholder requirements. Otherwise you risk wasting effort in areas that no influential stakeholder cares about.
 
 
-=== Where to look
+
 
 === Patterns and Practices for Analysis
 (given in alphabetical order)
