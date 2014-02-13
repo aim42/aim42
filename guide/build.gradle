@@ -23,10 +23,11 @@ apply plugin: 'asciidoctor'
 asciidoctor {
     outputDir = new File("$buildDir/docs")
     baseDir = project.file('src/asciidoc')
+    sourceDocumentName = project.file('src/asciidoc/index.adoc')
     options = [
         attributes: [
             toc                 : 'left',
-            doctype             : 'book',
+            //doctype             : 'book',
             icons               : 'font',
             sectlink            : true,
             sectanchors         : true,
