@@ -216,6 +216,11 @@ Category: <<Evaluate>>
 Runtime-Artifact Analysis:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
 Category: <<Analyze>>
 
+
+[[Sample-For-Improvement]]
+Sample for Improvement:: Provide concrete code example for typical improvement situations, so that developers can improve existing code easily.
+Category: <<Improve>>
+
 [[Schedule-Work]]
 Schedule Work:: Schedule refactoring or improvement work, so that all (business and technical) stakeholders know about them. 
 Category: <<Improve>>

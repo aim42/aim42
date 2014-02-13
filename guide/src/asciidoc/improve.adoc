@@ -37,6 +37,7 @@ In our opinion, several refactoring patterns are especially important:
 * <<Quality-Driven-Software-Architecture>>
 * <<Refactoring>>
 * <<Refactoring-Plan>>
+* <<Sample-For-Improvement>>
 * <<Schedule-Work>>
 * <<Remove-Nested-Control-Structures>>
 * <<Untangle-Code>>
