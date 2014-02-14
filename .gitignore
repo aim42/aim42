@@ -2,3 +2,4 @@ guide/build/
 .gradle
 .gradletasknamecache
 .DS_Store
+.*.swp
