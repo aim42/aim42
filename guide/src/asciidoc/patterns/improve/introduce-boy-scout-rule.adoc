@@ -1,0 +1,29 @@
+[[pattern-introduce-boy-scout-rule]]
+
+=== Introduce "Boy Scout Rule"
+
+Reference to Uncle-Bob http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule
+
+==== Intent
+
+
+==== Description
+
+
+==== Experiences 
+
+
+==== Applicability
+
+==== Consequences
+
+
+
+==== Also Known As
+
+
+==== Related Patterns
+* <<Refactoring-Plan>>, as an alternative or complimenting approach
+
+==== References
+
