@@ -3,10 +3,12 @@
 // Includes all the rest
 // ====================================
 
-= aim42 - architecture improvement method 
 
-Dr. Gernot Starke <gernot.starke@innoq.com>
-Version 0.2, last update {docdate}
+= image:aim42-logo.png[] Method Guide 
+
+
+Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
+Version 0.3, last update {docdate}
 
 
 :toc2: 
