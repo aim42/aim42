@@ -31,6 +31,7 @@ In our opinion, several refactoring patterns are especially important:
 * <<Handle-If-Else-Chains>>
 * <<Impact-Analysis>>
 * <<Improve-Code-Layout>>
+* <<Introduce-Boy-Scout-Rule>>
 * <<Isolate-Changes>>
 * <<Keep-Data-Toss-Code>>
 * <<Never-Change-Running-System>>
@@ -41,3 +42,6 @@ In our opinion, several refactoring patterns are especially important:
 * <<Schedule-Work>>
 * <<Remove-Nested-Control-Structures>>
 * <<Untangle-Code>>
+
+include::patterns/improve/introduce-boy-scout-rule.adoc[]
+
