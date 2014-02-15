@@ -1,0 +1,28 @@
+[[pattern-introduce-boy-scout-rule]]
+
+=== Introduce "Boy Scout Rule"
+
+==== Intent
+
+==== Description
+
+
+==== Experiences 
+
+
+==== Applicability
+when-and-where-is-this-pattern-applicable
+
+==== Consequences
+
+
+
+==== Also Known As
+
+
+==== Related Patterns
+* <<Take-What-They-Mean>>, maybe what they told you was not the real problem.
+
+==== References
+
+* http://en.wikipedia.org/wiki/Root_cause_analysis
