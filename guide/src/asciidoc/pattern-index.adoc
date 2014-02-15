@@ -118,6 +118,13 @@ Category: <<Evaluate>>
 Impact Mapping:: Adjicz
 Category: <<Analyze>>
 
+[[Introduce-Boy-Scout-Rule]] 
+Introduce Boy Scout Rule:: Establish a policy to perform certain structural
+implrovements each time an artifact (sourcecode, configuration, documents etc.)
+is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
+addition to such a plan. See <<pattern-introduce-boy-scout-rule, detailled description>>.
+Category: <<Improve>>
+
 [[Improve-Code-Layout]]
 Improve Code Layout:: Making code easier to read results in better understandability.
 Category: <<Improve>>
