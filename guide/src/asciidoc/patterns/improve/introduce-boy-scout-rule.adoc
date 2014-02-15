@@ -2,7 +2,10 @@
 
 === Introduce "Boy Scout Rule"
 
+Reference to Uncle-Bob http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule
+
 ==== Intent
+
 
 ==== Description
 
@@ -11,7 +14,6 @@
 
 
 ==== Applicability
-when-and-where-is-this-pattern-applicable
 
 ==== Consequences
 
@@ -21,8 +23,7 @@ when-and-where-is-this-pattern-applicable
 
 
 ==== Related Patterns
-* <<Take-What-They-Mean>>, maybe what they told you was not the real problem.
+* <<Refactoring-Plan>>, as an alternative or complimenting approach
 
 ==== References
 
-* http://en.wikipedia.org/wiki/Root_cause_analysis
