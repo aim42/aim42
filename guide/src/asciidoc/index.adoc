@@ -37,4 +37,7 @@ include::bibliography.adoc[]
 // TODO
 include::asciidoc-help.adoc[]
 
-
+// the following file is also not here to stay but should be helpful 
+// for people new to the project
+// TODO
+include::new-pattern.adoc[]
