@@ -12,6 +12,14 @@ To facilitate contributions we summarize the AsciiDoc (respectively AsciiDoctor)
 
 === Images and Diagrams::
 
+Including images is quite easy:
+
+----
+image::aim42-logo.png[]
+----
+image::aim42-logo.png[]
+
+
 === Lists
 
 ----

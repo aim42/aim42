@@ -1,13 +1,35 @@
-Workflow to add a new pattern
+:numbered!:
+
+[appendix]
+== How to add a new pattern or practice
+
 
 . Add the pattern to the related section in analyze.adoc, evaluate.adoc or
 improve.adoc
-Use the exact writing (e.g. including dashes) you intend to use in the pattern
+Use the exact spelling (e.g. including dashes) you intend to use in the pattern
 description
-. Add the pattern to the pattern catalog in pattern-index.adoc with an entry of 
-_\[[the-exact-name-from-the-previous-step]]_  and include a reference to the
-detailed description with a *different* name
-(e.g. by prefixing the name with "pattern-").
-. Add an include statement below the patter overview in analyze.adoc,
-evaluate.adoc or improve.adoc and create the according file unter the pattern subdirectory
+
+. Add the pattern to the pattern catalog in pattern-index.adoc 
+
+. Entries in the pattern-index which currently don't have a detailed description in
+  their own file are preceded with an anchor, like _\[[the-exact-name]]_
+
+. If you describe a pattern or practice in detail, create a new file with the appropriate name and the .adoc extension under the pattern subdirectory.
++
+
+. At the beginning of that new file, include the anchor, like _\[[the-exact-name]]_. See below for an example.
++
+
+ [[the-exact-name]]
+ === The Exact Name
+ (write your pattern description here...)
+
+. Add an include statement below the pattern overview in analyze.adoc,
+evaluate.adoc or improve.adoc 
++
+----
+ include::patterns/the-exact-name.adoc[]
+----
+
+. In the pattern index, create a reference, like _\<<the-exact-name>>
 
