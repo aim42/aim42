@@ -1,0 +1,44 @@
+[[Debugging]]
+
+=== Debugging 
+
+
+==== Intent
+Identify the source of an error ( _bug_) or misbehavior by observing the flow of execution of a program in detail.
+
+
+==== Description
+Debuggers are well-known and important tools for most software developers. Yet - finding bugs is often more difficult than expected - despite powerful tool support. 
+
+Approach the search for bugs, errors in the following order:
+
+. Get a clear and precise *description* of the error, the detailed wording of all error messages, log messages, stacktraces or similar information. 
+. Know the *context* of the error: the exact version of the system, the operating system, involved middleware, hardware settings and so on.
+. *Minimize external disturbance* while searching for errors, you need to concentrate and observe details. Shut off chat and twitter clients, notifications and your phone.
+. *Reproduce* the error in the live system. Don't rely on the assumption you can reproduce it - make sure you can reliably _really_ reproduce it. 
+. *Obtain* the exact version of all required source code and all involved data.
+. *Reproduce the error in development environment*: This ensures your development environment is consistent to the live system. 
+. *Understand the error scenario*: You need to know the business or technical scenario (aka the process or activity flow) of the error: What steps within the system or at its external interfaces precede the error? This step is an example of <<View-Based-Understanding>>. 
+
+==== Experiences
+If locating errors takes very long, you're propably facing one of the following issues:
+
+* You suffer from any assumption that's currently not valid
+* You _think_ something instead of _observing_ it - you let your mind deceive your eyes or ears.
+* You ignore the context: you test a wrong version, with wrong data or a wrong operating system. 
+
+==== Applicability
+Whenever a bug or misbehavior of a program is reported, debugging can help identify its root cause.
+
+==== Consequences
+
+
+==== Also Known As
+
+* 
+
+==== Related Patterns
+* <<root-cause-analysis>>
+
+==== References
+

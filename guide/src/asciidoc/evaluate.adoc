@@ -17,6 +17,7 @@ determining their *value* (that's why we call this activity *evaluate*).
 
 === Pattern and Practices for Evaluation
 
+* <<Debugging>>
 * Determine Feature Value
 * Determine Problem Cost
 * Estimate Remedy Cost
@@ -28,6 +29,7 @@ determining their *value* (that's why we call this activity *evaluate*).
 // the detailed description of the evaluation-patterns
 
 
+include::patterns/debugging.adoc[]
 include::patterns/root-cause-analysis.adoc[]
 
 

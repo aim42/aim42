@@ -48,6 +48,11 @@ Category: <<Evaluate>>
 Data Analysis:: Analyse and inspect the data created and manipulated by the system for its content, structure, quantity and size.
 Category: <<Analyze>>
 
+
+Debugging:: Identify the source of a bug or misbehavior by observing the
+detailed flow of execution, e.g. stepwise execution of program statements. Usually supported by _debugger_. Specialisation of <<pattern-root-cause-analysis, root cause analysis>>.
+Category: <<Evaluate>>
+
 [[Dependency-Analysis]]
 Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
