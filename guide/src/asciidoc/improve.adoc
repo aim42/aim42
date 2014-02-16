@@ -3,14 +3,18 @@
 == Improve
 
 
-
 === Goals
+
+// this "plan" stuff might be a phase of its own?
+. Plan and coordinate measures and remedies to eliminate problems and issues found during analysis.
+
+. Apply the remedies
 
 * Change code, structures, concepts or processes to achieve better software,
 * reduce costs and/or technical debt,
-* eliminate issues found during analysis phase,
-* optimize quality attributes (like performance, maintainability, security),
-* optimize operation and administration processes, effort and cost.
+* Eliminate issues found during analysis phase,
+* Optimize quality attributes (like performance, maintainability, security),
+* Optimize operation and administration processes, effort and cost.
 
 
 ==== Refactoring Source Code

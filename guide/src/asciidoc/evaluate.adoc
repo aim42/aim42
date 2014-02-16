@@ -3,21 +3,17 @@
 [[Evaluate]]
 == Evaluate
 
-In the evaluation phase we need to understand root causes of the problems found,
-potential interdependencies between issues and their impacts.
-
-
-
 === Goals
 
-* Make the issues, problems and risks found during the *analysis* comparable by
-determining their *value* (that's why we call this activity *evaluate*).
+Make the issues, problems and risks found during the *analysis* comparable by
+determining their *value* (that's why we call this activity *evaluate*):
 
-* Understand root causes for the issues or symptoms found during analysis
+. determine _value_ of problems, issues, risks and their remedies 
+. prioritize issues, their remedies and improvement measures 
+
 
 === Pattern and Practices for Evaluation
 
-* <<Debugging>>
 * Determine Feature Value
 * Determine Problem Cost
 * Estimate Remedy Cost
@@ -26,10 +22,11 @@ determining their *value* (that's why we call this activity *evaluate*).
 * <<Root-Cause-Analysis, Root Cause Analysis>> - finding the root-cause of problems
 * Separate Cause From Effect
 
+
 // the detailed description of the evaluation-patterns
 
 
-include::patterns/debugging.adoc[]
+// TODO: eventually move to "analyze"
 include::patterns/root-cause-analysis.adoc[]
 
 

@@ -22,13 +22,13 @@ Approach the search for bugs, errors in the following order:
 . *Reproduce the error in development environment*: This ensures your development environment is consistent to the live system. 
 . *Understand the error scenario*: You need to know the business or technical scenario (aka the process or activity flow) of the error: What steps within the system or at its external interfaces precede the error? This step is an example of <<View-Based-Understanding>>. 
     .. Make this scenario *explicit* - draw or scribble a diagram. See the diagram "Divide and conquer" below as an example.
-
++
 image::debugging-divide-and-conquer.jpg["Divide and conqer", title="Divide and conquer debugging tactics"]
 
     .. *Plan your debugging strategy*: Think of the expected outcome of every part of 
        your scenario.  
     .. If you know you're traveling to Pisa (Italy), you won't confuse the Leading Tower with an error.
-
++
 . *Look, don't imagine*: Sherlock Holmes, the succesful detective has formulated the golden rule of debugging: "_It's a capital mistake to theorize before one has data_". Look _exactly_ what the messages are, read carefully.
 . *Change only one thing at a time*: Aim for errors with a pistol, not with a scattergun.
 . Apply the *4-Eye-Principle*: Describe the problem and your state-of-debugging to somebody else. Especially clarify all your assumptions.

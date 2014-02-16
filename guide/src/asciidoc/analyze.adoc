@@ -8,6 +8,9 @@
 
 . Develop and document an understanding of internal structures, concepts and architectural approaches.
 
+. Understand root causes of the problems found, potential interdependencies between issues
+
+
 === How it works
 
 Systematically look for such issues at various places and with various people.
@@ -37,6 +40,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 * <<Capture-Quality-Requirements>>
 * <<Context-Analysis>>
 * <<Data-Analysis>>
+* <<Debugging>>
 * <<Development-Process-Analysis>>
 * <<Documentation-Analysis>>
 * <<Issue-Tracker-Analysis>>
@@ -55,6 +59,8 @@ WARNING: Never start solving problems until you have a thourough understanding o
 
 
 // the detailed description of tha analysis-patterns
+
+include::patterns/evaluate/debugging.adoc[]
 
 include::patterns/software-archeology.adoc[]
 
