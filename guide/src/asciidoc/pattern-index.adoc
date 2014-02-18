@@ -3,6 +3,10 @@
 This chapter contains an alphabetic list of all patterns, practices and methods with a
 short description and links to the explanation.
 
+[[Anticorruption-Layer]]
+Anticorruption layer:: Isolate clients from internal changes of suby-systems or modules.
+Category: <<Improve>>
+
 [[ATAM]]
 ATAM:: Architecture Tradeoff Analysis Method. Systematic approach to find architectural risks and tradeoffs (compromises). Category: <<Analyze>>
 
