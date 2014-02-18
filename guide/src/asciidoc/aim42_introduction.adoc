@@ -44,16 +44,27 @@ image::cost-of-change.jpg[]
 // TODO: exchange image to reflect both cost and understandability.
 
 
-These two effects have exactly the same root-causes: 
+These negative effects share a few common root-causes: 
 
-. _internal disorder_ and
-. loss of _conceptual integrity_
+. lack of _conceptual integrity_
+. _internal disorder_ 
+. overly _complex internal structure_, either of source code or data
+. overly _complex concepts_ (crosscutting solutions for fine-grained problems)
+. overly complex or inappropriate internal processes
+. inapropriate selection of _technology_ (_frameworks, libraries or languages_)
+. (you can surely find a few more...)
+
 
 ==== Long-Term Goal
 
-Investment in methodical and systematic software architecture improvement will have the following effect:
+In the beginning, though, everything was fine: nice coupling and cohesion, appropriate technologies, well written code, understandable structures and concepts (see figure <<figure-target-situation>>)
 
-image::target-situation.jpg[]
+But as more and more changes, modifications, tweaks and supposed _optimizations_ were performed under growing time and budget pressure, things got nasty. The maintainers piled up so called _technical debt_ (us software folks call it quick-hack, quick-and-dirty-fix, detours or abbreviations). We're quite sure you know what we're talking about - we experienced it over and over again, it seems to be the normal situation, not the (bad) exception.
+
+Investment in methodical and systematic software architecture improvement will have the following effect.
+
+[[figure-target-situation]]
+image::target-situation.jpg["target situation", title="Goal: Maintainable Software"]
  
 
 === How does aim42 work? 
