@@ -62,10 +62,10 @@ WARNING: Never start solving problems until you have a thourough understanding o
 
 include::patterns/evaluate/debugging.adoc[]
 
-include::patterns/software-archeology.adoc[]
+include::patterns/analyze/software-archeology.adoc[]
 
-include::patterns/static-analysis.adoc[]
+include::patterns/analyze/static-analysis.adoc[]
 
-include::patterns/take-what-they-mean.adoc[]
+include::patterns/analyze/take-what-they-mean.adoc[]
 
-include::patterns/view-based-understanding.adoc[]
+include::patterns/analyze/view-based-understanding.adoc[]
