@@ -1,0 +1,35 @@
+[[anticorruption-layer]]
+
+=== Introduce "Anticorruption Layer"
+
+
+
+==== Intent
+
+An anticorruption layer is a logical layer that provides a stable interface to (potentially) volatile software components. As long as this interface keeps untouched developers can implement changes or even exchange own or third-party software without affecting the clients.
+
+==== Description
+
+
+==== Experiences 
+
+Here are some real-life experiences
+* Anticorruption layer for a search-index to defer the decission if the best performance can be achieved with Elastic Search, Solr or a self-developed Lucene index.
+
+==== Applicability
+
+Apply this pattern when clients shall be protected from internal changes in a module or subsystem.
+
+==== Consequences
+
+* Allows to (ex)change software elements without affecting depending components
+* Introduces one more level of indiraction and thus may increase complexity
+
+==== Also Known As
+
+==== Related Patterns
+
+* <<Isolate-Changes>>, as an alternative or complimenting approach
+
+==== References
+

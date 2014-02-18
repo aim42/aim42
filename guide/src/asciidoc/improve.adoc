@@ -28,6 +28,7 @@ In our opinion, several refactoring patterns are especially important:
 === Patterns and Practices for Improvement
 (given in alphabetical order)
 
+* <<Anticorruption-Layer>>
 * <<Automated-Tests>>
 * <<Branch-For-Improvement>>
 * <<Extract-Reusable-Component>>
@@ -48,4 +49,5 @@ In our opinion, several refactoring patterns are especially important:
 * <<Untangle-Code>>
 
 include::patterns/improve/introduce-boy-scout-rule.adoc[]
+include::patterns/improve/anticorruption-layer.adoc[]
 
