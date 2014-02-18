@@ -1,4 +1,4 @@
-## ![](http://aim42.org/rw_common/images/aim42-logo-180x81.png) Architecture Improvement Method
+## [![aim42](http://aim42.org/rw_common/images/aim42-logo-180x81.png)](http://aim42.org/) Architecture Improvement Method
 
 ### Software Evolution, Maintenance and Improvement - Done Right!
 
@@ -30,4 +30,4 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
  
 #### Current Status
 
-* Build status (from Travis-CI) ![](https://travis-ci.org/aim42/aim42.png)
+* Build status (from Travis-CI) [![Build Status](https://travis-ci.org/aim42/aim42.png?branch=master)](https://travis-ci.org/aim42/aim42)
