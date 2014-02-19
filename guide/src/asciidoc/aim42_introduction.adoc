@@ -103,6 +103,7 @@ responsible for any results of applying aim42.
 * Gernot Starke (innoQ Fellow, project founder): setup, patterns, practices
 * Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration
 * Michael Mahlberg (Consulting Guild): patterns and practices
+* Burkhard Neppert (innoQ): review, method
 * Oliver Tigges (innoQ): patterns and practices
 * Stefan Tilkov (innoQ): maintenance and evolution patterns
 
