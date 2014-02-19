@@ -4,7 +4,11 @@
 === Static Code Analysis 
 
 ==== Intent
-Analyse source code to identivy building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties. 
+Static Analysis can serve two purposes:
+
+* Analyse source code to identify building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties. 
+
+* Detect certain types of bugs, dangerous coding patterns and bad coding style.
 
 ==== Description
 Use source code analysis tools to analyse static properties of the systems' source code,
@@ -18,7 +22,9 @@ Coupling and dependencies:: Where do the building-blocks (e.g. classes, packages
 * Many projects (commercial and open-source) apply automated static code analysis as part of their build processes. 
 
 ==== Applicability
-
+Apply static code analysis when the code base is medium sized or large and the appropriate tools are available.
+* Many metrics and tools are tailored to OO languages.
+* Dynamically typed languages often have limited tool support.
 
 
 ==== Also Known As
