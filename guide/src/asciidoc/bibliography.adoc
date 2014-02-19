@@ -47,6 +47,8 @@ the flexible, multi-language code-analysis toolkit.
 
 * [[[Freemann]]] Steve Freeman, Nat Pryce: Growing Object Oriented Software By Tests. Addison-Wesley, 2010.
 
+* [[[Henney]]] Kevlin Henney: 97 Things Every Programmer Should Know. O'Reilly Media, 2010, ISBN 0596809484, also http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know[available online]
+  
 * [[[Hunt-Archeology]]] Andy Hunt, Dave Thomas: http://media.pragprog.com/articles/mar_02_archeology.pdf[Software Archeology], IEEE Software, March/April 2002
 
 * [[[Impact-Mapping]]] Gojko Adzic: http://impactmapping.org[Impact Mapping. Making a Big Impact With Software Products and Projects].

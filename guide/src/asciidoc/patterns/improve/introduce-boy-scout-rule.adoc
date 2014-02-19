@@ -2,28 +2,120 @@
 
 === Introduce "Boy Scout Rule"
 
-Reference to Uncle-Bob http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule
+The ``Boy Scout Rule'' for software development basically states that we 
+[quote, Robert C. Martin]
+``Always check a module in cleaner than when you checked it out.''.
+
+Uncle Bob (Robert C. Martin) proposed this adoption of the rule from the boy
+scout rulebook which reads ``Try and leave this world a little better than you
+found it.'' for the development world in an Article in Kevlin Henney's
+``97things a programmer should know'' <<Henney>>.
+
 
 ==== Intent
+Enable crosscutting architectural improvement even if it is not feasible to change the whole codebase. 
 
+TIP: Oftentimes the introduction of concepts like layering is deemed _“impossible”_ due to the huge codebase that would be affected. In these cases the Boy Scout Rule approach is a lightweight way to enhance the code quality one day at a time. 
 
 ==== Description
 
+* Drafting from an <<improvement-backlog>>, define a specific rule set
+  on how to improve the contents of specific file types.
 
-==== Experiences 
+* Specify how much effort should be allowed to perform each specific
+  clean-up operation 
 
+* Specify how to proceed if the cleanup takes up too much time
+
+* Revisit the rule set regularly
+
+* Install a mechanism to ensure that the things that where too big to
+  be cleaned up while visiting the file will end up in the
+  <<improvement-backlog>>.
+
+.Example Boy Scout Rule agreement
+[TIP]
+--
+This is a very concrete agreement from a specific project - yours
+should look rather different.
+
+*Boy Scout Rule agreement for project X from 2014-02-19 onwards:*
+. Apply defined source code formatting (via IDE) to adhere to coding style +
+If the formatting introduces errors and those errors can not be fixed within 10
+Minutes revert changes and add the file to the "redo formatting list" (e.g. add
+an TODO REFORMAT comment, if such a comment already exist add an exclamation mark 
+each time you handle the file)
+
+. Move SQL strings to the db-encapsulation layer and replace the former
+direct database calls by appropriate calls to the correct architecture elements +
+If this takes longer than 20 minutes revert changes and add file to the list
+"difficulties with database extraction" (e.g. add an TODO DB-EXTRACT comment,
+if such a comment already exist add an exclamation mark each time you handle
+the file)
+
+. Remove magic numbers from source code and replace them with
+  constants (e.g. replace +if (item.id > 99)+ with +if (item.id >
+Item.COMPOUND_ITEMS_THRESHHOLD)+. 
+
+. If time allows replace the former "magic number conditionals" with a
+  function on a business logic level (e.g. replace +if (item.id >
+Item.COMPOUND_ITEMS_THRESHHOLD)+
+  with +if (item.is_compound()+)
+
+--
+
+==== Experiences
+
+Introducing the Boy Scout Rule on a heavily detoriated code base
+induces heavy payback on <<technical-debt>> and often gets challenged
+by team members and senior management. It is important to point out
+that the extended time spent on fixing the artifacts ``as the teams
+goes'' actually is the _explicit_ payment of the <<technical-debt>>
+interest rate.
+
+==== Risks
+
+Sometimes the boy scout rule can be taken as a means by itself. In
+these cases the higher goals tend to be forgotten and thus 
 
 ==== Applicability
 
+The pattern ``Introduce Boy Scout Rule'' can always be applied. +
+Some of the most effektive uses are
+
+* unstructured code (no layers, no separation of concerns etc.)
+
+* systematic weaknesses (unsecure logging, unsecure handling of
+  database inserts etc.
+
 ==== Consequences
 
+The introducion the Boy Scout Rule often proved to enable structural
+improvements as a prerequisite for higher level architectural
+improvements. Also it heightens the team's awareness of good practices
+in their code base.
 
+The introduction of the Boy Scout Rule leads to a dramatic shift in
+the distribution of the code quality because those parts of the system
+that get changed the most also get the most care. For more stable
+parts of the system other approaches have to be utilized.
 
 ==== Also Known As
-
+// TODO - Are there any other names for this pattern?
+// Sashimi-technique?
 
 ==== Related Patterns
-* <<Refactoring-Plan>>, as an alternative or complimenting approach
+* <<refactoring-plan>>, as an alternative or complimenting approach
+* <<introduce-layering>> can be performed using the Boy Scout Rule
+* <<anticorruption-layer>> can be performed using the Boy Scout Rule
+* An <<improvement-backlog>> should be the basis for the tasks
+  performed when applying the Boy Scout Rule
 
 ==== References
+
+The original description of the boy scout rule can be found online at
+the
+http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule[Boy-Scout-Rule
+article]
+
 
