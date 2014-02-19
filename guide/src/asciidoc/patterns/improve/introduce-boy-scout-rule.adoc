@@ -2,13 +2,24 @@
 
 === Introduce "Boy Scout Rule"
 
-Reference to Uncle-Bob http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule
+The ``Boy Scout Rule'' for software development basically states that we 
+[quote, Robert C. Martin]
+``Always check a module in cleaner than when you checked it out.''.
+
+Uncle Bob (Robert C. Martin) proposed this adoption of the rule from the boy
+scout rulebook which reads ``Try and leave this world a little better than you
+found it.'' for the development world in an Article in Kevlin Henney's
+``97things a programmer should know'' <<Heanney>>.
+
 
 ==== Intent
+Enable crosscutting architectural improvements even if it is not feasible to change the whole codebase. 
 
+TIP: Oftentimes the introduction of concepts like layering is deemed _impossible_ due to the huge codebase that would be affected. In these cases the Boy Scout Rule approach is a lightweight way to enhance the code quality one day at a time. 
 
 ==== Description
 
+The original descripton of the boy scout rule can be fond online at the http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule[Boy-Scout-Rule article]
 
 ==== Experiences 
 
@@ -23,7 +34,9 @@ Reference to Uncle-Bob http://programmer.97things.oreilly.com/wiki/index.php/The
 
 
 ==== Related Patterns
-* <<Refactoring-Plan>>, as an alternative or complimenting approach
+* <<refactoring-plan>>, as an alternative or complimenting approach
+* <<introduce-layering>> can be performed using the Boy Sscout Rule
+* <<anticorruption-layer>> can be performed using the Boy Scout Rule
 
 ==== References
 
