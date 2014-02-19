@@ -60,7 +60,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 
 // the detailed description of tha analysis-patterns
 
-include::patterns/evaluate/debugging.adoc[]
+include::patterns/analyze/debugging.adoc[]
 
 include::patterns/analyze/software-archeology.adoc[]
 

@@ -48,6 +48,7 @@ In our opinion, several refactoring patterns are especially important:
 * <<Remove-Nested-Control-Structures>>
 * <<Untangle-Code>>
 
+
 include::patterns/improve/introduce-boy-scout-rule.adoc[]
 include::patterns/improve/anticorruption-layer.adoc[]
 
