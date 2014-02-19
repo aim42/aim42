@@ -22,7 +22,7 @@ Category: <<Analyze>>
 
 
 [[Automated-Tests]]
-Automated Tests::Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-,
+Automated Tests:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-,
 acceptance-, load- or database-tests are well-known specialisations of this pattern.
 Category: <<Improve>>
 
@@ -43,6 +43,11 @@ Category: <<Improve>>
 Change by Copy:: Isolate competing change necessity by copying and allowing the copies to evolve independently.
 Category: <<Improve>>
 
+
+<<collect-opportunities-for-improvement, Collect Opportunities for Improvement>>:: Look for measures, remedies, tactics, strategies for improvements. 
+Category: <<Crosscutting>>
+
+
 [[Context-Analysis]]
 Context Analysis:: Analyse external interfaces for risk, technology, business value and other factors.
 Category: <<Evaluate>>
@@ -53,9 +58,9 @@ Data Analysis:: Analyse and inspect the data created and manipulated by the syst
 Category: <<Analyze>>
 
 
-Debugging:: Identify the source of a bug or misbehavior by observing the
+<<Debugging>>:: Identify the source of a bug or misbehavior by observing the
 detailed flow of execution, e.g. stepwise execution of program statements. Usually supported by _debugger_. Specialisation of <<pattern-root-cause-analysis, root cause analysis>>.
-Category: <<Evaluate>>
+Category: <<Analyze>>
 
 [[Dependency-Analysis]]
 Dependency Analysis:: See <<Structural-Analysis>>.
@@ -74,6 +79,7 @@ Category: <<Evaluate>>
 [[Development-Process-Analysis]]
 Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
 Category: <<Analyze>>
+
 
 [[Documentation-Analysis]]
 Documentation Analysis:: Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
@@ -127,6 +133,7 @@ Category: <<Evaluate>>
 Impact Mapping:: Adjicz
 Category: <<Analyze>>
 
+
 Introduce Boy Scout Rule:: Establish a policy to perform certain structural
 implrovements each time an artifact (sourcecode, configuration, documents etc.)
 is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
@@ -137,6 +144,8 @@ Category: <<Improve>>
 Improve Code Layout:: Making code easier to read results in better understandability.
 Category: <<Improve>>
 
+<<improvement-backlog, Improvement-Backlog>>:: Keep a backlog of possible improvements, remedies, tactics or strategies.
+Category: <<Crosscutting>
 
 [[Isolate-Changes]]
 Isolate Changes:: Introduce interfaces and intra-system borders, so that changes cannot propagate to other areas.

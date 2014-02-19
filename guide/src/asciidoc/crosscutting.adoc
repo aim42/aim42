@@ -1,0 +1,12 @@
+[[Crosscutting]]
+=== Cross-Cutting Practices and Patterns
+
+[[collect-opportunities-for-improvement]]
+==== Collect Opportunities for Improvement
+You should look for improvement opportunities, remedies, measures, tactics and strategies in all of the aim42-phases.
+
+
+[[figure-collect-remedies]]
+image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
+
+
