@@ -81,12 +81,20 @@ image::aim42-phases.jpg["aim42 phases", title="Three Phases of aim42"]
 
 . <<Improve>>: systematically improve code and structures, reduce technical debt, remove waste and optimize.
 
+
+=== Collect Opportunities for Improvement
 Look for improvement opportunities, remedies, measures, tactics and strategies in all of these phases.
 
 
 [[figure-collect-remedies]]
 image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
  
+
+=== Iterative Approach
+In compliance with modern agile development methodologies, aim42 fundamentally depends on iteration and feedback between the phases.
+
+[[figure-iterate-phases]]
+image::iterate-phases.jpg["iterate phases", title="Iterate Between Phases"]
 
 
 === Patterns and Practices Provide No Guarantee
