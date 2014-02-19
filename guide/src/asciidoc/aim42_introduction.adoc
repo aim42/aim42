@@ -72,6 +72,9 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 
 ==== Three Simple Phases 
 
+[[figure-aim-phases]]
+image::aim42-phases.jpg["aim42 phases", title="Three Phases of aim42"]
+
 . <<Analyze>>: note down problems, risks, deficiencies and technical debt within your system and your development process. Focus on problems in this phase, not on potential solution approaches. In addition, develop (and document) an understanding of internal structures, concepts and architectural approaches.
 
 . <<Evaluate>>: determine the „value“ of problems, issues and their remedies, prioritize them
@@ -80,8 +83,9 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 
 Look for improvement opportunities, remedies, measures, tactics and strategies in all of these phases.
 
-[[figure-find-remedies]]
-image::find-remedies.jpg["find remedies", title="Find Remedies in All Phases"]
+
+[[figure-collect-remedies]]
+image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
  
 
 
