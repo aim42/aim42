@@ -8,7 +8,7 @@
 
 
 Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
-Version 0.3, last update {docdate}
+Version 0.3b, last update {docdate}
 
 
 :toc2: 
@@ -30,6 +30,8 @@ include::analyze.adoc[]
 include::evaluate.adoc[]
 
 include::improve.adoc[]
+
+include::crosscutting.adoc[]
 
 include::pattern-index.adoc[]
 
