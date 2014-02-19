@@ -74,13 +74,18 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 
 . <<Analyze>>: note down problems, risks, deficiencies and technical debt within your system and your development process. Focus on problems in this phase, not on potential solution approaches. In addition, develop (and document) an understanding of internal structures, concepts and architectural approaches.
 
-. <<Evaluate>>: understand root-causes of problems, determine the „value“ of problems, issues and their remedies, prioritize them
+. <<Evaluate>>: determine the „value“ of problems, issues and their remedies, prioritize them
 
 . <<Improve>>: systematically improve code and structures, reduce technical debt, remove waste and optimize.
 
+Look for improvement opportunities, remedies, measures, tactics and strategies in all of these phases.
+
+[[figure-find-remedies]]
+image::find-remedies.jpg["find remedies", title="Find Remedies in All Phases"]
+ 
 
 
-=== Disclaimer
+=== Patterns and Practices Provide No Guarantee
 We are *very* sure that aim42 can work for your system or your organization. 
 But (yes, there's always a but) we cannot guarantee: Maybe your software is so
 *extraordinaire*, so very special, that it needs other treatment.
@@ -95,10 +100,10 @@ responsible for any results of applying aim42.
 
 === The Team
 
-* Gernot Starke (innoQ Fellow, project founder): setup
+* Gernot Starke (innoQ Fellow, project founder): setup, patterns, practices
 * Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration
 * Michael Mahlberg (Consulting Guild): patterns and practices
-* Burkhard Neppert (innoQ): patterns and practices
+* Oliver Tigges (innoQ): patterns and practices
 * Stefan Tilkov (innoQ): maintenance and evolution patterns
 
 
