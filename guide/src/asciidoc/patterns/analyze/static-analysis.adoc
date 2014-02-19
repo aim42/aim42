@@ -23,6 +23,7 @@ Coupling and dependencies:: Where do the building-blocks (e.g. classes, packages
 
 ==== Applicability
 Apply static code analysis when the code base is medium sized or large and the appropriate tools are available.
+
 * Many metrics and tools are tailored to OO languages.
 * Dynamically typed languages often have limited tool support.
 
