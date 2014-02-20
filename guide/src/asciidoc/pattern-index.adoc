@@ -189,14 +189,18 @@ Migrate Data:: Transform existing data from one structure or representation into
 Category: <<Improve>>
 +
 
-. [[Never-Change-Running-System]]
-*TODO: rename*
-Never Change Running System:: Joel Spolsky arguments, <<Spolsky-NeverRewrite, never to rewrite a system from scratch>>.
+. [[Mikado-Method]]
+Mikado-Method:: Coordinated <<refactoring>> effort, described in the <<Mikado, Mikado-book>>.
 Category: <<Improve>>
-+
+
 
 . [[Natural-Death]]
 Natural Death:: Keep old system running and only retire it once all objects contained reach end of life according to their life cycle. 
+Category: <<Improve>>
++
+
+. [[Never-Rewrite-Running-System]]
+Never Rewrite Running System:: Joel Spolsky arguments, <<Spolsky-NeverRewrite, never to rewrite a system from scratch>>, as you will likely make many new mistake and won't generate much added value.
 Category: <<Improve>>
 +
 
@@ -259,19 +263,24 @@ Refactoring Plan:: The route of refactoring, as discussed within the development
 Category: <<Improve>>
 +
 
-. [[Runtime-Analysis]]
-Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>
-Category: <<Analyze>>
-+
-
 . [[Requirements-Analysis]]
 Requirements Analysis:: Analyze (current) requirements: required features and required constraints
 Category: <<Analyze>>
 +
 
+. [[Remove-Nested-Control-Structures]]
+Remove Nested Control Structures:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>.
+Category: <<Improve>>
++
+
 . [[Root-Cause-Analysis]]
 Root-Cause Analysis:: _Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues. See <<pattern-root-cause-analysis, detailed description>>
 Category: <<Evaluate>>
++
+
+. [[Runtime-Analysis]]
+Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>
+Category: <<Analyze>>
 +
 
 . [[Runtime-Artifact-Analysis]]
@@ -335,11 +344,6 @@ Category: <<Analyze>>
 
 . [[Toggle-Feature]]
 Toggle Feature:: Simultaneously support evolved, competing or conlicting features at runtime by toggling feature flags.
-Category: <<Improve>>
-+
-
-. [[Remove-Nested-Control-Structures]]
-Remove Nested Control Structures:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>.
 Category: <<Improve>>
 +
 
