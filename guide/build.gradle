@@ -59,6 +59,10 @@ task aim42(
 }
 
 task publish(type: GradleBuild) {
-    buildFile = 'publish.gradle'
-    tasks = ['publishGhPages']
+    if (System.getenv('GH_TOKEN') != '') {
+        buildFile = 'publish.gradle'
+        tasks = ['publishGhPages']
+    } else {
+        println 'env var GH_TOKEN not set, won\'t publish!'
+    }
 }
