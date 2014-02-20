@@ -169,11 +169,12 @@ Improve Code Layout:: Making code easier to read results in better understandabi
 Category: <<Improve>>
 +
 
-. <<interface-segregation-principle, Interface Segregation>>:: Reduce coupling between clients and service provider .
+. <<interface-segregation-principle, Interface Segregation>>>:: Reduce coupling between clients and service provider .
 Category: <<Improve>>
 +
 
-. <<improvement-backlog, Improvement-Backlog>>:: Keep a backlog of possible improvements, remedies, tactics or strategies.
+. <<improvement-backlog, Improvement-Backlog>>>:: 
+Keep a backlog of possible improvements, remedies, tactics or strategies.
 Category: <<Crosscutting>
 +
 
