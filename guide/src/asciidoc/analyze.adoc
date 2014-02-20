@@ -63,7 +63,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 
 include::patterns/analyze/debugging.adoc[]
 
-include::patterns/root-cause-analysis.adoc[]
+include::patterns/analyze/root-cause-analysis.adoc[]
 
 include::patterns/analyze/software-archeology.adoc[]
 

@@ -25,4 +25,6 @@ image:improvement-backlog.jpg["improvement backlog", title:"Improvement Backlog"
 
 
 === Explicit Assumption
-* TODO
+TODO
+
+Also known as _educated guess_.
