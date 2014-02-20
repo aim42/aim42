@@ -1,8 +1,9 @@
 [[Crosscutting]]
-=== Cross-Cutting Practices and Patterns
+== Cross-Cutting Practices and Patterns
+
 
 [[collect-opportunities-for-improvement]]
-==== Collect Opportunities for Improvement
+=== Collect Opportunities for Improvement
 You should look for improvement opportunities, remedies, measures, tactics and strategies in all of the aim42-phases.
 
 
@@ -10,3 +11,14 @@ You should look for improvement opportunities, remedies, measures, tactics and s
 image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
 
 
+[[improvement-backlog]]
+=== Improvement Backlog
+Keep a public, written backlog of possible improvements, remedies, tactics or strategies.
+
+* Revise this backlog in regular intervalls.
+* Define the _owner role_ for this backlog, similar to the _product owner_ in Scrum.
+* Enhance the backlog with information from the <<evaluation>> phase, like cost, effort or risk.
+
+
+[[figure-improvement-backlog]]
+image:improvement-backlog.jpg["improvement backlog", title:"Improvement Backlog"]

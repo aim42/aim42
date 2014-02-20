@@ -3,315 +3,359 @@
 This chapter contains an alphabetic list of all patterns, practices and methods with a
 short description and links to the explanation.
 
-[[Anticorruption-Layer]]
+. [[Anticorruption-Layer]]
 Anticorruption layer:: Isolate clients from internal changes of suby-systems or modules.
 Category: <<Improve>>
++
 
-[[ATAM]]
+. [[ATAM]]
 ATAM:: Architecture Tradeoff Analysis Method. Systematic approach to find architectural risks and tradeoffs (compromises). Category: <<Analyze>>
 
-[[Architecture-Backlog]]
+. [[Architecture-Backlog]]
 Architecture-Backlog:: Keep a prioritized list of improvement tasks (_remedies_) with their
 as a backlog, parallel to the (regular) feature backlog. 
 Category: <<Improve>>
++
 
-
-[[Architecture-Documentation]]
+. [[Architecture-Documentation]]
 Architecture Documentation:: See <<System-Documentation>>
 Category: <<Analyze>>
++
 
-
-[[Automated-Tests]]
+. [[Automated-Tests]]
 Automated Tests:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-,
 acceptance-, load- or database-tests are well-known specialisations of this pattern.
 Category: <<Improve>>
++
 
-[[Branch-for-Improvement]]
+. [[Branch-for-Improvement]]
 Branch for Improvement:: Introduce distinct branches in your version control system to reflect improvments.
 Category: <<Improve>>
++
 
-[[Capture-Quality-Requirements]]
+. [[Capture-Quality-Requirements]]
 Capture Quality Requirements::
 Part of [[ATAM]], Capture and document specific quality requirements. See <<Requirements-Analysis>>. 
 Category: <<Analyze>>
++
 
-[[Change-by-Extension]]
+. [[Change-by-Extension]]
 Change by Extension:: Enable efficient change by creating new components instead of modifying existing ones.
 Category: <<Improve>>
++
 
-[[Change-by-Copy]]
+. [[Change-by-Copy]]
 Change by Copy:: Isolate competing change necessity by copying and allowing the copies to evolve independently.
 Category: <<Improve>>
++
 
-
-<<collect-opportunities-for-improvement, Collect Opportunities for Improvement>>:: Look for measures, remedies, tactics, strategies for improvements. 
+. <<collect-opportunities-for-improvement, Collect Opportunities for Improvement>>:: Look for measures, remedies, tactics, strategies for improvements. 
 Category: <<Crosscutting>>
++
 
 
-[[Context-Analysis]]
+. [[Context-Analysis]]
 Context Analysis:: Analyse external interfaces for risk, technology, business value and other factors.
 Category: <<Evaluate>>
++
 
-
-[[Data-Analysis]]
+. [[Data-Analysis]]
 Data Analysis:: Analyse and inspect the data created and manipulated by the system for its content, structure, quantity and size.
 Category: <<Analyze>>
++ 
 
 
-<<Debugging>>:: Identify the source of a bug or misbehavior by observing the
+. <<Debugging>>:: Identify the source of a bug or misbehavior by observing the
 detailed flow of execution, e.g. stepwise execution of program statements. Usually supported by _debugger_. Specialisation of <<pattern-root-cause-analysis, root cause analysis>>.
 Category: <<Analyze>>
++
 
-[[Dependency-Analysis]]
+. [[Dependency-Analysis]]
 Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
++
 
-[[Determine-Feature-Value]]
+. [[Determine-Feature-Value]]
 Determine Feature Value:: Determine the (monetary) value of a given feature. 
 Category: <<Evaluate>>
++
 
-
-[[Determine-Problem-Cost]]
+. [[Determine-Problem-Cost]]
 Determine Problem Cost:: Determine how much a given problem costs (in money or effort) in a period of time. 
 Category: <<Evaluate>>
++
 
-
-[[Development-Process-Analysis]]
+. [[Development-Process-Analysis]]
 Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
 Category: <<Analyze>>
++
 
-
-[[Documentation-Analysis]]
+. [[Documentation-Analysis]]
 Documentation Analysis:: Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
 Category: <<Analyze>>
++
 
-[[Estimate-Remedy-Cost]]
+
+. [[Document-Problems]] 
+Document Problems:: See <<improvement-backlog, Improvement Backlog>>.
+Category: <<Crosscutting>>
++
+
+. [[Estimate-Remedy-Cost]]
 Estimate Remedy Cost:: Determine how much a specific remedy (a set of actions taken to eliminate or reduce a specific problem or issue) is likely to cost (in money and/or effort).
 Category: <<Evaluate>>
++
 
-
-[[Extract-Reusable-Component]]
+. [[Extract-Reusable-Component]]
 Extract Reusable Component:: Extract code from an existing system to create a reusable component. See <<SERIOUS-Refactoring>>, page 95.
 Category: <<Improve>>
++
 
-
-[[Failure-Mode-and-Effects-Analysis]]
+. [[Failure-Mode-and-Effects-Analysis]]
 Failure Mode and Effects Analysis:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
 Category: <<Evaluate>>
++
 
-
-[[Front-End-Switch]]
+. [[Front-End-Switch]]
 Front-End Switch:: Route front-end requests to either new or old backend systems, depending on their nature.
 Category: <<Improve>>
++
 
-[[Group-Improvement-Actions]]
+. [[Group-Improvement-Actions]]
 Group Improvement Actions:: Collect several improvement actions, which can or shall be applied or implemented together.
 Category: <<Improve>>
++
 
-
-[[Handle-If-Else-Chains]]
+. [[Handle-If-Else-Chains]]
 Handle If-Else-Chains::
 Refactor nested if-then-else structures for improved understandability.
 Category: <<Improve>>
++
 
-
-[[Hierarchical-Quality-Model]]
+. [[Hierarchical-Quality-Model]]
 Hierarchical Quality Model:: Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM>> and <<Quality-Requirements>>.
 Category: <<Analyze>>
++
 
-[[Natural-Death]]
-Natural Death:: Keep old system running and only retire it once all objects contained reach end of life according to their life cycle. 
-Category: <<Improve>>
-
-
-[[Impact-Analysis]]
+. [[Impact-Analysis]]
 Impact Analysis:: Determine what impact (in code, concepts and the organization) a specific action (e.g. refactoring) will or might have.
 Category: <<Evaluate>>
++
 
-
-[[Impact-Mapping]]
+. [[Impact-Mapping]]
 Impact Mapping:: Adjicz
 Category: <<Analyze>>
++
 
 
-Introduce Boy Scout Rule:: Establish a policy to perform certain structural
+. Introduce Boy Scout Rule:: Establish a policy to perform certain structural
 implrovements each time an artifact (sourcecode, configuration, documents etc.)
 is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
 addition to such a plan. See <<pattern-introduce-boy-scout-rule, detailled description>>.
 Category: <<Improve>>
++
 
-[[Improve-Code-Layout]]
+. [[Improve-Code-Layout]]
 Improve Code Layout:: Making code easier to read results in better understandability.
 Category: <<Improve>>
++
 
-<<improvement-backlog, Improvement-Backlog>>:: Keep a backlog of possible improvements, remedies, tactics or strategies.
+. <<improvement-backlog, Improvement-Backlog>>:: Keep a backlog of possible improvements, remedies, tactics or strategies.
 Category: <<Crosscutting>
++
 
-[[Isolate-Changes]]
+. [[Isolate-Changes]]
 Isolate Changes:: Introduce interfaces and intra-system borders, so that changes cannot propagate to other areas.
 Category: <<Improve>>
++
 
-
-[[Issue-Tracker-Analysis]]
+. [[Issue-Tracker-Analysis]]
 Issue Tracker Analysis:: Analyse entries from issue-tracker to identify critical areas, components or stakeholders. 
 Category: <<Analyze>>
++
 
-[[Keep-Data-Toss-Code]]
+. [[Keep-Data-Toss-Code]]
 Keep-Data, Toss-Code:: A strategy to improve systems, keeping the data created with the (old) systems as foundation for a new one. Also described as <<Keller-Migration, Bridge-to-the-New-Town>> (by Wolfgang Keller). This is the opposite of <<Never-Change-Running-System>>
 Category: <<Improve>>
++
 
-[[Limit-Feature-by-Client]]
+. [[Limit-Feature-by-Client]]
 Limit Feature by Client:: Support different feature sets for different clients, fade out legacy versions based on usage.
 Category: <<Improve>>
++
 
-[[Migrate-Data]]
+. [[Migrate-Data]]
 Migrate Data:: Transform existing data from one structure or representation into another by keeping its original intent or semantic intact.
 Category: <<Improve>>
++
 
-[[Never-Change-Running-System]]
+. [[Never-Change-Running-System]]
+*TODO: rename*
 Never Change Running System:: Joel Spolsky arguments, <<Spolsky-NeverRewrite, never to rewrite a system from scratch>>.
 Category: <<Improve>>
++
 
-[[Organizational-Analysis]]
+. [[Natural-Death]]
+Natural Death:: Keep old system running and only retire it once all objects contained reach end of life according to their life cycle. 
+Category: <<Improve>>
++
+
+. [[Organizational-Analysis]]
 Organizational Analysis:: Analyse and inspect organization(s) responsible for the system.
 Category: <<Analyze>>
++
 
-[[Outside-in-Interfaces]]
+. [[Outside-in-Interfaces]]
 Outside-in Interfaces:: Modularize system in line with external, modular interfaces.
 Category: <<Improve>>
++
 
-[[Performance-Analysis]]
+. [[Performance-Analysis]]
 Performance Analysis::
 Category: <<Analyze>>
++
 
-[[Pre-Interview-Questionnaire]]
+. [[Pre-Interview-Questionnaire]]
 Pre-Interview-Questionnaire:: Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. A specialisation of <<Questionnaire>>.
 Category: <<Analyze>>
++
 
-[[Profiling]]
+. [[Profiling]]
 Profiling:: Measure resource consumption of a system during its operation.
 Category: <<Analyze>>
++
 
-[[Qualitative-Analysis]]
+. [[Qualitative-Analysis]]
 Qualitative Analysis:: See <<Quality-Requirements>>
 Category: <<Analyze>>
++
 
-
-[[Quality-Driven-Software-Architecture]]
+. [[Quality-Driven-Software-Architecture]]
 Quality Driven Software Architecture (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment>>.
 Category: <<Improve>>
++
 
-
-[[Quality-Function-Deployment]]
+. [[Quality-Function-Deployment]]
 Quality Function Deployment:: (QFD) Systematically translate customer requirements into technical requirements for  system development and maintenance. See <<Quality-Driven-Software-Architecture>>.
++
 
-
-[[Quantitative-Analysis]]
-Quantitative Analysis::
+. [[Quantitative-Analysis]]
+Quantitative Analysis:: Measure artifacts or processes within the system, e.g. source code. For example, see <<Static-Analysis>>.
 Category: <<Analyze>>
++
 
-[[Questionnaire]]
+. [[Questionnaire]]
 Questionnaire:: Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholde Interview>>
 Category: <<Analyze>>
++
 
-[[Refactoring]]
+. [[Refactoring]]
 Refactoring:: Source code transformation that does not change functionality of system. See <<Fowler-Refactoring>>.
 Category: <<Improve>>
++
 
-[[Refactoring-Plan]]
+. [[Refactoring-Plan]]
 Refactoring Plan:: The route of refactoring, as discussed within the development team. This plan should always be visible to every team member.
 Category: <<Improve>>
++
 
-
-[[Runtime-Analysis]]
+. [[Runtime-Analysis]]
 Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>
 Category: <<Analyze>>
++
 
-[[Requirements-Analysis]]
+. [[Requirements-Analysis]]
 Requirements Analysis:: Analyze (current) requirements: required features and required constraints
 Category: <<Analyze>>
++
 
-[[Root-Cause-Analysis]]
+. [[Root-Cause-Analysis]]
 Root-Cause Analysis:: _Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues. See <<pattern-root-cause-analysis, detailed description>>
 Category: <<Evaluate>>
++
 
-
-[[Runtime-Artifact-Analysis]]
+. [[Runtime-Artifact-Analysis]]
 Runtime-Artifact Analysis:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
 Category: <<Analyze>>
++
 
-
-[[Sample-For-Improvement]]
+. [[Sample-For-Improvement]]
 Sample for Improvement:: Provide concrete code example for typical improvement situations, so that developers can improve existing code easily.
 Category: <<Improve>>
++
 
-[[Schedule-Work]]
+. [[Schedule-Work]]
 Schedule Work:: Schedule refactoring or improvement work, so that all (business and technical) stakeholders know about them. 
 Category: <<Improve>>
++
 
-
-[[Separate-Cause-From-Effect]]
+. [[Separate-Cause-From-Effect]]
 Separate Cause from Effect:: See <<Root-Cause-Analysis>>
 Category: <<Evaluate>>
++
 
-
-Software-Archeology:: Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
+. <<Software-Archeology>>:: Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
 Category: <<Evaluate>>
++
 
-
-[[Stakeholder-Analysis]]
+. [[Stakeholder-Analysis]]
 Stakeholder Analysis::
 Category: <<Analyze>>
++
 
-[[Stakeholder-Interview]]
+. [[Stakeholder-Interview]]
 Stakeholder Interview:: 
 Category: <<Analyze>>
++
 
-[[Stakeholder-Specific-Communication]]
+. [[Stakeholder-Specific-Communication]]
 Stakeholder Specific Communication:: Communicate with stakeholders by actively applying their specific or favored terminology and/or communication channels.
++
 
 
-
-Static Code Analysis::
+. Static Code Analysis::
 Analyse source code to identivy building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties. See <<Static-Analysis, detailed description>>.
 Category: <<Analyze>>
++
 
-[[Structural-Analysis]]
+. [[Structural-Analysis]]
 Structural (Code) Analysis:: Analyze the static structure (aka building block structure) of the code, e.g. package or module dependencies. Part of the more general <<Static-Code-Analysis>>. 
 Category: <<Analyze>>
++
 
-
-[[System-Documentation]]
+. [[System-Documentation]]
 System Documentation:: Document relevant structures, concepts, decisions, interfaces etc. of the system to increase. See <<arc42>>. 
 Category: <<Analyze>>
++
 
-
-[[Take-What-They-Mean]]
+. [[Take-What-They-Mean]]
 Take What They Mean, Not What They Say:: Natural language has the risk, that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differ between people. Pattern provided by Phillip Ghadir (who is too humble to claim this discovery)
 Category: <<Analyze>>
++
 
-
-[[Toggle-Feature]]
+. [[Toggle-Feature]]
 Toggle Feature:: Simultaneously support evolved, competing or conlicting features at runtime by toggling feature flags.
 Category: <<Improve>>
++
 
-[[Remove-Nested-Control-Structures]]
+. [[Remove-Nested-Control-Structures]]
 Remove Nested Control Structures:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>.
 Category: <<Improve>>
++
 
-
-[[Untangle-Code]]
+. [[Untangle-Code]]
 Untangle Code:: Remove unneccessary complications in code, e.g. nested structures, dependencies, dead-code, duplicate-code etc. See <<Remove-Nested-Control-Structures>>. Special case of <<Refactoring>>.
 Category: <<Improve>>
++
 
 
-
-[[Use-Case-Cluster]]
+. [[Use-Case-Cluster]]
 Use-Case Cluster:: Understand system functionality by grouping functionality into clusters to reduce complexity.
 Category: <<Analyze>>
++
 
 
-
-View-Based Understanding::
+. View-Based Understanding::
 Create architectural views (mainly building block view) to understand and communicate code structure. See <<Pattern-View-Based-Understanding, detailed description>>.
-Category: <<Evaluate>>
+Category: <<Analyze>>
+
