@@ -37,7 +37,7 @@ In our opinion, several refactoring patterns are especially important:
 * <<Handle-If-Else-Chains>>
 * <<Impact-Analysis>>
 * <<Improve-Code-Layout>>
-* <<Introduce-Boy-Scout-Rule>>
+* <<Boy-Scout-Rule>>
 * <<Isolate-Changes>>
 * <<Keep-Data-Toss-Code>>
 * <<Never-Change-Running-System>>
@@ -50,7 +50,7 @@ In our opinion, several refactoring patterns are especially important:
 * <<Untangle-Code>>
 
 
-include::patterns/improve/introduce-boy-scout-rule.adoc[]
+include::patterns/improve/boy-scout-rule.adoc[]
 include::patterns/improve/anticorruption-layer.adoc[]
 include::patterns/improve/facade.adoc[]
 

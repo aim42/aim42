@@ -72,17 +72,24 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 
 ==== Three Simple Phases 
 
+[[figure-aim-phases]]
+image::aim42-phases.jpg["aim42 phases", title="Three Phases of aim42"]
+
 . <<Analyze>>: note down problems, risks, deficiencies and technical debt within your system and your development process. Focus on problems in this phase, not on potential solution approaches. In addition, develop (and document) an understanding of internal structures, concepts and architectural approaches.
 
 . <<Evaluate>>: determine the „value“ of problems, issues and their remedies, prioritize them
 
 . <<Improve>>: systematically improve code and structures, reduce technical debt, remove waste and optimize.
 
-Look for improvement opportunities, remedies, measures, tactics and strategies in all of these phases.
+Several <<Crosscutting, cross-cutting practices and patterns>> can or should be applied in all phases, for example documenting results or <<collect-opportunities-for-improvement>>.
 
-[[figure-find-remedies]]
-image::find-remedies.jpg["find remedies", title="Find Remedies in All Phases"]
  
+
+==== Iterative Approach
+In compliance with modern agile development methodologies, aim42 fundamentally depends on iteration and feedback between the phases.
+
+[[figure-iterate-phases]]
+image::iterate-phases.jpg["iterate phases", title="Iterate Between Phases"]
 
 
 === Patterns and Practices Provide No Guarantee
