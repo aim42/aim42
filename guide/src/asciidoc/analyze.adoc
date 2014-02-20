@@ -2,6 +2,8 @@
 
 == Analyze
 
+image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
+
 === Goals
 
 . Find all problems, issues, symptoms, risks or technical debt within the system, its operation, maintenance or otherwise related processes.

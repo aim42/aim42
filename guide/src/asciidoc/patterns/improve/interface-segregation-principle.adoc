@@ -1,0 +1,34 @@
+[[interface-segregation-principle]]
+
+=== Interface Segregation Principle
+
+==== Intent
+
+Reduce coupling between clients and service providers.
+
+
+==== Description 
+
+Service components may provide more functionality than required by one client. 
+To remove the client's dependency from functionality not required introduce interfaces that are tailored
+to the client's needs.
+
+
+==== Applicability
+Apply when
+* clients only require a restricted functionality from a complex service
+* you have to deal with low cohesion components you cannot change.
+
+==== Consequences
+
+* Reduces coupling between client and service providers. Changing the service provider interface will affect fewer clients.
+* Introduces additional interfaces that must be maintained.
+* You have to find a good compromise between "good client fit" and the number of interfaces.
+
+==== Also Known As 
+
+
+==== Related Patterns 
+
+
+==== References 

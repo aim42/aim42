@@ -124,6 +124,10 @@ Extract Reusable Component:: Extract code from an existing system to create a re
 Category: <<Improve>>
 +
 
+. <<fail-fast, Fail Fast>>:: Identify quality issues as early as possible and aim to fix them.
+Category: <<Crosscutting>
++
+
 . [[Failure-Mode-and-Effects-Analysis]]
 Failure Mode and Effects Analysis:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
 Category: <<Evaluate>>
@@ -160,9 +164,12 @@ Impact Mapping:: Adjicz
 Category: <<Analyze>>
 +
 
-
 . [[Improve-Code-Layout]]
 Improve Code Layout:: Making code easier to read results in better understandability.
+Category: <<Improve>>
++
+
+. <<interface-segregation-principle, Interface Segregation>>:: Reduce coupling between clients and service provider .
 Category: <<Improve>>
 +
 
