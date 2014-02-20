@@ -22,3 +22,7 @@ Keep a public, written backlog of possible improvements, remedies, tactics or st
 
 [[figure-improvement-backlog]]
 image:improvement-backlog.jpg["improvement backlog", title:"Improvement Backlog"]
+
+
+=== Explicit Assumption
+* TODO

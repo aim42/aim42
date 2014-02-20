@@ -19,14 +19,26 @@ determining their *value* (that's why we call this activity *evaluate*):
 * Estimate Remedy Cost
 * Failure Mode And Effect Analysis
 * Impact Analysis
-* <<Root-Cause-Analysis, Root Cause Analysis>> - finding the root-cause of problems
 * Separate Cause From Effect
 
 
 // the detailed description of the evaluation-patterns
+[[Determine-Feature-Value]]
+==== Determine Feature Value
+Determine the (monetary) value of a given feature, so you can compare features of the system with each other.
+
+* Involve business or management stakeholders, as they often have a clear notion of business value.
+* If you cannot determine real numbers available, use <<Explicit-Assumption, explicit assumptions>> 
+* Instead of numbers, you might use categories or orders-of-magnitude (like small, medium, large). Youo should prefer numbers, though!
 
 
-// TODO: eventually move to "analyze"
-include::patterns/root-cause-analysis.adoc[]
+
+
+[[Determine-Problem-Cost]]
+==== Determine Problem Cost
+Determine how much a given problem costs (in money or effort) in a period of time. 
+
+For example, if a server needs to be rebooted once every 24hrs and an operator needs 30 minutes to perform this reboot (and corresponding activities) - then you can calculate the
+
 
 

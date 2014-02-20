@@ -83,8 +83,8 @@ Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
-. [[Determine-Feature-Value]]
-Determine Feature Value:: Determine the (monetary) value of a given feature. 
+. <<Determine-Feature-Value, Determine Feature Value>>:: 
+Determine the (monetary) value of a given feature. 
 Category: <<Evaluate>>
 +
 
@@ -112,6 +112,11 @@ Category: <<Crosscutting>>
 . [[Estimate-Remedy-Cost]]
 Estimate Remedy Cost:: Determine how much a specific remedy (a set of actions taken to eliminate or reduce a specific problem or issue) is likely to cost (in money and/or effort).
 Category: <<Evaluate>>
++
+
+. [[Explicit-Assumption]]
+Explicit Assumption:: Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (usually written) assumptions about those facts.
+Category: <<Crosscutting>>
 +
 
 . [[Extract-Reusable-Component]]

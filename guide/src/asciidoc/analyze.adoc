@@ -49,6 +49,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 * <<Quantitative-Analysis>>
 * <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
 * <<Requirements-Analysis>>
+* <<Root-Cause-Analysis, Root Cause Analysis>> - finding the root-cause of problems
 * <<Runtime-Artifact-Analysis>>* 
 * <<Software-Archaeology, Software Archeology>>
 * <<Stakeholder-Analysis>>
@@ -61,6 +62,8 @@ WARNING: Never start solving problems until you have a thourough understanding o
 // the detailed description of tha analysis-patterns
 
 include::patterns/analyze/debugging.adoc[]
+
+include::patterns/root-cause-analysis.adoc[]
 
 include::patterns/analyze/software-archeology.adoc[]
 
