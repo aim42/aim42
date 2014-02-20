@@ -1,6 +1,6 @@
-[[pattern-introduce-boy-scout-rule]]
+[[Boy-Scout-Rule]]
 
-=== Introduce "Boy Scout Rule"
+=== Boy Scout Rule
 
 The ``Boy Scout Rule'' for software development basically states that we 
 [quote, Robert C. Martin]
@@ -8,14 +8,14 @@ The ``Boy Scout Rule'' for software development basically states that we
 
 Uncle Bob (Robert C. Martin) proposed this adoption of the rule from the boy
 scout rulebook which reads ``Try and leave this world a little better than you
-found it.'' for the development world in an Article in Kevlin Henney's
+found it.'' for the software development world in an article in Kevlin Henney's
 ``97things a programmer should know'' <<Henney>>.
 
 
 ==== Intent
 Enable crosscutting architectural improvement even if it is not feasible to change the whole codebase. 
 
-TIP: Oftentimes the introduction of concepts like layering is deemed _“impossible”_ due to the huge codebase that would be affected. In these cases the Boy Scout Rule approach is a lightweight way to enhance the code quality one day at a time. 
+TIP: Often the introduction of concepts like layering is deemed _“impossible”_ due to the huge codebase that would be affected. In these cases the Boy Scout Rule approach is a lightweight way to enhance the code quality one day at a time. 
 
 ==== Description
 
