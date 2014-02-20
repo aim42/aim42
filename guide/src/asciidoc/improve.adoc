@@ -32,6 +32,7 @@ In our opinion, several refactoring patterns are especially important:
 * <<Automated-Tests>>
 * <<Branch-For-Improvement>>
 * <<Extract-Reusable-Component>>
+* <<Facade>>
 * <<Group-Improvement-Actions>>
 * <<Handle-If-Else-Chains>>
 * <<Impact-Analysis>>
@@ -51,4 +52,5 @@ In our opinion, several refactoring patterns are especially important:
 
 include::patterns/improve/introduce-boy-scout-rule.adoc[]
 include::patterns/improve/anticorruption-layer.adoc[]
+include::patterns/improve/facade.adoc[]
 
