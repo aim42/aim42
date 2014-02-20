@@ -38,6 +38,7 @@ In our opinion, several refactoring patterns are especially important:
 * <<Impact-Analysis>>
 * <<Improve-Code-Layout>>
 * <<Introduce-Boy-Scout-Rule>>
+* <<interface-segregation-principle, Interface Segregation Principle>>
 * <<Isolate-Changes>>
 * <<Keep-Data-Toss-Code>>
 * <<Never-Change-Running-System>>
@@ -53,4 +54,5 @@ In our opinion, several refactoring patterns are especially important:
 include::patterns/improve/introduce-boy-scout-rule.adoc[]
 include::patterns/improve/anticorruption-layer.adoc[]
 include::patterns/improve/facade.adoc[]
+include::patterns/improve/interface-segregation-principle.adoc[]
 
