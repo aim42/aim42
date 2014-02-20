@@ -364,6 +364,13 @@ Use-Case Cluster:: Understand system functionality by grouping functionality int
 Category: <<Analyze>>
 +
 
+. <<Use-Invariants-To-Kill-Zombies>>:: Use Invariants to make sure that you can
+kill Zombies safely. If code seems to be ``dead'' -- meaning that it
+supposedly isn't called anymore -- but no one dares to remove it from the
+codebase, the introduction of invariants can provide reliable feedback on
+whether it is safe to remove the code or not. 
+
++
 
 . View-Based Understanding::
 Create architectural views (mainly building block view) to understand and communicate code structure. See <<Pattern-View-Based-Understanding, detailed description>>.

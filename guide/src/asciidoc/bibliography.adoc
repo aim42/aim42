@@ -4,6 +4,10 @@
 [appendix]
 == Bibliography
 
+* [[[AntiPatterns]]] William J. Brown: AntiPatterns: Refactoring Software,
+ Architecture and Projects in Crisis, John Wiley & Sons, 1998 -- a tried and
+ true work on things that tend to go wrong in software development and other
+ projects.
 
 * [[[arc42]]] arc42 - Resources for Software Architects. Practical template, liberal licence.
 Available in a variety of formats, see http://arc42.de[German website] or http://arc42.org[English website].

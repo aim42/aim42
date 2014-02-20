@@ -1,0 +1,26 @@
+[[Use-Invariants-To-Kill-Zombies]]
+
+=== Use Invariants To Kill Zombies
+
+==== Intent
+
+==== Description
+
+==== Experiences
+
+==== Risks
+
+==== Applicability
+
+==== Consequences
+
+==== Also Known As
+
+==== Related Patterns
+
+* Use <<Static-Code-Analysis>> to make find candites, entry points and exit points.
+
+==== References
+
+* Brian Foote references Zombie code in 
+* in <<Anti-Patterns>> 
