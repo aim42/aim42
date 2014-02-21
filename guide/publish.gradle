@@ -6,7 +6,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.ajoberstar:gradle-git:0.6.3'
+        classpath 'org.ajoberstar:gradle-git:0.6.4'
     }
 }
 
@@ -14,6 +14,7 @@ buildscript {
 apply plugin: 'github-pages'
 githubPages {
   repoUri = 'https://github.com/aim42/aim42.github.io.git'
+  targetBranch = 'master'
   pages {
     from('build/docs')
   }
