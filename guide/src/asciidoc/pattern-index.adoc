@@ -16,9 +16,12 @@ Category: <<Improve>>
 Architecture Documentation:: See <<System-Documentation>>
 Category: <<Analyze>>
 
+[[Assertions]]
+Assertions:: Use assertions to verify preconditions and to make a program fail early when something goes fundamentally wrong.
+
 
 [[Automated-Tests]]
-Automated Tests::Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-,
+Automated Tests:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-,
 acceptance-, load- or database-tests are well-known specialisations of this pattern.
 Category: <<Improve>>
 

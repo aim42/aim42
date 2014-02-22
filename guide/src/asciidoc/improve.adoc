@@ -28,6 +28,7 @@ In our opinion, several refactoring patterns are especially important:
 === Patterns and Practices for Improvement
 (given in alphabetical order)
 
+* <<Assertions>>
 * <<Automated-Tests>>
 * <<Branch-For-Improvement>>
 * <<Extract-Reusable-Component>>
