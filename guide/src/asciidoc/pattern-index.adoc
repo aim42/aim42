@@ -22,7 +22,7 @@ Architecture Documentation:: See <<System-Documentation>>
 Category: <<Analyze>>
 +
 
-[[Assertions]]
+. [[Assertions]]
 Assertions:: Use assertions to verify preconditions and to make a program fail early when something goes fundamentally wrong.
 
 
