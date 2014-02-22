@@ -8,9 +8,35 @@ To facilitate contributions we summarize the AsciiDoc (respectively AsciiDoctor)
 
 === Headings
 
-=== Cross-References and Links::
+=== Cross-References and Links
 
-=== Images and Diagrams::
+
+<<some-anchor,explanation>> creates a link to the explanation of some-anchor.
+
+can use the cross-reference in a list, but not with labelled-list:
+
+. <<some-anchor, pattern name>>  labelled-list with cross-reference does not work
+. *<<some-anchor, cross-references>>* need to be boldface-formatted manualy   
+
+
+[[some-anchor]]
+here we explain 'some-anchor' topic...
+
+----
+<<some-anchor,explanation>> creates a link to the explanation of some-anchor.
+
+can use the cross-reference in a list, but not with labelled-list:
+
+. <<some-anchor, pattern name>>  labelled-list with cross-reference does not work
+. *<<some-anchor, cross-references>>* need to be boldface-formatted manualy   
+
+
+[[some-anchor]]
+here we explain 'some-anchor' topic...
+----
+
+
+=== Images and Diagrams
 
 Including images is quite easy:
 
