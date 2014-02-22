@@ -22,19 +22,15 @@ Architecture Documentation:: See <<System-Documentation>>
 Category: <<Analyze>>
 +
 
+[[Assertions]]
+Assertions:: Use assertions to verify preconditions and to make a program fail early when something goes fundamentally wrong.
+
+
 . [[Automated-Tests]]
-Automated Tests:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-,
-acceptance-, load- or database-tests are well-known specialisations of this pattern.
+Automated Tests:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-, acceptance-, load- or database-tests are well-known specialisations of this pattern.
 Category: <<Improve>>
 +
 
-
-. <<Introduce-Boy-Scout-Rule>>:: Establish a policy to perform certain structural
-implrovements each time an artifact (sourcecode, configuration, documents etc.)
-is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
-addition to such a plan.
-Category: <<Improve>>
-+
 
 . [[Branch-for-Improvement]]
 Branch for Improvement:: Introduce distinct branches in your version control system to reflect improvments.
@@ -169,15 +165,22 @@ Improve Code Layout:: Making code easier to read results in better understandabi
 Category: <<Improve>>
 +
 
-. <<interface-segregation-principle, Interface Segregation>>>:: Reduce coupling between clients and service provider .
-Category: <<Improve>>
-+
-
 . <<improvement-backlog, Improvement-Backlog>>>:: 
 Keep a backlog of possible improvements, remedies, tactics or strategies.
 Category: <<Crosscutting>
 +
 
+. <<interface-segregation-principle, Interface Segregation>>>:: Reduce coupling between clients and service provider .
+Category: <<Improve>>
++
+
+
+. <<Introduce-Boy-Scout-Rule>>:: Establish a policy to perform certain structural
+implrovements each time an artifact (sourcecode, configuration, documents etc.)
+is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
+addition to such a plan.
+Category: <<Improve>>
++
 . [[Isolate-Changes]]
 Isolate Changes:: Introduce interfaces and intra-system borders, so that changes cannot propagate to other areas.
 Category: <<Improve>>
