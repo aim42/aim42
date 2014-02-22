@@ -74,6 +74,12 @@ A detailed writeup of how (object-oriented) code should look like. Lots of thing
 
 * [[[Moyer-Archeology]]] Brian Moyer: http://adm.omg.org/docs/Software_Archeology_4-Mar-2009.pdf[Software Archeology]
 
+* [[[Object-Oriented-Software-Construction]]] Bertrand Meyer,
+  Object-Oriented Software Construction, Prentice Hall (September
+  1994), ISBN-13: 978-0136290490 +
+  One of those old books which is has influenced many a software but
+  is actually known to few. 
+
 * [[[Ogawa-Evolution]]] Michael Ogawa: Software Evolution Storylines. Available as research paper, open-source code and  
 online. http://www.michaelogawa.com/research/storylines/[Visualizes interactions between developers in software systems]
 
