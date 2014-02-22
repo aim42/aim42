@@ -29,6 +29,7 @@ In our opinion, several refactoring patterns are especially important:
 (given in alphabetical order)
 
 * <<Anticorruption-Layer>>
+* <<Assertions>>
 * <<Automated-Tests>>
 * <<Branch-For-Improvement>>
 * <<Extract-Reusable-Component>>
