@@ -1,0 +1,99 @@
+[[use-invariants-to-kill-zombies]]
+
+=== Use Invariants To Kill Zombies
+
+==== Intent
+
+Provide a safe approach in situations where  it seems to dangerous to delete
+code or whole modules from a huge system because <<Static-Analysis>> can't
+recognize whether the code is still in use or not.
+
+==== Description
+
+Oftentimes old systems contain lots of code that probably is no longer in use
+but still has to be tended to. Such code puts a burden on every cross-cutting
+change - from the year-2000 efforts of the late nineties to the upcoming
+end-of-unix-system date rewrites. New processor architectures, new versions of
+operating systems with a different handling of the byte-order and all kinds of
+external regulations are just some examples for things that make it necessary to
+make changes to *all* existing code -- whether it is still in use or not. This
+code is deemed dead, but like the proverbial zombie it still goes around and
+munches on everybody's brain when it is time for the next system-wide change.
+
+This kind of zombie can be killed more safely by employing invariants. 
+
+An <<invariant>> -- as described by Bertrand Meyer in
+<<Object-Oriented-Software-Construction>> -- is a logical expression that always
+is true for a given set of circumstances. He proposes to actually verify those
+invariants _in the code itself_. What happens if the invariant does not hold
+true is open to discussion - in some circumstances it's best to <<fail-fast>>
+but when improving legacy software with hundreds or thousand of users this often
+is not an option.
+
+So if we want to make sure we can delete this code our invariant is simple:
+
+.Pseudo-Code
+----
+assertTrue(false, "We should not be here" + __FILE__ + __LINE__ );
+----
+
+How to implement +assertTrue()+ for this case is hard, though.
+
+As just pointed out, the simple “let the program die” approach might not be
+appropriate. +
+Just logging the fact might not have a sufficient effect. +
+Sending an e-mail requires at least some infrastructure (and infrastructure
+code) +
+Sending an SMTP-Trap might not be feasible in the environment. +
+
+And so on.
+
+This is a classical situation that calls for trade-off decisions, but since this
+piece of code should never be called anyway things like sending an e-mail or
+calling some webservice are not so far out of the question. 
+
+If a huge number of deployments is possible without problems it can also be
+feasible to de-escalate slowly and use more and more intrusive ways to handle
+the failed invariant -- write a log entry in the first two weeks, send an SNMP
+trap in the next four weeks and after that send an e-mail (although it doesn't
+hurt to keep the logging turned on).
+
+==== Experiences
+
+In several cases this approach helped to delete up to 50% of the code base.
+
+==== Risks
+
+* Sometimes the Zombie is buried to early -- to be on the safe side the
+  presumably dead code should live through at least each season. For huge
+  systems that really means 366 days.
+* The presumably dead code might be called _much_ more often than anticipated -
+  in these cases a highly invasive reaction, like sending an e-mail, can lead to
+  side-effects that are close to a denial-of-service attack. 
+
+==== Applicability
+
+This pattern can be applied whenever the code-base has gotten too big and there
+are parts of the system that are perhaps unused (e.g. dead) but still add to the
+weight of the system.
+
+==== Consequences
+
+* Dead code can be safely deleted
+
+==== Also Known As
+
+==== Related Patterns
+
+* Use <<Static-Code-Analysis>> to find candidates, entry points and exit points.
+* Using invariants to kill zombies is a special case of <<Assertions>> in the
+  context of architecture improvement.
+* Introducing invariants to verify that the code is really dead is a specific
+  way to make <<Explicit-Assumption>>s 
+
+==== References
+* Invariants (and other <<Assertions>>) have been made popular by Bertrand Meyer
+  in his seminal book <<Object-Oriented-Software-Construction>>
+* Brian Foote references Zombie code in <<Big-Ball-Of-Mud>>
+* Dead code is an alternate name for the lava-flow anti pattern in
+  <<Anti-Patterns>>.

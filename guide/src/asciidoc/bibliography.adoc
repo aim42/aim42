@@ -4,6 +4,10 @@
 [appendix]
 == Bibliography
 
+* [[[AntiPatterns]]] William J. Brown: AntiPatterns: Refactoring Software,
+ Architecture and Projects in Crisis, John Wiley & Sons, 1998 -- a tried and
+ true work on things that tend to go wrong in software development and other
+ projects.
 
 * [[[arc42]]] arc42 - Resources for Software Architects. Practical template, liberal licence.
 Available in a variety of formats, see http://arc42.de[German website] or http://arc42.org[English website].
@@ -25,6 +29,8 @@ Software Engineering Institute, Carnegie Mellon University.
 http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-development-tim-berglund[Complexity Theory and Software Development]. Look at slide 73ff on afferent coupling - and keep that in mind for your own refactorings.
 
 * [[[Bass09]]] Len Bass et.al.: Software Architecture in Practice. Addison-Wesley, 2. Edition 2009.
+
+* [[[Big-Ball-Of-Mud]]] Brian Foote and Joseph Yoder, http://laputan.org/mud/[Big Ball of Mud] - very influentual paper from the http://st-www.cs.uiuc.edu/~hanmer/PLoP-97/[fourth conference on Patterns languages of Program Design, PLoP97]
 
 * [[Bommer-Wartung]] Christoph Bommer, M. Spindler, V. Barr: Softwarewartung: Grundlagen, Management und Wartungstechniken.
 (in German) dpunkt Verlag, 2008. Interesting treatment of categories of software systems and their respective need for maintenance and evolution. Authors quote studies from Lehman and Belady from the 1970's.
@@ -67,6 +73,12 @@ A detailed writeup of how (object-oriented) code should look like. Lots of thing
 ``It helps us visualize, plan, and perform business-value-focused improvements over several iterations and increments of work, without ever having a broken codebase''
 
 * [[[Moyer-Archeology]]] Brian Moyer: http://adm.omg.org/docs/Software_Archeology_4-Mar-2009.pdf[Software Archeology]
+
+* [[[Object-Oriented-Software-Construction]]] Bertrand Meyer,
+  Object-Oriented Software Construction, Prentice Hall (September
+  1994), ISBN-13: 978-0136290490 +
+  One of those old books which is has influenced many a software but
+  is actually known to few. 
 
 * [[[Ogawa-Evolution]]] Michael Ogawa: Software Evolution Storylines. Available as research paper, open-source code and  
 online. http://www.michaelogawa.com/research/storylines/[Visualizes interactions between developers in software systems]

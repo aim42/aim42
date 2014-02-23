@@ -46,13 +46,15 @@ In our opinion, several refactoring patterns are especially important:
 * <<Quality-Driven-Software-Architecture>>
 * <<Refactoring>>
 * <<Refactoring-Plan>>
+* <<Remove-Nested-Control-Structures>>
 * <<Sample-For-Improvement>>
 * <<Schedule-Work>>
-* <<Remove-Nested-Control-Structures>>
 * <<Untangle-Code>>
+* <<Use-Invariants-To-Kill-Zombies>>
 
 
 include::patterns/improve/introduce-boy-scout-rule.adoc[]
+include::patterns/improve/Use-Invariants-To-Kill-Zombies.adoc[]
 include::patterns/improve/anticorruption-layer.adoc[]
 include::patterns/improve/facade.adoc[]
 include::patterns/improve/interface-segregation-principle.adoc[]
