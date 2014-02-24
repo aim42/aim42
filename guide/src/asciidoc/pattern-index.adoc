@@ -53,7 +53,9 @@ Change by Copy:: Isolate competing change necessity by copying and allowing the 
 Category: <<Improve>>
 +
 
-. <<collect-opportunities-for-improvement, Collect Opportunities for Improvement>> :: Look for measures, remedies, tactics, strategies for improvements. 
+. *<<collect-opportunities-for-improvement, Collect Opportunities for Improvement>>*
++
+Look for measures, remedies, tactics, strategies for improvements. 
 Category: <<Crosscutting>>
 +
 
@@ -69,7 +71,9 @@ Category: <<Analyze>>
 + 
 
 
-. <<Debugging>>:: Identify the source of a bug or misbehavior by observing the
+. *<<Debugging>>*
++
+Identify the source of a bug or misbehavior by observing the
 detailed flow of execution, e.g. stepwise execution of program statements. Usually supported by _debugger_. Specialisation of <<pattern-root-cause-analysis, root cause analysis>>.
 Category: <<Analyze>>
 +
@@ -79,7 +83,8 @@ Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
-. <<Determine-Feature-Value, Determine Feature Value>>:: 
+. *<<Determine-Feature-Value, Determine Feature Value>>*
++ 
 Determine the (monetary) value of a given feature. 
 Category: <<Evaluate>>
 +
@@ -120,8 +125,10 @@ Extract Reusable Component:: Extract code from an existing system to create a re
 Category: <<Improve>>
 +
 
-. <<fail-fast, Fail Fast>>:: Identify quality issues as early as possible and aim to fix them.
-Category: <<Crosscutting>
+. *<<fail-fast, Fail Fast>>*
++
+Identify quality issues as early as possible and aim to fix them.
+Category: <<Crosscutting>>
 +
 
 . [[Failure-Mode-and-Effects-Analysis]]
@@ -165,17 +172,22 @@ Improve Code Layout:: Making code easier to read results in better understandabi
 Category: <<Improve>>
 +
 
-. <<improvement-backlog, Improvement-Backlog>>>:: 
+. *<<improvement-backlog, Improvement-Backlog>>*
++ 
 Keep a backlog of possible improvements, remedies, tactics or strategies.
 Category: <<Crosscutting>
 +
 
-. <<interface-segregation-principle, Interface Segregation>>>:: Reduce coupling between clients and service provider .
+. *<<interface-segregation-principle, Interface Segregation>>*
++
+Reduce coupling between clients and service provider .
 Category: <<Improve>>
 +
 
 
-. <<Introduce-Boy-Scout-Rule>>:: Establish a policy to perform certain structural
+. *<<Introduce-Boy-Scout-Rule>>*
++
+Establish a policy to perform certain structural
 implrovements each time an artifact (sourcecode, configuration, documents etc.)
 is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
 addition to such a plan.
@@ -320,7 +332,9 @@ Separate Cause from Effect:: See <<Root-Cause-Analysis>>
 Category: <<Evaluate>>
 +
 
-. <<Software-Archeology>>:: Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
+. *<<Software-Archeology>>*
++
+Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
 Category: <<Evaluate>>
 +
 
@@ -339,8 +353,9 @@ Stakeholder Specific Communication:: Communicate with stakeholders by actively a
 +
 
 
-. Static Code Analysis::
-Analyse source code to identivy building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties. See <<Static-Analysis, detailed description>>.
+. *<<Static-Analysis, Static Code Analysis>>*
++
+Analyse source code to identivy building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties.
 Category: <<Analyze>>
 +
 
@@ -375,15 +390,17 @@ Use-Case Cluster:: Understand system functionality by grouping functionality int
 Category: <<Analyze>>
 +
 
-. <<Use-Invariants-To-Kill-Zombies>>:: Use Invariants to make sure that you can
+. *<<Use-Invariants-To-Kill-Zombies>>*
++
+Use Invariants to make sure that you can
 kill Zombies safely. If code seems to be ``dead'' -- meaning that it
 supposedly isn't called anymore -- but no one dares to remove it from the
 codebase, the introduction of invariants can provide reliable feedback on
 whether it is safe to remove the code or not. 
-
 +
 
-. View-Based Understanding::
-Create architectural views (mainly building block view) to understand and communicate code structure. See <<Pattern-View-Based-Understanding, detailed description>>.
+. *<<Pattern-View-Based-Understanding, View-Based Understanding*
++
+Create architectural views (mainly building block view) to understand and communicate code structure.
 Category: <<Analyze>>
 
