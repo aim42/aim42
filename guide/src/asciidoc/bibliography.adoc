@@ -44,7 +44,6 @@ Addison-Wesley, 2001. Detailed overview of ATAM (and other evaluation methods.
 * [[[Campbell14]]] Ann Campbell et. al: SonarQube in Action. Manning Publications, 2014. Great introduction to 
 the flexible, multi-language code-analysis toolkit. 
 
-
 * [[[Feathers]]] Michael Feathers: Working Effectively with Legacy Code. Prentice Hall, 2005. The author claims "Code without tests is bad code". So true...
 
 
@@ -82,6 +81,9 @@ A detailed writeup of how (object-oriented) code should look like. Lots of thing
 
 * [[[Ogawa-Evolution]]] Michael Ogawa: Software Evolution Storylines. Available as research paper, open-source code and  
 online. http://www.michaelogawa.com/research/storylines/[Visualizes interactions between developers in software systems]
+
+* [[[OORP]]] Serge Demeyer et. al: Object-Oriented Reengineering Patterns. 
+A pattern-based approach to re-engineer object-oriented legacy systems. It contains a wealth of <<improve, improvement-patterns>>, some named slightly different than their aim42-brethren.
 
 * [[[Quality-Requirements]]] 
 https://bitbucket.org/arc42/quality-requirements[(Free) Examples of Practical Software Quality Requirements].
