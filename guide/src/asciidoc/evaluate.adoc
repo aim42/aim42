@@ -5,7 +5,7 @@
 
 === Goals
 
-Make the issues, problems and risks found during the *analysis* comparable by
+Make the issues, problems and risks found during the <<analyze, analysis>> comparable by
 determining their *value* (that's why we call this activity *evaluate*):
 
 . determine _value_ of problems, issues, risks and their remedies 
