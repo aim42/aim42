@@ -7,18 +7,16 @@
 = image:aim42-logo.png[] Method Guide 
 
 
-Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
-Version 0.3b, last update {docdate}
-
-
 :toc2: 
 
 :imagesdir: ./images
 :homepage: http://aim42.org
+
+:keywords: software-architecture, evolution, maintenance, improvement, analysis, evaluation, reengineering
+
+include::about.adoc[]
+
 :numbered:
-
-:keywords: software-architecture, evolution, maintenance, improvement, analysis, evaluation
-
 include::aim42_introduction.adoc[]
 
 include::license.adoc[]

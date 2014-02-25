@@ -1,8 +1,4 @@
-
-
-
-== aim42 - Short Introduction 
-
+== Introduction 
 
 === Why is software being changed?
 
@@ -109,10 +105,12 @@ responsible for any results of applying aim42.
 
 * Gernot Starke (innoQ Fellow, project founder): setup, patterns, practices
 * Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration
+* Christine Koppelt (innoQ): improvement-patterns
 * Michael Mahlberg (Consulting Guild): patterns and practices
 * Burkhard Neppert (innoQ): review, method
 * Oliver Tigges (innoQ): patterns and practices
 * Stefan Tilkov (innoQ): maintenance and evolution patterns
+* (what are you waiting for - *join us*!)
 
 
 

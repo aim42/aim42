@@ -20,3 +20,6 @@ http://aim42.org[aim42] is collection of practices and patterns to support softw
 
 Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
 Version 0.3c, last update {docdate}
+
+
+Our current build status: image:https://travis-ci.org/aim42/aim42.png?branch=master[unknown]
