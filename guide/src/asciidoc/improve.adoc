@@ -2,11 +2,11 @@
 [[Improve]]
 == Improve
 
+image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 === Goals
 
-// this "plan" stuff might be a phase of its own?
-. Plan and coordinate measures and remedies to eliminate problems and issues found during analysis.
+. Plan and coordinate measures and remedies to eliminate problems and issues found during <<Analyze, analysis>>.
 
 . Apply the remedies
 
