@@ -1,0 +1,22 @@
+:numbered!:
+
+== About aim42
+
+[role="lead"]
+aim 42 supports software evolution, maintenance and improvement - in a systematic and pragmatic way. 
+
+
+
+[NOTE]
+-- 
+http://aim42.org[aim42] is collection of practices and patterns to support software evolution, maintenance, evolution and improvement of software systems:
+
+. Optimize your software and reduce maintenance cost
+. Control risks, issues and technical debt
+. Organizes patterns and practices in three phases (<<analyze, analyze>>, <<evaluate, evaluate>> and <<improve, improve>>)
+. Free and open-source, <<contributions, contributions>> welcome.
+. Grounded in practice , proven approaches, backed by serious research.
+--
+
+Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
+Version 0.3c, last update {docdate}

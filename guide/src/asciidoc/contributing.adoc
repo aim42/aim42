@@ -1,5 +1,7 @@
+[[contributions]]
+
 === Contribute to aim42.org
-This content is open source! The source is hosted under the aim42 organization on Bitbucket and GitHub.
+This content is open source! The source is hosted under the aim42 organization on GitHub.
 
 If you want to help by improving upon it, fork the project, revise the content, then send a pull request. 
 
@@ -9,3 +11,6 @@ https://github.com/aim42/aim42[GitHub under the aim42 organization].
 Issues:: Look over https://github.com/aim42/aim42/issues[our open issues], pick one, fork the repository and resolve the issue. Send over a pull request!
 
 Twitter:: https://twitter.com/arc_improve42[@arc_improve42]
+
+Mailing list::
+There's even a (human-managed) mailing list: If you like to participate, send your subscribe-request to (TODO: mailto:aim42-discus@mail.innoq.com[subscribe-me]) 
