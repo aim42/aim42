@@ -1,5 +1,4 @@
-[[Software-Archeologie]]
-
+[[Software-Archeology]]
 === Software Archeology 
 
 ==== Intent

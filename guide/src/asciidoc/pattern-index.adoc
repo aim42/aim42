@@ -175,7 +175,7 @@ Category: <<Improve>>
 . *<<improvement-backlog, Improvement-Backlog>>*
 + 
 Keep a backlog of possible improvements, remedies, tactics or strategies.
-Category: <<Crosscutting>
+Category: <<Crosscutting>>
 +
 
 . *<<interface-segregation-principle, Interface Segregation>>*
@@ -193,6 +193,7 @@ is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or
 addition to such a plan.
 Category: <<Improve>>
 +
+
 . [[Isolate-Changes]]
 Isolate Changes:: Introduce interfaces and intra-system borders, so that changes cannot propagate to other areas.
 Category: <<Improve>>
