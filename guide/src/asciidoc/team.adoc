@@ -1,0 +1,15 @@
+
+=== The Team
+
+* Gernot Starke (innoQ Fellow, project founder): setup, patterns, practices
+* Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration
+* Christine Koppelt (innoQ): improvement-patterns
+* Michael Mahlberg (Consulting Guild): patterns and practices
+* Burkhard Neppert (innoQ): review, method
+* Oliver Tigges (innoQ): patterns and practices
+* Stefan Tilkov (innoQ): maintenance and evolution patterns
+* Tammo van Lessen (innoQ): improvement patterns, technical debt contribution
+* (what are you waiting for - *join us*!)
+
+
+Comments and suggestions by Markus Harrer and Phillip Ghadir - and numerous (anonymous) project-teams from all around the IT-world.

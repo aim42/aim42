@@ -19,6 +19,8 @@ include::about.adoc[]
 :numbered:
 include::aim42_introduction.adoc[]
 
+include::team.adoc[]
+
 include::license.adoc[]
 
 include::contributing.adoc[]
