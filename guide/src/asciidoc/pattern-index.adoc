@@ -354,7 +354,7 @@ Stakeholder Specific Communication:: Communicate with stakeholders by actively a
 +
 
 
-. *<<Static-Analysis, Static Code Analysis>>*
+. *<<Static-Code-Analysis>>*
 +
 Analyse source code to identivy building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties.
 Category: <<Analyze>>
@@ -400,7 +400,7 @@ codebase, the introduction of invariants can provide reliable feedback on
 whether it is safe to remove the code or not. 
 +
 
-. *<<Pattern-View-Based-Understanding, View-Based Understanding*
+. *<<View-Based-Understanding>>*
 +
 Create architectural views (mainly building block view) to understand and communicate code structure.
 Category: <<Analyze>>
