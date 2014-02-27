@@ -20,9 +20,9 @@ Systematically look for such issues at various places and with various people.
 INFO: To effectively find issues, you need an appropriate amount of _understanding_ of the systems, its technical concepts, code-structure, inner workings, major external interfaces and its development process.
 
 
-. Start with a <<Qualitative-Analysis,qualitative analysis>> of the system, its architecture and surrounding organization
+. Start <<capture-quality-requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
+. Conduct a <<Qualitative-Analysis,qualitative analysis>> of the system, its architecture and surrounding organization, based upon the specific quality requirements 
 . Perform <<Static-Code-Analysis, static code analysis>>
-. 
 . Conduct <<Stakeholder-Interviews, stakeholder interviews>>
 . Perform a number of *runtime analysis*, e.g. performance and load monitoring, process and thread analysis
 . Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
@@ -63,7 +63,11 @@ WARNING: Never start solving problems until you have a thourough understanding o
 
 // the detailed description of tha analysis-patterns
 
+include::patterns/analyze/capture-quality-requirements.adoc[]
+
 include::patterns/analyze/debugging.adoc[]
+
+include::patterns/analyze/qualitative-analysis.adoc[]
 
 include::patterns/analyze/root-cause-analysis.adoc[]
 

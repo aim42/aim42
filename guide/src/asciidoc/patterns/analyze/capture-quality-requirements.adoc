@@ -1,0 +1,57 @@
+[[Capture-Quality-Requirements]]
+
+=== Capture Quality Requirements 
+
+==== Intent
+Make the specific quality requirements of a system explicit.
+
+
+==== Description
+
+Invite authoritative stakeholders to a joint workshop (e.g. half- or full-day). 
+Let them write _quality scenarios_ to describe their specific quality requirements for the system. Moderate this workshop.
+
+* Use _scenarios_ to formulate specific quality requirements.
+* Order those scenarios within a mostly hierachical quality tree, similar to <<ISO-9126>>.
+
+TODO:
+* explain scenarios, use diagram
+* example scenarios
+* explain quality tree
+* explain brainstorming session, moderated workshop
+
+
+==== Experiences
+* Brainstorming quality requirements usually works well in moderated workshops. If given (even trivial) examples, every stakeholder will most likely write down several scenarios. We often received 80-120 different scenarios in one-day workshops.
+* Scenarios collected within brainstorming sessions often contain _hidden_ problem descriptions, risks or problems with the current systems.
+* Scenarios sometimes cover process or organizational aspects (like: release cycles should be faster than they are now). Move those to your <<improvement-backlog>>.
+* Different stakeholders often start communicating about the systeme or their requirements during such workshops. This kind of interaction _should_ have happened long before...
+* Apart from capturing
+
+==== Applicability
+Use this practice when (authoritative) stakeholders are available for discussion or a workshop.
+
+If you have well-documented, specific and current (!) quality requirements available, you might consider skipping this practice for now (although we're quite sure it's a good opportunity to learn a lot about the system, its stakeholders, their requirements and opinions).
+
+==== Consequences
+
+* The required constraints (aka quality attributes) of a system are made explicit.
+
+==== Also Known As
+* Non-functional requirements (although this term is misleading, as _functional_ requirements strongly influence the _quality_ of any system!)
+* Documentation of quality requirements.
+
+==== Related Patterns
+
+* <<ATAM>>
+* <<Explicit-Assumption>>
+* <<Qualitative-Analysis>>
+* <<Requirements-Analysis>>
+
+==== References
+
+The workshop-based collection of quality requirements has been described within the <<Clements-ATAM, ATAM>> literature.
+
+* Real-world examples of software quality requirements. Currently available only in German language on https://bitbucket.org/arc42/quality-requirements (TODO: likely to move to github)
+* <<Clements-ATAM, ATAM>>, contains a brief description of scenario-based quality description and details how to setup such workshops.
+

@@ -1,0 +1,42 @@
+[[Qualitatie-Analysis]]
+=== Qualitative Analysis 
+
+==== Intent
+
+Find out (analyze):
+
+
+* wether quality requirements can be met by the syste, 
+* which specific quality requirements pose risks
+* which specific quality requirements 
+
+==== Description
+
+
+==== Experiences
+
+* Conducting workshops with a variety of stakeohlders often leads to intense and productive communication.
+
+==== Applicability
+
+Use qualitative analysis to support in the following situations:
+
+* You need to analyze which specific quality requirements are at risk and which will most likely be met by the system.
+
+* You have a variety of different stakeholders or groups which can all impose quality requiements - but have not yet agreed on a common set of such requirements.
+
+* A current and understandable collection of specific quality requirements for the system is missing.
+
+==== Consequences
+
+
+==== Also Known As
+* <<ATAM, Architecture Tradeoff Analysis>>
+
+==== Related Patterns
+
+
+==== References
+
+* ATAM - Architecture Tradeoff Analysis Method. Published by the Software Engineering Institute in numerous whitepapers and books, especially <<Clements-ATAM>>.
+* 

@@ -37,9 +37,8 @@ Branch for Improvement:: Introduce distinct branches in your version control sys
 Category: <<Improve>>
 +
 
-. [[Capture-Quality-Requirements]]
-Capture Quality Requirements::
-Part of [[ATAM]], Capture and document specific quality requirements. See <<Requirements-Analysis>>. 
+. *<<Capture-Quality-Requirements, Capture Quality Requirements>>*
+Part of [[ATAM]], Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
 Category: <<Analyze>>
 +
 

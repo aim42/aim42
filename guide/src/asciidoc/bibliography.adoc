@@ -38,8 +38,9 @@ http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-developmen
 
 * [[Brodie-Stonebraker]] Migrating Legacy Systems: Gateway, Interfaces & the Incremental Approach; Morgan Kaufmann 1995.
 
-* [[[Clements09]]] Paul Clements et.al.: Evaluating Software Architecture - Methods and Case Studies. 
-Addison-Wesley, 2001. Detailed overview of ATAM (and other evaluation methods.
+* [[[Clements-ATAM]]] Paul Clements et.al.: Evaluating Software Architecture - Methods and Case Studies. 
+Addison-Wesley, 2001. Detailed overview of ATAM (and other evaluation methods).
+
 
 * [[[Campbell14]]] Ann Campbell et. al: SonarQube in Action. Manning Publications, 2014. Great introduction to 
 the flexible, multi-language code-analysis toolkit. 
@@ -58,6 +59,8 @@ the flexible, multi-language code-analysis toolkit.
 
 * [[[Impact-Mapping]]] Gojko Adzic: http://impactmapping.org[Impact Mapping. Making a Big Impact With Software Products and Projects].
 
+* [[[ISO-9126]]] ISO 9126 Quality Model: Hierarchical model for software quality, consisting of six major _quality topics_ (functionality, reliability, usability, efficiency, maintainability and portability).
+ 
 * [[[Keller-Migration]]] Wolfgang Keller: http://www.objectarchitects.de/ObjectArchitects/papers/WhitePapers/ZippedPapers/pacman03.pdf[The Bridge to the New Town] - A Legacy System Migration Pattern. EuroPLoP 2000, ISBN 3-87940-775-4
 
 
