@@ -5,7 +5,7 @@
 Software systems, at least most of those that are practically used, are changed all the 
 time. Features are added, modified or removed, user interaction is streamlined, 
 performance is tuned, changes to external interfaces or systems are reflected.
-The reasons for changing a system can be grouped into four categories (see ISO/IEC 14764:2006):
+The reasons for changing a system can be grouped into four categories (see <<ISO-14764>>):
 
 * Corrective changes
 ** fixing failures within the software system
