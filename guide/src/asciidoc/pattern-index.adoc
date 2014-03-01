@@ -258,7 +258,7 @@ Profiling:: Measure resource consumption of a system during its operation.
 Category: <<Analyze>>
 +
 
-. [[Qualitative-Analysis]]
+. *<<Qualitative-Analysis, Qualitative Analysis>>*
 Qualitative Analysis:: See <<Quality-Requirements>>
 Category: <<Analyze>>
 +

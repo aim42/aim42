@@ -1,4 +1,4 @@
-[[Qualitatie-Analysis]]
+[[Qualitative-Analysis]]
 === Qualitative Analysis 
 
 ==== Intent
@@ -7,11 +7,17 @@ Find out (analyze):
 
 
 * wether quality requirements can be met by the syste, 
-* which specific quality requirements pose risks
-* which specific quality requirements 
+* which specific quality requirements are risks with respect to the current architecture,
+* which specific quality requirements are currently non-risks 
+
 
 ==== Description
 
+. <<capture-quality-requirements, Capture quality requirements>> to ensure you have explicit, specific, valid and current _quality requirements_ available - preferably in form of _scenarios_.
+. Prioritize these scenarios with respect to business value or importance for the authoritative stakeholders.
+. For every important scenario: 
+.. analyze the architectural approach the system takes,
+.. decide wether this approach seems appropriate or risky   
 
 ==== Experiences
 

@@ -20,13 +20,24 @@ TODO:
 * explain quality tree
 * explain brainstorming session, moderated workshop
 
+===== Scenario-based Quality Description
+
+Scenario:: describes the reaction of a system to a certain event (or type of event). 
+
+
+image::quality-scenario.png["quality scenario", title="Structure of Quality Scenarios", id="quality-scenario-diagram"]
+
+Although this definition is concise, it needs some explanation to become understandable. See figure <<quality-scenario-diagram>>:
+
+* An _event_ can be a user clicking a button, an administrator starting or stopping the system, or a hacker trying to get unauthorized access. An _event_ can also be a manager needing another feature, another manager wanting to reduce operation costs, or some government agency requiring financial data to be tamper-proof. 
 
 ==== Experiences
-* Brainstorming quality requirements usually works well in moderated workshops. If given (even trivial) examples, every stakeholder will most likely write down several scenarios. We often received 80-120 different scenarios in one-day workshops.
-* Scenarios collected within brainstorming sessions often contain _hidden_ problem descriptions, risks or problems with the current systems.
-* Scenarios sometimes cover process or organizational aspects (like: release cycles should be faster than they are now). Move those to your <<improvement-backlog>>.
-* Different stakeholders often start communicating about the systeme or their requirements during such workshops. This kind of interaction _should_ have happened long before...
-* Apart from capturing
+
+* *Needs moderation*: Brainstorming quality requirements usually works well in moderated workshops. If given (even trivial) examples, every stakeholder will most likely write down several scenarios. We often received 80-120 different scenarios in one-day workshops.
+* *Uncovers problems and risks*: Scenarios collected within brainstorming sessions often contain _hidden_ problem descriptions, risks or problems with the current systems.
+* *Covers organization and process*: Scenarios sometimes cover process or organizational aspects (like: release cycles should be faster than they are now). Move those to your <<improvement-backlog>>.
+* *Improves human communication*: Different stakeholders often start communicating about the systeme or their requirements during such workshops. This kind of interaction _should_ have happened long before...
+
 
 ==== Applicability
 Use this practice when (authoritative) stakeholders are available for discussion or a workshop.
