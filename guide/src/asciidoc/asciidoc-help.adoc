@@ -41,9 +41,9 @@ here we explain 'some-anchor' topic...
 Including images is quite easy:
 
 ----
-image::aim42-logo.png[]
+image::aim42-logo.png["alternate-text", title="caption"]
 ----
-image::aim42-logo.png[]
+image::aim42-logo.png["alternate-text", title="caption"]
 
 
 === Lists
