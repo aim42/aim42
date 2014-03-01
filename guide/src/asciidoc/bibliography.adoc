@@ -61,6 +61,8 @@ the flexible, multi-language code-analysis toolkit.
 
 * [[[ISO-9126]]] ISO 9126 Quality Model: Hierarchical model for software quality, consisting of six major _quality topics_ (functionality, reliability, usability, efficiency, maintainability and portability).
  
+* [[[ISO-14764]]] ISO/IEC 14764 Standard on Software Maintenance:2006. For a brief overview, see http://en.wikipedia.org/wiki/Software_maintenance[Wikepedia-entry on ISO-14764].
+
 * [[[Keller-Migration]]] Wolfgang Keller: http://www.objectarchitects.de/ObjectArchitects/papers/WhitePapers/ZippedPapers/pacman03.pdf[The Bridge to the New Town] - A Legacy System Migration Pattern. EuroPLoP 2000, ISBN 3-87940-775-4
 
 
