@@ -1,6 +1,23 @@
+
+
 [[Crosscutting]]
 == Cross-Cutting Practices and Patterns
 
+. Start with collecting problems.
+. Evaluate those, determine priorities and _values_. This ensures you later solve _important_ and _relevant_ problems.
+. Aligned with your problems, keep a list of potential improvements.
+
+image::from-problem-to-improvement.jpg["from problem to improvement", title="From problem to solutions", id="problem-to-solution"]
+
+
+[[collect-problems]]
+=== Collect Problems
+You should constantly watch out for problems, issues and risks.
+Keep a list of those problems. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
+
+It's difficult to decide how much formalism to apply in collecting problems: Sometimes a wiki-page might suffice, for other systems a full-blown issue-tracker can be useful. 
+
+As always: documentation is only valuable if it can be found and searched - which makes electronic approaches more viable.
 
 [[collect-opportunities-for-improvement]]
 === Collect Opportunities for Improvement
