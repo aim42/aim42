@@ -54,10 +54,14 @@ Category: <<Improve>>
 
 . *<<collect-opportunities-for-improvement, Collect Opportunities for Improvement>>*
 +
-Look for measures, remedies, tactics, strategies for improvements. 
+Keep a list of possible and potential measures, remedies, tactics, strategies for improvements. Regularly match those to your <<collect-problems, collection of problems>>.
 Category: <<Crosscutting>>
 +
 
+. *<<collect-problems, Collect Problems>>*
++
+Keep a list of problems, issues and risks. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
+Category: <<Crosscutting>> 
 
 . [[Context-Analysis]]
 Context Analysis:: Analyse external interfaces for risk, technology, business value and other factors.
