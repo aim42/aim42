@@ -6,9 +6,11 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 === Goals
 
-. Find all problems, issues, symptoms, risks or technical debt within the system, its operation, maintenance or otherwise related processes.
+. Obtain overview of intent, purpose and quality requirements of the system.
 
 . Develop and document an understanding of internal structures, concepts and architectural approaches.
+
+. Find all problems, issues, symptoms, risks or technical debt within the system, its operation, maintenance or otherwise related processes.
 
 . Understand root causes of the problems found, potential interdependencies between issues
 
