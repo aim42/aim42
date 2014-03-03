@@ -13,12 +13,31 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.asciidoctor:asciidoctor-gradle-plugin:0.7.0'
+        classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:0.7.0', 
+                   'org.codehaus.groovy:groovy-all:2.2.0', 
+                   'net.sourceforge.htmlunit:htmlunit:2.8', 
+                   'junit:junit:4.+')
     }
 }
 
-apply plugin: 'asciidoctor'
 
+// =========== html validation in groovy ======
+
+apply plugin: 'groovy'
+
+sourceSets {
+
+    test {
+        groovy {
+            srcDirs = ['test/']
+        }
+    }
+}
+
+
+
+// =========== asciidoctor stuff ===============
+apply plugin: 'asciidoctor'
 
 asciidoctor {
     outputDir = new File("$buildDir/docs")
@@ -58,6 +77,7 @@ task aim42(
   
 }
 
+
 task publish(type: GradleBuild) {
     if (System.getenv('GH_TOKEN') != '') {
         buildFile = 'publish.gradle'
@@ -66,3 +86,18 @@ task publish(type: GradleBuild) {
         println 'env var GH_TOKEN not set, won\'t publish!'
     }
 }
+
+
+// ============ validation with junit/htmlunit
+
+
+
+sourceSets {
+
+    test {
+        groovy {
+            srcDirs = ['test/']
+        }
+    }
+}
+
