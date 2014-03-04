@@ -39,5 +39,5 @@ Apply static code analysis when the code base is medium sized or large and the a
 
 ==== References
 
-* http://sonarqube.org[SonarQube], GPL-licenced open-source platform to analyze code.
+* http://sonarqube.org[SonarQube], LGPL-licenced open-source platform to analyze code.
 * http://clarkware.com/software/JDepend.html[JDepend], open-source Java dependency checker.
