@@ -19,6 +19,7 @@ public class SmokyTest {
     final static String ANALYZE_TITLE = "Analyze";
 
     static String userDir;
+    static String buildDirPath;
     static String indexFilePath;
     static String imageDirPath;
     static String indexFileURL;
@@ -33,9 +34,9 @@ public class SmokyTest {
     public static void setup() throws Exception {
 
         userDir = System.getProperty("user.dir");
-        String buildDocsDir = userDir + "/build/docs/";
-        indexFilePath = buildDocsDir + "index.html";
-        imageDirPath = buildDocsDir + "images/";
+        buildDirPath = userDir + "/build/docs/";
+        indexFilePath = buildDirPath + "index.html";
+        imageDirPath = buildDirPath + "images/";
 
         indexFile = new File(indexFilePath);
         indexFileURL = "file://" + indexFilePath;
@@ -106,7 +107,7 @@ public class SmokyTest {
             assertNotNull("License-section missing or misspelled", heading3);
 
         } catch (Exception e) {
-             }
+        }
         try {
             heading3 = indexPage.getHtmlElementById("_the_team");
             assertNotNull("Team-section missing or misspelled", heading3);
@@ -120,8 +121,8 @@ public class SmokyTest {
     // are present and readable.
     @Test
     public void doImagesExist() {
-        //get list of all divs
-        final List<?> images = indexPage.getByXPath("//img");
+        //get list of all images in html file
+        final List<HtmlImage> images = (List<HtmlImage>) indexPage.getByXPath("//img");
 
         // the resulting images contains a list of the following form:
         // < [HtmlImage[<img src="images/aim42-logo.png" alt="aim42-logo">],
@@ -129,8 +130,22 @@ public class SmokyTest {
         assertNotNull("List of images shall be nonNull but isn't", images);
 
         // we need to filter for images containing 'src="images/"'...
-        
+        String imagePath;
+
+        for (HtmlImage hi : images) {
+            imagePath = hi.getSrcAttribute();
+            if (imagePath.startsWith("images/")) {
+                assertFileExists( imagePath );
+            }
+
         }
+
+    }
+
+    private void assertFileExists(String currentImagePath) {
+        String imageFilePath = buildDirPath + currentImagePath;
+        File imageFile = new File( imageFilePath );
+        assertTrue( "image " + imageFilePath + " missing", imageFile.exists());
 
     }
 
