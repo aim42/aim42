@@ -121,6 +121,7 @@ public class SmokyTest {
     // are present and readable.
     @Test
     public void doImagesExist() {
+        @SuppressWarnings("unchecked")
         //get list of all images in html file
         final List<HtmlImage> images = (List<HtmlImage>) indexPage.getByXPath("//img");
 
