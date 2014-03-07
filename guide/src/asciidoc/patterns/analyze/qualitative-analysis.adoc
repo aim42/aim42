@@ -6,7 +6,7 @@
 Find out (analyze):
 
 
-* wether quality requirements can be met by the syste, 
+* wether quality requirements can be met by the system, 
 * which specific quality requirements are risks with respect to the current architecture,
 * which specific quality requirements are currently non-risks 
 

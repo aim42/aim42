@@ -12,7 +12,7 @@ Explicitely differentiate between symptom and cause:
 * Trace a problem to its origins
 
 ==== Description
-Some people fight problems, not their real cause:
+Some people fight problems, not their real cause: When faced with a problem our brains tend to start immediatly to search for proper solutions for exactly this problem. E.g., if our application regularly crashes with Out-Of-Memory-Errors it might be a reflex to increase the memory settings. Instead we should ask if this is really the problem or only a sympton of the real problem, e.g. a programming failure in memory releasing. With an iterative process of asking "Why?" the causal chain must be traced down to the root cause.
 
 ==== Experiences 
 
@@ -34,13 +34,16 @@ order by simply dragging fields/labels around the screen, users were perfectly h
 
 
 ==== Applicability
-when-and-where-is-this-pattern-applicable
+
+This pattern should always be considered when faced with a problem.
 
 ==== Consequences
+
 You can eleminate the cause, 
 
 
 ==== Also Known As
+
 * Inspect-Cause
 * Separate cause from effect
 
