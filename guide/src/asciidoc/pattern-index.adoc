@@ -52,6 +52,7 @@ Change by Copy:: Isolate competing change necessity by copying and allowing the 
 Category: <<Improve>>
 +
 
+
 . *<<collect-opportunities-for-improvement, Collect Opportunities for Improvement>>*
 +
 Keep a list of possible and potential measures, remedies, tactics, strategies for improvements. Regularly match those to your <<collect-problems, collection of problems>>.
