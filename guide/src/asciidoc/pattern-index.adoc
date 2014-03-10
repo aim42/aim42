@@ -183,6 +183,14 @@ Keep a backlog of possible improvements, remedies, tactics or strategies.
 Category: <<Crosscutting>>
 +
 
+
+. [[Instrument-System]]
+Instrument-System:: Instrument either the executable or the source code to make 
+<<Explicit-Assumption, assumtions explicit>> and expand on <<runtime analysis>> and 
+<<runtime artifact analysis>>. 
+Category: <<Analyze>>
++
+
 . *<<interface-segregation-principle, Interface Segregation>>*
 +
 Reduce coupling between clients and service provider .
