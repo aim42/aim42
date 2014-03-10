@@ -93,11 +93,6 @@ Determine the (monetary) value of a given feature.
 Category: <<Evaluate>>
 +
 
-. [[Determine-Problem-Cost]]
-Determine Problem Cost:: Determine how much a given problem costs (in money or effort) in a period of time. 
-Category: <<Evaluate>>
-+
-
 . [[Development-Process-Analysis]]
 Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
 Category: <<Analyze>>
@@ -112,6 +107,12 @@ Category: <<Analyze>>
 . [[Document-Problems]] 
 Document Problems:: See <<improvement-backlog, Improvement Backlog>>.
 Category: <<Crosscutting>>
++
+
+
+. [[Estimate-Problem-Cost]]
+Estimate Problem Cost:: Estimate how much a given problem costs (in money or effort) in a period of time or a frequency. 
+Category: <<Evaluate>>
 +
 
 . [[Estimate-Remedy-Cost]]
