@@ -95,6 +95,14 @@ In compliance with modern agile development methodologies, aim42 fundamentally d
 image::iterate-phases.jpg["iterate phases", title="Iterate Between Phases"]
 
 
+==== Fundamental Concepts
+aim42 relies on a common terminology, a small set of fundamental concepts. You may even
+call it the _software improvement domain_.
+
+[[figure-fundamental-concepts]]
+image::aim42-concepts-overview.jpeg["aim42 fundamental concepts"]
+
+
 === Patterns and Practices Provide No Guarantee
 We are *very* sure that aim42 can work for your system or your organization. 
 But (yes, there's always a but) we cannot guarantee: Maybe your software is so
