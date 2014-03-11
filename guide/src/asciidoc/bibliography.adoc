@@ -63,6 +63,8 @@ the flexible, multi-language code-analysis toolkit.
  
 * [[[ISO-14764]]] ISO/IEC 14764 Standard on Software Maintenance:2006. For a brief overview, see http://en.wikipedia.org/wiki/Software_maintenance[Wikepedia-entry on ISO-14764].
 
+* [[[ISO-25010]]] ISO/IEC 25010 Systems and software Quality Requirements and Evaluation (SQuaRE) -- System and software quality models. ISO-Standard model for software quality. Superseeds <<ISO-9126>> and categorizes software quality into 8 _characteristics_: functional suitability, reliability, efficiency, operability, security, compatibility, maintainability, transferability. See http://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=35733[ISO-25010 website].
+
 * [[[Keller-Migration]]] Wolfgang Keller: http://www.objectarchitects.de/ObjectArchitects/papers/WhitePapers/ZippedPapers/pacman03.pdf[The Bridge to the New Town] - A Legacy System Migration Pattern. EuroPLoP 2000, ISBN 3-87940-775-4
 
 
