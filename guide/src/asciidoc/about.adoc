@@ -9,7 +9,7 @@ aim 42 supports software evolution, maintenance and improvement - in a systemati
 
 [NOTE]
 -- 
-http://aim42.org[aim42] is collection of practices and patterns to support software evolution, maintenance, evolution and improvement of software systems:
+http://aim42.org[aim42] is a collection of practices and patterns to support software evolution, maintenance, evolution and improvement of software systems:
 
 . Optimize your software and reduce maintenance cost
 . Control risks, issues and technical debt
