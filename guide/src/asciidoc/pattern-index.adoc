@@ -15,6 +15,9 @@ ATAM:: Architecture Tradeoff Analysis Method. Systematic approach to find archit
 Architecture-Backlog:: Keep a prioritized list of improvement tasks (_remedies_) with their
 as a backlog, parallel to the (regular) feature backlog. 
 Category: <<Improve>>
+// TODO: This is not quite in line with the ideas Gernot sketched out about
+// having a shared document containing issues and improvement tasks. This shold
+// be addressed somehow IMHO -MM 2014-03-16
 +
 
 . [[Architecture-Documentation]]
@@ -329,6 +332,8 @@ Category: <<Analyze>>
 . [[Runtime-Artifact-Analysis]]
 Runtime-Artifact Analysis:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
 Category: <<Analyze>>
+// TODO: perhaps Log-Anasysis deserves a separate entry? Especially in security
+// sensitiv environments? MM 2014-03-16 
 +
 
 . [[Sample-For-Improvement]]
