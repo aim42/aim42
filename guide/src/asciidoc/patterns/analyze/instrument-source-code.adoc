@@ -1,0 +1,27 @@
+[[instrument-source-code]]
+
+=== Instrument Source Code
+
+// TODO: MM: Find some witty reference to make the pattern more memorable
+
+Use some kind of retroactive modification of the executables that target
+cross-cutting concerns to make the existing software-base tell about it's
+internals.
+
+==== Intent
+
+
+
+==== Description
+
+
+==== Experiences
+
+
+==== Applicability
+
+
+==== Related Patterns
+* <<Static-Code-Analysis>>
+
+
