@@ -4,9 +4,11 @@
 
 // TODO: MM: Find some witty reference to make the pattern more memorable
 
-Use some kind of retroactive modification of the executables that target
+Use retroactive modification of the executables which target
 cross-cutting concerns to make the existing software-base tell about it's
-internals.
+internals. Ways to achieve this can include <<Aspect-Oriented-Programming,
+Aspect Ooriented Programming (AOP)>>, <<Monkey-Patching, Money Patching>> and
+other <<meta-programming, meta programming>> techniques.
 
 ==== Intent
 
@@ -23,5 +25,5 @@ internals.
 
 ==== Related Patterns
 * <<Static-Code-Analysis>>
-
+* <<>>
 
