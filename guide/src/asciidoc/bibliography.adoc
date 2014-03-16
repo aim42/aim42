@@ -36,7 +36,7 @@ http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-developmen
 (in German) dpunkt Verlag, 2008. Interesting treatment of categories of software systems and their respective need for maintenance and evolution. Authors quote studies from Lehman and Belady from the 1970's.
 
 
-* [[Brodie-Stonebraker]] Migrating Legacy Systems: Gateway, Interfaces & the Incremental Approach; Morgan Kaufmann 1995.
+* [[Brodie-Stonebraker]] Brodie, M. and Stonebraker, M: Migrating Legacy Systems: Gateway, Interfaces & the Incremental Approach; Morgan Kaufmann 1995.
 
 * [[[Clements-ATAM]]] Paul Clements et.al.: Evaluating Software Architecture - Methods and Case Studies. 
 Addison-Wesley, 2001. Detailed overview of ATAM (and other evaluation methods).
@@ -80,7 +80,7 @@ A detailed writeup of how (object-oriented) code should look like. Lots of thing
 
 * [[[Moyer-Archeology]]] Brian Moyer: http://adm.omg.org/docs/Software_Archeology_4-Mar-2009.pdf[Software Archeology]
 
-* [[[Object-Oriented-Software-Construction]]] Bertrand Meyer,
+* [[[Object-Oriented-Software-Construction]]] Bertrand Meyer:
   Object-Oriented Software Construction, Prentice Hall (September
   1994), ISBN-13: 978-0136290490 +
   One of those old books which is has influenced many a software but
