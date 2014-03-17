@@ -73,6 +73,17 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 === How does aim42 work? 
 
 
+[[SuD]]
+==== System Under Design (SuD)
+
+
+[NOTE] 
+--
+Within aim42 we call the system to be improved (maintained, enhanced, optimized) _System under Design (SuD)_, as this term is common within the software architecture community.
+
+A system under design (SuD) can comprise software, hardware and organizational or business processes related to the system, its management, development, maintenance or operation.
+--
+
 ==== Three Simple Phases 
 
 [[figure-aim-phases]]
