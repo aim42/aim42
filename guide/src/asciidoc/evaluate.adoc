@@ -16,8 +16,8 @@ determining their *value* (that's why we call this activity *evaluate*):
 
 === Pattern and Practices for Evaluation
 
-* Determine Feature Value
-* Determine Problem Cost
+* Estimate in Interval
+* Estimate Problem Cost
 * Estimate Remedy Cost
 * Failure Mode And Effect Analysis
 * Impact Analysis
@@ -25,9 +25,9 @@ determining their *value* (that's why we call this activity *evaluate*):
 
 
 // the detailed description of the evaluation-patterns
-[[Determine-Feature-Value]]
-==== Determine Feature Value
-Determine the (monetary) value of a given feature, so you can compare features of the system with each other.
+[[Estimate-Feature-Value]]
+==== Estimate Feature Value
+Estimate the (monetary) value of a given feature, so you can compare features of the system with each other.
 
 * Involve business or management stakeholders, as they often have a clear notion of business value.
 * If you cannot determine real numbers available, use <<Explicit-Assumption, explicit assumptions>> 
@@ -36,9 +36,9 @@ Determine the (monetary) value of a given feature, so you can compare features o
 
 
 
-[[Determine-Problem-Cost]]
-==== Determine Problem Cost
-Determine how much a given problem costs (in money or effort) in a period of time. 
+[[Estimage-Problem-Cost]]
+==== Estimate Problem Cost
+Estimate how much a given problem costs (in money or effort) in a period of time. 
 
 For example, if a server needs to be rebooted once every 24hrs and an operator needs 30 minutes to perform this reboot (and corresponding activities) - then you can approximate the cost of this problem for, let's say, a month:
 

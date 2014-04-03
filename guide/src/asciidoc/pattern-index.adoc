@@ -113,6 +113,16 @@ Category: <<Crosscutting>>
 +
 
 
+. [[Estimate-Feature-Value]]
+Estimate the (monetary) value of a given feature, so you can compare features of the system with each other.
+Category: <<Evaluate>>
++
+
+. [[Estimate-in-Interval]]
+Estimate in Interval:: Estimation differs from *measurement* in its inherent uncertainty. Therefore, estimate in intervals, giving lower and upper bounds. The difference between the two shows your confidence in the estimate. Low (relative) difference means high confidence. 
+Category: <<Evaluate>>
++
+
 . [[Estimate-Problem-Cost]]
 Estimate Problem Cost:: Estimate how much a given problem costs (in money or effort) in a period of time or a frequency. 
 Category: <<Evaluate>>
