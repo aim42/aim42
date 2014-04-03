@@ -90,11 +90,6 @@ Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
-. *<<Determine-Feature-Value, Determine Feature Value>>*
-+ 
-Determine the (monetary) value of a given feature. 
-Category: <<Evaluate>>
-+
 
 . [[Development-Process-Analysis]]
 Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
@@ -113,13 +108,15 @@ Category: <<Crosscutting>>
 +
 
 
-. [[Estimate-Feature-Value]]
+. *<<Estimate-Feature-Value, Estimate Feature Value>>*
++
 Estimate the (monetary) value of a given feature, so you can compare features of the system with each other.
 Category: <<Evaluate>>
 +
 
-. [[Estimate-in-Interval]]
-Estimate in Interval:: Estimation differs from *measurement* in its inherent uncertainty. Therefore, estimate in intervals, giving lower and upper bounds. The difference between the two shows your confidence in the estimate. Low (relative) difference means high confidence. 
+. *<<Estimate-In-Interval, Estimate in Interval>>*
++
+Estimation differs from *measurement* in its inherent uncertainty. Therefore, estimate in intervals, giving lower and upper bounds. The difference between the two shows your confidence in the estimate. Low (relative) difference means high confidence. 
 Category: <<Evaluate>>
 +
 

@@ -28,6 +28,26 @@ You should look for improvement opportunities, remedies, measures, tactics and s
 image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
 
 
+[[Explicit-Assumption]]
+=== Explicit Assumption
+TODO
+
+Also known as _educated guess_.
+
+
+
+[[fail-fast]]
+=== Fail Fast
+The later a lack of quality is identified the higher are the costs to fix it. Continuously evaluate the quality of work artifacts and immediately take countermeasures or pull the plug as early as possible.
+
+Suitable methods to identify such situations are:
+
+* Code reviews
+* Architecture reviews
+* Peer reviews
+* Testing in early stages
+
+
 [[improvement-backlog]]
 === Improvement Backlog
 Keep a public, written backlog of possible improvements, remedies, tactics or strategies.
@@ -40,19 +60,3 @@ Keep a public, written backlog of possible improvements, remedies, tactics or st
 [[figure-improvement-backlog]]
 image:improvement-backlog.jpg["improvement backlog", title:"Improvement Backlog"]
 
-
-=== Explicit Assumption
-TODO
-
-Also known as _educated guess_.
-
-[[fail-fast]]
-=== Fail Fast
-The later a lack of quality is identified the higher are the costs to fix it. Continuously evaluate the quality of work artifacts and immediately take countermeasures or pull the plug as early as possible.
-
-Suitable methods to identify such situations are:
-
-* Code reviews
-* Architecture reviews
-* Peer reviews
-* Testing in early stages
