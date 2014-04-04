@@ -8,9 +8,9 @@ image::evaluate.jpg["evaluate-phase", title="Evaluate-Phase"]
 === Goals
 
 Make the issues, problems and risks found during the <<Analyze, analysis>> comparable by
-determining their *value* (that's why we call this activity *evaluate*):
+estimating their *value* (that's why we call this activity *evaluate*):
 
-. determine _value_ of problems, issues, risks and their remedies 
+. estimate _value_ of problems, issues, risks and their remedies 
 . prioritize issues, their remedies and improvement measures 
 
 
