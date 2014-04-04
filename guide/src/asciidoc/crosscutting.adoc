@@ -38,7 +38,7 @@ Also known as _educated guess_.
 
 [[fail-fast]]
 === Fail Fast
-The later a lack of quality is identified the higher are the costs to fix it. Continuously evaluate the quality of work artifacts and immediately take countermeasures or pull the plug as early as possible.
+The later a lack of quality is identified the higher are the costs to fix it. Continuously evaluate the quality of work artifacts and immediately take countermeasures or pull the plug as early as possible. Similar to <<Fast-Feedback, fast feedback>>.
 
 Suitable methods to identify such situations are:
 
@@ -50,6 +50,9 @@ Suitable methods to identify such situations are:
 
 === Fast Feedback
 TODO
+
+See also <<fail-fast, fail fast>>.
+
 
 [[improvement-backlog]]
 === Improvement Backlog
