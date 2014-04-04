@@ -151,7 +151,12 @@ Failure Mode and Effects Analysis:: Systematically analyze postulated failures (
 Category: <<Evaluate>>
 +
 
-. [[Front-End-Switch]]
+. [[Fast-Feedback]]
+Fast-Feedback:: Evaluate the quality of work artifacts and processes as early as possible. Enables teams to apply corrective actions or take countermeasures as early as possible.
+Category: <<Crosscutting>>
++
+
+. [[Front-End-Switch]] 
 Front-End Switch:: Route front-end requests to either new or old backend systems, depending on their nature.
 Category: <<Improve>>
 +

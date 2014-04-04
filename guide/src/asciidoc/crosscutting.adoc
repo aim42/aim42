@@ -48,6 +48,9 @@ Suitable methods to identify such situations are:
 * Testing in early stages
 
 
+=== Fast Feedback
+TODO
+
 [[improvement-backlog]]
 === Improvement Backlog
 Keep a public, written backlog of possible improvements, remedies, tactics or strategies.
