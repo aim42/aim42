@@ -15,13 +15,10 @@ ATAM:: Architecture Tradeoff Analysis Method. Systematic approach to find archit
 Architecture-Backlog:: Keep a prioritized list of improvement tasks (_remedies_) with their
 as a backlog, parallel to the (regular) feature backlog. 
 Category: <<Improve>>
-// TODO: This is not quite in line with the ideas Gernot sketched out about
-// having a shared document containing issues and improvement tasks. This shold
-// be addressed somehow IMHO -MM 2014-03-16
 +
 
 . [[Architecture-Documentation]]
-Architecture Documentation:: See <<System-Documentation>>
+Architecture Documentation:: See <<System-Documentation>> and <<View-Based-Understanding, View Based Understanding>>.
 Category: <<Analyze>>
 +
 
@@ -41,7 +38,7 @@ Category: <<Improve>>
 +
 
 . *<<Capture-Quality-Requirements, Capture Quality Requirements>>*
-Part of [[ATAM]], Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
+Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -333,7 +330,7 @@ Category: <<Improve>>
 
 . [[Root-Cause-Analysis]]
 Root-Cause Analysis:: _Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues. See <<pattern-root-cause-analysis, detailed description>>
-Category: <<Evaluate>>
+Category: <<Analyze>>
 +
 
 . [[Runtime-Analysis]]
@@ -360,7 +357,7 @@ Category: <<Improve>>
 
 . [[Separate-Cause-From-Effect]]
 Separate Cause from Effect:: See <<Root-Cause-Analysis>>
-Category: <<Evaluate>>
+Category: <<Analyze>>
 +
 
 . *<<Software-Archeology>>*
@@ -400,7 +397,8 @@ System Documentation:: Document relevant structures, concepts, decisions, interf
 Category: <<Analyze>>
 +
 
-. [[Take-What-They-Mean]]
+. *<<Take-What-They-Mean>>*
++
 Take What They Mean, Not What They Say:: Natural language has the risk, that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differ between people. Pattern provided by Phillip Ghadir (who is too humble to claim this discovery)
 Category: <<Analyze>>
 +

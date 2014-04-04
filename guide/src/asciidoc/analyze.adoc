@@ -41,6 +41,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 (given in alphabetical order)
 
 * Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM>>
+* <<ATAM>>
 * <<Capture-Quality-Requirements>>
 * <<Context-Analysis>>
 * <<Data-Analysis>>
@@ -54,11 +55,13 @@ WARNING: Never start solving problems until you have a thourough understanding o
 * <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
 * <<Requirements-Analysis>>
 * <<Root-Cause-Analysis, Root Cause Analysis>> - finding the root-cause of problems
-* <<Runtime-Artifact-Analysis>>* 
+* <<Runtime-Artifact-Analysis>> 
+* <<Separate-Cause-From-Effect, Separate Cause From Effect>>
 * <<Software-Archaeology, Software Archeology>>
 * <<Stakeholder-Analysis>>
 * <<Stakeholder-Interview>>
 * <<Static-Code-Analysis>> (Structural analysis)
+* <<Take-What-They-Mean, Take What They Mean>> (not what they say, as it may differ).
 * <<Use-Case-Cluster>>
 * <<View-Based-Understanding, View Based Understanding>>
 
