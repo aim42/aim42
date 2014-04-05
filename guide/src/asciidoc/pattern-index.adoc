@@ -33,7 +33,7 @@ Category: <<Improve>>
 
 
 . [[Branch-for-Improvement]]
-Branch for Improvement:: Introduce distinct branches in your version control system to reflect improvments.
+Branch for Improvement:: Introduce distinct branches in your version control system to reflect improvements.
 Category: <<Improve>>
 +
 
