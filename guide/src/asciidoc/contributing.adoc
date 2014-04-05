@@ -5,12 +5,17 @@ This content is open source! The source is hosted under the aim42 organization o
 
 If you want to help by improving upon it, fork the project, revise the content, then send a pull request. 
 
-Source:: aim42 currently provides a _method guide_, the asciidoc sources are hosted at 
-https://github.com/aim42/aim42[GitHub under the aim42 organization]. 
+Source:: 
+aim42 currently provides a _method guide_, the asciidoc sources are hosted at https://github.com/aim42/aim42[GitHub under the aim42 organization].
 
-Issues:: Look over https://github.com/aim42/aim42/issues[our open issues], pick one, fork the repository and resolve the issue. Send over a pull request!
+Issues:: 
+Look over https://github.com/aim42/aim42/issues[our open issues], pick one, fork the repository and resolve the issue. Send over a pull request!
 
-Twitter:: https://twitter.com/arc_improve42[@arc_improve42]
+Twitter:: 
+https://twitter.com/arc_improve42[@arc_improve42]
 
 Mailing list::
-There's even a (human-managed) mailing list: If you like to participate, send your subscribe-request to (TODO: mailto:aim42-discus@mail.innoq.com[subscribe-me]) 
+There's even a (human-managed) mailing list: If you like to participate, send your subscribe-request to mailto:aim42@mail.innoq.com[subscribe-me]. 
+
+Suggestions::
+In case you have ideas, critique or proposals - just mailto:aim42@mail.innoq.com[let us know]. 
