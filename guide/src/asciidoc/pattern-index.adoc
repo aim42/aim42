@@ -4,7 +4,13 @@ This chapter contains an alphabetic list of all patterns, practices and methods 
 short description and links to the explanation.
 
 . [[Anticorruption-Layer]]
-Anticorruption layer:: Isolate clients from internal changes of suby-systems or modules.
+Anticorruption layer:: Isolate clients from internal changes of suby-systems or modules. The original definition:
+    +
+    ""
+    Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models.
+    ""
+    +
+(Eric Evans, Domain Driven Design, page 365)
 Category: <<Improve>>
 +
 
@@ -15,13 +21,10 @@ ATAM:: Architecture Tradeoff Analysis Method. Systematic approach to find archit
 Architecture-Backlog:: Keep a prioritized list of improvement tasks (_remedies_) with their
 as a backlog, parallel to the (regular) feature backlog. 
 Category: <<Improve>>
-// TODO: This is not quite in line with the ideas Gernot sketched out about
-// having a shared document containing issues and improvement tasks. This shold
-// be addressed somehow IMHO -MM 2014-03-16
 +
 
 . [[Architecture-Documentation]]
-Architecture Documentation:: See <<System-Documentation>>
+Architecture Documentation:: See <<System-Documentation>> and <<View-Based-Understanding, View Based Understanding>>.
 Category: <<Analyze>>
 +
 
@@ -36,12 +39,12 @@ Category: <<Improve>>
 
 
 . [[Branch-for-Improvement]]
-Branch for Improvement:: Introduce distinct branches in your version control system to reflect improvments.
+Branch for Improvement:: Introduce distinct branches in your version control system to reflect improvements.
 Category: <<Improve>>
 +
 
 . *<<Capture-Quality-Requirements, Capture Quality Requirements>>*
-Part of [[ATAM]], Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
+Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -90,11 +93,6 @@ Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
-. *<<Determine-Feature-Value, Determine Feature Value>>*
-+ 
-Determine the (monetary) value of a given feature. 
-Category: <<Evaluate>>
-+
 
 . [[Development-Process-Analysis]]
 Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
@@ -112,6 +110,18 @@ Document Problems:: See <<improvement-backlog, Improvement Backlog>>.
 Category: <<Crosscutting>>
 +
 
+
+. *<<Estimate-Feature-Value, Estimate Feature Value>>*
++
+Estimate the (monetary) value of a given feature, so you can compare features of the system with each other.
+Category: <<Evaluate>>
++
+
+. *<<Estimate-In-Interval, Estimate in Interval>>*
++
+Estimation differs from *measurement* in its inherent uncertainty. Therefore, estimate in intervals, giving lower and upper bounds. The difference between the two shows your confidence in the estimate. Low (relative) difference means high confidence. 
+Category: <<Evaluate>>
++
 
 . [[Estimate-Problem-Cost]]
 Estimate Problem Cost:: Estimate how much a given problem costs (in money or effort) in a period of time or a frequency. 
@@ -144,7 +154,12 @@ Failure Mode and Effects Analysis:: Systematically analyze postulated failures (
 Category: <<Evaluate>>
 +
 
-. [[Front-End-Switch]]
+. [[Fast-Feedback]]
+Fast-Feedback:: Evaluate the quality of work artifacts and processes as early as possible. Enables teams to apply corrective actions or take countermeasures as early as possible.
+Category: <<Crosscutting>>
++
+
+. [[Front-End-Switch]] 
 Front-End Switch:: Route front-end requests to either new or old backend systems, depending on their nature.
 Category: <<Improve>>
 +
@@ -321,7 +336,7 @@ Category: <<Improve>>
 
 . [[Root-Cause-Analysis]]
 Root-Cause Analysis:: _Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues. See <<pattern-root-cause-analysis, detailed description>>
-Category: <<Evaluate>>
+Category: <<Analyze>>
 +
 
 . [[Runtime-Analysis]]
@@ -348,7 +363,7 @@ Category: <<Improve>>
 
 . [[Separate-Cause-From-Effect]]
 Separate Cause from Effect:: See <<Root-Cause-Analysis>>
-Category: <<Evaluate>>
+Category: <<Analyze>>
 +
 
 . *<<Software-Archeology>>*
@@ -388,13 +403,14 @@ System Documentation:: Document relevant structures, concepts, decisions, interf
 Category: <<Analyze>>
 +
 
-. [[Take-What-They-Mean]]
+. *<<Take-What-They-Mean>>*
++
 Take What They Mean, Not What They Say:: Natural language has the risk, that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differ between people. Pattern provided by Phillip Ghadir (who is too humble to claim this discovery)
 Category: <<Analyze>>
 +
 
 . [[Toggle-Feature]]
-Toggle Feature:: Simultaneously support evolved, competing or conlicting features at runtime by toggling feature flags.
+Toggle Feature:: Simultaneously support evolved, competing or conflicting features at runtime by toggling feature flags.
 Category: <<Improve>>
 +
 

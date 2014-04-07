@@ -6,11 +6,11 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 === Goals
 
-. Obtain overview of intent, purpose and quality requirements of the system.
+. Obtain overview of intent, purpose and quality requirements of the system (<<SuD>>).
 
 . Develop and document an understanding of internal structures, concepts and architectural approaches.
 
-. Find all problems, issues, symptoms, risks or technical debt within the system, its operation, maintenance or otherwise related processes.
+. Find all problems, issues, symptoms, risks or technical debt within the system (<<SuD>>), its operation, maintenance or otherwise related processes.
 
 . Understand root causes of the problems found, potential interdependencies between issues
 
@@ -19,7 +19,7 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 Systematically look for such issues at various places and with various people.
 
-INFO: To effectively find issues, you need an appropriate amount of _understanding_ of the systems, its technical concepts, code-structure, inner workings, major external interfaces and its development process.
+INFO: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process.
 
 
 . Start <<capture-quality-requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
@@ -41,6 +41,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 (given in alphabetical order)
 
 * Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM>>
+* <<ATAM>>
 * <<Capture-Quality-Requirements>>
 * <<Context-Analysis>>
 * <<Data-Analysis>>
@@ -54,11 +55,13 @@ WARNING: Never start solving problems until you have a thourough understanding o
 * <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
 * <<Requirements-Analysis>>
 * <<Root-Cause-Analysis, Root Cause Analysis>> - finding the root-cause of problems
-* <<Runtime-Artifact-Analysis>>* 
+* <<Runtime-Artifact-Analysis>> 
+* <<Separate-Cause-From-Effect, Separate Cause From Effect>>
 * <<Software-Archaeology, Software Archeology>>
 * <<Stakeholder-Analysis>>
 * <<Stakeholder-Interview>>
 * <<Static-Code-Analysis>> (Structural analysis)
+* <<Take-What-They-Mean, Take What They Mean>> (not what they say, as it may differ).
 * <<Use-Case-Cluster>>
 * <<View-Based-Understanding, View Based Understanding>>
 

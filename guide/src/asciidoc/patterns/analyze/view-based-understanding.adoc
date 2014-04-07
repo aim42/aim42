@@ -2,7 +2,7 @@
 === View-Based Understanding 
 
 ==== Intent
-Understand the (code-) structure of the systems. Document (and communicate) this via
+Understand the inner workings and internal (code) structure of of the systems. Document (and communicate) this via
 architectural views, especially the building-block view.
 
 ==== Description	
@@ -14,6 +14,9 @@ architectural views, especially the building-block view.
    ** business context, mainly the external business interfaces
    ** technical context, the involved hardware and network structure
    ** known technology areas, ie. prodcts, programming languages or frameworks used
+
+[[figure-view-based-understanding]]
+image::view-based-understanding.jpg["View based understanding", title="Three main views (building block, runtime and deployment view)"]
 
 
 ==== Applicability
@@ -28,9 +31,8 @@ and reason about the code structure
 
 ==== Consequences
 
-* Structural overview of the larger units of source-code (subsystems, high-level components)
-and their relationships.
-* 
+* Explicit overview of the system context with the external interfaces.
+* Overview of the larger units of source-code (subsystems, high-level components) and their relationships.
 
 ==== Also Known As
 
