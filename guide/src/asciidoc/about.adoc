@@ -3,12 +3,12 @@
 == About aim42
 
 [role="lead"]
-aim 42 supports software evolution, maintenance and improvement - in a systematic and pragmatic way. 
+aim 42 supports software evolution, maintenance and improvement - in a systematic and pragmatic way.
 
 
 
 [NOTE]
--- 
+--
 http://aim42.org[aim42] is a collection of practices and patterns to support software evolution, maintenance, evolution and improvement of software systems:
 
 . Optimize your software and reduce maintenance cost
@@ -19,7 +19,7 @@ http://aim42.org[aim42] is a collection of practices and patterns to support sof
 --
 
 Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
-Version 0.3c, last update {docdate}
+Version 0.3d, last update {docdate}
 
 
 Our current build status: image:https://travis-ci.org/aim42/aim42.png?branch=master[unknown]
