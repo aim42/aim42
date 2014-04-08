@@ -43,6 +43,7 @@ Category: <<Improve>>
 +
 
 . *<<Capture-Quality-Requirements, Capture Quality Requirements>>*
++
 Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
 Category: <<Analyze>>
 +
