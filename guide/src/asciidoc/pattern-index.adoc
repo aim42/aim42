@@ -5,12 +5,11 @@ short description and links to the explanation.
 
 . [[Anticorruption-Layer]]
 Anticorruption layer:: Isolate clients from internal changes of suby-systems or modules. The original definition:
-    +
-    ""
-    Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models.
-    ""
-    +
-(Eric Evans, Domain Driven Design, page 365)
++
+[quote, Eric Evans]
+""    
+Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models. (Domain Driven Design, page 365)
+""
 Category: <<Improve>>
 +
 
