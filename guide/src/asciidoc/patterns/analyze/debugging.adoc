@@ -38,7 +38,7 @@ image::debugging-divide-and-conquer.jpg["Divide and conqer", title="Divide and c
 ==== Experiences
 If locating errors takes very long, you're propably facing one of the following issues:
 
-* You suffer from any assumption that's currently not valid
+* You suffer from any assumption that's currently not valid.
 * You _think_ something instead of _observing_ it - you let your mind deceive your eyes or ears.
 * You ignore the context: you test a wrong version, with wrong data or a wrong operating system. 
 
