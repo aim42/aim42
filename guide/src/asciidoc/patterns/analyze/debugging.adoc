@@ -4,7 +4,7 @@
 
 
 ==== Intent
-Identify the source of an error ( _bug_) or misbehavior by observing the flow of execution of a program in detail.
+Identify the source of an error (_bug_) or misbehavior by observing the flow of execution of a program in detail.
 
 
 TIP: Many software developers we met violated the basic rules of debugging. They worked in haste, took wrong assumptions, imagined-instead-of-read or simply hunted bugs at the wrong parts of the system.
@@ -27,7 +27,7 @@ image::debugging-divide-and-conquer.jpg["Divide and conqer", title="Divide and c
 
     .. *Plan your debugging strategy*: Think of the expected outcome of every part of 
        your scenario.  
-    .. If you know you're traveling to Pisa (Italy), you won't confuse the Leading Tower with an error.
+    .. If you know you're traveling to Pisa (Italy), you won't confuse the Leaning Tower with an error.
 +
 . *Look, don't imagine*: Sherlock Holmes, the succesful detective has formulated the golden rule of debugging: "_It's a capital mistake to theorize before one has data_". Look _exactly_ what the messages are, read carefully.
 . *Change only one thing at a time*: Aim for errors with a pistol, not with a scattergun.
@@ -38,7 +38,7 @@ image::debugging-divide-and-conquer.jpg["Divide and conqer", title="Divide and c
 ==== Experiences
 If locating errors takes very long, you're propably facing one of the following issues:
 
-* You suffer from any assumption that's currently not valid
+* You suffer from any assumption that's currently not valid.
 * You _think_ something instead of _observing_ it - you let your mind deceive your eyes or ears.
 * You ignore the context: you test a wrong version, with wrong data or a wrong operating system. 
 

@@ -3,16 +3,16 @@
 === Root-Cause Analysis 
 [quote, W. Edwards Deming]
 To find mistakes is not enough. It is necessary to find the cause behind the mistake
-and build a system that minimises future mistakes. 
+and build a system that minimizes future mistakes. 
 
 ==== Intent
-Explicitely differentiate between symptom and cause: 
+Explicitly differentiate between symptom and cause: 
 
 * Identify root causes of symptoms, problems or issues
 * Trace a problem to its origins
 
 ==== Description
-Some people fight problems, not their real cause: When faced with a problem our brains tend to start immediatly to search for proper solutions for exactly this problem. E.g., if our application regularly crashes with Out-Of-Memory-Errors it might be a reflex to increase the memory settings. Instead we should ask if this is really the problem or only a sympton of the real problem, e.g. a programming failure in memory releasing. With an iterative process of asking "Why?" the causal chain must be traced down to the root cause.
+Some people fight problems, not their real cause: When faced with a problem our brains tend to start immediately to search for proper solutions for exactly this problem. For instance, if our application regularly crashes with Out-Of-Memory-Errors it might be a reflex to increase the memory settings. Instead we should ask if this is really the problem or only a symptom of the real problem, e.g. a programming failure in memory releasing. With an iterative process of asking "Why?" the causal chain must be traced down to the root cause.
 
 ==== Experiences 
 
@@ -39,7 +39,7 @@ This pattern should always be considered when faced with a problem.
 
 ==== Consequences
 
-You can eleminate the cause, 
+You can eliminate the cause.
 
 
 ==== Also Known As

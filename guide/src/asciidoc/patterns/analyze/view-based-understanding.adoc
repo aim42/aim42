@@ -5,15 +5,15 @@
 Understand the inner workings and internal (code) structure of of the systems. Document (and communicate) this via
 architectural views, especially the building-block view.
 
-==== Description	
+==== Description
 
-* Apply arc42 views.
+* Apply arc42 views
 * Apply static-code-analysis
 * Interview technical stakeholders
 * Start either from the 
    ** business context, mainly the external business interfaces
    ** technical context, the involved hardware and network structure
-   ** known technology areas, ie. prodcts, programming languages or frameworks used
+   ** known technology areas, i.e. products, programming languages or frameworks used
 
 [[figure-view-based-understanding]]
 image::view-based-understanding.jpg["View based understanding", title="Three main views (building block, runtime and deployment view)"]
@@ -46,4 +46,3 @@ and reason about the code structure
 
 * arc42
 * Kruchten
-* 

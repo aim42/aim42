@@ -102,7 +102,7 @@ call it the _software improvement domain_.
 [[figure-fundamental-concepts]]
 image::aim42-concepts-overview.jpeg["aim42 fundamental concepts"]
 
-Problem::, also called issue. 
+Problem, issue::
 
 Cause:: 
 
@@ -110,7 +110,8 @@ Cost::
 
 Remedy::
 
-Risk::
+Risk:: {empty} +
+
 
 === Patterns and Practices Provide No Guarantee
 We are *very* sure that aim42 can work for your system or your organization. 
