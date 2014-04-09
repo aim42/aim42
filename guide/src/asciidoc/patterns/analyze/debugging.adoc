@@ -4,7 +4,7 @@
 
 
 ==== Intent
-Identify the source of an error ( _bug_) or misbehavior by observing the flow of execution of a program in detail.
+Identify the source of an error (_bug_) or misbehavior by observing the flow of execution of a program in detail.
 
 
 TIP: Many software developers we met violated the basic rules of debugging. They worked in haste, took wrong assumptions, imagined-instead-of-read or simply hunted bugs at the wrong parts of the system.
