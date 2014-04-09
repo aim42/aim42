@@ -27,7 +27,7 @@ image::debugging-divide-and-conquer.jpg["Divide and conqer", title="Divide and c
 
     .. *Plan your debugging strategy*: Think of the expected outcome of every part of 
        your scenario.  
-    .. If you know you're traveling to Pisa (Italy), you won't confuse the Leading Tower with an error.
+    .. If you know you're traveling to Pisa (Italy), you won't confuse the Leaning Tower with an error.
 +
 . *Look, don't imagine*: Sherlock Holmes, the succesful detective has formulated the golden rule of debugging: "_It's a capital mistake to theorize before one has data_". Look _exactly_ what the messages are, read carefully.
 . *Change only one thing at a time*: Aim for errors with a pistol, not with a scattergun.
