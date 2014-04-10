@@ -1,4 +1,5 @@
 :numbered!:
+:linkattrs:
 
 [appendix]
 == Asciidoc Help
@@ -25,6 +26,15 @@ https://github.com/aim42/aim42/issues/20[an external resource]
 ----
 
 https://github.com/aim42/aim42/issues/20[an external resource]
+
+
+Link to files / artifacts in new browser window/tab:
+
+----
+link:./resources/readme-directory.md[readme]
+----
+
+link:./resources/readme-directory.md[readme]
 
 === Anchor
 
