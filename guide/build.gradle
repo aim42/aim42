@@ -65,6 +65,9 @@ task copyResources(
     into './build/docs/resources'
 }
 
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.10'
+}
 
 task aim42(
     dependsOn: [copyResources, copyImages, asciidoctor],
