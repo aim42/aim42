@@ -8,7 +8,7 @@ To facilitate contributions we summarize the AsciiDoc (respectively AsciiDoctor)
 
 === Headings
 
-=== Cross-References and Links
+=== Cross-References
 
 
 <<some-anchor,explanation>> creates a link to the explanation of some-anchor.
@@ -18,6 +18,15 @@ can use the cross-reference in a list, but not with labelled-list:
 . <<some-anchor, pattern name>>  labelled-list with cross-reference does not work
 . *<<some-anchor, cross-references>>* need to be boldface-formatted manualy   
 
+
+=== (external) Links
+----
+https://github.com/aim42/aim42/issues/20[an external resource]
+----
+
+https://github.com/aim42/aim42/issues/20[an external resource]
+
+=== Anchor
 
 [[some-anchor]]
 here we explain 'some-anchor' topic...
