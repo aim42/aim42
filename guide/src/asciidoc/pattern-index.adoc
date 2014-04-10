@@ -407,7 +407,7 @@ Category: <<Analyze>>
 
 . *<<Take-What-They-Mean>>*
 +
-Take What They Mean, Not What They Say:: Natural language has the risk, that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differ between people. Pattern provided by Phillip Ghadir (who is too humble to claim this discovery)
+Natural language has the risk, that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differ between people. Pattern provided by Phillip Ghadir (who is too humble to claim this discovery)
 Category: <<Analyze>>
 +
 
