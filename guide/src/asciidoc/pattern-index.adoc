@@ -280,8 +280,9 @@ Performance Analysis::
 Category: <<Analyze>>
 +
 
-. [[Pre-Interview-Questionnaire]]
-Pre-Interview-Questionnaire:: Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. A specialisation of <<Questionnaire>>.
+. *<<Pre-Interview-Questionnaire>>*
++
+Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. A specialisation of <<Questionnaire>>.
 Category: <<Analyze>>
 +
 
@@ -291,7 +292,8 @@ Category: <<Analyze>>
 +
 
 . *<<Qualitative-Analysis, Qualitative Analysis>>*
-Qualitative Analysis:: See <<Quality-Requirements>>
++
+See <<Quality-Requirements>>
 Category: <<Analyze>>
 +
 
@@ -389,7 +391,7 @@ Stakeholder Specific Communication:: Communicate with stakeholders by actively a
 
 . *<<Static-Code-Analysis>>*
 +
-Analyse source code to identivy building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties.
+Analyse source code to identify building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties.
 Category: <<Analyze>>
 +
 
