@@ -1,3 +1,4 @@
+
 [[Facade]]
 
 === Manage complex client dependencies with a Facade

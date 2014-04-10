@@ -1,0 +1,40 @@
+[[Pre-Interview-Questionnaire]]
+=== Pre-Interview Questionnaire 
+
+==== Intent
+Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. 
+
+==== Description
+A specialisation of <<Questionnaire, questionnaire>> - targeted to be used by stakeholders (aka your interview partners).
+
+As with the more general <<Questionnaire, questionnaire>> you need to collect appropriate topics, questions and suggestions.
+
+Remember to apply <<Stakeholder-Specific-Communication, stakeholder-specific communication>>: It might be useful to create different questionnaires per stakeholder or stakeholder-group. That's more work for you as interviewer, but will lead to better interview results.
+
+Mix open and closed questions:
+
+* open questions require stakeholders to formulate answers on their own. For example "How did you...?" or "Please explain...?"
+* closed questions ask stakeholders to select from several predefined choices.
+
+Include a "Comments/Remarks" section at the end of the questionnaire, so stakeholders can comment on topics you did not consider in advance.
+
+The pre-interview questionnaire shall be handed over to the appropriate stakeholders in advance, a few days before the interview.
+
+As these documents will be read and processed by external and potentially critical stakeholders, you need to care for several details:
+
+* stakeholder specific terminology: Ensure your questions will be understandable by the target audience. See <<Stakeholder-Specific-Communication, stakeholder-specific communication>>
+* Ensure nice layout and (visual) readability. Your questionnaire shall be fun to work with.
+* Ensure timely delivery to your stakeholders, so they have enough time to think about their answers. Do never force your stakeholders to answer questions under time pressure.
+ 
+
+==== Examples
+TODO: add one sample for download (https://github.com/aim42/aim42/issues/20)
+
+==== Also Known As
+* Interview checklist
+
+
+==== Related Patterns
+* <<stakeholder-interview, Stakeholder interview>>
+* <<Questionnaire>>
+
