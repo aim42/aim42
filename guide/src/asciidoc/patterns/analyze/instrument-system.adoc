@@ -1,0 +1,52 @@
+[[instrument-source-code]]
+
+=== Instrument System
+
+// TODO: MM: Find some witty reference to make the pattern more memorable
+
+Use retroactive modification of the executables which target
+cross-cutting concerns to make the existing software-base tell about it's
+internals. Ways to achieve this can include <<Aspect-Oriented-Programming,
+Aspect Oriented Programming (AOP)>>, <<Monkey-Patching, Money Patching>> and
+other <<meta-programming, meta programming>> techniques.
+
+==== Intent
+
+Find out how the system is really used and what the runtime relationships are,
+as well as other facts that can not be easily determined by
+<<Static-Code-Analysis>> even in situation where the system under design is
+largely undocumented and the architecture work thus mostly relies on
+assumptions, interviews and lore.
+
+==== Description
+In many languages today it is possible to define operation that alter the
+behavior of certain structures in the system without modifying the original
+source code. In Java this is often done by byte code instrumentation, in Ruby,
+PHP and some other languages there are built in mechanisms to (re-) define the
+behavior of system classes or libraries. 
+
+In theory instrumentig the 
+Instrumenting the system under design therefore 
+
+In some languages it may be necessary to modify a dynamically linked library
+with central operations to introduce 
+
+==== Experiences
+
+WARNING: even if used cautiously, the instrumention the system under design can
+entail heavy performance penalties (on execution time, space used, bandwith
+etc.) so alway make sure that there is a quick way to switch back to the
+original un-instrumented version.
+
+==== Applicability
+The pattern is almost universally applicable as long as there is a way to
+introduce instrumentation to the executable and <<operations>> can be
+convinced that it is possible to to switch back from the instrumented version
+real fast.
+
+
+==== Related Patterns
+* <<Static-Code-Analysis>>
+* <<Runtime-Artifact-Analysis>>
+* <<Software-Archeology>>
+* <<Use-Invariants-To-Kill-Zombies>>
