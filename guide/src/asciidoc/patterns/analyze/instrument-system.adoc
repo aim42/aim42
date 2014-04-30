@@ -7,7 +7,7 @@
 Use retroactive modification of the executables which target
 cross-cutting concerns to make the existing software-base tell about it's
 internals. Ways to achieve this can include <<Aspect-Oriented-Programming,
-Aspect Oriented Programming (AOP)>>, <<Monkey-Patching, Money Patching>> and
+Aspect Oriented Programming (AOP)>>, <<Monkey-Patching, Monkey Patching>> and
 other <<meta-programming, meta programming>> techniques.
 
 ==== Intent
@@ -43,20 +43,22 @@ must be found for each scenario.
 
 While tools like AspectJ provide easy ways to instrument Java-Code and Ruby’s
 metaprogramming model allows for easy introduction of crosscutting functionality
-the same gets harder to do with other languages.  In some languages it may be
+the same gets harder to do with other languages. In some languages it may be
 necessary to modify a dynamically linked library with central operations to
 introduce instrumentation without modifying the original system. 
 
 [TIP]
 --
 A special form of this pattern, especially useful for interpreted languages, is
-_instrument source code manually_. Basically all you do here is manually type in
-the code to collect the information you're interested in. 
+_instrumenting the source code manually_. Basically all you do here is manually type in
+the code to collect the information you're interested in. In this case it is
+especially important to have a tried and tested way to replace the instrumented
+system back with the original system!
 --
 
 ==== Experiences
 
-WARNING: even if used cautiously, the instrumention the system under design can
+WARNING: even if used cautiously, the instrumentation the system under design can
 entail heavy performance penalties (on execution time, space used, bandwith
 etc.) so alway make sure that there is a quick way to switch back to the
 original un-instrumented version.
