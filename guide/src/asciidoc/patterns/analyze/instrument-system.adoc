@@ -1,4 +1,4 @@
-[[instrument-source-code]]
+[[instrument-system]]
 
 === Instrument System
 
@@ -25,11 +25,34 @@ source code. In Java this is often done by byte code instrumentation, in Ruby,
 PHP and some other languages there are built in mechanisms to (re-) define the
 behavior of system classes or libraries. 
 
-In theory instrumentig the 
-Instrumenting the system under design therefore 
+In theory instrumenting the system therefore is a straightforward process
+* Identify and describe the concern that shall be explored (e.g.
+  obectect-creation, function entries and exits, code execution or somethings
+  else that can be described in the terms of the mechanism used).
+* Write the code that collects the data about the system behavior (e.g. sends it
+  to a syslog, writes it to a file, sends it to a dedicated server, creates an
+  SNMP Trap etc.)
+* Use the (language specific) mechanism to create the instrumented version of
+  the system
+* Replace (part of) the currently operational system with the instrumented version
+* Collect the data
+* Replace the instrumented version with the previously operational version
 
-In some languages it may be necessary to modify a dynamically linked library
-with central operations to introduce 
+In real life, since the mechanisms of instrumentation vary widely, specific ways
+must be found for each scenario. 
+
+While tools like AspectJ provide easy ways to instrument Java-Code and Ruby’s
+metaprogramming model allows for easy introduction of crosscutting functionality
+the same gets harder to do with other languages.  In some languages it may be
+necessary to modify a dynamically linked library with central operations to
+introduce instrumentation without modifying the original system. 
+
+[TIP]
+--
+A special form of this pattern, especially useful for interpreted languages, is
+_instrument source code manually_. Basically all you do here is manually type in
+the code to collect the information you're interested in. 
+--
 
 ==== Experiences
 
