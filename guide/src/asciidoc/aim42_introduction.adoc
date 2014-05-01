@@ -54,7 +54,7 @@ These negative effects share a few common root-causes:
 . overly _complex internal structure_, either of source code or data
 . overly _complex concepts_ (crosscutting solutions for fine-grained problems)
 . overly complex or inappropriate internal processes
-. inapropriate selection of _technology_ (_frameworks, libraries or languages_)
+. inappropriate selection of _technology_ (_frameworks, libraries or languages_)
 . (you can surely find a few more...)
 
 
