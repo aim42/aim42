@@ -100,17 +100,36 @@ aim42 relies on a common terminology, a small set of fundamental concepts. You m
 call it the _software improvement domain_. 
 
 [[figure-fundamental-concepts]]
-image::aim42-concepts-overview.jpeg["aim42 fundamental concepts"]
+image::aim42-concepts-overview.jpeg["aim42 fundamental concepts", title="Software Architecture Improvement Domain Model"]
 
-Problem, issue::
+[width="80%",cols="3s,10"]
+|=========================================================
 
-Cause:: 
+|Problem, Issue | 
+Might be problem, issue or fault within system or processes related to system
+(e.g. management, development, administrative or organizational process)
 
-Cost::
+|Cause | 
+Fundamental reason for one or several problems.
 
-Remedy::
+|Remedy | 
+Solution or cure for one or several problems or causes.
 
-Risk:: {empty} +
+|Cost (of problem) | 
+The cost (in monetary units, e.g. Euro or $) of the problem, related to a
+frequency or period of time. For example – cost of every occurrence of problem,
+or recurring cost per week.
+
+|Cost (of remedy) | 
+The cost (in monetary units) of the remedy, tactic or strategy.
+
+|Prio(rity) | 
+The relative or absolute priority of the problem or remedy.
+
+|Risk | 
+Potential problem or issue. Remedies can have associated risks.
+
+|=========================================================
 
 
 === Patterns and Practices Provide No Guarantee
