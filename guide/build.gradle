@@ -77,7 +77,7 @@ task aim42(
 
 
 task publish(type: GradleBuild) {
-    travisPr = System.getenv('TRAVIS_PULL_REQUEST')
+    String travisPr = System.getenv('TRAVIS_PULL_REQUEST')
     if ("false".equals(travisPr)) {
         buildFile = 'publish.gradle'
         tasks = ['publishGhPages']
