@@ -3,9 +3,8 @@ install: ''
 script:
 - export TERM=dumb
 - cd guide/
-- "./gradlew wrapper"
-- "./gradlew clean aim42 --stacktrace"
-- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && ./gradlew publish --stacktrace || false'
+- './gradlew wrapper'
+- './gradlew clean aim42 publish --stacktrace'
 jdk:
 - openjdk7
 env:
