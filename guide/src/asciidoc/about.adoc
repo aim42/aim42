@@ -13,13 +13,13 @@ http://aim42.org[aim42] is a collection of practices and patterns to support sof
 
 . Optimize your software and reduce maintenance cost
 . Control risks, issues and technical debt
-. Organizes patterns and practices in three phases (<<analyze, analyze>>, <<evaluate, evaluate>> and <<improve, improve>>)
-. Free and open-source, <<contributions, contributions>> welcome.
+. Organizes patterns and practices in three phases (<<analyze>>, <<evaluate>> and <<improve>>)
+. Free and open-source, <<contributions>> welcome.
 . Grounded in practice , proven approaches, backed by serious research.
 --
 
 Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
-Version 0.3d, last update {docdate}
+Version 0.3e, last update {docdate}
 
 
 Our current build status: image:https://travis-ci.org/aim42/aim42.png?branch=master[unknown]
