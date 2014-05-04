@@ -3,7 +3,8 @@ install: ''
 script:
 - export TERM=dumb
 - cd guide/
-- "./gradlew wrapper clean aim42 publish --stacktrace"
+- './gradlew wrapper'
+- './gradlew clean aim42 publish --stacktrace'
 jdk:
 - openjdk7
 env:

@@ -77,11 +77,12 @@ task aim42(
 
 
 task publish(type: GradleBuild) {
-    if (System.getenv('GH_TOKEN') != '') {
+    String travisPr = System.getenv('TRAVIS_PULL_REQUEST')
+    if ("false".equals(travisPr)) {
         buildFile = 'publish.gradle'
         tasks = ['publishGhPages']
     } else {
-        println 'env var GH_TOKEN not set, won\'t publish!'
+        println 'env var TRAVIS_PULL_REQUEST says we build for PR #' + travisPr + ', won\'t publish docs!'
     }
 }
 
