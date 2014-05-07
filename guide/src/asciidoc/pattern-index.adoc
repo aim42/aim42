@@ -44,7 +44,7 @@ Category: <<Improve>>
 
 . *<<Capture-Quality-Requirements, Capture Quality Requirements>>*
 +
-Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
+Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis, Requirements Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -72,7 +72,7 @@ Category: <<Crosscutting>>
 
 . [[Context-Analysis]]
 Context Analysis:: Analyse external interfaces for risk, technology, business value and other factors.
-Category: <<Evaluate>>
+Category: <<Analyze>>
 +
 
 . [[Data-Analysis]]
@@ -205,7 +205,7 @@ Category: <<Crosscutting>>
 . [[Instrument-System]]
 Instrument-System:: Instrument either the executable or the source code to make 
 <<Explicit-Assumption, assumtions explicit>> and expand on <<runtime analysis>> and 
-<<runtime artifact analysis>>. 
+<<Runtime-Artifact-Analysis, Runtime Artifact Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -280,7 +280,7 @@ Performance Analysis::
 Category: <<Analyze>>
 +
 
-. *<<Pre-Interview-Questionnaire>>*
+. *<<Pre-Interview-Questionnaire, Pre Interview Questionnaire>>*
 +
 Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. A specialisation of <<Questionnaire>>.
 Category: <<Analyze>>
@@ -347,9 +347,9 @@ Category: <<Analyze>>
 +
 
 . [[Runtime-Artifact-Analysis]]
-Runtime-Artifact Analysis:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
+Runtime Artifact Analysis:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
 Category: <<Analyze>>
-// TODO: perhaps Log-Anasysis deserves a separate entry? Especially in security
+// TODO: perhaps Log-Analysis deserves a separate entry? Especially in security
 // sensitiv environments? MM 2014-03-16 
 +
 
@@ -368,7 +368,7 @@ Separate Cause from Effect:: See <<Root-Cause-Analysis>>
 Category: <<Analyze>>
 +
 
-. *<<Software-Archeology>>*
+. *<<Software-Archeology, Software Archeology>>*
 +
 Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
 Category: <<Evaluate>>
@@ -423,7 +423,7 @@ Category: <<Improve>>
 
 
 . [[Use-Case-Cluster]]
-Use-Case Cluster:: Understand system functionality by grouping functionality into clusters to reduce complexity.
+Use Case Cluster:: Understand system functionality by grouping functionality into clusters to reduce complexity.
 Category: <<Analyze>>
 +
 

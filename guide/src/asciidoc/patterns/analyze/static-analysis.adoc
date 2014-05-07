@@ -34,7 +34,7 @@ Apply static code analysis when the code base is medium sized or large and the a
 
 ==== Related Patterns
 * <<Software-Archeology>>
-* <<Structural-Analysis>>
+* <<Structural-Analysis, Structural (Code) Analysis>>
 
 
 ==== References

@@ -23,8 +23,8 @@ Apply this pattern whenever you communicate to other people (aka stakeholders).
 
 
 ==== Related Patterns
-* In every <<Stakeholder-Interview>> you should apply this pattern. 
-* <<Stakeholder-Analysis>> to find out, who are the important stakeholders you should apply this pattern to.
+* In every <<Stakeholder-Interview, Stakeholder Interview>> you should apply this pattern. 
+* <<Stakeholder-Analysis, Stakeholder Analysis>> to find out, who are the important stakeholders you should apply this pattern to.
 
 ==== References
 Special thanx to Phillip Ghadir (who is too humble to claim this discovery) for giving this pattern its name. 

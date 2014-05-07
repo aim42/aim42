@@ -1,5 +1,5 @@
 [[Pre-Interview-Questionnaire]]
-=== Pre-Interview Questionnaire 
+=== Pre Interview Questionnaire 
 
 ==== Intent
 Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. 
@@ -18,8 +18,8 @@ Mix open and closed questions:
 
 Include a "Comments/Remarks" section at the end of the questionnaire, so stakeholders can comment on topics you did not consider in advance.
 
-The pre-interview questionnaire shall be handed over to the appropriate stakeholders in advance, a few days before the interview.
-
+The <<Pre-Interview-Questionnaire, Pre Interview Questionnaire>> shall be handed over to the appropriate stakeholders in advance, a few days before the interview.
+    
 As these documents will be read and processed by external and potentially critical stakeholders, you need to care for several details:
 
 * stakeholder specific terminology: Ensure your questions will be understandable by the target audience. See <<Stakeholder-Specific-Communication, stakeholder-specific communication>>
@@ -40,6 +40,6 @@ TODO: add EN sample for download (https://github.com/aim42/aim42/issues/20)
 
 
 ==== Related Patterns
-* <<stakeholder-interview, Stakeholder interview>>
+* <<Stakeholder-Interview, Stakeholder Interview>>
 * <<Questionnaire>>
 

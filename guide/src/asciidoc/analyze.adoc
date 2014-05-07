@@ -22,10 +22,10 @@ Systematically look for such issues at various places and with various people.
 TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process.
 
 
-. Start <<capture-quality-requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
-. Conduct a <<Qualitative-Analysis,qualitative analysis>> of the system, its architecture and surrounding organization, based upon the specific quality requirements 
+. Start <<Capture-Quality-Requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
+. Conduct a <<Qualitative-Analysis, qualitative analysis>> of the system, its architecture and surrounding organization, based upon the specific quality requirements 
 . Perform <<Static-Code-Analysis, static code analysis>>
-. Conduct <<Stakeholder-Interviews, stakeholder interviews>>
+. Conduct <<Stakeholder-Interview, stakeholder interviews>>
 . Perform a number of *runtime analysis*, e.g. performance and load monitoring, process and thread analysis
 . Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
 . Inspect and analyze all involved organizational processes
@@ -40,29 +40,30 @@ WARNING: Never start solving problems until you have a thourough understanding o
 === Patterns and Practices for Analysis
 (given in alphabetical order)
 
-* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM>>
-* <<ATAM>>
+* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM, ATAM>>
+* <<ATAM, ATAM>>
 * <<Capture-Quality-Requirements>>
-* <<Context-Analysis>>
-* <<Data-Analysis>>
+* <<Context-Analysis, Context Analysis>>
+* <<Data-Analysis, Data Analysis>>
 * <<Debugging>>
-* <<Development-Process-Analysis>>
-* <<Documentation-Analysis>>
-* <<Issue-Tracker-Analysis>>
-* <<Profiling>>
+* <<Development-Process-Analysis, Development Process Analysis>>
+* <<Documentation-Analysis, Documentation Analysis>>
+* <<Issue-Tracker-Analysis, Issue Tracker Analysis>>
+* <<Profiling, Profiling>>
 * <<Qualitative-Analysis>>
-* <<Quantitative-Analysis>>
+* <<Quantitative-Analysis, Quantitative Analysis>>
 * <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
-* <<Requirements-Analysis>>
+* <<Requirements-Analysis, Requirements Analysis>>
 * <<Root-Cause-Analysis, Root Cause Analysis>> - finding the root-cause of problems
-* <<Runtime-Artifact-Analysis>> 
+* <<Runtime-Artifact-Analysis, Runtime Artifact Analysis>> 
 * <<Separate-Cause-From-Effect, Separate Cause From Effect>>
-* <<Software-Archaeology, Software Archeology>>
-* <<Stakeholder-Analysis>>
-* <<Stakeholder-Interview>>, see also <<pre-interview-questionnaire, pre-interview questionnaire>>.
-* <<Static-Code-Analysis>> (Structural analysis)
+* <<Software-Archeology>>
+* <<Stakeholder-Analysis, Stakeholder Analysis>>
+* <<Stakeholder-Interview, Stakeholder Interview>>, see also <<Pre-Interview-Questionnaire>>.
+* <<Static-Code-Analysis>>
+* <<Structural-Analysis, Structural (Code) Analysis>>
 * <<Take-What-They-Mean, Take What They Mean>> (not what they say, as it may differ).
-* <<Use-Case-Cluster>>
+* <<Use-Case-Cluster, Use Case Cluster>>
 * <<View-Based-Understanding, View Based Understanding>>
 
 
