@@ -84,7 +84,7 @@ Category: <<Analyze>>
 . *<<Debugging>>*
 +
 Identify the source of a bug or misbehavior by observing the
-detailed flow of execution, e.g. stepwise execution of program statements. Usually supported by _debugger_. Specialisation of <<pattern-root-cause-analysis, root cause analysis>>.
+detailed flow of execution, e.g. stepwise execution of program statements. Usually supported by _debugger_. Specialisation of <<Root-Cause-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -93,6 +93,10 @@ Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
+. [[Determine-Feature-Value]]
+Determine Feature Value:: TODO: Add description here.
+Category: <<Evaluate>>
++
 
 . [[Development-Process-Analysis]]
 Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
@@ -123,13 +127,15 @@ Estimation differs from *measurement* in its inherent uncertainty. Therefore, es
 Category: <<Evaluate>>
 +
 
-. [[Estimate-Problem-Cost]]
-Estimate Problem Cost:: Estimate how much a given problem costs (in money or effort) in a period of time or a frequency. 
+. *<<Estimate-Problem-Cost>>*
++
+Estimate how much a given problem costs (in money or effort) in a period of time or a frequency. 
 Category: <<Evaluate>>
 +
 
-. [[Estimate-Remedy-Cost]]
-Estimate Remedy Cost:: Determine how much a specific remedy (a set of actions taken to eliminate or reduce a specific problem or issue) is likely to cost (in money and/or effort).
+. *<<Estimate-Remedy-Cost>>*
++
+Determine how much a specific remedy (a set of actions taken to eliminate or reduce a specific problem or issue) is likely to cost (in money and/or effort).
 Category: <<Evaluate>>
 +
 
@@ -149,8 +155,8 @@ Identify quality issues as early as possible and aim to fix them.
 Category: <<Crosscutting>>
 +
 
-. [[Failure-Mode-and-Effects-Analysis]]
-Failure Mode and Effects Analysis:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
+. [[Failure-Mode-And-Effect-Analysis]]
+Failure Mode and Effect Analysis:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
 Category: <<Evaluate>>
 +
 
@@ -293,7 +299,7 @@ Category: <<Analyze>>
 
 . *<<Qualitative-Analysis, Qualitative Analysis>>*
 +
-See <<Quality-Requirements>>
+See <<Quality-Requirements>>.
 Category: <<Analyze>>
 +
 
@@ -336,13 +342,14 @@ Remove Nested Control Structures:: Re-structure code so that deeply nested or co
 Category: <<Improve>>
 +
 
-. [[Root-Cause-Analysis]]
-Root-Cause Analysis:: _Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues. See <<pattern-root-cause-analysis, detailed description>>
+. *<<Root-Cause-Analysis>>*
++
+_Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues.
 Category: <<Analyze>>
 +
 
 . [[Runtime-Analysis]]
-Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>
+Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -364,14 +371,14 @@ Category: <<Improve>>
 +
 
 . [[Separate-Cause-From-Effect]]
-Separate Cause from Effect:: See <<Root-Cause-Analysis>>
+Separate Cause From Effect:: See <<Root-Cause-Analysis>>.
 Category: <<Analyze>>
 +
 
 . *<<Software-Archeology, Software Archeology>>*
 +
 Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
-Category: <<Evaluate>>
+Category: <<Analyze>>
 +
 
 . [[Stakeholder-Analysis]]

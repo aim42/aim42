@@ -1,6 +1,6 @@
-[[pattern-root-cause-analysis]]
+[[Root-Cause-Analysis]]
 
-=== Root-Cause Analysis 
+=== Root Cause Analysis 
 [quote, W. Edwards Deming]
 To find mistakes is not enough. It is necessary to find the cause behind the mistake
 and build a system that minimizes future mistakes. 
@@ -45,7 +45,7 @@ You can eliminate the cause.
 ==== Also Known As
 
 * Inspect-Cause
-* Separate cause from effect
+* <<Separate-Cause-From-Effect, Separate Cause From Effect>>
 
 ==== Related Patterns
 * <<Take-What-They-Mean>>, maybe what they told you was not the real problem.

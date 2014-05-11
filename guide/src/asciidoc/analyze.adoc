@@ -40,7 +40,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 === Patterns and Practices for Analysis
 (given in alphabetical order)
 
-* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM, ATAM>>
+* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM, ATAM>>.
 * <<ATAM, ATAM>>
 * <<Capture-Quality-Requirements>>
 * <<Context-Analysis, Context Analysis>>
@@ -54,7 +54,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 * <<Quantitative-Analysis, Quantitative Analysis>>
 * <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
 * <<Requirements-Analysis, Requirements Analysis>>
-* <<Root-Cause-Analysis, Root Cause Analysis>> - finding the root-cause of problems
+* <<Root-Cause-Analysis>> - finding the root cause of problems
 * <<Runtime-Artifact-Analysis, Runtime Artifact Analysis>> 
 * <<Separate-Cause-From-Effect, Separate Cause From Effect>>
 * <<Software-Archeology>>
@@ -67,7 +67,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 * <<View-Based-Understanding, View Based Understanding>>
 
 
-// the detailed description of tha analysis-patterns
+// the detailed description of the analysis-patterns
 
 include::patterns/analyze/capture-quality-requirements.adoc[]
 
