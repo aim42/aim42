@@ -16,8 +16,9 @@ to the client's needs.
 
 ==== Applicability
 Apply when
-* clients only require a restricted functionality from a complex service
-* you have to deal with low cohesion components you cannot change.
+
+* clients only require a restricted functionality from a complex service,
+* you have to deal with low cohesion components you cannot change
 
 ==== Consequences
 

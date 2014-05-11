@@ -54,7 +54,7 @@ These negative effects share a few common root-causes:
 . overly _complex internal structure_, either of source code or data
 . overly _complex concepts_ (crosscutting solutions for fine-grained problems)
 . overly complex or inappropriate internal processes
-. inapropriate selection of _technology_ (_frameworks, libraries or languages_)
+. inappropriate selection of _technology_ (_frameworks, libraries or languages_)
 . (you can surely find a few more...)
 
 
@@ -72,17 +72,6 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 
 === How does aim42 work? 
 
-
-[[SuD]]
-==== System Under Design (SuD)
-
-
-[NOTE] 
---
-Within aim42 we call the system to be improved (maintained, enhanced, optimized) _System under Design (SuD)_, as this term is common within the software architecture community.
-
-A system under design (SuD) can comprise software, hardware and organizational or business processes related to the system, its management, development, maintenance or operation.
---
 
 ==== Three Simple Phases 
 
@@ -108,10 +97,39 @@ image::iterate-phases.jpg["iterate phases", title="Iterate Between Phases"]
 
 ==== Fundamental Concepts
 aim42 relies on a common terminology, a small set of fundamental concepts. You may even
-call it the _software improvement domain_.
+call it the _software improvement domain_. 
 
 [[figure-fundamental-concepts]]
-image::aim42-concepts-overview.jpeg["aim42 fundamental concepts"]
+image::aim42-concepts-overview.jpeg["aim42 fundamental concepts", title="Software Architecture Improvement Domain Model"]
+
+[width="80%",cols="3s,10"]
+|=========================================================
+
+|Problem, Issue | 
+Might be problem, issue or fault within system or processes related to system
+(e.g. management, development, administrative or organizational process)
+
+|Cause | 
+Fundamental reason for one or several problems.
+
+|Remedy | 
+Solution or cure for one or several problems or causes.
+
+|Cost (of problem) | 
+The cost (in monetary units, e.g. Euro or $) of the problem, related to a
+frequency or period of time. For example – cost of every occurrence of problem,
+or recurring cost per week.
+
+|Cost (of remedy) | 
+The cost (in monetary units) of the remedy, tactic or strategy.
+
+|Prio(rity) | 
+The relative or absolute priority of the problem or remedy.
+
+|Risk | 
+Potential problem or issue. Remedies can have associated risks.
+
+|=========================================================
 
 
 === Patterns and Practices Provide No Guarantee

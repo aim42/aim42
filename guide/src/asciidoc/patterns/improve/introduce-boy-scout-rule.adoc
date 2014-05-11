@@ -9,7 +9,7 @@ The ``Boy Scout Rule'' for software development basically states that we
 Uncle Bob (Robert C. Martin) proposed this adoption of the rule from the boy
 scout rulebook which reads ``Try and leave this world a little better than you
 found it.'' for the software development world in an article in Kevlin Henney's
-``97things a programmer should know'' <<Henney>>.
+``97 Things a Programmer Should Know'' <<Henney>>.
 
 
 ==== Intent
@@ -66,7 +66,7 @@ Item.COMPOUND_ITEMS_THRESHHOLD)+
 
 ==== Experiences
 
-Introducing the Boy Scout Rule on a heavily detoriated code base
+Introducing the Boy Scout Rule on a heavily deteriorated code base
 induces heavy payback on <<technical-debt>> and often gets challenged
 by team members and senior management. It is important to point out
 that the extended time spent on fixing the artifacts ``as the teams
@@ -75,22 +75,22 @@ interest rate.
 
 ==== Risks
 
-Sometimes the boy scout rule can be taken as a means by itself. In
+Sometimes the Boy Scout Rule can be taken as a means by itself. In
 these cases the higher goals tend to be forgotten and thus 
 
 ==== Applicability
 
 The pattern ``Introduce Boy Scout Rule'' can always be applied. +
-Some of the most effektive uses are
+Some of the most effective uses are
 
 * unstructured code (no layers, no separation of concerns etc.)
 
-* systematic weaknesses (unsecure logging, unsecure handling of
+* systematic weaknesses (insecure logging, insecure handling of
   database inserts etc.
 
 ==== Consequences
 
-The introducion the Boy Scout Rule often proved to enable structural
+The introduction the Boy Scout Rule often proved to enable structural
 improvements as a prerequisite for higher level architectural
 improvements. Also it heightens the team's awareness of good practices
 in their code base.

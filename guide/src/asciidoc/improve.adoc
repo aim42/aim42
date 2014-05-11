@@ -11,7 +11,7 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 . Apply the remedies
 
 * Change code, structures, concepts or processes to achieve better software,
-* reduce costs and/or technical debt,
+* Reduce costs and/or technical debt,
 * Eliminate issues found during analysis phase,
 * Optimize quality attributes (like performance, maintainability, security),
 * Optimize operation and administration processes, effort and cost.

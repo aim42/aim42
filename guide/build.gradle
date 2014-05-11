@@ -50,26 +50,39 @@ defaultTasks 'aim42'
 
 task copyImages(
     type: Copy, 
-    description: 'copy images into build output folder ,so that references can be resolved '
+    description: 'copy images into build output folder so that references can be resolved '
 ) {
     from 'src/images'
     into './build/docs/images'
 }
 
 
+task copyResources(
+    type: Copy,
+    description: 'copy (downloadable) resources and artifacts to resource folder'
+) {
+    from 'src/resources'
+    into './build/docs/resources'
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '1.10'
+}
 
 task aim42(
-    dependsOn: [copyImages, asciidoctor],
+    dependsOn: [copyResources, copyImages, asciidoctor],
     description: 'collects all required tasks for creating aim42 documentation'
 ) << { }
 
 
+
 task publish(type: GradleBuild) {
-    if (System.getenv('GH_TOKEN') != '') {
+    String travisPr = System.getenv('TRAVIS_PULL_REQUEST')
+    if ("false".equals(travisPr)) {
         buildFile = 'publish.gradle'
         tasks = ['publishGhPages']
     } else {
-        println 'env var GH_TOKEN not set, won\'t publish!'
+        println 'env var TRAVIS_PULL_REQUEST says we build for PR #' + travisPr + ', won\'t publish docs!'
     }
 }
 

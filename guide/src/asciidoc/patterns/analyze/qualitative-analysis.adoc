@@ -45,4 +45,4 @@ Use qualitative analysis to support in the following situations:
 ==== References
 
 * ATAM - Architecture Tradeoff Analysis Method. Published by the Software Engineering Institute in numerous whitepapers and books, especially <<Clements-ATAM>>.
-* 
+ 

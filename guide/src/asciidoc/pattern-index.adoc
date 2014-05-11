@@ -5,12 +5,11 @@ short description and links to the explanation.
 
 . [[Anticorruption-Layer]]
 Anticorruption layer:: Isolate clients from internal changes of suby-systems or modules. The original definition:
-    +
-    ""
-    Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models.
-    ""
-    +
-(Eric Evans, Domain Driven Design, page 365)
++
+[quote, Eric Evans]
+""    
+Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models. (Domain Driven Design, page 365)
+""
 Category: <<Improve>>
 +
 
@@ -44,7 +43,8 @@ Category: <<Improve>>
 +
 
 . *<<Capture-Quality-Requirements, Capture Quality Requirements>>*
-Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
++
+Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis, Requirements Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -72,7 +72,7 @@ Category: <<Crosscutting>>
 
 . [[Context-Analysis]]
 Context Analysis:: Analyse external interfaces for risk, technology, business value and other factors.
-Category: <<Evaluate>>
+Category: <<Analyze>>
 +
 
 . [[Data-Analysis]]
@@ -84,7 +84,7 @@ Category: <<Analyze>>
 . *<<Debugging>>*
 +
 Identify the source of a bug or misbehavior by observing the
-detailed flow of execution, e.g. stepwise execution of program statements. Usually supported by _debugger_. Specialisation of <<pattern-root-cause-analysis, root cause analysis>>.
+detailed flow of execution, e.g. stepwise execution of program statements. Usually supported by _debugger_. Specialisation of <<Root-Cause-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -93,6 +93,10 @@ Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
+. [[Determine-Feature-Value]]
+Determine Feature Value:: TODO: Add description here.
+Category: <<Evaluate>>
++
 
 . [[Development-Process-Analysis]]
 Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
@@ -123,13 +127,15 @@ Estimation differs from *measurement* in its inherent uncertainty. Therefore, es
 Category: <<Evaluate>>
 +
 
-. [[Estimate-Problem-Cost]]
-Estimate Problem Cost:: Estimate how much a given problem costs (in money or effort) in a period of time or a frequency. 
+. *<<Estimate-Problem-Cost>>*
++
+Estimate how much a given problem costs (in money or effort) in a period of time or a frequency. 
 Category: <<Evaluate>>
 +
 
-. [[Estimate-Remedy-Cost]]
-Estimate Remedy Cost:: Determine how much a specific remedy (a set of actions taken to eliminate or reduce a specific problem or issue) is likely to cost (in money and/or effort).
+. *<<Estimate-Remedy-Cost>>*
++
+Determine how much a specific remedy (a set of actions taken to eliminate or reduce a specific problem or issue) is likely to cost (in money and/or effort).
 Category: <<Evaluate>>
 +
 
@@ -149,8 +155,8 @@ Identify quality issues as early as possible and aim to fix them.
 Category: <<Crosscutting>>
 +
 
-. [[Failure-Mode-and-Effects-Analysis]]
-Failure Mode and Effects Analysis:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
+. [[Failure-Mode-And-Effect-Analysis]]
+Failure Mode and Effect Analysis:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
 Category: <<Evaluate>>
 +
 
@@ -205,7 +211,7 @@ Category: <<Crosscutting>>
 . [[Instrument-System]]
 Instrument-System:: Instrument either the executable or the source code to make 
 <<Explicit-Assumption, assumtions explicit>> and expand on <<runtime analysis>> and 
-<<runtime artifact analysis>>. 
+<<Runtime-Artifact-Analysis, Runtime Artifact Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -280,8 +286,9 @@ Performance Analysis::
 Category: <<Analyze>>
 +
 
-. [[Pre-Interview-Questionnaire]]
-Pre-Interview-Questionnaire:: Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. A specialisation of <<Questionnaire>>.
+. *<<Pre-Interview-Questionnaire, Pre Interview Questionnaire>>*
++
+Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. A specialisation of <<Questionnaire>>.
 Category: <<Analyze>>
 +
 
@@ -291,7 +298,8 @@ Category: <<Analyze>>
 +
 
 . *<<Qualitative-Analysis, Qualitative Analysis>>*
-Qualitative Analysis:: See <<Quality-Requirements>>
++
+See <<Quality-Requirements>>.
 Category: <<Analyze>>
 +
 
@@ -334,20 +342,21 @@ Remove Nested Control Structures:: Re-structure code so that deeply nested or co
 Category: <<Improve>>
 +
 
-. [[Root-Cause-Analysis]]
-Root-Cause Analysis:: _Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues. See <<pattern-root-cause-analysis, detailed description>>
+. *<<Root-Cause-Analysis>>*
++
+_Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues.
 Category: <<Analyze>>
 +
 
 . [[Runtime-Analysis]]
-Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>
+Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>.
 Category: <<Analyze>>
 +
 
 . [[Runtime-Artifact-Analysis]]
-Runtime-Artifact Analysis:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
+Runtime Artifact Analysis:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
 Category: <<Analyze>>
-// TODO: perhaps Log-Anasysis deserves a separate entry? Especially in security
+// TODO: perhaps Log-Analysis deserves a separate entry? Especially in security
 // sensitiv environments? MM 2014-03-16 
 +
 
@@ -362,14 +371,14 @@ Category: <<Improve>>
 +
 
 . [[Separate-Cause-From-Effect]]
-Separate Cause from Effect:: See <<Root-Cause-Analysis>>
+Separate Cause From Effect:: See <<Root-Cause-Analysis>>.
 Category: <<Analyze>>
 +
 
-. *<<Software-Archeology>>*
+. *<<Software-Archeology, Software Archeology>>*
 +
 Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
-Category: <<Evaluate>>
+Category: <<Analyze>>
 +
 
 . [[Stakeholder-Analysis]]
@@ -389,7 +398,7 @@ Stakeholder Specific Communication:: Communicate with stakeholders by actively a
 
 . *<<Static-Code-Analysis>>*
 +
-Analyse source code to identivy building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties.
+Analyse source code to identify building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties.
 Category: <<Analyze>>
 +
 
@@ -405,7 +414,7 @@ Category: <<Analyze>>
 
 . *<<Take-What-They-Mean>>*
 +
-Take What They Mean, Not What They Say:: Natural language has the risk, that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differ between people. Pattern provided by Phillip Ghadir (who is too humble to claim this discovery)
+Natural language has the risk, that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differ between people. Pattern provided by Phillip Ghadir (who is too humble to claim this discovery)
 Category: <<Analyze>>
 +
 
@@ -421,7 +430,7 @@ Category: <<Improve>>
 
 
 . [[Use-Case-Cluster]]
-Use-Case Cluster:: Understand system functionality by grouping functionality into clusters to reduce complexity.
+Use Case Cluster:: Understand system functionality by grouping functionality into clusters to reduce complexity.
 Category: <<Analyze>>
 +
 

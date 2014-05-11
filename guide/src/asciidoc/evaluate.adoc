@@ -15,13 +15,14 @@ estimating their *value* (that's why we call this activity *evaluate*):
 
 
 === Pattern and Practices for Evaluation
+(given in alphabetical order)
 
-* Estimate in Interval
-* Estimate Problem Cost
-* Estimate Remedy Cost
-* Failure Mode And Effect Analysis
-* Impact Analysis
-* Separate Cause From Effect
+* <<Determine-Feature-Value, Determine Feature Value>>
+* <<Estimate-In-Interval>>
+* <<Estimate-Problem-Cost>>
+* <<Estimate-Remedy-Cost>>
+* <<Failure-Mode-And-Effect-Analysis, Failure Mode And Effect Analysis>>
+* <<Impact-Analysis, Impact Analysis>>
 
 
 // the detailed description of the evaluation-patterns
@@ -31,7 +32,7 @@ Estimate the (monetary) value of a given feature, so you can compare features of
 
 * Involve business or management stakeholders, as they often have a clear notion of business value.
 * If you cannot determine real numbers available, use <<Explicit-Assumption, explicit assumptions>> 
-* Instead of numbers, you might use categories or orders-of-magnitude (like small, medium, large). Youo should prefer numbers, though!
+* Instead of numbers, you might use categories or orders-of-magnitude (like small, medium, large). You should prefer numbers, though!
 
 
 [[Estimate-In-Interval]]
@@ -40,12 +41,14 @@ Estimation is a guess, not a *measurement*. Estimates are uncertain, otherwise t
 
 Therefore, estimate in intervals, giving a lower and upper bound to your estimate. The difference between the two shows your confidence in the estimate. If this difference is relatively small, it shows high confidence.
 
+CAUTION: Be aware of the anchoring effect http://en.wikipedia.org/wiki/Anchoring
+
 Good estimates ensure that the estimated value will be contained in the interval with a very high probability.
 
-Estimates often rely on assumptions - which you should <<Explicit-Assumption, name and describe explicitely>>. 
+Estimates often rely on assumptions - which you should <<Explicit-Assumption, name and describe explicitly>>. 
 
 
-[[Estimage-Problem-Cost]]
+[[Estimate-Problem-Cost]]
 ==== Estimate Problem Cost
 Estimate how much a given problem costs (in money or effort) in a period of time. 
 
@@ -58,9 +61,8 @@ If you multiply with (approximate or average) wage, you get _problem cost_.
 * If you cannot determine real numbers available, use <<Explicit-Assumption, explicit assumptions>> 
 
 
+[[Estimate-Remedy-Cost]]
 ==== Estimate Remedy Cost
 
 See: "Software Estimation. The Black Art Demystified (Steve McConnell)"
-
-
 

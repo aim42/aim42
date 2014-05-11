@@ -1,0 +1,47 @@
+[[Questionnaire]]
+=== Questionnaire 
+
+==== Intent
+Support interviews with guidance and hints for appropriate questions.
+
+
+==== Description
+Prior to taking <<stakeholder-interview, interviews with stakeholders>>,
+formulate questions covering the topics or areas of information that:
+
+* might be important for you 
+* your interview partners (== the stakeholders) have knowledge or experience in.
+
+The questionnaire can be specific for a single interview or be a template for multiple interviews.
+
+==== Experiences
+
+I (Gernot Starke) used such questionnaires within several technical reviews and audits. They helped my stay on track, cover a multitude of topics, even when I conducted several interviews consecutively.
+
+I usually printed one copy of the questionnaire for every interview I had planned, so I could sketch notes - and always had the context of my notes already printed, saving a lot of note-taking effort.
+
+ 
+
+==== Applicability
+Whenever you interview stakeholders, a thorough preparation will lead to better results, interviewers will be less likely to forget important topics.
+
+
+==== Consequences
+
+Questionnaires can
+* serve as checklists for interviewers 
+* aid in group-interviews to _stay on track_
+
+
+Especially when multiple interviewers conduct interviews, preparing a questionnaire can lead to more homogeneous questioning.
+
+
+
+==== Also Known As
+* Interview checklist
+
+
+==== Related Patterns
+* <<stakeholder-interview, Stakeholder interview>>
+
+==== References

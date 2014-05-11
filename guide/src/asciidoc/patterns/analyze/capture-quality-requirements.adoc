@@ -15,6 +15,7 @@ Let them write _quality scenarios_ to describe their specific quality requiremen
 * Order those scenarios within a mostly hierachical quality tree, similar to <<ISO-9126>>.
 
 TODO:
+
 * explain scenarios, use diagram
 * example scenarios
 * explain quality tree
@@ -57,7 +58,7 @@ If you have well-documented, specific and current (!) quality requirements avail
 * <<ATAM>>
 * <<Explicit-Assumption>>
 * <<Qualitative-Analysis>>
-* <<Requirements-Analysis>>
+* <<Requirements-Analysis, Requirements Analysis>>
 
 ==== References
 

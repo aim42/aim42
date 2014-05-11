@@ -3,7 +3,6 @@
 ### Software Evolution, Maintenance and Improvement - Done Right!
 
 
-
 [aim42](http://aim42.org) is collection of practices and patterns to support software evolution, maintenance, evolution and improvement of software systems.
 
 
