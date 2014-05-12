@@ -22,7 +22,7 @@ The <<Pre-Interview-Questionnaire, Pre Interview Questionnaire>> shall be handed
     
 As these documents will be read and processed by external and potentially critical stakeholders, you need to care for several details:
 
-* stakeholder specific terminology: Ensure your questions will be understandable by the target audience. See <<Stakeholder-Specific-Communication, stakeholder-specific communication>>.
+* Stakeholder specific terminology: Ensure your questions will be understandable by the target audience. See <<Stakeholder-Specific-Communication, Stakeholder Specific Communication>>.
 * Ensure nice layout and (visual) readability. Your questionnaire shall be fun to work with.
 * Ensure timely delivery to your stakeholders, so they have enough time to think about their answers. Do never force your stakeholders to answer questions under time pressure.
  
