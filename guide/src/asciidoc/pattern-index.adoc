@@ -208,7 +208,7 @@ Category: <<Crosscutting>>
 +
 
 
-. *<<instrument-system, Instrument System>>*
+. *<<instrument-system>>*
 Instrument either the executable or the source code to make 
 <<Explicit-Assumption, assumtions explicit>> and expand on <<runtime analysis>> and 
 <<Runtime-Artifact-Analysis, Runtime Artifact Analysis>>. 
