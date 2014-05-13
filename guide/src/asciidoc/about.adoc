@@ -13,7 +13,7 @@ http://aim42.org[aim42] is a collection of practices and patterns to support sof
 
 . Optimize your software and reduce maintenance cost
 . Control risks, issues and technical debt
-. Organizes patterns and practices in three phases (<<analyze>>, <<evaluate>> and <<improve>>)
+. Organizes patterns and practices in three phases (<<Analyze, analyze>>, <<Evaluate, evaluate>> and <<Improve, improve>>)
 . Free and open-source, <<contributions>> welcome.
 . Grounded in practice , proven approaches, backed by serious research.
 --

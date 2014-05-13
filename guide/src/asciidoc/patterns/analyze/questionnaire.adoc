@@ -6,7 +6,7 @@ Support interviews with guidance and hints for appropriate questions.
 
 
 ==== Description
-Prior to taking <<stakeholder-interview, interviews with stakeholders>>,
+Prior to taking <<Stakeholder-Interview, interviews with stakeholders>>,
 formulate questions covering the topics or areas of information that:
 
 * might be important for you 
@@ -42,6 +42,6 @@ Especially when multiple interviewers conduct interviews, preparing a questionna
 
 
 ==== Related Patterns
-* <<stakeholder-interview, Stakeholder interview>>
+* <<Stakeholder-Interview, Stakeholder interview>>
 
 ==== References

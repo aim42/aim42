@@ -47,7 +47,7 @@ Category: <<Improve>>
 
 . *<<Capture-Quality-Requirements, Capture Quality Requirements>>*
 +
-Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis, Requirements Analysis>>. 
+Part of <<ATAM, ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis, Requirements Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -216,9 +216,10 @@ Category: <<Crosscutting>>
 +
 
 
-. *<<instrument-system>>*
+. *<<Instrument-System>>*
++
 Instrument either the executable or the source code to make 
-<<Explicit-Assumption, assumtions explicit>> and expand on <<runtime analysis>> and 
+<<Explicit-Assumption, assumtions explicit>> and expand on <<Runtime-Analysis, Runtime Analysis>> and 
 <<Runtime-Artifact-Analysis, Runtime Artifact Analysis>>. 
 Category: <<Analyze>>
 +
@@ -236,6 +237,11 @@ Establish a policy to perform certain structural
 implrovements each time an artifact (sourcecode, configuration, documents etc.)
 is changed. Usable in situations where a <<Refactoring-Plan, Refactoring Plan>> is not feasible or in
 addition to such a plan.
+Category: <<Improve>>
++
+
+. [[Introduce-Layering]]
+Introduce Layering:: TODO: Add description here.
 Category: <<Improve>>
 +
 

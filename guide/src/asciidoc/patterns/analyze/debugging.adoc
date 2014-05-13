@@ -48,5 +48,5 @@ If locating errors takes very long, you're propably facing one of the following 
 
 
 ==== Related Patterns
-* <<root-cause-analysis>>
+* <<Root-Cause-Analysis>>
 

@@ -6,11 +6,11 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 === Goals
 
-. Obtain overview of intent, purpose and quality requirements of the system (<<SuD>>).
+. Obtain overview of intent, purpose and quality requirements of the system (*SuD*).
 
 . Develop and document an understanding of internal structures, concepts and architectural approaches.
 
-. Find all problems, issues, symptoms, risks or technical debt within the system (<<SuD>>), its operation, maintenance or otherwise related processes.
+. Find all problems, issues, symptoms, risks or technical debt within the system (*SuD*), its operation, maintenance or otherwise related processes.
 
 . Understand root causes of the problems found, potential interdependencies between issues
 
@@ -19,7 +19,7 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 Systematically look for such issues at various places and with various people.
 
-TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process.
+TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (*SuD*), its technical concepts, code-structure, inner workings, major external interfaces and its development process.
 
 
 . Start <<Capture-Quality-Requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
@@ -49,6 +49,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 * <<Debugging>>
 * <<Development-Process-Analysis, Development Process Analysis>>
 * <<Documentation-Analysis, Documentation Analysis>>
+* <<Instrument-System>>
 * <<Issue-Tracker-Analysis, Issue Tracker Analysis>>
 * <<Profiling, Profiling>>
 * <<Qualitative-Analysis>>

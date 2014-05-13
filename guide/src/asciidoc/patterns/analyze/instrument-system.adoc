@@ -1,4 +1,4 @@
-[[instrument-system]]
+[[Instrument-System]]
 
 === Instrument System
 
@@ -72,6 +72,6 @@ real fast.
 
 ==== Related Patterns
 * <<Static-Code-Analysis>>
-* <<Runtime-Artifact-Analysis>>
+* <<Runtime-Artifact-Analysis, Runtime Artifact Analysis>>
 * <<Software-Archeology>>
 * <<Use-Invariants-To-Kill-Zombies>>

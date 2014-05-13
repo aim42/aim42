@@ -55,15 +55,15 @@ If you have well-documented, specific and current (!) quality requirements avail
 
 ==== Related Patterns
 
-* <<ATAM>>
+* <<ATAM, ATAM>>
 * <<Explicit-Assumption>>
 * <<Qualitative-Analysis>>
 * <<Requirements-Analysis, Requirements Analysis>>
 
 ==== References
 
-The workshop-based collection of quality requirements has been described within the <<Clements-ATAM, ATAM>> literature.
+The workshop-based collection of quality requirements has been described within the <<Clements-ATAM>> literature.
 
 * Real-world examples of software quality requirements. Currently available only in German language on https://bitbucket.org/arc42/quality-requirements (TODO: likely to move to github)
-* <<Clements-ATAM, ATAM>>, contains a brief description of scenario-based quality description and details how to setup such workshops.
+* <<Clements-ATAM>>, contains a brief description of scenario-based quality description and details how to setup such workshops.
 

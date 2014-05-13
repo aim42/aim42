@@ -7,7 +7,7 @@ architectural views, especially the building-block view.
 
 ==== Description
 
-* Apply <<arc42, arc42>> views
+* Apply <<arc42>> views
 * Apply static-code-analysis
 * Interview technical stakeholders
 * Start either from the 
@@ -44,5 +44,5 @@ and reason about the code structure
 
 ==== References
 
-* <<arc42, arc42>>
+* <<arc42>>
 * Kruchten

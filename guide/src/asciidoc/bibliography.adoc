@@ -32,11 +32,12 @@ http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-developmen
 
 * [[[Big-Ball-Of-Mud]]] Brian Foote and Joseph Yoder, http://laputan.org/mud/[Big Ball of Mud] - very influentual paper from the http://st-www.cs.uiuc.edu/~hanmer/PLoP-97/[fourth conference on Patterns languages of Program Design, PLoP97]
 
-* [[Bommer-Wartung]] Christoph Bommer, M. Spindler, V. Barr: Softwarewartung: Grundlagen, Management und Wartungstechniken.
+* [[[Bommer-Wartung]]] Christoph Bommer, M. Spindler, V. Barr: Softwarewartung: Grundlagen, Management und Wartungstechniken.
 (in German) dpunkt Verlag, 2008. Interesting treatment of categories of software systems and their respective need for maintenance and evolution. Authors quote studies from Lehman and Belady from the 1970's.
 
+* [[[Boy-Scout-Rule-article]]] The Boy Scout Rule, see http://programmer.97things.oreilly.com/wiki/index.php/The_Boy_Scout_Rule
 
-* [[Brodie-Stonebraker]] Brodie, M. and Stonebraker, M: Migrating Legacy Systems: Gateway, Interfaces & the Incremental Approach; Morgan Kaufmann 1995.
+* [[[Brodie-Stonebraker]]] Brodie, M. and Stonebraker, M: Migrating Legacy Systems: Gateway, Interfaces & the Incremental Approach; Morgan Kaufmann 1995.
 
 * [[[Clements-ATAM]]] Paul Clements et.al.: Evaluating Software Architecture - Methods and Case Studies. 
 Addison-Wesley, 2001. Detailed overview of ATAM (and other evaluation methods).
@@ -75,7 +76,7 @@ Performing Complex Restructurings Successfully, Wiley 2006
 * [[[Martin-CleanCode]]] Robert Martin: Clean Code - A Handbook of Agile Software Craftmanship. Prentice Hall, 2009.
 A detailed writeup of how (object-oriented) code should look like. Lots of things we like.
 
-* [[Mikado]] Ola Elnestam, Daniel Brolund: The Mikado Method. Manning, 2014. Describes a method to _morphing_ software from bad to better state. Quote from the book:
+* [[[Mikado]]] Ola Elnestam, Daniel Brolund: The Mikado Method. Manning, 2014. Describes a method to _morphing_ software from bad to better state. Quote from the book:
 ``It helps us visualize, plan, and perform business-value-focused improvements over several iterations and increments of work, without ever having a broken codebase''
 
 * [[[Moyer-Archeology]]] Brian Moyer: http://adm.omg.org/docs/Software_Archeology_4-Mar-2009.pdf[Software Archeology]

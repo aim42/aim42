@@ -22,7 +22,7 @@ One important part of improving systems is refactoring, as initially described b
 
 In our opinion, several refactoring patterns are especially important:
 
-* <<Handle If-Else-Chains>>: eliminate nested if-then-else blocks, so that code becomes more understandable.
+* <<Handle-If-Else-Chains, Handle If Else Chains>>: eliminate nested if-then-else blocks, so that code becomes more understandable.
 
 
 === Patterns and Practices for Improvement
@@ -37,8 +37,9 @@ In our opinion, several refactoring patterns are especially important:
 * <<Group-Improvement-Actions, Group Improvement Actions>>
 * <<Handle-If-Else-Chains, Handle If Else Chains>>
 * <<Improve-Code-Layout, Improve Code Layout>>
-* <<Introduce-Boy-Scout-Rule>>
 * <<Interface-Segregation-Principle, Interface Segregation Principle>>
+* <<Introduce-Boy-Scout-Rule>>
+* <<Introduce-Layering, Introduce Layering>>
 * <<Isolate-Changes, Isolate Changes>>
 * <<Keep-Data-Toss-Code, Keep Data Toss Code>>
 * <<Manage-Complex-Client-Dependencies-With-Facade>>
