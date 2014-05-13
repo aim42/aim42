@@ -18,7 +18,7 @@ Understand software by examining existing source code
 
 
 ==== Applicability
-You have to understand a system with 
+You have to understand a system with: 
 
 * little or no current documentation.
 * no knowledgeable technical stakeholders or development team available 

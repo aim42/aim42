@@ -105,9 +105,9 @@ parts of the system other approaches have to be utilized.
 // Sashimi-technique?
 
 ==== Related Patterns
-* <<refactoring-plan>>, as an alternative or complimenting approach
+* <<Refactoring-Plan, Refactoring Plan>>, as an alternative or complimenting approach
 * <<introduce-layering>> can be performed using the Boy Scout Rule
-* <<anticorruption-layer>> can be performed using the Boy Scout Rule
+* <<Anticorruption-Layer>> can be performed using the Boy Scout Rule
 * An <<improvement-backlog>> should be the basis for the tasks
   performed when applying the Boy Scout Rule
 
