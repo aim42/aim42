@@ -41,6 +41,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 (given in alphabetical order)
 
 * Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM, ATAM>>.
+* <<Architecture-Documentation, Architecture Documentation>>
 * <<ATAM, ATAM>>
 * <<Capture-Quality-Requirements>>
 * <<Context-Analysis, Context Analysis>>

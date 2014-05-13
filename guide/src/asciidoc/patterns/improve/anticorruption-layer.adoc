@@ -1,6 +1,7 @@
-[[anticorruption-layer]]
 
-=== Introduce "Anticorruption Layer"
+[[Anticorruption-Layer]]
+
+=== Anticorruption Layer
 
 
 
@@ -13,7 +14,8 @@ An anticorruption layer is a logical layer that provides a stable interface to (
 
 ==== Experiences 
 
-Here are some real-life experiences
+Here are some real-life experiences:
+
 * Anticorruption layer for a search-index to defer the decision if the best performance can be achieved with Elastic Search, Solr or a self-developed Lucene index.
 
 ==== Applicability

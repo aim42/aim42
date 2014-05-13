@@ -3,9 +3,11 @@
 This chapter contains an alphabetic list of all patterns, practices and methods with a
 short description and links to the explanation.
 
-. [[Anticorruption-Layer]]
-Anticorruption layer:: Isolate clients from internal changes of suby-systems or modules. The original definition:
+. *<<Anticorruption-Layer>>*
 +
+Isolate clients from internal changes of suby-systems or modules. The original definition:
++
+
 [quote, Eric Evans]
 ""    
 Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models. (Domain Driven Design, page 365)
@@ -23,13 +25,14 @@ Category: <<Improve>>
 +
 
 . [[Architecture-Documentation]]
-Architecture Documentation:: See <<System-Documentation>> and <<View-Based-Understanding, View Based Understanding>>.
+Architecture Documentation:: See <<System-Documentation, System Documentation>> and <<View-Based-Understanding, View Based Understanding>>.
 Category: <<Analyze>>
 +
 
 . [[Assertions]]
 Assertions:: Use assertions to verify preconditions and to make a program fail early when something goes fundamentally wrong.
-
+Category: <<Improve>>
++
 
 . [[Automated-Tests]]
 Automated Tests:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-, acceptance-, load- or database-tests are well-known specialisations of this pattern.
@@ -37,8 +40,8 @@ Category: <<Improve>>
 +
 
 
-. [[Branch-for-Improvement]]
-Branch for Improvement:: Introduce distinct branches in your version control system to reflect improvements.
+. [[Branch-For-Improvement]]
+Branch For Improvement:: Introduce distinct branches in your version control system to reflect improvements.
 Category: <<Improve>>
 +
 
@@ -89,7 +92,7 @@ Category: <<Analyze>>
 +
 
 . [[Dependency-Analysis]]
-Dependency Analysis:: See <<Structural-Analysis>>.
+Dependency Analysis:: See <<Structural-Analysis, Structural Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -149,6 +152,12 @@ Extract Reusable Component:: Extract code from an existing system to create a re
 Category: <<Improve>>
 +
 
+. *<<Manage-Complex-Client-Dependencies-With-Facade>>*
++
+Simplify the interaction of a client with a set of service components.
+Category: <<Improve>>
++
+
 . *<<fail-fast, Fail Fast>>*
 +
 Identify quality issues as early as possible and aim to fix them.
@@ -166,7 +175,7 @@ Category: <<Crosscutting>>
 +
 
 . [[Front-End-Switch]] 
-Front-End Switch:: Route front-end requests to either new or old backend systems, depending on their nature.
+Front End Switch:: Route front-end requests to either new or old backend systems, depending on their nature.
 Category: <<Improve>>
 +
 
@@ -176,13 +185,12 @@ Category: <<Improve>>
 +
 
 . [[Handle-If-Else-Chains]]
-Handle If-Else-Chains::
-Refactor nested if-then-else structures for improved understandability.
+Handle If Else Chains:: Refactor nested if-then-else structures for improved understandability.
 Category: <<Improve>>
 +
 
 . [[Hierarchical-Quality-Model]]
-Hierarchical Quality Model:: Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM>> and <<Quality-Requirements>>.
+Hierarchical Quality Model:: Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM, ATAM>> and <<Quality-Requirements, Quality Requirements>>.
 Category: <<Analyze>>
 +
 
@@ -215,9 +223,9 @@ Instrument-System:: Instrument either the executable or the source code to make
 Category: <<Analyze>>
 +
 
-. *<<interface-segregation-principle, Interface Segregation>>*
+. *<<Interface-Segregation-Principle>>*
 +
-Reduce coupling between clients and service provider .
+Reduce coupling between clients and service provider.
 Category: <<Improve>>
 +
 
@@ -226,7 +234,7 @@ Category: <<Improve>>
 +
 Establish a policy to perform certain structural
 implrovements each time an artifact (sourcecode, configuration, documents etc.)
-is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
+is changed. Usable in situations where a <<Refactoring-Plan, Refactoring Plan>> is not feasible or in
 addition to such a plan.
 Category: <<Improve>>
 +
@@ -242,7 +250,7 @@ Category: <<Analyze>>
 +
 
 . [[Keep-Data-Toss-Code]]
-Keep-Data, Toss-Code:: A strategy to improve systems, keeping the data created with the (old) systems as foundation for a new one. Also described as <<Keller-Migration, Bridge-to-the-New-Town>> (by Wolfgang Keller). This is the opposite of <<Never-Change-Running-System>>
+Keep Data Toss Code:: A strategy to improve systems, keeping the data created with the (old) systems as foundation for a new one. Also described as <<Keller-Migration, Bridge-to-the-New-Town>> (by Wolfgang Keller). This is the opposite of <<Never-Change-Running-System, Never Change Running System>>.
 Category: <<Improve>>
 +
 
@@ -257,12 +265,17 @@ Category: <<Improve>>
 +
 
 . [[Mikado-Method]]
-Mikado-Method:: Coordinated <<refactoring>> effort, described in the <<Mikado, Mikado-book>>.
+Mikado-Method:: Coordinated <<Refactoring, refactoring>> effort, described in the <<Mikado, Mikado-book>>.
 Category: <<Improve>>
 
 
 . [[Natural-Death]]
 Natural Death:: Keep old system running and only retire it once all objects contained reach end of life according to their life cycle. 
+Category: <<Improve>>
++
+
+. [[Never-Change-Running-System]]
+Never Change Running System:: TODO: Add description here.
 Category: <<Improve>>
 +
 
@@ -299,26 +312,26 @@ Category: <<Analyze>>
 
 . *<<Qualitative-Analysis, Qualitative Analysis>>*
 +
-See <<Quality-Requirements>>.
+See <<Quality-Requirements, Quality Requirements>>.
 Category: <<Analyze>>
 +
 
 . [[Quality-Driven-Software-Architecture]]
-Quality Driven Software Architecture (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment>>.
+Quality Driven Software Architecture (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment, Quality Function Deployment>>.
 Category: <<Improve>>
 +
 
 . [[Quality-Function-Deployment]]
-Quality Function Deployment:: (QFD) Systematically translate customer requirements into technical requirements for  system development and maintenance. See <<Quality-Driven-Software-Architecture>>.
+Quality Function Deployment:: (QFD) Systematically translate customer requirements into technical requirements for  system development and maintenance. See <<Quality-Driven-Software-Architecture, Quality Driven Software Architecture>>.
 +
 
 . [[Quantitative-Analysis]]
-Quantitative Analysis:: Measure artifacts or processes within the system, e.g. source code. For example, see <<Static-Analysis>>.
+Quantitative Analysis:: Measure artifacts or processes within the system, e.g. source code. For example, see <<Static-Code-Analysis>>.
 Category: <<Analyze>>
 +
 
 . [[Questionnaire]]
-Questionnaire:: Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholde Interview>>
+Questionnaire:: Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholder-Interview, Stakeholder Interview>>.
 Category: <<Analyze>>
 +
 
@@ -338,7 +351,7 @@ Category: <<Analyze>>
 +
 
 . [[Remove-Nested-Control-Structures]]
-Remove Nested Control Structures:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>.
+Remove Nested Control Structures:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring, Refactoring>>, similar to <<Untangle-Code, Untangle Code>>.
 Category: <<Improve>>
 +
 
@@ -349,7 +362,7 @@ Category: <<Analyze>>
 +
 
 . [[Runtime-Analysis]]
-Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>.
+Runtime Analysis:: See <<Profiling, Profiling>>, <<Performance-Analysis, Performance Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -361,7 +374,7 @@ Category: <<Analyze>>
 +
 
 . [[Sample-For-Improvement]]
-Sample for Improvement:: Provide concrete code example for typical improvement situations, so that developers can improve existing code easily.
+Sample For Improvement:: Provide concrete code example for typical improvement situations, so that developers can improve existing code easily.
 Category: <<Improve>>
 +
 
@@ -393,6 +406,7 @@ Category: <<Analyze>>
 
 . [[Stakeholder-Specific-Communication]]
 Stakeholder Specific Communication:: Communicate with stakeholders by actively applying their specific or favored terminology and/or communication channels.
+Category: <<Analyze>>
 +
 
 
@@ -424,7 +438,7 @@ Category: <<Improve>>
 +
 
 . [[Untangle-Code]]
-Untangle Code:: Remove unneccessary complications in code, e.g. nested structures, dependencies, dead-code, duplicate-code etc. See <<Remove-Nested-Control-Structures>>. Special case of <<Refactoring>>.
+Untangle Code:: Remove unneccessary complications in code, e.g. nested structures, dependencies, dead-code, duplicate-code etc. See <<Remove-Nested-Control-Structures, Remove Nested Control Structures>>. Special case of <<Refactoring, Refactoring>>.
 Category: <<Improve>>
 +
 
@@ -440,11 +454,13 @@ Use Invariants to make sure that you can
 kill Zombies safely. If code seems to be ``dead'' -- meaning that it
 supposedly isn't called anymore -- but no one dares to remove it from the
 codebase, the introduction of invariants can provide reliable feedback on
-whether it is safe to remove the code or not. 
+whether it is safe to remove the code or not.
+Category: <<Improve>>
 +
 
 . *<<View-Based-Understanding>>*
 +
 Create architectural views (mainly building block view) to understand and communicate code structure.
 Category: <<Analyze>>
++
 
