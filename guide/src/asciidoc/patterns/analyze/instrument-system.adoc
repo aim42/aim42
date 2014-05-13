@@ -1,0 +1,77 @@
+[[instrument-system]]
+
+=== Instrument System
+
+// TODO: MM: Find some witty reference to make the pattern more memorable
+
+Use retroactive modification of the executables which target
+cross-cutting concerns to make the existing software-base tell about it's
+internals. Ways to achieve this can include <<Aspect-Oriented-Programming,
+Aspect Oriented Programming (AOP)>>, <<Monkey-Patching, Monkey Patching>> and
+other <<meta-programming, meta programming>> techniques.
+
+==== Intent
+
+Find out how the system is really used and what the runtime relationships are,
+as well as other facts that can not be easily determined by
+<<Static-Code-Analysis>> even in situation where the system under design is
+largely undocumented and the architecture work thus mostly relies on
+assumptions, interviews and lore.
+
+==== Description
+In many languages today it is possible to define operation that alter the
+behavior of certain structures in the system without modifying the original
+source code. In Java this is often done by byte code instrumentation, in Ruby,
+PHP and some other languages there are built in mechanisms to (re-) define the
+behavior of system classes or libraries. 
+
+In theory instrumenting the system therefore is a straightforward process
+* Identify and describe the concern that shall be explored (e.g.
+  obectect-creation, function entries and exits, code execution or somethings
+  else that can be described in the terms of the mechanism used).
+* Write the code that collects the data about the system behavior (e.g. sends it
+  to a syslog, writes it to a file, sends it to a dedicated server, creates an
+  SNMP Trap etc.)
+* Use the (language specific) mechanism to create the instrumented version of
+  the system
+* Replace (part of) the currently operational system with the instrumented version
+* Collect the data
+* Replace the instrumented version with the previously operational version
+
+In real life, since the mechanisms of instrumentation vary widely, specific ways
+must be found for each scenario. 
+
+While tools like AspectJ provide easy ways to instrument Java-Code and Ruby’s
+metaprogramming model allows for easy introduction of crosscutting functionality
+the same gets harder to do with other languages. In some languages it may be
+necessary to modify a dynamically linked library with central operations to
+introduce instrumentation without modifying the original system. 
+
+[TIP]
+--
+A special form of this pattern, especially useful for interpreted languages, is
+_instrumenting the source code manually_. Basically all you do here is manually type in
+the code to collect the information you're interested in. In this case it is
+especially important to have a tried and tested way to replace the instrumented
+system back with the original system!
+--
+
+==== Experiences
+
+WARNING: even if used cautiously, the instrumentation the system under design can
+entail heavy performance penalties (on execution time, space used, bandwith
+etc.) so alway make sure that there is a quick way to switch back to the
+original un-instrumented version.
+
+==== Applicability
+The pattern is almost universally applicable as long as there is a way to
+introduce instrumentation to the executable and <<operations>> can be
+convinced that it is possible to to switch back from the instrumented version
+real fast.
+
+
+==== Related Patterns
+* <<Static-Code-Analysis>>
+* <<Runtime-Artifact-Analysis>>
+* <<Software-Archeology>>
+* <<Use-Invariants-To-Kill-Zombies>>

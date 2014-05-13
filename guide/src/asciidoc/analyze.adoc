@@ -74,6 +74,8 @@ include::patterns/analyze/capture-quality-requirements.adoc[]
 
 include::patterns/analyze/debugging.adoc[]
 
+include::patterns/analyze/instrument-system.adoc[]
+
 include::patterns/analyze/qualitative-analysis.adoc[]
 
 include::patterns/analyze/pre-interview-questionnaire.adoc[]
