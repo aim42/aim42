@@ -4,7 +4,7 @@
 ==== Intent
 
 Provide a safe approach in situations where  it seems to dangerous to delete
-code or whole modules from a huge system because <<Static-Analysis>> can't
+code or whole modules from a huge system because <<Static-Code-Analysis>> can't
 recognize whether the code is still in use or not.
 
 ==== Description
@@ -85,14 +85,14 @@ weight of the system.
 ==== Related Patterns
 
 * Use <<Static-Code-Analysis>> to find candidates, entry points and exit points.
-* Using invariants to kill zombies is a special case of <<Assertions>> in the
+* Using invariants to kill zombies is a special case of <<Assertions, Assertions>> in the
   context of architecture improvement.
 * Introducing invariants to verify that the code is really dead is a specific
   way to make <<Explicit-Assumption>>s 
 
 ==== References
-* Invariants (and other <<Assertions>>) have been made popular by Bertrand Meyer
+* Invariants (and other <<Assertions, Assertions>>) have been made popular by Bertrand Meyer
   in his seminal book <<Object-Oriented-Software-Construction>>
-* Brian Foote references Zombie code in <<Big-Ball-Of-Mud>>
+* Brian Foote references Zombie code in <<Big-Ball-Of-Mud, Big Ball Of Mud>>
 * Dead code is an alternate name for the lava-flow anti pattern in
-  <<Anti-Patterns>>.
+  <<AntiPatterns, AntiPatterns>>.
