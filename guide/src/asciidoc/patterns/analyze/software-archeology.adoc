@@ -32,8 +32,8 @@ You have to understand a system with:
 
 ==== Related Patterns
 * Code Reading
-* <<Runtime-Artifact-Analysis, Runtime Artifact Analysis>>
-* <<Structural-Analysis, Structural (Code) Analysis>>
+* <<Runtime-Artifact-Analysis>>
+* <<Structural-Analysis>>
 
 
 ==== References

@@ -6,11 +6,11 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 === Goals
 
-. Obtain overview of intent, purpose and quality requirements of the system (*SuD*).
+. Obtain overview of intent, purpose and quality requirements of the system (<<SuD>>).
 
 . Develop and document an understanding of internal structures, concepts and architectural approaches.
 
-. Find all problems, issues, symptoms, risks or technical debt within the system (*SuD*), its operation, maintenance or otherwise related processes.
+. Find all problems, issues, symptoms, risks or technical debt within the system (<<SuD>>), its operation, maintenance or otherwise related processes.
 
 . Understand root causes of the problems found, potential interdependencies between issues
 
@@ -19,7 +19,7 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 Systematically look for such issues at various places and with various people.
 
-TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (*SuD*), its technical concepts, code-structure, inner workings, major external interfaces and its development process.
+TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process.
 
 
 . Start <<Capture-Quality-Requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
@@ -40,33 +40,33 @@ WARNING: Never start solving problems until you have a thourough understanding o
 === Patterns and Practices for Analysis
 (given in alphabetical order)
 
-* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM, ATAM>>.
-* <<Architecture-Documentation, Architecture Documentation>>
-* <<ATAM, ATAM>>
+* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM>>.
+* <<Architecture-Documentation>>
+* <<ATAM>>
 * <<Capture-Quality-Requirements>>
-* <<Context-Analysis, Context Analysis>>
-* <<Data-Analysis, Data Analysis>>
+* <<Context-Analysis>>
+* <<Data-Analysis>>
 * <<Debugging>>
-* <<Development-Process-Analysis, Development Process Analysis>>
-* <<Documentation-Analysis, Documentation Analysis>>
+* <<Development-Process-Analysis>>
+* <<Documentation-Analysis>>
 * <<Instrument-System>>
-* <<Issue-Tracker-Analysis, Issue Tracker Analysis>>
-* <<Profiling, Profiling>>
+* <<Issue-Tracker-Analysis>>
+* <<Profiling>>
 * <<Qualitative-Analysis>>
-* <<Quantitative-Analysis, Quantitative Analysis>>
+* <<Quantitative-Analysis>>
 * <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
-* <<Requirements-Analysis, Requirements Analysis>>
+* <<Requirements-Analysis>>
 * <<Root-Cause-Analysis>> - finding the root cause of problems
-* <<Runtime-Artifact-Analysis, Runtime Artifact Analysis>> 
-* <<Separate-Cause-From-Effect, Separate Cause From Effect>>
+* <<Runtime-Artifact-Analysis>> 
+* <<Separate-Cause-From-Effect>>
 * <<Software-Archeology>>
-* <<Stakeholder-Analysis, Stakeholder Analysis>>
-* <<Stakeholder-Interview, Stakeholder Interview>>, see also <<Pre-Interview-Questionnaire>>.
-* <<Static-Code-Analysis>>
-* <<Structural-Analysis, Structural (Code) Analysis>>
-* <<Take-What-They-Mean, Take What They Mean>> (not what they say, as it may differ).
-* <<Use-Case-Cluster, Use Case Cluster>>
-* <<View-Based-Understanding, View Based Understanding>>
+* <<Stakeholder-Analysis>>
+* <<Stakeholder-Interview>>, see also <<Pre-Interview-Questionnaire>>.
+* <<Static-Code-Analysis>> (Structural analysis)
+* <<Structural-Analysis>>
+* <<Take-What-They-Mean>> (not what they say, as it may differ).
+* <<Use-Case-Cluster>>
+* <<View-Based-Understanding>>
 
 
 // the detailed description of the analysis-patterns

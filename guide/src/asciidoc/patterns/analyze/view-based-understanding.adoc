@@ -8,7 +8,7 @@ architectural views, especially the building-block view.
 ==== Description
 
 * Apply <<arc42>> views
-* Apply static-code-analysis
+* Apply <<Static-Code-Analysis>>
 * Interview technical stakeholders
 * Start either from the 
    ** business context, mainly the external business interfaces

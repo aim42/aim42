@@ -30,7 +30,9 @@ http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-developmen
 
 * [[[Bass09]]] Len Bass et.al.: Software Architecture in Practice. Addison-Wesley, 2. Edition 2009.
 
-* [[[Big-Ball-Of-Mud]]] Brian Foote and Joseph Yoder, http://laputan.org/mud/[Big Ball of Mud] - very influentual paper from the http://st-www.cs.uiuc.edu/~hanmer/PLoP-97/[fourth conference on Patterns languages of Program Design, PLoP97]
+//* [[[Big-Ball-Of-Mud]]] Brian Foote and Joseph Yoder, http://laputan.org/mud/[Big Ball of Mud] - very influentual paper from the http://st-www.cs.uiuc.edu/~hanmer/PLoP-97/[fourth conference on Patterns languages of Program Design, PLoP97]
+* [[[Big-Ball-Of-Mud]]] Brian Foote and Joseph Yoder, http://laputan.org/mud/[Big Ball of Mud] - very influentual paper from the http://hillside.net/plop/plop97/[fourth conference on Patterns languages of Program Design, PLoP97]
+                                                                                                                                 
 
 * [[[Bommer-Wartung]]] Christoph Bommer, M. Spindler, V. Barr: Softwarewartung: Grundlagen, Management und Wartungstechniken.
 (in German) dpunkt Verlag, 2008. Interesting treatment of categories of software systems and their respective need for maintenance and evolution. Authors quote studies from Lehman and Belady from the 1970's.
@@ -91,7 +93,7 @@ A detailed writeup of how (object-oriented) code should look like. Lots of thing
 online. http://www.michaelogawa.com/research/storylines/[Visualizes interactions between developers in software systems]
 
 * [[[OORP]]] Serge Demeyer et. al: Object-Oriented Reengineering Patterns. 
-A pattern-based approach to re-engineer object-oriented legacy systems. It contains a wealth of <<improve, improvement-patterns>>, some named slightly different than their aim42-brethren.
+A pattern-based approach to re-engineer object-oriented legacy systems. It contains a wealth of <<Improve, improvement-patterns>>, some named slightly different than their aim42-brethren.
 
 * [[[Quality-Requirements]]] 
 https://bitbucket.org/arc42/quality-requirements[(Free) Examples of Practical Software Quality Requirements].

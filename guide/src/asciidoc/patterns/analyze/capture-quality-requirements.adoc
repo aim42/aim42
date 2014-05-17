@@ -55,10 +55,10 @@ If you have well-documented, specific and current (!) quality requirements avail
 
 ==== Related Patterns
 
-* <<ATAM, ATAM>>
+* <<ATAM>>
 * <<Explicit-Assumption>>
 * <<Qualitative-Analysis>>
-* <<Requirements-Analysis, Requirements Analysis>>
+* <<Requirements-Analysis>>
 
 ==== References
 

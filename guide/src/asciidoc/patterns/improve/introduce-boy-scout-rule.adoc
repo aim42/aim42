@@ -67,10 +67,10 @@ Item.COMPOUND_ITEMS_THRESHHOLD)+
 ==== Experiences
 
 Introducing the Boy Scout Rule on a heavily deteriorated code base
-induces heavy payback on *Technical Debt* and often gets challenged
+induces heavy payback on <<technical-debt>> and often gets challenged
 by team members and senior management. It is important to point out
 that the extended time spent on fixing the artifacts ``as the teams
-goes'' actually is the _explicit_ payment of the *Technical Debt*
+goes'' actually is the _explicit_ payment of the <<technical-debt>>
 interest rate.
 
 ==== Risks
@@ -105,8 +105,8 @@ parts of the system other approaches have to be utilized.
 // Sashimi-technique?
 
 ==== Related Patterns
-* <<Refactoring-Plan, Refactoring Plan>>, as an alternative or complimenting approach
-* <<Introduce-Layering, Introduce Layering>> can be performed using the Boy Scout Rule
+* <<Refactoring-Plan>>, as an alternative or complimenting approach
+* <<Introduce-Layering>> can be performed using the Boy Scout Rule
 * <<Anticorruption-Layer>> can be performed using the Boy Scout Rule
 * An <<improvement-backlog>> should be the basis for the tasks
   performed when applying the Boy Scout Rule

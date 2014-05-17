@@ -25,7 +25,7 @@ An <<invariant>> -- as described by Bertrand Meyer in
 <<Object-Oriented-Software-Construction>> -- is a logical expression that always
 is true for a given set of circumstances. He proposes to actually verify those
 invariants _in the code itself_. What happens if the invariant does not hold
-true is open to discussion - in some circumstances it's best to <<fail-fast>>
+true is open to discussion - in some circumstances it's best to <<Fail-Fast, fail-fast>>
 but when improving legacy software with hundreds or thousand of users this often
 is not an option.
 
@@ -85,14 +85,14 @@ weight of the system.
 ==== Related Patterns
 
 * Use <<Static-Code-Analysis>> to find candidates, entry points and exit points.
-* Using invariants to kill zombies is a special case of <<Assertions, Assertions>> in the
+* Using invariants to kill zombies is a special case of <<Assertions>> in the
   context of architecture improvement.
 * Introducing invariants to verify that the code is really dead is a specific
   way to make <<Explicit-Assumption>>s 
 
 ==== References
-* Invariants (and other <<Assertions, Assertions>>) have been made popular by Bertrand Meyer
+* Invariants (and other <<Assertions>>) have been made popular by Bertrand Meyer
   in his seminal book <<Object-Oriented-Software-Construction>>
-* Brian Foote references Zombie code in <<Big-Ball-Of-Mud, Big Ball Of Mud>>
+* Brian Foote references Zombie code in <<Big-Ball-Of-Mud>>
 * Dead code is an alternate name for the lava-flow anti pattern in
-  <<AntiPatterns, AntiPatterns>>.
+  <<AntiPatterns>>.

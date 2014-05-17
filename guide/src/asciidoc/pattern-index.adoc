@@ -25,7 +25,7 @@ Category: <<Improve>>
 +
 
 . [[Architecture-Documentation]]
-Architecture Documentation:: See <<System-Documentation, System Documentation>> and <<View-Based-Understanding, View Based Understanding>>.
+Architecture Documentation:: See <<System-Documentation>> and <<View-Based-Understanding>>.
 Category: <<Analyze>>
 +
 
@@ -45,9 +45,9 @@ Branch For Improvement:: Introduce distinct branches in your version control sys
 Category: <<Improve>>
 +
 
-. *<<Capture-Quality-Requirements, Capture Quality Requirements>>*
+. *<<Capture-Quality-Requirements>>*
 +
-Part of <<ATAM, ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis, Requirements Analysis>>. 
+Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -62,13 +62,13 @@ Category: <<Improve>>
 +
 
 
-. *<<collect-opportunities-for-improvement, Collect Opportunities for Improvement>>*
+. *<<collect-opportunities-for-improvement>>*
 +
 Keep a list of possible and potential measures, remedies, tactics, strategies for improvements. Regularly match those to your <<collect-problems, collection of problems>>.
 Category: <<Crosscutting>>
 +
 
-. *<<collect-problems, Collect Problems>>*
+. *<<collect-problems>>*
 +
 Keep a list of problems, issues and risks. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
 Category: <<Crosscutting>> 
@@ -92,7 +92,7 @@ Category: <<Analyze>>
 +
 
 . [[Dependency-Analysis]]
-Dependency Analysis:: See <<Structural-Analysis, Structural Analysis>>.
+Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -118,13 +118,13 @@ Category: <<Crosscutting>>
 +
 
 
-. *<<Estimate-Feature-Value, Estimate Feature Value>>*
+. *<<Estimate-Feature-Value>>*
 +
 Estimate the (monetary) value of a given feature, so you can compare features of the system with each other.
 Category: <<Evaluate>>
 +
 
-. *<<Estimate-In-Interval, Estimate in Interval>>*
+. *<<Estimate-In-Interval>>*
 +
 Estimation differs from *measurement* in its inherent uncertainty. Therefore, estimate in intervals, giving lower and upper bounds. The difference between the two shows your confidence in the estimate. Low (relative) difference means high confidence. 
 Category: <<Evaluate>>
@@ -158,19 +158,20 @@ Simplify the interaction of a client with a set of service components.
 Category: <<Improve>>
 +
 
-. *<<fail-fast, Fail Fast>>*
+. *<<Fail-Fast>>*
 +
 Identify quality issues as early as possible and aim to fix them.
 Category: <<Crosscutting>>
 +
 
 . [[Failure-Mode-And-Effect-Analysis]]
-Failure Mode and Effect Analysis:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
+Failure Mode And Effect Analysis:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
 Category: <<Evaluate>>
 +
 
-. [[Fast-Feedback]]
-Fast-Feedback:: Evaluate the quality of work artifacts and processes as early as possible. Enables teams to apply corrective actions or take countermeasures as early as possible.
+. *<<Fast-Feedback>>*
++
+Evaluate the quality of work artifacts and processes as early as possible. Enables teams to apply corrective actions or take countermeasures as early as possible.
 Category: <<Crosscutting>>
 +
 
@@ -190,7 +191,7 @@ Category: <<Improve>>
 +
 
 . [[Hierarchical-Quality-Model]]
-Hierarchical Quality Model:: Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM, ATAM>> and <<Quality-Requirements, Quality Requirements>>.
+Hierarchical Quality Model:: Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM>> and <<Quality-Requirements>>.
 Category: <<Analyze>>
 +
 
@@ -209,7 +210,7 @@ Improve Code Layout:: Making code easier to read results in better understandabi
 Category: <<Improve>>
 +
 
-. *<<improvement-backlog, Improvement-Backlog>>*
+. *<<improvement-backlog>>*
 + 
 Keep a backlog of possible improvements, remedies, tactics or strategies.
 Category: <<Crosscutting>>
@@ -219,8 +220,8 @@ Category: <<Crosscutting>>
 . *<<Instrument-System>>*
 +
 Instrument either the executable or the source code to make 
-<<Explicit-Assumption, assumtions explicit>> and expand on <<Runtime-Analysis, Runtime Analysis>> and 
-<<Runtime-Artifact-Analysis, Runtime Artifact Analysis>>. 
+<<Explicit-Assumption, assumtions explicit>> and expand on <<Runtime-Analysis>> and 
+<<Runtime-Artifact-Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -235,7 +236,7 @@ Category: <<Improve>>
 +
 Establish a policy to perform certain structural
 implrovements each time an artifact (sourcecode, configuration, documents etc.)
-is changed. Usable in situations where a <<Refactoring-Plan, Refactoring Plan>> is not feasible or in
+is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
 addition to such a plan.
 Category: <<Improve>>
 +
@@ -256,7 +257,7 @@ Category: <<Analyze>>
 +
 
 . [[Keep-Data-Toss-Code]]
-Keep Data Toss Code:: A strategy to improve systems, keeping the data created with the (old) systems as foundation for a new one. Also described as <<Keller-Migration, Bridge-to-the-New-Town>> (by Wolfgang Keller). This is the opposite of <<Never-Change-Running-System, Never Change Running System>>.
+Keep Data Toss Code:: A strategy to improve systems, keeping the data created with the (old) systems as foundation for a new one. Also described as <<Keller-Migration, Bridge-to-the-New-Town>> (by Wolfgang Keller). This is the opposite of <<Never-Change-Running-System>>.
 Category: <<Improve>>
 +
 
@@ -305,7 +306,7 @@ Performance Analysis::
 Category: <<Analyze>>
 +
 
-. *<<Pre-Interview-Questionnaire, Pre Interview Questionnaire>>*
+. *<<Pre-Interview-Questionnaire>>*
 +
 Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. A specialisation of <<Questionnaire>>.
 Category: <<Analyze>>
@@ -316,19 +317,19 @@ Profiling:: Measure resource consumption of a system during its operation.
 Category: <<Analyze>>
 +
 
-. *<<Qualitative-Analysis, Qualitative Analysis>>*
+. *<<Qualitative-Analysis>>*
 +
-See <<Quality-Requirements, Quality Requirements>>.
+See <<Quality-Requirements>>.
 Category: <<Analyze>>
 +
 
 . [[Quality-Driven-Software-Architecture]]
-Quality Driven Software Architecture (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment, Quality Function Deployment>>.
+Quality Driven Software Architecture (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment>>.
 Category: <<Improve>>
 +
 
 . [[Quality-Function-Deployment]]
-Quality Function Deployment:: (QFD) Systematically translate customer requirements into technical requirements for  system development and maintenance. See <<Quality-Driven-Software-Architecture, Quality Driven Software Architecture>>.
+Quality Function Deployment:: (QFD) Systematically translate customer requirements into technical requirements for  system development and maintenance. See <<Quality-Driven-Software-Architecture>>.
 +
 
 . [[Quantitative-Analysis]]
@@ -337,7 +338,7 @@ Category: <<Analyze>>
 +
 
 . [[Questionnaire]]
-Questionnaire:: Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholder-Interview, Stakeholder Interview>>.
+Questionnaire:: Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholder-Interview>>.
 Category: <<Analyze>>
 +
 
@@ -357,7 +358,7 @@ Category: <<Analyze>>
 +
 
 . [[Remove-Nested-Control-Structures]]
-Remove Nested Control Structures:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring, Refactoring>>, similar to <<Untangle-Code, Untangle Code>>.
+Remove Nested Control Structures:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>.
 Category: <<Improve>>
 +
 
@@ -368,7 +369,7 @@ Category: <<Analyze>>
 +
 
 . [[Runtime-Analysis]]
-Runtime Analysis:: See <<Profiling, Profiling>>, <<Performance-Analysis, Performance Analysis>>.
+Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -394,7 +395,7 @@ Separate Cause From Effect:: See <<Root-Cause-Analysis>>.
 Category: <<Analyze>>
 +
 
-. *<<Software-Archeology, Software Archeology>>*
+. *<<Software-Archeology>>*
 +
 Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
 Category: <<Analyze>>
@@ -444,7 +445,7 @@ Category: <<Improve>>
 +
 
 . [[Untangle-Code]]
-Untangle Code:: Remove unneccessary complications in code, e.g. nested structures, dependencies, dead-code, duplicate-code etc. See <<Remove-Nested-Control-Structures, Remove Nested Control Structures>>. Special case of <<Refactoring, Refactoring>>.
+Untangle Code:: Remove unneccessary complications in code, e.g. nested structures, dependencies, dead-code, duplicate-code etc. See <<Remove-Nested-Control-Structures>>. Special case of <<Refactoring>>.
 Category: <<Improve>>
 +
 

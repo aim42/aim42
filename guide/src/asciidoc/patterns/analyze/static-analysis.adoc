@@ -34,10 +34,11 @@ Apply static code analysis when the code base is medium sized or large and the a
 
 ==== Related Patterns
 * <<Software-Archeology>>
-* <<Structural-Analysis, Structural (Code) Analysis>>
+* <<Structural-Analysis>>
 
 
 ==== References
 
 * http://sonarqube.org[SonarQube], LGPL-licenced open-source platform to analyze code.
 * http://clarkware.com/software/JDepend.html[JDepend], open-source Java dependency checker.
+* http://www.hello2morrow.com/products/sonargraph[Sonargraph], static code analyzer focused on software structure and architecture.

@@ -17,12 +17,12 @@ estimating their *value* (that's why we call this activity *evaluate*):
 === Pattern and Practices for Evaluation
 (given in alphabetical order)
 
-* <<Determine-Feature-Value, Determine Feature Value>>
+* <<Determine-Feature-Value>>
 * <<Estimate-In-Interval>>
 * <<Estimate-Problem-Cost>>
 * <<Estimate-Remedy-Cost>>
-* <<Failure-Mode-And-Effect-Analysis, Failure Mode And Effect Analysis>>
-* <<Impact-Analysis, Impact Analysis>>
+* <<Failure-Mode-And-Effect-Analysis>>
+* <<Impact-Analysis>>
 
 
 // the detailed description of the evaluation-patterns
