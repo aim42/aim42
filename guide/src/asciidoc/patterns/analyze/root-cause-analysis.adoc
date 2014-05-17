@@ -45,7 +45,7 @@ You can eliminate the cause.
 ==== Also Known As
 
 * Inspect-Cause
-* <<Separate-Cause-From-Effect, Separate Cause From Effect>>
+* <<Separate-Cause-From-Effect>>
 
 ==== Related Patterns
 * <<Take-What-They-Mean>>, maybe what they told you was not the real problem.

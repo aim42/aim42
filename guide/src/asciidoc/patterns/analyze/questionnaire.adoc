@@ -42,6 +42,6 @@ Especially when multiple interviewers conduct interviews, preparing a questionna
 
 
 ==== Related Patterns
-* <<Stakeholder-Interview, Stakeholder interview>>
+* <<Stakeholder-Interview>>
 
 ==== References

@@ -22,37 +22,37 @@ One important part of improving systems is refactoring, as initially described b
 
 In our opinion, several refactoring patterns are especially important:
 
-* <<Handle-If-Else-Chains, Handle If Else Chains>>: eliminate nested if-then-else blocks, so that code becomes more understandable.
+* <<Handle-If-Else-Chains>>: eliminate nested if-then-else blocks, so that code becomes more understandable.
 
 
 === Patterns and Practices for Improvement
 (given in alphabetical order)
 
 * <<Anticorruption-Layer>>
-* <<Assertions, Assertions>>
-* <<Automated-Tests, Automated Tests>>
-* <<Branch-For-Improvement, Branch For Improvement>>
-* <<Extract-Reusable-Component, Extract Reusable Component>>
-* <<Front-End-Switch, Front End Switch>>
-* <<Group-Improvement-Actions, Group Improvement Actions>>
-* <<Handle-If-Else-Chains, Handle If Else Chains>>
-* <<Improve-Code-Layout, Improve Code Layout>>
-* <<Interface-Segregation-Principle, Interface Segregation Principle>>
+* <<Assertions>>
+* <<Automated-Tests>>
+* <<Branch-For-Improvement>>
+* <<Extract-Reusable-Component>>
+* <<Front-End-Switch>>
+* <<Group-Improvement-Actions>>
+* <<Handle-If-Else-Chains>>
+* <<Improve-Code-Layout>>
+* <<Interface-Segregation-Principle>>
 * <<Introduce-Boy-Scout-Rule>>
-* <<Introduce-Layering, Introduce Layering>>
-* <<Isolate-Changes, Isolate Changes>>
-* <<Keep-Data-Toss-Code, Keep Data Toss Code>>
+* <<Introduce-Layering>>
+* <<Isolate-Changes>>
+* <<Keep-Data-Toss-Code>>
 * <<Manage-Complex-Client-Dependencies-With-Facade>>
-* <<Never-Change-Running-System, Never Change Running System>>
-* <<Never-Rewrite-Running-System, Never Rewrite Running System>>
-* <<Quality-Driven-Software-Architecture, Quality Driven Software Architecture>>
-* <<Refactoring, Refactoring>>
-* <<Refactoring-Plan, Refactoring Plan>>
-* <<Remove-Nested-Control-Structures, Remove Nested Control Structures>>
-* <<Sample-For-Improvement, Sample For Improvement>>
-* <<Schedule-Work, Schedule Work>>
-* <<Untangle-Code, Untangle Code>>
-* <<Use-Invariants-To-Kill-Zombies, Use Invariants To Kill Zombies>>
+* <<Never-Change-Running-System>>
+* <<Never-Rewrite-Running-System>>
+* <<Quality-Driven-Software-Architecture>>
+* <<Refactoring>>
+* <<Refactoring-Plan>>
+* <<Remove-Nested-Control-Structures>>
+* <<Sample-For-Improvement>>
+* <<Schedule-Work>>
+* <<Untangle-Code>>
+* <<Use-Invariants-To-Kill-Zombies>>
 
 
 include::patterns/improve/anticorruption-layer.adoc[]
