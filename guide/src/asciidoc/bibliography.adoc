@@ -92,7 +92,7 @@ A detailed writeup of how (object-oriented) code should look like. Lots of thing
 * [[[Ogawa-Evolution]]] Michael Ogawa: Software Evolution Storylines. Available as research paper, open-source code and  
 online. http://www.michaelogawa.com/research/storylines/[Visualizes interactions between developers in software systems]
 
-* [[[OORP]]] Serge Demeyer et. al: Object-Oriented Reengineering Patterns. 
+* [[[OORP]]] Serge Demeyer et. al: http://scg.unibe.ch/download/oorp/[Object-Oriented Reengineering Patterns]. 
 A pattern-based approach to re-engineer object-oriented legacy systems. It contains a wealth of <<Improve, improvement-patterns>>, some named slightly different than their aim42-brethren.
 
 * [[[Quality-Requirements]]] 
