@@ -1,0 +1,19 @@
+[[Expect-Denial]]
+=== Expect Denial 
+
+Some people will oppose your findings, will whitewash or sugarcoat issues, problems or <<Root-Cause-Analysis, root causes>>. Regardless on how careful you prepared your analysis, they will try to diminish, attack or dispute your findings. 
+
+==== Intent
+Prepare you (as analyzer or evaluator or systems) for serious opposition and resistance by some stakeholders.
+
+==== Description
+TBD
+
+
+==== Experiences
+TBD
+
+==== Consequences
+Especially when presenting results to (opposing) management stakeholders, you should be able to *verify* all your claims. In critical cases you should keep written protocols and note who-said-what in your <<Stakeholder-Interview, stakeholder interviews>>.
+
+
