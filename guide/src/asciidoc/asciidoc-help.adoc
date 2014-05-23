@@ -6,6 +6,14 @@
 
 To facilitate contributions we summarize the AsciiDoc (respectively AsciiDoctor) features used within this guide.
 
+[TIP]
+--
+We found the following information especially helpful for learning asciidoc: 
+
+* http://asciidoctor.org/docs/asciidoc-writers-guide[AsciiDoctor Writers Guide]
+* Chrome-Add-In for http://asciidoctor.org/news/2013/09/18/introducing-asciidoctor-js-live-preview/[Live-preview]: 
+--
+
 
 === Headings
 

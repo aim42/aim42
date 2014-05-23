@@ -432,6 +432,11 @@ Structural (Code) Analysis:: Analyze the static structure (aka building block st
 Category: <<Analyze>>
 +
 
+. *<<Systematic-Decisions>>*
++
+Systematically prepare and take decisions by finding appropriate options, check assumptions, overcome emotion and prepare to be wrong. See <<heath-decisive, Decisive (by C+D Heath)>>.
+Category: <<Crosscutting>>
+ 
 . [[System-Documentation]]
 System Documentation:: Document relevant structures, concepts, decisions, interfaces etc. of the system to increase. See <<arc42>>. 
 Category: <<Analyze>>
