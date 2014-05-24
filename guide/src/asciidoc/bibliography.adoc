@@ -56,6 +56,8 @@ the flexible, multi-language code-analysis toolkit.
 
 * [[[Freemann]]] Steve Freeman, Nat Pryce: Growing Object Oriented Software By Tests. Addison-Wesley, 2010.
 
+* [[[heath-decisive]]] Chip and Dan Heath: Decisive: How to make better choices in life and work. Crown Publishing / Random House Books, 2013. A practical and pragmatic guide to decision making (both preparing and taking them) - not specific to software. They describe four pillars of systematic decision making, which we adopted for our crosscutting practice <<systematic-decisions, Systematic-Decisions>>.
+
 * [[[Henney]]] Kevlin Henney: 97 Things Every Programmer Should Know. O'Reilly Media, 2010, ISBN 0596809484, also http://programmer.97things.oreilly.com/wiki/index.php/97_Things_Every_Programmer_Should_Know[available online]
   
 * [[[Hunt-Archeology]]] Andy Hunt, Dave Thomas: http://media.pragprog.com/articles/mar_02_archeology.pdf[Software Archeology], IEEE Software, March/April 2002

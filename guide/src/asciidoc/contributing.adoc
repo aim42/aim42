@@ -15,7 +15,7 @@ Twitter::
 https://twitter.com/arc_improve42[@arc_improve42]
 
 Mailing list::
-There's even a (human-managed) mailing list: If you like to participate, send your subscribe-request to mailto:aim42@mail.innoq.com[subscribe-me]. 
+There's even a (human-managed) mailing list: If you like to participate, send your subscribe-request to mailto:aim42@lists.innoq.com[subscribe-me]. 
 
 Suggestions::
-In case you have ideas, critique or proposals - just mailto:aim42@mail.innoq.com[let us know]. 
+In case you have ideas, critique or proposals - just mailto:aim42@lists.innoq.com[let us know]. 
