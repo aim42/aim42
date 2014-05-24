@@ -4,11 +4,25 @@
 Some people will oppose your findings, will whitewash or sugarcoat issues, problems or <<Root-Cause-Analysis, root causes>>. Regardless on how careful you prepared your analysis, they will try to diminish, attack or dispute your findings. 
 
 ==== Intent
-Prepare you (as analyzer or evaluator or systems) for serious opposition and resistance by some stakeholders.
+
+* Prepare you (as analyzer or evaluator or systems) for serious opposition and resistance by some stakeholders.
+* Describe which kind of reaction might be turned into acceptance.
+* Describe what might be gained by certain slightly negative reactions.
 
 ==== Description
-TBD
 
+
+[[figure-reaction-pyramid]]
+image::expect-denial-reaction-levels.png["Reaction levels", title="Levels of Reaction when presented with problems"]
+
+. *Enthusiasm*:
+. *Agreement*:
+. *Neutrality*:
+. *Amazement*:
+. *Doubt*:
+. *Minimization*: This is the first level of denial. The fact itself is accepted, but its consequences, evaluations or seriousness are denied. 
+. *Resistance*: Findings are opposed, either actively or passively.
+. *Hostility*, or "_Shoot the messenger_" 
 
 ==== Experiences
 TBD
