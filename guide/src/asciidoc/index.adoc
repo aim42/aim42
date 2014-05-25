@@ -4,10 +4,10 @@
 // ====================================
 
 
-= image:aim42-logo.png[] Method Guide 
+= image:aim42-logo.png[] Method Guide
 
 
-:toc2: 
+:toc2:
 
 :imagesdir: ./images
 :homepage: http://aim42.org
@@ -37,11 +37,13 @@ include::pattern-index.adoc[]
 
 include::bibliography.adoc[]
 
+include::glossary.adoc[]
+
 // the following file is just ad addendum and shall be moved asap
 // TODO
 include::asciidoc-help.adoc[]
 
-// the following file is also not here to stay but should be helpful 
+// the following file is also not here to stay but should be helpful
 // for people new to the project
 // TODO
 include::new-pattern.adoc[]
