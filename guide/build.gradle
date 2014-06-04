@@ -40,6 +40,8 @@ asciidoctor {
             sectanchors         : true,
             numbered            : true,
             imagesdir           : 'images',
+            stylesheet          : 'aim42.css',
+            stylesdir           : 'resources/'
         ]
     ]
 }
