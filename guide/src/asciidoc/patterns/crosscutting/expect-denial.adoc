@@ -1,5 +1,5 @@
 [[Expect-Denial]]
-=== Expect Denial 
+=== [pattern]#Expect Denial#
 
 Some people will oppose your findings, will whitewash or sugarcoat issues, problems or <<Root-Cause-Analysis, root causes>>. Regardless on how careful you prepared your analysis, they will try to diminish, attack or dispute your findings. 
 

@@ -655,3 +655,5 @@ span.icon > [class^="icon-"], span.icon > [class*=" icon-"] { cursor: default; }
 #toc.toc2 { background: white; }
 
 .literalblock > .content > pre, .listingblock > .content > pre { -webkit-border-radius: 0; border-radius: 0; }
+
+.pattern { font-variant: small-caps; }
