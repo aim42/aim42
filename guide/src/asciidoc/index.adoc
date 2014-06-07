@@ -7,7 +7,8 @@
 = image:aim42-logo.png[] Method Guide
 
 
-:toc2:
+:toc:
+:toc-title: Inhaltsverzeichnis
 
 :imagesdir: ./images
 :homepage: http://aim42.org
