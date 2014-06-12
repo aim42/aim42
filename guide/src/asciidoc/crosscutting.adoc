@@ -1,4 +1,4 @@
-
+:linkattrs:
 
 [[Crosscutting]]
 == Cross-Cutting Practices and Patterns
@@ -11,7 +11,7 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 
 
 [[collect-problems]]
-=== Collect Problems
+=== [pattern]#Collect Problems#
 You should constantly watch out for problems, issues and risks.
 Keep a list of those problems. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
 
@@ -20,16 +20,19 @@ It's difficult to decide how much formalism to apply in collecting problems: Som
 As always: documentation is only valuable if it can be found and searched - which makes electronic approaches more viable.
 
 [[collect-opportunities-for-improvement]]
-=== Collect Opportunities for Improvement
+=== [pattern]#Collect Opportunities for Improvement#
 You should look for improvement opportunities, remedies, measures, tactics and strategies in all of the aim42-phases.
+
 
 
 [[figure-collect-remedies]]
 image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
 
 
+include::patterns/crosscutting/expect-denial.adoc[]
+
 [[Explicit-Assumption]]
-=== Explicit Assumption
+=== [pattern]#Explicit Assumption#
 TODO
 
 Also known as _educated guess_.
@@ -37,7 +40,7 @@ Also known as _educated guess_.
 
 
 [[Fail-Fast]]
-=== Fail Fast
+=== [pattern]#Fail Fast#
 The later a lack of quality is identified the higher are the costs to fix it. Continuously evaluate the quality of work artifacts and immediately take countermeasures or pull the plug as early as possible. Similar to <<Fast-Feedback>>.
 
 Suitable methods to identify such situations are:
@@ -49,14 +52,14 @@ Suitable methods to identify such situations are:
 
 
 [[Fast-Feedback]]
-=== Fast Feedback
+=== [pattern]#Fast Feedback#
 TODO
 
 See also <<Fail-Fast>>.
 
 
 [[improvement-backlog]]
-=== Improvement Backlog
+=== [pattern]#Improvement Backlog#
 Keep a public, written backlog of possible improvements, remedies, tactics or strategies.
 
 * Revise this backlog in regular intervalls.

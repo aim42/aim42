@@ -1,3 +1,5 @@
+:linkattrs:
+
 [[Analyze]]
 
 == Analyze
@@ -23,13 +25,14 @@ TIP: To effectively find issues, you need an appropriate amount of _understandin
 
 
 . Start <<Capture-Quality-Requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
-. Conduct a <<Qualitative-Analysis, qualitative analysis>> of the system, its architecture and surrounding organization, based upon the specific quality requirements 
-. Perform <<Static-Code-Analysis, static code analysis>>
-. Conduct <<Stakeholder-Interview, stakeholder interviews>>
-. Perform a number of *runtime analysis*, e.g. performance and load monitoring, process and thread analysis
+. Conduct a [pattern]#<<Qualitative-Analysis, qualitative analysis>># of the system,
+its architecture and surrounding organization, based upon the specific quality requirements
+. Perform [pattern]#<<Static-Code-Analysis, static code analysis>>#
+. Conduct [pattern]#<<Stakeholder-Interview, stakeholder interviews>>#
+. Perform a number of *[pattern]#runtime analysis#*, e.g. performance and load monitoring, process and thread analysis
 . Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
 . Inspect and analyze all involved organizational processes
-(development, project-management, operations, requirements-analysis)   
+(development, project-management, operations, requirements-analysis)
 
 
 WARNING: Never start solving problems until you have a thourough understanding of current stakeholder requirements. Otherwise you risk wasting effort in areas that no influential stakeholder cares about.
@@ -40,33 +43,34 @@ WARNING: Never start solving problems until you have a thourough understanding o
 === Patterns and Practices for Analysis
 (given in alphabetical order)
 
-* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM>>.
-* <<Architecture-Documentation>>
-* <<ATAM>>
-* <<Capture-Quality-Requirements>>
-* <<Context-Analysis>>
-* <<Data-Analysis>>
-* <<Debugging>>
-* <<Development-Process-Analysis>>
-* <<Documentation-Analysis>>
-* <<Instrument-System>>
-* <<Issue-Tracker-Analysis>>
-* <<Profiling>>
-* <<Qualitative-Analysis>>
-* <<Quantitative-Analysis>>
-* <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
-* <<Requirements-Analysis>>
-* <<Root-Cause-Analysis>> - finding the root cause of problems
-* <<Runtime-Artifact-Analysis>> 
-* <<Separate-Cause-From-Effect>>
-* <<Software-Archeology>>
-* <<Stakeholder-Analysis>>
-* <<Stakeholder-Interview>>, see also <<Pre-Interview-Questionnaire>>.
-* <<Static-Code-Analysis>> (Structural analysis)
-* <<Structural-Analysis>>
-* <<Take-What-They-Mean>> (not what they say, as it may differ).
-* <<Use-Case-Cluster>>
-* <<View-Based-Understanding>>
+* Architecture Analysis, see [pattern]#<<Qualitative-Analysis>># and
+[pattern]#<<ATAM>>#.
+* [pattern]#<<Architecture-Documentation>>#
+* [pattern]#<<ATAM>>#
+* [pattern]#<<Capture-Quality-Requirements>>#
+* [pattern]#<<Context-Analysis>>#
+* [pattern]#<<Data-Analysis>>#
+* [pattern]#<<Debugging>>#
+* [pattern]#<<Development-Process-Analysis>>#
+* [pattern]#<<Documentation-Analysis>>#
+* [pattern]#<<Instrument-System>>#
+* [pattern]#<<Issue-Tracker-Analysis>>#
+* [pattern]#<<Profiling>>#
+* [pattern]#<<Qualitative-Analysis>>#
+* [pattern]#<<Quantitative-Analysis>>#
+* [pattern]#<<Questionnaire>>#, especially [pattern]#<<Pre-Interview-Questionnaire>>#
+* [pattern]#<<Requirements-Analysis>>#
+* [pattern]#<<Root-Cause-Analysis>># - finding the root cause of problems
+* [pattern]#<<Runtime-Artifact-Analysis>>#
+* [pattern]#<<Separate-Cause-From-Effect>>
+* [pattern]#<<Software-Archeology>>#
+* [pattern]#<<Stakeholder-Analysis>>#
+* [pattern]#<<Stakeholder-Interview>>#, see also [pattern]#<<Pre-Interview-Questionnaire>>#.
+* [pattern]#<<Static-Code-Analysis>># (Structural analysis)
+* [pattern]#<<Structural-Analysis>>#
+* [pattern]#<<Take-What-They-Mean>># (not what they say, as it may differ).
+* [pattern]#<<Use-Case-Cluster>>#
+* [pattern]#<<View-Based-Understanding>>#
 
 
 // the detailed description of the analysis-patterns
