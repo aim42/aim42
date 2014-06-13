@@ -1,6 +1,6 @@
 [[Introduce-Boy-Scout-Rule]]
 
-=== Introduce Boy Scout Rule
+=== [pattern]#Introduce Boy Scout Rule#
 
 The ``Boy Scout Rule'' for software development basically states that we 
 [quote, Robert C. Martin]

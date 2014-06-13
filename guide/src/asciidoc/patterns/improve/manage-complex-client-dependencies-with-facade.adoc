@@ -1,7 +1,7 @@
 
 [[Manage-Complex-Client-Dependencies-With-Facade]]
 
-=== Manage Complex Client Dependencies With Facade
+=== [pattern]#Manage Complex Client Dependencies With Facade#
 
 ==== Intent
 

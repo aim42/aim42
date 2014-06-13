@@ -1,5 +1,5 @@
 [[Take-What-They-Mean]]
-=== Take What They Mean, Not What They Say 
+=== [pattern]#Take What They Mean, Not What They Say# 
 
 ==== Intent
 Find out the real meaning/intention of stakeholders

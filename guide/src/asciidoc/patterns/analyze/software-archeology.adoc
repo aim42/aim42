@@ -1,5 +1,5 @@
 [[Software-Archeology]]
-=== Software Archeology 
+=== [pattern]#Software Archeology# 
 
 ==== Intent
 Understand software by examining existing source code

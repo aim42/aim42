@@ -27,7 +27,7 @@ estimating their *value* (that's why we call this activity *evaluate*):
 
 // the detailed description of the evaluation-patterns
 [[Estimate-Feature-Value]]
-==== Estimate Feature Value
+==== [pattern]#Estimate Feature Value#
 Estimate the (monetary) value of a given feature, so you can compare features of the system with each other.
 
 * Involve business or management stakeholders, as they often have a clear notion of business value.
@@ -36,7 +36,7 @@ Estimate the (monetary) value of a given feature, so you can compare features of
 
 
 [[Estimate-In-Interval]]
-==== Estimate in Interval 
+==== [pattern]#Estimate in Interval# 
 Estimation is a guess, not a *measurement*. Estimates are uncertain, otherwise they would be observations (or measurements!). 
 
 Therefore, estimate in intervals, giving a lower and upper bound to your estimate. The difference between the two shows your confidence in the estimate. If this difference is relatively small, it shows high confidence.
@@ -49,7 +49,7 @@ Estimates often rely on assumptions - which you should <<Explicit-Assumption, na
 
 
 [[Estimate-Problem-Cost]]
-==== Estimate Problem Cost
+==== [pattern]#Estimate Problem Cost#
 Estimate how much a given problem costs (in money or effort) in a period of time. 
 
 For example, if a server needs to be rebooted once every 24hrs and an operator needs 30 minutes to perform this reboot (and corresponding activities) - then you can approximate the cost of this problem for, let's say, a month:
@@ -62,7 +62,7 @@ If you multiply with (approximate or average) wage, you get _problem cost_.
 
 
 [[Estimate-Remedy-Cost]]
-==== Estimate Remedy Cost
+==== [pattern]#Estimate Remedy Cost#
 
 See: "Software Estimation. The Black Art Demystified (Steve McConnell)"
 

@@ -1,5 +1,5 @@
 [[Qualitative-Analysis]]
-=== Qualitative Analysis 
+=== [pattern]#Qualitative Analysis# 
 
 ==== Intent
 

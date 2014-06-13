@@ -1,7 +1,7 @@
 
 [[Static-Code-Analysis]]
 
-=== Static Code Analysis 
+=== [pattern]#Static Code Analysis# 
 
 ==== Intent
 Static Analysis can serve two purposes:

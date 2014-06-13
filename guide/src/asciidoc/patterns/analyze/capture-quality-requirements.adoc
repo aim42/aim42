@@ -1,6 +1,6 @@
 [[Capture-Quality-Requirements]]
 
-=== Capture Quality Requirements 
+=== [pattern]#Capture Quality Requirements# 
 
 ==== Intent
 Make the specific quality requirements of a system explicit.

@@ -1,5 +1,5 @@
 [[View-Based-Understanding]]
-=== View Based Understanding 
+=== [pattern]#View Based Understanding# 
 
 ==== Intent
 Understand the inner workings and internal (code) structure of of the systems. Document (and communicate) this via
