@@ -1,5 +1,5 @@
 [[Use-Invariants-To-Kill-Zombies]]
-=== Use Invariants To Kill Zombies
+=== [pattern]#Use Invariants To Kill Zombies#
 
 ==== Intent
 

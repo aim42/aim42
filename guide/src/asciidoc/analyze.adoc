@@ -43,34 +43,34 @@ WARNING: Never start solving problems until you have a thourough understanding o
 === Patterns and Practices for Analysis
 (given in alphabetical order)
 
-* Architecture Analysis, see [pattern]#<<Qualitative-Analysis>># and
+* Architecture Analysis, see <<Qualitative-Analysis>> and
 [pattern]#<<ATAM>>#.
 * [pattern]#<<Architecture-Documentation>>#
 * [pattern]#<<ATAM>>#
-* [pattern]#<<Capture-Quality-Requirements>>#
+* <<Capture-Quality-Requirements>>
 * [pattern]#<<Context-Analysis>>#
 * [pattern]#<<Data-Analysis>>#
-* [pattern]#<<Debugging>>#
+* <<Debugging>>
 * [pattern]#<<Development-Process-Analysis>>#
 * [pattern]#<<Documentation-Analysis>>#
-* [pattern]#<<Instrument-System>>#
+* <<Instrument-System>>
 * [pattern]#<<Issue-Tracker-Analysis>>#
 * [pattern]#<<Profiling>>#
-* [pattern]#<<Qualitative-Analysis>>#
+* <<Qualitative-Analysis>>
 * [pattern]#<<Quantitative-Analysis>>#
-* [pattern]#<<Questionnaire>>#, especially [pattern]#<<Pre-Interview-Questionnaire>>#
+* <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
 * [pattern]#<<Requirements-Analysis>>#
-* [pattern]#<<Root-Cause-Analysis>># - finding the root cause of problems
+* <<Root-Cause-Analysis>> - finding the root cause of problems
 * [pattern]#<<Runtime-Artifact-Analysis>>#
-* [pattern]#<<Separate-Cause-From-Effect>>
-* [pattern]#<<Software-Archeology>>#
+* [pattern]#<<Separate-Cause-From-Effect>>#
+* <<Software-Archeology>>
 * [pattern]#<<Stakeholder-Analysis>>#
 * [pattern]#<<Stakeholder-Interview>>#, see also [pattern]#<<Pre-Interview-Questionnaire>>#.
-* [pattern]#<<Static-Code-Analysis>># (Structural analysis)
+* <<Static-Code-Analysis>> (Structural analysis)
 * [pattern]#<<Structural-Analysis>>#
-* [pattern]#<<Take-What-They-Mean>># (not what they say, as it may differ).
+* <<Take-What-They-Mean>> (not what they say, as it may differ).
 * [pattern]#<<Use-Case-Cluster>>#
-* [pattern]#<<View-Based-Understanding>>#
+* <<View-Based-Understanding>>
 
 
 // the detailed description of the analysis-patterns

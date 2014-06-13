@@ -1,7 +1,6 @@
 [[Debugging]]
 
-=== Debugging 
-
+=== [pattern]#Debugging#
 
 ==== Intent
 Identify the source of an error (_bug_) or misbehavior by observing the flow of execution of a program in detail.

@@ -1,5 +1,6 @@
 [[Questionnaire]]
-=== Questionnaire 
+
+=== [pattern]#Questionnaire# 
 
 ==== Intent
 Support interviews with guidance and hints for appropriate questions.

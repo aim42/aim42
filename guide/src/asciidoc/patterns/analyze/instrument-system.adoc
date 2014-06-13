@@ -1,6 +1,6 @@
 [[Instrument-System]]
 
-=== Instrument System
+=== [pattern]#Instrument System#
 
 // TODO: MM: Find some witty reference to make the pattern more memorable
 

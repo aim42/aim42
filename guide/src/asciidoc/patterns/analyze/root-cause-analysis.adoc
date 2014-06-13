@@ -1,6 +1,6 @@
 [[Root-Cause-Analysis]]
 
-=== Root Cause Analysis 
+=== [pattern]#Root Cause Analysis# 
 [quote, W. Edwards Deming]
 To find mistakes is not enough. It is necessary to find the cause behind the mistake
 and build a system that minimizes future mistakes. 
