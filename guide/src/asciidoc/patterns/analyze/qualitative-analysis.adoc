@@ -21,7 +21,7 @@ Find out (analyze):
 
 ==== Experiences
 
-* Conducting workshops with a variety of stakeohlders often leads to intense and productive communication.
+* Conducting workshops with a variety of stakeholders often leads to intense and productive communication.
 
 ==== Applicability
 
@@ -37,7 +37,7 @@ Use qualitative analysis to support in the following situations:
 
 
 ==== Also Known As
-* <<ATAM, Architecture Tradeoff Analysis>>
+* <<ATAM, Architecture Tradeoff Analysis Method>>
 
 ==== Related Patterns
 
