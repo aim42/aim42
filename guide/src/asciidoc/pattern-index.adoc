@@ -453,6 +453,13 @@ Toggle Feature:: Simultaneously support evolved, competing or conflicting featur
 Category: <<Improve>>
 +
 
+. *<<Traceability>>*
++
+Maintain references to the origin of problems or issues: Remember who told you about a problem, in which documents you found issues and in what version of the source you identified risks or faults. 
+Category: <<Crosscutting>>
++
+
+
 . [[Untangle-Code]]
 Untangle Code:: Remove unneccessary complications in code, e.g. nested structures, dependencies, dead-code, duplicate-code etc. See <<Remove-Nested-Control-Structures>>. Special case of <<Refactoring>>.
 Category: <<Improve>>
