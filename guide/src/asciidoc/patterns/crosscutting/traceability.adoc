@@ -15,7 +15,7 @@ findings keeps eventual critics in check.
 
 ==== Experiences
 
-Some anti-experiences that happened when we neglegted traceability:
+Some anti-experiences that happened when we neglected traceability:
 
 Stakeholder questioned some of our findings - we could not immediately trace those findings
 back to an original source (i.e. an interview protocoll, a particular file/version of sourcecode). These stakeholders immediately suspected _all_ our findings, not only the one or two in question. 
@@ -28,11 +28,11 @@ hours with (rather trivial) bookkeeping activities, instead of identifying new a
 
 ==== Applicability
 
-Apply traceability whenever you identify problems or issues which 
+Apply traceability whenever you identify problems or issues
 
-* might discredit or offend one important stakeholder,
-* seriously impact parts of the underlying organization, company or business unit,
-* that carry huge financial, technical or organizatitional risks or penylties
+* which might discredit or offend one important stakeholder,
+* which seriously impact parts of the underlying organization, company or business unit,
+* that carry huge financial, technical or organizational risks or penalties.
 
 Short rule: The more expensive or dangerous, the more traceability you need. 
 
