@@ -30,7 +30,6 @@ http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-developmen
 
 * [[[Bass09]]] Len Bass et.al.: Software Architecture in Practice. Addison-Wesley, 2. Edition 2009.
 
-//* [[[Big-Ball-Of-Mud]]] Brian Foote and Joseph Yoder, http://laputan.org/mud/[Big Ball of Mud] - very influentual paper from the http://st-www.cs.uiuc.edu/~hanmer/PLoP-97/[fourth conference on Patterns languages of Program Design, PLoP97]
 * [[[Big-Ball-Of-Mud]]] Brian Foote and Joseph Yoder, http://laputan.org/mud/[Big Ball of Mud] - very influentual paper from the http://hillside.net/plop/plop97/[fourth conference on Patterns languages of Program Design, PLoP97]
 
 
