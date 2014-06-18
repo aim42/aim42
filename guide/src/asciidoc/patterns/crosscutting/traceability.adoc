@@ -1,0 +1,44 @@
+[[Traceability]]
+=== [pattern]#Traceability# 
+
+Maintain references to the origin of problems or issues: Remember who told you about a problem, in which documents you found issues and in what version of the source you identified risks or faults. 
+
+==== Intent
+
+When discussing problems, some stakeholders will question or doubt your findings (see pattern <<Expect-Denial>>). Keeping thorough references to the orgins or original sources of major
+findings keeps eventual critics in check.
+
+==== Description
+
+(To be done)
+
+
+==== Experiences
+
+Some anti-experiences that happened when we neglegted traceability:
+
+Stakeholder questioned some of our findings - we could not immediately trace those findings
+back to an original source (i.e. an interview protocoll, a particular file/version of sourcecode). These stakeholders immediately suspected _all_ our findings, not only the one or two in question. 
+
+Please keep in mind that a lack of traceability, especially for disputed findings or problems,
+might lead to serious loss of credibility.
+
+On the other hand, maintaining detailed references is a time-consuming task. You easily spend
+hours with (rather trivial) bookkeeping activities, instead of identifying new and exciting problems.
+
+==== Applicability
+
+Apply traceability whenever you identify problems or issues which 
+
+* might discredit or offend one important stakeholder,
+* seriously impact parts of the underlying organization, company or business unit,
+* that carry huge financial, technical or organizatitional risks or penylties
+
+Short rule: The more expensive or dangerous, the more traceability you need. 
+
+
+==== Related Patterns
+
+* <<Expect-Denial>>
+
+
