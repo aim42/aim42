@@ -72,4 +72,6 @@ image::improvement-backlog.jpg["improvement backlog", title="Improvement Backlog
 
 
 
+include::patterns/crosscutting/slide-or-write.adoc[]
+
 include::patterns/crosscutting/traceability.adoc[]
