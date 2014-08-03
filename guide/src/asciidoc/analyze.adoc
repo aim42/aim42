@@ -35,7 +35,7 @@ its architecture and surrounding organization, based upon the specific quality r
 (development, project-management, operations, requirements-analysis)
 
 
-WARNING: Never start solving problems until you have a thourough understanding of current stakeholder requirements. Otherwise you risk wasting effort in areas that no influential stakeholder cares about.
+WARNING: Never start solving problems until you have a thorough understanding of current stakeholder requirements. Otherwise you risk wasting effort in areas which no influential stakeholder cares about.
 
 
 
