@@ -29,7 +29,7 @@ TIP: To effectively find issues, you need an appropriate amount of _understandin
 its architecture and surrounding organization, based upon the specific quality requirements
 . Perform [pattern]#<<Static-Code-Analysis, static code analysis>>#
 . Conduct [pattern]#<<Stakeholder-Interview, stakeholder interviews>>#
-. Perform a number of *[pattern]#runtime analysis#*, e.g. performance and load monitoring, process and thread analysis
+. Perform a number of [pattern]#<<Runtime-Analysis, runtime analyses>>#*, e.g. performance and load monitoring, process and thread analysis
 . Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
 . Inspect and analyze all involved organizational processes
 (development, project-management, operations, requirements-analysis)
