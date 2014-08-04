@@ -54,7 +54,7 @@ Estimate how much a given problem costs (in money or effort) in a period of time
 
 For example, if a server needs to be rebooted once every 24hrs and an operator needs 30 minutes to perform this reboot (and corresponding activities) - then you can approximate the cost of this problem for, let's say, a month:
 
-5 workdays * 4 weeks * 30 min = 10hrs of operator-effort.
+5 workdays × 4 weeks × 30 min = 10hrs of operator-effort.
 
 If you multiply with (approximate or average) wage, you get _problem cost_.
 

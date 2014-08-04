@@ -30,6 +30,7 @@ Whenever you interview stakeholders, a thorough preparation will lead to better 
 ==== Consequences
 
 Questionnaires can
+
 * serve as checklists for interviewers 
 * aid in group-interviews to _stay on track_
 
