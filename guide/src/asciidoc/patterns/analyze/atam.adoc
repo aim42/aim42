@@ -60,7 +60,7 @@ The phases are:
   .. 'Create a quality tree and scenarios':
       In the context of a creative brainstorming the stakeholders develop the 
       relevant required quality goals. These are arranged in a quality tree.
-      Afterward that the quality requirements and architecture goals of the 
+      Afterward the quality requirements and architecture goals of the 
       system are refined by scenarios which are added to the quality tree. The 
       found scenarios are prioritized regarding to their business value.
      
