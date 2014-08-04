@@ -1,0 +1,22 @@
+[[Measure-Everything]]
+=== [pattern]#Measure Everything#
+
+==== Intent
+
+==== Description
+
+
+==== Experiences
+
+==== Risks
+
+==== Applicability
+
+==== Consequences
+
+==== Also Known As
+
+==== Related Patterns
+
+==== References
+

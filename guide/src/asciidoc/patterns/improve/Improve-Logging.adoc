@@ -1,0 +1,26 @@
+[[Improve-Logging]]
+=== [pattern]#Improve Logging#
+
+==== Intent
+
+
+==== Description
+
+
+==== Experiences
+
+
+==== Risks
+
+
+==== Applicability
+
+
+==== Consequences
+
+==== Also Known As
+
+==== Related Patterns
+
+==== References
+
