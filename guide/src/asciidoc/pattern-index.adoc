@@ -15,8 +15,12 @@ Create an isolating layer to provide clients with functionality in terms of thei
 Category: <<Improve>>
 +
 
-. [[ATAM]]
-ATAM:: Architecture Tradeoff Analysis Method. Systematic approach to find architectural risks and tradeoffs (compromises). Category: <<Analyze>>
+. *<<ATAM>>*
+
++
+Systematic approach to find architectural risks, tradeoffs (compromises) and sensitivity points.
+Category: <<Analyze>>
++
 
 . [[Architecture-Backlog]]
 Architecture-Backlog:: Keep a prioritized list of improvement tasks (_remedies_) with their

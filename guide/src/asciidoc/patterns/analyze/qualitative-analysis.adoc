@@ -37,12 +37,12 @@ Use qualitative analysis to support in the following situations:
 
 
 ==== Also Known As
-* <<ATAM, Architecture Tradeoff Analysis Method>>
+* <<ATAM>>
 
 ==== Related Patterns
 
 
 ==== References
 
-* ATAM - Architecture Tradeoff Analysis Method. Published by the Software Engineering Institute in numerous whitepapers and books, especially <<Clements-ATAM>>.
+* <<ATAM>>. Published by the Software Engineering Institute in numerous whitepapers and books, especially <<Clements-ATAM>>.
  

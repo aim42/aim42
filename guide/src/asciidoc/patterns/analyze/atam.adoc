@@ -1,0 +1,116 @@
+[[ATAM]]
+=== [pattern]#ATAM#
+
+Architecture Tradeoff Analysis Method. Systematic approach to find architectural 
+risks, tradeoffs and sensitivity points.
+
+==== Intent
+
+Apply the ATAM method to evaluate the software architecture regarding the 
+compliance with quality goals.
+
+==== Description
+
+The ATAM method consists of four phases as shown in diagram "Approach of ATAM".
+
+[[figure-reaction-pyramid]]
+image::approach-of-atam.png["Approach of ATAM", title="Approach of ATAM"]
+
+The phases are:
+
+. *Preparation*:
+  .. 'Identify the relevant stakeholders': 
+      The specific goals of the relevant stakeholders define the precise  
+      goals of the architecture. The stakeholders are chosen by the client or 
+      customer.  
+   
+. *Kickoff*:
+  .. 'Present the ATAM method':
+      Try to convince the relevant stakeholders of the significance of 
+      comprehensible and concrete architecture and quality goals. 
+      The ATAM method applied to the architecture evaluation deals with the 
+      identification of risks, non-risks, tradeoffs and sensitivity points. 
+      The calculation of quantitative attributes is not subject of this method.
+    
+  .. 'Present the business objectives and architecture goals':
+      Presentation of the business context. Reasons for the development of 
+      the system. Classification of the system into business processes.
+      Clarification of specific requirements that the architecture should meet 
+      for instance flexibility, modifiability and performance.
+      
+  .. 'Present the architecture of the system':
+      The architect presents the complete context of the system. This includes:
+      
+      * All other systems with which the system interacts,
+      * Building blocks of the main abstraction level,
+      * Runtime views of some important use cases,
+      * Change scenarios. 
+ 
+  
+. *Evaluation*:
+  .. 'Explain in detail the architecture approaches':
+      The following questions are answered by the architect or developers:
+      
+      * How are the relevant quality requirements achieved within the 
+        architecture or the implementation?
+      * What are the structures and concepts solving the relevant problems or 
+        challenges?  
+      * What are the important design decisions of the architecture?
+      
+  .. 'Create a quality tree and scenarios':
+      In the context of a creative brainstorming the stakeholders develop the 
+      relevant required quality goals. These are arranged in a quality tree.
+      Afterward that the quality requirements and architecture goals of the 
+      system are refined by scenarios which are added to the quality tree. The 
+      found scenarios are prioritized regarding to their business value.
+     
+  .. 'Analyze the architecture approaches with respect to the scenarios':
+      Based on the priorities of the scenarios the evaluation team examines 
+      together with the architect or developers how the architecture approaches 
+      support the considered scenario. The findings of the analysis are:
+      
+      * Existing risks concerning the attainment of the architecture goals.
+      * Non-risks which means that the quality requirements are achieved.
+      * Tradeoff points which are decisions that affect the quality attributes 
+        positive and other negative.
+      * Sensitivity points which are elements of the architecture that have 
+        formative influence to the quality attributes.
+        
+. *Follow-up*:
+  .. 'Present the results':
+      Creation of a report with:
+      
+      * Architectural approaches
+      * Quality tree with prioritized scenarios
+      * Risks
+      * Non-risks
+      * Tradeoffs
+      * Sensitivity points
+
+
+==== Experiences
+
+The ATAM method:
+
+* provides precise quality requirements,
+* discloses the design decisions of the architecture,
+* promotes the communication between the project members.
+
+[IMPORTANT]
+The ATAM method does not develop concrete measures, strategies or 
+tactics against the found risks. 
+
+
+==== Applicability
+
+Evaluate an architecture:
+
+* as soon as possible,
+* already in the construction phase,
+* better not after the completion of the system.
+
+==== Related Patterns
+
+* <<Qualitative-Analysis>>
+* <<Capture-Quality-Requirements>>
+

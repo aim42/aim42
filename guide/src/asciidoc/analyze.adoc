@@ -46,7 +46,7 @@ WARNING: Never start solving problems until you have a thourough understanding o
 * Architecture Analysis, see <<Qualitative-Analysis>> and
 [pattern]#<<ATAM>>#.
 * [pattern]#<<Architecture-Documentation>>#
-* [pattern]#<<ATAM>>#
+* <<ATAM>>
 * <<Capture-Quality-Requirements>>
 * [pattern]#<<Context-Analysis>>#
 * [pattern]#<<Data-Analysis>>#
@@ -74,6 +74,8 @@ WARNING: Never start solving problems until you have a thourough understanding o
 
 
 // the detailed description of the analysis-patterns
+
+include::patterns/analyze/atam.adoc[]
 
 include::patterns/analyze/capture-quality-requirements.adoc[]
 
