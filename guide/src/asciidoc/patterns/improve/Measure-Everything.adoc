@@ -18,5 +18,7 @@
 
 ==== Related Patterns
 
+Runtime Artifact Analysis, Instrument System, Profiling, Performance Analysis
+
 ==== References
 

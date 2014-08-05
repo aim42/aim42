@@ -274,7 +274,7 @@ Category: <<Improve>>
 
 . *<<Measure-Everything>>*
 +
-Gather runtime metrics and make them visual on dashboards in order to make your system behaviour more predictable and assumed coincendes explainable. Examples of such metrics are thread pool saturation, number of failed logins or requests per second.
+Gather runtime metrics and make them visual on dashboards in order to make your system behavior more predictable and assumed coincidences explainable. Examples of such metrics are thread pool saturation, number of failed logins, requests per second but also number of successful orders today.
 Category: <<Improve>>
 +
 

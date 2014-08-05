@@ -22,5 +22,7 @@
 
 ==== Related Patterns
 
+Runtime Artifact Analysis, Instrument System
+
 ==== References
 
