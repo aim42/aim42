@@ -96,3 +96,5 @@ weight of the system.
 * Brian Foote references Zombie code in <<Big-Ball-Of-Mud>>
 * Dead code is an alternate name for the lava-flow anti pattern in
   <<AntiPatterns>>.
+
+// end of list

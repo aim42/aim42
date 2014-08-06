@@ -25,7 +25,8 @@ source code. In Java this is often done by byte code instrumentation, in Ruby,
 PHP and some other languages there are built in mechanisms to (re-) define the
 behavior of system classes or libraries. 
 
-In theory instrumenting the system therefore is a straightforward process
+In theory instrumenting the system therefore is a straightforward process:
+
 * Identify and describe the concern that shall be explored (e.g.
   obectect-creation, function entries and exits, code execution or somethings
   else that can be described in the terms of the mechanism used).
