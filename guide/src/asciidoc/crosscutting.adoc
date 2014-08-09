@@ -10,14 +10,19 @@
 image::from-problem-to-improvement.jpg["from problem to improvement", title="From problem to solutions", id="problem-to-solution"]
 
 
-[[collect-problems]]
-=== [pattern]#Collect Problems#
-You should constantly watch out for problems, issues and risks.
-Keep a list of those problems. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
+=== Pattern and Practices for Cross-Cutting Concerns
+(given in alphabetical order)
 
-It's difficult to decide how much formalism to apply in collecting problems: Sometimes a wiki-page might suffice, for other systems a full-blown issue-tracker can be useful. 
+* <<collect-opportunities-for-improvement>>
+* <<collect-problems>>
+* <<Expect-Denial>>
+* <<Explicit-Assumption>>
+* <<Fail-Fast>>
+* <<Fast-Feedback>>
+* <<improvement-backlog>>
+* <<Slide-Or-Write>>
+* <<Traceability>>
 
-As always: documentation is only valuable if it can be found and searched - which makes electronic approaches more viable.
 
 [[collect-opportunities-for-improvement]]
 === [pattern]#Collect Opportunities for Improvement#
@@ -29,7 +34,18 @@ You should look for improvement opportunities, remedies, measures, tactics and s
 image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
 
 
+[[collect-problems]]
+=== [pattern]#Collect Problems#
+You should constantly watch out for problems, issues and risks.
+Keep a list of those problems. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
+
+It's difficult to decide how much formalism to apply in collecting problems: Sometimes a wiki-page might suffice, for other systems a full-blown issue-tracker can be useful. 
+
+As always: documentation is only valuable if it can be found and searched - which makes electronic approaches more viable.
+
+
 include::patterns/crosscutting/expect-denial.adoc[]
+
 
 [[Explicit-Assumption]]
 === [pattern]#Explicit Assumption#
@@ -69,7 +85,6 @@ Keep a public, written backlog of possible improvements, remedies, tactics or st
 
 [[figure-improvement-backlog]]
 image::improvement-backlog.jpg["improvement backlog", title="Improvement Backlog"]
-
 
 
 include::patterns/crosscutting/slide-or-write.adoc[]
