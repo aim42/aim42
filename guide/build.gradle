@@ -41,7 +41,9 @@ asciidoctor {
             numbered            : true,
             imagesdir           : 'images',
             stylesheet          : 'aim42.css',
-            stylesdir           : 'resources/'
+            stylesdir           : 'resources/',
+            'source-highlighter': 'coderay',
+            'coderay-css'       : 'class'
         ]
     ]
 }
