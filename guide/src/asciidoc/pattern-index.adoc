@@ -16,36 +16,35 @@ Category: <<Improve>>
 +
 
 . *<<ATAM>>*
-
 +
 Systematic approach to find architectural risks, tradeoffs (compromises) and sensitivity points.
 Category: <<Analyze>>
 +
 
 . [[Architecture-Backlog]]
-Architecture-Backlog:: Keep a prioritized list of improvement tasks (_remedies_) with their
+[pattern]#Architecture-Backlog#:: Keep a prioritized list of improvement tasks (_remedies_) with their
 as a backlog, parallel to the (regular) feature backlog. 
 Category: <<Improve>>
 +
 
 . [[Architecture-Documentation]]
-Architecture Documentation:: See <<System-Documentation>> and <<View-Based-Understanding>>.
+[pattern]#Architecture Documentation#:: See <<System-Documentation>> and <<View-Based-Understanding>>.
 Category: <<Analyze>>
 +
 
 . [[Assertions]]
-Assertions:: Use assertions to verify preconditions and to make a program fail early when something goes fundamentally wrong.
+[pattern]#Assertions#:: Use assertions to verify preconditions and to make a program fail early when something goes fundamentally wrong.
 Category: <<Improve>>
 +
 
 . [[Automated-Tests]]
-Automated Tests:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-, acceptance-, load- or database-tests are well-known specialisations of this.
+[pattern]#Automated Tests#:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-, acceptance-, load- or database-tests are well-known specialisations of this.
 Category: <<Improve>>
 +
 
 
 . [[Branch-For-Improvement]]
-Branch For Improvement:: Introduce distinct branches in your version control system to reflect improvements.
+[pattern]#Branch For Improvement#:: Introduce distinct branches in your version control system to reflect improvements.
 Category: <<Improve>>
 +
 
@@ -56,12 +55,12 @@ Category: <<Analyze>>
 +
 
 . [[Change-by-Extension]]
-Change by Extension:: Enable efficient change by creating new components instead of modifying existing ones.
+[pattern]#Change by Extension#:: Enable efficient change by creating new components instead of modifying existing ones.
 Category: <<Improve>>
 +
 
 . [[Change-by-Copy]]
-Change by Copy:: Isolate competing change necessity by copying and allowing the copies to evolve independently.
+[pattern]#Change by Copy#:: Isolate competing change necessity by copying and allowing the copies to evolve independently.
 Category: <<Improve>>
 +
 
@@ -78,12 +77,12 @@ Keep a list of problems, issues and risks. Regularly match those to your <<colle
 Category: <<Crosscutting>> 
 
 . [[Context-Analysis]]
-Context Analysis:: Analyse external interfaces for risk, technology, business value and other factors.
+[pattern]#Context Analysis#:: Analyse external interfaces for risk, technology, business value and other factors.
 Category: <<Analyze>>
 +
 
 . [[Data-Analysis]]
-Data Analysis:: Analyse and inspect the data created and manipulated by the system for its content, structure, quantity and size.
+[pattern]#Data Analysis#:: Analyse and inspect the data created and manipulated by the system for its content, structure, quantity and size.
 Category: <<Analyze>>
 + 
 
@@ -96,24 +95,24 @@ Category: <<Analyze>>
 +
 
 . [[Dependency-Analysis]]
-Dependency Analysis:: See <<Structural-Analysis>>.
+[pattern]#Dependency Analysis#:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
 
 . [[Development-Process-Analysis]]
-Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
+[pattern]#Development Process Analysis#:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
 Category: <<Analyze>>
 +
 
 . [[Documentation-Analysis]]
-Documentation Analysis:: Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
+[pattern]#Documentation Analysis#:: Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
 Category: <<Analyze>>
 +
 
 
 . [[Document-Problems]] 
-Document Problems:: See <<improvement-backlog, Improvement Backlog>>.
+[pattern]#Document Problems#:: See <<improvement-backlog, Improvement Backlog>>.
 Category: <<Crosscutting>>
 +
 
@@ -176,37 +175,32 @@ Category: <<Crosscutting>>
 +
 
 . [[Front-End-Switch]] 
-Front End Switch:: Route front-end requests to either new or old backend systems, depending on their nature.
+[pattern]#Front End Switch#:: Route front-end requests to either new or old backend systems, depending on their nature.
 Category: <<Improve>>
 +
 
 . [[Group-Improvement-Actions]]
-Group Improvement Actions:: Collect several improvement actions, which can or shall be applied or implemented together.
+[pattern]#Group Improvement Actions#:: Collect several improvement actions, which can or shall be applied or implemented together.
 Category: <<Improve>>
 +
 
 . [[Handle-If-Else-Chains]]
-Handle If Else Chains:: Refactor nested if-then-else structures for improved understandability.
+[pattern]#Handle If Else Chains#:: Refactor nested if-then-else structures for improved understandability.
 Category: <<Improve>>
 +
 
 . [[Hierarchical-Quality-Model]]
-Hierarchical Quality Model:: Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM>> and <<Quality-Requirements>>.
+[pattern]#Hierarchical Quality Model#:: Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM>> and <<Quality-Requirements>>.
 Category: <<Analyze>>
 +
 
 . [[Impact-Analysis]]
-Impact Analysis:: Determine what impact (in code, concepts and the organization) a specific action (e.g. refactoring) will or might have.
+[pattern]#Impact Analysis#:: Determine what impact (in code, concepts and the organization) a specific action (e.g. refactoring) will or might have.
 Category: <<Evaluate>>
 +
 
-. [[Impact-Mapping]]
-Impact Mapping:: Adjicz
-Category: <<Analyze>>
-+
-
 . [[Improve-Code-Layout]]
-Improve Code Layout:: Making code easier to read results in better understandability.
+[pattern]#Improve Code Layout#:: Making code easier to read results in better understandability.
 Category: <<Improve>>
 +
 
@@ -247,17 +241,17 @@ Category: <<Improve>>
 +
 
 . [[Isolate-Changes]]
-Isolate Changes:: Introduce interfaces and intra-system borders, so that changes cannot propagate to other areas.
+[pattern]#Isolate Changes#:: Introduce interfaces and intra-system borders, so that changes cannot propagate to other areas.
 Category: <<Improve>>
 +
 
 . [[Issue-Tracker-Analysis]]
-Issue Tracker Analysis:: Analyse entries from issue-tracker to identify critical areas, components or stakeholders. 
+[pattern]#Issue Tracker Analysis#:: Analyse entries from issue-tracker to identify critical areas, components or stakeholders. 
 Category: <<Analyze>>
 +
 
 . [[Keep-Data-Toss-Code]]
-Keep Data Toss Code:: A strategy to improve systems, keeping the data created with the (old) systems as foundation for a new one. Also described as <<Keller-Migration, Bridge-to-the-New-Town>> (by Wolfgang Keller). This is the opposite of <<Never-Change-Running-System>>.
+[pattern]#Keep Data Toss Code#:: A strategy to improve systems, keeping the data created with the (old) systems as foundation for a new one. Also described as <<Keller-Migration, Bridge-to-the-New-Town>> (by Wolfgang Keller). This is the opposite of <<Never-Change-Running-System>>.
 Category: <<Improve>>
 +
 
