@@ -256,7 +256,7 @@ Category: <<Improve>>
 +
 
 . [[Limit-Feature-by-Client]]
-Limit Feature by Client:: Support different feature sets for different clients, fade out legacy versions based on usage.
+[pattern]#Limit Feature by Client#:: Support different feature sets for different clients, fade out legacy versions based on usage.
 Category: <<Improve>>
 +
 
@@ -267,42 +267,43 @@ Category: <<Improve>>
 +
 
 . [[Migrate-Data]]
-Migrate Data:: Transform existing data from one structure or representation into another by keeping its original intent or semantic intact.
+[pattern]#Migrate Data#:: Transform existing data from one structure or representation into another by keeping its original intent or semantic intact.
 Category: <<Improve>>
 +
 
 . [[Mikado-Method]]
-Mikado-Method:: Coordinated <<Refactoring, refactoring>> effort, described in the <<Mikado, Mikado-book>>.
+[pattern]#Mikado-Method#:: Coordinated <<Refactoring, refactoring>> effort, described in the <<Mikado, Mikado-book>>.
 Category: <<Improve>>
 
 
 . [[Natural-Death]]
-Natural Death:: Keep old system running and only retire it once all objects contained reach end of life according to their life cycle. 
+[pattern]#Natural Death#:: Keep old system running and only retire it once all objects contained reach end of life according to their life cycle. 
 Category: <<Improve>>
 +
 
 . [[Never-Change-Running-System]]
-Never Change Running System:: TODO: Add description here.
+[pattern]#Never Change Running System#:: To minimize risks, you should try to refrain from changes to existing (working) code - as every change
+inevitably introduces new risks or even bugs.
 Category: <<Improve>>
 +
 
 . [[Never-Rewrite-Running-System]]
-Never Rewrite Running System:: Joel Spolsky arguments, <<Spolsky-NeverRewrite, never to rewrite a system from scratch>>, as you will likely make many new mistake and won't generate much added value.
+[pattern]#Never Rewrite Running System#:: Joel Spolsky arguments, <<Spolsky-NeverRewrite, never to rewrite a system from scratch>>, as you will likely make many new mistake and won't generate much added value.
 Category: <<Improve>>
 +
 
 . [[Organizational-Analysis]]
-Organizational Analysis:: Analyse and inspect organization(s) responsible for the system.
+[pattern]#Organizational Analysis#:: Analyse and inspect organization(s) responsible for the system.
 Category: <<Analyze>>
 +
 
 . [[Outside-in-Interfaces]]
-Outside-in Interfaces:: Modularize system in line with external, modular interfaces.
+[pattern]#Outside-in Interfaces#:: Modularize system in line with external, modular interfaces.
 Category: <<Improve>>
 +
 
 . [[Performance-Analysis]]
-Performance Analysis::
+[pattern]#Performance Analysis#:: Analyze the runtime behavior of the <<SuD>> with respect to time and resource consumption, e.g. by measuring execution times, required memory or other crucial resources. See <<Profiling>> and <<Quantitative-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -313,7 +314,7 @@ Category: <<Analyze>>
 +
 
 . [[Profiling]]
-Profiling:: Measure resource consumption of a system during its operation.
+[pattern]#Profiling#:: Measure resource consumption of a system during its operation.
 Category: <<Analyze>>
 +
 
@@ -324,41 +325,41 @@ Category: <<Analyze>>
 +
 
 . [[Quality-Driven-Software-Architecture]]
-Quality Driven Software Architecture (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment>>.
+[pattern]#Quality Driven Software Architecture# (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment>>.
 Category: <<Improve>>
 +
 
 . [[Quality-Function-Deployment]]
-Quality Function Deployment:: (QFD) Systematically translate customer requirements into technical requirements for  system development and maintenance. See <<Quality-Driven-Software-Architecture>>.
+[pattern]#Quality Function Deployment#:: (QFD) Systematically translate customer requirements into technical requirements for  system development and maintenance. See <<Quality-Driven-Software-Architecture>>.
 +
 
 . [[Quantitative-Analysis]]
-Quantitative Analysis:: Measure artifacts or processes within the system, e.g. source code. For example, see <<Static-Code-Analysis>>.
+[pattern]#Quantitative Analysis#:: Measure artifacts or processes within the system, e.g. source code. For example, see <<Static-Code-Analysis>>.
 Category: <<Analyze>>
 +
 
 . [[Questionnaire]]
-Questionnaire:: Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholder-Interview>>.
+[pattern]#Questionnaire#:: Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholder-Interview>>.
 Category: <<Analyze>>
 +
 
 . [[Refactoring]]
-Refactoring:: Source code transformation that does not change functionality of system. See <<Fowler-Refactoring>>.
+[pattern]#Refactoring#:: Source code transformation that does not change functionality of system. See <<Fowler-Refactoring>>.
 Category: <<Improve>>
 +
 
 . [[Refactoring-Plan]]
-Refactoring Plan:: The route of refactoring, as discussed within the development team. This plan should always be visible to every team member.
+[pattern]#Refactoring Plan#:: The route of refactoring, as discussed within the development team. This plan should always be visible to every team member.
 Category: <<Improve>>
 +
 
 . [[Requirements-Analysis]]
-Requirements Analysis:: Analyze (current) requirements: required features and required constraints
+[pattern]#Requirements Analysis#:: Analyze (current) requirements: required features and required constraints
 Category: <<Analyze>>
 +
 
 . [[Remove-Nested-Control-Structures]]
-Remove Nested Control Structures:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>.
+[pattern]#Remove Nested Control Structures#:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>.
 Category: <<Improve>>
 +
 
@@ -369,29 +370,29 @@ Category: <<Analyze>>
 +
 
 . [[Runtime-Analysis]]
-Runtime Analysis:: See <<Profiling>>, <<Performance-Analysis>>.
+[pattern]#Runtime Analysis#:: See <<Profiling>>, <<Performance-Analysis>> and <<Runtime-Artifact-Analysis>>.
 Category: <<Analyze>>
 +
 
 . [[Runtime-Artifact-Analysis]]
-Runtime Artifact Analysis:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
+[pattern]#Runtime Artifact Analysis#:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
 Category: <<Analyze>>
 // TODO: perhaps Log-Analysis deserves a separate entry? Especially in security
 // sensitiv environments? MM 2014-03-16 
 +
 
 . [[Sample-For-Improvement]]
-Sample For Improvement:: Provide concrete code example for typical improvement situations, so that developers can improve existing code easily.
+[pattern]#Sample For Improvement#:: Provide concrete code example for typical improvement situations, so that developers can improve existing code easily.
 Category: <<Improve>>
 +
 
 . [[Schedule-Work]]
-Schedule Work:: Schedule refactoring or improvement work, so that all (business and technical) stakeholders know about them. 
+[pattern]#Schedule Work#:: Schedule refactoring or improvement work, so that all (business and technical) stakeholders know about them. 
 Category: <<Improve>>
 +
 
 . [[Separate-Cause-From-Effect]]
-Separate Cause From Effect:: See <<Root-Cause-Analysis>>.
+[pattern]#Separate Cause From Effect#:: See <<Root-Cause-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -402,17 +403,17 @@ Category: <<Analyze>>
 +
 
 . [[Stakeholder-Analysis]]
-Stakeholder Analysis::
+[pattern]#Stakeholder Analysis#::
 Category: <<Analyze>>
 +
 
 . [[Stakeholder-Interview]] 
-Stakeholder Interview:: Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies.
+[pattern]#Stakeholder Interview#:: Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies.
 Category: <<Analyze>>
 +
 
 . [[Stakeholder-Specific-Communication]]
-Stakeholder Specific Communication:: Communicate with stakeholders by actively applying their specific or favored terminology and/or communication channels.
+[pattern]#Stakeholder Specific Communication#:: Communicate with stakeholders by actively applying their specific or favored terminology and/or communication channels.
 Category: <<Analyze>>
 +
 
@@ -424,7 +425,7 @@ Category: <<Analyze>>
 +
 
 . [[Structural-Analysis]]
-Structural (Code) Analysis:: Analyze the static structure (aka building block structure) of the code, e.g. package or module dependencies. Part of the more general <<Static-Code-Analysis>>. 
+[pattern]#Structural Analysis#:: Analyze the static structures (e.g. building block structure) of the <<SuD>>, e.g. package or module dependencies, runtime- and/or deployment dependencies. See the more specific <<Static-Code-Analysis>>, <<Context-Analysis>> and <<Data-Analysis>>. 
 Category: <<Analyze>>
 +
 
@@ -433,8 +434,9 @@ Category: <<Analyze>>
 Systematically prepare and take decisions by finding appropriate options, check assumptions, overcome emotion and prepare to be wrong. See <<heath-decisive, Decisive (by C+D Heath)>>.
 Category: <<Crosscutting>>
  
+
 . [[System-Documentation]]
-System Documentation:: Document relevant structures, concepts, decisions, interfaces etc. of the system to increase. See <<arc42>>. 
+[pattern]#System Documentation#:: Document relevant structures, concepts, decisions, interfaces etc. of the system to increase. See <<arc42>>. 
 Category: <<Analyze>>
 +
 
@@ -445,7 +447,7 @@ Category: <<Analyze>>
 +
 
 . [[Toggle-Feature]]
-Toggle Feature:: Simultaneously support evolved, competing or conflicting features at runtime by toggling feature flags.
+[pattern]#Toggle Feature#:: Simultaneously support evolved, competing or conflicting features at runtime by toggling feature flags.
 Category: <<Improve>>
 +
 
@@ -457,13 +459,13 @@ Category: <<Crosscutting>>
 
 
 . [[Untangle-Code]]
-Untangle Code:: Remove unneccessary complications in code, e.g. nested structures, dependencies, dead-code, duplicate-code etc. See <<Remove-Nested-Control-Structures>>. Special case of <<Refactoring>>.
+[pattern]#Untangle Code#:: Remove unneccessary complications in code, e.g. nested structures, dependencies, dead-code, duplicate-code etc. See <<Remove-Nested-Control-Structures>>. Special case of <<Refactoring>>.
 Category: <<Improve>>
 +
 
 
 . [[Use-Case-Cluster]]
-Use Case Cluster:: Understand system functionality by grouping functionality into clusters to reduce complexity.
+[pattern]#Use Case Cluster#:: Understand system functionality by grouping functionality into clusters to reduce complexity.
 Category: <<Analyze>>
 +
 
