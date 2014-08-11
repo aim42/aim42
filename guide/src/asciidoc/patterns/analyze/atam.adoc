@@ -1,5 +1,5 @@
 [[ATAM]]
-=== [pattern]#ATAM#
+=== [pattern]#Atam#
 
 Architecture Tradeoff Analysis Method. Systematic approach to find architectural 
 risks, tradeoffs and sensitivity points.
@@ -20,32 +20,31 @@ The phases are:
 
 . *Preparation*:
   .. 'Identify the relevant stakeholders': 
-      The specific goals of the relevant stakeholders define the precise  
-      goals of the architecture. The stakeholders are chosen by the client or 
-      customer.  
+      The specific goals of the relevant stakeholders define the primary  
+      goals of the architecture. Who belongs to these _relevant_ stakeholders
+      has to be determined by a <<Stakeholder-Analysis>>.  
    
 . *Kickoff*:
   .. 'Present the ATAM method':
-      Try to convince the relevant stakeholders of the significance of 
-      comprehensible and concrete architecture and quality goals. 
-      The ATAM method applied to the architecture evaluation deals with the 
-      identification of risks, non-risks, tradeoffs and sensitivity points. 
-      The calculation of quantitative attributes is not subject of this method.
+      Convince the relevant stakeholders of the significance of 
+      comprehensible and specific architecture and quality goals. 
+      ATAM helps identify risks, non-risks, tradeoffs and sensitivity points. 
+      Calculation of quantitative attributes is not subject of this method.
     
   .. 'Present the business objectives and architecture goals':
-      Presentation of the business context. Reasons for the development of 
-      the system. Classification of the system into business processes.
-      Clarification of specific requirements that the architecture should meet 
+      Present the business context to the relevant stakeholders, especially the
+      _business motivation and reasons_ for the development of the system. 
+      Clarify specific requirements that the architecture should meet, 
       for instance flexibility, modifiability and performance.
       
   .. 'Present the architecture of the system':
-      The architect presents the complete context of the system. This includes:
+      The architect presents the _architecture_ of the system. This includes:
       
-      * All other systems with which the system interacts,
-      * Building blocks of the main abstraction level,
-      * Runtime views of some important use cases,
-      * Change scenarios. 
- 
+      * All other systems with interactions to the <<SuD>>,
+      * building blocks of the top abstraction level,
+      * runtime views of some important use cases,
+      * change or modification scenarios. 
+
   
 . *Evaluation*:
   .. 'Explain in detail the architecture approaches':
@@ -92,14 +91,17 @@ The phases are:
 
 The ATAM method:
 
-* provides precise quality requirements,
-* discloses the design decisions of the architecture,
-* promotes the communication between the project members.
+* provides operational, specific quality requirements,
+* discloses important architectural decisions of the <<SuD>>,
+* promotes the communication between relevant stakeholders.
 
 [IMPORTANT]
 The ATAM method does not develop concrete measures, strategies or 
 tactics against the found risks. 
 
+
+ATAM has been successfully applied by many organizations to a variety of systems. It is widely regarded as the most important
+systematic approach to qualitative system/architecture analysisfootnote:[The original authors of ATAM call it an _evaluation_ method, whereas aim42 classifies ATAM to belong to the category of analysis practices.].
 
 ==== Applicability
 
