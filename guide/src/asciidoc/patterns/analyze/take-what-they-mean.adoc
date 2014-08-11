@@ -8,21 +8,30 @@ Find out the real meaning/intention of stakeholders
 ==== Description
 Natural language has the risk that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differs between people. 
 
-Therefore: what people mean/want/need is sometimes not what they say. This is due either to semantic differences on sender and receive sides, or to other reasons.
+Therefore: what people mean/want/need is sometimes not what they say. This is due either to 
+* semantic differences on sender and receive sides, 
+* stressful or inconvenient communication situations (e.g. "the boss is present", communication under pressure), 
+* people are distracted or tired,
+
+or other reasons.
 
 NLP (neurolingustic programming) practitioners recommend to _mirror_ things you hear to your communication partners in your own words. This might facilitate understanding.
 
+When you have the slightest impression or indicator that your communication partner does not or can not communicate their real intention, you should
+clarify by giving explicit <<Fast-Feedback>>.
 
 ==== Applicability
-Apply this pattern whenever you communicate to other people (aka stakeholders).
+Apply this pattern whenever you communicate verbally to other people (aka stakeholders), e.g. in meetings, conferences, phone calls etc.
 
+Especially when verbal communication differs from paralanguage or gestures, you should clarify what your communication partner really meant.
 
 ==== Consequences
 * Improved understanding between stakeholders.
-* <<Explicit-Assumption, Explicit assumptions>>, instead of implicit ones.
+* <<Explicit-Assumption>>, instead of implicit ones.
 
 
 ==== Related Patterns
+* <<Fast-Feedback>>, as you give immediate feedback within ongoing communication.
 * In every <<Stakeholder-Interview>> you should apply this pattern. 
 * <<Stakeholder-Analysis>> to find out, who are the important stakeholders you should apply this pattern to.
 
