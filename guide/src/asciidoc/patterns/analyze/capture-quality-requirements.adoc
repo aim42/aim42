@@ -14,12 +14,15 @@ Let them write _quality scenarios_ to describe their specific quality requiremen
 * Use _scenarios_ to formulate specific quality requirements.
 * Order those scenarios within a mostly hierachical quality tree, similar to <<ISO-9126>>.
 
-TODO:
+////
+TODO (https://github.com/aim42/aim42/issues/94)
 
 * explain scenarios, use diagram
 * example scenarios
 * explain quality tree
 * explain brainstorming session, moderated workshop
+
+////
 
 ===== Scenario-based Quality Description
 
