@@ -144,3 +144,11 @@ Files are included with the "include" directive:
 Some attributes are useful, e.g.
 
 * `{docdate}` will insert the last modification data (here: {docdate})
+
+=== Footnotes
+In case you need a footnote - that's easy too:
+----
+A statement.footnote:[the text of this footnote, usually rendered at the end of the document.]
+----
+
+
