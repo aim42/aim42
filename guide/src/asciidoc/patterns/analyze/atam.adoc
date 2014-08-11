@@ -13,7 +13,7 @@ compliance with quality goals.
 
 The ATAM method consists of four phases as shown in diagram "Approach of ATAM".
 
-[[figure-reaction-pyramid]]
+[[figure-atam-approach]]
 image::approach-of-atam.png["Approach of ATAM", title="Approach of ATAM"]
 
 The phases are:
