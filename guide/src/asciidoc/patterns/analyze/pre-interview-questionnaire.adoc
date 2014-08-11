@@ -34,7 +34,6 @@ Download a sample pre-interview questionnaire - currently only in German:
 * link:./resources/DE-Vorab-Fragebogen.pdf[pdf version^] 
 * link:./resources/DE-Vorab-Fragebogen.docx[docx version^]
 
-TODO: add EN sample for download (https://github.com/aim42/aim42/issues/20)
 
 ==== Also Known As
 * Interview checklist
