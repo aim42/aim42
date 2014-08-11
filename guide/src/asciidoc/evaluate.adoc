@@ -17,7 +17,7 @@ estimating their *value* (that's why we call this activity *evaluate*):
 === Pattern and Practices for Evaluation
 (given in alphabetical order)
 
-* <<Determine-Feature-Value>>
+* <<Estimate-Feature-Value>>
 * <<Estimate-In-Interval>>
 * <<Estimate-Problem-Cost>>
 * <<Estimate-Remedy-Cost>>

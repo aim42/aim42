@@ -100,10 +100,6 @@ Dependency Analysis:: See <<Structural-Analysis>>.
 Category: <<Analyze>>
 +
 
-. [[Determine-Feature-Value]]
-Determine Feature Value:: TODO: Add description here.
-Category: <<Evaluate>>
-+
 
 . [[Development-Process-Analysis]]
 Development Process Analysis:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
@@ -150,8 +146,9 @@ Category: <<Evaluate>>
 Some people will oppose your findings, will whitewash or sugarcoat issues, problems or <<Root-Cause-Analysis, root causes>>. Regardless on how careful you prepared your analysis, they will try to diminish or attack your findings. Category: <<Crosscutting>>
 +
 
-. [[Explicit-Assumption]]
-Explicit Assumption:: Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (usually written) assumptions about those facts.
+. *<<Explicit-Assumption>>*
++
+Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (usually written) assumptions about those facts.
 Category: <<Crosscutting>>
 +
 
@@ -160,11 +157,6 @@ Extract Reusable Component:: Extract code from an existing system to create a re
 Category: <<Improve>>
 +
 
-. *<<Manage-Complex-Client-Dependencies-With-Facade>>*
-+
-Simplify the interaction of a client with a set of service components.
-Category: <<Improve>>
-+
 
 . *<<Fail-Fast>>*
 +
@@ -271,6 +263,12 @@ Category: <<Improve>>
 
 . [[Limit-Feature-by-Client]]
 Limit Feature by Client:: Support different feature sets for different clients, fade out legacy versions based on usage.
+Category: <<Improve>>
++
+
+. *<<Manage-Complex-Client-Dependencies-With-Facade>>*
++
+Simplify the interaction of a client with a set of service components.
 Category: <<Improve>>
 +
 
@@ -414,7 +412,7 @@ Stakeholder Analysis::
 Category: <<Analyze>>
 +
 
-. [[Stakeholder-Interview]]
+. [[Stakeholder-Interview]] 
 Stakeholder Interview:: Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies.
 Category: <<Analyze>>
 +
