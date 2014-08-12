@@ -272,9 +272,10 @@ Simplify the interaction of a client with a set of service components.
 Category: <<Improve>>
 +
 
-. *<<Measure-Everything>>*
-+
-Gather runtime metrics and make them visual on dashboards in order to make your system behavior more predictable and assumed coincidences explainable. Examples of such metrics are thread pool saturation, number of failed logins, requests per second but also number of successful orders today.
+// . *<<Measure-Everything>>*
+. [[Measure-Everything]]
+//+
+Measure Everything:: Gather runtime metrics and make them visual on dashboards in order to make your system behavior more predictable and assumed coincidences explainable. Examples of such metrics are thread pool saturation, number of failed logins, requests per second but also number of successful orders today.
 Category: <<Improve>>
 +
 
