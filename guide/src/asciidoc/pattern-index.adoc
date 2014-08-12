@@ -407,8 +407,10 @@ Category: <<Analyze>>
 Category: <<Analyze>>
 +
 
-. [[Stakeholder-Interview]] 
-[pattern]#Stakeholder Interview#:: Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies.
+
+. *<<Stakeholder Interview>>*
++
+Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies.
 Category: <<Analyze>>
 +
 

@@ -1,0 +1,64 @@
+
+[[Stakeholder-Interview]]
+
+=== [pattern]#Stakeholder Interview# 
+Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies. 
+
+==== Intent
+Learn from the people who know or care about the <<SuD>> and everything around it.
+
+==== Description
+Conduct a <<Stakeholder-Analysis>> first to find out whom to interview. 
+
+Apply a breadth-first strategy, speak with people from 
+different departments, roles, management-levels. Include at least business-people, IT- and business manager, end-user, developer, tester, customer-service, subject-matter-expert.
+
+Plan the interview dates at least 5-10 days in advance, chose a quiet location, make sure nobody can overhear your interviews.
+
+If possible, send out a stakeholder- or role-specific <<Pre-Interview-Questionnaire>> some days in advance.
+
+Ensure a no-stress and no-fear situation. Never have top-managers or supervisors be present during interviews of their subordinates. Explain your positive intent and your role in the improvement project. Have water and cookies at hand. Make your interview partners feel comfortable and relaxed. Be honest and humble. _Never_ ever promise something you cannot guarantee!
+
+Ask open questions.
+
+Tape or protocoll questions and answers.
+
+Some typical questions, e.g.:
+
+* What is your role in this project?
+* What is great about the <<SuD>>, the business and the processes?
+* What worries you about the <<SuD>>? What are currently the 3 worst problems?
+* What problems or risks do you see in (business/development/operation/usage...)?
+  ** Can you show/demonstrate this problem? 
+  ** How can I reproduce this problem myself? 
+  ** When/where does it occur?
+  ** What are the consequences of this problem? Who cares about this problem? 
+  ** How can we/you/somebody overcome this problem?
+* How are processes working? What are the differences between _theory_ and _practice_?
+
+* If you had time, money and qualified people, what top-3 measures do you propose? 
+* Is there anyone you think we need to speak with who isn’t on our list?
+* How would you like to be involved in the rest of this project, and what’s the best way to reach you?
+
+In case people told you about severe problems, try to experience/see those problems yourself.
+At the end of the interview, give a short feedback and summarize important results to ensure you understood your interview partner correctly.
+
+==== Experience
+Expect the usual difficulties in human communication: people will love or dislike your work, the interview or the intent of your endeavour. 
+
+* Some people will hold back information, either accidently or deliberately. 
+
+* You have to create the _big picture_ yourself. Most people tend to focus on their specific issues.
+
+* Double-check critical statements, as some people might exaggerate. 
+
+
+==== Related Patterns
+* <<Stakeholder-Analysis>>, to identify important and authorative stakeholders.
+* <<Stakeholder-Specific-Communication>>
+* <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>.
+
+
+==== References
+
+* http://boxesandarrows.com/a-stakeholder-interview-checklist, nice checklists for several kinds of stakeholder interviews
