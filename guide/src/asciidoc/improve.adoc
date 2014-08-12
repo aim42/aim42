@@ -53,6 +53,8 @@ In our opinion, several refactoring patterns are especially important:
 * <<Schedule-Work>>
 * <<Untangle-Code>>
 * <<Use-Invariants-To-Kill-Zombies>>
+* <<Improve-Logging>>
+* <<Measure-Everything>>
 
 
 include::patterns/improve/anticorruption-layer.adoc[]
@@ -60,3 +62,5 @@ include::patterns/improve/interface-segregation-principle.adoc[]
 include::patterns/improve/introduce-boy-scout-rule.adoc[]
 include::patterns/improve/manage-complex-client-dependencies-with-facade.adoc[]
 include::patterns/improve/Use-Invariants-To-Kill-Zombies.adoc[]
+include::patterns/improve/Improve-Logging.adoc[]
+// include::patterns/improve/Measure-Everything.adoc[]

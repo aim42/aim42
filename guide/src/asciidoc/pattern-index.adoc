@@ -204,6 +204,12 @@ Category: <<Evaluate>>
 Category: <<Improve>>
 +
 
+. *<<Improve-Logging>>*
++
+Making runtime analysis easier with meaningful logs. This includes decentralized log analysis as well as well-structured log levels, markers and log message phrasing.
+Category: <<Improve>>
++
+
 . *<<improvement-backlog>>*
 + 
 Keep a backlog of possible improvements, remedies, tactics or strategies.
@@ -263,6 +269,13 @@ Category: <<Improve>>
 . *<<Manage-Complex-Client-Dependencies-With-Facade>>*
 +
 Simplify the interaction of a client with a set of service components.
+Category: <<Improve>>
++
+
+// . *<<Measure-Everything>>*
+. [[Measure-Everything]]
+//+
+Measure Everything:: Gather runtime metrics and make them visual on dashboards in order to make your system behavior more predictable and assumed coincidences explainable. Examples of such metrics are thread pool saturation, number of failed logins, requests per second but also number of successful orders today.
 Category: <<Improve>>
 +
 
