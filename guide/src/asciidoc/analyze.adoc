@@ -21,19 +21,23 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 Systematically look for such issues at various places and with various people.
 
-TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process.
+TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process. 
 
 
-. Begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> 
-. Start <<Capture-Quality-Requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
+. Begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> with important stakeholders.
+. Get an initial understanding of the <<SuD>> by 
+  .. <<Context-Analysis>>
+  .. <<Documentation-Analysis>>, read especially the architecture documentation, focus on <<View-Based-Understanding>>.
+  .. <<Development-Process-Analysis>> 
+  .. Perform <<Static-Code-Analysis>> to learn about code structure _in-the-large_. This also helps to identify risky code.
+. <<Capture-Quality-Requirements>> from the _authoritative_ stakeholders of the systems.
 . Conduct a <<Qualitative-Analysis>> of the system, its architecture and associated organization, 
 based upon the specific quality requirements
-. Perform <<Static-Code-Analysis>>
-. Perform <<Runtime-Analysis>>, e.g. performance and load monitoring, process and thread analysis
+  .. Inspect and analyze all involved organizational processes -
+    (development, project-management, operations, requirements-analysis)
+. Perform <<Runtime-Analysis>> or <<Quantitative-Analysis>>, e.g. performance and load monitoring, process and thread analysis
 . Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
-. Inspect and analyze all involved organizational processes
-(development, project-management, operations, requirements-analysis)
-
+. Together with appropriate stakeholders, do <<Root-Cause-Analysis>> of major issues found - as symptoms and causes may differ.
 
 WARNING: Never start solving problems until you have a thorough understanding of current stakeholder requirements. Otherwise you risk wasting effort in areas which no influential stakeholder cares about.
 
