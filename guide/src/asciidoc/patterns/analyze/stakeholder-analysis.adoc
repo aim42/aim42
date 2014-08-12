@@ -1,0 +1,44 @@
+
+[[Stakeholder-Analysis]]
+
+=== [pattern]#Stakeholder Analysis# 
+Find out which people, roles, organizational units or organizations have interests in the <<SuD>>.
+
+==== Intent
+Ensure that all concerned parties are adressed.
+
+
+==== Description
+Get an initial list of stakeholders from project management.
+
+Distinguish between _roles_ and _individuals_. Some stakeholders need to be adressed individually, for _roles_ it might be sufficient
+to identify any of several possible representatives.
+
+Take the following list as examples of _roles_:
+
+[small]#
+top-management, business-management, project-management, product-management, process-management, client, subject-matter-expert,
+business-experts, business-development, enterprise-architect, IT-strategy, lead-architect, developer, tester, qa-representative,
+configuration-manager, release-manager, maintenance-team, external service provider, hardware-designer, rollout-manager, infrastructure-planner, infrastructure-provider, IT-administrator, DB-administrator, system-administrator, security- or safety-representative, end-user, hotline, service-technician, scrum-master, product-owner, business-controller, marketing, related-projects, public or government agency, authorities, standard-bodies, external service- or interface providers, industry- or business associations, trade-groups, competitors#
+
+Include those stakeholders in a simple table:
+
+[options="header"]
+.Stakeholder Table
+|===
+| Role/Name | Description | Intention | Contribution | Contact
+...
+
+|===
+
+==== Experience
+There are often more stakeholder roles involved than it is obvious. Especially those people not directly involved in project- or development work sometimes are forgotten, e.g. standard bodies, external organizations, competitors, press or media, legal department, 
+employee organization. 
+
+==== Related Patterns
+* <<Stakeholder-Interview>>
+* <<Stakeholder-Specific-Communication>>
+
+
+==== References
+* arc42 example stakeholder table: https://github.com/arc42/arc42-template/blob/master/src/DE/asciidoc/plain/src/kap01.adoc

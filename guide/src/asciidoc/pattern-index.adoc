@@ -402,13 +402,14 @@ Understand software by analysing its source code, usually in absence of other do
 Category: <<Analyze>>
 +
 
-. [[Stakeholder-Analysis]]
-[pattern]#Stakeholder Analysis#::
+. *<<Stakeholder-Analysis>>*
++
+Find out which people, roles, organizational units or organizations have interests in the <<SuD>>.
 Category: <<Analyze>>
 +
 
 
-. *<<Stakeholder Interview>>*
+. *<<Stakeholder-Interview>>*
 +
 Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies.
 Category: <<Analyze>>

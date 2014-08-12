@@ -92,6 +92,8 @@ include::patterns/analyze/root-cause-analysis.adoc[]
 
 include::patterns/analyze/software-archeology.adoc[]
 
+include::patterns/analyze/stakeholder-analysis.adoc[]
+
 include::patterns/analyze/stakeholder-interview.adoc[]
 
 include::patterns/analyze/static-analysis.adoc[]
