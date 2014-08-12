@@ -24,12 +24,12 @@ Systematically look for such issues at various places and with various people.
 TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process.
 
 
+. Begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> 
 . Start <<Capture-Quality-Requirements, capturing current quality requirements>> from the _authoritative_ stakeholders of the systems.
-. Conduct a [pattern]#<<Qualitative-Analysis, qualitative analysis>># of the system,
-its architecture and surrounding organization, based upon the specific quality requirements
-. Perform [pattern]#<<Static-Code-Analysis, static code analysis>>#
-. Conduct [pattern]#<<Stakeholder-Interview, stakeholder interviews>>#
-. Perform a number of [pattern]#<<Runtime-Analysis, runtime analyses>>#*, e.g. performance and load monitoring, process and thread analysis
+. Conduct a <<Qualitative-Analysis>> of the system, its architecture and associated organization, 
+based upon the specific quality requirements
+. Perform <<Static-Code-Analysis>>
+. Perform <<Runtime-Analysis>>, e.g. performance and load monitoring, process and thread analysis
 . Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
 . Inspect and analyze all involved organizational processes
 (development, project-management, operations, requirements-analysis)
@@ -64,7 +64,7 @@ WARNING: Never start solving problems until you have a thorough understanding of
 * <<Separate-Cause-From-Effect>>
 * <<Software-Archeology>>
 * <<Stakeholder-Analysis>>
-* <<Stakeholder-Interview>>, see also [pattern]#<<Pre-Interview-Questionnaire>>#.
+* <<Stakeholder-Interview>>, see also <<Pre-Interview-Questionnaire>>.
 * <<Static-Code-Analysis>> (Structural analysis)
 * <<Structural-Analysis>>
 * <<Take-What-They-Mean>> (not what they say, as it may differ).
@@ -91,6 +91,10 @@ include::patterns/analyze/questionnaire.adoc[]
 include::patterns/analyze/root-cause-analysis.adoc[]
 
 include::patterns/analyze/software-archeology.adoc[]
+
+include::patterns/analyze/stakeholder-analysis.adoc[]
+
+include::patterns/analyze/stakeholder-interview.adoc[]
 
 include::patterns/analyze/static-analysis.adoc[]
 
