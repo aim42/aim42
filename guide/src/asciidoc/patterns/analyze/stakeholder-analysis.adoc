@@ -16,18 +16,18 @@ to identify any of several possible representatives.
 
 Take the following list as examples of _roles_:
 
-[small]#
-top-management, business-management, project-management, product-management, process-management, client, subject-matter-expert,
+[small]#top-management, business-management, project-management, product-management, process-management, client, subject-matter-expert,
 business-experts, business-development, enterprise-architect, IT-strategy, lead-architect, developer, tester, qa-representative,
 configuration-manager, release-manager, maintenance-team, external service provider, hardware-designer, rollout-manager, infrastructure-planner, infrastructure-provider, IT-administrator, DB-administrator, system-administrator, security- or safety-representative, end-user, hotline, service-technician, scrum-master, product-owner, business-controller, marketing, related-projects, public or government agency, authorities, standard-bodies, external service- or interface providers, industry- or business associations, trade-groups, competitors#
 
 Include those stakeholders in a simple table:
 
-[options="header"]
+[options="header", cols="3,4,4,4,4"]
 .Stakeholder Table
 |===
 | Role/Name | Description | Intention | Contribution | Contact
-...
+
+| name of person or role | responsibility for SuD | intention for/with/against SuD | what can/will/need they contribute to improvement of SuD, optionally or required | how to contact. For roles, name a primary contact person.
 
 |===
 
