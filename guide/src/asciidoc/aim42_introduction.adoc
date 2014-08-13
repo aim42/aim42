@@ -42,7 +42,8 @@ An additional effect of long-term maintenance of software is the strong
 _decrease in understandability_: When a system matures it becomes more and more difficult to understand its inner workings, changes become increasingly risky and consequences of changes become difficult to foresee which can render effort estimations quite blurry.
 
 
-image::cost-of-change.jpg[]
+[[figure-real-situation]]
+image::cost-of-change.jpg["target situation", title="Reality: Maintaining Software is too expensive"]
 
 // TODO: exchange image to reflect both cost and understandability.
 
