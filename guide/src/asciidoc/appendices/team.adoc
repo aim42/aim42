@@ -6,10 +6,11 @@
 * Christine Koppelt (innoQ): improvement-patterns
 * Michael Mahlberg (Consulting Guild): patterns and practices
 * Burkhard Neppert (innoQ): review, method
+* Roland Schimmack: review, practices and patterns, bugfixes
 * Oliver Tigges (innoQ): patterns and practices
 * Stefan Tilkov (innoQ): maintenance and evolution patterns
 * Tammo van Lessen (innoQ): improvement patterns, technical debt contribution
 * (what are you waiting for - *join us*!)
 
 
-Comments and suggestions by Markus Harrer, Phillip Ghadir and Roland Schimmack - and numerous (anonymous) project-teams from all around the IT-world.
+Comments and suggestions by Markus Harrer, Phillip Ghadir - and numerous (anonymous) project-teams from all around the IT-world.

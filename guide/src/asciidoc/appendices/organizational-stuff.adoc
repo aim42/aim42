@@ -1,0 +1,9 @@
+[appendix]
+
+== Organizational Stuff
+
+include::team.adoc[]
+
+include::license.adoc[]
+
+include::contributing.adoc[]
