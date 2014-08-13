@@ -1,0 +1,10 @@
+[[Development-Process-Analysis]]
+
+=== [pattern]#Development-Process-Analysis# 
+
+==== Intent
+Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
+
+==== Description
+
+Under discussion!

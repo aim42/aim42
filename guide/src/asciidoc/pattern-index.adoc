@@ -76,13 +76,17 @@ Category: <<Crosscutting>>
 Keep a list of problems, issues and risks. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
 Category: <<Crosscutting>> 
 
-. [[Context-Analysis]]
-[pattern]#Context Analysis#:: Analyse external interfaces for risk, technology, business value and other factors.
+
+. *<<Context Analysis>>*
++
+Analyse external interfaces for risk, technology, business value and other factors.
 Category: <<Analyze>>
 +
 
-. [[Data-Analysis]]
-[pattern]#Data Analysis#:: Analyse and inspect the data created and manipulated by the system for its content, structure, quantity and size.
+
+. *<<Data-Analysis>>*
++
+Analyse and inspect the data created and manipulated by the system for its content, structure, quantity and size.
 Category: <<Analyze>>
 + 
 
@@ -94,19 +98,16 @@ detailed flow of execution, e.g. stepwise execution of program statements. Usual
 Category: <<Analyze>>
 +
 
-. [[Dependency-Analysis]]
-[pattern]#Dependency Analysis#:: See <<Structural-Analysis>>.
+
+. *<<Development Process Analysis>>*
++
+Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
 Category: <<Analyze>>
 +
 
-
-. [[Development-Process-Analysis]]
-[pattern]#Development Process Analysis#:: Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
-Category: <<Analyze>>
+. *<<Documentation-Analysis>>*
 +
-
-. [[Documentation-Analysis]]
-[pattern]#Documentation Analysis#:: Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
+Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
 Category: <<Analyze>>
 +
 
@@ -189,8 +190,9 @@ Category: <<Improve>>
 Category: <<Improve>>
 +
 
-. [[Hierarchical-Quality-Model]]
-[pattern]#Hierarchical Quality Model#:: Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM>> and <<Quality-Requirements>>.
+. *<<Hierarchical-Quality-Model>>*
++
+Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM>> and <<Quality-Requirements>>.
 Category: <<Analyze>>
 +
 
@@ -251,8 +253,9 @@ Category: <<Improve>>
 Category: <<Improve>>
 +
 
-. [[Issue-Tracker-Analysis]]
-[pattern]#Issue Tracker Analysis#:: Analyse entries from issue-tracker to identify critical areas, components or stakeholders. 
+. *<<Issue-Tracker-Analysis>>*
++
+Analyse entries from issue-tracker to identify critical areas, components or stakeholders. 
 Category: <<Analyze>>
 +
 
@@ -305,8 +308,9 @@ Category: <<Improve>>
 Category: <<Improve>>
 +
 
-. [[Organizational-Analysis]]
-[pattern]#Organizational Analysis#:: Analyse and inspect organization(s) responsible for the system.
+. *<<Organizational-Analysis>>*
++
+Analyse and inspect organization(s) responsible for the system.
 Category: <<Analyze>>
 +
 
@@ -315,10 +319,6 @@ Category: <<Analyze>>
 Category: <<Improve>>
 +
 
-. [[Performance-Analysis]]
-[pattern]#Performance Analysis#:: Analyze the runtime behavior of the <<SuD>> with respect to time and resource consumption, e.g. by measuring execution times, required memory or other crucial resources. See <<Profiling>> and <<Quantitative-Analysis>>.
-Category: <<Analyze>>
-+
 
 . *<<Pre-Interview-Questionnaire>>*
 +
@@ -326,14 +326,10 @@ Prior to interviewing stakeholders, present them with a written questionnaire, s
 Category: <<Analyze>>
 +
 
-. [[Profiling]]
-[pattern]#Profiling#:: Measure resource consumption of a system during its operation.
-Category: <<Analyze>>
-+
 
 . *<<Qualitative-Analysis>>*
 +
-See <<Quality-Requirements>>.
+Analyze which quality goals of the <<SuD>> are at risk and which are met by the current implementation. Needs concrete <<Quality-Requirements>>. See <<Atam>>
 Category: <<Analyze>>
 +
 
@@ -342,17 +338,16 @@ Category: <<Analyze>>
 Category: <<Improve>>
 +
 
-. [[Quality-Function-Deployment]]
-[pattern]#Quality Function Deployment#:: (QFD) Systematically translate customer requirements into technical requirements for  system development and maintenance. See <<Quality-Driven-Software-Architecture>>.
-+
 
-. [[Quantitative-Analysis]]
-[pattern]#Quantitative Analysis#:: Measure artifacts or processes within the system, e.g. source code. For example, see <<Static-Code-Analysis>>.
+. *<<Quantitative-Analysis>>*
++
+Measure artifacts or processes within the system, e.g. source code. For example, see <<Runtime-Analysis>> and <<Static-Code-Analysis>>.
 Category: <<Analyze>>
 +
 
-. [[Questionnaire]]
-[pattern]#Questionnaire#:: Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholder-Interview>>.
+. *<<Questionnaire>>*
++
+Written collection of questions presented to stakeholders. Can be addendum, preparation or replacement of <<Stakeholder-Interview>>.
 Category: <<Analyze>>
 +
 
@@ -366,8 +361,9 @@ Category: <<Improve>>
 Category: <<Improve>>
 +
 
-. [[Requirements-Analysis]]
-[pattern]#Requirements Analysis#:: Analyze (current) requirements: required features and required constraints
+. *<<Requirements-Analysis>>*
++
+Analyze and document (current) requirements: required features and required constraints
 Category: <<Analyze>>
 +
 
@@ -382,16 +378,10 @@ _Find the evil at the bottom_: Explicitely differentiate between symptom and cau
 Category: <<Analyze>>
 +
 
-. [[Runtime-Analysis]]
-[pattern]#Runtime Analysis#:: See <<Profiling>>, <<Performance-Analysis>> and <<Runtime-Artifact-Analysis>>.
-Category: <<Analyze>>
+. *<<Runtime-Analysis>>*
 +
-
-. [[Runtime-Artifact-Analysis]]
-[pattern]#Runtime Artifact Analysis#:: (aka Log-Analysis, Trace-Analysis, Protocol-Analysis) Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
+Analyze the runtime behavior of the <<SuD>>, e.g. with respect to time and resource consumption or creation. See <<Profiling>>, <<Performance-Analysis>> and <<Runtime-Artifact-Analysis>>.
 Category: <<Analyze>>
-// TODO: perhaps Log-Analysis deserves a separate entry? Especially in security
-// sensitiv environments? MM 2014-03-16 
 +
 
 . [[Sample-For-Improvement]]
@@ -404,9 +394,11 @@ Category: <<Improve>>
 Category: <<Improve>>
 +
 
-. [[Separate-Cause-From-Effect]]
-[pattern]#Separate Cause From Effect#:: See <<Root-Cause-Analysis>>.
-Category: <<Analyze>>
+
+. *<<Separate-Cause-From-Effect>>*
++
+See <<Root-Cause-Analysis>>.
+Category: <<Crosscutting>>
 +
 
 . *<<Software-Archeology>>*
@@ -430,7 +422,7 @@ Category: <<Analyze>>
 
 . [[Stakeholder-Specific-Communication]]
 [pattern]#Stakeholder Specific Communication#:: Communicate with stakeholders by actively applying their specific or favored terminology and/or communication channels.
-Category: <<Analyze>>
+Category: <<Crosscutting>>
 +
 
 

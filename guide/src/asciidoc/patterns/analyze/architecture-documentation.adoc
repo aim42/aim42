@@ -1,0 +1,24 @@
+[[Architecture-Documentation]]
+
+=== [pattern]#Architecture Documentation# 
+
+==== Intent
+
+
+==== Description
+
+
+
+==== Experiences
+
+
+
+==== Applicability
+
+==== Consequences
+
+==== Also Known As
+
+==== Related Patterns
+
+==== References

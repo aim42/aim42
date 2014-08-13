@@ -1,0 +1,15 @@
+[[Documentation-Analysis]]
+
+=== [pattern]#Documentation-Analysis# 
+
+==== Intent
+Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
+
+==== Description
+
+Under discussion!
+
+Look for: 
+* missing documentation, 
+* over-documentation
+* outdated documentation

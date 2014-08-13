@@ -1,0 +1,10 @@
+[[Context-Analysis]]
+
+=== [pattern]#Context-Analysis# 
+
+==== Intent
+Analyse external interfaces for risk, technology, business value and other factors. 
+
+==== Description
+Under discussion.
+

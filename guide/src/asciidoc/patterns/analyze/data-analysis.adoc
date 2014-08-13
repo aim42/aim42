@@ -1,0 +1,10 @@
+[[Data-Analysis]]
+
+=== [pattern]#Data-Analysis# 
+
+==== Intent
+Analyse and inspect the data created and manipulated by the system for its content, structure, quantity and size. 
+
+==== Description
+
+Under discussion!

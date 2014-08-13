@@ -45,54 +45,46 @@ WARNING: Never start solving problems until you have a thorough understanding of
 
 
 === Patterns and Practices for Analysis
-(given in alphabetical order)
-
-* Architecture Analysis, see <<Qualitative-Analysis>> and <<ATAM>>.
-* <<Architecture-Documentation>>
-* <<ATAM>>
-* <<Capture-Quality-Requirements>>
-* <<Context-Analysis>>
-* <<Data-Analysis>>
-* <<Debugging>>
-* <<Development-Process-Analysis>>
-* <<Documentation-Analysis>>
-* <<Instrument-System>>
-* <<Issue-Tracker-Analysis>>
-* <<Profiling>>
-* <<Qualitative-Analysis>>
-* <<Quantitative-Analysis>>
-* <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>
-* <<Requirements-Analysis>>
-* <<Root-Cause-Analysis>> - finding the root cause of problems
-* <<Runtime-Artifact-Analysis>>
-* <<Separate-Cause-From-Effect>>
-* <<Software-Archeology>>
-* <<Stakeholder-Analysis>>
-* <<Stakeholder-Interview>>, see also <<Pre-Interview-Questionnaire>>.
-* <<Static-Code-Analysis>> (Structural analysis)
-* <<Structural-Analysis>>
-* <<Take-What-They-Mean>> (not what they say, as it may differ).
-* <<Use-Case-Cluster>>
-* <<View-Based-Understanding>>
+(described in alphabetical order)
 
 
 // the detailed description of the analysis-patterns
 
 include::patterns/analyze/atam.adoc[]
 
+include::patterns/analyze/architecture-documentation.adoc[]
+
 include::patterns/analyze/capture-quality-requirements.adoc[]
+
+include::patterns/analyze/context-analysis.adoc[]
+
+include::patterns/analyze/data-analysis.adoc[]
 
 include::patterns/analyze/debugging.adoc[]
 
+include::patterns/analyze/development-process-analysis.adoc[]
+
+include::patterns/analyze/documentation-analysis.adoc[]
+
 include::patterns/analyze/instrument-system.adoc[]
 
+include::patterns/analyze/issue-tracker-analysis.adoc[]
+
+include::patterns/analyze/organizational-analysis.adoc[]
+
 include::patterns/analyze/qualitative-analysis.adoc[]
+
+include::patterns/analyze/quantitative-analysis.adoc[]
 
 include::patterns/analyze/pre-interview-questionnaire.adoc[]
 
 include::patterns/analyze/questionnaire.adoc[]
 
+include::patterns/analyze/requirements-analysis.adoc[]
+
 include::patterns/analyze/root-cause-analysis.adoc[]
+
+include::patterns/analyze/runtime-analysis.adoc[]
 
 include::patterns/analyze/software-archeology.adoc[]
 

@@ -1,0 +1,24 @@
+[[Runtime-Analysis]]
+
+=== [pattern]#Runtime-Analysis# 
+
+==== Intent
+Analyze the runtime behavior of the <<SuD>>, e.g. with respect to time and resource consumption or creation. 
+
+
+==== Description
+
+Under discussion!
+
+Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
+Category: <<Analyze>>
+
+// TODO: perhaps Log-Analysis deserves a separate entry? Especially in security
+// sensitiv environments? MM 2014-03-16 
+
+
+
+==== Related Practices
+
+* <<Instrument-System>>
+* <<Quantitative-Analysis>>

@@ -1,0 +1,19 @@
+[[Organizational-Analysis]]
+
+=== [pattern]#Organizational-Analysis# 
+
+==== Intent
+Analyse and inspect organization(s) responsible for the system.
+
+==== Description
+
+Under discussion!
+
+
+Look for:
+
+* violations of Conways' law
+* over or under-regulated processes
+* organization with overly strict constraints
+* organizations lacking constraints (anarchy)
+* orga-problems leading to IT problems
