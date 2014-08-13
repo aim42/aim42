@@ -93,6 +93,8 @@ Keep a public, written backlog of possible improvements, remedies, tactics or st
 image::improvement-backlog.jpg["improvement backlog", title="Improvement Backlog"]
 
 
+include::patterns/crosscutting/separate-cause-from-effect.adoc[]
+
 include::patterns/crosscutting/slide-or-write.adoc[]
 
 include::patterns/crosscutting/traceability.adoc[]

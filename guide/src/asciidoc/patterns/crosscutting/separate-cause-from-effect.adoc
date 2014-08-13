@@ -1,0 +1,20 @@
+[[Separate-Cause-From-Effect]]
+
+=== [pattern]#Separate-Cause-From-Effect# 
+
+==== Intent
+Explicitly differentiate between symptom (_effect_) and cause: 
+
+* Identify root causes of symptoms, problems or issues
+* Trace a problem to its origins
+
+
+==== Description
+
+Under discussion!
+
+
+
+==== Related Practices
+
+* <<Root-Cause-Analysis>>
