@@ -46,8 +46,26 @@ WARNING: Never start solving problems until you have a thorough understanding of
 
 === Patterns and Practices for Analysis
 
-WARNING: imagemap missing
+++++
+<map name="Analysis-Patterns">
+	<area shape=poly coords="425,1233,582,1233,616,1282,582,1331,425,1331,391,1282,425,1233" href="#Static-Code-Analysis">
+	<area shape=poly coords="758,1446,927,1446,963,1495,927,1543,758,1543,722,1495,758,1446" href="#Software-Archeology">
+	<area shape=poly coords="813,48,1008,48,1049,97,1008,145,813,145,772,97,813,48" href="#Questionnaire">
+	<area shape=poly coords="56,994,227,994,263,1043,227,1091,56,1091,19,1043,56,994" href="#Qualitative-Analysis">
+	<area shape=poly coords="354,670,542,670,583,719,542,767,354,767,314,719,354,670" href="#Requirements-Analysis">
+	<area shape=poly coords="756,368,927,368,963,416,927,465,756,465,719,416,756,368" href="#Stakeholder-Interview">
+	<area shape=poly coords="81,359,252,359,288,408,252,456,81,456,44,408,81,359" href="#Stakeholde-Analysis">
+	<area shape=poly coords="78,1337,235,1337,269,1386,235,1434,78,1434,44,1386,78,1337" href="#Runtime-Analysis">
+	<area shape=poly coords="39,1663,197,1663,231,1712,197,1761,39,1761,6,1712,39,1663" href="#Instrument-System">
+	<area shape=poly coords="1125,647,1333,647,1377,695,1333,744,1125,744,1080,695,1125,647" href="#Documentation-Analysis">
+	<area shape=poly coords="504,1566,634,1566,662,1615,634,1663,504,1663,476,1615,504,1566" href="#Data-Analysis">
+	<area shape=poly coords="169,5,299,5,327,54,299,102,169,102,141,54,169,5" href="#Context-Analysis">
+	<area shape=poly coords="1100,900,1230,900,1258,949,1230,998,1100,998,1072,949,1100,900" href="#ATAM">
+	<area shape=poly coords="597,900,755,900,789,949,755,998,597,998,564,949,597,900" href="#Qualitative-Analysis">
+</map>
+<img border=0 src="images/analyze-patterns-conceptmap.png" usemap="#Analysis-Patterns">
 
+++++
 
 // the detailed description of the analysis-patterns
 
