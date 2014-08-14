@@ -15,20 +15,17 @@ Create an isolating layer to provide clients with functionality in terms of thei
 Category: <<Improve>>
 +
 
-. *<<ATAM>>*
-+
-Systematic approach to find architectural risks, tradeoffs (compromises) and sensitivity points.
-Category: <<Analyze>>
-+
-
 . [[Architecture-Backlog]]
 [pattern]#Architecture-Backlog#:: Keep a prioritized list of improvement tasks (_remedies_) with their
 as a backlog, parallel to the (regular) feature backlog. 
 Category: <<Improve>>
 +
 
-. [[Architecture-Documentation]]
-[pattern]#Architecture Documentation#:: Document relevant structures, concepts, decisions, interfaces etc. of the system to increase. See <<arc42>> and <<View-Based-Understanding>>.
+. *<<Architecture-Documentation>>*
++
+Document relevant structures, concepts, decisions, interfaces etc. of the <<SuD>>
+to _locate_ problems, risks and remedies. 
+See <<arc42>> and <<View-Based-Understanding>>.
 Category: <<Analyze>>
 +
 
@@ -36,6 +33,13 @@ Category: <<Analyze>>
 [pattern]#Assertions#:: Use assertions to verify preconditions and to make a program fail early when something goes fundamentally wrong.
 Category: <<Improve>>
 +
+
+. *<<ATAM>>*
++
+Systematic approach to find architectural risks, tradeoffs (compromises) and sensitivity points.
+Category: <<Analyze>>
++
+
 
 . [[Automated-Tests]]
 [pattern]#Automated Tests#:: Introduce automated tests to verify correctness or runtime behavior. Unit-, integration-, acceptance-, load- or database-tests are well-known specialisations of this.

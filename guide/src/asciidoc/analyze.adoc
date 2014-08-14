@@ -45,14 +45,15 @@ WARNING: Never start solving problems until you have a thorough understanding of
 
 
 === Patterns and Practices for Analysis
-(described in alphabetical order)
+
+WARNING: imagemap missing
 
 
 // the detailed description of the analysis-patterns
 
-include::patterns/analyze/atam.adoc[]
-
 include::patterns/analyze/architecture-documentation.adoc[]
+
+include::patterns/analyze/atam.adoc[]
 
 include::patterns/analyze/capture-quality-requirements.adoc[]
 
@@ -92,7 +93,7 @@ include::patterns/analyze/stakeholder-analysis.adoc[]
 
 include::patterns/analyze/stakeholder-interview.adoc[]
 
-include::patterns/analyze/static-analysis.adoc[]
+include::patterns/analyze/static-code-analysis.adoc[]
 
 include::patterns/analyze/take-what-they-mean.adoc[]
 

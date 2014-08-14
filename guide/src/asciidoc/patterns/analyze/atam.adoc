@@ -1,15 +1,15 @@
 [[ATAM]]
-=== [pattern]#Atam#
+==== [pattern]#Atam#
 
 Architecture Tradeoff Analysis Method. Systematic approach to find architectural 
 risks, tradeoffs and sensitivity points.
 
-==== Intent
+===== Intent
 
 Apply the ATAM method to evaluate the software architecture regarding the 
 compliance with quality goals.
 
-==== Description
+===== Description
 
 The ATAM method consists of four phases as shown in diagram "Approach of ATAM".
 
@@ -87,7 +87,7 @@ The phases are:
       * Sensitivity points
 
 
-==== Experiences
+===== Experiences
 
 The ATAM method:
 
@@ -103,7 +103,7 @@ tactics against the found risks.
 ATAM has been successfully applied by many organizations to a variety of systems. It is widely regarded as the most important
 systematic approach to qualitative system/architecture analysisfootnote:[The original authors of ATAM call it an _evaluation_ method, whereas aim42 classifies ATAM to belong to the category of analysis practices.].
 
-==== Applicability
+===== Applicability
 
 Evaluate an architecture:
 
@@ -111,7 +111,7 @@ Evaluate an architecture:
 * already in the construction phase,
 * better not after the completion of the system.
 
-==== Related Patterns
+===== Related Patterns
 
 * <<Qualitative-Analysis>>
 * <<Capture-Quality-Requirements>>

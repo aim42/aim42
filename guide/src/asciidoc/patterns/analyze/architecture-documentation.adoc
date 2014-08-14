@@ -1,24 +1,18 @@
 [[Architecture-Documentation]]
 
-=== [pattern]#Architecture Documentation# 
+==== [pattern]#Architecture Documentation# 
 
-==== Intent
-
-
-==== Description
-
+===== Intent
+Document relevant structures, concepts, decisions, interfaces etc. of the <<SuD>>
+to _locate_ problems, risks and remedies.
 
 
-==== Experiences
+===== Description
 
+Under discussion.
 
+===== Related Practices
 
-==== Applicability
+* <<arc42>> 
+* <<View-Based-Understanding>>
 
-==== Consequences
-
-==== Also Known As
-
-==== Related Patterns
-
-==== References
