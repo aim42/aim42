@@ -1,11 +1,11 @@
 [[Requirements-Analysis]]
 
-=== [pattern]#Requirements-Analysis# 
+==== [pattern]#Requirements-Analysis# 
 
-==== Intent
+===== Intent
 Analyze and document (current) requirements: required features and required constraints
 
-==== Description
+===== Description
 
 Under discussion!
 

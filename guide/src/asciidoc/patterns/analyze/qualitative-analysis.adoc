@@ -1,7 +1,7 @@
 [[Qualitative-Analysis]]
-=== [pattern]#Qualitative Analysis# 
+==== [pattern]#Qualitative Analysis# 
 
-==== Intent
+===== Intent
 
 Find out (analyze):
 
@@ -11,7 +11,7 @@ Find out (analyze):
 * which specific quality requirements are currently non-risks 
 
 
-==== Description
+===== Description
 
 . <<Capture-Quality-Requirements, Capture quality requirements>> to ensure you have explicit, specific, valid and current _quality requirements_ available - preferably in form of _scenarios_.
 . Prioritize these scenarios with respect to business value or importance for the authoritative stakeholders.
@@ -19,11 +19,11 @@ Find out (analyze):
 .. analyze the architectural approach the system takes,
 .. decide wether this approach seems appropriate or risky   
 
-==== Experiences
+===== Experiences
 
 * Conducting workshops with a variety of stakeholders often leads to intense and productive communication.
 
-==== Applicability
+===== Applicability
 
 Use qualitative analysis to support in the following situations:
 
@@ -33,16 +33,16 @@ Use qualitative analysis to support in the following situations:
 
 * A current and understandable collection of specific quality requirements for the system is missing.
 
-==== Consequences
+===== Consequences
 
 
 ==== Also Known As
 * <<ATAM>>
 
-==== Related Patterns
+===== Related Patterns
 
 
-==== References
+===== References
 
 * <<ATAM>>. Published by the Software Engineering Institute in numerous whitepapers and books, especially <<Clements-ATAM>>.
  

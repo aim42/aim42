@@ -1,11 +1,11 @@
 [[Pre-Interview-Questionnaire]]
 
-=== [pattern]#Pre Interview Questionnaire# 
+==== [pattern]#Pre Interview Questionnaire# 
 
-==== Intent
+===== Intent
 Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. 
 
-==== Description
+===== Description
 A specialisation of <<Questionnaire, questionnaire>> - targeted to be used by stakeholders (aka your interview partners).
 
 As with the more general <<Questionnaire, questionnaire>> you need to collect appropriate topics, questions and suggestions.
@@ -28,18 +28,18 @@ As these documents will be read and processed by external and potentially critic
 * Ensure timely delivery to your stakeholders, so they have enough time to think about their answers. Do never force your stakeholders to answer questions under time pressure.
  
 
-==== Examples
+===== Examples
 Download a sample pre-interview questionnaire - currently only in German:
 
 * link:./resources/DE-Vorab-Fragebogen.pdf[pdf version^] 
 * link:./resources/DE-Vorab-Fragebogen.docx[docx version^]
 
 
-==== Also Known As
+===== Also Known As
 * Interview checklist
 
 
-==== Related Patterns
+===== Related Patterns
 * <<Stakeholder-Interview>>
 * <<Questionnaire>>
 

@@ -1,13 +1,13 @@
 
 [[Stakeholder-Interview]]
 
-=== [pattern]#Stakeholder Interview# 
+==== [pattern]#Stakeholder Interview# 
 Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies. 
 
-==== Intent
+===== Intent
 Learn from the people who know or care about the <<SuD>> and everything around it.
 
-==== Description
+===== Description
 Conduct a <<Stakeholder-Analysis>> first to find out whom to interview. 
 
 Apply a breadth-first strategy, speak with people from 
@@ -43,7 +43,7 @@ Some typical questions, e.g.:
 In case people told you about severe problems, try to experience/see those problems yourself.
 At the end of the interview, give a short feedback and summarize important results to ensure you understood your interview partner correctly.
 
-==== Experience
+===== Experience
 Expect the usual difficulties in human communication: people will love or dislike your work, the interview or the intent of your endeavour. 
 
 * Some people will hold back information, either accidently or deliberately. 
@@ -53,12 +53,12 @@ Expect the usual difficulties in human communication: people will love or dislik
 * Double-check critical statements, as some people might exaggerate. 
 
 
-==== Related Patterns
+===== Related Patterns
 * <<Stakeholder-Analysis>>, to identify important and authorative stakeholders.
 * <<Stakeholder-Specific-Communication>>
 * <<Questionnaire>>, especially <<Pre-Interview-Questionnaire>>.
 
 
-==== References
+===== References
 
 * http://boxesandarrows.com/a-stakeholder-interview-checklist, nice checklists for several kinds of stakeholder interviews

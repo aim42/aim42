@@ -1,11 +1,11 @@
 [[Take-What-They-Mean]]
-=== [pattern]#Take What They Mean, Not What They Say# 
+==== [pattern]#Take What They Mean, Not What They Say# 
 
-==== Intent
+===== Intent
 Find out the real meaning/intention of stakeholders
 
 
-==== Description
+===== Description
 Natural language has the risk that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differs between people. 
 
 Therefore: what people mean/want/need is sometimes not what they say. This is due either to 
@@ -20,21 +20,21 @@ NLP (neurolingustic programming) practitioners recommend to _mirror_ things you 
 When you have the slightest impression or indicator that your communication partner does not or can not communicate their real intention, you should
 clarify by giving explicit <<Fast-Feedback>>.
 
-==== Applicability
+===== Applicability
 Apply this pattern whenever you communicate verbally to other people (aka stakeholders), e.g. in meetings, conferences, phone calls etc.
 
 Especially when verbal communication differs from paralanguage or gestures, you should clarify what your communication partner really meant.
 
-==== Consequences
+===== Consequences
 * Improved understanding between stakeholders.
 * <<Explicit-Assumption>>, instead of implicit ones.
 
 
-==== Related Patterns
+===== Related Patterns
 * <<Fast-Feedback>>, as you give immediate feedback within ongoing communication.
 * In every <<Stakeholder-Interview>> you should apply this pattern. 
 * <<Stakeholder-Analysis>> to find out, who are the important stakeholders you should apply this pattern to.
 
-==== References
+===== References
 Special thanx to Phillip Ghadir (who is too humble to claim this discovery) for giving this pattern its name. 
 

@@ -1,11 +1,11 @@
 [[Documentation-Analysis]]
 
-=== [pattern]#Documentation-Analysis# 
+==== [pattern]#Documentation-Analysis# 
 
-==== Intent
+===== Intent
 Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
 
-==== Description
+===== Description
 
 Under discussion!
 

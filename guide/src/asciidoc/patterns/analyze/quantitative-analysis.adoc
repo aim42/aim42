@@ -1,16 +1,16 @@
 [[Quantitative-Analysis]]
 
-=== [pattern]#Quantitative-Analysis# 
+==== [pattern]#Quantitative-Analysis# 
 
-==== Intent
+===== Intent
 Measure artifacts or processes within the system, e.g. source code. 
 
 
-==== Description
+===== Description
 
 Under discussion!
 
-==== Related Practices
+===== Related Practices
 
 * <<Runtime-Analysis>>
 * <<Static-Code-Analysis>>

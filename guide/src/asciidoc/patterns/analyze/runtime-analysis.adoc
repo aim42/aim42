@@ -1,12 +1,12 @@
 [[Runtime-Analysis]]
 
-=== [pattern]#Runtime-Analysis# 
+==== [pattern]#Runtime-Analysis# 
 
-==== Intent
+===== Intent
 Analyze the runtime behavior of the <<SuD>>, e.g. with respect to time and resource consumption or creation. 
 
 
-==== Description
+===== Description
 
 Under discussion!
 
@@ -18,7 +18,7 @@ Category: <<Analyze>>
 
 
 
-==== Related Practices
+===== Related Practices
 
 * <<Instrument-System>>
 * <<Quantitative-Analysis>>

@@ -1,11 +1,11 @@
 [[Organizational-Analysis]]
 
-=== [pattern]#Organizational-Analysis# 
+==== [pattern]#Organizational-Analysis# 
 
-==== Intent
+===== Intent
 Analyse and inspect organization(s) responsible for the system.
 
-==== Description
+===== Description
 
 Under discussion!
 

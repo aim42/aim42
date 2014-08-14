@@ -1,11 +1,10 @@
 [[Issue-Tracker-Analysis]]
 
-=== [pattern]#Issue-Tracker-Analysis# 
+==== [pattern]#Issue-Tracker-Analysis# 
 
-==== Intent
+===== Intent
 Analyse entries from issue-tracker to identify critical areas, components or stakeholders.
 
-==== Description
 
 Under discussion!
 

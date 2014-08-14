@@ -1,14 +1,14 @@
 
 [[Stakeholder-Analysis]]
 
-=== [pattern]#Stakeholder Analysis# 
+==== [pattern]#Stakeholder Analysis# 
 Find out which people, roles, organizational units or organizations have interests in the <<SuD>>.
 
-==== Intent
+===== Intent
 Ensure that all concerned parties are adressed.
 
 
-==== Description
+===== Description
 Get an initial list of stakeholders from project management.
 
 Distinguish between _roles_ and _individuals_. Some stakeholders need to be adressed individually, for _roles_ it might be sufficient
@@ -31,14 +31,14 @@ Include those stakeholders in a simple table:
 
 |===
 
-==== Experience
+===== Experience
 There are often more stakeholder roles involved than it is obvious. Especially those people not directly involved in project- or development work sometimes are forgotten, e.g. standard bodies, external organizations, competitors, press or media, legal department, 
 employee organization. 
 
-==== Related Patterns
+===== Related Patterns
 * <<Stakeholder-Interview>>
 * <<Stakeholder-Specific-Communication>>
 
 
-==== References
+===== References
 * arc42 example stakeholder table: https://github.com/arc42/arc42-template/blob/master/src/DE/asciidoc/plain/src/kap01.adoc

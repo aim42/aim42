@@ -1,6 +1,6 @@
 [[Instrument-System]]
 
-=== [pattern]#Instrument System#
+==== [pattern]#Instrument System#
 
 // TODO: MM: Find some witty reference to make the pattern more memorable
 
@@ -10,7 +10,7 @@ internals. Ways to achieve this can include <<Aspect-Oriented-Programming,
 Aspect Oriented Programming (AOP)>>, <<Monkey-Patching, Monkey Patching>> and
 other <<meta-programming, meta programming>> techniques.
 
-==== Intent
+===== Intent
 
 Find out how the system is really used and what the runtime relationships are,
 as well as other facts that can not be easily determined by
@@ -18,7 +18,7 @@ as well as other facts that can not be easily determined by
 largely undocumented and the architecture work thus mostly relies on
 assumptions, interviews and lore.
 
-==== Description
+===== Description
 In many languages today it is possible to define operation that alter the
 behavior of certain structures in the system without modifying the original
 source code. In Java this is often done by byte code instrumentation, in Ruby,
@@ -57,21 +57,21 @@ especially important to have a tried and tested way to replace the instrumented
 system back with the original system!
 --
 
-==== Experiences
+===== Experiences
 
 WARNING: even if used cautiously, the instrumentation the system under design can
 entail heavy performance penalties (on execution time, space used, bandwith
 etc.) so alway make sure that there is a quick way to switch back to the
 original un-instrumented version.
 
-==== Applicability
+===== Applicability
 The pattern is almost universally applicable as long as there is a way to
 introduce instrumentation to the executable and <<operations>> can be
 convinced that it is possible to to switch back from the instrumented version
 real fast.
 
 
-==== Related Patterns
+===== Related Patterns
 * <<Static-Code-Analysis>>
 * <<Runtime-Analysis>>
 * <<Software-Archeology>>

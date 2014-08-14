@@ -1,12 +1,12 @@
 [[Questionnaire]]
 
-=== [pattern]#Questionnaire# 
+==== [pattern]#Questionnaire# 
 
-==== Intent
+===== Intent
 Support interviews with guidance and hints for appropriate questions.
 
 
-==== Description
+===== Description
 Prior to taking <<Stakeholder-Interview, interviews with stakeholders>>,
 formulate questions covering the topics or areas of information that:
 
@@ -15,7 +15,7 @@ formulate questions covering the topics or areas of information that:
 
 The questionnaire can be specific for a single interview or be a template for multiple interviews.
 
-==== Experiences
+===== Experiences
 
 I (Gernot Starke) used such questionnaires within several technical reviews and audits. They helped my stay on track, cover a multitude of topics, even when I conducted several interviews consecutively.
 
@@ -23,11 +23,11 @@ I usually printed one copy of the questionnaire for every interview I had planne
 
  
 
-==== Applicability
+===== Applicability
 Whenever you interview stakeholders, a thorough preparation will lead to better results, interviewers will be less likely to forget important topics.
 
 
-==== Consequences
+===== Consequences
 
 Questionnaires can
 
@@ -39,11 +39,11 @@ Especially when multiple interviewers conduct interviews, preparing a questionna
 
 
 
-==== Also Known As
+===== Also Known As
 * Interview checklist
 
 
-==== Related Patterns
+===== Related Patterns
 * <<Stakeholder-Interview>>
 * <<Pre-Interview-Questionnaire>>
 

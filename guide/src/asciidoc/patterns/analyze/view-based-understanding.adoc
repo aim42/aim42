@@ -1,11 +1,11 @@
 [[View-Based-Understanding]]
-=== [pattern]#View Based Understanding# 
+==== [pattern]#View Based Understanding# 
 
-==== Intent
+===== Intent
 Understand the inner workings and internal (code) structure of of the systems. Document (and communicate) this via
 architectural views, especially the building-block view.
 
-==== Description
+===== Description
 
 * Apply <<arc42>> views
 * Apply <<Static-Code-Analysis>>
@@ -19,7 +19,7 @@ architectural views, especially the building-block view.
 image::view-based-understanding.jpg["View based understanding", title="Three main views (building block, runtime and deployment view)"]
 
 
-==== Applicability
+===== Applicability
 Use view-based-understanding when:
 
 * System has a medium to large codebase
@@ -29,18 +29,19 @@ and reason about the code structure
 * Long-term maintenance and evolution of the system is required 
 
 
-==== Consequences
+===== Consequences
 
 * Explicit overview of the system context with the external interfaces.
 * Overview of the larger units of source-code (subsystems, high-level components) and their relationships.
 
-==== Also Known As
+===== Also Known As
 
 * building block view (formerly known as logical view)
 * high-level overview
 
-==== Related Patterns
-?
+===== Related Patterns
+* <<Architecture-Documentation>>
+* <<Context-Analysis>>
 
 ==== References
 

@@ -1,11 +1,11 @@
 [[Hierarchical-Quality-Model]]
 
-=== [pattern]#Hierarchical-Quality-Model# 
+==== [pattern]#Hierarchical-Quality-Model# 
 
-==== Intent
+===== Intent
 Decompose the overall goal of "high quality" into more detailed and precise requirements, finally resulting in a tree-like structure. See <<ATAM>> and <<Quality-Requirements>>.
 
-==== Description
+===== Description
 
 Under discussion!
 

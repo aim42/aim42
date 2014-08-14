@@ -1,14 +1,14 @@
 [[Debugging]]
 
-=== [pattern]#Debugging#
+==== [pattern]#Debugging#
 
-==== Intent
+===== Intent
 Identify the source of an error (_bug_) or misbehavior by observing the flow of execution of a program in detail.
 
 
 TIP: Many software developers we met violated the basic rules of debugging. They worked in haste, took wrong assumptions, imagined-instead-of-read or simply hunted bugs at the wrong parts of the system.
 
-==== Description
+===== Description
 Debuggers are well-known and important tools for most software developers. Yet - finding bugs is often more difficult than expected - despite powerful tool support. 
 
 Approach the search for bugs, errors in the following order:
@@ -36,18 +36,18 @@ image::debugging-divide-and-conquer.jpg["Divide and conqer", title="Divide and c
 
 
 
-==== Experiences
+===== Experiences
 If locating errors takes very long, you're propably facing one of the following issues:
 
 * You suffer from any assumption that's currently not valid.
 * You _think_ something instead of _observing_ it - you let your mind deceive your eyes or ears.
 * You ignore the context: you test a wrong version, with wrong data or a wrong operating system. 
 
-==== Applicability
+===== Applicability
 * Whenever a bug or misbehavior of a program is reported, debugging can help to identify its root cause.
 * Debugging can help in understanding a system by make its inner working explicit.
 
 
-==== Related Patterns
+===== Related Patterns
 * <<Root-Cause-Analysis>>
 
