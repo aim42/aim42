@@ -14,44 +14,60 @@ estimating their *value* (that's why we call this activity *evaluate*):
 . prioritize issues, their remedies and improvement measures 
 
 
-=== Pattern and Practices for Evaluation
-(given in alphabetical order)
+=== How it works
+TODO
 
-* <<Estimate-Feature-Value>>
-* <<Estimate-In-Interval>>
-* <<Estimate-Problem-Cost>>
-* <<Estimate-Remedy-Cost>>
-* <<Failure-Mode-And-Effect-Analysis>>
-* <<Impact-Analysis>>
+=== Pattern and Practices for Evaluation
+
+// image map - created manually from OmniGraffle Export
+++++
+<map name="EvaluationConcepts">
+	<area shape=rect coords="11,174,63,209" href="#Estimate-Feature-Value">
+	<area shape=rect coords="219,249,281,283" href="#Impact-Analysis">
+	<area shape=rect coords="214,11,270,54" href="#Estimate-Problem-Cost">
+	<area shape=rect coords="351,65,426,108" href="#Estimate-Remedy-Cost">
+	<area shape=rect coords="58,65,133,108" href="#Estimate-Problem-Cost">
+</map>
+<img border=0 src="images/evaluate-patterns-conceptmap.png" usemap="#EvaluationConcepts">
+++++
 
 
 // the detailed description of the evaluation-patterns
 [[Estimate-Feature-Value]]
-=== [pattern]#Estimate Feature Value#
+==== [pattern]#Estimate Feature Value#
+
+===== Intent
 Estimate the (monetary) value of a given feature, so you can compare features of the system with each other.
 
+===== Description
 * Involve business or management stakeholders, as they often have a clear notion of business value.
 * If you cannot determine real numbers available, use <<Explicit-Assumption, explicit assumptions>> 
 * Instead of numbers, you might use categories or orders-of-magnitude (like small, medium, large). You should prefer numbers, though!
 
 
+
 [[Estimate-In-Interval]]
-=== [pattern]#Estimate in Interval# 
+==== [pattern]#Estimate in Interval# 
+===== Intent
 Estimation is a guess, not a *measurement*. Estimates are uncertain, otherwise they would be observations (or measurements!). 
 
+===== Description
 Therefore, estimate in intervals, giving a lower and upper bound to your estimate. The difference between the two shows your confidence in the estimate. If this difference is relatively small, it shows high confidence.
 
 CAUTION: Be aware of the anchoring effect http://en.wikipedia.org/wiki/Anchoring
 
 Good estimates ensure that the estimated value will be contained in the interval with a very high probability.
 
-Estimates often rely on assumptions - which you should <<Explicit-Assumption, name and describe explicitly>>. 
+Estimates often rely on assumptions - which should be <<Explicit-Assumption>>. 
 
 
 [[Estimate-Problem-Cost]]
-=== [pattern]#Estimate Problem Cost#
+==== [pattern]#Estimate Problem Cost#
+
+===== Intent
 Estimate how much a given problem costs (in money or effort) in a period of time. 
 
+===== Description
 For example, if a server needs to be rebooted once every 24hrs and an operator needs 30 minutes to perform this reboot (and corresponding activities) - then you can approximate the cost of this problem for, let's say, a month:
 
 5 workdays × 4 weeks × 30 min = 10hrs of operator-effort.
@@ -62,7 +78,17 @@ If you multiply with (approximate or average) wage, you get _problem cost_.
 
 
 [[Estimate-Remedy-Cost]]
-=== [pattern]#Estimate Remedy Cost#
+==== [pattern]#Estimate Remedy Cost#
 
 See: "Software Estimation. The Black Art Demystified (Steve McConnell)"
 
+
+[[Impact-Analysis]]
+
+==== [pattern]#Impact Analysis#
+
+===== Intent
+Determine what impact (in code, concepts, data and the organization) a specific action or issue (e.g. refactoring, recurring problem) will or might have. Identify the resultant effects on system development and operations.
+
+===== Related Practices
+* Failure-Mode-and-Effect-Analysis (http://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis[FMEA]), a method for failure analysis, widely used in various industries

@@ -168,11 +168,6 @@ Identify quality issues as early as possible and aim to fix them.
 Category: <<Crosscutting>>
 +
 
-. [[Failure-Mode-And-Effect-Analysis]]
-[pattern]#Failure Mode And Effect Analysis#:: Systematically analyze postulated failures (problems, issues) and identify the resultant effects on overall system operations. 
-Category: <<Evaluate>>
-+
-
 . *<<Fast-Feedback>>*
 +
 Evaluate the quality of work artifacts and processes as early as possible. Enables teams to apply corrective actions or take countermeasures as early as possible.
