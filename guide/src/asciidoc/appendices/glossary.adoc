@@ -9,6 +9,8 @@ ATAM:: Architecture Tradeoff Analysis Method. Extensively described in
 <<Clemens-ATAM, Clemens-2001>> and <<SEI-ATAM, online by the SEI>>,
 briefly described as <<ATAM, aim42 pattern>>.
 
+Failure:: Loss of functionality under defined (_stated_) conditions.
+
 SEI:: Software Engineering Institute at the Carnegie Mellon University.
 A federally funded research and development institute,
 sponsored by the US Departement of Defense.
