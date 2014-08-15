@@ -2,7 +2,6 @@ language: java
 install: ''
 script:
 - export TERM=dumb
-- cd guide/
 - './gradlew wrapper'
 - './gradlew clean aim42 publish --stacktrace'
 jdk:
