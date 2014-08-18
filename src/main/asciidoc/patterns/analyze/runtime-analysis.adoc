@@ -8,17 +8,22 @@ Analyze the runtime behavior of the <<SuD>>, e.g. with respect to time and resou
 
 ===== Description
 
-Under discussion!
+* Ask stakeholders about _perceived_ runtime behavior - double check by measuring.
 
-Inspect artifacts created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
-Category: <<Analyze>>
+* Measure runtime behavior, e.g. with profilers, logs or traces.
+
+* Inspect _artifacts_ created at runtime (e.g. logfiles, protocolls, system-traces) for information about problems, root-causes or system behavior.
+
+* Perform <<Infrastructure-Analysis>> to learn about the technical infrastructure.
 
 // TODO: perhaps Log-Analysis deserves a separate entry? Especially in security
 // sensitiv environments? MM 2014-03-16 
 
+WARNING:: Measuring might influence behavior. That can be especially disturbing in multi-threaded, multi-user or multi-core applications.
 
 
 ===== Related Practices
 
+* <<Infrastructure-Analysis>>
 * <<Instrument-System>>
 * <<Quantitative-Analysis>>

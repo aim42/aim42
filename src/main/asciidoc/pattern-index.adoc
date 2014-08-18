@@ -218,6 +218,11 @@ Category: <<Crosscutting>>
 +
 
 
+. *<<Infrastructure-Analysis>>*
++
+Analyze the technical infrastructure of the <<SuD>>, e.g. with respect to time and resource consumption or creation. Part of <<Runtime-Analysis>>. Category: <<Analyze>>
++
+
 . *<<Instrument-System>>*
 +
 Instrument either the executable or the source code to make 

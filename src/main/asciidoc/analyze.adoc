@@ -86,6 +86,8 @@ include::patterns/analyze/development-process-analysis.adoc[]
 
 include::patterns/analyze/documentation-analysis.adoc[]
 
+include::patterns/analyze/infrastructure-analysis.adoc[]
+
 include::patterns/analyze/instrument-system.adoc[]
 
 include::patterns/analyze/issue-tracker-analysis.adoc[]
