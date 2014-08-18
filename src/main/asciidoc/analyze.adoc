@@ -23,6 +23,13 @@ Systematically look for such issues at various places and with various people.
 
 TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process. 
 
+
+// internal comment:
+// the following imageMap + image reference has to be manually maintained
+// from the original OmniGraffle file!
+// please note the usemap-attribute name - which is WRONG in the original graffle export!
+
+
 [[figure-analyze-pattern-overview]]
 ++++
 <img border=0 src="images/analyze-patterns-overview.png" usemap="#AnalysisOverview">
@@ -65,7 +72,6 @@ WARNING: Never start solving problems until you have a thorough understanding of
 === Patterns and Practices for Analysis
 
 ++++
-
 <img border=0 src="images/analyze-patterns-conceptmap.png" usemap="#AnalysisPatterns">
 <map name="AnalysisPatterns">
 	<area shape=rect coords="105,702,187,742" href="#Instrument-System">
@@ -91,7 +97,12 @@ WARNING: Never start solving problems until you have a thorough understanding of
 Figure: Detailed overview of Analysis Practices and Patterns
 
 
-// the detailed description of the analysis-patterns
+// internal comment:
+// the prior imageMap + image reference has to be manually maintained
+// from the original OmniGraffle file!
+// please note the usemap-attribute name - which is WRONG in the original graffle export!
+
+
 
 include::patterns/analyze/architecture-documentation.adoc[]
 
