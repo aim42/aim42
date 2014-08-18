@@ -23,21 +23,39 @@ Systematically look for such issues at various places and with various people.
 
 TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process. 
 
+[[figure-analyze-pattern-overview]]
+++++
+<img border=0 src="images/analyze-patterns-overview.png" usemap="#AnalysisOverview">
+<map name="AnalysisOverview">
+	<area shape=rect coords="274,293,378,353" href="#Development-Process-Analysis">
+	<area shape=rect coords="16,314,138,362" href="#Quantitative-Analysis">
+	<area shape=rect coords="275,154,394,202" href="#Stakeholder-Interview">
+	<area shape=rect coords="15,176,134,225" href="#Stakeholder-Analysis">
+	<area shape=rect coords="70,15,163,63" href="#Context-Analysis">
+	<area shape=rect coords="476,284,588,333" href="#Qualitative-Analysis">
+</map>
+++++
+Figure: Overview of Most Important Analysis Pracices
 
-. Begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> with important stakeholders.
-. Get an initial understanding of the <<SuD>> by 
-  .. <<Context-Analysis>>
-  .. <<Documentation-Analysis>>, read especially the architecture documentation, focus on <<View-Based-Understanding>>.
-  .. <<Development-Process-Analysis>> 
-  .. Perform <<Static-Code-Analysis>> to learn about code structure _in-the-large_. This also helps to identify risky code.
-. <<Capture-Quality-Requirements>> from the _authoritative_ stakeholders of the systems.
-. Conduct a <<Qualitative-Analysis>> of the system, its architecture and associated organization, 
+
+Always begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> with important stakeholders.
+
+Next get an initial understanding of the <<SuD>> by 
+
+  ** <<Context-Analysis>>
+  ** <<Documentation-Analysis>>, read especially the architecture documentation, focus on <<View-Based-Understanding>>.
+  ** <<Development-Process-Analysis>> 
+  ** Perform <<Static-Code-Analysis>> to learn about code structure _in-the-large_. This also helps to identify risky code.
+
+* <<Capture-Quality-Requirements>> from the _authoritative_ stakeholders of the systems.
+* Conduct a <<Qualitative-Analysis>> of the system, its architecture and associated organization, 
 based upon the specific quality requirements
-  .. Inspect and analyze all involved organizational processes -
+  ** Inspect and analyze all involved organizational processes -
     (development, project-management, operations, requirements-analysis)
-. Perform <<Runtime-Analysis>> or <<Quantitative-Analysis>>, e.g. performance and load monitoring, process and thread analysis
-. Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
-. Together with appropriate stakeholders, do <<Root-Cause-Analysis>> of major issues found - as symptoms and causes may differ.
+* Perform <<Runtime-Analysis>> or <<Quantitative-Analysis>>, e.g. performance and load monitoring, process and thread analysis
+  ** Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
+
+Finally, do <<Root-Cause-Analysis>> of major issues found together with appropriate stakeholders. 
 
 WARNING: Never start solving problems until you have a thorough understanding of current stakeholder requirements. Otherwise you risk wasting effort in areas which no influential stakeholder cares about.
 
@@ -50,23 +68,28 @@ WARNING: Never start solving problems until you have a thorough understanding of
 
 <img border=0 src="images/analyze-patterns-conceptmap.png" usemap="#AnalysisPatterns">
 <map name="AnalysisPatterns">
-<area shape=rect coords="149,453,230,488" href="#Static-Code-Analysis">
-	<area shape=rect coords="269,529,356,564" href="#Software-Archeology">
-	<area shape=rect coords="290,26,390,61" href="#Questionnaire">
-	<area shape=rect coords="16,367,104,402" href="#Qualitative-Analysis">
-	<area shape=rect coords="122,250,219,285" href="#Requirements-Analysis">
-	<area shape=rect coords="268,141,356,176" href="#Stakeholder-Interview">
-	<area shape=rect coords="25,138,113,173" href="#Stakeholde-Analysis">
-	<area shape=rect coords="25,490,106,525" href="#Runtime-Analysis">
-	<area shape=rect coords="11,608,92,643" href="#Instrument-System">
-	<area shape=rect coords="398,242,505,277" href="#Documentation-Analysis">
-	<area shape=rect coords="180,573,247,608" href="#Data-Analysis">
-	<area shape=rect coords="60,11,127,46" href="#Context-Analysis">
-	<area shape=rect coords="395,333,462,368" href="#ATAM">
-	<area shape=rect coords="212,333,293,368" href="#Qualitative-Analysis">
+	<area shape=rect coords="105,702,187,742" href="#Instrument-System">
+	<area shape=rect coords="209,603,311,642" href="#Infrastructure-Analysis">
+	<area shape=rect coords="306,332,411,391" href="#Development-Process-Analysis">
+	<area shape=rect coords="40,815,138,864" href="#Static-Code-Analysis">
+	<area shape=rect coords="371,702,461,751" href="#Software-Archeology">
+	<area shape=rect coords="462,38,566,77" href="#Questionnaire">
+	<area shape=rect coords="28,307,163,355" href="#Quantitative-Analysis">
+	<area shape=rect coords="662,345,769,393" href="#Requirements-Analysis">
+	<area shape=rect coords="342,154,461,202" href="#Stakeholder-Interview">
+	<area shape=rect coords="53,179,172,228" href="#Stakeholder-Analysis">
+	<area shape=rect coords="78,506,163,552" href="#Runtime-Analysis">
+	<area shape=rect coords="556,265,677,314" href="#Documentation-Analysis">
+	<area shape=rect coords="157,446,223,485" href="#Data-Analysis">
+	<area shape=rect coords="467,575,580,624" href="#Issue-Tracker-Analysis">
+	<area shape=rect coords="137,15,230,63" href="#Context-Analysis">
+	<area shape=rect coords="667,539,742,578" href="#ATAM">
+	<area shape=rect coords="497,399,609,447" href="#Qualitative-Analysis">
 </map>
 
 ++++
+Figure: Detailed overview of Analysis Practices and Patterns
+
 
 // the detailed description of the analysis-patterns
 
