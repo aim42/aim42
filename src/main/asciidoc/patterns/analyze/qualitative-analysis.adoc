@@ -33,13 +33,9 @@ Use qualitative analysis to support in the following situations:
 
 * A current and understandable collection of specific quality requirements for the system is missing.
 
-===== Consequences
-
 
 ==== Also Known As
 * <<ATAM>>
-
-===== Related Patterns
 
 
 ===== References
