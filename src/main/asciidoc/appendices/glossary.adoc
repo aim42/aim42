@@ -16,4 +16,14 @@ A federally funded research and development institute,
 sponsored by the US Departement of Defense.
 
 [[SuD]]
-SuD:: System under Design. Alternative explanation: System under improvement.
+SuD:: System under Design. Alternative explanation: System under improvement. The system to be improved - often a single software system, but it might be a complex combination of hardware, software and organizational aspects. _Systems_ in our sense consists of:
++
+* software, usually with corresponding data structures and data
+* required infrastructure software, like operating system, database, UI-frameworks, middleware etc.
+* required hardware infrastructure, like processors, storage facilities, network, routers etc.
+* associated development processes, like requirements engineering, architecture, implementation, version- and configuration management, build- and deployment
+* associated administration and operation processes or procedures
+* associated organizational processes, like budgeting, HR, controlling, management etc.
+* associated external systems, like data-/event providers or consumers. 
+
+and maybe even more :-)  
