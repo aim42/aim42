@@ -31,8 +31,8 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 <area shape=rect coords="378,23,489,70" href="#Traceability">
 <area shape=rect coords="3,418,100,468" href="#Slide-Or-Write">
 <area shape=rect coords="338,405,465,482" href="#Separate-Cause-From-Effect">
-<area shape=rect coords="129,513,232,564" href="#Impact-Analysis">
-<area shape=rect coords="293,513,393,564" href="#Impact-Analysis">
+<area shape=rect coords="129,513,232,564" href="#Fast-Feedback">
+<area shape=rect coords="293,513,393,564" href="#Fail-Fast">
 <area shape=rect coords="545,369,674,424" href="#Improvement-Backlog">
 <area shape=rect coords="12,260,139,307" href="#Explicit-Assumption">
 <area shape=rect coords="62,23,173,77" href="#Expect-Denial">
