@@ -7,15 +7,33 @@ image::evaluate.jpg["evaluate-phase", title="Evaluate-Phase"]
 
 === Goals
 
-Make the issues, problems and risks found during the <<Analyze, analysis>> comparable by
-estimating their *value* (that's why we call this activity *evaluate*):
+Make the issues, problems and risks found during the <<Analyze, analysis>>
+comparable by estimating or measuring their *value*
+(that's why we call this activity *evaluate*):
 
 . estimate _value_ of problems, issues, risks and their remedies
 . prioritize issues, their remedies and improvement measures
 
+Usually evaluation implies _estimation_, only in few cases can you measure
+or observe the evaluation subject and produce _hard facts_.
 
-=== How it works
-TODO
+=== Estimation
+
+[[figure-evaluation-concepts]]
+image::evaluate-domain-conceptmap.png[title="Evaluation Concepts Domain Model"]
+
+
+[width="80%",cols="3,10"]
+.Evaluation Domain Concepts
+|===
+| Estimation | x
+| Subject    | z
+| Assumption | y
+| Observation | o
+| Parameter  | 2
+| Interval   | 1
+|===
+
 
 === Pattern and Practices for Evaluation
 
