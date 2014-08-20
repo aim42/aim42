@@ -21,14 +21,14 @@ TODO
 
 // image map - created manually from OmniGraffle Export
 ++++
-<map name="EvaluationConcepts">
+<map name="EvaluationPractices">
 	<area shape=rect coords="11,174,63,209" href="#Estimate-Feature-Value">
 	<area shape=rect coords="219,249,281,283" href="#Impact-Analysis">
 	<area shape=rect coords="214,11,270,54" href="#Estimate-Problem-Cost">
 	<area shape=rect coords="351,65,426,108" href="#Estimate-Remedy-Cost">
 	<area shape=rect coords="58,65,133,108" href="#Estimate-Problem-Cost">
 </map>
-<img border=0 src="images/evaluate-patterns-conceptmap.png" usemap="#EvaluationConcepts">
+<img border=0 src="images/evaluate-patterns-conceptmap.png" usemap="#EvaluationPractices">
 ++++
 
 
