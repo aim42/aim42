@@ -19,14 +19,37 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 * <<Explicit-Assumption>>
 * <<Fail-Fast>>
 * <<Fast-Feedback>>
-* <<improvement-backlog>>
+* <<Impact-Analysis>>
+* <<Improvement-Backlog>>
 * <<Slide-Or-Write>>
 * <<Traceability>>
 
 
+// image map - created manually from OmniGraffle Export
+++++
+<map name="CrosscuttingConcepts">
+<area shape=rect coords="378,23,489,70" href="#Traceability">
+<area shape=rect coords="3,418,100,468" href="#Slide-Or-Write">
+<area shape=rect coords="338,405,465,482" href="#Separate-Cause-From-Effect">
+<area shape=rect coords="129,513,232,564" href="#Impact-Analysis">
+<area shape=rect coords="293,513,393,564" href="#Impact-Analysis">
+<area shape=rect coords="545,369,674,424" href="#Improvement-Backlog">
+<area shape=rect coords="12,260,139,307" href="#Explicit-Assumption">
+<area shape=rect coords="62,23,173,77" href="#Expect-Denial">
+<area shape=rect coords="365,310,463,357" href="#Impact-Analysis">
+<area shape=rect coords="505,160,673,228" href="#collect-opportunities-for-improvement">
+<area shape=rect coords="199,174,302,228" href="#Collect-Problems">
+</map>
+
+<img border=0 src="images/crosscutting-patterns-conceptmap.png" usemap="#CrosscuttingConcepts">
+++++
+
+
+
 [[collect-opportunities-for-improvement]]
 === [pattern]#Collect Opportunities for Improvement#
-You should look for improvement opportunities, remedies, measures, tactics and strategies in all of the aim42-phases.
+You should look for improvement opportunities, remedies, measures,
+tactics and strategies in all of the aim42-phases.
 
 
 
@@ -37,11 +60,15 @@ image::collect-remedies.png["collect remedies", title="Collect Remedies in All P
 [[collect-problems]]
 === [pattern]#Collect Problems#
 You should constantly watch out for problems, issues and risks.
-Keep a list of those problems. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
+Keep a list of those problems. Regularly match those to your
+<<collect-opportunities-for-improvement, collection of possible remedies>>.
 
-It's difficult to decide how much formalism to apply in collecting problems: Sometimes a wiki-page might suffice, for other systems a full-blown issue-tracker can be useful. 
+It's difficult to decide how much formalism to apply in collecting problems:
+Sometimes a wiki-page might suffice, for other systems a full-blown
+issue-tracker can be useful.
 
-As always: documentation is only valuable if it can be found and searched - which makes electronic approaches more viable.
+As always: documentation is only valuable if it can be found and searched -
+which makes electronic approaches more viable.
 
 
 include::patterns/crosscutting/expect-denial.adoc[]
@@ -49,13 +76,21 @@ include::patterns/crosscutting/expect-denial.adoc[]
 
 [[Explicit-Assumption]]
 === [pattern]#Explicit Assumption#
-Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (usually written) assumptions about those facts.
+Compensate missing facts (especially requirements, goals, estimates,
+opinions) by explicit (usually written) assumptions about those facts.
 
-Making assumptions _explicit_ is fundamentally important to <<Capture-Quality-Requirements>>, so that development teams don't need to rely on implicit
-assumptions or requirements.
+==== Description
+Making assumptions _explicit_ is fundamentally important to
+<<Capture-Quality-Requirements>>, so that development teams don't
+need to rely on implicit assumptions or requirements.
 
-When evaluating problems, risks or remedies, we often need to estimate or assume stuff like duration, cost, workload or others. These estimates or assumptions need to be made _explicit_, so that others can reproduce or understand our evaluation. In case of numerical estimation, it helps to apply 
+When evaluating problems, risks or remedies, we often need to
+estimate or assume stuff like duration, cost, workload or others.
+These estimates or assumptions need to be made _explicit_,
+so that others can reproduce or understand our evaluation.
+In case of numerical estimation, it helps to apply
 <<Estimate-In-Interval>>
+
 
 Also known as _educated guess_.
 
@@ -63,7 +98,9 @@ Also known as _educated guess_.
 
 [[Fail-Fast]]
 === [pattern]#Fail Fast#
-The later a lack of quality is identified the higher are the costs to fix it. Continuously evaluate the quality of work artifacts and immediately take countermeasures or pull the plug as early as possible. Similar to <<Fast-Feedback>>.
+The later a lack of quality is identified the higher are the costs to fix it.
+Continuously evaluate the quality of work artifacts and immediately take
+countermeasures or pull the plug as early as possible. Similar to <<Fast-Feedback>>.
 
 Suitable methods to identify such situations are:
 
@@ -80,7 +117,23 @@ TODO
 See also <<Fail-Fast>>.
 
 
-[[improvement-backlog]]
+
+[[Impact-Analysis]]
+=== [pattern]#Impact Analysis#
+
+==== Intent
+Determine what impact (in code, concepts, data and the organization)
+a specific action or issue (e.g. refactoring, recurring problem) will or
+might have. Identify the resultant effects on system development and operations.
+
+
+==== Related Practices
+
+* Failure-Mode-and-Effect-Analysis (http://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis[FMEA]), a method for failure analysis, widely used in various industries
+
+
+
+[[Improvement-Backlog]]
 === [pattern]#Improvement Backlog#
 Keep a public, written backlog of possible improvements, remedies, tactics or strategies.
 

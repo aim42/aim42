@@ -9,7 +9,7 @@ Isolate clients from internal changes of suby-systems or modules. The original d
 +
 
 [quote, Eric Evans]
-""    
+""
 Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models. (Domain Driven Design, page 365)
 ""
 Category: <<Improve>>
@@ -17,14 +17,14 @@ Category: <<Improve>>
 
 . [[Architecture-Backlog]]
 [pattern]#Architecture-Backlog#:: Keep a prioritized list of improvement tasks (_remedies_) with their
-as a backlog, parallel to the (regular) feature backlog. 
+as a backlog, parallel to the (regular) feature backlog.
 Category: <<Improve>>
 +
 
 . *<<Architecture-Documentation>>*
 +
 Document relevant structures, concepts, decisions, interfaces etc. of the <<SuD>>
-to _locate_ problems, risks and remedies. 
+to _locate_ problems, risks and remedies.
 See <<arc42>> and <<View-Based-Understanding>>.
 Category: <<Analyze>>
 +
@@ -54,7 +54,7 @@ Category: <<Improve>>
 
 . *<<Capture-Quality-Requirements>>*
 +
-Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>. 
+Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -78,7 +78,7 @@ Category: <<Crosscutting>>
 . *<<collect-problems>>*
 +
 Keep a list of problems, issues and risks. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
-Category: <<Crosscutting>> 
+Category: <<Crosscutting>>
 
 
 . *<<Context Analysis>>*
@@ -92,7 +92,7 @@ Category: <<Analyze>>
 +
 Analyse and inspect the data created and manipulated by the system for its content, structure, quantity and size.
 Category: <<Analyze>>
-+ 
++
 
 
 . *<<Debugging>>*
@@ -111,12 +111,12 @@ Category: <<Analyze>>
 
 . *<<Documentation-Analysis>>*
 +
-Analyse existing documentation for availability, correctness, actuality, problems or problem-areas. 
+Analyse existing documentation for availability, correctness, actuality, problems or problem-areas.
 Category: <<Analyze>>
 +
 
 
-. [[Document-Problems]] 
+. [[Document-Problems]]
 [pattern]#Document Problems#:: See <<improvement-backlog, Improvement Backlog>>.
 Category: <<Crosscutting>>
 +
@@ -130,13 +130,13 @@ Category: <<Evaluate>>
 
 . *<<Estimate-In-Interval>>*
 +
-Estimation differs from *measurement* in its inherent uncertainty. Therefore, estimate in intervals, giving lower and upper bounds. The difference between the two shows your confidence in the estimate. Low (relative) difference means high confidence. 
+Estimation differs from *measurement* in its inherent uncertainty. Therefore, estimate in intervals, giving lower and upper bounds. The difference between the two shows your confidence in the estimate. Low (relative) difference means high confidence.
 Category: <<Evaluate>>
 +
 
 . *<<Estimate-Problem-Cost>>*
 +
-Estimate how much a given problem costs (in money or effort) in a period of time or a frequency. 
+Estimate how much a given problem costs (in money or effort) in a period of time or a frequency.
 Category: <<Evaluate>>
 +
 
@@ -174,7 +174,7 @@ Evaluate the quality of work artifacts and processes as early as possible. Enabl
 Category: <<Crosscutting>>
 +
 
-. [[Front-End-Switch]] 
+. [[Front-End-Switch]]
 [pattern]#Front End Switch#:: Route front-end requests to either new or old backend systems, depending on their nature.
 Category: <<Improve>>
 +
@@ -196,8 +196,9 @@ Category: <<Analyze>>
 +
 
 . [[Impact-Analysis]]
-[pattern]#Impact Analysis#:: Determine what impact (in code, concepts and the organization) a specific action (e.g. refactoring) will or might have.
-Category: <<Evaluate>>
+[pattern]#Impact Analysis#:: Determine what impact (in code, concepts and
+  the organization) a specific action (e.g. refactoring) will or might have.
+Category: <<Crosscutting>>
 +
 
 . [[Improve-Code-Layout]]
@@ -212,7 +213,7 @@ Category: <<Improve>>
 +
 
 . *<<improvement-backlog>>*
-+ 
++
 Keep a backlog of possible improvements, remedies, tactics or strategies.
 Category: <<Crosscutting>>
 +
@@ -225,9 +226,9 @@ Analyze the technical infrastructure of the <<SuD>>, e.g. with respect to time a
 
 . *<<Instrument-System>>*
 +
-Instrument either the executable or the source code to make 
-<<Explicit-Assumption, assumtions explicit>> and expand on <<Runtime-Analysis>> and 
-<<Runtime-Artifact-Analysis>>. 
+Instrument either the executable or the source code to make
+<<Explicit-Assumption, assumtions explicit>> and expand on <<Runtime-Analysis>> and
+<<Runtime-Artifact-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -259,7 +260,7 @@ Category: <<Improve>>
 
 . *<<Issue-Tracker-Analysis>>*
 +
-Analyse entries from issue-tracker to identify critical areas, components or stakeholders. 
+Analyse entries from issue-tracker to identify critical areas, components or stakeholders.
 Category: <<Analyze>>
 +
 
@@ -297,7 +298,7 @@ Category: <<Improve>>
 
 
 . [[Natural-Death]]
-[pattern]#Natural Death#:: Keep old system running and only retire it once all objects contained reach end of life according to their life cycle. 
+[pattern]#Natural Death#:: Keep old system running and only retire it once all objects contained reach end of life according to their life cycle.
 Category: <<Improve>>
 +
 
@@ -394,7 +395,7 @@ Category: <<Improve>>
 +
 
 . [[Schedule-Work]]
-[pattern]#Schedule Work#:: Schedule refactoring or improvement work, so that all (business and technical) stakeholders know about them. 
+[pattern]#Schedule Work#:: Schedule refactoring or improvement work, so that all (business and technical) stakeholders know about them.
 Category: <<Improve>>
 +
 
@@ -407,7 +408,7 @@ Category: <<Crosscutting>>
 
 . *<<Software-Archeology>>*
 +
-Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.  
+Understand software by analysing its source code, usually in absence of other documentation or knowledge sources.
 Category: <<Analyze>>
 +
 
@@ -437,7 +438,7 @@ Category: <<Analyze>>
 +
 
 . [[Structural-Analysis]]
-[pattern]#Structural Analysis#:: Analyze the static structures (e.g. building block structure) of the <<SuD>>, e.g. package or module dependencies, runtime- and/or deployment dependencies. See the more specific <<Static-Code-Analysis>>, <<Context-Analysis>> and <<Data-Analysis>>. 
+[pattern]#Structural Analysis#:: Analyze the static structures (e.g. building block structure) of the <<SuD>>, e.g. package or module dependencies, runtime- and/or deployment dependencies. See the more specific <<Static-Code-Analysis>>, <<Context-Analysis>> and <<Data-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -445,7 +446,7 @@ Category: <<Analyze>>
 +
 Systematically prepare and take decisions by finding appropriate options, check assumptions, overcome emotion and prepare to be wrong. See <<heath-decisive, Decisive (by C+D Heath)>>.
 Category: <<Crosscutting>>
- 
+
 
 . *<<Take-What-They-Mean>>*
 +
@@ -460,7 +461,7 @@ Category: <<Improve>>
 
 . *<<Traceability>>*
 +
-Maintain references to the origin of problems or issues: Remember who told you about a problem, in which documents you found issues and in what version of the source you identified risks or faults. 
+Maintain references to the origin of problems or issues: Remember who told you about a problem, in which documents you found issues and in what version of the source you identified risks or faults.
 Category: <<Crosscutting>>
 +
 
@@ -491,4 +492,3 @@ Category: <<Improve>>
 Create architectural views (mainly building block view) to understand and communicate code structure.
 Category: <<Analyze>>
 +
-
