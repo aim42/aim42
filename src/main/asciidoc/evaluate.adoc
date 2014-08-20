@@ -23,15 +23,34 @@ or observe the evaluation subject and produce _hard facts_.
 image::evaluate-domain-conceptmap.png[title="Evaluation Concepts Domain Model"]
 
 
-[width="80%",cols="3,10"]
+[width="80%",cols="2,8,6a", options="header"]
 .Evaluation Domain Concepts
 |===
-| Estimation | x
-| Subject    | z
-| Assumption | y
-| Observation | o
-| Parameter  | 2
-| Interval   | 1
+| Domain concept | Explanation | Example
+| Estimation | an _approximation_ of any subject
+  (here: issues,problems or remedies), which is needed because
+	facts or real observations are not available or possible.
+	|
+
+| Subject    |  | a recurring problem in the <<SuD>> or
+associated processes
+
+| Parameter  | an important element or foundation of the
+estimation.
+  |
+		* number of developers on the system
+	  * Lines-of-Code (LOC)
+
+| Assumption | a fixed setting for any parameter.
+  See <<Explicit-Assumption>>  
+  |
+
+| Observation | measure, count, calculate gather real data
+for parameters  | if every developer is
+concerned by the problem, we count their number.
+
+| Interval   | see <<Estimate-In-Interval>> | between 15 and 25%
+
 |===
 
 
