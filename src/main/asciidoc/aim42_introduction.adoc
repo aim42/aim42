@@ -101,7 +101,8 @@ aim42 relies on a common terminology, a small set of fundamental concepts. You m
 call it the _software improvement domain_. 
 
 [[figure-fundamental-concepts]]
-image::aim42-concepts-overview.jpeg["aim42 fundamental concepts", title="Software Architecture Improvement Domain Model"]
+image::aim42-domain-model.png[title="aim42 domain terminology"]
+
 
 [width="80%",cols="3s,10"]
 |=========================================================
