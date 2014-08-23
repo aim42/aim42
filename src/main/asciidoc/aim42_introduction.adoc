@@ -79,13 +79,13 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 [[figure-aim-phases]]
 image::aim42-phases.jpg["aim42 phases", title="Three Phases of aim42"]
 
-. <<Analyze>>: note down problems, risks, deficiencies and technical debt within your system and your development process. Focus on problems in this phase, not on potential solution approaches. In addition, develop (and document) an understanding of internal structures, concepts and architectural approaches.
+. <<Analyze>>: collect _issues_: problems, risks, deficiencies and technical debt within your system and your development process. Focus on problems in this phase, not on potential solution approaches. In addition, develop (and document) an understanding of internal structures, concepts and architectural approaches.
 
-. <<Evaluate>>: determine the „value“ of problems, issues and their remedies, prioritize them
+. <<Evaluate>>: determine the „value“ of issues and their solutions (_improvements_)
 
 . <<Improve>>: systematically improve code and structures, reduce technical debt, remove waste and optimize.
 
-Several <<Crosscutting, cross-cutting practices and patterns>> can or should be applied in all phases, for example documenting results or <<collect-opportunities-for-improvement>>.
+Several <<Crosscutting, cross-cutting practices and patterns>> should be applied in all phases, for example documenting results or <<collect-opportunities-for-improvement>>.
 
  
 
@@ -96,39 +96,36 @@ In compliance with modern agile development methodologies, aim42 fundamentally d
 image::iterate-phases.jpg["iterate phases", title="Iterate Between Phases"]
 
 
-==== Fundamental Concepts
+==== Common Terminology
 aim42 relies on a common terminology, a small set of fundamental concepts. You may even
 call it the _software improvement domain_. 
 
 [[figure-fundamental-concepts]]
-image::aim42-concepts-overview.jpeg["aim42 fundamental concepts", title="Software Architecture Improvement Domain Model"]
+image::aim42-domain-model.png[title="aim42 domain terminology"]
+
 
 [width="80%",cols="3s,10"]
 |=========================================================
 
-|Problem, Issue | 
-Might be problem, issue or fault within system or processes related to system
-(e.g. management, development, administrative or organizational process)
+|Issue (problem) | 
+Any problem, error, fault or suboptimal situation within the <<SuD>> processes related to it (e.g. management, development, administrative or organizational process).
 
 |Cause | 
-Fundamental reason for one or several problems.
+Fundamental reason for one or several issues.
 
-|Remedy | 
-Solution or cure for one or several problems or causes.
+|Improvement | 
+Solution, remedy or cure for one or several issues or causes.
 
-|Cost (of problem) | 
-The cost (in monetary units, e.g. Euro or $) of the problem, related to a
-frequency or period of time. For example – cost of every occurrence of problem,
+|Cost (of issue) | 
+The cost (in monetary units, e.g. Euro or $) of the issue, related to a
+frequency or period of time. For example – cost of every occurrence of the issue,
 or recurring cost per week.
 
-|Cost (of remedy) | 
-The cost (in monetary units) of the remedy, tactic or strategy.
-
-|Prio(rity) | 
-The relative or absolute priority of the problem or remedy.
+|Cost (of improvement) | 
+The cost (in monetary units) of the improvement, remedy, tactic or strategy.
 
 |Risk | 
-Potential problem or issue. Remedies can have associated risks.
+Potential problem or issue. Improvements can have associated risks.
 
 |=========================================================
 
