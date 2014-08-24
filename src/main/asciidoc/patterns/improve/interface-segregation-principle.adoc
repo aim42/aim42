@@ -31,5 +31,6 @@ Apply when
 
 ===== Related Patterns 
 
+* If a service component or its interface must not be changed, consider using <<Manage-Complex-Client-Dependencies-With-Facade>>
 
 ===== References 

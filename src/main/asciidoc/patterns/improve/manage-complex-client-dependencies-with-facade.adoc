@@ -42,7 +42,7 @@ Things that can be handled by a facade:
 
 
 ===== Related Patterns 
-
+* <<Interface-Segregation-Principle>>
 
 
 ===== References 
