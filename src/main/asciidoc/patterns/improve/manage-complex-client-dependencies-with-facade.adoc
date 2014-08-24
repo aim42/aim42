@@ -1,13 +1,13 @@
 
 [[Manage-Complex-Client-Dependencies-With-Facade]]
 
-=== [pattern]#Manage Complex Client Dependencies With Facade#
+==== [pattern]#Manage Complex Client Dependencies With Facade#
 
-==== Intent
+===== Intent
 
 Simplify the interaction of a client with a set of service components. 
 
-==== Description 
+===== Description 
 
 When clients use a set of components with repeating patterns these
 interaction patterns are implemented in a Facade component.  
@@ -16,12 +16,12 @@ The interface the Facade provides to the client is tailored to the client's
 need. Technical details that are specific for the service component implementations 
 are handled inside the facade.
 
-==== Experiences
+===== Experiences
 
 Consider a Facade if you must use generic frameworks or systems you cannot modify
 e.g. legacy systems.
 
-==== Applicability
+===== Applicability
 
 Apply this pattern when clients use a set of components in stereotypcial fashion. 
 Things that can be handled by a facade:
@@ -33,16 +33,16 @@ Things that can be handled by a facade:
 **  error handling
 
 
-==== Consequences
+===== Consequences
 
 * Enhances Information Hiding. Clients do not need information about the components' technical detail.
 * Supports DRY principle: complex interactions are implemented in one place. No need to reimplement this in different clients.
 
-==== Also Known As 
+===== Also Known As 
 
 
-==== Related Patterns 
+===== Related Patterns 
 
 
 
-==== References 
+===== References 

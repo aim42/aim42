@@ -1,6 +1,6 @@
 [[Introduce-Boy-Scout-Rule]]
 
-=== [pattern]#Introduce Boy Scout Rule#
+==== [pattern]#Introduce Boy Scout Rule#
 
 The ``Boy Scout Rule'' for software development basically states that we 
 [quote, Robert C. Martin]
@@ -12,12 +12,12 @@ found it.'' for the software development world in an article in Kevlin Henney's
 ``97 Things a Programmer Should Know'' <<Henney>>.
 
 
-==== Intent
+===== Intent
 Enable crosscutting architectural improvement even if it is not feasible to change the whole codebase. 
 
 TIP: Often the introduction of concepts like layering is deemed _“impossible”_ due to the huge codebase that would be affected. In these cases the Boy Scout Rule approach is a lightweight way to enhance the code quality one day at a time. 
 
-==== Description
+===== Description
 
 * Drafting from an <<improvement-backlog>>, define a specific rule set
   on how to improve the contents of specific file types.
@@ -64,7 +64,7 @@ Item.COMPOUND_ITEMS_THRESHHOLD)+
 
 --
 
-==== Experiences
+===== Experiences
 
 Introducing the Boy Scout Rule on a heavily deteriorated code base
 induces heavy payback on <<technical-debt>> and often gets challenged
@@ -73,12 +73,12 @@ that the extended time spent on fixing the artifacts ``as the teams
 goes'' actually is the _explicit_ payment of the <<technical-debt>>
 interest rate.
 
-==== Risks
+===== Risks
 
 Sometimes the Boy Scout Rule can be taken as a means by itself. In
 these cases the higher goals tend to be forgotten and thus 
 
-==== Applicability
+===== Applicability
 
 The pattern ``Introduce Boy Scout Rule'' can always be applied. +
 Some of the most effective uses are
@@ -88,7 +88,7 @@ Some of the most effective uses are
 * systematic weaknesses (insecure logging, insecure handling of
   database inserts etc.
 
-==== Consequences
+===== Consequences
 
 The introduction the Boy Scout Rule often proved to enable structural
 improvements as a prerequisite for higher level architectural
@@ -100,18 +100,18 @@ the distribution of the code quality because those parts of the system
 that get changed the most also get the most care. For more stable
 parts of the system other approaches have to be utilized.
 
-==== Also Known As
+===== Also Known As
 // TODO - Are there any other names for this pattern?
 // Sashimi-technique?
 
-==== Related Patterns
+===== Related Patterns
 * <<Refactoring-Plan>>, as an alternative or complimenting approach
 * <<Introduce-Layering>> can be performed using the Boy Scout Rule
 * <<Anticorruption-Layer>> can be performed using the Boy Scout Rule
 * An <<improvement-backlog>> should be the basis for the tasks
   performed when applying the Boy Scout Rule
 
-==== References
+===== References
 
 The original description of the boy scout rule can be found online at <<Boy-Scout-Rule-article>>.
 

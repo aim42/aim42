@@ -1,7 +1,7 @@
 [[Improve-Logging]]
-=== [pattern]#Improve Logging#
+==== [pattern]#Improve Logging#
 
-==== Intent
+===== Intent
 
 Employ sophisticated logging mechanisms such as modern logging frameworks, 
 distributed log collection and visualization tools in order to gain more 
@@ -9,7 +9,7 @@ detailed information about the system during runtime with a minimal or
 predictable performance impact.
 
 
-==== Description
+===== Description
 While some time ago it was quite common to output log statements to standard out,
 people usually use logging frameworks nowadays that give more control about what should
 be logged and where the log entries should go.
@@ -29,7 +29,7 @@ Despite the focus on the software development, logging is also an operations top
 
 Using such features makes the problem analysis easier and more data is available in a standardized fashion.
 
-==== Experiences
+===== Experiences
 
 Most projects write log files in a more or less sophisticated fashion, in many
 cases log messages are phrased in a rather unstructured way. It turns out that
@@ -56,7 +56,7 @@ Bear this in mind when working on a framework-like codebase and thinking about
 log levels.
 =====================================================================
 
-==== Risks
+===== Risks
 
 * An excessive amount of log statements is likely to have negative impact on the 
   application's performance. The impact is however manageable by using
@@ -68,25 +68,25 @@ log levels.
   approx. by factor 10. Think of retention policies in order to make the data
   stream manageable.
 
-==== Applicability
+===== Applicability
 
 This pattern should always be considered.
 
-==== Consequences
+===== Consequences
 
 * Improved understanding of the runtime behavior of an application or a
 system of systems.
 * Log messages are well-structured and more meaningful as they carry more
   context information (in case MDCs are used).
 
-==== Also Known As
+===== Also Known As
 
-==== Related Patterns
+===== Related Patterns
 
 * This pattern is an important enabler for a successful <<Runtime-Artifact-Analysis>>.
 * <<Instrument-System>> is very similar to this pattern, however it is limited to
   a temporary instrumentation that is needed during the Analysis phase to identify or scope a certain problem
   that cannot be isolated without modifying the code.
 
-==== References
+===== References
 
