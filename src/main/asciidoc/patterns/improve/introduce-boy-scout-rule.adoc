@@ -2,17 +2,18 @@
 
 ==== [pattern]#Introduce Boy Scout Rule#
 
-The ``Boy Scout Rule'' for software development basically states that we 
+The "`Boy Scout Rule`" for software development basically states that we 
 [quote, Robert C. Martin]
-``Always check a module in cleaner than when you checked it out.''.
+"`Always check a module in cleaner than when you checked it out.`".
 
 Uncle Bob (Robert C. Martin) proposed this adoption of the rule from the boy
-scout rulebook which reads ``Try and leave this world a little better than you
-found it.'' for the software development world in an article in Kevlin Henney's
-``97 Things a Programmer Should Know'' <<Henney>>.
+scout rulebook which reads "`Try and leave this world a little better than you
+found it.`" for the software development world in an article in Kevlin Henney's
+"`97 Things a Programmer Should Know`" <<Henney>>.
 
 
 ===== Intent
+
 Enable crosscutting architectural improvement even if it is not feasible to change the whole codebase. 
 
 TIP: Often the introduction of concepts like layering is deemed _“impossible”_ due to the huge codebase that would be affected. In these cases the Boy Scout Rule approach is a lightweight way to enhance the code quality one day at a time. 
@@ -34,6 +35,7 @@ TIP: Often the introduction of concepts like layering is deemed _“impossible�
   <<improvement-backlog>>.
 
 .Example Boy Scout Rule agreement
+
 [TIP]
 --
 This is a very concrete agreement from a specific project - yours
@@ -80,7 +82,7 @@ these cases the higher goals tend to be forgotten and thus
 
 ===== Applicability
 
-The pattern ``Introduce Boy Scout Rule'' can always be applied. +
+The pattern "`Introduce Boy Scout Rule`" can always be applied. +
 Some of the most effective uses are
 
 * unstructured code (no layers, no separation of concerns etc.)
@@ -105,6 +107,7 @@ parts of the system other approaches have to be utilized.
 // Sashimi-technique?
 
 ===== Related Patterns
+
 * <<Refactoring-Plan>>, as an alternative or complimenting approach
 * <<Introduce-Layering>> can be performed using the Boy Scout Rule
 * <<Anticorruption-Layer>> can be performed using the Boy Scout Rule
