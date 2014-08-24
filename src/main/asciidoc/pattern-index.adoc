@@ -269,11 +269,6 @@ Category: <<Analyze>>
 Category: <<Improve>>
 +
 
-. [[Limit-Feature-by-Client]]
-[pattern]#Limit Feature by Client#:: Support different feature sets for different clients, fade out legacy versions based on usage.
-Category: <<Improve>>
-+
-
 . *<<Manage-Complex-Client-Dependencies-With-Facade>>*
 +
 Simplify the interaction of a client with a set of service components.
