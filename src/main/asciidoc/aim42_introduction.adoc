@@ -76,6 +76,8 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 
 ==== Three Simple Phases 
 
+aim42 works in a phased iterative manner:
+
 [[figure-aim-phases]]
 image::aim42-phases.jpg["aim42 phases", title="Three Phases of aim42"]
 
@@ -85,16 +87,10 @@ image::aim42-phases.jpg["aim42 phases", title="Three Phases of aim42"]
 
 . <<Improve>>: systematically improve code and structures, reduce technical debt, remove waste and optimize.
 
+These three phases are performed iteratively - as explained <<Iterative-Approach ,below>>.
 Several <<Crosscutting, cross-cutting practices and patterns>> should be applied in all phases, for example documenting results or <<collect-opportunities-for-improvement>>.
 
  
-
-==== Iterative Approach
-In compliance with modern agile development methodologies, aim42 fundamentally depends on iteration and feedback between the phases.
-
-[[figure-iterate-phases]]
-image::iterate-phases.jpg["iterate phases", title="Iterate Between Phases"]
-
 
 ==== Common Terminology
 aim42 relies on a common terminology, a small set of fundamental concepts. You may even
@@ -104,7 +100,7 @@ call it the _software improvement domain_.
 image::aim42-domain-model.png[title="aim42 domain terminology"]
 
 
-[width="80%",cols="3s,10"]
+[width="80%",cols="5s,10"]
 |=========================================================
 
 |Issue (problem) | 
@@ -117,9 +113,7 @@ Fundamental reason for one or several issues.
 Solution, remedy or cure for one or several issues or causes.
 
 |Cost (of issue) | 
-The cost (in monetary units, e.g. Euro or $) of the issue, related to a
-frequency or period of time. For example – cost of every occurrence of the issue,
-or recurring cost per week.
+The cost (in any unit appropriate for business, e.g. currency, effort or such) of the issue, related to a frequency or period of time. For example – cost of every occurrence of the issue, or recurring cost per week.
 
 |Cost (of improvement) | 
 The cost (in monetary units) of the improvement, remedy, tactic or strategy.
@@ -129,6 +123,21 @@ Potential problem or issue. Improvements can have associated risks.
 
 |=========================================================
 
+
+[[Iterative-Approach]]
+==== Iterative Approach
+In compliance with modern agile development methodologies, aim42 fundamentally depends on iteration and feedback between the phases. 
+
+Within each phase, you collect both issues and opportunities for improvement, as depicted in the illustration below:
+
+[[figure-iterate-and-collect]]
+image::collect-issues-improvements.png[title="Iterate and Collect"]
+
+Issues and improvements need to be 
+
+* related to each other: No improvement-idea without an existing issue - as we do not want to optimize "because we can".
+
+* evaluated in some business-compatible unit (Euro, $ or such) as described above. See <<Evaluate>>.
 
 === Patterns and Practices Provide No Guarantee
 We are *very* sure that aim42 can work for your system or your organization. 
