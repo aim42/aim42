@@ -175,7 +175,7 @@ Category: <<Crosscutting>>
 +
 
 . [[Front-End-Switch]]
-[pattern]#Front End Switch#:: Route front-end requests to either new or old backend systems, depending on their nature.
+[pattern]#Front End Switch#:: Route front-end requests to either new or old backend systems, depending on their nature, content-negotiation or other request criteria. This is especially helpful to support <<Never-Change-Running-System>>.
 Category: <<Improve>>
 +
 
