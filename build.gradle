@@ -17,7 +17,7 @@ buildscript {
     }
 
     dependencies {
-        classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:0.7.0' ) 
+        classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.0' ) 
         
     }
 }
@@ -25,17 +25,16 @@ buildscript {
 
 ext {
     srcDir  = new File("$projectDir/src/main")
-    srcDoc  = new File("$srcDir/asciidoc/index.adoc")
     targetDir = new File("$buildDir/docs")
 }
 
 // =========== asciidoctor stuff ===============
-apply plugin: 'asciidoctor'
+apply plugin: 'org.asciidoctor.gradle.asciidoctor'
 
 asciidoctor {
     sourceDir = new File("$srcDir/asciidoc")
     baseDir = new File("$srcDir/asciidoc")
-    sourceDocumentName = srcDoc
+    sourceDocumentNames = files(new File("$srcDir/asciidoc/index.adoc"))
     outputDir = targetDir
     options = [
         attributes: [
@@ -47,9 +46,7 @@ asciidoctor {
             numbered            : true,
             imagesdir           : 'images',
             stylesheet          : 'aim42.css',
-            stylesdir           : "$srcDir/resources/css/",
-            'source-highlighter': 'coderay',
-            'coderay-css'       : 'class'
+            stylesdir           : "$srcDir/resources/css/"
         ]
     ]
 }
@@ -76,7 +73,7 @@ task copyResources(
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.10'
+    gradleVersion = '1.11'
 }
 
 task aim42(
