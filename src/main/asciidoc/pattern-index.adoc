@@ -334,7 +334,7 @@ Category: <<Analyze>>
 +
 
 . [[Quality-Driven-Software-Architecture]]
-[pattern]#Quality Driven Software Architecture# (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment>>.
+[pattern]#Quality Driven Software Architecture# (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>.
 Category: <<Improve>>
 +
 
