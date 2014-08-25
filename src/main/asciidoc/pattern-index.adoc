@@ -175,7 +175,7 @@ Category: <<Crosscutting>>
 +
 
 . [[Front-End-Switch]]
-[pattern]#Front End Switch#:: Route front-end requests to either new or old backend systems, depending on their nature.
+[pattern]#Front End Switch#:: Route front-end requests to either new or old backend systems, depending on their nature, content-negotiation or other request criteria. This is especially helpful to support <<Never-Change-Running-System>>.
 Category: <<Improve>>
 +
 
@@ -269,11 +269,6 @@ Category: <<Analyze>>
 Category: <<Improve>>
 +
 
-. [[Limit-Feature-by-Client]]
-[pattern]#Limit Feature by Client#:: Support different feature sets for different clients, fade out legacy versions based on usage.
-Category: <<Improve>>
-+
-
 . *<<Manage-Complex-Client-Dependencies-With-Facade>>*
 +
 Simplify the interaction of a client with a set of service components.
@@ -339,7 +334,7 @@ Category: <<Analyze>>
 +
 
 . [[Quality-Driven-Software-Architecture]]
-[pattern]#Quality Driven Software Architecture# (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>. See <<Quality-Function-Deployment>>.
+[pattern]#Quality Driven Software Architecture# (QDSA):: Derive (technical, structural or process-related) decisions based upon detailed quality requirements. QDSA requires <<Capture-Quality-Requirements, explicit quality requirements>>.
 Category: <<Improve>>
 +
 

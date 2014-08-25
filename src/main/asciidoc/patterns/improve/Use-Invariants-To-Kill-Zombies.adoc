@@ -1,13 +1,13 @@
 [[Use-Invariants-To-Kill-Zombies]]
-=== [pattern]#Use Invariants To Kill Zombies#
+==== [pattern]#Use Invariants To Kill Zombies#
 
-==== Intent
+===== Intent
 
 Provide a safe approach in situations where  it seems to dangerous to delete
 code or whole modules from a huge system because <<Static-Code-Analysis>> can't
 recognize whether the code is still in use or not.
 
-==== Description
+===== Description
 
 Oftentimes old systems contain lots of code that probably is no longer in use
 but still has to be tended to. Such code puts a burden on every cross-cutting
@@ -32,6 +32,7 @@ is not an option.
 So if we want to make sure we can delete this code our invariant is simple:
 
 .Pseudo-Code
+[source,java]
 ----
 assertTrue(false, "We should not be here" + __FILE__ + __LINE__ );
 ----
@@ -57,11 +58,11 @@ the failed invariant -- write a log entry in the first two weeks, send an SNMP
 trap in the next four weeks and after that send an e-mail (although it doesn't
 hurt to keep the logging turned on).
 
-==== Experiences
+===== Experiences
 
 In several cases this approach helped to delete up to 50% of the code base.
 
-==== Risks
+===== Risks
 
 * Sometimes the Zombie is buried to early -- to be on the safe side the
   presumably dead code should live through at least each season. For huge
@@ -70,19 +71,19 @@ In several cases this approach helped to delete up to 50% of the code base.
   in these cases a highly invasive reaction, like sending an e-mail, can lead to
   side-effects that are close to a denial-of-service attack. 
 
-==== Applicability
+===== Applicability
 
 This pattern can be applied whenever the code-base has gotten too big and there
 are parts of the system that are perhaps unused (e.g. dead) but still add to the
 weight of the system.
 
-==== Consequences
+===== Consequences
 
 * Dead code can be safely deleted
 
-==== Also Known As
+===== Also Known As
 
-==== Related Patterns
+===== Related Patterns
 
 * Use <<Static-Code-Analysis>> to find candidates, entry points and exit points.
 * Using invariants to kill zombies is a special case of <<Assertions>> in the
@@ -90,7 +91,7 @@ weight of the system.
 * Introducing invariants to verify that the code is really dead is a specific
   way to make <<Explicit-Assumption>>s 
 
-==== References
+===== References
 * Invariants (and other <<Assertions>>) have been made popular by Bertrand Meyer
   in his seminal book <<Object-Oriented-Software-Construction>>
 * Brian Foote references Zombie code in <<Big-Ball-Of-Mud>>
