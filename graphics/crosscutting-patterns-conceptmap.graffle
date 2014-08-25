@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-08-23 08:14:37 +0000</string>
+	<string>2014-08-25 16:11:51 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -63,6 +63,16 @@
 		<array>
 			<string>coded</string>
 			<string>BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU051bWJlcgCEhAdOU1ZhbHVlAISECE5TT2JqZWN0AIWEASqEhAFxlwCG</string>
+		</array>
+		<key>NSPrinter</key>
+		<array>
+			<string>coded</string>
+			<string>BAtzdHJlYW10eXBlZIHoA4QBQISEhAlOU1ByaW50ZXIAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBKyBIZXdsZXR0LVBhY2thcmQgSFAgTGFzZXJKZXQgMTIwMIaG</string>
+		</array>
+		<key>NSPrinterName</key>
+		<array>
+			<string>string</string>
+			<string>Hewlett-Packard HP LaserJet 1200</string>
 		</array>
 		<key>NSRightMargin</key>
 		<array>
@@ -364,11 +374,6 @@ list or table}</string>
 					</dict>
 					<key>ID</key>
 					<integer>150</integer>
-					<key>Link</key>
-					<dict>
-						<key>url</key>
-						<string>#Issue-List</string>
-					</dict>
 					<key>Shape</key>
 					<string>RoundedStack</string>
 					<key>Style</key>
@@ -2354,7 +2359,7 @@ impact}</string>
 					<key>Link</key>
 					<dict>
 						<key>url</key>
-						<string>#collect-opportunities-for-improvement</string>
+						<string>#Collect-Opportunities-For-Improvement</string>
 					</dict>
 					<key>Shape</key>
 					<string>Rectangle</string>
@@ -3475,7 +3480,7 @@ Assumption}</string>
 					<key>Link</key>
 					<dict>
 						<key>url</key>
-						<string>#collect-opportunities-for-improvement</string>
+						<string>#Collect-Opportunities-For-Improvement</string>
 					</dict>
 					<key>Shape</key>
 					<string>Rectangle</string>
@@ -3639,11 +3644,11 @@ Assumption}</string>
 		<key>BottomSlabHeight</key>
 		<real>399</real>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{23, 402}, {1284, 743}}</string>
+		<string>{{82, 0}, {1284, 743}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>

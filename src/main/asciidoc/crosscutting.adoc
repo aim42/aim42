@@ -13,7 +13,7 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 === Pattern and Practices for Cross-Cutting Concerns
 (given in alphabetical order)
 
-* <<collect-opportunities-for-improvement>>
+* <<Collect-Opportunities-For-Improvement>>
 * <<Collect-Issues>>
 * <<Expect-Denial>>
 * <<Explicit-Assumption>>
@@ -21,6 +21,7 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 * <<Fast-Feedback>>
 * <<Impact-Analysis>>
 * <<Improvement-Backlog>>
+* <<Issue-List>>
 * <<Slide-Or-Write>>
 * <<Traceability>>
 
@@ -28,17 +29,18 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 // image map - created manually from OmniGraffle Export
 ++++
 <map name="CrosscuttingConcepts">
-<area shape=rect coords="378,23,489,70" href="#Traceability">
-<area shape=rect coords="3,418,100,468" href="#Slide-Or-Write">
-<area shape=rect coords="338,405,465,482" href="#Separate-Cause-From-Effect">
-<area shape=rect coords="129,513,232,564" href="#Fast-Feedback">
-<area shape=rect coords="293,513,393,564" href="#Fail-Fast">
-<area shape=rect coords="545,369,674,424" href="#Improvement-Backlog">
-<area shape=rect coords="12,260,139,307" href="#Explicit-Assumption">
-<area shape=rect coords="62,23,173,77" href="#Expect-Denial">
-<area shape=rect coords="365,310,463,357" href="#Impact-Analysis">
-<area shape=rect coords="505,160,673,228" href="#collect-opportunities-for-improvement">
-<area shape=rect coords="199,174,302,228" href="#Collect-Issues">
+	<area shape=poly coords="295,376,406,376,415,381,415,379,419,383,419,381,424,385,424,439,415,443,303,443,295,441,290,439,286,435,286,381,295,376" href="#Issue-List">
+	<area shape=rect coords="415,3,526,50" href="#Traceability">
+	<area shape=rect coords="3,88,100,138" href="#Slide-Or-Write">
+	<area shape=rect coords="129,406,246,474" href="#Separate-Cause-From-Effect">
+	<area shape=rect coords="56,513,159,564" href="#Fast-Feedback">
+	<area shape=rect coords="220,513,320,564" href="#Fail-Fast">
+	<area shape=poly coords="564,375,688,375,698,379,698,377,703,381,703,379,707,384,707,439,698,443,573,443,564,441,559,439,554,435,554,379,564,375" href="#Improvement-Backlog">
+	<area shape=rect coords="19,313,146,360" href="#Explicit-Assumption">
+	<area shape=rect coords="113,6,224,60" href="#Expect-Denial">
+	<area shape=rect coords="367,284,464,331" href="#Impact-Analysis">
+	<area shape=rect coords="549,166,716,234" href="#Collect-Opportunities-For-Improvement">
+	<area shape=rect coords="198,180,301,234" href="#Collect-Issues">
 </map>
 
 <img border=0 src="images/crosscutting-patterns-conceptmap.png" usemap="#CrosscuttingConcepts">
@@ -46,7 +48,7 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 
 
 
-[[collect-opportunities-for-improvement]]
+[[Collect-Opportunities-For-Improvement]]
 === [pattern]#Collect Opportunities for Improvement#
 You should look for improvement opportunities, remedies, measures,
 tactics and strategies in all of the aim42-phases.
@@ -59,16 +61,14 @@ image::collect-remedies.png["collect remedies", title="Collect Remedies in All P
 
 [[Collect-Issues]]
 === [pattern]#Collect Issues#
-You should constantly watch out for issues (problems and risks).
-Keep a list of those issues. Regularly match those to your
-<<collect-opportunities-for-improvement, collection of possible improvements>>.
+You should constantly watch out for issues (problems and risks), especially
+during <<Analyze, analysis>> activities like <<Stakeholder-Interviews>> and others. 
 
-It's difficult to decide how much formalism to apply in collecting issues and problems:
-Sometimes a wiki-page might suffice, for other systems a full-blown
-issue-tracker can be useful.
+The artifact (physical collection) is the <<Issue-List>>.
 
-As always: documentation is only valuable if it can be found and searched -
-which makes electronic approaches more viable.
+Regularly match these issues to your 
+<<Collect-Opportunities-For-Improvement, collection of possible improvements>>.
+
 
 
 include::patterns/crosscutting/expect-denial.adoc[]
@@ -144,6 +144,23 @@ Keep a public, written backlog of possible improvements, remedies, tactics or st
 
 [[figure-improvement-backlog]]
 image::improvement-backlog.jpg["improvement backlog", title="Improvement Backlog"]
+
+[[Issue-List]]
+=== [pattern]#Issue List#
+A physical collection of issues (problems, risks) found during <<Collect-Issues>>.
+
+It's difficult to decide how much formalism to apply in collecting issues and problems:
+Sometimes a wiki-page might suffice, for other systems a full-blown
+issue-tracker can be useful.
+
+As always: documentation is only valuable if it can be found and searched -
+which makes electronic approaches more viable.
+
+For every entry in this issue list we need to <<Estimate-Issue-Cost>>, an estimation of the cost of this issued in any business-related unit. 
+
+In case you already have identified or developed options to adress this issue,
+links to the corresponding improvements (remedies, tactics, strategies, changes) in the
+<<Improvement-Backlog>> are neccesssary.
 
 
 include::patterns/crosscutting/separate-cause-from-effect.adoc[]

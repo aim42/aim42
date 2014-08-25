@@ -212,7 +212,7 @@ Making runtime analysis easier with meaningful logs. This includes decentralized
 Category: <<Improve>>
 +
 
-. *<<improvement-backlog>>*
+. *<<Improvement-Backlog>>*
 +
 Keep a backlog of possible improvements, remedies, tactics or strategies.
 Category: <<Crosscutting>>
@@ -257,6 +257,12 @@ Category: <<Improve>>
 [pattern]#Isolate Changes#:: Introduce interfaces and intra-system borders, so that changes cannot propagate to other areas.
 Category: <<Improve>>
 +
+
+. *<<Issue-List>>*
++
+ Keep a list or collection or issues (problems, risks) - together with an appropriate amount of description and evaluation.
+Category: <<Crosscutting>>
+
 
 . *<<Issue-Tracker-Analysis>>*
 +
