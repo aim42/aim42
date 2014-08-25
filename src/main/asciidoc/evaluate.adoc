@@ -59,11 +59,13 @@ concerned by the problem, we count their number.
 // image map - created manually from OmniGraffle Export
 ++++
 <map name="EvaluationPractices">
-	<area shape=rect coords="11,174,63,209" href="#Estimate-Feature-Value">
-	<area shape=rect coords="219,249,281,283" href="#Impact-Analysis">
-	<area shape=rect coords="214,11,270,54" href="#Estimate-Issue-Cost">
-	<area shape=rect coords="351,65,426,108" href="#Estimate-Improvement-Cost">
-	<area shape=rect coords="58,65,133,108" href="#Estimate-Issue-Cost">
+	<area shape=rect coords="14,157,118,204" href="#Explicit-Assumption">
+	<area shape=rect coords="3,8,75,57" href="#Estimate-Feature-Value">
+	<area shape=rect coords="346,3,425,62" href="#Estimate-In-Interval">
+	<area shape=rect coords="533,3,653,62" href="#Estimate-Improvement-Cost">
+	<area shape=rect coords="147,3,251,62" href="#Estimate-Issue-Cost">
+	<area shape=rect coords="482,150,618,199" href="#collect-opportunities-for-improvement">
+	<area shape=rect coords="200,145,297,193" href="#Collect-Issues">
 </map>
 <img border=0 src="images/evaluate-patterns-conceptmap.png" usemap="#EvaluationPractices">
 ++++
@@ -127,7 +129,7 @@ If you multiply with (approximate or average) wage, you get _problem cost_.
 
 
 
-[[Estimate-Remedy-Cost]]
-==== [pattern]#Estimate Remedy Cost#
+[[Estimate-Improvement-Cost]]
+==== [pattern]#Estimate Improvement Cost#
 
 See: "Software Estimation. The Black Art Demystified (Steve McConnell)"

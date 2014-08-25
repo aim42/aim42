@@ -50,7 +50,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{387.67328469505048, 124.95944228229578}, {69, 24}}</string>
+			<string>{{390.69122457131095, 124.95944100994453}, {69, 24}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -80,7 +80,7 @@
 				<key>ID</key>
 				<integer>113</integer>
 				<key>Position</key>
-				<real>0.45456199682748866</real>
+				<real>0.45456200838088989</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -144,7 +144,7 @@
 				<key>ID</key>
 				<integer>125</integer>
 				<key>Position</key>
-				<real>0.42704204737833124</real>
+				<real>0.42704203724861145</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -251,7 +251,7 @@
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>#Impact-Analysis</string>
+				<string>#Explicit-Assumption</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -315,7 +315,7 @@ Assumption}</string>
 				<key>ID</key>
 				<integer>122</integer>
 				<key>Position</key>
-				<real>0.47123848037562316</real>
+				<real>0.47123849391937256</real>
 				<key>RotationType</key>
 				<integer>0</integer>
 			</dict>
@@ -525,8 +525,8 @@ Value}</string>
 			<integer>116</integer>
 			<key>Points</key>
 			<array>
-				<string>{279.5, 86.672377500606643}</string>
-				<string>{434.39221985246741, 86.672377500606643}</string>
+				<string>{290.92293233595296, 86.672377500606643}</string>
+				<string>{440.3211099262337, 86.672377500606643}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -573,7 +573,7 @@ Value}</string>
 			<key>Points</key>
 			<array>
 				<string>{156.75, 86.672377500606643}</string>
-				<string>{279.5, 86.672377500606643}</string>
+				<string>{290.92293233595296, 86.672377500606643}</string>
 			</array>
 			<key>Style</key>
 			<dict>
@@ -597,7 +597,7 @@ Value}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{251.375, 65.25}, {56.25, 42.844755001213287}}</string>
+			<string>{{262.79793233595296, 65.25}, {56.25, 42.844755001213287}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -617,7 +617,7 @@ Value}</string>
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>#Estimate-Problem-Cost</string>
+				<string>#Estimate-In-Interval</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -668,7 +668,7 @@ Interval}</string>
 			<integer>113</integer>
 			<key>Points</key>
 			<array>
-				<string>{434.39221985246741, 86.672377500606643}</string>
+				<string>{440.3211099262337, 86.672377500606643}</string>
 				<string>{409.50525548535865, 189.09475500121326}</string>
 			</array>
 			<key>Style</key>
@@ -693,7 +693,7 @@ Interval}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{396.89221985246741, 65.25}, {75, 42.844755001213287}}</string>
+			<string>{{396.89221985246741, 65.25}, {86.857780147532594, 42.844755001213287}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FontInfo</key>
@@ -713,7 +713,7 @@ Interval}</string>
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>#Estimate-Remedy-Cost</string>
+				<string>#Estimate-Improvement-Cost</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -746,7 +746,7 @@ Interval}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs20 \cf0 Estimate\
-Remedy\
+Improvement\
 Cost}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -944,7 +944,7 @@ Cost}</string>
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>#Estimate-Problem-Cost</string>
+				<string>#Estimate-Issue-Cost</string>
 			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
@@ -977,7 +977,7 @@ Cost}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs20 \cf0 Estimate\
-Problem\
+Issue\
 Cost}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -1006,6 +1006,11 @@ Cost}</string>
 			</dict>
 			<key>ID</key>
 			<integer>95</integer>
+			<key>Link</key>
+			<dict>
+				<key>url</key>
+				<string>#collect-opportunities-for-improvement</string>
+			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
 			<key>Style</key>
@@ -1072,6 +1077,11 @@ backlog }</string>
 			</dict>
 			<key>ID</key>
 			<integer>88</integer>
+			<key>Link</key>
+			<dict>
+				<key>url</key>
+				<string>#Collect-Issues</string>
+			</dict>
 			<key>Shape</key>
 			<string>Rectangle</string>
 			<key>Style</key>
@@ -1109,7 +1119,7 @@ backlog }</string>
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf2 problem\
+\f0\b\fs24 \cf2 issue\
 list}</string>
 				<key>VerticalPad</key>
 				<integer>0</integer>
@@ -1368,7 +1378,7 @@ list}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-08-19 06:00:57 +0000</string>
+	<string>2014-08-25 15:26:15 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -1405,6 +1415,16 @@ list}</string>
 		<array>
 			<string>coded</string>
 			<string>BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU051bWJlcgCEhAdOU1ZhbHVlAISECE5TT2JqZWN0AIWEASqEhAFxlwCG</string>
+		</array>
+		<key>NSPrinter</key>
+		<array>
+			<string>coded</string>
+			<string>BAtzdHJlYW10eXBlZIHoA4QBQISEhAlOU1ByaW50ZXIAhIQITlNPYmplY3QAhZKEhIQITlNTdHJpbmcBlIQBKyBIZXdsZXR0LVBhY2thcmQgSFAgTGFzZXJKZXQgMTIwMIaG</string>
+		</array>
+		<key>NSPrinterName</key>
+		<array>
+			<string>string</string>
+			<string>Hewlett-Packard HP LaserJet 1200</string>
 		</array>
 		<key>NSRightMargin</key>
 		<array>
@@ -1446,7 +1466,7 @@ list}</string>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{68, -50}, {1260, 746}}</string>
+		<string>{{68, 0}, {1260, 746}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
