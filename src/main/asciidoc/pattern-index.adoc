@@ -71,11 +71,11 @@ Category: <<Improve>>
 
 . *<<collect-opportunities-for-improvement>>*
 +
-Keep a list of possible and potential measures, remedies, tactics, strategies for improvements. Regularly match those to your <<collect-problems, collection of problems>>.
+Keep a list of possible and potential measures, remedies, tactics, strategies for improvements. Regularly match those to your <<Collect-Issues, collection of issues>>.
 Category: <<Crosscutting>>
 +
 
-. *<<collect-problems>>*
+. *<<Collect-Issues>>*
 +
 Keep a list of problems, issues and risks. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
 Category: <<Crosscutting>>
@@ -134,15 +134,15 @@ Estimation differs from *measurement* in its inherent uncertainty. Therefore, es
 Category: <<Evaluate>>
 +
 
-. *<<Estimate-Problem-Cost>>*
+. *<<Estimate-Issue-Cost>>*
 +
-Estimate how much a given problem costs (in money or effort) in a period of time or a frequency.
+Find out how much a given issue costs in units of money or effort in a period of time or for every occurence.
 Category: <<Evaluate>>
 +
 
-. *<<Estimate-Remedy-Cost>>*
+. *<<Estimate-Improvement-Cost>>*
 +
-Determine how much a specific remedy (a set of actions taken to eliminate or reduce a specific problem or issue) is likely to cost (in money and/or effort).
+Determine how much a specific improvement (a set of actions taken to eliminate or reduce a specific issue or problem) is likely to cost (in money and/or effort).
 Category: <<Evaluate>>
 +
 

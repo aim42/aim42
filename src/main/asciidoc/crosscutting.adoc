@@ -14,7 +14,7 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 (given in alphabetical order)
 
 * <<collect-opportunities-for-improvement>>
-* <<collect-problems>>
+* <<Collect-Issues>>
 * <<Expect-Denial>>
 * <<Explicit-Assumption>>
 * <<Fail-Fast>>
@@ -38,7 +38,7 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 <area shape=rect coords="62,23,173,77" href="#Expect-Denial">
 <area shape=rect coords="365,310,463,357" href="#Impact-Analysis">
 <area shape=rect coords="505,160,673,228" href="#collect-opportunities-for-improvement">
-<area shape=rect coords="199,174,302,228" href="#Collect-Problems">
+<area shape=rect coords="199,174,302,228" href="#Collect-Issues">
 </map>
 
 <img border=0 src="images/crosscutting-patterns-conceptmap.png" usemap="#CrosscuttingConcepts">
@@ -57,13 +57,13 @@ tactics and strategies in all of the aim42-phases.
 image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
 
 
-[[collect-problems]]
-=== [pattern]#Collect Problems#
-You should constantly watch out for problems, issues and risks.
-Keep a list of those problems. Regularly match those to your
-<<collect-opportunities-for-improvement, collection of possible remedies>>.
+[[Collect-Issues]]
+=== [pattern]#Collect Issues#
+You should constantly watch out for issues (problems and risks).
+Keep a list of those issues. Regularly match those to your
+<<collect-opportunities-for-improvement, collection of possible improvements>>.
 
-It's difficult to decide how much formalism to apply in collecting problems:
+It's difficult to decide how much formalism to apply in collecting issues and problems:
 Sometimes a wiki-page might suffice, for other systems a full-blown
 issue-tracker can be useful.
 
