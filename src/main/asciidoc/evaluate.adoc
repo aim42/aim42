@@ -61,9 +61,9 @@ concerned by the problem, we count their number.
 <map name="EvaluationPractices">
 	<area shape=rect coords="11,174,63,209" href="#Estimate-Feature-Value">
 	<area shape=rect coords="219,249,281,283" href="#Impact-Analysis">
-	<area shape=rect coords="214,11,270,54" href="#Estimate-Problem-Cost">
-	<area shape=rect coords="351,65,426,108" href="#Estimate-Remedy-Cost">
-	<area shape=rect coords="58,65,133,108" href="#Estimate-Problem-Cost">
+	<area shape=rect coords="214,11,270,54" href="#Estimate-Issue-Cost">
+	<area shape=rect coords="351,65,426,108" href="#Estimate-Improvement-Cost">
+	<area shape=rect coords="58,65,133,108" href="#Estimate-Issue-Cost">
 </map>
 <img border=0 src="images/evaluate-patterns-conceptmap.png" usemap="#EvaluationPractices">
 ++++
@@ -100,14 +100,14 @@ Estimates often rely on assumptions - which should be <<Explicit-Assumption>>.
 
 
 
-[[Estimate-Problem-Cost]]
-==== [pattern]#Estimate Problem Cost#
+[[Estimate-Issue-Cost]]
+==== [pattern]#Estimate Issue Cost#
 
 ===== Intent
-Find out how much a given problem costs (in money or effort) in a period of time.
+Find out how much a given issue costs in units of money or effort in a period of time or for every occurence.
 
 ===== Description
-_Finding out_ the cost of a problem usually requires estimation or guessing, so there is
+_Finding out_ the cost of an issue usually requires estimation or guessing, so there is
 uncertainty and propability involved.
 
 For example, if a server needs to be rebooted once every 24hrs and an operator needs 30 minutes to perform this reboot (and corresponding activities) - then you can approximate the cost of this problem for, let's say, a month:
