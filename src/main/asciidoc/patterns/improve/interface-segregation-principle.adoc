@@ -29,8 +29,10 @@ Apply when
 ===== Also Known As 
 
 
-===== Related Patterns 
+===== Related Practices 
 
-* If a service component or its interface must not be changed, consider using <<Manage-Complex-Client-Dependencies-With-Facade>>
+* If <<Never-Change-Running-System>> is a must meaning a service component or its API must not be changed, consider using 
+** <<Manage-Complex-Client-Dependencies-With-Facade>> and
+** <<Front-End-Switch>>
 
 ===== References 
