@@ -124,7 +124,7 @@ If you multiply with (approximate or average) wage, you get _problem cost_.
 
 ===== Related Practices
 
-* <<Estimate-In-Intervall>>
+* <<Estimate-In-Interval>>
 * <<Explicit-Assumption>>
 
 
