@@ -80,7 +80,7 @@ Performing Complex Restructurings Successfully, Wiley 2006
 A detailed writeup of how (object-oriented) code should look like. Lots of things we like.
 
 * [[[Mikado]]] Ola Elnestam, Daniel Brolund: The Mikado Method. Manning, 2014. Describes a method to _morphing_ software from bad to better state. Quote from the book:
-``It helps us visualize, plan, and perform business-value-focused improvements over several iterations and increments of work, without ever having a broken codebase''
+"`It helps us visualize, plan, and perform business-value-focused improvements over several iterations and increments of work, without ever having a broken codebase`"
 
 * [[[Moyer-Archeology]]] Brian Moyer: http://adm.omg.org/docs/Software_Archeology_4-Mar-2009.pdf[Software Archeology]
 
