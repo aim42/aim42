@@ -19,25 +19,25 @@ image::approach-of-atam.png["Approach of ATAM", title="Approach of ATAM"]
 The phases are:
 
 . *Preparation*:
-  .. 'Identify the relevant stakeholders': 
+  .. _Identify the relevant stakeholders_: 
       The specific goals of the relevant stakeholders define the primary  
       goals of the architecture. Who belongs to these _relevant_ stakeholders
       has to be determined by a <<Stakeholder-Analysis>>.  
    
 . *Kickoff*:
-  .. 'Present the ATAM method':
+  .. _Present the ATAM method_:
       Convince the relevant stakeholders of the significance of 
       comprehensible and specific architecture and quality goals. 
       ATAM helps identify risks, non-risks, tradeoffs and sensitivity points. 
       Calculation of quantitative attributes is not subject of this method.
     
-  .. 'Present the business objectives and architecture goals':
+  .. _Present the business objectives and architecture goals_:
       Present the business context to the relevant stakeholders, especially the
       _business motivation and reasons_ for the development of the system. 
       Clarify specific requirements that the architecture should meet, 
       for instance flexibility, modifiability and performance.
       
-  .. 'Present the architecture of the system':
+  .. _Present the architecture of the system_:
       The architect presents the _architecture_ of the system. This includes:
       
       * All other systems with interactions to the <<SuD>>,
@@ -47,7 +47,7 @@ The phases are:
 
   
 . *Evaluation*:
-  .. 'Explain in detail the architecture approaches':
+  .. _Explain in detail the architecture approaches_:
       The following questions are answered by the architect or developers:
       
       * How are the relevant quality requirements achieved within the 
@@ -56,14 +56,14 @@ The phases are:
         challenges?  
       * What are the important design decisions of the architecture?
       
-  .. 'Create a quality tree and scenarios':
+  .. _Create a quality tree and scenarios_:
       In the context of a creative brainstorming the stakeholders develop the 
       relevant required quality goals. These are arranged in a quality tree.
       Afterward the quality requirements and architecture goals of the 
       system are refined by scenarios which are added to the quality tree. The 
       found scenarios are prioritized regarding to their business value.
      
-  .. 'Analyze the architecture approaches with respect to the scenarios':
+  .. _Analyze the architecture approaches with respect to the scenarios_:
       Based on the priorities of the scenarios the evaluation team examines 
       together with the architect or developers how the architecture approaches 
       support the considered scenario. The findings of the analysis are:
@@ -76,7 +76,7 @@ The phases are:
         formative influence to the quality attributes.
         
 . *Follow-up*:
-  .. 'Present the results':
+  .. _Present the results_:
       Creation of a report with:
       
       * Architectural approaches

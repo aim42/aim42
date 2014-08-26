@@ -50,7 +50,7 @@ the flexible, multi-language code-analysis toolkit.
 * [[[Feathers]]] Michael Feathers: Working Effectively with Legacy Code. Prentice Hall, 2005. The author claims "Code without tests is bad code". So true...
 
 
-* [[[Fowler-Refactoring]]] Martin Fowler: Refactoring. Addision-Wesley. Addision-Wesley, 1999.
+* [[[Fowler-Refactoring]]] Martin Fowler: Refactoring. Addision-Wesley. Addision-Wesley, 1999. See also http://www.refactoring.com/[refactoring.com]
 
 
 * [[[Freemann]]] Steve Freeman, Nat Pryce: Growing Object Oriented Software By Tests. Addison-Wesley, 2010.
