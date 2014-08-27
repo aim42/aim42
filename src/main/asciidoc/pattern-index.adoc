@@ -185,7 +185,7 @@ Category: <<Improve>>
 +
 
 . [[Handle-If-Else-Chains]]
-[pattern]#Handle If Else Chains#:: Refactor nested if-then-else structures for improved understandability.
+[pattern]#Handle If Else Chains#:: Refactor nested if-then-else structures for improved understandability. Can be seen as a specialisation of <<Remove-Nested-Control-Structures>>.
 Category: <<Improve>>
 +
 
@@ -374,7 +374,7 @@ Category: <<Analyze>>
 +
 
 . [[Remove-Nested-Control-Structures]]
-[pattern]#Remove Nested Control Structures#:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>.
+[pattern]#Remove Nested Control Structures#:: Re-structure code so that deeply nested or complicated control structures are replaced by semantically identical versions. Special case of <<Refactoring>>, similar to <<Untangle-Code>>. Often performed by reducing complexity and especially cyclomatic complexity. When reducing code complexity one needs to make sure we're not exchanging inner/ method/ cyclomatic complexity by outer/ design or runtime complexity.
 Category: <<Improve>>
 +
 
