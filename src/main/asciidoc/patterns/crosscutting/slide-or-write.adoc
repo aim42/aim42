@@ -26,7 +26,6 @@ In a review for a financial broker we agreed initially to deliver a detailed doc
 
 In another case we planned to present out review finding in one big meeting and so we wrapped all findings into briefly and concise slides. Later some executives who missed the meeting complained that they  needed some spoken explanations to understand the presentation document. We spent much more time in subsequently writing out the background information as if we had worked on a result document from beginning on.
 
-==== Applicability
 
 ==== Related Patterns
 

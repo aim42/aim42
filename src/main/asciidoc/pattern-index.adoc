@@ -378,6 +378,12 @@ Category: <<Analyze>>
 Category: <<Improve>>
 +
 
+. *<<Report-Structure>>*
++
+A generic structure for written audit or review reports, usually 
+following an <<Analyze>> phase. See <<Slide-Or-Write>>. Category: <<Crosscutting>>.
+
+
 . *<<Root-Cause-Analysis>>*
 +
 _Find the evil at the bottom_: Explicitely differentiate between symptom and cause: Identify root causes of symptoms, problems or issues.

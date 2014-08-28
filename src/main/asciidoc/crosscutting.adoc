@@ -49,6 +49,7 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 * <<Impact-Analysis>>
 * <<Improvement-Backlog>>
 * <<Issue-List>>
+* <<Report-Structure>>
 * <<Slide-Or-Write>>
 * <<Traceability>>
 
@@ -192,6 +193,10 @@ For every entry in this issue list we need to <<Estimate-Issue-Cost>>, an estima
 In case you already have identified or developed options to adress this issue,
 links to the corresponding improvements (remedies, tactics, strategies, changes) in the
 <<Improvement-Backlog>> are neccesssary.
+
+
+
+include::patterns/crosscutting/report-structure.adoc[]
 
 
 include::patterns/crosscutting/separate-cause-from-effect.adoc[]
