@@ -15,18 +15,18 @@ Create an isolating layer to provide clients with functionality in terms of thei
 Category: <<Improve>>
 +
 
-. [[Architecture-Backlog]]
-[pattern]#Architecture-Backlog#:: Keep a prioritized list of improvement tasks (_remedies_) with their
-as a backlog, parallel to the (regular) feature backlog.
-Category: <<Improve>>
-+
 
-. *<<Architecture-Documentation>>*
+. *<<Architectural-Understanding>>*
 +
 Document relevant structures, concepts, decisions, interfaces etc. of the <<SuD>>
-to _locate_ problems, risks and remedies.
+to _locate_ issues, risks and opportunities for improvement.
 See <<arc42>> and <<View-Based-Understanding>>.
-Category: <<Analyze>>
+Category: <<Crosscutting>>
++
+
+. [[Architecture-Backlog]]
+[pattern]#Architecture-Backlog#:: Keep a prioritized list of improvement tasks (_remedies_) with their as a backlog, parallel to the (regular) feature backlog.
+Category: <<Improve>>
 +
 
 . [[Assertions]]

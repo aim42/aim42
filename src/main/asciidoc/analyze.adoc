@@ -49,7 +49,7 @@ Figure: Overview of Most Important Analysis Pracices
 
 Always begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> with important stakeholders.
 
-Next get an initial understanding of the <<SuD>> by 
+Improve your <<Architectural-Understanding>> of the <<SuD>> by 
 
   ** <<Context-Analysis>>
   ** <<Documentation-Analysis>>, read especially the architecture documentation, focus on <<View-Based-Understanding>>.
@@ -108,7 +108,6 @@ Figure: Detailed overview of Analysis Practices and Patterns
 
 
 
-include::patterns/analyze/architecture-documentation.adoc[]
 
 include::patterns/analyze/atam.adoc[]
 

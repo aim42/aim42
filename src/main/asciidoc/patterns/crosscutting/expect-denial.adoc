@@ -67,6 +67,6 @@ Especially when presenting results to (opposing) management stakeholders, you sh
 
 ==== Related Patterns
 * <<Collect-Issues>>
-* <<Issue-Cost>>
+* <<Estimate-Issue-Cost>>
 * <<Traceability>>
 

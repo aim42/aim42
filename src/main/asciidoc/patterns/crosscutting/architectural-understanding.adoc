@@ -1,0 +1,48 @@
+[[Architectural-Understanding]]
+=== [pattern]#Architectural-Understanding#
+
+Develop and document an understanding of internal structures, concepts, architectural approaches  and important decisions of the <<SuD>>.
+
+
+==== Description
+
+Collect and organize architectural information about the <<SuD>>: 
+Document structures, concepts, decisions, interfaces etc. of the <<SuD>>
+to _locate_ issues, risks and opportunities for improvement.
+ 
+* Business or technical system context, with external interfaces. Learn this
+  from <<Context-Analysis>> or <<Infrastructure-Analysis>>.
+
+* Solution strategy, often to be learnt from <<Stakeholder-Interviews>> with
+  experienced developers of the system.
+
+* Building block structure, the static organization of the source code. 
+  At least elaborate the highest level of code blocks (level 1 building blocks)
+
+* Runtime structures, like important use-case scenarios. Sometimes this can be
+  learned from <<Runtime-Analysis>>.
+
+* Infrastructure and deployment, often derived from <<Infrastructure-Analysis>>.
+
+* Crosscutting and technical concepts, like domain models, persistence,
+  user-interface and other concepts.
+
+* Important architecture and design decisions taken and revoked during
+  development of the system.
+
+
+==== Experiences
+
+Architectural understanding can be gained in small increments, so there is no
+need to reserve long times just for documentation.
+
+Understanding should come from various sources - see all the <<Analyze>> practices.
+
+
+==== Related Practices
+
+* <<arc42>> provides a free and pragmatic template for software architecture
+  documentation. It's available in various formats (e.g. Microsoft-Word (tm) and 
+  AsciiDoc).
+
+* <<View-Based-Understanding>>

@@ -3,16 +3,43 @@
 [[Crosscutting]]
 == Cross-Cutting Practices and Patterns
 
-. Start with collecting problems.
-. Evaluate those, determine priorities and _values_. This ensures you later solve _important_ and _relevant_ problems.
-. Aligned with your problems, keep a list of potential improvements.
+// image map - created manually from OmniGraffle Export
+++++
+<map name="CrosscuttingPracticesOverview">
+	<area shape=rect coords="341,3,478,50" href="#Architectural-Understanding">
+	<area shape=poly coords="218,378,329,378,338,382,338,380,342,384,342,382,347,386,347,440,338,445,226,445,218,442,213,440,209,436,209,382,218,378" href="#Issue-List">
+	<area shape=poly coords="517,376,641,376,651,381,651,379,655,383,655,381,660,385,660,440,651,445,526,445,517,442,512,440,507,436,507,381,517,376" href="#Improvement-Backlog">
+	<area shape=rect coords="3,305,130,352" href="#Explicit-Assumption">
+	<area shape=rect coords="501,167,669,235" href="#Collect-Opportunities-For-Improvement">
+	<area shape=rect coords="218,181,321,235" href="#Collect-Issues">
+</map>
 
-image::from-problem-to-improvement.jpg["from problem to improvement", title="From problem to solutions", id="problem-to-solution"]
+<img border=0 src="images/crosscutting-patterns-overview.png" 
+usemap="#CrosscuttingPracticesOverview">
+++++
+
+=== How it works
+
+. Start with collecting issues - mainly in <<Analyze>> phase.
+
+. Evaluate those, determine _values_, preferably cost. This ensures you later solve _important_ and _relevant_ issues.
+
+. <<Collect-Opportunities-For-Improvement>> and evaluate those too.
+
+. Align issues and potential improvements.
+
+. Continously strive to increase your <<Architectural-Understanding>>, as this
+  facilitates identification of additional issues and improvements.
 
 
-=== Pattern and Practices for Cross-Cutting Concerns
+image::from-problem-to-improvement.jpg["from problem to improvement", title="From problem to improvement", id="problem-to-improvement"]
+
+
+
+=== Crosscutting Practices  
 (given in alphabetical order)
 
+* <<Architectural-Understanding>>
 * <<Collect-Opportunities-For-Improvement>>
 * <<Collect-Issues>>
 * <<Expect-Denial>>
@@ -28,24 +55,28 @@ image::from-problem-to-improvement.jpg["from problem to improvement", title="Fro
 
 // image map - created manually from OmniGraffle Export
 ++++
-<map name="CrosscuttingConcepts">
-	<area shape=poly coords="295,376,406,376,415,381,415,379,419,383,419,381,424,385,424,439,415,443,303,443,295,441,290,439,286,435,286,381,295,376" href="#Issue-List">
-	<area shape=rect coords="415,3,526,50" href="#Traceability">
-	<area shape=rect coords="3,88,100,138" href="#Slide-Or-Write">
-	<area shape=rect coords="129,406,246,474" href="#Separate-Cause-From-Effect">
-	<area shape=rect coords="56,513,159,564" href="#Fast-Feedback">
-	<area shape=rect coords="220,513,320,564" href="#Fail-Fast">
-	<area shape=poly coords="564,375,688,375,698,379,698,377,703,381,703,379,707,384,707,439,698,443,573,443,564,441,559,439,554,435,554,379,564,375" href="#Improvement-Backlog">
-	<area shape=rect coords="19,313,146,360" href="#Explicit-Assumption">
-	<area shape=rect coords="113,6,224,60" href="#Expect-Denial">
-	<area shape=rect coords="367,284,464,331" href="#Impact-Analysis">
-	<area shape=rect coords="549,166,716,234" href="#Collect-Opportunities-For-Improvement">
-	<area shape=rect coords="198,180,301,234" href="#Collect-Issues">
+<map name="CrosscuttingPractices">
+	<area shape=rect coords="392,101,530,148" href="#Architectural-Understanding">
+	<area shape=poly coords="295,471,406,471,415,476,415,474,419,478,419,476,424,480,424,534,415,538,303,538,295,536,290,534,286,530,286,476,295,471" href="#Issue-List">
+	<area shape=rect coords="430,6,542,53" href="#Traceability">
+	<area shape=rect coords="3,103,100,154" href="#Slide-Or-Write">
+	<area shape=rect coords="129,501,246,569" href="#Separate-Cause-From-Effect">
+	<area shape=rect coords="56,608,159,659" href="#Fast-Feedback">
+	<area shape=rect coords="220,608,320,659" href="#Fail-Fast">
+	<area shape=poly coords="564,470,688,470,698,474,698,472,703,476,703,474,707,479,707,534,698,538,573,538,564,536,559,534,554,530,554,474,564,470" href="#Improvement-Backlog">
+	<area shape=rect coords="19,407,146,455" href="#Explicit-Assumption">
+	<area shape=rect coords="113,22,224,76" href="#Expect-Denial">
+	<area shape=rect coords="367,379,464,426" href="#Impact-Analysis">
+	<area shape=rect coords="549,261,716,329" href="#Collect-Opportunities-For-Improvement">
+	<area shape=rect coords="198,275,301,329" href="#Collect-Issues">
 </map>
 
-<img border=0 src="images/crosscutting-patterns-conceptmap.png" usemap="#CrosscuttingConcepts">
+<img border=0 src="images/crosscutting-patterns-complete.png" usemap="#CrosscuttingPractices">
 ++++
 
+
+
+include::patterns/crosscutting/architectural-understanding.adoc[]
 
 
 [[Collect-Opportunities-For-Improvement]]
