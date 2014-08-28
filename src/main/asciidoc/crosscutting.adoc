@@ -32,7 +32,7 @@ usemap="#CrosscuttingPracticesOverview">
   facilitates identification of additional issues and improvements.
 
 
-image::from-problem-to-improvement.jpg["from problem to improvement", title="From problem to improvement", id="problem-to-improvement"]
+image::issues-and-improvements.png[title="Collect issues and improvements", id="issues-and-improvements"]
 
 
 
