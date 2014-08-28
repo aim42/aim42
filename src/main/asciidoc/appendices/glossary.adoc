@@ -27,3 +27,6 @@ SuD:: System under Design. Alternative explanation: System under improvement. Th
 * associated external systems, like data-/event providers or consumers. 
 
 and maybe even more :-)  
+
+
+Value:: (of an improvement). Approximately the cost of the associated issue(s) * -1. If an improvement solves only part of an issue, value estimation becomes much harder.
