@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/aim42/aim42.png?label=ready&title=Ready)](https://waffle.io/aim42/aim42)
 ## [![aim42](http://aim42.org/rw_common/images/aim42-logo-180x81.png)](http://aim42.org/) Architecture Improvement Method
 
 ### Software Evolution, Maintenance and Improvement - Done Right!
