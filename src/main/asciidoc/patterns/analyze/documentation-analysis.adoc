@@ -10,6 +10,7 @@ Analyse existing documentation for availability, correctness, actuality, problem
 Under discussion!
 
 Look for: 
+
 * missing documentation, 
 * over-documentation
 * outdated documentation
