@@ -23,4 +23,10 @@ Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.
 Version 0.4.5, last update {docdate}
 
 
-Our current build status: image:https://travis-ci.org/aim42/aim42.png?branch=master[unknown]
+Current status: 
+image:http://img.shields.io/travis/aim42/aim42/master.svg[https://travis-ci.org/aim42/aim42]
+
+image:https://badge.waffle.io/aim42/aim42.png?label=bug&title=bugs[https://waffle.io/aim42/aim42]
+
+image:http://img.shields.io/github/issues/aim42/aim42.svg[https://github.com/aim42/aim42/issues]
+

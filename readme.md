@@ -33,6 +33,8 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 #### Current Status
 
 [![Build Status](http://img.shields.io/travis/aim42/aim42/master.svg)](https://travis-ci.org/aim42/aim42")
-[![issues to be done](https://badge.waffle.io/aim42/aim42.png?label=ready&title=open%20issues)](https://waffle.io/aim42/aim42)
 [![bugs](https://badge.waffle.io/aim42/aim42.png?label=bug&title=bugs)](https://waffle.io/aim42/aim42)
+[![issues](http://img.shields.io/github/issues/aim42/aim42.svg)](https://github.com/aim42/aim42/issues)
+
+
 
