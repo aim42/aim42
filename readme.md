@@ -27,11 +27,12 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 * have ideas: fork the [repository](https://github.com/aim42/aim42) and create a pull request. You need a basic understanding of [Git](http://git-scm.com) for this.
 * follow us on [twitter](https://twitter.com/arc_improve42) 
 
-* solve on of our issues: [![issues to be done](https://badge.waffle.io/aim42/aim42.png?label=ready&title=issues)](https://waffle.io/aim42/aim42)
  
 
  
 #### Current Status
 
-* Build status (from Travis-CI) [![Build Status](http://img.shields.io/travis/aim42/aim42/master.svg)](https://travis-ci.org/aim42/aim42")
+[![Build Status](http://img.shields.io/travis/aim42/aim42/master.svg)](https://travis-ci.org/aim42/aim42")
+[![issues to be done](https://badge.waffle.io/aim42/aim42.png?label=ready&title=open%20issues)](https://waffle.io/aim42/aim42)
+[![bugs](https://badge.waffle.io/aim42/aim42.png?label=bug&title=bugs)](https://waffle.io/aim42/aim42)
 
