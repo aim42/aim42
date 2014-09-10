@@ -17,8 +17,8 @@ buildscript {
     }
 
     dependencies {
-        classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.0' ) 
-        
+        classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.0' )
+
     }
 }
 
@@ -39,7 +39,7 @@ asciidoctor {
     options = [
         attributes: [
             toc                 : 'left',
-            //doctype             : 'book',
+            doctype             : 'book',
             icons               : 'font',
             sectlink            : true,
             sectanchors         : true,
@@ -58,7 +58,7 @@ asciidoctor {
 defaultTasks 'aim42'
 
 task copyImages(
-    type: Copy, 
+    type: Copy,
     description: 'copy images into build output folder so that references can be resolved '
 ) {
     from "$srcDir/resources/images"
@@ -105,14 +105,14 @@ repositories {
 }
 
 dependencies {
-  testCompile 'net.sourceforge.htmlunit:htmlunit:2.8' 
-                   
+  testCompile 'net.sourceforge.htmlunit:htmlunit:2.8'
+
   testCompile localGroovy()
   testCompile 'junit:junit:4.+'
 }
 
 test.dependsOn "aim42"
-    
+
 //sourceSets {
 //    test {
 //        groovy {
@@ -120,6 +120,3 @@ test.dependsOn "aim42"
 //        }
 //    }
 //}
-
-
-
