@@ -6,9 +6,9 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 === Goals
 
-. Plan and coordinate measures and remedies to eliminate problems and issues found during <<Analyze, analysis>>.
+. Plan and coordinate measures and opportunities for improvements to eliminate problems and issues found during <<Analyze, analysis>>.
 
-. Apply the remedies
+. Apply selected opportunities for improvement
 
 * Change code, structures, concepts or processes to achieve better software,
 * Reduce costs and/or technical debt,
@@ -17,15 +17,12 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 * Optimize operation and administration processes, effort and cost.
 
 
-==== Refactoring Source Code
-One important part of improving systems is refactoring, as initially described by <<Fowler-Refactoring>>.
-
-In our opinion, several refactoring patterns are especially important:
-
-* <<Handle-If-Else-Chains>>: eliminate nested if-then-else blocks, so that code becomes more understandable.
 
 
 === Patterns and Practices for Improvement
+
+image::improve-patterns-conceptmap.png["improvement-practices", title="Improve Practices"]
+
 
 (given in alphabetical order)
 
