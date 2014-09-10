@@ -15,10 +15,10 @@ aim42 divides change activities in three distinct phases:
 aim42 has been founded by [Gernot Starke](http://gernotstarke.de), is supported by [innoQ Deutschland GmbH](http://innoq.com) and is licenced under the
 liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by-sa/4.0) licence.
 
-#### Lean more
+#### Learn more
  
 * our [project homepage](http://aim42.org) gives an overview
-* the [online method guide](http://aim42.github.io) provides all (currently available) details (this our main artifact - currently under intensive development). The method guide is automatically updated with every commit pushed to the central repository by Travis-CI.
+* the [online method guide](http://aim42.github.io) provides all (currently available) details (this is our main artifact - currently under intensive development). The method guide is automatically updated with every commit pushed to the central repository by Travis-CI.
 
 
 #### Contribute
