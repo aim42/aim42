@@ -18,6 +18,7 @@ buildscript {
 
     dependencies {
         classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.0' )
+        classpath ('org.aim42:HtmlSanityCheck-gradle-plugin:0.5.3')
 
     }
 }
@@ -96,27 +97,24 @@ task publish(type: GradleBuild) {
 }
 
 
-// ============ validation with junit/htmlunit
+// ============ validation
 
-apply plugin: 'groovy'
+apply plugin: 'org.aim42.HtmlSanityCheck-gradle-plugin'
+htmlSanityCheck {
 
-repositories {
-    mavenCentral()
+  // ensure asciidoctor->html runs first
+  // and images are copied to build directory
+  dependsOn asciidoctor, copyImages
+
+  sourceDir = new File( "$buildDir/docs" )
+
+  // files to check, in Set-notation
+  sourceDocuments = [ "index.html"]
+
+  // where to put results of sanityChecks...
+  checkingResultsDir = new File( "$buildDir/report/htmlchecks" )
+
+  // false: restrict checks to local resources
+  // true:  also check external (e.g. http, https...) links.
+  checkExternalLinks = false
 }
-
-dependencies {
-  testCompile 'net.sourceforge.htmlunit:htmlunit:2.8'
-
-  testCompile localGroovy()
-  testCompile 'junit:junit:4.+'
-}
-
-test.dependsOn "aim42"
-
-//sourceSets {
-//    test {
-//        groovy {
-//            srcDirs = ['src/test/groovy']
-//        }
-//    }
-//}
