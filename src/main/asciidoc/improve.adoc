@@ -42,7 +42,7 @@ image::improve-patterns-conceptmap.png["improvement-practices", title="Improve P
 * <<Isolate-Changes>>
 * <<Keep-Data-Toss-Code>>
 * <<Manage-Complex-Client-Dependencies-With-Facade>>
-* <<Measure-Everything>>
+* <<Measure>>
 * <<Never-Change-Running-System>>
 * <<Never-Rewrite-Running-System>>
 * <<Quality-Driven-Software-Architecture>>
@@ -60,5 +60,5 @@ include::patterns/improve/Improve-Logging.adoc[]
 include::patterns/improve/interface-segregation-principle.adoc[]
 include::patterns/improve/introduce-boy-scout-rule.adoc[]
 include::patterns/improve/manage-complex-client-dependencies-with-facade.adoc[]
-// include::patterns/improve/Measure-Everything.adoc[]
+include::patterns/improve/Measure.adoc[]
 include::patterns/improve/Use-Invariants-To-Kill-Zombies.adoc[]

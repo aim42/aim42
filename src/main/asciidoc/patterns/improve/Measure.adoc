@@ -1,5 +1,5 @@
-[[Measure-Everything]]
-==== [pattern]#Measure Everything#
+[[Measure]]
+==== [pattern]#Measure#
 
 ===== Intent
 
@@ -7,10 +7,13 @@ If you don’t measure it, you can’t optimize it. -- Coda Hale
 
 ===== Description
 
+TODO: explain different kind of metrics (static-code, runtime, organisational...)
 
 ===== Experiences
 
 ===== Risks
+If you measure too many different parameters or attributes, you might drown in numbers.
+
 
 ===== Applicability
 
@@ -19,6 +22,11 @@ This pattern should always be considered.
 ===== Consequences
 
 ===== Also Known As
+
+* quantitative analysis
+* quantitative runtime analysis
+* profiling
+* organisational metrics
 
 ===== Related Patterns
 
