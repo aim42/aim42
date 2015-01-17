@@ -20,7 +20,7 @@ http://aim42.org[aim42] is a collection of practices and patterns to support sof
 
 Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
 
-Version 0.4.6, last update {docdate}
+Version 0.5.0, last update {docdate}
 
 
 Current status: 
