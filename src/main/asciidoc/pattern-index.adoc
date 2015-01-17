@@ -260,9 +260,9 @@ Category: <<Improve>>
 
 . *<<Issue-List>>*
 +
- Keep a list or collection or issues (problems, risks) - together with an appropriate amount of description and evaluation.
+Keep a list or collection or issues (problems, risks) - together with an appropriate amount of description and evaluation.
 Category: <<Crosscutting>>
-
++
 
 . *<<Issue-Tracker-Analysis>>*
 +
@@ -283,7 +283,7 @@ Category: <<Improve>>
 
 
 . [[Measure]]
-[pattern]Measure:: Gather various metrics and visualize them on dashboards in order to make your system behavior more predictable and assumed coincidences explainable. Examples of such metrics are thread pool saturation, number of failed logins, requests per second but also number of successful orders today, amount-of-time-spent-debugging-this-component, code-metrics, amount-of-effort-needed-for-feature...
+[pattern]#Measure#:: Gather various metrics and visualize them on dashboards in order to make your system behavior more predictable and assumed coincidences explainable. Examples of such metrics are thread pool saturation, number of failed logins, requests per second but also number of successful orders today, amount-of-time-spent-debugging-this-component, code-metrics, amount-of-effort-needed-for-feature...
 Category: <<Improve>>
 +
 
@@ -320,7 +320,7 @@ Category: <<Analyze>>
 +
 
 . [[Outside-in-Interfaces]]
-[pattern]#Outside-in Interfaces#:: Modularize system in line with external, modular interfaces.
+[pattern]#Outside-in Interfaces#:: Modularize system aligned to (existing) external interfaces.
 Category: <<Improve>>
 +
 
@@ -461,8 +461,9 @@ Category: <<Analyze>>
 +
 
 . [[Toggle-Feature]]
-[pattern]#Toggle Feature#:: Simultaneously support evolved, competing or conflicting features at runtime by toggling feature flags.
-Category: <<Improve>>
+[pattern]#Toggle Feature#:: Simultaneously support evolved, competing or conflicting features at runtime by toggling feature flags. Category: <<Improve>>, see also:
+* http://en.wikipedia.org/wiki/Feature_toggle
+* http://www.togglz.org/
 +
 
 . *<<Traceability>>*
