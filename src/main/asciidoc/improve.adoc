@@ -21,7 +21,39 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 === Patterns and Practices for Improvement
 
-image::improve-patterns-conceptmap.png["improvement-practices", title="Improve Practices"]
+==== Fundamentals
+For improvement we take a number of fundamental principles for granted:
+
+[horizontal]
+[pattern]#Improve Incrementally#::
+
+[pattern]#Fast-Feedback#::
+
+[pattern]#Prototype-Improvement#:: Verify the viability and effectiveness of improvements,
+usually in smaller scales with reasonable risks. Helps to get [Fast-Feedback] 
+
+[pattern]#Regression-Test-After-Every-Change#:: Always make sure that changes,
+even minor ones, leave your system intact. 
+// TODO: reference/link to sample stories of G.Weinberg (?)
+
+[pattern]#Reduce Complexity#:: Simpler solutions are most often easier to comprehend,
+maintain and operate. Therefore always strive for simplicity and the reduction
+of accidental, unneccessary complexity.
+
+[pattern]#Group Improvement Actions#:: Group related actions, so that they refer
+to similar entities and potential synergies are utilized.
+ 
+
+==== Categories
+
+We divide improvement practices into several categories (shown in 
+figure <<improvement-categories>>).
+
+TODO
+
+image::improve-patterns-concepts.png["improvement-categories", title="Improvement Categories"]
+
+
 
 
 (given in alphabetical order)
