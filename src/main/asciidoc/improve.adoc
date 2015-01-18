@@ -19,7 +19,7 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 
 
-=== Patterns and Practices for Improvement
+=== Structure of Improvement Practices
 
 ==== Fundamentals
 For improvement we take a number of fundamental principles for granted:
@@ -52,12 +52,18 @@ to similar entities and potential synergies are utilized.
 We divide improvement practices into several categories (shown in 
 figure <<Improvement Categories>>).
 
-TODO
+
 
 [[improvement-categories]]
 .Improvement Categories
 image::improve-patterns-categories.png["improvement-categories", title="Improvement Categories"]
 
+
+=== Practices for Improvement
+
+[[improvement-practices-1]]
+.Improvement Practices (Part 1)
+image::iimprove-patterns-complete-1.png["improvement-practices", title="Improvement Practices (Part 1)"]
 
 
 
