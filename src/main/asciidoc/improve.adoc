@@ -63,9 +63,16 @@ image::improve-patterns-categories.png["improvement-categories", title="Improvem
 
 [[improvement-practices-1]]
 .Improvement Practices (Part 1)
-image::iimprove-patterns-complete-1.png["improvement-practices", title="Improvement Practices (Part 1)"]
+image::improve-patterns-complete-1.png["improvement-practices", title="Improvement Practices (Part 1)"]
 
 
+[[improvement-practices-2]]
+.Improvement Practices (Part 2, Code Restructuring Practices)
+image::improve-patterns-codestructure.png["code-improvement-practices", title="Improvement Practices (Part 2, Code Restructuring Practices)"]
+
+
+
+==== Practices in Detail
 
 (given in alphabetical order)
 
