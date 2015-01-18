@@ -25,12 +25,15 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 For improvement we take a number of fundamental principles for granted:
 
 [horizontal]
-[pattern]#Improve Incrementally#::
-
-[pattern]#Fast-Feedback#::
+[pattern]#Improve Incrementally#:: Improve in (potentially small) increments, so
+that change does not disturb or negatively affect the system, its associated
+processes and organisation. Incremental improvements work well with _iterations_.
 
 [pattern]#Prototype-Improvement#:: Verify the viability and effectiveness of improvements,
-usually in smaller scales with reasonable risks. Helps to get [Fast-Feedback] 
+usually in smaller scales with reasonable risks. 
+
+[pattern]#Fast-Feedback#:: Get feedback to your actions and changes as early as possible,
+so you can adjust as quickly as adequate. 
 
 [pattern]#Regression-Test-After-Every-Change#:: Always make sure that changes,
 even minor ones, leave your system intact. 
@@ -47,11 +50,13 @@ to similar entities and potential synergies are utilized.
 ==== Categories
 
 We divide improvement practices into several categories (shown in 
-figure <<improvement-categories>>).
+figure <<Improvement Categories>>).
 
 TODO
 
-image::improve-patterns-concepts.png["improvement-categories", title="Improvement Categories"]
+[[improvement-categories]]
+.Improvement Categories
+image::improve-patterns-categories.png["improvement-categories", title="Improvement Categories"]
 
 
 
