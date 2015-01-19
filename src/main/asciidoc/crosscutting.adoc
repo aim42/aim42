@@ -43,7 +43,7 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 * <<Collect-Opportunities-For-Improvement>>
 * <<Collect-Issues>>
 * <<Expect-Denial>>
-* <<Explicit-Assumption>>
+* <<Explicit-Assumption>> (work-in-progress: moved to Fundamentals)
 * <<Fail-Fast>>
 * <<Fast-Feedback>>
 * <<Impact-Analysis>>
@@ -53,7 +53,6 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 * <<Slide-Or-Write>>
 * <<Traceability>>
 * <<Widen-Your-Options>>
-// TODO: WYO is missing in diagram
 
 
 // image map - created manually from OmniGraffle Export
@@ -112,7 +111,7 @@ include::patterns/crosscutting/expect-denial.adoc[]
 [[Explicit-Assumption]]
 === [pattern]#Explicit Assumption#
 Compensate missing facts (especially requirements, goals, estimates,
-opinions) by explicit (usually written) assumptions about those facts.
+opinions) by explicit (written) assumptions about those facts.
 
 ==== Description
 Making assumptions _explicit_ is fundamentally important to

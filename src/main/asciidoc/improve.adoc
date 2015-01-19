@@ -35,6 +35,8 @@ usually in smaller scales with reasonable risks.
 [pattern]#Fast-Feedback#:: Get feedback to your actions and changes as early as possible,
 so you can adjust as quickly as adequate. 
 
+[pattern]#Explicit Assumption#:: Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (written) assumptions about those facts. See <<Explicit-Assumption>>.
+
 [pattern]#Regression-Test-After-Every-Change#:: Always make sure that changes,
 even minor ones, leave your system intact. 
 // TODO: reference/link to sample stories of G.Weinberg (?)
@@ -56,14 +58,14 @@ figure <<Improvement Categories>>).
 
 [[improvement-categories]]
 .Improvement Categories
-image::improve-patterns-categories.png["improvement-categories", title="Improvement Categories"]
+image::improve-categories.png["improvement-categories", title="Improvement Categories"]
 
 
 === Practices for Improvement
 
 [[improvement-practices-1]]
 .Improvement Practices (Part 1)
-image::improve-patterns-complete-1.png["improvement-practices", title="Improvement Practices (Part 1)"]
+image::improve-patterns-rest.png["improvement-practices", title="Improvement Practices (Part 1)"]
 
 
 [[improvement-practices-2]]
