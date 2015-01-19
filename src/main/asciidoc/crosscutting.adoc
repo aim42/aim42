@@ -43,7 +43,7 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 * <<Collect-Opportunities-For-Improvement>>
 * <<Collect-Issues>>
 * <<Expect-Denial>>
-* <<Explicit-Assumption>> (work-in-progress: moved to Fundamentals)
+* <<Explicit-Assumption>> (work-in-progress: move to Fundamentals?)
 * <<Fail-Fast>>
 * <<Fast-Feedback>>
 * <<Impact-Analysis>>
