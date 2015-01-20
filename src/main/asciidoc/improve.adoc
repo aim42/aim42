@@ -25,7 +25,7 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 For improvement we take a number of fundamental principles for granted:
 
 [horizontal]
-[pattern]#Improve Incrementally#:: Improve in (potentially small) increments, so
+[pattern]#Improve Iteratively#:: Improve in (potentially small) increments, so
 that change does not disturb or negatively affect the system, its associated
 processes and organisation. Incremental improvements work well with _iterations_.
 
@@ -37,7 +37,7 @@ so you can adjust as quickly as adequate.
 
 [pattern]#Explicit Assumption#:: Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (written) assumptions about those facts. See <<Explicit-Assumption>>.
 
-[pattern]#Regression-Test-After-Every-Change#:: Always make sure that changes,
+[pattern]#Verify-After-Every-Change#:: Always make sure that changes,
 even minor ones, leave your system intact. 
 // TODO: reference/link to sample stories of G.Weinberg (?)
 
@@ -59,6 +59,8 @@ figure <<Improvement Categories>>).
 [[improvement-categories]]
 .Improvement Categories
 image::improve-categories.png["improvement-categories", title="Improvement Categories"]
+
+// Describe meaning/definitino of categories
 
 
 === Practices for Improvement
