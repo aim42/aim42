@@ -25,6 +25,9 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 For improvement we take a number of fundamental principles for granted:
 
 [horizontal]
+[pattern]#Fast-Feedback#:: Get feedback to your actions and changes as early as possible,
+so you can adjust as quickly as adequate. 
+
 [pattern]#Improve Iteratively#:: Improve in (potentially small) increments, so
 that change does not disturb or negatively affect the system, its associated
 processes and organisation. Incremental improvements work well with _iterations_.
@@ -32,14 +35,11 @@ processes and organisation. Incremental improvements work well with _iterations_
 [pattern]#Prototype-Improvement#:: Verify the viability and effectiveness of improvements,
 usually in smaller scales with reasonable risks. 
 
-[pattern]#Fast-Feedback#:: Get feedback to your actions and changes as early as possible,
-so you can adjust as quickly as adequate. 
+[pattern]#Verify-After-Every-Change#:: Always make sure that changes,
+even minor ones, leave your system intact. (The awesome Jerry Weinberg has written
+up several http://secretsofconsulting.blogspot.de/2015/01/some-very-expensive-software-failures.html[examples of such failures^]).
 
 [pattern]#Explicit Assumption#:: Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (written) assumptions about those facts. See <<Explicit-Assumption>>.
-
-[pattern]#Verify-After-Every-Change#:: Always make sure that changes,
-even minor ones, leave your system intact. 
-// TODO: reference/link to sample stories of G.Weinberg (?)
 
 [pattern]#Reduce Complexity#:: Simpler solutions are most often easier to comprehend,
 maintain and operate. Therefore always strive for simplicity and the reduction
