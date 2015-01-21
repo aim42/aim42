@@ -6,7 +6,7 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 === Goals
 
-. Plan and coordinate measures and opportunities for improvements to eliminate problems and issues found during <<Analyze, analysis>>.
+. Plan and coordinate measures and opportunities for improvements to eliminate problems and issues found during <<Analyze, analysis>>. A whole <<Determine-Improvement-Approach ,category of practices>> is devoted to this step, called <<Determine-Improvement-Approach>>
 
 . Apply selected opportunities for improvement
 
@@ -22,28 +22,35 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 === Structure of Improvement Practices
 
 ==== Fundamentals
-For improvement we take a number of fundamental principles for granted:
+For improvement we take a number of fundamental principles for granted, 
+depicted in figure <<Improvement Fundamentals>>.
+
+
+[[improvement-fundamentals]]
+.Improvement Fundamentals
+image::improve-fundamentals.png[]
+
 
 [horizontal]
 [pattern]#Fast-Feedback#:: Get feedback to your actions and changes as early as possible,
 so you can adjust as quickly as adequate. 
 
-[pattern]#Improve Iteratively#:: Improve in (potentially small) increments, so
+[pattern]#Improve Iteratively#:: Improve in (potentially small) iterations and/or increments, so
 that change does not disturb or negatively affect the system, its associated
-processes and organisation. Incremental improvements work well with _iterations_.
+processes and organisation. Iterations are the prerequiste for our whole _phased improvement_.
 
 [pattern]#Prototype-Improvement#:: Verify the viability and effectiveness of improvements,
 usually in smaller scales with reasonable risks. 
 
 [pattern]#Verify-After-Every-Change#:: Always make sure that changes,
 even minor ones, leave your system intact. (The awesome Jerry Weinberg has written
-up several http://secretsofconsulting.blogspot.de/2015/01/some-very-expensive-software-failures.html[examples of such failures^]).
-
-[pattern]#Explicit Assumption#:: Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (written) assumptions about those facts. See <<Explicit-Assumption>>.
+up several http://secretsofconsulting.blogspot.de/2015/01/some-very-expensive-software-failures.html[examples of such failures]).
 
 [pattern]#Reduce Complexity#:: Simpler solutions are most often easier to comprehend,
 maintain and operate. Therefore always strive for simplicity and the reduction
 of accidental, unneccessary complexity.
+
+[pattern]#Explicit Assumption#:: Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (written) assumptions about those facts. See <<Explicit-Assumption>>.
 
 [pattern]#Group Improvement Actions#:: Group related actions, so that they refer
 to similar entities and potential synergies are utilized.
@@ -61,6 +68,13 @@ figure <<Improvement Categories>>).
 image::improve-categories.png["improvement-categories", title="Improvement Categories"]
 
 // Describe meaning/definitino of categories
+
+[[Determine-Improvement-Approach]]
+===== Determine Improvement Approach
+ 
+ TODO
+
+// TODO: add sections for other categories and describe
 
 
 === Practices for Improvement
