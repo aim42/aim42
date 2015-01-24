@@ -81,7 +81,7 @@ Keep a list of problems, issues and risks. Regularly match those to your <<colle
 Category: <<Crosscutting>>
 
 
-. *<<Context Analysis>>*
+. *<<Context-Analysis>>*
 +
 Analyse external interfaces for risk, technology, business value and other factors.
 Category: <<Analyze>>
