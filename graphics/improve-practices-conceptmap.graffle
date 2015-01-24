@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-01-24 08:28:59 +0000</string>
+	<string>2015-01-24 09:55:40 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -527,7 +527,7 @@
 			<array>
 				<dict>
 					<key>Bounds</key>
-					<string>{{120.6333703994751, 98.72441291809082}, {65, 26}}</string>
+					<string>{{116.1333703994751, 98.72441291809082}, {70, 26}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -536,6 +536,8 @@
 					<string>Resize</string>
 					<key>FontInfo</key>
 					<dict>
+						<key>Font</key>
+						<string>LucidaGrande</string>
 						<key>Size</key>
 						<real>13</real>
 					</dict>
@@ -563,12 +565,12 @@
 					<dict>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
-{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
 {\colortbl;\red255\green255\blue255;}
 \deftab720
 \pard\pardeftab720\qc
 
-\f0\fs26 \cf0 Practices}</string>
+\f0\b\fs26 \cf0 Practices}</string>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -660,6 +662,8 @@ Fundamentals}</string>
 							<key>r</key>
 							<string>0.145098</string>
 						</dict>
+						<key>Font</key>
+						<string>LucidaGrande</string>
 						<key>NSKern</key>
 						<string>0</string>
 						<key>Size</key>
@@ -676,7 +680,7 @@ Fundamentals}</string>
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.68</string>
+								<string>0.5</string>
 								<key>b</key>
 								<string>1</string>
 								<key>g</key>
@@ -693,11 +697,11 @@ Fundamentals}</string>
 							<key>GradientColor</key>
 							<dict>
 								<key>b</key>
-								<string>0.8</string>
+								<string>1</string>
 								<key>g</key>
-								<string>0.8</string>
+								<string>1</string>
 								<key>r</key>
-								<string>0.8</string>
+								<string>1</string>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.46246337890625</real>
@@ -712,11 +716,11 @@ Fundamentals}</string>
 					<dict>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
-{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;}
+{\fonttbl\f0\fnil\fcharset0 LucidaGrande;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs26 \cf0 Approaches}</string>
+\f0\b\fs26 \cf0 Approaches}</string>
 						<key>VerticalPad</key>
 						<integer>28</integer>
 					</dict>
@@ -728,6 +732,15 @@ Fundamentals}</string>
 					<string>{{56.692914962768555, 90.708663940429688}, {187.04402224632244, 93.676061031138175}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
+					<key>FontInfo</key>
+					<dict>
+						<key>Font</key>
+						<string>LucidaGrande-Bold</string>
+						<key>NSKern</key>
+						<string>0</string>
+						<key>Size</key>
+						<real>13</real>
+					</dict>
 					<key>ID</key>
 					<integer>77</integer>
 					<key>Magnets</key>
@@ -768,6 +781,46 @@ Fundamentals}</string>
 					<string>A8191CED-8876-45CA-AC2E-F94CB2D0E63B-4790-000013CCB623D302</string>
 					<key>Style</key>
 					<dict>
+						<key>fill</key>
+						<dict>
+							<key>Color</key>
+							<dict>
+								<key>a</key>
+								<string>0.48</string>
+								<key>b</key>
+								<string>1</string>
+								<key>g</key>
+								<string>0.615686</string>
+								<key>r</key>
+								<string>0.231373</string>
+							</dict>
+							<key>FillType</key>
+							<integer>2</integer>
+							<key>GradientAngle</key>
+							<real>90</real>
+							<key>GradientColor</key>
+							<dict>
+								<key>b</key>
+								<string>1</string>
+								<key>g</key>
+								<string>1</string>
+								<key>r</key>
+								<string>1</string>
+							</dict>
+							<key>MiddleColor</key>
+							<dict>
+								<key>b</key>
+								<string>1</string>
+								<key>g</key>
+								<string>1</string>
+								<key>r</key>
+								<string>1</string>
+							</dict>
+							<key>MiddleFraction</key>
+							<real>0.7568359375</real>
+							<key>TrippleBlend</key>
+							<string>YES</string>
+						</dict>
 						<key>shadow</key>
 						<dict>
 							<key>Draws</key>
@@ -14974,11 +15027,9 @@ Improve Logging}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>Expanded_Canvases</key>
 		<array/>
-		<key>Frame</key>
-		<string>{{209, -10}, {1436, 877}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
@@ -14990,7 +15041,7 @@ Improve Logging}</string>
 		<key>TopSlabHeight</key>
 		<real>371</real>
 		<key>VisibleRegion</key>
-		<string>{{0, 0}, {446, 366}}</string>
+		<string>{{0, 20.25}, {446, 366}}</string>
 		<key>Zoom</key>
 		<real>2</real>
 		<key>ZoomValues</key>
@@ -15022,7 +15073,7 @@ Improve Logging}</string>
 			</array>
 			<array>
 				<string>Canvas 2</string>
-				<real>1</real>
+				<real>2</real>
 				<real>1</real>
 			</array>
 		</array>

@@ -21,6 +21,17 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 === Structure of Improvement Practices
 
+[[improvement-domain]]
+.Concepts For Improvement
+image::improve-concepts.png[]
+
+[horizontal]
+<<Fundamentals>>:: Some principles which you should consider whatever steps you take
+on your road to improvement.
+<<Approaches>>:: Overall decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.  
+<<Practices>>:: fine-grained practices or patterns, structured in several <<categories>>.
+
+
 ==== Fundamentals
 For improvement we take a number of fundamental principles for granted, 
 depicted in figure <<Improvement Fundamentals>>.
@@ -56,10 +67,22 @@ of accidental, unneccessary complexity.
 to similar entities and potential synergies are utilized.
  
 
+==== Approaches
+
+TODO: Describe Approaches
+
+[pattern]#Change-Via-Split#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve those copies independently.
+
+* Change-Via-Copy
+* Big-Bang
+* Strangulate-Bad-Parts
+* Keep-Data-Toss-Code
+* Frontend-Switch
+
 ==== Categories
 
 We divide improvement practices into several categories (shown in 
-figure <<Improvement Categories>>).
+figure <<Improvement Categories>>). 
 
 
 
@@ -71,7 +94,9 @@ image::improve-categories.png["improvement-categories", title="Improvement Categ
 
 [[Determine-Improvement-Approach]]
 ===== Determine Improvement Approach
- 
+The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement:
+
+
  TODO
 
 // TODO: add sections for other categories and describe
