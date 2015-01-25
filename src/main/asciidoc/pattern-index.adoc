@@ -64,9 +64,10 @@ Category: <<Improve>>
 +
 
 . [[Change-by-Copy]]
-[pattern]#Change by Copy#:: Isolate competing change necessity by copying and allowing the copies to evolve independently.
+[pattern]#Change by Copy#:: Isolate competing change necessity by copying and allowing the copies to evolve independently. Also known as <<Change-Via-Split>>
 Category: <<Improve>>
 +
+
 
 
 . *<<collect-opportunities-for-improvement>>*
