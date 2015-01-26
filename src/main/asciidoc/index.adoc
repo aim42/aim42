@@ -15,6 +15,7 @@
 :toclevels: 3
 :imagesdir: ./images
 :homepage: http://aim42.org
+:linkattrs:
 
 include::about.adoc[]
 
