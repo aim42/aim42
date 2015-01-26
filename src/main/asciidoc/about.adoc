@@ -20,11 +20,11 @@ http://aim42.org[aim42] is a collection of practices and patterns to support sof
 
 Authored by the aim42 community, lead by Dr. Gernot Starke <gernot.starke@innoq.com>
 
-Version 0.5.0, last update {docdate}
+Version 0.5.1, last update {docdate}
 
 
 Current status: 
-image:http://img.shields.io/travis/aim42/aim42/master.svg[link="https://travis-ci.org/aim42/aim42"]
-image:http://img.shields.io/github/issues/aim42/aim42.svg[link="https://github.com/aim42/aim42/issues"]
-image:https://badge.waffle.io/aim42/aim42.png?label=bug&title=bugs[link="https://github.com/aim42/aim42/issues?label=bug"]
+image:http://img.shields.io/travis/aim42/aim42/master.svg[link="https://travis-ci.org/aim42/aim42",window="_blank"]
+image:http://img.shields.io/github/issues/aim42/aim42.svg[link="https://github.com/aim42/aim42/issues",window="_blank"]
+image:https://badge.waffle.io/aim42/aim42.png?label=bug&title=bugs[link="https://github.com/aim42/aim42/issues?label=bug",window="_blank"]
 
