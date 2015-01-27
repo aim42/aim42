@@ -38,7 +38,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-01-27 07:44:37 +0000</string>
+	<string>2015-01-27 12:50:54 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -307,7 +307,7 @@ Migration}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{183.375, 117.53207964601768}, {81.367559180578837, 33.75}}</string>
+					<string>{{52.05420353982322, 165.37627092444404}, {81.367559180578837, 33.75}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -600,13 +600,13 @@ Via Split}</string>
 					<key>OrthogonalBarAutomatic</key>
 					<true/>
 					<key>OrthogonalBarPoint</key>
-					<string>{158.39838136020103, 134.40707964601768}</string>
+					<string>{33.008339311334268, 134.40707964601768}</string>
 					<key>OrthogonalBarPosition</key>
 					<real>-1</real>
 					<key>Points</key>
 					<array>
-						<string>{133.42176272040206, 134.40707964601768}</string>
-						<string>{183.375, 134.40707964601768}</string>
+						<string>{33.008339311334268, 86.96411296095431}</string>
+						<string>{52.05420353982322, 182.25127092444404}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -632,7 +632,9 @@ Via Split}</string>
 					<key>Tail</key>
 					<dict>
 						<key>ID</key>
-						<integer>239</integer>
+						<integer>175</integer>
+						<key>Info</key>
+						<integer>9</integer>
 					</dict>
 				</dict>
 				<dict>
@@ -4645,7 +4647,7 @@ Improvement\
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{4, 0}, {1244, 745}}</string>
+		<string>{{147, -191}, {1244, 745}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
