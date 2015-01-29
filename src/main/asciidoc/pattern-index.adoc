@@ -68,6 +68,10 @@ Category: <<Improve>>
 Category: <<Improve>>
 +
 
+. [[Change-Via-Split]]
+[pattern]#Change Via Split#:: Isolate competing change necessity by copying and allowing the copies to evolve independently. Also known as <<Change-Via-Split>>
+Category: <<Improve>>
++
 
 
 . *<<collect-opportunities-for-improvement>>*
@@ -110,7 +114,7 @@ Category: <<Analyze>>
 Category: <<Improve>>
 +
 
-. *<<Development Process Analysis>>*
+. *<<Development-Process-Analysis>>*
 +
 Analyse and inspect the development process (as documented or described by stakeholders) for appropriateness, problems or problem-areas.
 Category: <<Analyze>>
