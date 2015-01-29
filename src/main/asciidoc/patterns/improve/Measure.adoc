@@ -30,9 +30,10 @@ This pattern should always be considered.
 
 ===== Related Patterns
 
-* This pattern is an important enabler for a successful <<Runtime-Artifact-Analysis>> or <<Performance Analysis>>.
+* This pattern is an important enabler for a successful <<Runtime-Artifact-Analysis>> or 
+<<Performance-Analysis>>.
 * <<Instrument-System>> and <<Profiling>> are very similar to this pattern, however they are limited to a temporary instrumentation that is needed during the Analysis phase to identify or scope a certain problem that cannot be isolated without modifying the code. 
 
 ===== References
 
-https://www.youtube.com/watch?v=czes-oa0yik
+https://www.youtube.com/watch?v=czes-oa0yik[Coda Hale Talk on "Metrics-Everywhere"]
