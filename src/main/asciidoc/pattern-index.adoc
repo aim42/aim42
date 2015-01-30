@@ -206,8 +206,7 @@ Decompose the overall goal of "high quality" into more detailed and precise requ
 Category: <<Analyze>>
 +
 
-. [[Impact-Analysis]]
-[pattern]#Impact Analysis#:: Determine what impact (in code, concepts and
+. *<<Impact-Analysis>>*:: Determine what impact (in code, concepts and
   the organization) a specific action (e.g. refactoring) will or might have.
 Category: <<Crosscutting>>
 +
