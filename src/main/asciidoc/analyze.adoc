@@ -32,7 +32,7 @@ TIP: To effectively find issues, you need an appropriate amount of _understandin
 
 [[figure-analyze-pattern-overview]]
 ++++
-<img border=0 src="images/analyze-patterns-overview.png" usemap="#AnalysisOverview">
+<img border=0 src="images/analyze-patterns-overview.png" usemap="#AnalysisOverview" alt="analyze-patterns overview">
 <map name="AnalysisOverview">
 	<area shape=rect coords="262,281,366,340" href="#Development-Process-Analysis">
 	<area shape=rect coords="457,118,576,178" href="#Collect-Improvement-Opportunities">
