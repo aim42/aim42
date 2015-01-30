@@ -74,7 +74,7 @@ WARNING: Never start solving problems until you have a thorough understanding of
 === Patterns and Practices for Analysis
 
 ++++
-<img border=0 src="images/analyze-patterns-conceptmap.png" usemap="#AnalysisPatterns">
+<img border=0 src="images/analyze-patterns-conceptmap.png" usemap="#AnalysisPatterns" alt="Analyze Patterns">
 <map name="AnalysisPatterns">
 	<area shape=rect coords="93,690,175,729" href="#Instrument-System">
 	<area shape=rect coords="196,590,299,629" href="#Infrastructure-Analysis">
