@@ -459,7 +459,7 @@ Category: <<Analyze>>
 Category: <<Analyze>>
 +
 
-. *<<Systematic-Decisions>>*
+. [[Systematic-Decisions]]
 +
 Systematically prepare and take decisions by finding appropriate options, check assumptions, overcome emotion and prepare to be wrong. See <<heath-decisive, Decisive (by C+D Heath)>>.
 Category: <<Crosscutting>>
