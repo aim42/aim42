@@ -12,12 +12,17 @@ buildscript {
             name 'Bintray Asciidoctor repo'
             url  'http://dl.bintray.com/content/aalmiray/asciidoctor'
         }
+        maven {
+            name 'Bintray Asciidoctor repo'
+            url  'http://dl.bintray.com/content/aalmiray/asciidoctor'
+        }
+   
         jcenter()
         mavenCentral()
     }
 
     dependencies {
-        classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.0' )
+        classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.2' )
         classpath ('org.aim42:HtmlSanityCheck-gradle-plugin:0.5.3')
 
     }
@@ -30,11 +35,11 @@ ext {
 }
 
 // =========== asciidoctor stuff ===============
-apply plugin: 'org.asciidoctor.gradle.asciidoctor'
+apply plugin: 'org.asciidoctor.convert'
 
 asciidoctor {
     sourceDir = new File("$srcDir/asciidoc")
-    baseDir = new File("$srcDir/asciidoc")
+    //baseDir = new File("$srcDir/asciidoc")
     sourceDocumentNames = files(new File("$srcDir/asciidoc/index.adoc"))
     outputDir = targetDir
     options = [
