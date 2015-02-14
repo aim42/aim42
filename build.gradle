@@ -31,18 +31,21 @@ buildscript {
 
 
 ext {
-    srcDir  = new File("$projectDir/src/main")
-    targetDir = new File("$buildDir/docs")
+    srcDir  = "$projectDir/src/main"
+    targetDir = "$buildDir/docs"
 }
 
 // =========== asciidoctor stuff ===============
 apply plugin: 'org.asciidoctor.convert'
 
 asciidoctor {
-    outputDir = targetDir
-    sourceDir = new File("$srcDir/asciidoc")
+    outputDir = file( targetDir )
+    sourceDir = file("$srcDir/asciidoc")
     sources  { include "index.adoc" }
-    options backends:  ["html5"],
+    //options separateOutputDirs=false
+    attributes = [
+            separateOutputDirs: false,
+            imagesdir   : 'images',
             doctype: 'book',
             icons: 'font',
             toc: 'left',
@@ -52,20 +55,20 @@ asciidoctor {
             'source-highlighter': 'coderay',
             'coderay-css': 'class',
             stylesheet: 'aim42.css',
-            stylesdir: "$srcDir/resources/css/"    
+            stylesdir: "$srcDir/resources/css/"   
+    ]
+    resources {
+        from "$srcDir/resources/images"
+        into 'images'
+        
+    } 
 }
 
 
 
 defaultTasks 'aim42'
 
-task copyImages(
-    type: Copy,
-    description: 'copy images into build output folder so that references can be resolved '
-) {
-    from "$srcDir/resources/images"
-    into "$targetDir/images"
-}
+
 
 
 task copyResources(
@@ -77,11 +80,11 @@ task copyResources(
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.10'
+    gradleVersion = '2.1'
 }
 
 task aim42(
-    dependsOn: [copyResources, copyImages, asciidoctor],
+    dependsOn: [copyResources, asciidoctor],
     description: 'collects all required tasks for creating aim42 documentation'
 ) << { }
 
@@ -105,9 +108,9 @@ htmlSanityCheck {
 
   // ensure asciidoctor->html runs first
   // and images are copied to build directory
-  dependsOn asciidoctor, copyImages
+  dependsOn asciidoctor
 
-  sourceDir = new File( "$buildDir/docs" )
+  sourceDir = new File( "$targetDir/html5" )
 
   // files to check, in Set-notation
   sourceDocuments = [ "index.html"]
