@@ -22,9 +22,10 @@ buildscript {
     }
 
     dependencies {
-        classpath( 'org.asciidoctor:asciidoctor-gradle-plugin:1.5.2' )
         classpath ('org.aim42:HtmlSanityCheck-gradle-plugin:0.5.3')
-
+        classpath ( group: 'org.asciidoctor',
+                    name: 'asciidoctor-gradle-plugin',
+                    version: '1.5.2')
     }
 }
 
@@ -38,25 +39,20 @@ ext {
 apply plugin: 'org.asciidoctor.convert'
 
 asciidoctor {
-    sourceDir = new File("$srcDir/asciidoc")
-    //baseDir = new File("$srcDir/asciidoc")
-    sourceDocumentNames = files(new File("$srcDir/asciidoc/index.adoc"))
     outputDir = targetDir
-    options = [
-        attributes: [
-            toc                 : 'left',
-            doctype             : 'book',
-            icons               : 'font',
-            sectlink            : true,
-            sectanchors         : true,
-            numbered            : true,
-            imagesdir           : 'images',
-            stylesheet          : 'aim42.css',
-            stylesdir           : "$srcDir/resources/css/",
+    sourceDir = new File("$srcDir/asciidoc")
+    sources  { include "index.adoc" }
+    options backends:  ["html5"],
+            doctype: 'book',
+            icons: 'font',
+            toc: 'left',
+            sectlink: true,
+            sectanchors: true,
+            numbered: true,
             'source-highlighter': 'coderay',
-            'coderay-css'       : 'class'
-        ]
-    ]
+            'coderay-css': 'class',
+            stylesheet: 'aim42.css',
+            stylesdir: "$srcDir/resources/css/"    
 }
 
 
