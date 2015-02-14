@@ -6,17 +6,17 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.ajoberstar:gradle-git:0.6.4'
+        classpath 'org.ajoberstar:gradle-git:1.0.0'
     }
 }
 
 
-apply plugin: 'github-pages'
+apply plugin: 'org.ajoberstar.github-pages'
 githubPages {
   repoUri = 'https://github.com/aim42/aim42.github.io.git'
   targetBranch = 'master'
   pages {
-    from('build/docs')
+    from('build/docs/html5')
   }
   credentials {
     username = System.getenv('GH_TOKEN')
