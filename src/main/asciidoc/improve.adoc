@@ -18,12 +18,20 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 
 
-
+[[improvement-domain]]
 === Structure of Improvement Practices
 
-[[improvement-domain]]
+// image map - created manually from OmniGraffle Export
+++++
+<map name="ImproveConceptsOverview">
+	<area shape=rect coords="11,102,198,136" href="#improve-fundamentals">
+	<area shape=poly coords="165,102,148,63,63,63,45,102,165,102" href="#improve-approaches">
+	<area shape=poly coords="11,102,39,39,171,39,198,102,165,102,148,63,63,63,45,102,11,102,198,105,198,105,11,102,198,105" href="#improve-practices">
+</map>
+<img border=0 src="images/improve-concepts-overview.jpg" usemap="#ImproveConceptsOverview">
+++++
 .Concepts For Improvement
-image::improve-concepts.png[]
+
 
 [horizontal]
 <<Fundamentals>>:: Some principles which you should consider whatever steps you take
@@ -31,13 +39,12 @@ on your road to improvement.
 <<Approaches>>:: Overall decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.  
 <<Practices>>:: fine-grained practices or patterns, structured in several <<categories>>.
 
-
 ==== Fundamentals
 For improvement we take a number of fundamental principles for granted, 
 depicted in figure <<Improvement Fundamentals>>.
 
 
-[[improvement-fundamentals]]
+[[improve-fundamentals]]
 .Improvement Fundamentals
 image::improve-fundamentals.png[]
 
@@ -67,6 +74,7 @@ of accidental, unneccessary complexity.
 to similar entities and potential synergies are utilized.
  
 
+[[improve-approaches]]
 ==== Approaches
 
 TODO: Describe Approaches
@@ -102,6 +110,7 @@ The central decision you should take is the improvement-approach, the overall, l
 // TODO: add sections for other categories and describe
 
 
+[[improve-practices]]
 === Practices for Improvement
 
 [[improvement-practices-1]]
