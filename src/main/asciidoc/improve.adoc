@@ -34,9 +34,10 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 
 [horizontal]
-<<Fundamentals>>:: Some principles which you should consider whatever steps you take
-on your road to improvement.
+<<Fundamentals>>:: Some principles which you should consider whatever steps you take on your road to improvement.
+
 <<Approaches>>:: Overall decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.  
+
 <<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<categories>>.
 
 ==== Fundamentals
@@ -50,7 +51,7 @@ image::improve-fundamentals.png[]
 
 
 [horizontal]
-[pattern]#Fast-Feedback#:: Get feedback to your actions and changes as early as possible,
+[pattern]#Fast-Feedback#:: Get feedback to your actions and changes as early as possible, 
 so you can adjust as quickly as adequate. 
 
 [pattern]#Improve Iteratively#:: Improve in (potentially small) iterations and/or increments, so
@@ -76,6 +77,7 @@ to similar entities and potential synergies are utilized.
 
 [[improve-approaches]]
 ==== Approaches
+The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement:
 
 TODO: Describe Approaches
 
@@ -98,16 +100,10 @@ figure <<Improvement Categories>>).
 .Improvement Categories
 image::improve-categories.png["improvement-categories", title="Improvement Categories"]
 
-// Describe meaning/definitino of categories
-
-[[Determine-Improvement-Approach]]
-===== Determine Improvement Approach
-The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement:
+// TODO: Describe meaning/definition of categories
 
 
- TODO
 
-// TODO: add sections for other categories and describe
 
 
 [[improve-practices]]
