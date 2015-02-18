@@ -38,7 +38,7 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 <<Approaches>>:: Overall decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.  
 
-<<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<categories>>.
+<<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<improve-categories,categories>>.
 
 ==== Fundamentals
 For improvement we take a number of fundamental principles for granted, 
@@ -89,6 +89,7 @@ TODO: Describe Approaches
 * Keep-Data-Toss-Code
 * Frontend-Switch
 
+[[improve-categories]]
 ==== Categories
 
 We divide improvement practices into several categories (shown in 
