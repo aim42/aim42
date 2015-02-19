@@ -24,9 +24,9 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 // image map - created manually from OmniGraffle Export
 ++++
 <map name="ImproveConceptsOverview">
-	<area shape=rect coords="11,102,198,136" href="#improve-fundamentals">
-	<area shape=poly coords="165,102,148,63,63,63,45,102,165,102" href="#improve-approaches">
-	<area shape=poly coords="11,102,39,39,171,39,198,102,165,102,148,63,63,63,45,102,11,102,198,105,198,105,11,102,198,105" href="#improve-practices">
+<area shape=rect coords="71,50,260,112" href="#improve-practices">
+	<area shape=poly coords="71,54,260,54,260,11,11,11,11,54,11,112,71,112,71,54" href="#improva-approaches">
+	<area shape=rect coords="11,112,260,158" href="#improve-fundamentals">
 </map>
 <img border=0 src="images/improve-concepts-overview.jpg" usemap="#ImproveConceptsOverview">
 ++++
@@ -36,7 +36,7 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 [horizontal]
 <<Fundamentals>>:: Some principles which you should consider whatever steps you take on your road to improvement.
 
-<<Approaches>>:: Overall decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.  
+<<Approaches>>:: Overall (strategic, long-term) decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.  
 
 <<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<improve-categories,categories>>.
 
