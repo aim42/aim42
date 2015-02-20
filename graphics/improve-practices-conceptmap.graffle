@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-02-19 08:57:35 +0000</string>
+	<string>2015-02-20 06:37:41 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -257,7 +257,7 @@
 										<string>0.146748</string>
 									</dict>
 									<key>CornerRadius</key>
-									<real>5</real>
+									<real>2</real>
 									<key>FreeHand</key>
 									<true/>
 								</dict>
@@ -274,50 +274,49 @@
 								TlNPYmplY3QA
 								hZKEhIQITlNT
 								dHJpbmcBlIQB
-								KxNQcmFjdGlj
-								ZQpDYXRlZ29y
-								aWVzhoQCaUkB
-								E5KEhIQMTlNE
-								aWN0aW9uYXJ5
-								AJSEAWkDkoSW
-								lgdOU0NvbG9y
-								hpKEhIQHTlND
-								b2xvcgCUhAFj
-								AoQEZmZmZoO5
-								uDg+g4KBAT+D
-								uLc3PwGGkoSW
-								lhBOU1BhcmFn
-								cmFwaFN0eWxl
-								hpKEhIQQTlNQ
-								YXJhZ3JhcGhT
-								dHlsZQCUhARD
-								Q0BTAgCEhIQH
-								TlNBcnJheQCU
-								mQyShISECU5T
-								VGV4dFRhYgCU
-								hAJDZgAchpKE
-								oqEAOIaShKKh
-								AFSGkoSioQBw
-								hpKEoqEAgYwA
-								hpKEoqEAgagA
-								hpKEoqEAgcQA
-								hpKEoqEAgeAA
-								hpKEoqEAgfwA
-								hpKEoqEAgRgB
-								hpKEoqEAgTQB
-								hpKEoqEAgVAB
-								hoaBAAiEBFsx
-								Zl2DzcxMPYaS
-								hJaWBk5TRm9u
-								dIaShISEBk5T
-								Rm9udB6UmSSE
-								BVszNmNdBgAA
-								ABoAAAD//kwA
-								dQBjAGkAZABh
-								AEcAcgBhAG4A
-								ZABlAAAAhAFm
-								CZsAmwGbAJsA
-								hoaG
+								KwlQcmFjdGlj
+								ZXOGhAJpSQEJ
+								koSEhAxOU0Rp
+								Y3Rpb25hcnkA
+								lIQBaQOShJaW
+								B05TQ29sb3KG
+								koSEhAdOU0Nv
+								bG9yAJSEAWMC
+								hARmZmZmg7m4
+								OD6DgoEBP4O4
+								tzc/AYaShJaW
+								EE5TUGFyYWdy
+								YXBoU3R5bGWG
+								koSEhBBOU1Bh
+								cmFncmFwaFN0
+								eWxlAJSEBEND
+								QFMCAISEhAdO
+								U0FycmF5AJSZ
+								DJKEhIQJTlNU
+								ZXh0VGFiAJSE
+								AkNmAByGkoSi
+								oQA4hpKEoqEA
+								VIaShKKhAHCG
+								koSioQCBjACG
+								koSioQCBqACG
+								koSioQCBxACG
+								koSioQCB4ACG
+								koSioQCB/ACG
+								koSioQCBGAGG
+								koSioQCBNAGG
+								koSioQCBUAGG
+								hoEACIQEWzFm
+								XYPNzEw9hpKE
+								lpYGTlNGb250
+								hpKEhIQGTlNG
+								b250HpSZJIQF
+								WzM2Y10GAAAA
+								GgAAAP/+TAB1
+								AGMAaQBkAGEA
+								RwByAGEAbgBk
+								AGUAAACEAWYJ
+								mwCbAZsAmwCG
+								hoY=
 								</data>
 								<key>Text</key>
 								<string>{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
@@ -325,8 +324,7 @@
 {\colortbl;\red255\green255\blue255;\red37\green108\blue168;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs18 \cf2 Practice\
-Categories}</string>
+\f0\fs18 \cf2 Practices}</string>
 								<key>VerticalPad</key>
 								<integer>0</integer>
 							</dict>
@@ -1757,7 +1755,7 @@ Iteratively}</string>
 {\colortbl;\red255\green255\blue255;\red37\green108\blue168;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\fs38 \cf2 Categories }</string>
+\f0\fs38 \cf2 Improvement Practices }</string>
 					</dict>
 				</dict>
 			</array>
@@ -1806,7 +1804,7 @@ Iteratively}</string>
 			<key>RowSpacing</key>
 			<real>36</real>
 			<key>SheetTitle</key>
-			<string>Improve Ovw. shaded</string>
+			<string>fundamentals</string>
 			<key>UniqueID</key>
 			<integer>6</integer>
 			<key>VPages</key>
@@ -3692,7 +3690,9 @@ Iteratively}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs38 \cf2 Categories
-\b0  of improvement practices }</string>
+\b0 \cf2  of improvement 
+\b \cf2 practices
+\b0 \cf2  }</string>
 					</dict>
 				</dict>
 			</array>
@@ -9534,7 +9534,7 @@ Delivery}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{631.46057812160677, 450.15061215748943}, {45.663791098394768, 23}}</string>
+					<string>{{633.17353651484541, 403.23972511844374}, {45.663791098394768, 23}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -10035,7 +10035,7 @@ Code Structure}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{622.96475537706465, 427.44253713503355}, {67, 23}}</string>
+					<string>{{624.67771377030328, 380.53165009598786}, {67, 23}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -10082,7 +10082,7 @@ Code Structure}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{691.71790743750398, 449.94253713503355}, {50.343474224762303, 23}}</string>
+					<string>{{693.43086583074262, 403.03165009598786}, {50.343474224762303, 23}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -10194,7 +10194,7 @@ Code Structure}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{622.96475537706476, 428.31753713503355}, {126.8222862296966, 50.75}}</string>
+					<string>{{624.6777137703034, 381.40665009598786}, {126.8222862296966, 50.75}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -14911,7 +14911,7 @@ objects}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{454.43565132625781, 74.320992050868853}, {53, 23}}</string>
+					<string>{{454.43565132668033, 74.320992050868853}, {53, 23}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -14967,7 +14967,7 @@ supports}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{343.57631224097162, 62.910186540388622}, {45, 23}}</string>
+					<string>{{343.57631222752093, 62.910186504241423}, {45, 23}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -16306,11 +16306,11 @@ Improve Logging}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{68, 74}, {1362, 745}}</string>
+		<string>{{175, 15}, {1362, 745}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
@@ -16322,9 +16322,9 @@ Improve Logging}</string>
 		<key>TopSlabHeight</key>
 		<real>371</real>
 		<key>VisibleRegion</key>
-		<string>{{125.33333333333333, 68}, {545.33333333333326, 400}}</string>
+		<string>{{-6, -32}, {818, 600}}</string>
 		<key>Zoom</key>
-		<real>1.5</real>
+		<real>1</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -16333,7 +16333,7 @@ Improve Logging}</string>
 				<real>1</real>
 			</array>
 			<array>
-				<string>Improve Ovw. shaded</string>
+				<string>fundamentals</string>
 				<real>1</real>
 				<real>2</real>
 			</array>
@@ -16359,8 +16359,8 @@ Improve Logging}</string>
 			</array>
 			<array>
 				<string>Improve Ovw. shaded 2</string>
-				<real>1.5</real>
 				<real>1</real>
+				<real>1.5</real>
 			</array>
 		</array>
 	</dict>
