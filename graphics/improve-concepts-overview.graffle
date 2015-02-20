@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-02-19 22:05:30 +0000</string>
+	<string>2015-02-20 06:32:06 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -542,7 +542,7 @@ Fundamentals}</string>
 			<key>RowSpacing</key>
 			<real>36</real>
 			<key>SheetTitle</key>
-			<string>improve-concepts-overview</string>
+			<string>concepts</string>
 			<key>UniqueID</key>
 			<integer>3</integer>
 			<key>VPages</key>
@@ -4891,11 +4891,11 @@ Processes}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>0</integer>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{195, 132}, {1172, 629}}</string>
+		<string>{{149, 179}, {1218, 629}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
@@ -4903,17 +4903,17 @@ Processes}</string>
 		<key>Sidebar</key>
 		<true/>
 		<key>SidebarWidth</key>
-		<integer>230</integer>
+		<integer>180</integer>
 		<key>TopSlabHeight</key>
 		<real>371</real>
 		<key>VisibleRegion</key>
-		<string>{{0, 0}, {628, 484}}</string>
+		<string>{{7, 39}, {362, 242}}</string>
 		<key>Zoom</key>
-		<real>1</real>
+		<real>2</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
-				<string>improve-concepts-overview</string>
+				<string>concepts</string>
 				<real>2</real>
 				<real>1</real>
 			</array>
