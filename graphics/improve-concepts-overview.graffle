@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-02-20 06:38:31 +0000</string>
+	<string>2015-02-21 07:28:16 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -5581,12 +5581,16 @@ Infrastructure}</string>
 						<key>Color</key>
 						<dict>
 							<key>b</key>
-							<string>0.659249</string>
+							<string>0.658824</string>
 							<key>g</key>
-							<string>0.425365</string>
+							<string>0.423529</string>
 							<key>r</key>
-							<string>0.146748</string>
+							<string>0.145098</string>
 						</dict>
+						<key>NSKern</key>
+						<string>0</string>
+						<key>Size</key>
+						<real>14</real>
 					</dict>
 					<key>ID</key>
 					<integer>175</integer>
@@ -6600,7 +6604,7 @@ Processes}</string>
 			<key>RowSpacing</key>
 			<real>36</real>
 			<key>SheetTitle</key>
-			<string>Fundament+Categories</string>
+			<string>Categories</string>
 			<key>UniqueID</key>
 			<integer>9</integer>
 			<key>VPages</key>
@@ -6616,11 +6620,11 @@ Processes}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>1</integer>
+		<integer>3</integer>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{149, 179}, {1289, 629}}</string>
+		<string>{{36, 216}, {1386, 629}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
@@ -6628,11 +6632,11 @@ Processes}</string>
 		<key>Sidebar</key>
 		<true/>
 		<key>SidebarWidth</key>
-		<integer>229</integer>
+		<integer>279</integer>
 		<key>TopSlabHeight</key>
 		<real>371</real>
 		<key>VisibleRegion</key>
-		<string>{{4, 0}, {746, 484}}</string>
+		<string>{{0, 0}, {793, 484}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
@@ -6648,7 +6652,7 @@ Processes}</string>
 				<real>1</real>
 			</array>
 			<array>
-				<string>Fundament+Categories</string>
+				<string>Categories</string>
 				<real>1</real>
 				<real>1</real>
 			</array>
