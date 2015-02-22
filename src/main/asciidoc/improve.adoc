@@ -40,6 +40,7 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 
 <<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<improve-categories,categories>>.
 
+
 ==== Fundamentals
 For improvement we take a number of fundamental principles for granted, 
 depicted in figure <<Improvement Fundamentals>>.
@@ -49,12 +50,14 @@ depicted in figure <<Improvement Fundamentals>>.
 .Improvement Fundamentals
 image::improve-fundamentals.png[]
 
+These fundamental principles surely belong to software engineering good practices - but we consider them indispendsable for improvement projects.
 
 [horizontal]
-[pattern]#Fast-Feedback#:: Get feedback to your actions and changes as early as possible, 
-so you can adjust as quickly as adequate. 
+[pattern]#Fast-Feedback#:: 
+Get feedback to your actions and changes as early as possible, so you can adjust as quickly as adequate. 
 
-[pattern]#Improve Iteratively#:: Improve in (potentially small) iterations and/or increments, so
+[pattern]#Improve Iteratively#:: 
+Improve in (potentially small) iterations and/or increments, so
 that change does not disturb or negatively affect the system, its associated
 processes and organisation. Iterations are the prerequiste for our whole _phased improvement_.
 
