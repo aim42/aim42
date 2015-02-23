@@ -86,11 +86,14 @@ TODO: Describe Approaches
 
 [pattern]#Change-Via-Split#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve those copies independently.
 
-* Change-Via-Copy
-* Big-Bang
-* Strangulate-Bad-Parts
-* Keep-Data-Toss-Code
-* Frontend-Switch
+[pattern]#Change-Via-Copy#::
+
+[pattern]#Big-Bang#::
+
+[pattern]#Strangulate-Bad-Parts#::
+
+[pattern]#Evolution#:: This approach has been extensively practiced by a Swiss Bank and published
+as a book.
 
 [[improve-categories]]
 ==== Categories
