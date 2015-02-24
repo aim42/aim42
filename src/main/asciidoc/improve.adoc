@@ -84,16 +84,20 @@ The central decision you should take is the improvement-approach, the overall, l
 
 TODO: Describe Approaches
 
-[pattern]#Change-Via-Split#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve those copies independently.
+[pattern]#Change-Via-Copy#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve the copies independently.
 
-[pattern]#Change-Via-Copy#::
+[pattern]#Change-Via-Split#:: Split up the original system into (not neccessarily distinct) parts. Clean-up those parts individually, and then evolve the parts independently. 
+[small]#(similar, but not identical to Change-Via-Copy)#
 
-[pattern]#Big-Bang#::
+[pattern]#Keep-Data-Toss-Code#:: As value sometimes resides in data, keep data intact and replace the functional/service/process part of a system.
+
+[pattern]#Big-Bang#:: Keep the existing system for a limited time, apply only critical bugfixes. In parallel, build a replacement system. Replace old by new at predefined time.
 
 [pattern]#Strangulate-Bad-Parts#::
 
 [pattern]#Evolution#:: This approach has been extensively practiced by a Swiss Bank and published
 as a book.
+
 
 [[improve-categories]]
 ==== Categories
