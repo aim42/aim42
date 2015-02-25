@@ -91,12 +91,16 @@ TODO: Describe Approaches
 
 [pattern]#Keep-Data-Toss-Code#:: As value sometimes resides in data, keep data intact and replace the functional/service/process part of a system.
 
+[pattern]#Frontend-Switch#:: Start creating new backend parts. Frontend routes some requests to those new backend parts, others still to the existing ones. Gradually enhancing the new backend parts, frontend routes more and more requests to new backend.
+
 [pattern]#Big-Bang#:: Keep the existing system for a limited time, apply only critical bugfixes. In parallel, build a replacement system. Replace old by new at predefined time.
 
-[pattern]#Strangulate-Bad-Parts#::
+[pattern]#Strangulate-Bad-Parts#:: TBD
+
 
 [pattern]#Evolution#:: This approach has been extensively practiced by a Swiss Bank and published
-as a book.
+as a  http://www.amazon.de/Managed-Evolution-Strategy-Information-Systems/dp/3642016324[book]. 
+Underlying idea is to refactor those parts of the system(s) which are actually to be changed, especially to move all interfaces to new service standard and replace all legacy technologies and other couplings (via DB etc). Over time services should emerge that can be moved to a new platform altogether (from Mainframe to Java).
 
 
 [[improve-categories]]
