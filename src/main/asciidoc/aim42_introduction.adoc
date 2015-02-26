@@ -79,7 +79,7 @@ image::target-situation.jpg["target situation", title="Goal: Maintainable Softwa
 aim42 works in a phased iterative manner:
 
 [[figure-aim-phases]]
-image::aim42-phases.jpg["aim42 phases", title="Three Phases of aim42"]
+image::aim42-phases.png["aim42 phases", title="Three Phases of aim42"]
 
 . <<Analyze>>: collect _issues_: problems, risks, deficiencies and technical debt within your system and your development process. Focus on problems in this phase, not on potential solution approaches. In addition, develop (and document) an understanding of internal structures, concepts and architectural approaches.
 
