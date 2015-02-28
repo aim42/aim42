@@ -1,0 +1,23 @@
+
+[[Issue-List]]
+=== [pattern]#Issue List#
+A collection of issues (problems, risks) found during <<Collect-Issues>>.
+
+==== Intent
+Collect all known issues and problems within a system or its associated processes. All these issues are evaluated
+==== Content
+
+==== Representation and Tools
+It's difficult to decide how much formalism to apply in collecting issues and problems:
+Sometimes a wiki-page might suffice, for other systems a full-blown
+issue-tracker can be useful.
+
+As always: documentation is only valuable if it can be found easily, which makes electronic approaches more viable. 
+
+For every entry in this issue list we need to <<Estimate-Issue-Cost>>, an estimation of the cost of this issued in any business-related unit. 
+
+In case you already have identified or developed <<opportunities-for-improvement>> adressing this issue,
+links to the corresponding improvements (remedies, tactics, strategies, changes) in the
+<<Improvement-Backlog>> are neccesssary.
+
+

@@ -20,7 +20,7 @@ usemap="#CrosscuttingPracticesOverview">
 
 === How it works
 
-. Start with collecting issues - mainly in <<Analyze>> phase.
+. Start with collecting issues - mainly in <<Analyze>> phase. Based upon your findings here, maintain an <<Issue-List>>
 
 . Evaluate those, determine _values_, preferably cost. This ensures you later solve _important_ and _relevant_ issues.
 
@@ -179,24 +179,8 @@ Keep a public, written backlog of possible improvements, remedies, tactics or st
 [[figure-improvement-backlog]]
 image::improvement-backlog.jpg["improvement backlog", title="Improvement Backlog"]
 
-[[Issue-List]]
-=== [pattern]#Issue List#
-A physical collection of issues (problems, risks) found during <<Collect-Issues>>.
 
-It's difficult to decide how much formalism to apply in collecting issues and problems:
-Sometimes a wiki-page might suffice, for other systems a full-blown
-issue-tracker can be useful.
-
-As always: documentation is only valuable if it can be found and searched -
-which makes electronic approaches more viable.
-
-For every entry in this issue list we need to <<Estimate-Issue-Cost>>, an estimation of the cost of this issued in any business-related unit. 
-
-In case you already have identified or developed options to adress this issue,
-links to the corresponding improvements (remedies, tactics, strategies, changes) in the
-<<Improvement-Backlog>> are neccesssary.
-
-
+include::patterns/crosscutting/issue-list.adoc[]
 
 include::patterns/crosscutting/report-structure.adoc[]
 
