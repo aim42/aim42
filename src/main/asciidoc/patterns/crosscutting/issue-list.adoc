@@ -4,8 +4,18 @@
 A collection of issues (problems, risks) found during <<Collect-Issues>>.
 
 ==== Intent
-Collect all known issues and problems within a system or its associated processes. All these issues are evaluated
+Collect all known issues and problems within a system or its associated processes. Make the issues comparable by evaluating each one, usually using economical units like money or time.
+
 ==== Content
+
+
+[options="header", cols="1,1,3,1,1,3"]
+.Issue List
+|===
+| ID  | Issue | Description | min Value | max Value | Solution
+| identifier | name | a short description of the issue | minimal value | maximal value | links to solution approaches
+|===
+
 
 ==== Representation and Tools
 It's difficult to decide how much formalism to apply in collecting issues and problems:
