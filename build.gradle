@@ -3,6 +3,9 @@
 // free software - without guarantee, use at your own risk
 // ========================================================
 
+println """compiling with Java ${System.getProperty("java.version")}"""
+println "building project version " + project.project_version
+
 
 buildscript {
     // these are the BUILDSCRIPT deps - required to execute
@@ -23,6 +26,7 @@ buildscript {
 
     dependencies {
         classpath ('org.aim42:HtmlSanityCheck-gradle-plugin:0.5.3')
+//        classpath ('org.aim42:HtmlSanityCheck-core:0.8.0')
         classpath ( group: 'org.asciidoctor',
                     name: 'asciidoctor-gradle-plugin',
                     version: '1.5.2')
@@ -55,7 +59,8 @@ asciidoctor {
             'source-highlighter': 'coderay',
             'coderay-css': 'class',
             stylesheet: 'aim42.css',
-            stylesdir: "$srcDir/resources/css/"   
+            stylesdir: "$srcDir/resources/css/",  
+            version: project.project_version 
     ]
     resources {
         from "$srcDir/resources/images"
