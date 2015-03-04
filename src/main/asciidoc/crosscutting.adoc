@@ -92,7 +92,7 @@ You should look for improvement opportunities, remedies, measures,
 tactics and strategies in all of the aim42-phases.
 
 
-
+// TODO: rename the figure to collect-opportunities-for-improvement
 [[figure-collect-remedies]]
 image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
 
