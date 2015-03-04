@@ -26,7 +26,7 @@ usemap="#CrosscuttingPracticesOverview">
 
 . <<Collect-Opportunities-For-Improvement>> and evaluate those too.
 
-. Align issues and potential improvements.
+. Align issues and potential improvements, <<Plan-Improvements>>
 
 . Continously strive to increase your <<Architectural-Understanding>>, as this
   facilitates identification of additional issues and improvements.
@@ -49,6 +49,7 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 * <<Impact-Analysis>>
 * <<Improvement-Backlog>>
 * <<Issue-List>>
+* <<Plan-Improvements>>
 * <<Report-Structure>>
 * <<Slide-Or-Write>>
 * <<Traceability>>
@@ -181,6 +182,11 @@ image::improvement-backlog.jpg["improvement backlog", title="Improvement Backlog
 
 
 include::patterns/crosscutting/issue-list.adoc[]
+
+[[Plan-Improvements]]
+=== [pattern]#Plan Improvements#
+Conduct long- and short-term planning of improvement activities. Balance
+or align issues and improvements, considering existing goals and constraints.
 
 include::patterns/crosscutting/report-structure.adoc[]
 
