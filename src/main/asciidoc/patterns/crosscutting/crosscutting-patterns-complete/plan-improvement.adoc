@@ -1,0 +1,6 @@
+
+[[Plan-Improvements]]
+=== [pattern]#Plan Improvements#
+Conduct long- and short-term planning of improvement activities. Balance
+or align issues and improvements, considering existing goals and constraints.
+

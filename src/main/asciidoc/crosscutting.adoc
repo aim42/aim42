@@ -186,10 +186,8 @@ image::improvement-backlog.jpg["improvement backlog", title="Improvement Backlog
 
 include::patterns/crosscutting/issue-list.adoc[]
 
-[[Plan-Improvements]]
-=== [pattern]#Plan Improvements#
-Conduct long- and short-term planning of improvement activities. Balance
-or align issues and improvements, considering existing goals and constraints.
+include::patterns/crosscutting/plan-improvement.adoc[]
+
 
 include::patterns/crosscutting/report-structure.adoc[]
 
