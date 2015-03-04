@@ -59,20 +59,23 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 // image map - created manually from OmniGraffle Export
 ++++
 <map name="CrosscuttingPractices">
-    <area shape=rect coords="11,204,91,238" href="#Widen-Your-Options">
+   	<area shape=poly coords="52,443,133,443,139,446,139,444,142,447,142,446,145,449,145,488,139,491,59,491,52,489,49,488,46,485,46,446,52,443" href="#Goals-Constraints">
+	<area shape=rect coords="302,477,412,526" href="#Plan-Improvement">
+	<area shape=rect coords="11,204,91,238" href="#Widen-Your-Options">
 	<area shape=rect coords="286,82,385,116" href="#Architectural-Understanding">
-	<area shape=poly coords="216,348,296,348,303,351,303,350,306,353,306,351,309,354,309,393,303,396,222,396,216,395,213,393,210,390,210,351,216,348" href="#Issue-List">
+	<area shape=poly coords="215,375,295,375,301,378,301,377,305,380,305,378,308,381,308,420,301,423,221,423,215,422,212,420,209,417,209,378,215,375" href="#Issue-List">
 	<area shape=rect coords="314,13,394,47" href="#Traceability">
 	<area shape=rect coords="19,62,73,98" href="#Slide-Or-Write">
-	<area shape=rect coords="102,354,186,403" href="#Separate-Cause-From-Effect">
-	<area shape=rect coords="44,447,118,483" href="#Fast-Feedback">
-	<area shape=rect coords="162,447,234,483" href="#Fail-Fast">
-	<area shape=poly coords="410,347,499,347,506,350,506,349,510,352,510,350,513,353,513,393,506,396,417,396,410,395,406,393,403,390,403,350,410,347" href="#Improvement-Backlog">
-	<area shape=rect coords="19,331,91,361" href="#Explicit-Assumption">
+	<area shape=rect coords="90,354,174,403" href="#Separate-Cause-From-Effect">
+	<area shape=rect coords="43,546,117,583" href="#Fast-Feedback">
+	<area shape=rect coords="134,546,206,583" href="#Fail-Fast">
+	<area shape=poly coords="409,374,498,374,505,377,505,376,509,379,509,377,512,380,512,420,505,423,416,423,409,422,405,420,402,417,402,377,409,374" href="#Improvement-Backlog">
+	<area shape=rect coords="19,296,91,326" href="#Explicit-Assumption">
 	<area shape=rect coords="85,24,165,63" href="#Expect-Denial">
-	<area shape=rect coords="268,282,338,316" href="#Impact-Analysis">
-	<area shape=rect coords="399,197,519,246" href="#Collect-Opportunities-For-Improvement">
-	<area shape=rect coords="177,186,251,225" href="#Collect-Issues">
+	<area shape=rect coords="295,282,365,316" href="#Impact-Analysis">
+	<area shape=rect coords="419,193,540,242" href="#Collect-Opportunities-For-Improvement">
+	<area shape=rect coords="177,176,251,225" href="#Collect-Issues">
+
 </map>
 
 <img border=0 src="images/crosscutting-patterns-complete.png" usemap="#CrosscuttingPractices">
