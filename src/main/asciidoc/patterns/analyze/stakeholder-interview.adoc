@@ -2,10 +2,10 @@
 [[Stakeholder-Interview]]
 
 ==== [pattern]#Stakeholder Interview# 
-Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies. 
+Conduct personal interviews with key persons of the <<System>> or associated processes to identify, clarify or discuss potential issues and remedies. 
 
 ===== Intent
-Learn from the people who know or care about the <<SuD>> and everything around it.
+Learn from the people who know or care about the <<System>> and everything around it.
 
 ===== Description
 Conduct a <<Stakeholder-Analysis>> first to find out whom to interview. 
@@ -26,8 +26,8 @@ Tape or protocoll questions and answers.
 Some typical questions, e.g.:
 
 * What is your role in this project?
-* What is great about the <<SuD>>, the business and the processes?
-* What worries you about the <<SuD>>? What are currently the 3 worst problems?
+* What is great about the <<System>>, the business and the processes?
+* What worries you about the <<System>>? What are currently the 3 worst problems?
 * What problems or risks do you see in (business/development/operation/usage...)?
   ** Can you show/demonstrate this problem? 
   ** How can I reproduce this problem myself? 
