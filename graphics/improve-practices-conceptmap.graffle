@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-02-20 06:37:41 +0000</string>
+	<string>2015-03-05 10:24:56 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -4881,7 +4881,7 @@ Every Change}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{651.03603514763472, 147.375}, {91.533357245337058, 55.46411296095431}}</string>
+					<string>{{622.125, 147.375}, {100.52687760677509, 55.46411296095431}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -4895,6 +4895,8 @@ Every Change}</string>
 							<key>r</key>
 							<string>0.146748</string>
 						</dict>
+						<key>Size</key>
+						<real>13</real>
 					</dict>
 					<key>ID</key>
 					<integer>178</integer>
@@ -4981,7 +4983,7 @@ Every Change}</string>
 						Bk5TRm9udIaShISEBk5TRm9udB6U
 						mSiEBVs0MGNdBgAAAB4AAAD//kgA
 						ZQBsAHYAZQB0AGkAYwBhAC0AQgBv
-						AGwAZAAAAIQBZgybAJsBmwCbAIaG
+						AGwAZAAAAIQBZg2bAJsBmwCbAIaG
 						hg==
 						</data>
 						<key>Text</key>
@@ -4990,14 +4992,14 @@ Every Change}</string>
 {\colortbl;\red255\green255\blue255;\red37\green108\blue168;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf2 Improve \
+\f0\b\fs26 \cf2 Improve \
 Analysability\
 &amp; Evaluability}</string>
 					</dict>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{530.87930081474178, 147.375}, {91.533357245337058, 55.46411296095431}}</string>
+					<string>{{480.37176018071921, 147.375}, {100.52687760677509, 55.46411296095431}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -5011,6 +5013,8 @@ Analysability\
 							<key>r</key>
 							<string>0.146748</string>
 						</dict>
+						<key>Size</key>
+						<real>13</real>
 					</dict>
 					<key>ID</key>
 					<integer>177</integer>
@@ -5097,7 +5101,7 @@ Analysability\
 						b250hpKEhIQGTlNGb250HpSZKIQF
 						WzQwY10GAAAAHgAAAP/+SABlAGwA
 						dgBlAHQAaQBjAGEALQBCAG8AbABk
-						AAAAhAFmDJsAmwGbAJsAhoaG
+						AAAAhAFmDZsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
@@ -5105,14 +5109,14 @@ Analysability\
 {\colortbl;\red255\green255\blue255;\red37\green108\blue168;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf2 Improve \
+\f0\b\fs26 \cf2 Improve \
 Technical\
 Infrastructure}</string>
 					</dict>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{51.606594727553272, 147.375}, {91.533357245337058, 55.46411296095431}}</string>
+					<string>{{347.61204072287637, 147.375}, {91.533357245337058, 55.46411296095431}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -5126,121 +5130,8 @@ Infrastructure}</string>
 							<key>r</key>
 							<string>0.146748</string>
 						</dict>
-					</dict>
-					<key>ID</key>
-					<integer>175</integer>
-					<key>Magnets</key>
-					<array>
-						<string>{-0.5962847939999435, -1.1925695879998881}</string>
-						<string>{0, -1.3333333333333333}</string>
-						<string>{0.59628479399994427, -1.1925695879998874}</string>
-						<string>{1.1925695879998877, -0.59628479399994361}</string>
-						<string>{1.3333333333333335, 0}</string>
-						<string>{1.1925695879998877, 0.59628479399994472}</string>
-						<string>{0.59628479399994427, 1.1925695879998874}</string>
-						<string>{0, 1.3333333333333333}</string>
-						<string>{-0.59628479399994394, 1.1925695879998879}</string>
-						<string>{-1.1925695879998872, 0.59628479399994483}</string>
-						<string>{-1.3333333333333335, 0}</string>
-						<string>{-1.1925695879998879, -0.59628479399994405}</string>
-					</array>
-					<key>Style</key>
-					<dict>
-						<key>fill</key>
-						<dict>
-							<key>FillType</key>
-							<integer>2</integer>
-							<key>GradientAngle</key>
-							<real>90</real>
-							<key>GradientColor</key>
-							<dict>
-								<key>a</key>
-								<string>0.51</string>
-								<key>b</key>
-								<string>1</string>
-								<key>g</key>
-								<string>0.8</string>
-								<key>r</key>
-								<string>0.6</string>
-							</dict>
-						</dict>
-						<key>shadow</key>
-						<dict>
-							<key>Draws</key>
-							<string>NO</string>
-						</dict>
-						<key>stroke</key>
-						<dict>
-							<key>Color</key>
-							<dict>
-								<key>b</key>
-								<string>0.659249</string>
-								<key>g</key>
-								<string>0.425365</string>
-								<key>r</key>
-								<string>0.146748</string>
-							</dict>
-							<key>CornerRadius</key>
-							<real>5</real>
-							<key>Width</key>
-							<real>2</real>
-						</dict>
-					</dict>
-					<key>Text</key>
-					<dict>
-						<key>RTFD</key>
-						<data>
-						BAtzdHJlYW10eXBlZIHoA4QBQISE
-						hBJOU0F0dHJpYnV0ZWRTdHJpbmcA
-						hIQITlNPYmplY3QAhZKEhIQITlNT
-						dHJpbmcBlIQBKyBEZXRlcm1pbmUg
-						CkltcHJvdmVtZW50CiBBcHByb2Fj
-						aIaEAmlJASCShISEDE5TRGljdGlv
-						bmFyeQCUhAFpA5KElpYHTlNDb2xv
-						coaShISEB05TQ29sb3IAlIQBYwKE
-						BGZmZmaDubg4PoOCgQE/g7i3Nz8B
-						hpKElpYQTlNQYXJhZ3JhcGhTdHls
-						ZYaShISEEE5TUGFyYWdyYXBoU3R5
-						bGUAlIQEQ0NAUwIAhISEB05TQXJy
-						YXkAlJkMkoSEhAlOU1RleHRUYWIA
-						lIQCQ2YAHIaShKKhADiGkoSioQBU
-						hpKEoqEAcIaShKKhAIGMAIaShKKh
-						AIGoAIaShKKhAIHEAIaShKKhAIHg
-						AIaShKKhAIH8AIaShKKhAIEYAYaS
-						hKKhAIE0AYaShKKhAIFQAYaGgQAI
-						hARbMWZdg83MTD2GkoSWlgZOU0Zv
-						bnSGkoSEhAZOU0ZvbnQelJkohAVb
-						NDBjXQYAAAAeAAAA//5IAGUAbAB2
-						AGUAdABpAGMAYQAtAEIAbwBsAGQA
-						AACEAWYMmwCbAZsAmwCGhoY=
-						</data>
-						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;\red37\green108\blue168;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
-
-\f0\b\fs24 \cf2 Determine \
-Improvement\
- Approach}</string>
-					</dict>
-				</dict>
-				<dict>
-					<key>Bounds</key>
-					<string>{{410.7225664818485, 147.375}, {91.533357245337058, 55.46411296095431}}</string>
-					<key>Class</key>
-					<string>ShapedGraphic</string>
-					<key>FontInfo</key>
-					<dict>
-						<key>Color</key>
-						<dict>
-							<key>b</key>
-							<string>0.659249</string>
-							<key>g</key>
-							<string>0.425365</string>
-							<key>r</key>
-							<string>0.146748</string>
-						</dict>
+						<key>Size</key>
+						<real>13</real>
 					</dict>
 					<key>ID</key>
 					<integer>173</integer>
@@ -5327,7 +5218,7 @@ Improvement\
 						hpKEhIQGTlNGb250HpSZKIQFWzQw
 						Y10GAAAAHgAAAP/+SABlAGwAdgBl
 						AHQAaQBjAGEALQBCAG8AbABkAAAA
-						hAFmDJsAmwGbAJsAhoaG
+						hAFmDZsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
 						<string>{\rtf1\ansi\ansicpg1252\cocoartf1344\cocoasubrtf720
@@ -5335,14 +5226,14 @@ Improvement\
 {\colortbl;\red255\green255\blue255;\red37\green108\blue168;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf2 Improve\
+\f0\b\fs26 \cf2 Improve\
 Crosscutting \
 Concepts}</string>
 					</dict>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{290.56583214895494, 147.375}, {91.533357245337058, 55.46411296095431}}</string>
+					<string>{{210.35556108431459, 147.375}, {91.533357245337058, 55.46411296095431}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -5356,6 +5247,8 @@ Concepts}</string>
 							<key>r</key>
 							<string>0.146748</string>
 						</dict>
+						<key>Size</key>
+						<real>13</real>
 					</dict>
 					<key>ID</key>
 					<integer>167</integer>
@@ -5441,7 +5334,7 @@ Concepts}</string>
 						PYaShJaWBk5TRm9udIaShISEBk5T
 						Rm9udB6UmSiEBVs0MGNdBgAAAB4A
 						AAD//kgAZQBsAHYAZQB0AGkAYwBh
-						AC0AQgBvAGwAZAAAAIQBZgybAJsB
+						AC0AQgBvAGwAZAAAAIQBZg2bAJsB
 						mwCbAIaGhg==
 						</data>
 						<key>Text</key>
@@ -5450,7 +5343,7 @@ Concepts}</string>
 {\colortbl;\red255\green255\blue255;\red37\green108\blue168;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf2 Improve\
+\f0\b\fs26 \cf2 Improve\
 Code Structure}</string>
 					</dict>
 				</dict>
@@ -5911,7 +5804,7 @@ Iteratively}</string>
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{171.08621343825411, 147.375}, {91.533357245337058, 55.46411296095431}}</string>
+					<string>{{70.143870534024131, 147.375}, {94.4885681570657, 55.46411296095431}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FitText</key>
@@ -5929,6 +5822,8 @@ Iteratively}</string>
 							<key>r</key>
 							<string>0.146748</string>
 						</dict>
+						<key>Size</key>
+						<real>13</real>
 					</dict>
 					<key>ID</key>
 					<integer>124</integer>
@@ -6014,7 +5909,7 @@ Iteratively}</string>
 						lgZOU0ZvbnSGkoSEhAZOU0ZvbnQe
 						lJkohAVbNDBjXQYAAAAeAAAA//5I
 						AGUAbAB2AGUAdABpAGMAYQAtAEIA
-						bwBsAGQAAACEAWYMmwCbAZsAmwCG
+						bwBsAGQAAACEAWYNmwCbAZsAmwCG
 						hoY=
 						</data>
 						<key>Text</key>
@@ -6023,7 +5918,7 @@ Iteratively}</string>
 {\colortbl;\red255\green255\blue255;\red37\green108\blue168;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
-\f0\b\fs24 \cf2 Improve\
+\f0\b\fs26 \cf2 Improve\
 Processes}</string>
 					</dict>
 				</dict>
@@ -16306,11 +16201,11 @@ Improve Logging}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>0</integer>
+		<integer>2</integer>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{175, 15}, {1362, 745}}</string>
+		<string>{{78, 15}, {1362, 745}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
