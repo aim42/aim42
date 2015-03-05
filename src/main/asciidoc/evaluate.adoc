@@ -32,7 +32,7 @@ image::evaluate-domain-conceptmap.png[title="Evaluation Concepts Domain Model"]
 	facts or real observations are not available or possible.
 	|
 
-| Subject    |  | a recurring problem in the <<SuD>> or
+| Subject    |  | a recurring problem in the <<System>> or
 associated processes
 
 | Parameter  | an important element or foundation of the

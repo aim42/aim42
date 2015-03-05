@@ -3,13 +3,13 @@
 ==== [pattern]#Infrastructure-Analysis# 
 
 ===== Intent
-Analyze the technical infrastructure of the <<SuD>>, e.g. with respect to time and resource consumption or creation. Part of <<Runtime-Analysis>>.
+Analyze the technical infrastructure of the <<System>>, e.g. with respect to time and resource consumption or creation. Part of <<Runtime-Analysis>>.
 
 
 ===== Description
 
 Infrastructure analysis is associated to the more general <<Runtime-Analysis>>, with focus on
-technical infrastructure for operation, test and development of the <<SuD>>.
+technical infrastructure for operation, test and development of the <<System>>.
 
 Inspect and analyse the technical infrastructure, for example the following aspects:
 

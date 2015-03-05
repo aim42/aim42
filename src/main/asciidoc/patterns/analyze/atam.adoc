@@ -40,7 +40,7 @@ The phases are:
   .. _Present the architecture of the system_:
       The architect presents the _architecture_ of the system. This includes:
       
-      * All other systems with interactions to the <<SuD>>,
+      * All other systems with interactions to the <<System>>,
       * building blocks of the top abstraction level,
       * runtime views of some important use cases,
       * change or modification scenarios. 
@@ -92,7 +92,7 @@ The phases are:
 The ATAM method:
 
 * provides operational, specific quality requirements,
-* discloses important architectural decisions of the <<SuD>>,
+* discloses important architectural decisions of the <<System>>,
 * promotes the communication between relevant stakeholders.
 
 [IMPORTANT]

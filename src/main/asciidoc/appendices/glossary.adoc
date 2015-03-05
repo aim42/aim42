@@ -15,8 +15,8 @@ SEI:: Software Engineering Institute at the Carnegie Mellon University.
 A federally funded research and development institute,
 sponsored by the US Departement of Defense.
 
-[[SuD]]
-SuD:: System under Design. Alternative explanation: System under improvement. The system to be improved - often a single software system, but it might be a complex combination of hardware, software and organizational aspects. _Systems_ in our sense consists of:
+[[System]]
+System:: The system to be improved - often a single software system, but it might be a complex combination of hardware, software and organizational aspects. _Systems_ in our sense consists of:
 +
 * software, usually with corresponding data structures and data
 * required infrastructure software, like operating system, database, UI-frameworks, middleware etc.

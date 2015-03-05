@@ -1,13 +1,13 @@
 [[Architectural-Understanding]]
 === [pattern]#Architectural-Understanding#
 
-Develop and document an understanding of internal structures, concepts, architectural approaches  and important decisions of the <<SuD>>.
+Develop and document an understanding of internal structures, concepts, architectural approaches  and important decisions of the <<System>>.
 
 
 ==== Description
 
-Collect and organize architectural information about the <<SuD>>: 
-Document structures, concepts, decisions, interfaces etc. of the <<SuD>>
+Collect and organize architectural information about the <<System>>: 
+Document structures, concepts, decisions, interfaces etc. of the <<System>>
 to _locate_ issues, risks and opportunities for improvement.
  
 * Business or technical system context, with external interfaces. Learn this
