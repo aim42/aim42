@@ -8,11 +8,11 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 === Goals
 
-. Obtain overview of intent, purpose and quality requirements of the system (<<SuD>>).
+. Obtain overview of intent, purpose and quality requirements of the system (<<System>>).
 
 . Develop and document an understanding of internal structures, concepts and architectural approaches.
 
-. Find all problems, issues, symptoms, risks or technical debt within the system (<<SuD>>), its operation, maintenance or otherwise related processes.
+. Find all problems, issues, symptoms, risks or technical debt within the system (<<System>>), its operation, maintenance or otherwise related processes.
 
 . Understand root causes of the problems found, potential interdependencies between issues
 
@@ -21,7 +21,7 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 Systematically look for such issues at various places and with various people.
 
-TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<SuD>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process. 
+TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<System>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process. 
 
 
 // internal comment:
@@ -49,7 +49,7 @@ Figure: Overview of Most Important Analysis Pracices
 
 Always begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> with important stakeholders.
 
-Improve your <<Architectural-Understanding>> of the <<SuD>> by 
+Improve your <<Architectural-Understanding>> of the <<System>> by 
 
   ** <<Context-Analysis>>
   ** <<Documentation-Analysis>>, read especially the architecture documentation, focus on <<View-Based-Understanding>>.

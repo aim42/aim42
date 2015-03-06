@@ -104,7 +104,7 @@ image::aim42-domain-model.png[title="aim42 domain terminology"]
 |=========================================================
 
 |Issue (problem) | 
-Any problem, error, fault or suboptimal situation within the <<SuD>> processes related to it (e.g. management, development, administrative or organizational process).
+Any problem, error, fault or suboptimal situation within the <<System>> processes related to it (e.g. management, development, administrative or organizational process).
 
 |Cause | 
 Fundamental reason for one or several issues.

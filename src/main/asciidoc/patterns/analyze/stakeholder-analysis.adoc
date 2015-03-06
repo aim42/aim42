@@ -2,7 +2,7 @@
 [[Stakeholder-Analysis]]
 
 ==== [pattern]#Stakeholder Analysis# 
-Find out which people, roles, organizational units or organizations have interests in the <<SuD>>.
+Find out which people, roles, organizational units or organizations have interests in the <<System>>.
 
 ===== Intent
 Ensure that all concerned parties are adressed.
@@ -27,7 +27,7 @@ Include those stakeholders in a simple table:
 |===
 | Role/Name | Description | Intention | Contribution | Contact
 
-| name of person or role | responsibility for SuD | intention for/with/against SuD | what can/will/need they contribute to improvement of SuD, optionally or required | how to contact. For roles, name a primary contact person.
+| name of person or role | responsibility for System | intention for/with/against System | what can/will/need they contribute to improvement of System, optionally or required | how to contact. For roles, name a primary contact person.
 
 |===
 

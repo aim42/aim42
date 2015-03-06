@@ -3,7 +3,7 @@
 ==== [pattern]#Runtime-Analysis# 
 
 ===== Intent
-Analyze the runtime behavior of the <<SuD>>, e.g. with respect to time and resource consumption or creation. 
+Analyze the runtime behavior of the <<System>>, e.g. with respect to time and resource consumption or creation. 
 
 
 ===== Description

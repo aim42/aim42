@@ -1,0 +1,7 @@
+:numbered!:
+
+== Domain Model
+
+Within the systematic improvement we consider and manipulate several
+typical kinds of information, *entities*.
+

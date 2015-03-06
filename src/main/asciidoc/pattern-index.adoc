@@ -18,7 +18,7 @@ Category: <<Improve>>
 
 . *<<Architectural-Understanding>>*
 +
-Document relevant structures, concepts, decisions, interfaces etc. of the <<SuD>>
+Document relevant structures, concepts, decisions, interfaces etc. of the <<System>>
 to _locate_ issues, risks and opportunities for improvement.
 See <<arc42>> and <<View-Based-Understanding>>.
 Category: <<Crosscutting>>
@@ -231,7 +231,7 @@ Category: <<Crosscutting>>
 
 . *<<Infrastructure-Analysis>>*
 +
-Analyze the technical infrastructure of the <<SuD>>, e.g. with respect to time and resource consumption or creation. Part of <<Runtime-Analysis>>. Category: <<Analyze>>
+Analyze the technical infrastructure of the <<System>>, e.g. with respect to time and resource consumption or creation. Part of <<Runtime-Analysis>>. Category: <<Analyze>>
 +
 
 . *<<Instrument-System>>*
@@ -344,7 +344,7 @@ Category: <<Analyze>>
 
 . *<<Qualitative-Analysis>>*
 +
-Analyze which quality goals of the <<SuD>> are at risk and which are met by the current implementation. Needs concrete <<Quality-Requirements>>. See <<Atam>>
+Analyze which quality goals of the <<System>> are at risk and which are met by the current implementation. Needs concrete <<Quality-Requirements>>. See <<Atam>>
 Category: <<Analyze>>
 +
 
@@ -401,7 +401,7 @@ Category: <<Analyze>>
 
 . *<<Runtime-Analysis>>*
 +
-Analyze the runtime behavior of the <<SuD>>, e.g. with respect to time and resource consumption or creation. See <<Profiling>>, <<Performance-Analysis>> and <<Runtime-Artifact-Analysis>>.
+Analyze the runtime behavior of the <<System>>, e.g. with respect to time and resource consumption or creation. See <<Profiling>>, <<Performance-Analysis>> and <<Runtime-Artifact-Analysis>>.
 Category: <<Analyze>>
 +
 
@@ -430,14 +430,14 @@ Category: <<Analyze>>
 
 . *<<Stakeholder-Analysis>>*
 +
-Find out which people, roles, organizational units or organizations have interests in the <<SuD>>.
+Find out which people, roles, organizational units or organizations have interests in the <<System>>.
 Category: <<Analyze>>
 +
 
 
 . *<<Stakeholder-Interview>>*
 +
-Conduct personal interviews with key persons of the <<SuD>> or associated processes to identify, clarify or discuss potential issues and remedies.
+Conduct personal interviews with key persons of the <<System>> or associated processes to identify, clarify or discuss potential issues and remedies.
 Category: <<Analyze>>
 +
 
@@ -454,7 +454,7 @@ Category: <<Analyze>>
 +
 
 . [[Structural-Analysis]]
-[pattern]#Structural Analysis#:: Analyze the static structures (e.g. building block structure) of the <<SuD>>, e.g. package or module dependencies, runtime- and/or deployment dependencies. See the more specific <<Static-Code-Analysis>>, <<Context-Analysis>> and <<Data-Analysis>>.
+[pattern]#Structural Analysis#:: Analyze the static structures (e.g. building block structure) of the <<System>>, e.g. package or module dependencies, runtime- and/or deployment dependencies. See the more specific <<Static-Code-Analysis>>, <<Context-Analysis>> and <<Data-Analysis>>.
 Category: <<Analyze>>
 +
 
