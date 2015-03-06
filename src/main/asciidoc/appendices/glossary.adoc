@@ -11,6 +11,10 @@ briefly described as <<ATAM, aim42 pattern>>.
 
 Failure:: Loss of functionality under defined (_stated_) conditions.
 
+Issue::
+
+Remedy::
+
 SEI:: Software Engineering Institute at the Carnegie Mellon University.
 A federally funded research and development institute,
 sponsored by the US Departement of Defense.
@@ -29,4 +33,4 @@ System:: The system to be improved - often a single software system, but it migh
 and maybe even more :-)  
 
 
-Value:: (of an improvement). Approximately the cost of the associated issue(s) * -1. If an improvement solves only part of an issue, value estimation becomes much harder.
+Value:: (of an improvement or remedy). Approximately -1 times the cost of the associated issue(s). If an improvement solves only part of an issue, value estimation becomes much harder.
