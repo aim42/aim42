@@ -93,24 +93,24 @@ Several <<Crosscutting, cross-cutting practices and patterns>> should be applied
  
 
 ==== Common Terminology
-aim42 relies on a common terminology, a small set of fundamental concepts. You may even
-call it the _software improvement domain_. 
+aim42 relies on a common terminology, a small set of fundamental concepts. 
 
 [[figure-fundamental-concepts]]
-image::aim42-domain-model.png[title="aim42 domain terminology"]
+image::aim42-concept-map.png[title="aim42 domain terminology"]
 
 
 [width="80%",cols="5s,10"]
 |=========================================================
 
-|Issue (problem) | 
-Any problem, error, fault or suboptimal situation within the <<System>> processes related to it (e.g. management, development, administrative or organizational process).
+|Issue | 
+Any problem, error, fault, risk, suboptimal situation or their causes within the 
+<<System>> or processes related to it (e.g. management, operational, development, administrative or organizational activities).
 
 |Cause | 
 Fundamental reason for one or several issues.
 
 |Improvement | 
-Solution, remedy or cure for one or several issues or causes.
+Solution, remedy or cure for one or several issues.
 
 |Cost (of issue) | 
 The cost (in any unit appropriate for business, e.g. currency, effort or such) of the issue, related to a frequency or period of time. For example – cost of every occurrence of the issue, or recurring cost per week.
@@ -119,7 +119,7 @@ The cost (in any unit appropriate for business, e.g. currency, effort or such) o
 The cost (in monetary units) of the improvement, remedy, tactic or strategy.
 
 |Risk | 
-Potential problem or issue. Improvements can have associated risks.
+_Potential_ problem. Improvements can change associated risks for the better or the worse, even create new risks.
 
 |=========================================================
 

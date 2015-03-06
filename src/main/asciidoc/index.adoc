@@ -35,6 +35,8 @@ include::pattern-index.adoc[]
 
 // appendices
 // ==========
+include::appendices/domain-model.adoc[]
+
 include::appendices/bibliography.adoc[]
 
 include::appendices/glossary.adoc[]

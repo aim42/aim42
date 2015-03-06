@@ -1,7 +1,18 @@
 :numbered!:
 
+[appendix]
 == Domain Model
 
 Within the systematic improvement we consider and manipulate several
 typical kinds of information, *entities*.
 
+
+[[figure-domain-model]]
+image::aim42-domain-model.png[title="aim42 domain terminology - detailed"]
+
+
+[width="80%",cols="5s,10"]
+|===
+
+
+|===
