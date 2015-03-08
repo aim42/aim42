@@ -1,13 +1,12 @@
 :numbered!:
 
 [appendix]
-[[Domain-Model]]
 == Domain Model
 
 Within the systematic improvement we consider and manipulate several
 typical kinds of information, *entities*.
 
-[small]#For a more pragmatic description, please see the <<Common_Terminology>> section#
+[small]#For a more pragmatic description, please see the <<Common Terminology>> section#
 
 
 [[figure-domain-model]]
@@ -17,5 +16,5 @@ image::aim42-domain-model.png[title="aim42 domain terminology - detailed"]
 [width="80%",cols="5s,10"]
 |===
 
-
+| 
 |===
