@@ -1,10 +1,13 @@
 :numbered!:
 
 [appendix]
+[[Domain-Model]]
 == Domain Model
 
 Within the systematic improvement we consider and manipulate several
 typical kinds of information, *entities*.
+
+[small]#For a more pragmatic description, please see the <<Common_Terminology>> section#
 
 
 [[figure-domain-model]]
