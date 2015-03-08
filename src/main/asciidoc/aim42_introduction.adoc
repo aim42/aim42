@@ -123,6 +123,7 @@ _Potential_ problem. Improvements can change associated risks for the better or 
 
 |=========================================================
 
+[small]#See also the more detailed <<Domain-Model>> (not required for the casual reader)#
 
 [[Iterative-Approach]]
 ==== Iterative Approach
