@@ -13,8 +13,27 @@ typical kinds of information, *entities*.
 image::aim42-domain-model.png[title="aim42 domain terminology - detailed"]
 
 
-[width="80%",cols="5s,10"]
+[width="80%",cols="<2,<5,<10"]
 |===
-
-| 
+2+| *Cause* | Root cause of an Issue. 
+  | | _is-a_ | (inherits from) Issue
+  | | _is real source of_ | one or many Issues. 
+2+| *Documentation* | Any (hopefully written) information about
+the systems, its goals, requirements, architecture, implementation, operation or management.
+2+| *Hardware* | Structure and kind of hardware required to develop, test and operate the System.
+2+| *Improvement* | Any remedy, opportunity, tactic or strategy to improve the System by resolving one or several Issues.
+  | | _modifies_ or _creates_ | Risk
+  | | _remedy_ | for the System.
+2+| *Issue* |
+2+| *Organization* | The organization or entity responsible or owning the System.
+2+| *Process* | Processes, conventions or activities for developing, maintaining, operating or managing the System.
+2+| *Risk* | 
+  | | _is an_ | Issue, but not occurred yet.
+2+| *Software* | All sourcecode and configuration that make up the System under improvement. Hopefully stored in version-control.
+2+| *Stakeholder* | People or roles interested or participating in the System or any of its associated Processes.
+  | | _belong to_ | the Organization responsible or owning the System.
+2+| *System* | The system under improvement, consisting of Software, Hardware and Documentation.
+  | | _managed and affected by_ | Processes 
+  | | _remedy_ | the System or aspects of it by Improvements
+  | | _suffers from_ | Issue 
 |===
