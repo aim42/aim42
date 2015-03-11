@@ -13,7 +13,7 @@ typical kinds of information, *entities*.
 image::aim42-domain-model.png[title="aim42 domain terminology - detailed"]
 
 
-[width="80%",cols="<2,<5,<10"]
+[width="80%",cols="<1,<4,<10"]
 |===
 2+| *Cause* | Root cause of an Issue, in contrast to a symptom. 
   | | _is-a_ | (inherits from) Issue
@@ -28,7 +28,7 @@ the System, why does the System exist anyway.
 2+| *Hardware* | Structure and kind of hardware required to develop, test and operate the System.
 2+| *Improvement* | Any remedy, opportunity, tactic or strategy to improve the System by resolving one or several Issues.
   | | _modifies_ or _creates_ | Risk
-  | | _remedy_ | for the System.
+  | | _is remedy for_ | the System.
   | | _resolves_ | (partially or complete) one or several Issues
 2+| *Issue* | Any problem, error, fault, risk, suboptimal situation or their causes within the 
 System, Processes or Organization related to it (e.g. management, operational, development, administrative or organizational activities).
@@ -38,11 +38,11 @@ System, Processes or Organization related to it (e.g. management, operational, d
 2+| *Process* | Processes, conventions or activities for developing, maintaining, operating or managing the System.
 2+| *Risk* | 
   | | EarlyWarning | Indicator that the Risk is occuring and turning into a problem.
-  | | _is an_ | Issue, but not occurred yet.
+  | | _is an_ | (inherits from) Issue, but not occurred yet.
 2+| *Software* | All sourcecode and configuration that make up the System under improvement. Hopefully stored in version-control.
 2+| *Stakeholder* | People or roles interested or participating in the System or any of its associated Processes.
   | | _belong to_ | the Organization responsible or owning the System.
-  | | _source of_ | Issues and/or Improvements. Stakeholders often
+  | | _knows / informs about_ | Issues and/or Improvements. Stakeholders often
   know about existing problems and opportunities for improvements.
 2+| *System* | The system under improvement, consisting of Software, Hardware and Documentation.
   | | _managed and affected by_ | Processes 
