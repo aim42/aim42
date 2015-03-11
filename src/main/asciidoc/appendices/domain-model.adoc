@@ -39,7 +39,7 @@ System, Processes or Organization related to it (e.g. management, operational, d
 2+| *Risk* | 
   | | EarlyWarning | Indicator that the Risk is occuring and turning into a problem.
   | | _is an_ | Issue, but not occurred yet.
-2+| *Software* | All sourcecode and configuration that make up the System under improvement. Hopefully stored in version-control.
+2+| *Software* | All source code and configuration that make up the System under improvement. Hopefully stored in version-control.
 2+| *Stakeholder* | People or roles interested or participating in the System or any of its associated Processes.
   | | _belong to_ | the Organization responsible or owning the System.
   | | _source of_ | Issues and/or Improvements. Stakeholders often

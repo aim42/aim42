@@ -252,7 +252,7 @@ Category: <<Improve>>
 . *<<Introduce-Boy-Scout-Rule>>*
 +
 Establish a policy to perform certain structural
-implrovements each time an artifact (sourcecode, configuration, documents etc.)
+improvements each time an artifact (source code, configuration, documents etc.)
 is changed. Usable in situations where a <<Refactoring-Plan>> is not feasible or in
 addition to such a plan.
 Category: <<Improve>>
