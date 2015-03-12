@@ -18,7 +18,7 @@ findings keeps eventual critics in check.
 Some anti-experiences that happened when we neglected traceability:
 
 Stakeholder questioned some of our findings - we could not immediately trace those findings
-back to an original source (i.e. an interview protocoll, a particular file/version of sourcecode). These stakeholders immediately suspected _all_ our findings, not only the one or two in question. 
+back to an original source (i.e. an interview protocoll, a particular file/version of source code). These stakeholders immediately suspected _all_ our findings, not only the one or two in question. 
 
 Please keep in mind that a lack of traceability, especially for disputed findings or problems,
 might lead to serious loss of credibility.

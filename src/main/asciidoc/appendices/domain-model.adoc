@@ -15,11 +15,11 @@ image::aim42-domain-model.png[title="aim42 domain terminology - detailed"]
 
 [width="80%",cols="<1,<4,<10"]
 |===
-2+| *Cause* | Root cause of an Issue, in contrast to a symptom. 
+2+| *Cause* | Root cause of an Issue, in contrast to a symptom.
   | | _is-a_ | (inherits from) Issue
-  | | _is real source of_ | one or many Issues. 
-2+| *Configuration* |   
-2+| *Constraints* | Technical or organizational constraints, restraining management, design, implementation or operation of the System.  
+  | | _is real source of_ | one or many Issues.
+2+| *Configuration* |
+2+| *Constraints* | Technical or organizational constraints, restraining management, design, implementation or operation of the System.
   | | _restrict_ | the System, associated Processes or Organization.
 2+| *Documentation* | Any (hopefully written) information about
 the systems, its goals, requirements, architecture, implementation, operation or management.
@@ -30,7 +30,7 @@ the System, why does the System exist anyway.
   | | _modifies_ or _creates_ | Risk
   | | _is remedy for_ | the System.
   | | _resolves_ | (partially or complete) one or several Issues
-2+| *Issue* | Any problem, error, fault, risk, suboptimal situation or their causes within the 
+2+| *Issue* | Any problem, error, fault, risk, suboptimal situation or their causes within the
 System, Processes or Organization related to it (e.g. management, operational, development, administrative or organizational activities).
   | | Frequency: | how often does the Issue occur?
   | |  _resolved by_ | one or several Improvements.
@@ -38,18 +38,19 @@ System, Processes or Organization related to it (e.g. management, operational, d
   | | _source of_ | Issues.
 2+| *Process* | Processes, conventions or activities for developing, maintaining, operating or managing the System.
   | | _source of_ | Issues.
-2+| *Risk* | 
+2+| *Risk* |
   | | EarlyWarning | Indicator that the Risk is occuring and turning into a problem.
   | | _is an_ | (inherits from) Issue, but not occurred yet.
-2+| *Software* | All sourcecode and configuration that make up the System under improvement. Hopefully stored in version-control.
+2+| *Software* | All source code and configuration that make up the System under improvement. Hopefully stored in version-control.
+  | | _is an_ | Issue, but not occurred yet.
 2+| *Stakeholder* | People or roles interested or participating in the System or any of its associated Processes.
   | | _belong to_ | the Organization responsible or owning the System.
   | | _knows / informs about_ | Issues and/or Improvements. Stakeholders often
   know about existing problems and opportunities for improvements.
 2+| *System* | The system under improvement, consisting of Software, Hardware and Documentation.
-  | | _managed and affected by_ | Processes 
+  | | _managed and affected by_ | Processes
   | | _remedy_ | the System or aspects of it by Improvements
-  | | _suffers from_ | Issue 
+  | | _suffers from_ | Issue
   | | _complies with_ | one or several Goals.
   | | _consists of_ | Software, Configuration, Hardware and Documentation.
 |===

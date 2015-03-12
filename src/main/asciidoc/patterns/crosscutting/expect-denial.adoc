@@ -49,7 +49,7 @@ In case you encounter minimization or resistance, get support from the highest m
 
 . *Hostility*, or "_Shoot the messenger_". Always remain calm and polite - but hard in your argumentation and facts. Hostile stakeholders can rarely be convinced of something, but need to be handled with diplomacy, politics and organizational skills (none of which we can cover here).
 + 
-Be prepared for _hostile actions_, though: In case of critical issues, always keep details documentation of their origin. Be prepared to _proof_ those issues, remove even minor omissions or formal weaknesses in your argumentation. Your issues and <<Root-Cause-Analysis>> has to be flawless and backed by meticulous research and management support. Ensure <<Traceability>> of your chain of reasoning! Keep written records of <<Stakeholder-Interviews>> and of suspicious pieces of sourcecode, or documentation.
+Be prepared for _hostile actions_, though: In case of critical issues, always keep details documentation of their origin. Be prepared to _proof_ those issues, remove even minor omissions or formal weaknesses in your argumentation. Your issues and <<Root-Cause-Analysis>> has to be flawless and backed by meticulous research and management support. Ensure <<Traceability>> of your chain of reasoning! Keep written records of <<Stakeholder-Interviews>> and of suspicious pieces of source code, or documentation.
 
 Let others review your findings before publication.
 
