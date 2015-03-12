@@ -35,7 +35,9 @@ System, Processes or Organization related to it (e.g. management, operational, d
   | | Frequency: | how often does the Issue occur?
   | |  _resolved by_ | one or several Improvements.
 2+| *Organization* | The organization or entity responsible or owning the System.
+  | | _source of_ | Issues.
 2+| *Process* | Processes, conventions or activities for developing, maintaining, operating or managing the System.
+  | | _source of_ | Issues.
 2+| *Risk* | 
   | | EarlyWarning | Indicator that the Risk is occuring and turning into a problem.
   | | _is an_ | (inherits from) Issue, but not occurred yet.
