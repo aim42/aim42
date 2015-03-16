@@ -170,19 +170,7 @@ might have. Identify the resultant effects on system development and operations.
 * Failure-Mode-and-Effect-Analysis (http://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis[FMEA]), a method for failure analysis, widely used in various industries
 
 
-
-[[Improvement-Backlog]]
-=== [pattern]#Improvement Backlog#
-Keep a public, written backlog of possible improvements, remedies, tactics or strategies.
-
-* Revise this backlog in regular intervalls.
-* Define the _owner role_ for this backlog, similar to the _product owner_ in Scrum.
-* Enhance the backlog with information from the <<evaluation>> phase, like cost, effort or risk.
-
-
-[[figure-improvement-backlog]]
-image::improvement-backlog.jpg["improvement backlog", title="Improvement Backlog"]
-
+include::patterns/crosscutting/improvement-backlog.adoc[]
 
 include::patterns/crosscutting/issue-list.adoc[]
 
