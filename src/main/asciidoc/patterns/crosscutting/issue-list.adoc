@@ -9,11 +9,11 @@ Collect all known issues and problems within a system or its associated processe
 ==== Content
 
 
-[options="header", cols="1,1,3,1,1,3"]
+[options="header", cols="1,1,3,2,1,1,3"]
 .Issue List
 |===
-| ID  | Issue | Description | min Value | max Value | Improvements
-| identifier | name | a short description of the issue | minimal value | maximal value | links to improvements
+| ID  | Issue | Description | Frequency | min Value | max Value | Improvements
+| identifier | name | a short description of the issue | how often does the issue occur, once, daily, weekly, with every new feature? | minimal value | maximal value | links to improvements
 |===
 
 
