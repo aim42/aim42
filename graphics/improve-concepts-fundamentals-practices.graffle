@@ -5,7 +5,7 @@
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGraffle6</string>
-		<string>159.9.0.225577</string>
+		<string>159.11.0.228015</string>
 	</array>
 	<key>CreationDate</key>
 	<string>2014-08-13 17:27:17 +0000</string>
@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2015-03-05 10:42:05 +0000</string>
+	<string>2015-03-16 14:19:59 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -62,7 +62,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{842, 595}</string>
+			<string>{841.8897705078125, 595.27557277679443}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
@@ -92,7 +92,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {806, 536}}</string>
+				<string>{{0, 0}, {805.8897705078125, 536.27557277679443}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -351,7 +351,7 @@ Practices}</string>
 					<key>Link</key>
 					<dict>
 						<key>url</key>
-						<string>#improva-approaches</string>
+						<string>#improve-approaches</string>
 					</dict>
 					<key>Shape</key>
 					<string>00A761B1-D103-466E-944E-91E8EDAD3B41-69354-0000EC1E2B6CC586</string>
@@ -556,7 +556,7 @@ Fundamentals}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {806, 536}}</string>
+				<string>{{0, 0}, {805.8897705078125, 536.27557277679443}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -2490,7 +2490,7 @@ Iteratively}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {806, 536}}</string>
+				<string>{{0, 0}, {805.8897705078125, 536.27557277679443}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -4216,7 +4216,7 @@ Iteratively}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {806, 536}}</string>
+				<string>{{0, 0}, {805.8897705078125, 536.27557277679443}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -6509,7 +6509,7 @@ Processes}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {806, 536}}</string>
+				<string>{{0, 0}, {805.8897705078125, 536.27557277679443}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -9670,7 +9670,7 @@ Processes}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {806, 536}}</string>
+				<string>{{0, 0}, {805.8897705078125, 536.27557277679443}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>FontInfo</key>
@@ -12745,7 +12745,7 @@ Code Structure}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {806, 536}}</string>
+				<string>{{0, 0}, {805.8897705078125, 536.27557277679443}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -13830,7 +13830,7 @@ Improvement\
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>5</integer>
+		<integer>0</integer>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
@@ -13846,9 +13846,9 @@ Improvement\
 		<key>TopSlabHeight</key>
 		<real>371</real>
 		<key>VisibleRegion</key>
-		<string>{{0, 0}, {793, 484}}</string>
+		<string>{{0, 28.5}, {396.5, 242}}</string>
 		<key>Zoom</key>
-		<real>1</real>
+		<real>2</real>
 		<key>ZoomValues</key>
 		<array>
 			<array>
