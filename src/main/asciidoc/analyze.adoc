@@ -23,6 +23,8 @@ Systematically look for such issues at various places and with various people.
 
 TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<System>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process. 
 
+One serious risk in this phase is a premature restriction to certain artifacts or aspects of the system: If you search with a microscope, you're likely to miss several aspects.
+
 
 // internal comment:
 // the following imageMap + image reference has to be manually maintained
