@@ -3,8 +3,11 @@
 ==== [pattern]#Context-Analysis# 
 
 ===== Intent
-Analyse external interfaces for risk, technology, business value and other factors. 
+* Analyse external interfaces for risk, technology, business value and other factors. 
 
+* Use the context to gain _overview_ of the System within its business or
+technical environment.
+ 
 ===== Description
 Under discussion.
 
