@@ -8,6 +8,28 @@
 * Use the context to gain _overview_ of the System within its business or
 technical environment.
  
+* Identify risks or problems in the immediate vicinity of the System.
+
+===== Terminology
+We distinguish the following terms in context analysis:
+
+Business Context:: Adjacent organizations, applications, users or interfaces either requiring or providing services or data from or to the System. The business context can be used to describe the overall business process(es) the System is involved in.  
+
+Technical Context:: Adjacent hardware or technical infrastructure, either required by the System or providing data or events to it. When the System can be used or operated in different hardware infrastructures, there might exist several different technical contexts.
+
 ===== Description
-Under discussion.
+
+TODO:
+
+* find issues associated with external interfaces, e.g.:
+** overly complex 
+** brittle
+** unsuitable technology or implementation
+** underdocumented, poorly understood
+** high operational effort
+** high cost-of-change or maintenance costs
+** difficult or impossible to modify/enhance/change
+
+* 
+
 
