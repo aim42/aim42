@@ -17,6 +17,14 @@ Business Context:: Adjacent organizations, applications, users or interfaces eit
 
 Technical Context:: Adjacent hardware or technical infrastructure, either required by the System or providing data or events to it. When the System can be used or operated in different hardware infrastructures, there might exist several different technical contexts.
 
+===== Example
+In the context diagram example of fig. <<context-view-example>>
+
+[[context-view-example]]
+image::context-view-example.png["Example of Context View", title="Example of Context View"]
+
+
+
 ===== Description
 
 TODO:
@@ -30,6 +38,6 @@ TODO:
 ** high cost-of-change or maintenance costs
 ** difficult or impossible to modify/enhance/change
 
-* 
+ 
 
 
