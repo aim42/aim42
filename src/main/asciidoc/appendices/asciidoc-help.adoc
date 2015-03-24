@@ -162,4 +162,10 @@ In case you need a footnote - that's easy too:
 A statement.footnote:[the text of this footnote, usually rendered at the end of the document.]
 ----
 
+=== Typesetting
+Sometimes it can be useful to write [small]#smaller text#.
+
+----
+... useful to write [small]#smaller text#.
+----
 
