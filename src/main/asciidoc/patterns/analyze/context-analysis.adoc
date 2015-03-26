@@ -45,15 +45,15 @@ amount of time and might yield invalid results due to network and latency issues
 
 Context analysis shall help identify issues associated with _external interfaces_, e.g. interfaces that:
 
-* influence critical quality requirements of the system
+* influence critical quality requirements of the system (e.g. reliability, security, throuput, runtime performance, operation cost)
 * are overly complex 
-* are brittle
+* are brittle or fragile
 * are implemented with unsuitable technology
 * are underdocumented or poorly understood
 * transport critical data (important, sensitive, insecure)
 * transport especially huge amounts of data
 * have high operational effort
-* have high usage cost (e.g. cost-per-call, cost-per-use, cost-per-request or similar)
+* have high usage cost (e.g. cost-per-request or similar)
 * have high cost-of-change or high maintenance costs
 * are difficult or impossible to modify/enhance/change
 
