@@ -20,7 +20,8 @@ Technical Context:: Adjacent hardware or technical infrastructure, either requir
 ===== Example
 In the context diagram example of fig. <<context-view-example>> you see some user roles and some external systems. The context diagram is accompanied by a tabular
 description of the elements and/or relationships.
-[small]#Example taken from the https://github.com/aim42/htmlSanityCheck[HtmlSanityCheck] open source project.#
+[small]#Example taken from the https://github.com/aim42/htmlSanityCheck
+[HtmlSanityCheck] open source project.#
 
 [[context-view-example]]
 image::context-view-example.png["Example of Context View", title="Example of Context View"]
