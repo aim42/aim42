@@ -17,6 +17,24 @@ Business Context:: Adjacent organizations, applications, users or interfaces eit
 
 Technical Context:: Adjacent hardware or technical infrastructure, either required by the System or providing data or events to it. When the System can be used or operated in different hardware infrastructures, there might exist several different technical contexts.
 
+===== Description
+
+Context analysis shall help identify issues associated with _external interfaces_, e.g. interfaces that:
+
+* influence critical quality requirements of the system (e.g. reliability, security, throuput, runtime performance, operation cost)
+* are overly complex 
+* are brittle or fragile
+* are implemented with unsuitable technology
+* are underdocumented or poorly understood
+* transport critical data (important, sensitive, insecure)
+* transport especially huge amounts of data
+* have high operational effort
+* have high usage cost (e.g. cost-per-request or similar)
+* have high cost-of-change or high maintenance costs
+* are difficult or impossible to modify/enhance/change
+
+
+
 ===== Example
 In the context diagram example of fig. <<context-view-example>> you see some user roles and some external systems. The context diagram is accompanied by a tabular
 description of the elements and/or relationships.
@@ -40,23 +58,5 @@ performs sanity checks within those.
 of external web resources. Due to the nature of web systems, this check might need a significant
 amount of time and might yield invalid results due to network and latency issues.
 |===
-
-===== Description
-
-Context analysis shall help identify issues associated with _external interfaces_, e.g. interfaces that:
-
-* influence critical quality requirements of the system (e.g. reliability, security, throuput, runtime performance, operation cost)
-* are overly complex 
-* are brittle or fragile
-* are implemented with unsuitable technology
-* are underdocumented or poorly understood
-* transport critical data (important, sensitive, insecure)
-* transport especially huge amounts of data
-* have high operational effort
-* have high usage cost (e.g. cost-per-request or similar)
-* have high cost-of-change or high maintenance costs
-* are difficult or impossible to modify/enhance/change
-
-
 
 
