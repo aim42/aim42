@@ -59,4 +59,5 @@ of external web resources. Due to the nature of web systems, this check might ne
 amount of time and might yield invalid results due to network and latency issues.
 |===
 
-
+In this example, the complete check has to be completed within 5 seconds (a quality requirement). As access to external websites or resources might be hindered by network latency or even failures, the external interface 
+responsible for this requirement will likely contain risks.
