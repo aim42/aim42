@@ -7,4 +7,72 @@ Analyse and inspect the data created and manipulated by the system for its conte
 
 ===== Description
 
-Under discussion!
+In data analysis you could examine the following topics:
+
+* <<Analyze Data Structures, Data Structure>>
+* <<Analyze Data Access, Data Access>>
+* Data Validation
+* Data Size
+* Data Actuality and Correctness
+
+
+====== Analyze Data Structures
+Are data structures suited to represent the problem domain?
+
+At first, make the _structure_ of the existing data explicit,
+e.g. by creating a rough sketch of a data model as either
+informal diagrams, entity-relationship or class diagrams.
+Focus should be on overview: Where and how are what kinds of
+data stored in what format. What are the relationsships between
+the data elements?
+
+Second, create an explicit model the _required domain data structures_. 
+
+Some typical questions might help in finding problems:
+
+* structural differences between those two models?
+* differences in data types?
+* differences in plausibity or validity checking?
+
+====== Analyze Data Access
+Get an overview of data access paths: How is data read or written?
+Do the queries match their requirements, or are complex mappings
+or unsuitable indirections involved?
+
+* What queries or executed how often?
+* How large are the results in number or volume?
+* Do relationships between query results have to be computed, or do appropriate indices exist?
+
+
+
+====== Analyze Data Size
+
+* Are some parts of the data especially large?
+* Does the relation between record-size (_how large is a single record_?)
+and record-volume (_how many records exists_?) plausible?
+
+
+====== Analyze Data Validation
+
+* How is data validated? (upon write, upon read, on client, on server, redundantly, uniformly)
+* Is validation consistent with current business rules?
+* Is validation overly complex?
+* Is validation implemented with appropriate technical means?
+
+
+====== Analyze Data Actuality and Correctness
+Especially in data concerning dynamic entities like people, organizations,
+markets, commodities etc., facts are very likely to change over time.
+Such data might become invalid sooner or later. Other types of information
+(like tax records, invoices or bookings on bank accounts) are created once and remain
+intact forever).
+
+
+[TIP]
+--
+For example, peoples' address typically changes something between 2-10 times during
+their lives.
+Empirical studies show that between 5 and 10% of business or job email addresses
+become invalid every year.    
+--
+
