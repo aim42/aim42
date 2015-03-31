@@ -14,7 +14,8 @@ In data analysis you could examine the following topics:
 * Data Validation
 * Data Size
 * Data Actuality and Correctness
-
+* Data Access Protection
+* Backup
 
 ====== Analyze Data Structures
 Are data structures suited to represent the problem domain?
@@ -48,9 +49,9 @@ or unsuitable indirections involved?
 ====== Analyze Data Size
 
 * Are some parts of the data especially large?
-* Does the relation between record-size (_how large is a single record_?)
+* Is the relation between record-size (_how large is a single record_?)
 and record-volume (_how many records exists_?) plausible?
-
+* Do critical queries involve especially large parts of data?
 
 ====== Analyze Data Validation
 
@@ -63,9 +64,8 @@ and record-volume (_how many records exists_?) plausible?
 ====== Analyze Data Actuality and Correctness
 Especially in data concerning dynamic entities like people, organizations,
 markets, commodities etc., facts are very likely to change over time.
-Such data might become invalid sooner or later. Other types of information
-(like tax records, invoices or bookings on bank accounts) are created once and remain
-intact forever).
+Such data (_stored facts_) might become invalid sooner or later. 
+Other types of information (like tax records, invoices or bookings on bank accounts) are created once and remain valid forever).
 
 
 [TIP]
@@ -76,3 +76,25 @@ Empirical studies show that between 5 and 10% of business or job email addresses
 become invalid every year.    
 --
 
+* Which parts of the data are subject to (what kind of) changes?
+* Are parts of the data known to be invalid or contain invalid portions?
+* Does the System handle potentially wrong or invalid data appropriately?
+* Are there (organizational or technical) processes in place that deal with 
+data inconsistencies or faults?
+
+====== Analyze Data Access Protection
+
+* Is there an overview what kinds of data need which level of (access) protection?
+* Is there a security concept in place covering protection against unauthorized access?
+** How are users/roles/organizations _allowed_ to access data managed? 
+** Is there a process in place to revoke access for outdated users/roles/organizations?
+* Is there a plan what shall happen in case of security breaches or data theft?
+* How is data theft recognized?
+
+
+====== Analyze Backup
+
+* Is there a universal backup strategy in place, covering all areas of data storage?
+* Does the backup strategy match the business criticality of the data?
+* To what extend has the backup been verified?
+* Does a fallback scenario exist in case of (partial or complete) data loss?
