@@ -12,10 +12,10 @@ In data analysis you could examine the following topics:
 * <<Analyze Data Structures, Data Structure>>
 * <<Analyze Data Access, Data Access>>
 * <<Analyze Data Size, Data Size>>
-* Data Validation
-* Data Actuality and Correctness
-* Data Access Protection
-* Backup
+* <<Analyze Data Validation, Data Validation>>
+* <<Analyze Data Actuality and Correctness, Data Actuality and Correctness>>
+* <<Analyze Data Access Protection, Data Access Protection>>
+* <<Analyze Backup, Backup>>
 
 ====== Analyze Data Structures
 Are data structures suited to represent the problem domain?
