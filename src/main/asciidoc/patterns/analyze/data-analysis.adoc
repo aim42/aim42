@@ -11,8 +11,8 @@ In data analysis you could examine the following topics:
 
 * <<Analyze Data Structures, Data Structure>>
 * <<Analyze Data Access, Data Access>>
+* <<Analyze Data Size, Data Size>>
 * Data Validation
-* Data Size
 * Data Actuality and Correctness
 * Data Access Protection
 * Backup
