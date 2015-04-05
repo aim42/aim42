@@ -33,7 +33,9 @@ Context analysis shall help identify issues associated with _external interfaces
 * have high cost-of-change or high maintenance costs
 * are difficult or impossible to modify/enhance/change
 
-
+Note that _user_ interfaces often belong to the context, especially with
+respect to the kind of data or events exchanged with users or user groups. Due to the
+importance of this topic, aim42 devotes an <<User-Analysis, own section>> to it.
 
 ===== Example
 In the context diagram example of fig. <<context-view-example>> you see some user roles and some external systems. The context diagram is accompanied by a tabular
