@@ -497,7 +497,7 @@ Category: <<Analyze>>
 . *<<User-Analysis>>*
 +
 Get an overview of user-categories or -groups, their goals, requirements
-and expectations. Find out about issues users have with the system. Related to <<Context-Analysis>> and <<Requirements-Analysis>>. Category: <<Analyze>> 
+and expectations. Find out about issues users have with the system. Related to <<Stakeholder-Analysis>>, <<Context-Analysis>> and <<Requirements-Analysis>>. Category: <<Analyze>> 
 +
 
 . *<<Use-Invariants-To-Kill-Zombies>>*
