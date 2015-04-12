@@ -76,8 +76,9 @@ WARNING: Never start solving problems until you have a thorough understanding of
 === Patterns and Practices for Analysis
 
 ++++
-<img border=0 src="images/analyze-patterns-conceptmap.png" usemap="#AnalysisPatterns" alt="Analyze Patterns">
+<img border=0 src="images/analyze-patterns-complete.png" usemap="#AnalysisPatterns" alt="Analyze Patterns">
 <map name="AnalysisPatterns">
+	<area shape=rect coords="358,4,440,52" href="#User-Analysis">
 	<area shape=rect coords="93,690,175,729" href="#Instrument-System">
 	<area shape=rect coords="196,590,299,629" href="#Infrastructure-Analysis">
 	<area shape=rect coords="294,319,398,379" href="#Development-Process-Analysis">
@@ -85,14 +86,14 @@ WARNING: Never start solving problems until you have a thorough understanding of
 	<area shape=rect coords="305,508,402,557" href="#Collect-Issues">
 	<area shape=rect coords="28,803,125,852" href="#Static-Code-Analysis">
 	<area shape=rect coords="358,690,449,739" href="#Software-Archeology">
-	<area shape=rect coords="449,25,553,64" href="#Questionnaire">
+	<area shape=rect coords="511,25,615,64" href="#Questionnaire">
 	<area shape=rect coords="15,294,150,343" href="#Quantitative-Analysis">
 	<area shape=rect coords="649,332,756,381" href="#Requirements-Analysis">
 	<area shape=rect coords="330,141,449,190" href="#Stakeholder-Interview">
 	<area shape=rect coords="40,167,159,215" href="#Stakeholde-Analysis">
 	<area shape=rect coords="66,494,150,539" href="#Runtime-Analysis">
 	<area shape=rect coords="543,253,664,301" href="#Documentation-Analysis">
-	<area shape=rect coords="145,433,210,472" href="#Data-Analysis">
+	<area shape=rect coords="152,423,218,462" href="#Data-Analysis">
 	<area shape=rect coords="455,562,567,611" href="#Issue-Tracker-Analysis">
 	<area shape=rect coords="124,2,218,51" href="#Context-Analysis">
 	<area shape=rect coords="654,526,729,565" href="#ATAM">
@@ -156,5 +157,7 @@ include::patterns/analyze/stakeholder-interview.adoc[]
 include::patterns/analyze/static-code-analysis.adoc[]
 
 include::patterns/analyze/take-what-they-mean.adoc[]
+
+include::patterns/analyze/user-analysis.adoc[]
 
 include::patterns/analyze/view-based-understanding.adoc[]
