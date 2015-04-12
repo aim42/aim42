@@ -3,6 +3,8 @@
 
 * Gernot Starke (innoQ Fellow, project founder): setup, patterns, practices
 * Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration
+* Peter Hruschka (Atlantic Systems Guild): reviews + comments,
+  especially to the intricacies of the <<Domain-Model>>.
 * Christine Koppelt (innoQ): improvement-patterns
 * Michael Mahlberg (Consulting Guild): patterns and practices
 * Burkhard Neppert (innoQ): review, method
