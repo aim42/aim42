@@ -81,7 +81,7 @@ task copyResources(
     description: 'copy (downloadable) resources and artifacts to resource folder'
 ) {
     from "$srcDir/resources/docs"
-    into "$targetDir/resources"
+    into "$targetDir/html5/resources"
 }
 
 task wrapper(type: Wrapper) {
