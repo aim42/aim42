@@ -24,8 +24,8 @@ Include a "Comments/Remarks" section at the end of the questionnaire, so stakeho
 
 Download a sample pre-interview questionnaire - currently only in German:
 
-* link:./resources/DE-Vorab-Fragebogen.pdf[pdf version^] 
-* link:./resources/DE-Vorab-Fragebogen.docx[docx version^]
+* link:./docs/DE-Vorab-Fragebogen.pdf[pdf version^] 
+* link:./docs/DE-Vorab-Fragebogen.docx[docx version^]
 
 
 ===== Also Known As
