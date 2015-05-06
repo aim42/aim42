@@ -63,9 +63,13 @@ asciidoctor {
             version: project.project_version 
     ]
     resources {
-        from "$srcDir/resources/images"
-        into 'images'
+        from("${srcDir}/resources/") {
+          include 'images/**'
+        }
         
+        from("${srcDir}/resources/") {
+          include 'docs/**'
+        }
     } 
 }
 
@@ -76,20 +80,21 @@ defaultTasks 'aim42'
 
 
 
-task copyResources(
-    type: Copy,
-    description: 'copy (downloadable) resources and artifacts to resource folder'
-) {
-    from "$srcDir/resources/docs"
-    into "$targetDir/html5/resources"
-}
+//task copyResources(
+//    type: Copy,
+//    description: 'copy (downloadable) resources and artifacts to resource folder'
+//) {
+//    from "$srcDir/resources/docs"
+//    into "$targetDir/html5/resources"
+//}
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.1'
 }
 
 task aim42(
-    dependsOn: [copyResources, asciidoctor],
+//    dependsOn: [copyResources, asciidoctor],
+      dependsOn: [asciidoctor],
     description: 'collects all required tasks for creating aim42 documentation'
 ) << { }
 
