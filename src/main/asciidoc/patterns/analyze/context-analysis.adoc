@@ -42,8 +42,7 @@ importance of this topic, aim42 devotes an <<User-Analysis, own section>> to it.
 ===== Example
 In the context diagram example of fig. <<context-view-example>> you see some user roles and some external systems. The context diagram is accompanied by a tabular
 description of the elements and/or relationships.
-[small]#Example taken from the https://github.com/aim42/htmlSanityCheck
-[HtmlSanityCheck] open source project.#
+[small]#Example taken from the https://github.com/aim42/htmlSanityCheck[HtmlSanityCheck (HtmlSC)] open source project.#
 
 [[context-view-example]]
 image::context-view-example.png["Example of Context View", title="Example of Context View"]
@@ -55,10 +54,10 @@ image::context-view-example.png["Example of Context View", title="Example of Con
 | user | documents software with toolchain that generates html. Wants to ensure that
 links within this html are valid.
 | build system |
-| local html files | kbd:[HtmlSC] reads and parses local html files and
+| local html files | HtmlSC reads and parses local html files and
 performs sanity checks within those.
-| local image files | kbd:[HtmlSC] checks if linked images exist as (local) files.
-| external web resources | kbd:[HtmlSC] can be configured to optionally check for the existence
+| local image files | HtmlSC checks if linked images exist as (local) files.
+| external web resources | HtmlSC can be configured to optionally check for the existence
 of external web resources. Due to the nature of web systems, this check might need a significant
 amount of time and might yield invalid results due to network and latency issues.
 |===
