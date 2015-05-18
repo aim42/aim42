@@ -90,7 +90,7 @@ WARNING: Never start solving problems until you have a thorough understanding of
 	<area shape=rect coords="15,294,150,343" href="#Quantitative-Analysis">
 	<area shape=rect coords="649,332,756,381" href="#Requirements-Analysis">
 	<area shape=rect coords="330,141,449,190" href="#Stakeholder-Interview">
-	<area shape=rect coords="40,167,159,215" href="#Stakeholde-Analysis">
+	<area shape=rect coords="40,167,159,215" href="#Stakeholder-Analysis">
 	<area shape=rect coords="66,494,150,539" href="#Runtime-Analysis">
 	<area shape=rect coords="543,253,664,301" href="#Documentation-Analysis">
 	<area shape=rect coords="152,423,218,462" href="#Data-Analysis">
