@@ -80,7 +80,12 @@ to similar entities and potential synergies are utilized.
 
 [[improve-approaches]]
 ==== Approaches
-The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement:
+The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement.
+
+[[fig-improvement-approaches]]
+.Improvement Approaches
+image::improve-approaches.png[]
+
 
 TODO: Describe Approaches
 
