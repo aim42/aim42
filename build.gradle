@@ -37,7 +37,9 @@ buildscript {
 ext {
     srcDir  = "$projectDir/src/main"
     targetDir = "$buildDir/docs"
+    currentDate = new Date().format("MMM d. yyyy")
 }
+
 
 // =========== asciidoctor stuff ===============
 apply plugin: 'org.asciidoctor.convert'
@@ -46,7 +48,6 @@ asciidoctor {
     outputDir = file( targetDir )
     sourceDir = file("$srcDir/asciidoc")
     sources  { include "index.adoc" }
-    //options separateOutputDirs=false
     attributes = [
             separateOutputDirs: false,
             imagesdir   : 'images',
@@ -60,36 +61,32 @@ asciidoctor {
             'coderay-css': 'class',
             stylesheet: 'aim42.css',
             stylesdir: "$srcDir/resources/css/",  
-            version: project.project_version 
+            version: project.project_version,
+            'currentDate': "$currentDate"
     ]
+
     resources {
-        from "$srcDir/resources/images"
-        into 'images'
+        from("${srcDir}/resources/") {
+          include 'images/**'
+        }
         
+        from("${srcDir}/resources/") {
+          include 'docs/**'
+        }
     } 
 }
-
 
 
 defaultTasks 'aim42'
 
 
 
-
-task copyResources(
-    type: Copy,
-    description: 'copy (downloadable) resources and artifacts to resource folder'
-) {
-    from "$srcDir/resources/docs"
-    into "$targetDir/resources"
-}
-
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.1'
+    gradleVersion = '2.4'
 }
 
 task aim42(
-    dependsOn: [copyResources, asciidoctor],
+      dependsOn: [asciidoctor],
     description: 'collects all required tasks for creating aim42 documentation'
 ) << { }
 

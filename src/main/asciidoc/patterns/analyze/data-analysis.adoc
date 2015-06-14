@@ -70,9 +70,9 @@ Other types of information (like tax records, invoices or bookings on bank accou
 
 [TIP]
 --
-For example, peoples' address typically changes something between 2-10 times during
+* Peoples' address typically changes something between 2-10 times during
 their lives.
-Empirical studies show that between 5 and 10% of business or job email addresses
+* Empirical studies show that between 5 and 10% of business or job email addresses
 become invalid every year.    
 --
 

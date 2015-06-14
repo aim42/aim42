@@ -80,14 +80,19 @@ to similar entities and potential synergies are utilized.
 
 [[improve-approaches]]
 ==== Approaches
-The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement:
+The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement.
+
+[[fig-improvement-approaches]]
+.Improvement Approaches
+image::improve-approaches.png[]
+
 
 TODO: Describe Approaches
 
-[pattern]#Change-Via-Copy#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve the copies independently.
+[pattern]#Change-On-Copy#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve the copies independently.
 
 [pattern]#Change-Via-Split#:: Split up the original system into (not neccessarily distinct) parts. Clean-up those parts individually, and then evolve the parts independently. 
-[small]#(similar, but not identical to Change-Via-Copy)#
+[small]#(similar, but not identical to Change-On-Copy)#
 
 [pattern]#Keep-Data-Toss-Code#:: As value sometimes resides in data, keep data intact and replace the functional/service/process part of a system.
 
@@ -127,6 +132,7 @@ image::improve-categories.png["improvement-categories", title="Improvement Categ
 [[improvement-practices-1]]
 .Improvement Practices (Part 1)
 image::improve-patterns-rest.png["improvement-practices", title="Improvement Practices (Part 1)"]
+
 
 
 [[improvement-practices-2]]

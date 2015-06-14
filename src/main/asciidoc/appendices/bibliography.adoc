@@ -4,7 +4,7 @@
 [appendix]
 == Bibliography
 
-* [[[AntiPatterns]]] William J. Brown: AntiPatterns: Refactoring Software,
+* [[AntiPatterns]] William J. Brown: AntiPatterns: Refactoring Software,
  Architecture and Projects in Crisis, John Wiley & Sons, 1998 -- a tried and
  true work on things that tend to go wrong in software development and other
  projects.
@@ -16,8 +16,6 @@ Available in a variety of formats, see http://arc42.de[German website] or http:/
 Elusive Software and Hardware Problems. Amacom Press, 2002. Although most developers take "debugging skills" for granted,
 they sometimes spend too much time tracking too little bugs.
 
-* [[[AIW]]] http://www.sei.cmu.edu/architecture/tools/evaluate/aiw.cfm[Architecture Improvement Workshop].
-Software Engineering Institute, Carnegie Mellon University.
 
 * [[[Annett-Legacy]]] Robert Annett: Working with Legacy Systems: A practical guide to the real systems we inherit.  http://leanpub.com/WorkingWithLegacySystems[Leanpub Publishing].
 
