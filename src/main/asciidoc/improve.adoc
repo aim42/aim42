@@ -100,12 +100,30 @@ TODO: Describe Approaches
 
 [pattern]#Big-Bang#:: Keep the existing system for a limited time, apply only critical bugfixes. In parallel, build a replacement system. Replace old by new at predefined time.
 
+[pattern]#Chicken-Little#:: Incrementally (11 steps) build a replacement system. You can choose between Database-First, Database-Last and Composite-Database Approach.
+
+[pattern]#Database-First#:: Do a Big-Bang migration of the database, incrementally implement new applications and interfaces and connect the legacy system to the new database by forward gateways.
+
+[pattern]#Database-Last#:: Keep the existing database for a limited time, incrementally implement new applications and interfaces and connect them to the legacy database by reverse gateways.
+
+[pattern]#Composite-Database#:: Combination of Database-Firt and Database-Last. Beside a forward- and reverse-gateway, there is a need for a transaction-coordinator.
+
+[pattern]#Butterfly-Methodology#:: Data-Migration Method without the need for gateways. Enables zero-downtime migrations by working with temporary data stores.
+
 [pattern]#Strangulate-Bad-Parts#:: TBD
 
 
 [pattern]#Evolution#:: This approach has been extensively practiced by a Swiss Bank and published
 as a  http://www.amazon.de/Managed-Evolution-Strategy-Information-Systems/dp/3642016324[book]. 
 Underlying idea is to refactor those parts of the system(s) which are actually to be changed, especially to move all interfaces to new service standard and replace all legacy technologies and other couplings (via DB etc). Over time services should emerge that can be moved to a new platform altogether (from Mainframe to Java).
+
+
+include::patterns/improve/big-bang-approach.adoc[]
+include::patterns/improve/chicken-little-strategy.adoc[]
+include::patterns/improve/database-first-approach.adoc[]
+include::patterns/improve/database-last-approach.adoc[]
+include::patterns/improve/composite-database-approach.adoc[]
+include::patterns/improve/butterfly-methodology.adoc[]
 
 
 [[improve-categories]]

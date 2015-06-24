@@ -1,0 +1,32 @@
+[[big-bang-approach]]
+==== [pattern]#Big Bang Approach#
+
+===== Intent
+
+
+===== Description
+
+
+===== Experiences
+
+
+===== Risks
+
+
+===== Applicability
+
+
+===== Consequences
+
+
+===== Also Known As
+
+===== Related Patterns
+
+* test
+
+===== References
+
+* test
+
+// end of list
