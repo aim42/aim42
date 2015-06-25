@@ -1,0 +1,48 @@
+[[Improve-feedback-from-and-for-stakeholders]]
+==== [pattern]#Improve feedback from and for stakeholders#
+
+===== Intent
+
+Effectively collect feedback from various stakeholders.
+
+===== Description
+
+It is expensive to collect information (problems, opinions etc.) from stakeholders (customers, support staff, developers, backoffice etc.) via surveys, interviews or meetings (e.g. [[atam]]). There are possibilities to offer low-threshold services for involved people to give feedback. Possibilities e.g. are
+
+* a Tracking systems in the user interface
+* b Easy-to-use contact possibilities in the system's user interface
+* c Ticketing/issue management software
+* d Wikis
+* e System-supported surveys
+
+This information might help in finding issues, calculate their costs and prioritize it. Additionally to quantitative analysis, qualitative analysis might give improvement hints.
+
+===== Experiences
+
+===== Risks
+
+Since most improvements are based on voluntariness (all examples except a), the information might be biased.
+
+
+===== Applicability
+
+Many of the tools supporting this use case are used for a group of stakeholders and can possibily used for others as well (e.g. ticketing systems or Wikis for developers in open source projects ).
+
+===== Consequences
+
+Stakeholders give valuable information, their satisfaction with the system increases.
+
+===== Also Known As
+
+
+===== Related Patterns
+
+* <<Context-Analysis>>
+* <<Issue-Tracker-Analysis>>
+* <<Pre-Interview-Questionnaire>>
+* <<Stakeholder-Interview>>
+* <<Questionnaire>>
+* <<User-Analysis>>
+
+===== References
+
