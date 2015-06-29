@@ -1,5 +1,5 @@
 [[Improve-feedback-from-and-for-stakeholders]]
-==== [pattern]#Improve feedback from and for stakeholders#
+==== [pattern]#Improve Feedback From And For Stakeholders#
 
 ===== Intent
 
@@ -7,13 +7,14 @@ Effectively collect feedback from various stakeholders.
 
 ===== Description
 
-It is expensive to collect information (problems, opinions etc.) from stakeholders (customers, support staff, developers, backoffice etc.) via surveys, interviews or meetings (e.g. [[atam]]). There are possibilities to offer low-threshold services for involved people to give feedback. Possibilities e.g. are
+It is expensive to collect information (problems, opinions etc.) from stakeholders (customers, support staff, developers, backoffice etc.) via surveys, interviews or meetings (e.g. [[atam]]). There are possibilities to offer low-threshold services for involved people to give feedback. Possibilities e.g. are:
 
-* a Tracking systems in the user interface
-* b Easy-to-use contact possibilities in the system's user interface
-* c Ticketing/issue management software
-* d Wikis
-* e System-supported surveys
+[loweralpha, start=1]
+. Tracking systems in the user interface
+. Easy-to-use contact possibilities in the system's user interface
+. Ticketing/issue management software
+. Wikis
+. System-supported surveys
 
 This information might help in finding issues, calculate their costs and prioritize it. Additionally to quantitative analysis, qualitative analysis might give improvement hints.
 
@@ -26,7 +27,7 @@ Since most improvements are based on voluntariness (all examples except a), the 
 
 ===== Applicability
 
-Many of the tools supporting this use case are used for a group of stakeholders and can possibily used for others as well (e.g. ticketing systems or Wikis for developers in open source projects ).
+Many of the tools supporting this use case are used for a group of stakeholders and can possibly be used for others as well (e.g. ticketing systems or Wikis for developers in open source projects).
 
 ===== Consequences
 
