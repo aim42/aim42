@@ -16,17 +16,14 @@ buildscript {
             url  'http://dl.bintray.com/content/aalmiray/asciidoctor'
         }
         maven {
-            name 'Bintray Asciidoctor repo'
-            url  'http://dl.bintray.com/content/aalmiray/asciidoctor'
+           url "https://plugins.gradle.org/m2/"
         }
-   
         jcenter()
         mavenCentral()
     }
 
     dependencies {
-        classpath ('org.aim42:HtmlSanityCheck-gradle-plugin:0.5.3')
-//        classpath ('org.aim42:HtmlSanityCheck-core:0.8.0')
+        classpath ('gradle.plugin.org.aim42:htmlSanityCheck:0.9.3')
         classpath ( group: 'org.asciidoctor',
                     name: 'asciidoctor-gradle-plugin',
                     version: '1.5.2')
@@ -60,7 +57,7 @@ asciidoctor {
             'source-highlighter': 'coderay',
             'coderay-css': 'class',
             stylesheet: 'aim42.css',
-            stylesdir: "$srcDir/resources/css/",  
+            stylesdir: "$srcDir/resources/css/",
             version: project.project_version,
             'currentDate': "$currentDate"
     ]
@@ -69,11 +66,11 @@ asciidoctor {
         from("${srcDir}/resources/") {
           include 'images/**'
         }
-        
+
         from("${srcDir}/resources/") {
           include 'docs/**'
         }
-    } 
+    }
 }
 
 
@@ -105,7 +102,7 @@ task publish(type: GradleBuild) {
 
 // ============ validation
 
-apply plugin: 'org.aim42.HtmlSanityCheck-gradle-plugin'
+apply plugin: 'org.aim42.htmlSanityCheck'
 htmlSanityCheck {
 
   // ensure asciidoctor->html runs first

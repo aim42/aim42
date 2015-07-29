@@ -172,6 +172,7 @@ image::improve-patterns-codestructure.png["code-improvement-practices", title="I
 * <<Group-Improvement-Actions>>
 * <<Handle-If-Else-Chains>>
 * <<Improve-Code-Layout>>
+* <<Improve-feedback-from-and-for-stakeholders>>
 * <<Improve-Logging>>
 * <<Interface-Segregation-Principle>>
 * <<Introduce-Boy-Scout-Rule>>
@@ -199,3 +200,5 @@ include::patterns/improve/introduce-boy-scout-rule.adoc[]
 include::patterns/improve/manage-complex-client-dependencies-with-facade.adoc[]
 include::patterns/improve/Measure.adoc[]
 include::patterns/improve/Use-Invariants-To-Kill-Zombies.adoc[]
+include::patterns/improve/Improve-feedback-from-and-for-stakeholders.adoc[]
+
