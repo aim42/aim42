@@ -6,6 +6,60 @@
 
 ===== Description
 
+The Database Last approach, also called the
+Reverse Migration Method, is based on a similar
+concept to the Database First approach and is also
+suitable only for fully decomposable legacy systems.
+Legacy applications are gradually migrated to the target
+platform while the legacy database remains on the
+original platform. The legacy database migration is the
+final step of the migration process.  As with the
+Database First approach, a gateway is used to allow for
+the interoperability of both information systems. In this
+case a Reverse Gateway enables target applications to
+access the legacy data management environment. It is
+employed to convert calls from the newly created
+applications and redirect them to the legacy database
+service, as shown in Fig. 1.
+
+graphic
+
+If the legacy database service is to be migrated to a
+relational database management service, then the target
+applications will be developed completely with SQL
+calls to the data service.  It is these calls that are
+captured by the Reverse Gateway and converted to the
+equivalent legacy calls.  The Database Last approach
+has a lot in common with the client/server paradigm.
+The legacy database takes on the role of a database
+server with the  target applications operating as clients.
+There are commercial products available which
+effectively act as reverse gateways.
+
+The Database Last approach is not without its
+problems however. Performance issues can be raised
+with regard to the gateway.  The Reverse Gateway will
+be responsible for mapping the target database schema
+to the legacy database.  This mapping can be complex
+and slow which will affect the new applications. Also
+many of the complex features found in relational
+databases (integrity, consistency constraints, triggers
+etc.), may not be found in the archaic legacy database,
+and hence cannot be exploited by the new application.
+
+This approach is probably more commercially
+acceptable than the Database First approach as legacy
+applications can continue to operate normally while
+being redeveloped. 
+
+However, the migration of the
+legacy data will still require that the legacy system be
+inaccessible for a significant amount of time.  When
+dealing with mission critical information systems, this
+may be unacceptable
+
+(taken from BISBAL, J. et.al.)
+
 
 ===== Experiences
 
@@ -23,10 +77,10 @@
 
 ===== Related Patterns
 
-* test
+* <<Chicken-Little Strategy>>
 
 ===== References
 
-* test
+* BISBAL, J. et.al.; A Survey of Research into Legacy System Migration. Technical Report TCD-CS-1997-01, Computer Science Department, Trinity College Dublin, 1997. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.9051 
 
 // end of list

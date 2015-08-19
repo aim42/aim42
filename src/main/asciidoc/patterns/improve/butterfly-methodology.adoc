@@ -6,43 +6,23 @@ Data-Migration Method without the need for gateways. Enables zero-downtime migra
 
 ===== Description
 The Butterfly-Methodology focuses on data. There is no need for a gateway like in the Chicken-Little Strategy.
-At the beginning there is a initial data migration, which can be used by the development of the new application,
-so that there will be no influence on the legacy system. When the migration process starts, the data of the legacy system
+At the beginning there is a initial data migration, which can be used to develop the new application 
+without an influence on the legacy system. When the migration process starts, the data of the legacy system
 gets freezed and set to read-only.
-Data-Changes will be stored in a temp-store. 
-A Data-Access-Allocator (DAA) decides from now on, if a request has to be send to the temp-store (for already changed data) or to the original database.
+From now on data changes will be stored in a temp-store. 
+A Data-Access-Allocator (DAA) decides, if a request has to be send to the temp-store (for already changed data) or to the original database.
 With the help of a Chrysalizer (Data-Transformator), where transformation rules are implemented, all the data from the read-only database will be moved to the new system.
 No data will be lost, because changes are written to the first temp-store.
-When after that the data of the temp-store will be migrated, changes will be written to a second temp-store and the first one 
+When the inital migration is finished, the data of the temp-store will be migrated; changes will be written to a second temp-store and the first one 
 is set to read-only. This process will continue until the time period of the migration is so short, that there was no change in between.
 At this moment, the legacy system can be shut down, the last temp-store gets migrated and the new system is turned on.
-Through this technique it is possible to migrate a productive system without downtime.
-Another pro is, that the process can be canceled by rollback the temp-stores. It is also possible to do tests of the parallel 
+This approach helps to migrate a productive system without downtime.
+Another pro is, that the process can be canceled at any time by rolling back the temp-stores. It is also possible to do tests of the parallel 
 development with actual data.
 A problem can be the amount of hardware that is needed to keep all the temp-stores if you have a mass of data.
 Also it can be very expensive to implement the DAA.
 
-GRAFIK
-
-Bei der Butterfly-Methode stehen die Daten im Mittelpunkt. Sie kommt im Gegensatz zur „Chicken Little“ Strategie ohne den 
-Einsatz von Gateways aus. Zu Beginn wird eine initiale Datenmigration vorgenommen, so dass darauf aufbauend eine Neuentwicklung 
-stattfinden kann, während das Altsystem unbeeinflusst weiter in Betrieb ist. Sobald die Datenmigration beginnt, wird der Bestand 
-des Altsystems eingefroren und mit einem Schreibschutz versehen. Ein Data-Access-Allocator (DAA) leitet von nun an alle Anfragen um. 
-Änderungen werden in temporären Speichern verwaltet. Bei dem Aufruf bereits geänderter Informationen, werden diese aus dem temporären 
-Speicher gelesen. 
-Daraufhin kann mit Hilfe eines „Chrysalizer“ (Datentransformator) der Datenbestand des Altsystems in das neue System
- überführt werden. Dies geschieht auf Grundlage definierter Transformationsregeln, die im Chrysalizer implementiert sind. 
- Dies geschieht ohne Datenverlust, da zwischenzeitliche Änderungen im ersten Temporärspeicher abgelegt werden. Werden daraufhin 
- die Daten des Temporärspeichers 1 migriert, werden zwischenzeitliche Änderungen in Temporärspeicher 2 geschrieben und der erste 
- mit Schreibschutz versehen. Das geht so lange, bis die Dauer der Migration des letzten Temporärspeichers so kurz ist, dass keine 
- Änderungen mehr stattfinden konnten. 
- In diesem Stadium kann das Altsystem abgeschaltet, der letzte Temporärspeicher überführt 
- und das neue System in Betrieb genommen werden. Diese Technik ermöglicht es, das Produktivsystem ohne Downtime zu migrieren. 
- Ein weiterer Vorteil besteht darin, dass man die Migration jederzeit abbrechen könnte, indem man die Temporärspeicher wieder 
- zurückführt. Außerdem ist es möglich, die parallele Neuentwicklung umfangreichen Tests mit aktuellen Daten zu unterziehen.
-Ein Nachteil ist, dass bei großen Datenbeständen ein hoher Hardwareeinsatz nötig ist, um eine große Zahl an Temporärspeicher 
-zu ermöglichen. Des Weiteren kann auch die Entwicklung des DAA sehr aufwändig werden, so dass keine Ersparnis mehr gegenüber 
-den Gateways der Chicken-Litte-Methode existiert.
+GRAPHIC
 
 
 ===== Experiences
