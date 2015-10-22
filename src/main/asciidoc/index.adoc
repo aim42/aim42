@@ -11,8 +11,7 @@
 
 = image:aim42-logo.png[aim 42] Method Guide
 :description: aim 42 supports software evolution, maintenance and improvement - in a systematic and pragmatic way.
-:keywords: software-architecture, evolution, maintenance, 
-modernization, improvement, analysis, evaluation, reengineering, refactoring, patterns, practices
+:keywords: software-architecture, evolution, maintenance, modernization, improvement, analysis, evaluation, reengineering, refactoring, patterns, practices
 :toc:
 :toclevels: 3
 :imagesdir: ./images
