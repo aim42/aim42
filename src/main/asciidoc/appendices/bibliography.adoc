@@ -98,14 +98,15 @@ A pattern-based approach to re-engineer object-oriented legacy systems. It conta
 https://bitbucket.org/arc42/quality-requirements[(Free) Examples of Practical Software Quality Requirements].
 
 * [[[SERIOUS]]] Software Evolution, Refactoring, Improvement of Operational & Usable Systems.
-http://www.hitech-projects.com/euprojects/serious/[ITEA / EUREKA research project].
-Completed in 2008, holds a fairly large number of deliverables.
+https://itea3.org/project/serious.html[ITEA / EUREKA research project].
+Completed in 2008, holds a fairly large number of deliverables. Too bad, some of the result websites
+are down...
 
 * [[[SERIOUS-Refactoring]]]
-http://www.hitech-projects.com/euprojects/serious/deliverables/public%20deliverables/deliverables%20wp1/D1.3%20Refactoring%20Handbook.pdf[SERIOUS Refactoring Handbook].
+http://lore.ua.ac.be/Publications/pdf/SERIOUSRefactoringHandbook.pdf[SERIOUS Refactoring Handbook].
 
 * [[[SERIOUS-Methods]]] SERIOUS project.
-http://www.hitech-projects.com/euprojects/serious/deliverables/public%20deliverables/deliverables%20wp3/D3.3%20Overview%20and%20evaluation%20of%20design%20and%20refactoring%20methods.pdf[Overview and evaluation of design and refactoring methods]
+http://www.fmeainfocentre.com/updates/dec08/Overview%20and%20evaluation%20of%20design%20and%20refactoring%20methods.PDF[Overview and evaluation of design and refactoring methods]
 
 * [[[Software-Evolution]]] http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)2047-7481[Journal of Software: Evolution and Process]. Academic journal on software evolution and maintenance.
 
