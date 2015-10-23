@@ -15,10 +15,10 @@ icon:twitter[2x] Twitter::
 https://twitter.com/arc_improve42[@arc_improve42]
 
 icon:inbox[2x] Mailing list::
-There's even a (human-managed) mailing list: If you like to participate, send your subscribe-request to aim42-at-lists.innoq.com. 
+Due to excessive spam, we closed our (human-managed) mailing list - therefore you have to stick to issues (see above) to get in contact with the aim42 team.
 
 icon:comment-o[2x] Suggestions::
-In case you have ideas, critique or proposals - just let us know at aim42-at-lists.innoq.com.
+open an issue (see above) and test our reactivity...
 
 [small]#(due to increased spam we had to remove the convenient mailto links, sorry)#
 
