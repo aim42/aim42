@@ -9,11 +9,14 @@ aim 42 supports software evolution, maintenance, migration and improvement - in 
 
 [NOTE]
 --
-http://aim42.org[aim42] is a collection of practices and patterns to support software evolution, maintenance, migration and improvement of software systems:
+http://aim42.org[aim42] is a collection of practices and patterns to support software evolution, modernization, maintenance, migration and improvement of software systems:
 
-. Optimize your software and reduce maintenance cost
-. Control risks, issues and technical debt
-. Organizes patterns and practices in three phases (<<Analyze>>, <<Evaluate>> and <<Improve>>)
+aim42:
+
+. helps you optimize your software and reduce maintenance cost
+. helps you to identify critical issues, technical debt and risks
+. supports both business and technical stakeholders
+. organizes patterns and practices in three phases (<<Analyze>>, <<Evaluate>> and <<Improve>>)
 . Free and open-source, <<contributions,contributions>> welcome.
 . Grounded in practice , proven approaches, backed by serious research.
 --

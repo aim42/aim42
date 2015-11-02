@@ -5,14 +5,14 @@
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGraffle6</string>
-		<string>156.11.0.206384</string>
+		<string>167.2.0.244490</string>
 	</array>
 	<key>CreationDate</key>
 	<string>2014-01-07 16:35:15 +0000</string>
 	<key>Creator</key>
 	<string>Dr. Gernot Starke</string>
 	<key>GraphDocumentVersion</key>
-	<integer>11</integer>
+	<integer>12</integer>
 	<key>GuidesLocked</key>
 	<string>NO</string>
 	<key>GuidesVisible</key>
@@ -26,7 +26,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2014-08-28 12:15:55 +0000</string>
+	<string>2015-10-22 16:01:15 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>NotesVisible</key>
@@ -55,7 +55,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{595, 842}</string>
+			<string>{595.27557277679443, 841.8897705078125}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
@@ -85,7 +85,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {559.27557277679443, 782.8897705078125}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -1303,11 +1303,6 @@
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -1333,11 +1328,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.424464</string>
+								<real>0.42446400000000001</real>
 								<key>g</key>
-								<string>0.742287</string>
+								<real>0.74228700000000003</real>
 								<key>r</key>
-								<string>0.903482</string>
+								<real>0.90348200000000001</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -1347,13 +1342,13 @@
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -1363,11 +1358,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -1385,11 +1380,6 @@
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -1415,11 +1405,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.0986538</string>
+								<real>0.0986538</real>
 								<key>g</key>
-								<string>0.401761</string>
+								<real>0.40176099999999998</real>
 								<key>r</key>
-								<string>0.103913</string>
+								<real>0.10391300000000001</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -1429,13 +1419,13 @@
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -1445,11 +1435,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -1467,11 +1457,6 @@
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -1497,11 +1482,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.602105</string>
+								<real>0.602105</real>
 								<key>g</key>
-								<string>0.447416</string>
+								<real>0.44741599999999998</real>
 								<key>r</key>
-								<string>0.314578</string>
+								<real>0.31457800000000002</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -1511,13 +1496,13 @@
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -1527,11 +1512,11 @@
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -1567,8 +1552,6 @@
 					</dict>
 					<key>ID</key>
 					<integer>827</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -1590,16 +1573,16 @@
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs30 \cf2 collect\'85}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -1631,8 +1614,6 @@
 					</dict>
 					<key>ID</key>
 					<integer>826</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -1654,16 +1635,16 @@
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 improve}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -1695,8 +1676,6 @@
 					</dict>
 					<key>ID</key>
 					<integer>825</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -1718,16 +1697,16 @@
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 evaluate}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>TextRotation</key>
 					<real>54.751670837402344</real>
@@ -1761,8 +1740,6 @@
 					</dict>
 					<key>ID</key>
 					<integer>106</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -1784,16 +1761,16 @@
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 analyze}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>TextRotation</key>
 					<real>300.96710205078125</real>
@@ -1809,11 +1786,6 @@
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -2130,7 +2102,7 @@
 						<string>{-0.76690640150032785, 1.0907026885201809}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -2148,11 +2120,11 @@ To 360.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -2160,11 +2132,11 @@ To 360.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -2183,11 +2155,6 @@ To 360.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -2504,7 +2471,7 @@ To 360.0\'ba}</string>
 						<string>{1.0334496584517034, -0.84247249781242928}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -2522,11 +2489,11 @@ To 240.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -2534,11 +2501,11 @@ To 240.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -2557,11 +2524,6 @@ To 240.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -2878,7 +2840,7 @@ To 240.0\'ba}</string>
 						<string>{-0.95789092779159635, -0.92748192540127095}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -2896,11 +2858,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -2908,11 +2870,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -2933,11 +2895,6 @@ To 120.0\'ba}</string>
 					<string>LineGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -2952,6 +2909,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Cap</key>
@@ -2959,11 +2921,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>SharpArrow</string>
@@ -2994,11 +2956,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3015,6 +2972,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3022,11 +2984,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3057,11 +3019,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3078,6 +3035,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3085,11 +3047,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3118,11 +3080,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3139,6 +3096,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3146,11 +3108,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3181,11 +3143,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3202,6 +3159,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3209,11 +3171,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3242,11 +3204,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3263,6 +3220,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3270,11 +3232,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3303,11 +3265,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3324,6 +3281,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3331,11 +3293,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3366,11 +3328,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3387,6 +3344,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3394,11 +3356,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3429,11 +3391,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3450,6 +3407,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3457,11 +3419,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3492,11 +3454,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3513,6 +3470,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3520,11 +3482,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3555,11 +3517,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3576,6 +3533,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3583,11 +3545,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3618,11 +3580,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3639,6 +3596,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3646,11 +3608,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3679,11 +3641,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3700,6 +3657,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3707,11 +3669,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3742,11 +3704,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3763,6 +3720,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3770,11 +3732,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3805,11 +3767,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3826,6 +3783,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3833,11 +3795,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3866,11 +3828,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3887,6 +3844,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3894,11 +3856,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3927,11 +3889,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -3948,6 +3905,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -3955,11 +3917,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -3997,8 +3959,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>828</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -4020,9 +3980,9 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -4032,7 +3992,7 @@ To 120.0\'ba}</string>
 
 \fs24 (problems, risks)}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -4065,6 +4025,11 @@ To 120.0\'ba}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -4072,11 +4037,11 @@ To 120.0\'ba}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>g</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>r</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -4114,6 +4079,11 @@ To 120.0\'ba}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -4121,11 +4091,11 @@ To 120.0\'ba}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>g</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>r</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -4163,6 +4133,11 @@ To 120.0\'ba}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -4170,11 +4145,11 @@ To 120.0\'ba}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>g</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>r</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -4212,6 +4187,11 @@ To 120.0\'ba}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -4219,11 +4199,11 @@ To 120.0\'ba}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>g</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>r</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -4306,7 +4286,7 @@ To 120.0\'ba}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {1118, 783}}</string>
+				<string>{{0, 0}, {1118.5511455535889, 782.8897705078125}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -5524,11 +5504,6 @@ To 120.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -5554,11 +5529,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.424464</string>
+								<real>0.42446400000000001</real>
 								<key>g</key>
-								<string>0.742287</string>
+								<real>0.74228700000000003</real>
 								<key>r</key>
-								<string>0.903482</string>
+								<real>0.90348200000000001</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -5568,13 +5543,13 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -5584,11 +5559,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -5606,11 +5581,6 @@ To 120.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -5636,11 +5606,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.0986538</string>
+								<real>0.0986538</real>
 								<key>g</key>
-								<string>0.401761</string>
+								<real>0.40176099999999998</real>
 								<key>r</key>
-								<string>0.103913</string>
+								<real>0.10391300000000001</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -5650,13 +5620,13 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -5666,11 +5636,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -5688,11 +5658,6 @@ To 120.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -5718,11 +5683,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.602105</string>
+								<real>0.602105</real>
 								<key>g</key>
-								<string>0.447416</string>
+								<real>0.44741599999999998</real>
 								<key>r</key>
-								<string>0.314578</string>
+								<real>0.31457800000000002</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -5732,13 +5697,13 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -5748,11 +5713,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -5788,8 +5753,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>827</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -5811,16 +5774,16 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs30 \cf2 collect\'85}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -5852,8 +5815,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>826</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -5875,16 +5836,16 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 improve}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -5916,8 +5877,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>825</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -5939,16 +5898,16 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 evaluate}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>TextRotation</key>
 					<real>54.751670837402344</real>
@@ -5982,8 +5941,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>106</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -6005,16 +5962,16 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 analyze}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>TextRotation</key>
 					<real>300.96710205078125</real>
@@ -6030,11 +5987,6 @@ To 120.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -6351,7 +6303,7 @@ To 120.0\'ba}</string>
 						<string>{-0.76690640150032785, 1.0907026885201809}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -6369,11 +6321,11 @@ To 360.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -6381,11 +6333,11 @@ To 360.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -6404,11 +6356,6 @@ To 360.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -6725,7 +6672,7 @@ To 360.0\'ba}</string>
 						<string>{1.0334496584517034, -0.84247249781242928}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -6743,11 +6690,11 @@ To 240.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -6755,11 +6702,11 @@ To 240.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -6778,11 +6725,6 @@ To 240.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7099,7 +7041,7 @@ To 240.0\'ba}</string>
 						<string>{-0.95789092779159635, -0.92748192540127095}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -7117,11 +7059,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -7129,11 +7071,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -7166,8 +7108,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>906</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7189,9 +7129,9 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -7201,7 +7141,7 @@ To 120.0\'ba}</string>
 
 \fs22 \cf2 (problems, risks)}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -7229,8 +7169,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>907</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -7252,7 +7190,7 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>RTFD</key>
 						<data>
 						BAtzdHJlYW10eXBlZIHoA4QBQISE
@@ -7272,15 +7210,15 @@ To 120.0\'ba}</string>
 						hpKEoqEAcIaShKKhAIGMAIaShKKh
 						AIGoAIaShKKhAIHEAIaShKKhAIHg
 						AIaShKKhAIH8AIaShKKhAIEYAYaS
-						hKKhAIE0AYaShKKhAIFQAYaGAIaS
-						hJaWBk5TRm9udIaShISEBk5TRm9u
-						dB6UmSiEBVs0MGNdBgAAAB4AAAD/
-						/kgAZQBsAHYAZQB0AGkAYwBhAC0A
-						QgBvAGwAZAAAAIQBZg+bAJsBmwCb
-						AIaGhg==
+						hKKhAIE0AYaShKKhAIFQAYaGgQAI
+						hARbMWZdg83MTD2GkoSWlgZOU0Zv
+						bnSGkoSEhAZOU0ZvbnQelJkohAVb
+						NDBjXQYAAAAeAAAA//5IAGUAbAB2
+						AGUAdABpAGMAYQAtAEIAbwBsAGQA
+						AACEAWYPmwCbAZsAmwCGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red20\green147\blue220;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -7290,7 +7228,7 @@ evaluate\
 \
 improvements}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -7300,11 +7238,6 @@ improvements}</string>
 					<string>LineGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7319,6 +7252,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Cap</key>
@@ -7326,11 +7264,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.839216</string>
+								<real>0.83921599999999996</real>
 								<key>g</key>
-								<string>0.584314</string>
+								<real>0.584314</real>
 								<key>r</key>
-								<string>0.223529</string>
+								<real>0.22352900000000001</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>SharpArrow</string>
@@ -7361,11 +7299,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7382,6 +7315,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7389,11 +7327,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7424,11 +7362,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7445,6 +7378,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7452,11 +7390,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7485,11 +7423,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7506,6 +7439,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7513,11 +7451,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7548,11 +7486,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7569,6 +7502,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7576,11 +7514,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7609,11 +7547,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7630,6 +7563,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7637,11 +7575,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7670,11 +7608,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7691,6 +7624,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7698,11 +7636,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7733,11 +7671,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7754,6 +7687,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7761,11 +7699,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7796,11 +7734,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7817,6 +7750,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7824,11 +7762,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7859,11 +7797,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7880,6 +7813,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7887,11 +7825,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7922,11 +7860,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -7943,6 +7876,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -7950,11 +7888,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -7985,11 +7923,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -8006,6 +7939,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -8013,11 +7951,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -8046,11 +7984,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -8067,6 +8000,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -8074,11 +8012,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -8109,11 +8047,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -8130,6 +8063,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -8137,11 +8075,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -8172,11 +8110,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -8193,6 +8126,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -8200,11 +8138,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -8233,11 +8171,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -8254,6 +8187,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -8261,11 +8199,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -8294,11 +8232,6 @@ improvements}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -8315,6 +8248,11 @@ improvements}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -8322,11 +8260,11 @@ improvements}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -8364,8 +8302,6 @@ improvements}</string>
 					</dict>
 					<key>ID</key>
 					<integer>885</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8387,9 +8323,9 @@ improvements}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red57\green149\blue214;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -8397,7 +8333,7 @@ improvements}</string>
 \f0\fs30 \cf2 Improvement \
 Backlog}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -8430,6 +8366,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -8437,11 +8378,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.839216</string>
+										<real>0.83921599999999996</real>
 										<key>g</key>
-										<string>0.584314</string>
+										<real>0.584314</real>
 										<key>r</key>
-										<string>0.223529</string>
+										<real>0.22352900000000001</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -8479,6 +8420,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -8486,11 +8432,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.839216</string>
+										<real>0.83921599999999996</real>
 										<key>g</key>
-										<string>0.584314</string>
+										<real>0.584314</real>
 										<key>r</key>
-										<string>0.223529</string>
+										<real>0.22352900000000001</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -8528,6 +8474,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -8535,11 +8486,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.839216</string>
+										<real>0.83921599999999996</real>
 										<key>g</key>
-										<string>0.584314</string>
+										<real>0.584314</real>
 										<key>r</key>
-										<string>0.223529</string>
+										<real>0.22352900000000001</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -8577,6 +8528,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -8584,11 +8540,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.839216</string>
+										<real>0.83921599999999996</real>
 										<key>g</key>
-										<string>0.584314</string>
+										<real>0.584314</real>
 										<key>r</key>
-										<string>0.223529</string>
+										<real>0.22352900000000001</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -8630,8 +8586,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>879</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8653,16 +8607,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs12 \cf2 6}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -8690,8 +8644,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>878</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8713,16 +8665,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs12 \cf2 5}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -8750,8 +8702,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>877</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8773,16 +8723,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs12 \cf2 4}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -8810,8 +8760,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>876</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8833,16 +8781,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs12 \cf2 3}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -8870,8 +8818,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>875</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8893,16 +8839,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs12 \cf2 1}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -8930,8 +8876,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>874</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -8953,16 +8897,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs12 \cf2 1}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -8990,8 +8934,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>873</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -9013,16 +8955,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs12 \cf2 2}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -9050,8 +8992,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>872</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -9073,16 +9013,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\fs12 \cf2 2}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -9110,8 +9050,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>871</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -9133,16 +9071,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs12 \cf2 1}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -9170,8 +9108,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>870</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -9193,16 +9129,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs30 \cf2 evaluate}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -9221,11 +9157,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9242,6 +9173,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9249,11 +9185,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9281,11 +9217,6 @@ Backlog}</string>
 					<string>LineGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9300,6 +9231,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Cap</key>
@@ -9307,11 +9243,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>SharpArrow</string>
@@ -9342,11 +9278,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9363,6 +9294,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9370,11 +9306,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9405,11 +9341,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9426,6 +9357,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9433,11 +9369,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9466,11 +9402,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9487,6 +9418,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9494,11 +9430,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9529,11 +9465,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9550,6 +9481,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9557,11 +9493,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9590,11 +9526,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9611,6 +9542,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9618,11 +9554,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9651,11 +9587,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9672,6 +9603,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9679,11 +9615,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9714,11 +9650,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9735,6 +9666,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9742,11 +9678,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9777,11 +9713,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9798,6 +9729,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9805,11 +9741,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9840,11 +9776,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9861,6 +9792,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9868,11 +9804,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9903,11 +9839,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9924,6 +9855,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9931,11 +9867,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -9966,11 +9902,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -9987,6 +9918,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -9994,11 +9930,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10027,11 +9963,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10048,6 +9979,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10055,11 +9991,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10090,11 +10026,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10111,6 +10042,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10118,11 +10054,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10153,11 +10089,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10174,6 +10105,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10181,11 +10117,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10214,11 +10150,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10235,6 +10166,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10242,11 +10178,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10275,11 +10211,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10296,6 +10227,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10303,11 +10239,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10345,8 +10281,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>851</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -10368,9 +10302,9 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -10403,6 +10337,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -10410,11 +10349,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.25098</string>
+										<real>0.25097999999999998</real>
 										<key>g</key>
-										<string>0</string>
+										<real>0.0</real>
 										<key>r</key>
-										<string>0.501961</string>
+										<real>0.50196099999999999</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -10452,6 +10391,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -10459,11 +10403,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.25098</string>
+										<real>0.25097999999999998</real>
 										<key>g</key>
-										<string>0</string>
+										<real>0.0</real>
 										<key>r</key>
-										<string>0.501961</string>
+										<real>0.50196099999999999</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -10501,6 +10445,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -10508,11 +10457,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.25098</string>
+										<real>0.25097999999999998</real>
 										<key>g</key>
-										<string>0</string>
+										<real>0.0</real>
 										<key>r</key>
-										<string>0.501961</string>
+										<real>0.50196099999999999</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -10550,6 +10499,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -10557,11 +10511,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.25098</string>
+										<real>0.25097999999999998</real>
 										<key>g</key>
-										<string>0</string>
+										<real>0.0</real>
 										<key>r</key>
-										<string>0.501961</string>
+										<real>0.50196099999999999</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -10594,11 +10548,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10615,6 +10564,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10622,11 +10576,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10654,11 +10608,6 @@ Backlog}</string>
 					<string>LineGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10673,6 +10622,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Cap</key>
@@ -10680,11 +10634,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>SharpArrow</string>
@@ -10715,11 +10669,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10736,6 +10685,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10743,11 +10697,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10778,11 +10732,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10799,6 +10748,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10806,11 +10760,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10839,11 +10793,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10860,6 +10809,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10867,11 +10821,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10902,11 +10856,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10923,6 +10872,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10930,11 +10884,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -10963,11 +10917,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -10984,6 +10933,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -10991,11 +10945,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11024,11 +10978,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11045,6 +10994,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11052,11 +11006,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11087,11 +11041,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11108,6 +11057,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11115,11 +11069,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11150,11 +11104,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11171,6 +11120,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11178,11 +11132,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11213,11 +11167,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11234,6 +11183,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11241,11 +11195,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11276,11 +11230,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11297,6 +11246,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11304,11 +11258,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11339,11 +11293,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11360,6 +11309,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11367,11 +11321,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11400,11 +11354,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11421,6 +11370,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11428,11 +11382,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11463,11 +11417,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11484,6 +11433,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11491,11 +11445,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11526,11 +11480,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11547,6 +11496,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11554,11 +11508,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11587,11 +11541,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11608,6 +11557,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11615,11 +11569,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11648,11 +11602,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -11669,6 +11618,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -11676,11 +11630,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -11718,8 +11672,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>828</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -11741,9 +11693,9 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -11753,7 +11705,7 @@ Backlog}</string>
 
 \fs22 \cf2 (problems, risks)}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -11779,13 +11731,18 @@ Backlog}</string>
 							<integer>222</integer>
 							<key>Points</key>
 							<array>
-								<string>{246.66071298962825, 185.32681777275863}</string>
-								<string>{280.66337524626306, 187.32767696346363}</string>
-								<string>{333.41296356029159, 185.73717362474446}</string>
-								<string>{355.70660535827369, 188.13640747467642}</string>
+								<string>{246.48131493527697, 180.59111604630445}</string>
+								<string>{280.48397719191178, 182.59197523700945}</string>
+								<string>{333.23356550594031, 181.00147189829028}</string>
+								<string>{355.52720730392241, 183.40070574822224}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -11793,11 +11750,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>g</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>r</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -11828,13 +11785,18 @@ Backlog}</string>
 							<integer>223</integer>
 							<key>Points</key>
 							<array>
-								<string>{360.22328885766149, 41.861020381744268}</string>
-								<string>{359.37131359903714, 81.842260617568201}</string>
-								<string>{360.22328885766149, 140.31647187646541}</string>
-								<string>{358.63212528910998, 182.57413873644435}</string>
+								<string>{360.04389080331021, 37.125318655290073}</string>
+								<string>{359.19191554468586, 77.106558891113991}</string>
+								<string>{360.04389080331021, 135.5807701500112}</string>
+								<string>{358.4527272347587, 177.83843700999014}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -11842,11 +11804,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>g</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>r</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -11877,13 +11839,18 @@ Backlog}</string>
 							<integer>224</integer>
 							<key>Points</key>
 							<array>
-								<string>{244.67219232489515, 40.006930802333343}</string>
-								<string>{243.81674669861815, 79.988171038157631}</string>
-								<string>{244.67219232489515, 138.46537759524415}</string>
-								<string>{243.08102875634367, 180.720049157034}</string>
+								<string>{244.49279427054387, 35.271229075879148}</string>
+								<string>{243.63734864426686, 75.252469311703436}</string>
+								<string>{244.49279427054387, 133.72967586878994}</string>
+								<string>{242.90163070199239, 175.98434743057979}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -11891,11 +11858,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>g</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>r</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -11926,13 +11893,18 @@ Backlog}</string>
 							<integer>225</integer>
 							<key>Points</key>
 							<array>
-								<string>{246.66071298962825, 31.680001835028047}</string>
-								<string>{280.66337524626306, 33.680861025733051}</string>
-								<string>{333.41296356029159, 31.775851377097904}</string>
-								<string>{355.70660535827369, 34.486596238756491}</string>
+								<string>{246.48131493527697, 26.944300108573856}</string>
+								<string>{280.48397719191178, 28.945159299278856}</string>
+								<string>{333.23356550594031, 27.040149650643713}</string>
+								<string>{355.52720730392241, 29.750894512302295}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -11940,11 +11912,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>g</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 										<key>r</key>
-										<string>0.298039</string>
+										<real>0.298039</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -12027,7 +11999,7 @@ Backlog}</string>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {559.27557277679443, 782.8897705078125}}</string>
 				<key>Class</key>
 				<string>SolidGraphic</string>
 				<key>ID</key>
@@ -13243,11 +13215,6 @@ Backlog}</string>
 					<string>LineGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -13262,6 +13229,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Cap</key>
@@ -13269,11 +13241,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.839216</string>
+								<real>0.83921599999999996</real>
 								<key>g</key>
-								<string>0.584314</string>
+								<real>0.584314</real>
 								<key>r</key>
-								<string>0.223529</string>
+								<real>0.22352900000000001</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>SharpArrow</string>
@@ -13297,11 +13269,6 @@ Backlog}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -13327,11 +13294,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.424464</string>
+								<real>0.42446400000000001</real>
 								<key>g</key>
-								<string>0.742287</string>
+								<real>0.74228700000000003</real>
 								<key>r</key>
-								<string>0.903482</string>
+								<real>0.90348200000000001</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -13341,13 +13308,13 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -13357,11 +13324,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -13379,11 +13346,6 @@ Backlog}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -13409,11 +13371,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.0986538</string>
+								<real>0.0986538</real>
 								<key>g</key>
-								<string>0.401761</string>
+								<real>0.40176099999999998</real>
 								<key>r</key>
-								<string>0.103913</string>
+								<real>0.10391300000000001</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -13423,13 +13385,13 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -13439,11 +13401,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -13461,11 +13423,6 @@ Backlog}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -13491,11 +13448,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.602105</string>
+								<real>0.602105</real>
 								<key>g</key>
-								<string>0.447416</string>
+								<real>0.44741599999999998</real>
 								<key>r</key>
-								<string>0.314578</string>
+								<real>0.31457800000000002</real>
 							</dict>
 							<key>MiddleFraction</key>
 							<real>0.4523809552192688</real>
@@ -13505,13 +13462,13 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>a</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0</string>
+								<real>0.0</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -13521,11 +13478,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>g</key>
-								<string>0.4822</string>
+								<real>0.48220000000000002</real>
 								<key>r</key>
-								<string>0.910613</string>
+								<real>0.91061300000000001</real>
 							</dict>
 							<key>Draws</key>
 							<string>NO</string>
@@ -13561,8 +13518,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>827</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -13584,16 +13539,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs30 \cf2 collect\'85}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -13625,8 +13580,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>826</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -13648,16 +13601,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 improve}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -13689,8 +13642,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>825</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -13712,16 +13663,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 evaluate}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>TextRotation</key>
 					<real>54.751670837402344</real>
@@ -13755,8 +13706,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>106</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -13778,16 +13727,16 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red179\green179\blue179;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
 
 \f0\b\fs28 \cf2 analyze}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>TextRotation</key>
 					<real>300.96710205078125</real>
@@ -13803,11 +13752,6 @@ Backlog}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -14124,7 +14068,7 @@ Backlog}</string>
 						<string>{-0.76690640150032785, 1.0907026885201809}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -14142,11 +14086,11 @@ To 360.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -14154,11 +14098,11 @@ To 360.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -14177,11 +14121,6 @@ To 360.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -14498,7 +14437,7 @@ To 360.0\'ba}</string>
 						<string>{1.0334496584517034, -0.84247249781242928}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -14516,11 +14455,11 @@ To 240.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -14528,11 +14467,11 @@ To 240.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -14551,11 +14490,6 @@ To 240.0\'ba}</string>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -14872,7 +14806,7 @@ To 240.0\'ba}</string>
 						<string>{-0.95789092779159635, -0.92748192540127095}</string>
 					</array>
 					<key>Notes</key>
-					<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+					<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural
@@ -14890,11 +14824,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>g</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 								<key>r</key>
-								<string>0.6</string>
+								<real>0.59999999999999998</real>
 							</dict>
 						</dict>
 						<key>shadow</key>
@@ -14902,11 +14836,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>g</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 								<key>r</key>
-								<string>0.701961</string>
+								<real>0.70196099999999995</real>
 							</dict>
 						</dict>
 						<key>stroke</key>
@@ -14939,8 +14873,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>906</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -14962,9 +14894,9 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red128\green0\blue64;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -14975,7 +14907,7 @@ To 120.0\'ba}</string>
 
 \fs22 \cf2 (problems, risks)}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -14985,11 +14917,6 @@ To 120.0\'ba}</string>
 					<string>LineGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15004,6 +14931,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Cap</key>
@@ -15011,11 +14943,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.839216</string>
+								<real>0.83921599999999996</real>
 								<key>g</key>
-								<string>0.584314</string>
+								<real>0.584314</real>
 								<key>r</key>
-								<string>0.223529</string>
+								<real>0.22352900000000001</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>SharpArrow</string>
@@ -15046,11 +14978,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15067,6 +14994,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15074,11 +15006,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15109,11 +15041,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15130,6 +15057,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15137,11 +15069,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15170,11 +15102,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15191,6 +15118,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15198,11 +15130,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15233,11 +15165,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15254,6 +15181,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15261,11 +15193,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15294,11 +15226,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15315,6 +15242,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15322,11 +15254,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15355,11 +15287,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15376,6 +15303,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15383,11 +15315,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15418,11 +15350,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15439,6 +15366,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15446,11 +15378,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15481,11 +15413,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15502,6 +15429,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15509,11 +15441,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15544,11 +15476,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15565,6 +15492,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15572,11 +15504,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15607,11 +15539,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15628,6 +15555,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15635,11 +15567,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15670,11 +15602,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15691,6 +15618,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15698,11 +15630,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15731,11 +15663,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15752,6 +15679,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15759,11 +15691,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15794,11 +15726,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15815,6 +15742,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15822,11 +15754,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15857,11 +15789,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15878,6 +15805,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15885,11 +15817,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15918,11 +15850,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -15939,6 +15866,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -15946,11 +15878,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -15979,11 +15911,6 @@ To 120.0\'ba}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16000,6 +15927,11 @@ To 120.0\'ba}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16007,11 +15939,11 @@ To 120.0\'ba}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>g</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 								<key>r</key>
-								<string>0.4</string>
+								<real>0.40000000000000002</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16049,8 +15981,6 @@ To 120.0\'ba}</string>
 					</dict>
 					<key>ID</key>
 					<integer>885</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -16072,9 +16002,9 @@ To 120.0\'ba}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red57\green149\blue214;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc
@@ -16082,7 +16012,7 @@ To 120.0\'ba}</string>
 \f0\fs30 \cf2 Improvement \
 Backlog}</string>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -16115,6 +16045,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -16122,11 +16057,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.839216</string>
+										<real>0.83921599999999996</real>
 										<key>g</key>
-										<string>0.584314</string>
+										<real>0.584314</real>
 										<key>r</key>
-										<string>0.223529</string>
+										<real>0.22352900000000001</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -16164,6 +16099,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -16171,11 +16111,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.839216</string>
+										<real>0.83921599999999996</real>
 										<key>g</key>
-										<string>0.584314</string>
+										<real>0.584314</real>
 										<key>r</key>
-										<string>0.223529</string>
+										<real>0.22352900000000001</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -16213,6 +16153,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -16220,11 +16165,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.839216</string>
+										<real>0.83921599999999996</real>
 										<key>g</key>
-										<string>0.584314</string>
+										<real>0.584314</real>
 										<key>r</key>
-										<string>0.223529</string>
+										<real>0.22352900000000001</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -16262,6 +16207,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -16269,11 +16219,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.839216</string>
+										<real>0.83921599999999996</real>
 										<key>g</key>
-										<string>0.584314</string>
+										<real>0.584314</real>
 										<key>r</key>
-										<string>0.223529</string>
+										<real>0.22352900000000001</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -16306,11 +16256,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16327,6 +16272,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16334,11 +16284,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16369,11 +16319,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16390,6 +16335,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16397,11 +16347,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16432,11 +16382,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16453,6 +16398,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16460,11 +16410,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16493,11 +16443,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16514,6 +16459,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16521,11 +16471,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16556,11 +16506,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16577,6 +16522,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16584,11 +16534,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16617,11 +16567,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16638,6 +16583,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16645,11 +16595,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16678,11 +16628,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16699,6 +16644,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16706,11 +16656,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16741,11 +16691,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16762,6 +16707,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16769,11 +16719,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16804,11 +16754,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16825,6 +16770,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16832,11 +16782,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16867,11 +16817,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16888,6 +16833,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16895,11 +16845,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16930,11 +16880,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -16951,6 +16896,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -16958,11 +16908,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -16993,11 +16943,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -17014,6 +16959,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -17021,11 +16971,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -17054,11 +17004,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -17075,6 +17020,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -17082,11 +17032,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -17117,11 +17067,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -17138,6 +17083,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -17145,11 +17095,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -17180,11 +17130,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -17201,6 +17146,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -17208,11 +17158,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>g</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 								<key>r</key>
-								<string>0.298039</string>
+								<real>0.298039</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -17241,11 +17191,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -17262,6 +17207,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -17269,11 +17219,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -17302,11 +17252,6 @@ Backlog}</string>
 					</array>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -17323,6 +17268,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Bezier</key>
@@ -17330,11 +17280,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>0</string>
@@ -17372,8 +17322,6 @@ Backlog}</string>
 					</dict>
 					<key>ID</key>
 					<integer>851</integer>
-					<key>Shape</key>
-					<string>Rectangle</string>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -17395,9 +17343,9 @@ Backlog}</string>
 					<key>Text</key>
 					<dict>
 						<key>Pad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 						<key>VerticalPad</key>
-						<integer>0</integer>
+						<real>0.0</real>
 					</dict>
 					<key>Wrap</key>
 					<string>NO</string>
@@ -17430,6 +17378,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -17437,11 +17390,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.25098</string>
+										<real>0.25097999999999998</real>
 										<key>g</key>
-										<string>0</string>
+										<real>0.0</real>
 										<key>r</key>
-										<string>0.501961</string>
+										<real>0.50196099999999999</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -17479,6 +17432,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -17486,11 +17444,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.25098</string>
+										<real>0.25097999999999998</real>
 										<key>g</key>
-										<string>0</string>
+										<real>0.0</real>
 										<key>r</key>
-										<string>0.501961</string>
+										<real>0.50196099999999999</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -17528,6 +17486,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -17535,11 +17498,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.25098</string>
+										<real>0.25097999999999998</real>
 										<key>g</key>
-										<string>0</string>
+										<real>0.0</real>
 										<key>r</key>
-										<string>0.501961</string>
+										<real>0.50196099999999999</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -17577,6 +17540,11 @@ Backlog}</string>
 							</array>
 							<key>Style</key>
 							<dict>
+								<key>shadow</key>
+								<dict>
+									<key>Draws</key>
+									<string>NO</string>
+								</dict>
 								<key>stroke</key>
 								<dict>
 									<key>Bezier</key>
@@ -17584,11 +17552,11 @@ Backlog}</string>
 									<key>Color</key>
 									<dict>
 										<key>b</key>
-										<string>0.25098</string>
+										<real>0.25097999999999998</real>
 										<key>g</key>
-										<string>0</string>
+										<real>0.0</real>
 										<key>r</key>
-										<string>0.501961</string>
+										<real>0.50196099999999999</real>
 									</dict>
 									<key>HeadArrow</key>
 									<string>0</string>
@@ -17618,11 +17586,6 @@ Backlog}</string>
 					<string>LineGraphic</string>
 					<key>FontInfo</key>
 					<dict>
-						<key>Color</key>
-						<dict>
-							<key>w</key>
-							<string>0</string>
-						</dict>
 						<key>Font</key>
 						<string>Helvetica</string>
 						<key>Size</key>
@@ -17637,6 +17600,11 @@ Backlog}</string>
 					</array>
 					<key>Style</key>
 					<dict>
+						<key>shadow</key>
+						<dict>
+							<key>Draws</key>
+							<string>NO</string>
+						</dict>
 						<key>stroke</key>
 						<dict>
 							<key>Cap</key>
@@ -17644,11 +17612,11 @@ Backlog}</string>
 							<key>Color</key>
 							<dict>
 								<key>b</key>
-								<string>0.25098</string>
+								<real>0.25097999999999998</real>
 								<key>g</key>
-								<string>0</string>
+								<real>0.0</real>
 								<key>r</key>
-								<string>0.501961</string>
+								<real>0.50196099999999999</real>
 							</dict>
 							<key>HeadArrow</key>
 							<string>SharpArrow</string>
@@ -17730,14 +17698,12 @@ Backlog}</string>
 	<false/>
 	<key>WindowInfo</key>
 	<dict>
-		<key>BottomSlabHeight</key>
-		<real>32</real>
 		<key>CurrentSheet</key>
-		<integer>2</integer>
+		<integer>1</integer>
 		<key>Expanded_Canvases</key>
 		<array/>
 		<key>Frame</key>
-		<string>{{474, 22}, {878, 660}}</string>
+		<string>{{174, 127}, {1169, 660}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
@@ -17746,8 +17712,10 @@ Backlog}</string>
 		<true/>
 		<key>SidebarWidth</key>
 		<integer>230</integer>
+		<key>TopSlabHeight</key>
+		<real>530</real>
 		<key>VisibleRegion</key>
-		<string>{{0, -10}, {220.66666666666666, 345.33333333333331}}</string>
+		<string>{{0, 0}, {416.66666666666669, 343.33333333333331}}</string>
 		<key>Zoom</key>
 		<real>1.5</real>
 		<key>ZoomValues</key>
