@@ -1,3 +1,4 @@
+
 build/
 .gradle
 .gradletasknamecache
@@ -12,4 +13,3 @@ build/
 .idea
 Improvement-Practices-Overview (Automatisch gesichert).mmap
 ~$Improvement-Practices-Overview.mmap.~$lock
-/.project
