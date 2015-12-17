@@ -30,6 +30,7 @@ http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-developmen
 
 * [[[Big-Ball-Of-Mud]]] Brian Foote and Joseph Yoder, http://laputan.org/mud/[Big Ball of Mud] - very influentual paper from the http://hillside.net/plop/plop97/[fourth conference on Patterns languages of Program Design, PLoP97]
 
+* [[[BISBAL]]] BISBAL, J. et.al.: A Survey of Research into Legacy System Migration. Technical Report TCD-CS-1997-01, Computer Science Department, Trinity College Dublin, 1997. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.9051
 
 * [[[Bommer-Wartung]]] Christoph Bommer, M. Spindler, V. Barr: Softwarewartung: Grundlagen, Management und Wartungstechniken.
 (in German) dpunkt Verlag, 2008. Interesting treatment of categories of software systems and their respective need for maintenance and evolution. Authors quote studies from Lehman and Belady from the 1970's.
@@ -44,6 +45,8 @@ Addison-Wesley, 2001. Detailed overview of ATAM (and other evaluation methods).
 
 * [[[Campbell14]]] Ann Campbell et. al: SonarQube in Action. Manning Publications, 2014. Great introduction to
 the flexible, multi-language code-analysis toolkit.
+
+* [[[ERDLE]]] ERDLE, C.: Management von Softwaresystemen – Legacy Migrationsstrategien. Seminar an der TU München, Fakultät Informatik, 2005. http://www4.in.tum.de/lehre/seminare/hs/WS0506/mvs/files/Ausarbeitung_Erdle.pdf
 
 * [[[Feathers]]] Michael Feathers: Working Effectively with Legacy Code. Prentice Hall, 2005. The author claims "Code without tests is bad code". So true...
 

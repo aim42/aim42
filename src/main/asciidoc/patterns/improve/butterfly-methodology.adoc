@@ -2,7 +2,8 @@
 ==== [pattern]#Butterfly-Methodology#
 
 ===== Intent
-Data-Migration Method without the need for gateways. Enables zero-downtime migrations by working with temporary data stores.
+Data-Migration Method without the need for gateways. 
+Enables zero-downtime migrations by working with temporary data stores.
 
 ===== Description
 The Butterfly-Methodology focuses on data. There is no need for a gateway like in the Chicken-Little Strategy.
@@ -22,11 +23,10 @@ development with actual data.
 A problem can be the amount of hardware that is needed to keep all the temp-stores if you have a mass of data.
 Also it can be very expensive to implement the DAA.
 
-GRAPHIC
-
+image::butterfly.png["Butterfly-Methodology", title="Butterfly-Methodology"]
 
 ===== Experiences
-tbd
+
 
 ===== Risks
 If the Butterfly Method will be successful depends on the factor v / u,
@@ -39,7 +39,8 @@ Apply this pattern if you need to migrate a mass of data without downtime.
 
 
 ===== Consequences
-tbd
+Enables zero-downtime migrations by working with temporary data stores.
+If the amount of data is huge, there is a need for a lot of hardware.
 
 Critical success factors are:
 
@@ -58,7 +59,10 @@ Critical success factors are:
 
 ===== References
 
-* BISBAL, J. et.al.; A Survey of Research into Legacy System Migration. Technical Report TCD-CS-1997-01, Computer Science Department, Trinity College Dublin, 1997. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.9051 
-* ERDLE, C.: Management von Softwaresystemen – Legacy Migrationsstrategien. Seminar an der TU München, Fakultät Informatik, 2005. http://www4.in.tum.de/lehre/seminare/hs/WS0506/mvs/files/Ausarbeitung_Erdle.pdf    
+* <<BISBAL>>
+* <<ERDLE>>
+
+// * BISBAL, J. et.al.; A Survey of Research into Legacy System Migration. Technical Report TCD-CS-1997-01, Computer Science Department, Trinity College Dublin, 1997. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.9051 
+// * ERDLE, C.: Management von Softwaresystemen – Legacy Migrationsstrategien. Seminar an der TU München, Fakultät Informatik, 2005. http://www4.in.tum.de/lehre/seminare/hs/WS0506/mvs/files/Ausarbeitung_Erdle.pdf    
 
 // end of list
