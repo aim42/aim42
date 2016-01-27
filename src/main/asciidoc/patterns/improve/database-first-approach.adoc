@@ -1,0 +1,86 @@
+[[database-first-approach]]
+==== [pattern]#Database First Approach#
+
+===== Intent
+
+
+===== Description
+
+The Database First approach, also called the Forward Migration Method, involves the initial
+migration of legacy data to a modern, probably relational, Database Management System (DBMS) and
+then incrementally migrating the legacy applications and interfaces.
+While legacy applications and interfaces are being redeveloped, the legacy system remains operable. This
+methodology falls within a group of methodologies which allow for the interoperability between both the
+legacy and target systems. This interoperability is provided by a module known as
+Gateway: a software module introduced between components to mediate between them. Gateways
+can play several roles in migration, insulating certain components from changes being made to others,
+translating requests and data between components or co-ordinating queries and updates between components.
+
+The concrete gateway used by the Database First approach is called Forward Gateway. It enables the
+legacy applications to access the database environment in the target side of the migration process, as shown in
+Fig. 1.  This gateway translates and redirects these calls forward to the new database service.  Results returned
+by the new database service are similarly translated for used by legacy applications.
+
+The main advantage of this approach is that once the legacy data has been migrated, the latest programming
+languages and reporting tools can be used to access the data providing immediate productivity
+benefits.  The legacy system can remain operational while legacy applications and interfaces are rebuilt and
+migrated to the target system one-by-one. When the migration is complete, the gateway will no longer be
+required and can be decommissioned as the old legacy system is shut down.
+
+There are several disadvantages to this approach, in particular, it is only applicable to fully decomposable
+legacy systems where a clean interface to the legacy database service exists. Also, before migration can start,
+the new database structure must be defined.  The major risk with this activity is that the structure of the legacy
+database may adversely influence the structure of the new database.  
+
+The Forward Gateway employed can be very difficult, and sometimes even impossible, to construct due to the differences between 
+the source and the target in technology, in database structure, constraints etc..
+
+Overall this is a rather simplistic approach to legacy system migration. The migration of the legacy data may
+take a significant amount of time during which the legacy system will be inaccessible.  When dealing with
+mission critical information systems this may be unacceptable.
+
+(taken from BISBAL, J. et.al.)
+
+
+The database first approach (also known as forward migration method) provides for legacy databases to be moved unchanged into a 
+relational database management system (RDBMS) to incrementally develop the user interface and the applications on the target system.
+But there is a need for a gateway to accept database calls from the legacy system and to redirect them to the new database system.
+
+As BATEMAN and MURPHY say, there are a few problems and challenges:
+
+* to develop a forward gateway can be complex or even impossible, because there can be big differences in technologies according to structure, constraints, query languages and semantic heterogeneity.
+* usually reverse gateways are available on the market. Vendor tools often enable remote database access for example by sql. The purpose is that the legacy system becomes a big database server.
+* a pre condition to develop a forward gateway is, that the legacy system has clearly specified interfaces to the database layer. If this is not the case, there have to be expensive modifications to the applications, which can be time and cost intensive. 
+* maybe there are a lot of external systems like reports, relying on the interaction with the legacy system. These systems have to be localized and analysed, so that they won't crash after the migration.
+* the new database structure has to be designed and the data mapping has to be implemented before the migration can start. A problem can be data structures, that can not be adopted to the new data structure.
+  
+The main advantage of the database first approach is, that after the big-bang migration of the database, new programming languages and
+reporting tools can be used with the new database system. New applications can be developed in parallel to the legacy system, step by step,
+module by module, without an influence on the legacy system. As the migration is finished, the gateway can be deactivated and the 
+legacy system can be shut down. 
+
+
+===== Experiences
+
+
+===== Risks
+
+
+===== Applicability
+
+
+===== Consequences
+
+
+===== Also Known As
+
+===== Related Patterns
+
+* <<Chicken-Little Strategy>>
+
+===== References
+
+* BATEMAN, A. und J.P.MURPHY: Migration of Legacy Systems. Working Paper: CA-2984, School of Computer Applications, Dublin City University, Ireland 1994
+* BISBAL, J. et.al.; A Survey of Research into Legacy System Migration. Technical Report TCD-CS-1997-01, Computer Science Department, Trinity College Dublin, 1997. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.9051 
+
+// end of list
