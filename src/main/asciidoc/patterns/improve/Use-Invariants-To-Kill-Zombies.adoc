@@ -3,7 +3,7 @@
 
 ===== Intent
 
-Provide a safe approach in situations where  it seems to dangerous to delete
+Provide a safe approach in situations where it seems to dangerous to delete
 code or whole modules from a huge system because <<Static-Code-Analysis>> can't
 recognize whether the code is still in use or not.
 
@@ -44,13 +44,13 @@ appropriate. +
 Just logging the fact might not have a sufficient effect. +
 Sending an e-mail requires at least some infrastructure (and infrastructure
 code) +
-Sending an SMTP-Trap might not be feasible in the environment. +
+Sending an SNMP-Trap might not be feasible in the environment. +
 
 And so on.
 
 This is a classical situation that calls for trade-off decisions, but since this
 piece of code should never be called anyway things like sending an e-mail or
-calling some webservice are not so far out of the question. 
+calling some webservices are not so far out of the question. 
 
 If a huge number of deployments is possible without problems it can also be
 feasible to de-escalate slowly and use more and more intrusive ways to handle
