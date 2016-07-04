@@ -26,7 +26,7 @@ buildscript {
         classpath ('gradle.plugin.org.aim42:htmlSanityCheck:0.9.3')
         classpath ( group: 'org.asciidoctor',
                     name: 'asciidoctor-gradle-plugin',
-                    version: '1.5.2')
+                    version: '1.5.3')
     }
 }
 
@@ -79,7 +79,7 @@ defaultTasks 'aim42'
 
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.4'
+    gradleVersion = '2.13'
 }
 
 task aim42(
