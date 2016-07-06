@@ -1,0 +1,7 @@
+
+[[improve-processes]]
+=== Practices to Improve Processes
+
+[[fig-improve-processes]]
+.Practices for "Improve Processes" 
+image::improve-processes.png["Practices for Improve Processes", 400, title="Practices to improve processes"]
