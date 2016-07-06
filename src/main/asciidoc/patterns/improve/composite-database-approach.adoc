@@ -16,6 +16,8 @@ grow as the migration progresses.  Eventually the target
 system should perform all the functionality of the
 legacy system and the old legacy system can be retired.
 
+image::../../../resources/images/improvement-approaches/composite.png["Composite-Database-Approach", title="Composite-Database Approach"]
+
 During the migration, the old legacy system and its
 target system form a composite information system, as
 shown in Fig. 1, employing a
@@ -54,21 +56,6 @@ overhead not only of the other two approaches but also
 the added complexity introduced by the co-ordinator.
 
 (taken from BISBAL, J. et.al.)
-
-
-Bei der Composite oder auch Parallel Database Strategie existiert die alte Datenbank weiter, während zusätzlich die neue relationale 
-Datenbank aufgesetzt wird. Die neuen Anwendungen werden unter Zuhilfenahme neuer Programmiersprachen, Tools, Methoden und Techniken 
-auf der neuen Plattform mit Zugriff auf die neue Datenbank entwickelt. Da die Alt-Anwendungen weiterhin mit der Alt-Datenbank arbeiten, 
-besteht nun der Bedarf, die somit entstehenden Daten-Duplikationen synchron und konsistent zu halten. Dies geschieht vorwiegend 
-über einen Two-Phase-Commit (2PC) Mechanismus (vgl. [BAT94]). 
-Um die Operationen des Gateways zu koordinieren, wird ein Transaktionen-Koordinator benötigt, welcher die Anfragen an die entsprechende 
-Datenbank weiterleitet und die Wahrung der Datenintegrität gewährleistet. Des Weiteren ist er unter Zuhilfenahme des Two-Phase-Commit 
-Mechanismus, für das Managen der Abhängigkeiten zwischen den Datenbanksystemen zuständig. Um den Anforderungen gerecht zu werden 
-ist erfahrungsgemäß eine Eigenentwicklung des Koordinators nötig. Dies kann wiederum fehleranfällig, zeit- und kostenintensiv und 
-sogar technisch unmöglich sein (vgl. [BAT94]).
-Um die Komplexität geringer zu halten, könnte man, wenn das denn möglich ist, eine Tabelle nach der anderen migrieren. Man kommt 
-jedoch bei dieser Methode um die Entwicklung eines Forward- sowie eines Reverse-Gateways nicht herum. Die folgende Abbildung 7 
-zeigt die Technik der Composite-Database Strategie.
 
 
 ===== Experiences
