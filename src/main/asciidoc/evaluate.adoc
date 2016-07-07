@@ -30,20 +30,18 @@ image::evaluate-domain-conceptmap.png[title="Evaluation Concepts Domain Model"]
 | Estimation | an _approximation_ of any subject
   (here: issues,problems or remedies), which is needed because
 	facts or real observations are not available or possible.
-	|
-
+|
 | Subject    |  | a recurring problem in the <<System>> or
 associated processes
-
 | Parameter  | an important element or foundation of the
 estimation.
-  |
-		* number of developers on the system
-	  * Lines-of-Code (LOC)
+a|
+	* number of developers on the system
+    * Lines-of-Code (LOC)
 
 | Assumption | a fixed setting for any parameter.
   See <<Explicit-Assumption>>  
-  |
+|
 
 | Observation | measure, count, calculate gather real data
 for parameters  | if every developer is
