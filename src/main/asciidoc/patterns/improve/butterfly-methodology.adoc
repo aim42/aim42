@@ -23,7 +23,7 @@ development with actual data.
 A problem can be the amount of hardware that is needed to keep all the temp-stores if you have a mass of data.
 Also it can be very expensive to implement the DAA.
 
-image::../../../resources/images/improvement-approaches/butterfly.png["Butterfly-Methodology", title="Butterfly-Methodology"]
+image::improvement-approaches/butterfly.png["Butterfly-Methodology", title="Butterfly-Methodology"]
 
 ===== Experiences
 

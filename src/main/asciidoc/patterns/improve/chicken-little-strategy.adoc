@@ -1,31 +1,4 @@
 [[chicken-little-strategy]]
 ==== [pattern]#Chicken-Little Strategy#
 
-===== Intent
-
-
-===== Description
-
-
-===== Experiences
-
-
-===== Risks
-
-
-===== Applicability
-
-===== Consequences
-
-
-===== Also Known As
-
-===== Related Patterns
-
-* test
-
-===== References
-
-* test
-
-// end of list
+to be completed...

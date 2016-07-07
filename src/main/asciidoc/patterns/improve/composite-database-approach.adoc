@@ -16,7 +16,7 @@ grow as the migration progresses.  Eventually the target
 system should perform all the functionality of the
 legacy system and the old legacy system can be retired.
 
-image::../../../resources/images/improvement-approaches/composite.png["Composite-Database-Approach", title="Composite-Database Approach"]
+image::improvement-approaches/composite.png["Composite-Database-Approach", title="Composite-Database Approach"]
 
 During the migration, the old legacy system and its
 target system form a composite information system, as
@@ -58,12 +58,6 @@ the added complexity introduced by the co-ordinator.
 (taken from BISBAL, J. et.al.)
 
 
-===== Experiences
-
-
-===== Risks
-
-
 ===== Applicability
 
 The Composite Database approach is
@@ -75,10 +69,6 @@ some which are semi-decomposable and others which
 are non-decomposable, i.e.  what is known as a Hybrid
 Information System architecture.
 
-===== Consequences
-
-
-===== Also Known As
 
 ===== Related Patterns
 
@@ -89,4 +79,4 @@ Information System architecture.
 * BISBAL, J. et.al.; A Survey of Research into Legacy System Migration. Technical Report TCD-CS-1997-01, Computer Science Department, Trinity College Dublin, 1997. http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.50.9051 
 
 
-// end of list
+

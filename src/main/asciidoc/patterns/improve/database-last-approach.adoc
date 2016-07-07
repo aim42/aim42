@@ -22,7 +22,7 @@ employed to convert calls from the newly created
 applications and redirect them to the legacy database
 service, as shown in Fig. 1.
 
-image::../../../resources/images/improvement-approaches/databaseLast.png["Database-Last-Approach", title="Database-Last-Approach"]
+image::improvement-approaches/databaseLast.png["Database-Last-Approach", title="Database-Last-Approach"]
 
 If the legacy database service is to be migrated to a
 relational database management service, then the target
@@ -61,19 +61,6 @@ may be unacceptable
 (taken from BISBAL, J. et.al.)
 
 
-===== Experiences
-
-
-===== Risks
-
-
-===== Applicability
-
-
-===== Consequences
-
-
-===== Also Known As
 
 ===== Related Patterns
 
