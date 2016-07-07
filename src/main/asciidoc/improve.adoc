@@ -78,7 +78,7 @@ to similar entities and potential synergies are utilized.
  
 
 [[improve-approaches]]
-=== Improve Approaches
+===  (Long-Term) Improve Approaches
 The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement.
 
 [[fig-improvement-approaches]]
@@ -129,11 +129,12 @@ include::patterns/improve/butterfly-methodology.adoc[]
 === Categories of Improvement Practices
 
 We divide improvement practices into several categories (shown in 
-the figure below). 
+the figure below). In contrast to the (more _strategic_) approaches
+these practices are more a _tactical_ nature. 
 
 
 [[improvement-categories]]
-.Improvement Categories
+.Categories of Improvement Practices
 image::improve-practice-categories.png[title="Categories of Improvement Practices"]
 
 // TODO: Describe meaning/definition of categories
