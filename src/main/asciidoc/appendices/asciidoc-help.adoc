@@ -153,8 +153,10 @@ Files are included with the "include" directive:
 
 === Attributes
 Some attributes are useful, e.g.
-
-* `{docdate}` will insert the last modification data (here: {docdate})
+----
+{docdate}
+----
+will insert the last modification data (here: {docdate})
 
 === Footnotes
 In case you need a footnote - that's easy too:
