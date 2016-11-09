@@ -90,7 +90,7 @@ You should consider a rewrite (not necessarily bing bang) for the following reas
   needed to implement them are so substantial that a rewrite is necessary
 * Even simple bug fixes take too long because of the complexity of existing code and might introduce new bugs
 * New features take too long and cost too much because of the interdependence of the codebase (new features cannot be isolated, and therefore affect existing features)
-* Deployment is hard or impossible to automate, takes too long and is really risky. In fact, in fails often.
+* Deployment is hard or impossible to automate, takes too long and is really risky. In fact, it fails often.
 * Your data are inconsistent and causes surprised and/or angry users. Keeping the data consistent is extremely hard,
   because the data model and the code operating on the data model is a huge mess.
 
@@ -110,8 +110,8 @@ A big bang approach is possible, if you cannot or want to incrementally replace 
 
 * You and your stakeholders are OK with
  ** Not getting new features, rather less, for the time of the rewrite despite having higher cost (writing the new system and running the old one)
- ** The new system will have less features then the old one (at least in the beginning)
- ** The new system will have more bugs (because the old one is already battle-proofed for a long time and the new one is not)
+ ** The new system will have less features than the old one (at least in the beginning)
+ ** The new system will have more bugs (because the old one is already battle-proofed for a long time and the new one is not).
     Please be aware that it is naive to belief that you can deliver the new system almost bug free, because you already have
     the experience of the old system
 * In case the application cannot be rewritten within 3 month, you and your stakeholders need besides enough budget and manpower
