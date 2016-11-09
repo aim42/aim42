@@ -12,29 +12,18 @@ An alternative route is to gradually create a new system around the edges of the
 several years until the old system is strangled. The most important reason to consider a strangler application over a
 cut-over rewrite is reduced risk (it might cost more to do a strangler, but that's the price of risk reduction) [2].
 
-Paul Hammant describes the Strangler very well and uses the following visualization:
-
 [[figure-strangulation]]
-image::strangulation.jpg["strangulation", title="Strangler Applications"]
+image::strangulation.jpg["strangulation", title="Strangler Applications (Paul Hammant)"]
 
-Paul Hammant describes two ways of achieving the goal of moving from the (red) old system to the (blue) new system:
-1) with adding new features and 2) without adding new features.
-
-Deciding to go for the first strategy means that you can still keep your business happy, because you still able to
+He discusses two ways of achieving the goal of moving from the (red) old system to the (blue) new system:
+1) with adding new features and 2) without adding new features. Deciding to go for the first strategy means that you can still keep your business happy, because you still able to
 deliver new features. However, this approach will take longer than the second one.
 
 
 
 ===== Experiences
 
-* Nat Pryce reports failed projects and challenges using the Strangler-pattern:
-  ** "I've seen critical systems that have suffered both of these fates, and ended up with about four or five
-     "strategic architectural directions" and "future state architectures". One large multi-site project ended up with
-     eight different new persistence mechanisms in its new architecture."
-  ** "Another ended up with two different database schemas, one for the old way of doing things and another for the
-     new way, neither schema was ever removed from the system and there were also multiple class hierarchies that mapped
-     to one or even both of these schemas."
-* Paul Hammont reports the following http://paulhammant.com/2013/07/14/legacy-application-strangulation-case-studies/[case studies]
+* Paul Hammont reports the following positive http://paulhammant.com/2013/07/14/legacy-application-strangulation-case-studies/[case studies]
   ** Airline Booking System: the C++ application which was stable but hard to grow (and find developers) has been incrementally
      replaced by a Spring stack based application. A load balancer routed the requests to either the C++ or the Spring
      application. They introduced session store used by both systems (the C++ application needed to be adjusted for this).
@@ -49,6 +38,13 @@ deliver new features. However, this approach will take longer than the second on
   ** Used consumer goods magazine’s web portal - a move from Oracle Endeca to Java/JavaScript. First, they changed the
      Oracle frontend that it looks like the new system. Then they integrated a little piece of new functionality from
      the new stack into the website. The first strangler release took 6 month, then the delivered regularly.
+* Nat Pryce reports failed projects and challenges using the Strangler-pattern:
+  ** "I've seen critical systems that have suffered both of these fates, and ended up with about four or five
+     "strategic architectural directions" and "future state architectures". One large multi-site project ended up with
+     eight different new persistence mechanisms in its new architecture."
+  ** "Another ended up with two different database schemas, one for the old way of doing things and another for the
+     new way, neither schema was ever removed from the system and there were also multiple class hierarchies that mapped
+     to one or even both of these schemas."
 
 ===== Risks
 
