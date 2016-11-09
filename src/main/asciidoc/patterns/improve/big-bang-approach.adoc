@@ -111,7 +111,7 @@ A big bang approach is possible, if you cannot or want to incrementally replace 
 * You and your stakeholders are OK with
  ** Not getting new features, rather less, for the time of the rewrite despite having higher cost (writing the new system and running the old one)
  ** The new system will have less features than the old one (at least in the beginning)
- ** The new system will have more bugs (because the old one is already battle-proofed for a long time and the new one is not).
+ ** The new system will have more bugs (because the old one is already battle-proved for a long time and the new one is not).
     Please be aware that it is naive to belief that you can deliver the new system almost bug free, because you already have
     the experience of the old system
 * In case the application cannot be rewritten within 3 month, you and your stakeholders need besides enough budget and manpower
