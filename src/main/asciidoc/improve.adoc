@@ -123,6 +123,7 @@ include::patterns/improve/database-first-approach.adoc[]
 include::patterns/improve/database-last-approach.adoc[]
 include::patterns/improve/composite-database-approach.adoc[]
 include::patterns/improve/butterfly-methodology.adoc[]
+include::patterns/improve/strangler-approach.adoc[]
 
 
 [[improve-categories]]
