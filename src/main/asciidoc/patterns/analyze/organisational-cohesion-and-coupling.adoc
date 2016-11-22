@@ -1,0 +1,22 @@
+[[Organisational Cohesion and Coupling]]
+==== [pattern]#Bus factor#
+
+
+===== Intent
+
+
+===== Description
+
+
+
+
+===== Experiences
+
+
+
+===== Applicability
+
+
+===== Related Patterns
+
+
