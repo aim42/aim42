@@ -6,7 +6,7 @@
 
 ===== Description
 
-Rewriting an old system "big bang" is a risky endeavour. It is harder then you think (see "Big Bang Approach in aim42").
+Rewriting an old system "big bang" is a risky endeavour. It is harder than you think (see "Big Bang Approach in aim42").
 
 An alternative route is to gradually create a new system around the edges of the old, letting it grow slowly over
 several years until the old system is strangled. The most important reason to consider a strangler application over a
@@ -16,7 +16,7 @@ cut-over rewrite is reduced risk (it might cost more to do a strangler, but that
 image::strangulation.jpg["strangulation", title="Strangler Applications (Paul Hammant)"]
 
 He discusses two ways of achieving the goal of moving from the (red) old system to the (blue) new system:
-1) with adding new features and 2) without adding new features. Deciding to go for the first strategy means that you can still keep your business happy, because you still able to
+1) with adding new features and 2) without adding new features. Deciding to go for the first strategy means that you can still keep your business happy, because you are still able to
 deliver new features. However, this approach will take longer than the second one.
 
 
@@ -86,7 +86,7 @@ Paul Hammant recommends the following practices:
 * The additional of integration and functional test suites as a safety net is key. This is particularly true for when the
   old technology did not have unit test coverage. The functional tests will be able to step between old and new (and back),
   to prevent surprises.
-* Understand that Non functional Requirements (NFRs) that don’t directly cheapen the re-implementation may jeopardize the
+* Understand that Non-Functional Requirements (NFRs) that don’t directly cheapen the re-implementation may jeopardize the
   initiative. Jeopardize in the “courting cancellation” territory again. Various authority figures may have pet technologies
   to include, or things to exclude. The test is whether the dev team cranking stuff out agrees or not.
 * Agile methodologies optimize everything for maximized developer throughput, and phased deliveries to production. You

@@ -46,6 +46,11 @@ Category: <<Analyze>>
 Category: <<Improve>>
 +
 
+. *<<big-bang-approach>>*
++
+Approach to replace an old system with a new system with one big bang deployment.
+Category: <<Improve>>
++
 
 . [[Branch-For-Improvement]]
 [pattern]#Branch For Improvement#:: Introduce distinct branches in your version control system to reflect improvements.
@@ -451,6 +456,12 @@ Category: <<Crosscutting>>
 +
 Analyse source code to identify building blocks and their dependencies, determine complexity, coupling, cohesion and other structural properties.
 Category: <<Analyze>>
++
+
+. *<<strangler-approach>>*
++
+Approach to gradually create a new system around the edges of the old, letting it grow slowly over several years until the old system is strangled.
+Category: <<Improve>>
 +
 
 . [[Structural-Analysis]]
