@@ -7,7 +7,7 @@ Analyse and inspect organization(s) responsible for the system.
 
 ===== Description
 
-#### Software Organizations and their Effect on Systems
+====== Software Organizations and their Effect on Systems
 As Nagappan et al write: _From the historical perspective, Fred Brooks in his classic book "The Mythical Man Month"
 provides an analogy in the chapter on "Why did the (mythical) Tower of Babel Fail?" The observation being that, the
 people had (1) a clear mission; (2) manpower; (3) (raw) materials; (4) time and (5) technology. The project failed because
@@ -30,7 +30,7 @@ build your own service, you build a bounded context around the thing that your t
 and you build a service or a group of services that interface with all the other things that your company is doing, as
 if they were separate companies. It’s a different bounded context. *So you talk to them but you are not tightly coupled_*".
 
-#### Conway's Law and what to about it
+====== Conway's Law and what to about it
 In 1968 Conway observed that _"organizations produce designs which are copies of the communication
 structures of these organizations"_. That means that the flexibility of an organization is important to effective design
 and operations.
@@ -48,7 +48,7 @@ people (or UX specialists or business analysts, etc.) into the product teams. Th
 still exist, but there's still a good chance to create a cohesive team structure.
 TODO: provide more case studies, e.g. UK Government Digital Services, Google, Amazon, ING, Otto
 
-#### Organizational Structure and its Effect on Quality
+====== Organizational Structure and its Effect on Quality
 Microsoft did a large https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2008-11.pdf[study] on how
 organizational structure affects software quality. The effect is higher then code churn, code complexity, code coverage or
 bugs found before releasing the software.
@@ -89,7 +89,7 @@ Statistical existence and empirical evidence for low quality could be found for 
 * High quality: people sit together (or low distance or can easily interact) AND collaboration is fast, easy and unbureaucratic (7 + 5)
 * High quality: people sit together (or low distance or can easily interact) AND they own their code completely and make their own decisions (7 + 6)
 
-#### Value Stream Mapping
+====== Value Stream Mapping
 
 Value stream mapping is a lean-management method for analyzing the current state of events that take a product or service
 from its beginning through to the customer. Examples in the software world would be all the steps needed from having an
