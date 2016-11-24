@@ -130,7 +130,7 @@ Things you should never do.
 
 ===== Related Patterns
 
-* Strangler (TBD)
+* <<strangler-approach>>
 
 ===== References
 
