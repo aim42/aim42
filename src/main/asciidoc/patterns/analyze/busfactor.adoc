@@ -1,4 +1,4 @@
-[[Bus Factor]]
+[[Bus-Factor]]
 ==== [pattern]#Bus factor#
 
 The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team

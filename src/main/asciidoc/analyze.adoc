@@ -161,3 +161,6 @@ include::patterns/analyze/take-what-they-mean.adoc[]
 include::patterns/analyze/user-analysis.adoc[]
 
 include::patterns/analyze/view-based-understanding.adoc[]
+
+include::patterns/analyze/busfactor.adoc[]
+
