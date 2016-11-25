@@ -7,6 +7,8 @@ Analyse and inspect organization(s) responsible for the system.
 
 ===== Description
 
+Work-in-progress: collecting ideas and currently doing research, therefore still chaotic document
+
 ====== Software Organizations and their Effect on Systems
 As Nagappan et al write: _From the historical perspective, Fred Brooks in his classic book "The Mythical Man Month"
 provides an analogy in the chapter on "Why did the (mythical) Tower of Babel Fail?" The observation being that, the
@@ -30,10 +32,49 @@ build your own service, you build a bounded context around the thing that your t
 and you build a service or a group of services that interface with all the other things that your company is doing, as
 if they were separate companies. It’s a different bounded context. *So you talk to them but you are not tightly coupled_*".
 
+How can an organization be loosely or tightly coupled? What are those properties? MacCormack et al. answered this question
+in a Harvard Business School http://www.hbs.edu/faculty/Publication%20Files/08-039_1861e507-1dc1-4602-85b8-90d71559d85b.pdf[publication]:
+
+Table: Characterizing Different Organizational Forms
+[width="100%",frame="topbot",options="header"]
+|=======
+| |Tightly-Coupled |Loosely-Coupled
+|Goals |Shared, Explicit |Diverse, Implicit
+|Membership |Closed, Contracted |Open, Voluntary
+|Authority |Formal, Hierarchy |Informal, Meritocracy
+|Location |Centralized, Collocated |Decentralized, Distributed
+|Behavior |Planned, Coordinated |Emergent, Independent
+|=======
+
+Of course this is not black and white, there's always some place in between.
+
 ====== Conway's Law and what to about it
 In 1968 Conway observed that _"organizations produce designs which are copies of the communication
-structures of these organizations"_. That means that the flexibility of an organization is important to effective design
-and operations.
+structures of these organizations (If you have four groups working on a compiler, you'll get a 4-pass compiler)"_. Around
+2006 many companies had a frontend, backend and middleware department reflecting the three-tier architecture they were
+building. Modern companies have individual deployable services built by cross-functional teams.
+
+James Coplien wrote in his book that _"If the parts of an organization (e.g. teams,
+departments, or subdivisions) do not closely reflect the essential parts of the product, or if the relationship between
+organizations do not reflect the relationships between product parts, then the project will be in trouble... Therefore:
+Make sure the organization is compatible with the product architecture"_.
+
+David Parnas (1972, 1978) argued that it is easier to split development work across a
+group if people can work independently and in parallel. To support parallelism, Parnas encouraged
+developers to avoid sharing assumptions and data. Specifically, he contended that every developer’s task
+assignment should lie within a product module that is “characterized by its knowledge of a design
+decision that it hides from all others” (1972: p. 1056)
+
+That means that the flexibility of an organization is important to effective design
+and operations. It also means that you first create your architecture and then form the organizational communication
+around it. This is not as crazy as it sounds, because existing departments can still exist, but the people inside those
+departments need to be insourced into the newly formed product teams representing end-to-end the individual services or
+components of the system.
+
+*If you want to improve your architecture you need to improve your organization as well*
+
+TODO: collect more examples of org transformation
+
 Since systems usually live longer than corporate structures, it is important that managers keep their organisation
 flexible. An example for organizational flexibility is Soundcloud.
 They experimented with different organizational models to find the one that fit product development best. That
@@ -42,10 +83,16 @@ from the classical approach of separate development and operation teams to a str
 and build and run their systems without handovers to other teams. Since there is still a need for centralized work they
 created a production engineering team which takes care of common infrastructure ("run the system that run systems") and
 do internal consulting in case a team needs help.
-For some companies experimentation is really hard, e.g. a large insurance has 800 people in an operations department and claims because of that
-"You build it, you run it" is not possible, the company could still keep the departments, but does insourcing operations
-people (or UX specialists or business analysts, etc.) into the product teams. That way the departments, which are hard to change,
-still exist, but there's still a good chance to create a cohesive team structure.
+For some companies experimentation is really hard, e.g. a large insurance has 800 people in an operations department and
+claims because of that "You build it, you run it" is not possible, the company could still keep the departments, but
+does insourcing operations people (or UX specialists or business analysts, etc.) into the product teams. That way the
+departments, which are hard to change, still exist, but there's still a good chance to create a cohesive team structure.
+
+An example of a popular change of software producing organizations is the move from operations/development/business/testing
+silos to functional silos (e.g. a cross functional team responsible for product search), because the optimized
+process-based organization is horizontally focused on outcomes, not vertically oriented around skills like testing,
+development and operations.
+
 TODO: provide more case studies, e.g. UK Government Digital Services, Google, Amazon, ING, Otto
 
 ====== Organizational Structure and its Effect on Quality
