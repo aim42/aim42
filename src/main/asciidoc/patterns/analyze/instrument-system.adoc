@@ -67,7 +67,7 @@ original un-instrumented version.
 ===== Applicability
 The pattern is almost universally applicable as long as there is a way to
 introduce instrumentation to the executable and <<operations>> can be
-convinced that it is possible to to switch back from the instrumented version
+convinced that it is possible to switch back from the instrumented version
 real fast.
 
 
