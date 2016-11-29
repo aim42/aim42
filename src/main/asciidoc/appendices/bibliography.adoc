@@ -48,6 +48,8 @@ the flexible, multi-language code-analysis toolkit.
 
 * [[[ERDLE]]] ERDLE, C.: Management von Softwaresystemen – Legacy Migrationsstrategien. Seminar an der TU München, Fakultät Informatik, 2005. http://www4.in.tum.de/lehre/seminare/hs/WS0506/mvs/files/Ausarbeitung_Erdle.pdf
 
+* [[Evans03]] Eric Evans: Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley, 2003.
+
 * [[[Feathers]]] Michael Feathers: Working Effectively with Legacy Code. Prentice Hall, 2005. The author claims "Code without tests is bad code". So true...
 
 
