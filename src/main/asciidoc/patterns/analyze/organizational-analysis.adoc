@@ -81,11 +81,11 @@ They experimented with different organizational models to find the one that fit 
 experimentation is possible is important to note - many organizations don't do that. They moved over a couple of years
 from the classical approach of separate development and operation teams to a structure where teams can act autonomously
 and build and run their systems without handovers to other teams. Since there is still a need for centralized work they
-created a production engineering team which takes care of common infrastructure ("run the system that run systems") and
+created a production engineering team which takes care of common infrastructure ("run the system that runs systems") and
 do internal consulting in case a team needs help.
-For some companies experimentation is really hard, e.g. a large insurance has 800 people in an operations department and
-claims because of that "You build it, you run it" is not possible, the company could still keep the departments, but
-does insourcing operations people (or UX specialists or business analysts, etc.) into the product teams. That way the
+For some companies experimentation is really hard, e.g., a large insurance company has 800 people in an operations department and
+claims because of that "You build it, you run it" is not possible, the company could still keep the departments, but in fact it
+practices insourcing operations people (or UX specialists or business analysts, etc.) into the product teams. That way the
 departments, which are hard to change, still exist, but there's still a good chance to create a cohesive team structure.
 
 An example of a popular change of software producing organizations is the move from operations/development/business/testing
@@ -126,8 +126,8 @@ Microsoft looked at a few organisational metrics:
   quality. If totally unrelated teams contribute to the source code of a component and those changes are small (< 10% of
   all changed lines) your quality declines. Try to not have too many contributors who only contribute little.
 
-Statistical existence and empirical evidence for low quality could be found for the relationships of the following
-combinations (in brackets the combined org metrics). TODO: still a bit unclear
+Statistical existence and empirical evidence stemming from organizations research and social-network analysis reveals that low organisational quality connected to software can be found in the relationships across the following
+combinations (combined org metrics appear in brackets): TODO: still a bit unclear
 
 * Low quality: Code is often changed AND the number of developers changing that code is high (EF ↔ NOE)
 * Low quality: Code is often changed AND the number of developers who changed that code left the team/organization is high (EF↔ NOEE)

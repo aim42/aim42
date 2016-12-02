@@ -134,6 +134,8 @@ include::patterns/analyze/issue-tracker-analysis.adoc[]
 
 include::patterns/analyze/organizational-analysis.adoc[]
 
+include::patterns/analyze/social-debt.adoc[]
+
 include::patterns/analyze/qualitative-analysis.adoc[]
 
 include::patterns/analyze/quantitative-analysis.adoc[]
