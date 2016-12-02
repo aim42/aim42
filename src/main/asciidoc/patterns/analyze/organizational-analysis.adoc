@@ -48,7 +48,7 @@ Table: Characterizing Different Organizational Forms
 
 Of course this is not black and white, there's always some place in between.
 
-====== Conway's Law and what to about it
+====== Conway's Law and what to do about it
 In 1968 Conway observed that _"organizations produce designs which are copies of the communication
 structures of these organizations (If you have four groups working on a compiler, you'll get a 4-pass compiler)"_. Around
 2006 many companies had a frontend, backend and middleware department reflecting the three-tier architecture they were
