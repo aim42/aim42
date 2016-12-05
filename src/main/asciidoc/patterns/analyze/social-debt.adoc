@@ -9,7 +9,7 @@ Evaluate and track the welfare and health of a software development and operatio
 
 ===== Description
 
-Organization, coordination and cooperation are critical forces behind software development and operation. Through well-thought protocols and cooperation guidelines, software architects, developers as much has entire organizations try to orchestrate proper coordination and cooperation but many times such attempts are burdened by sub-optimal organisational decisions, e.g., the adoption of a process model that is not compatible with developers and operators’ background and mindset or even collaborating with an organization that does not and cannot share the same values of the organization in question. These circumstances often result in additional project cost in the form of recurrent delays, condescending behaviour or worse.
+Organization, coordination and cooperation are critical forces behind software development and operation. Through well-thought protocols and cooperation guidelines, software architects, developers as much as entire organizations try to orchestrate proper coordination and cooperation but many times such attempts are burdened by sub-optimal organisational decisions, e.g., the adoption of a process model that is not compatible with developers and operators’ background and mindset or even collaborating with an organization that does not and cannot share the same values of the organization in question. These circumstances often result in additional project cost in the form of recurrent delays, condescending behaviour or worse.
 
 Evaluating these circumstances together, trying to minimise their impact on software development and the quality of resulting software products is currently object of intensive study. 
 
@@ -19,7 +19,6 @@ The goal for social debt in the next few years of research is that of reaching a
 ===== Experiences
 
 TODO: still to finish implementing first draft description according to agreements perhaps needs a bit of blending with Sven’s solution
-
 
 ===== Applicability
 
