@@ -67,6 +67,6 @@ If you have well-documented, specific and current (!) quality requirements avail
 The workshop-based collection of quality requirements has been described by
 <<Clements-ATAM>>.
 
-* Real-world examples of software quality requirements. Currently available only in German language on https://bitbucket.org/arc42/quality-requirements (this document is likely to be moved to github under the arc42 organization).
-* <<Clements-ATAM>>, contains a brief description of scenario-based quality description and details how to setup such workshops.
+* Real-world examples of software quality requirements. Currently available only in German language on https://bitbucket.org/arc42/quality-requirements (this document is likely to be moved to GitHub under the arc42 organization).
+* <<Clements-ATAM>> contains a brief description of scenario-based quality description and details on how to setup such workshops.
 

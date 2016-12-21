@@ -3,7 +3,7 @@
 ==== [pattern]#Issue-Tracker-Analysis# 
 
 ===== Intent
-Analyse entries from issue-tracker to identify critical areas, components or stakeholders.
+Analyse entries from issue tracker to identify critical areas, components or stakeholders.
 
 
 Under discussion!

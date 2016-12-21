@@ -12,7 +12,7 @@ TODO: explain different kind of metrics (static-code, runtime, organisational...
 ===== Experiences
 
 ===== Risks
-If you measure too many different parameters or attributes, you might drown in numbers.
+If you measure too many different parameters or attributes, you might get drown in numbers.
 
 
 ===== Applicability

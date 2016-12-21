@@ -5,8 +5,8 @@ Maintain references to the origin of problems or issues: Remember who told you a
 
 ==== Intent
 
-When discussing problems, some stakeholders will question or doubt your findings (see pattern <<Expect-Denial>>). Keeping thorough references to the orgins or original sources of major
-findings keeps eventual critics in check.
+When discussing problems, some stakeholders will question or doubt your findings (see pattern <<Expect-Denial>>). Keeping thorough references to the origins or original sources of major
+findings keep eventual critics in check.
 
 ==== Description
 
@@ -15,10 +15,10 @@ findings keeps eventual critics in check.
 
 ==== Experiences
 
-Some anti-experiences that happened when we neglected traceability:
+Some contrary experiences happened when we neglected traceability:
 
 Stakeholder questioned some of our findings - we could not immediately trace those findings
-back to an original source (i.e. an interview protocoll, a particular file/version of source code). These stakeholders immediately suspected _all_ our findings, not only the one or two in question. 
+back to an original source (i.e. an interview protocol, a particular file/version of source code). These stakeholders immediately suspected _all_ our findings, not only the one or two in question. 
 
 Please keep in mind that a lack of traceability, especially for disputed findings or problems,
 might lead to serious loss of credibility.

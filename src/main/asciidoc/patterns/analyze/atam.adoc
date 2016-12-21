@@ -100,8 +100,7 @@ The ATAM method does not develop concrete measures, strategies or
 tactics against the found risks. 
 
 
-ATAM has been successfully applied by many organizations to a variety of systems. It is widely regarded as the most important
-systematic approach to qualitative system/architecture analysisfootnote:[The original authors of ATAM call it an _evaluation_ method, whereas aim42 classifies ATAM to belong to the category of analysis practices.].
+ATAM has been successfully applied by many organizations to a variety of systems. It is widely regarded as the most important systematic approach to qualitative system/architecture analysis footnote:[The original authors of ATAM call it an _evaluation_ method, whereas aim42 classifies ATAM to belong to the category of analysis practices.].
 
 ===== Applicability
 

@@ -11,7 +11,7 @@ Static Analysis can serve two purposes:
 * Detect certain types of bugs, dangerous coding patterns and bad coding style.
 
 ===== Description
-Use source code analysis tools to analyse static properties of the systems' source code,
+Use source code analysis tools to analyse static properties of the system's source code,
 e.g. the following:
 
 Coupling and dependencies:: Where do the building-blocks (e.g. classes, packages, modules, subsystems) of your system depend upon? What are the intra-system call- and communication relationships?
@@ -24,7 +24,7 @@ Coupling and dependencies:: Where do the building-blocks (e.g. classes, packages
 ===== Applicability
 Apply static code analysis when the code base is medium sized or large and the appropriate tools are available.
 
-* Many metrics and tools are tailored to OO languages.
+* Many metrics and tools are tailored to object-oriented programming languages.
 * Dynamically typed languages often have limited tool support.
 
 

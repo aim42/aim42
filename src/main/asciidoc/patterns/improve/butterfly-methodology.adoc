@@ -2,25 +2,25 @@
 ==== [pattern]#Butterfly-Methodology#
 
 ===== Intent
-Data-Migration Method without the need for gateways. 
+Data migration method without the need of gateways. 
 Enables zero-downtime migrations by working with temporary data stores.
 
 ===== Description
-The Butterfly-Methodology focuses on data. There is no need for a gateway like in the Chicken-Little Strategy.
-At the beginning there is a initial data migration, which can be used to develop the new application 
+The Butterfly methodology focuses on data. There is no need for a gateway like in the Chicken-Little Strategy.
+At the beginning there is an initial data migration, which can be used to develop the new application 
 without an influence on the legacy system. When the migration process starts, the data of the legacy system
 gets freezed and set to read-only.
-From now on data changes will be stored in a temp-store. 
-A Data-Access-Allocator (DAA) decides, if a request has to be send to the temp-store (for already changed data) or to the original database.
-With the help of a Chrysalizer (Data-Transformator), where transformation rules are implemented, all the data from the read-only database will be moved to the new system.
-No data will be lost, because changes are written to the first temp-store.
-When the inital migration is finished, the data of the temp-store will be migrated; changes will be written to a second temp-store and the first one 
-is set to read-only. This process will continue until the time period of the migration is so short, that there was no change in between.
-At this moment, the legacy system can be shut down, the last temp-store gets migrated and the new system is turned on.
+From now on data changes will be stored in a temporarily store. 
+A Data Access Allocator (DAA) decides, if a request has to be send to temp store (for already changed data) or to the original database.
+With the help of a Chrysalizer (a data transformator), where transformation rules are implemented, all the data from the read-only database will be moved to the new system.
+No data will be lost, because changes are written to the first temp store.
+When the initial migration is finished, the data of the temp-store will be migrated, changes will be written to a second temp store and the first one 
+is set to read-only. This process will continue until the time period of the migration is so short, that there will be no change in between the two stores anymore.
+At this moment, the legacy system can be shut down, the last temp store gets migrated and the new system is turned on.
 This approach helps to migrate a productive system without downtime.
-Another pro is, that the process can be canceled at any time by rolling back the temp-stores. It is also possible to do tests of the parallel 
+Another pro is, that the process can be canceled at any time by rolling back the temp stores. It is also possible to execute tests of the parallel 
 development with actual data.
-A problem can be the amount of hardware that is needed to keep all the temp-stores if you have a mass of data.
+A problem can be the amount of hardware that is needed to keep all the temp stores if you have a massive amount of data.
 Also it can be very expensive to implement the DAA.
 
 image::improvement-approaches/butterfly.png["Butterfly-Methodology", title="Butterfly-Methodology"]
@@ -30,7 +30,7 @@ image::improvement-approaches/butterfly.png["Butterfly-Methodology", title="Butt
 
 ===== Risks
 If the Butterfly Method will be successful depends on the factor v / u,
-where u is the speed of the Chrysalizer and v the speed of the DAA to setup new temp-stores.
+where u is the speed of the Chrysalizer and v the speed of the DAA to setup new temp stores.
 If v = 0 this approach is similar to the <<Big-Bang Strategy>>, if v > u the migration will never end.
 
 
@@ -39,15 +39,15 @@ Apply this pattern if you need to migrate a mass of data without downtime.
 
 
 ===== Consequences
-Enables zero-downtime migrations by working with temporary data stores.
+Enables zero downtime migrations by working with temporary data stores.
 If the amount of data is huge, there is a need for a lot of hardware.
 
 Critical success factors are:
 
-* a very good unterstanding of the old and new system
-* a initial migration without errors / mistakes
+* a very good understanding of the old and new system
+* an initial migration without errors / mistakes
 * a fast Chrysalizer
-* a efficient Data-Access-Allocator
+* a efficient Data Access Allocator
 
 
 ===== Also Known As

@@ -28,7 +28,7 @@ behavior of system classes or libraries.
 In theory instrumenting the system therefore is a straightforward process:
 
 * Identify and describe the concern that shall be explored (e.g.
-  obectect-creation, function entries and exits, code execution or somethings
+  object creation, function entries and exits, code execution or something
   else that can be described in the terms of the mechanism used).
 * Write the code that collects the data about the system behavior (e.g. sends it
   to a syslog, writes it to a file, sends it to a dedicated server, creates an
@@ -39,10 +39,10 @@ In theory instrumenting the system therefore is a straightforward process:
 * Collect the data
 * Replace the instrumented version with the previously operational version
 
-In real life, since the mechanisms of instrumentation vary widely, specific ways
+In real life, since the mechanisms of instrumentation varies widely, specific ways
 must be found for each scenario. 
 
-While tools like AspectJ provide easy ways to instrument Java-Code and Ruby’s
+While tools like AspectJ provide easy ways to instrument Java code and Ruby’s
 metaprogramming model allows for easy introduction of crosscutting functionality
 the same gets harder to do with other languages. In some languages it may be
 necessary to modify a dynamically linked library with central operations to
@@ -59,10 +59,10 @@ system back with the original system!
 
 ===== Experiences
 
-WARNING: even if used cautiously, the instrumentation the system under design can
+WARNING: even if used cautiously, the instrumentation of the system under design can
 entail heavy performance penalties (on execution time, space used, bandwith
-etc.) so alway make sure that there is a quick way to switch back to the
-original un-instrumented version.
+etc.) so always make sure that there is a quick way to switch back to the
+original non-instrumented version.
 
 ===== Applicability
 The pattern is almost universally applicable as long as there is a way to
