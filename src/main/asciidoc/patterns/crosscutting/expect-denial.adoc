@@ -56,7 +56,7 @@ Let others review your findings before publication.
 
 ==== Experiences
 
-In one audit of a European Logistic Company (> 40.000 employees) we found serious issues within their development processes, in addition to some issues in their source code. The process problems caused massive (> 3 month) delays in delivery of working software to production, whereas the pure software bugs were relatively minor in their consequences. When we presented these issues, all process-related issues were minimized or doubted by senior management of the IT department. 
+In one audit of a European Logistic Company (> 40.000 employees) we found serious issues within their development processes, in addition to some issues in their source code. The process problems caused massive (> 3 months) delays in delivery of working software to production, whereas the pure software bugs were relatively minor in their consequences. When we presented these issues, all process-related issues were minimized or doubted by senior management of the IT department. 
  
 
 With the help of the CIO, we identified those minimizers to be the root cause of most process issues, as they had themselves introduced inefficient, formal and bloated processes. 
