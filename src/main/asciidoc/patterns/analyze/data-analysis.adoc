@@ -15,7 +15,7 @@ In data analysis you could examine the following topics:
 * <<Analyze Data Validation, Data Validation>>
 * <<Analyze Data Actuality and Correctness, Data Actuality and Correctness>> (which covers integrity issues as well)
 * <<Analyze Data Access Protection, Data Access Protection>>
-* Analyze Data distribution, replication and syncing, 
+* Analyze Data Distribution, Replication and Syncing 
 * <<Analyze Backup, Backup>>
 
 ====== Analyze Data Structures
@@ -24,11 +24,11 @@ Are data structures suited to represent the problem domain?
 At first, make the _structure_ of the existing data explicit,
 e.g. by creating a rough sketch of a data model as either
 informal diagrams, entity-relationship or class diagrams.
-Focus should be on overview: Where and how are what kinds of
-data stored in what format. What are the relationships between
+Focus should be on overview: Where and how are which kinds of
+data stored in which format. What are the relationships between
 the data elements?
 
-Second, create an explicit model the _required domain data structures_.
+Second, create an explicit model of the _required domain data structures_.
 
 Some typical questions might help in finding problems:
 
@@ -43,7 +43,7 @@ or unsuitable indirections involved?
 
 * What queries or executed how often?
 * How large are the results in number or volume?
-* Do relationships between query results have to be computed, or do appropriate indices exist?
+* Do relationships between query results have to be computed or do appropriate indices exist?
 
 
 

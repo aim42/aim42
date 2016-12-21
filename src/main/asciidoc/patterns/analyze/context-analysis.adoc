@@ -21,7 +21,7 @@ Technical Context:: Adjacent hardware or technical infrastructure, either requir
 
 Context analysis shall help identify issues associated with _external interfaces_, e.g. interfaces that:
 
-* influence critical quality requirements of the system (e.g. reliability, security, throuput, runtime performance, operation cost)
+* influence critical quality requirements of the system (e.g. reliability, security, throughput, runtime performance, operation cost)
 * are overly complex 
 * are brittle or fragile
 * are implemented with unsuitable technology
@@ -32,7 +32,6 @@ Context analysis shall help identify issues associated with _external interfaces
 * have high usage cost (e.g. cost-per-request or similar)
 * have high cost-of-change or high maintenance costs
 * are difficult or impossible to modify/enhance/change
-
 * suffer from operational failures or production issues
 
 Note that _user_ interfaces often belong to the context, especially with
@@ -40,8 +39,7 @@ respect to the kind of data or events exchanged with users or user groups. Due t
 importance of this topic, aim42 devotes an <<User-Analysis, own section>> to it.
 
 ===== Example
-In the context diagram example of fig. <<context-view-example>> you see some user roles and some external systems. The context diagram is accompanied by a tabular
-description of the elements and/or relationships.
+In the context diagram example of fig. <<context-view-example>> you see some user roles and some external systems. The context diagram is accompanied by a tabular description of the elements and/or relationships.
 [small]#Example taken from the https://github.com/aim42/htmlSanityCheck[HtmlSanityCheck (HtmlSC)] open source project.#
 
 [[context-view-example]]
@@ -51,10 +49,10 @@ image::context-view-example.png["Example of Context View", title="Example of Con
 .Business Context
 |===
 | Neighbor | Description
-| user | documents software with toolchain that generates html. Wants to ensure that
-links within this html are valid.
+| user | documents software with toolchain that generates HTML. Wants to ensure that
+links within this HTML are valid.
 | build system |
-| local html files | HtmlSC reads and parses local html files and
+| local HTML files | HtmlSC reads and parses local HTML files and
 performs sanity checks within those.
 | local image files | HtmlSC checks if linked images exist as (local) files.
 | external web resources | HtmlSC can be configured to optionally check for the existence
