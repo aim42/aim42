@@ -3,10 +3,10 @@
 ==== [pattern]#User-Analysis# 
 
 ===== Intent
-Get an overview of user-categories or -groups, their goals, requirements
+Get an overview of user categories or groups, their goals, requirements
 and expectations. Find out about issues users have with the system. Related to <<Stakeholder-Analysis>>, <<Context-Analysis>> and <<Requirements-Analysis>>.
 
-In contrast to the other analysis practices, user-analysis can also include
+In contrast to the other analysis practices, user analysis can also include
 useability, layout or design considerations.
 
 ===== Description

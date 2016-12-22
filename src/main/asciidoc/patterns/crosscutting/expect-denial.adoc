@@ -34,7 +34,7 @@ Your results will amaze or astonish some people. Although they would never have 
 Always ask amazed stakeholders _why_ for the reasons of their amazement - that can help you in your argumentation.
 
 . *Doubt*: 
-You will hear or read "Can't be, impossible!"or similar expressions
+You will hear or read "Can't be, impossible!" or similar expressions
 from some people. If these stakeholders can explain the reasons for their doubts, you might find ways to improve your explanation (maybe your issues were simply ill-formulated) or you have to look for additional and better ways to explain. Doubt can lead you to errors or ommissions in your own argumentation or conclusions.
 +
 Some doubtful stakeholders will be emotional - and therefore not open for rational or objective arguments. That's a serious and difficult communication problem - beyond the scope of this guide. 
@@ -49,17 +49,17 @@ In case you encounter minimization or resistance, get support from the highest m
 
 . *Hostility*, or "_Shoot the messenger_". Always remain calm and polite - but hard in your argumentation and facts. Hostile stakeholders can rarely be convinced of something, but need to be handled with diplomacy, politics and organizational skills (none of which we can cover here).
 + 
-Be prepared for _hostile actions_, though: In case of critical issues, always keep details documentation of their origin. Be prepared to _proof_ those issues, remove even minor omissions or formal weaknesses in your argumentation. Your issues and <<Root-Cause-Analysis>> has to be flawless and backed by meticulous research and management support. Ensure <<Traceability>> of your chain of reasoning! Keep written records of <<Stakeholder-Interviews>> and of suspicious pieces of source code, or documentation.
+Be prepared for _hostile actions_, though: In case of critical issues, always keep details documentation of their origin. Be prepared to _proof_ those issues, remove even minor omissions or formal weaknesses in your argumentation. Your issues and <<Root-Cause-Analysis>> has to be flawless and backed by meticulous research and management support. Ensure <<Traceability>> of your chain of reasoning! Keep written records of <<Stakeholder-Interviews>> and of suspicious pieces of source code or documentation.
 
 Let others review your findings before publication.
 
 
 ==== Experiences
 
-In one audit of a European Logistic Company (>40.000 employees) we found serious issues within their development processes, in addition to some issues in their source code. The process problems caused massive (> 3month) delays in delivery of working software to production, whereas the pure software bugs were relatively minor in their consequences. When we presented these issues, all process-related issues were minimized or doubted by senior management of the IT-department. 
+In one audit of a European Logistic Company (> 40.000 employees) we found serious issues within their development processes, in addition to some issues in their source code. The process problems caused massive (> 3 months) delays in delivery of working software to production, whereas the pure software bugs were relatively minor in their consequences. When we presented these issues, all process-related issues were minimized or doubted by senior management of the IT department. 
  
 
-With the help of the CIO, we identified those minimizers to be the root-cause of most process-issues, as they had themselves introduced inefficient, formal and bloated processes. 
+With the help of the CIO, we identified those minimizers to be the root cause of most process issues, as they had themselves introduced inefficient, formal and bloated processes. 
  
 
 ==== Consequences

@@ -14,14 +14,14 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 . Find all problems, issues, symptoms, risks or technical debt within the system (<<System>>), its operation, maintenance or otherwise related processes.
 
-. Understand root causes of the problems found, potential interdependencies between issues
+. Understand root causes of the problems found, potential interdependencies between issues.
 
 
 === How it works
 
-Systematically look for such issues at various places and with various people.
+Look systematically for such issues at various places and with support of various people.
 
-TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<System>>), its technical concepts, code-structure, inner workings, major external interfaces and its development process. 
+TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<System>>), its technical concepts, code structure, inner workings, major external interfaces and its development process. 
 
 One serious risk in this phase is a premature restriction to certain artifacts or aspects of the system: If you search with a microscope, you're likely to miss several aspects.
 
@@ -62,13 +62,13 @@ Improve your <<Architectural-Understanding>> of the <<System>> by
 * Conduct a <<Qualitative-Analysis>> of the system, its architecture and associated organization, 
 based upon the specific quality requirements
   ** Inspect and analyze all involved organizational processes -
-    (development, project-management, operations, requirements-analysis)
+    (development, project management, operations, requirements analysis)
 * Perform <<Runtime-Analysis>> or <<Quantitative-Analysis>>, e.g. performance and load monitoring, process and thread analysis
-  ** Inspect the data created, modified and queried by the system, for structure, size, volume or specialities
+  ** Inspect the data created, modified and queried by the system for structure, size, volume or specialities
 
-Finally, do <<Root-Cause-Analysis>> of major issues found together with appropriate stakeholders. 
+Finally, conduct a <<Root-Cause-Analysis>> for the discovered major issues in close collaboration with the appropriate stakeholders. 
 
-WARNING: Never start solving problems until you have a thorough understanding of current stakeholder requirements. Otherwise you risk wasting effort in areas which no influential stakeholder cares about.
+WARNING: Never start solving problems until you have a thorough understanding of the current stakeholder requirements. Otherwise you'll risk wasting effort in areas which no influential stakeholder cares about.
 
 
 

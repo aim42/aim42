@@ -13,7 +13,7 @@ Conduct a <<Stakeholder-Analysis>> first to find out whom to interview.
 Apply a breadth-first strategy, speak with people from 
 different departments, roles, management-levels. Include at least business-people, IT- and business manager, end-user, developer, tester, customer-service, subject-matter-expert.
 
-Plan the interview dates at least 5-10 days in advance, chose a quiet location, make sure nobody can overhear your interviews.
+Plan the interview dates at least 5-10 days in advance, choose a quiet location, make sure nobody can overhear your interviews.
 
 If possible, send out a stakeholder- or role-specific <<Pre-Interview-Questionnaire>> some days in advance.
 
@@ -34,7 +34,7 @@ Some typical questions, e.g.:
   ** When/where does it occur?
   ** What are the consequences of this problem? Who cares about this problem? 
   ** How can we/you/somebody overcome this problem?
-* How are processes working? What are the differences between _theory_ and _practice_?
+* How are the processes working? What are the differences between _theory_ and _practice_?
 
 * If you had time, money and qualified people, what top-3 measures do you propose? 
 * Is there anyone you think we need to speak with who isn’t on our list?

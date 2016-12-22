@@ -17,9 +17,9 @@ The questionnaire can be specific for a single interview or be a template for mu
 
 ===== Experiences
 
-I (Gernot Starke) used such questionnaires within several technical reviews and audits. They helped my stay on track, cover a multitude of topics, even when I conducted several interviews consecutively.
+I (Gernot Starke) used such questionnaires within several technical reviews and audits. They helped me to stay on track, cover a multitude of topics, even when I conducted several interviews consecutively.
 
-I usually printed one copy of the questionnaire for every interview I had planned, so I could sketch notes - and always had the context of my notes already printed, saving a lot of note-taking effort.
+I usually printed out one copy of the questionnaire for every interview I had planned, so I could sketch notes - and always had the context of my notes already printed, saving a lot of note-taking effort.
 
  
 

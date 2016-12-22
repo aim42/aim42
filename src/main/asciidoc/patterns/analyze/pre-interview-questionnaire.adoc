@@ -6,7 +6,7 @@
 Prior to interviewing stakeholders, present them with a written questionnaire, so they can reflect in advance. 
 
 ===== Description
-A specialisation of <<Questionnaire, questionnaire>> - targeted to be used by stakeholders (aka your interview partners). As with the more general <<Questionnaire, questionnaire>> you need to collect appropriate topics, questions and suggestions. Remember to apply <<Stakeholder-Specific-Communication, stakeholder-specific communication>>: It might be useful to create different questionnaires per stakeholder or stakeholder-group. That's more work for you as interviewer, but will lead to better interview results.
+A specialisation of <<Questionnaire, questionnaire>> - targeted to be used by stakeholders (aka your interview partners). As with the more general <<Questionnaire, questionnaire>> you need to collect appropriate topics, questions and suggestions. Remember to apply <<Stakeholder-Specific-Communication, stakeholder-specific communication>>: It might be useful to create different questionnaires per stakeholder or a group of stakeholders. This can lead to more work for you as interviewer, but will also lead to better interview results.
 
 Mix open and closed questions:
 
