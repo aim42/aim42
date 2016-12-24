@@ -24,7 +24,7 @@ to _locate_ issues, risks and opportunities for improvement.
 
 * Infrastructure and deployment, often derived from <<Infrastructure-Analysis>>.
 
-* Crosscutting and technical concepts, like domain models, persistence,
+* Cross-cutting and technical concepts, like domain models, persistence,
   user-interface and other concepts.
 
 * Important architecture and design decisions taken and revoked during

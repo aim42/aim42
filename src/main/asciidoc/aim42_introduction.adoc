@@ -53,7 +53,7 @@ These negative effects share a few common root causes:
 . lack of _conceptual integrity_
 . _internal disorder_ 
 . overly _complex internal structure_, either of source code or data
-. overly _complex concepts_ (crosscutting solutions for fine-grained problems)
+. overly _complex concepts_ (cross-cutting solutions for fine-grained problems)
 . overly complex or inappropriate internal processes
 . inappropriate selection of _technology_ (_frameworks, libraries or languages_)
 . (you surely can find a few more...)

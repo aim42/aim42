@@ -14,7 +14,7 @@ found it.`" for the software development world in an article in Kevlin Henney's
 
 ===== Intent
 
-Enable crosscutting architectural improvement even if it is not feasible to change the whole codebase. 
+Enable cross-cutting architectural improvement even if it is not feasible to change the whole codebase. 
 
 TIP: Often the introduction of concepts like layering is deemed _“impossible”_ due to the huge codebase that would be affected. In these cases the Boy Scout Rule approach is a lightweight way to enhance the code quality one day at a time. 
 

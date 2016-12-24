@@ -43,7 +43,7 @@ In real life, since the mechanisms of instrumentation varies widely, specific wa
 must be found for each scenario. 
 
 While tools like AspectJ provide easy ways to instrument Java code and Ruby’s
-metaprogramming model allows for easy introduction of crosscutting functionality
+metaprogramming model allows for easy introduction of cross-cutting functionality
 the same gets harder to do with other languages. In some languages it may be
 necessary to modify a dynamically linked library with central operations to
 introduce instrumentation without modifying the original system. 
