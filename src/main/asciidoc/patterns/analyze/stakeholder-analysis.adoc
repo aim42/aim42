@@ -41,4 +41,4 @@ employee organization.
 
 
 ===== References
-* Section Stakeholders of https://github.com/arc42/arc42-template/blob/master/EN/asciidoc/src/01_introduction_and_goals.adoc[arc42]
+* Section Stakeholders of https://github.com/arc42/arc42-template/blob/master/EN/asciidoc/src/01_introduction_and_goals.adoc[arc42-template, Introduction and Goals]
