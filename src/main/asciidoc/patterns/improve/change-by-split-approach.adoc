@@ -26,16 +26,33 @@ required to develop, build, test and run the system. This might include
 databases or other middleware. Every part should be completely independend
 of the others.
 +
-[[figure-split-initial]]
+[[figure-split-copied]]
 image::improvement-approaches/cbs-2-copied.png["CBS, copied", title="Change-by-split, system copied for every user type/category"]
 
 3. Identify commonalities among these different user groups, crosscutting concerns
 that every user group needs in a common way. In our E-commerce example,
-those might be pdf-generation, user/role management,
+those might be pdf-generation, user/role management or the like. Factor out those
+commons into a separate module/subsystem, which is used by (likely all) other split systems.
 +
+[[figure-split-commons]]
+image::improvement-approaches/cbs-3-factored-commons.png["CBS, commons", title="Change-by-split, factored out commons"]
 
-Reduce every split system to its core - remove all code not required for the split-specific
-user group.
+4. Now you can optimize and/or refactor the commons subsystem. As its code
+is now centralized, that task might become somewhat simpler than within
+the original legacy system. At the same time, remove all commons-code from the split
+systems - reducing them in size.
++
+[[figure-split-reduced-commons]]
+image::improvement-approaches/cbs-4-reduced-commons.png["CBS, reduced commons", title="Change-by-split, reduced splits, optimized commons"]
+
+5. Now for the core of this approach: Aggressively reduce every split system
+to its core: remove all code not required for the split-specific
+user group, remove all code that can also be handled by the Commons subsystem.
+This step might be performed parallel to optimizing the commons.
++
+[[figure-split-final]]
+image::improvement-approaches/cbs-5-final.png["CBS, final", title="Change-by-split, all split systems reduced/optimized"]
+
 
 
 
