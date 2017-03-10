@@ -6,7 +6,7 @@ Find out the real meaning/intention of stakeholders
 
 
 ===== Description
-Natural language has the risk that semantics on the senders' side differs from semantics of the receiver: People simply misunderstand each other because _meaning_ of words differs between people. 
+Natural language has the risk that semantics on the sender's side differs from semantics of the receiver: People simply misunderstand each other because the _meaning_ of words differs between people. 
 
 Therefore: what people mean/want/need is sometimes not what they say. This is due either to 
 * semantic differences on sender and receive sides, 
@@ -21,7 +21,7 @@ When you have the slightest impression or indicator that your communication part
 clarify by giving explicit <<Fast-Feedback>>.
 
 ===== Applicability
-Apply this pattern whenever you communicate verbally to other people (aka stakeholders), e.g. in meetings, conferences, phone calls etc.
+Apply this pattern whenever you communicate verbally to other people (aka stakeholders) e.g. in meetings, conferences, phone calls etc.
 
 Especially when verbal communication differs from paralanguage or gestures, you should clarify what your communication partner really meant.
 
@@ -36,5 +36,5 @@ Especially when verbal communication differs from paralanguage or gestures, you 
 * <<Stakeholder-Analysis>> to find out, who are the important stakeholders you should apply this pattern to.
 
 ===== References
-Special thanx to Phillip Ghadir (who is too humble to claim this discovery) for giving this pattern its name. 
+Special thanks to Phillip Ghadir (who is too humble to claim this discovery) for giving this pattern its name. 
 

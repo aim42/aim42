@@ -36,34 +36,34 @@ You see - lots of good reasons :-)
 
 The most important reason is depicted in the following diagram: The cost-of-change
 of most software increases heavily over time... making those people really unhappy that
-have to pay for these changes (called maintenance, evolution, new-features or else)
+have to pay for these changes (called maintenance, evolution, new-features or else).
 
 An additional effect of long-term maintenance of software is the strong
-_decrease in understandability_: When a system matures it becomes more and more difficult to understand its inner workings, changes become increasingly risky and consequences of changes become difficult to foresee which can render effort estimations quite blurry.
+_decrease in understandability_: When a system matures it becomes more and more difficult to understand its inner workings, changes become increasingly risky and consequences of changes become difficult to foresee which can lead to quite blurry effort estimations.
 
 
 [[figure-real-situation]]
-image::cost-of-change.jpg["target situation", title="Reality: Maintaining Software is too expensive"]
+image::cost-of-change.jpg["target situation", title="Reality: Maintaining software is too expensive"]
 
 // TODO: exchange image to reflect both cost and understandability.
 
 
-These negative effects share a few common root-causes: 
+These negative effects share a few common root causes: 
 
 . lack of _conceptual integrity_
 . _internal disorder_ 
 . overly _complex internal structure_, either of source code or data
-. overly _complex concepts_ (crosscutting solutions for fine-grained problems)
+. overly _complex concepts_ (cross-cutting solutions for fine-grained problems)
 . overly complex or inappropriate internal processes
 . inappropriate selection of _technology_ (_frameworks, libraries or languages_)
-. (you can surely find a few more...)
+. (you surely can find a few more...)
 
 
-==== Long-Term Goal
+==== Long-term Goal
 
 In the beginning, though, everything was fine: nice coupling and cohesion, appropriate technologies, well written code, understandable structures and concepts (see figure <<figure-target-situation>>)
 
-But as more and more changes, modifications, tweaks and supposed _optimizations_ were performed under growing time and budget pressure, things got nasty. The maintainers piled up so called _technical debt_ (us software folks call it quick-hack, quick-and-dirty-fix, detours or abbreviations). We're quite sure you know what we're talking about - we experienced it over and over again, it seems to be the normal situation, not the (bad) exception.
+But as more and more changes, modifications, tweaks and supposed _optimizations_ were performed under growing time and budget pressure, things got nasty. The maintainers piled up so called _technical debt_ (we software folks call it quick-hacks, quick-and-dirty-fixes, detours or abbreviations). We're quite sure you know what we're talking about - we experienced it over and over again, it seems to be the normal situation, not the (bad) exception.
 
 Investment in methodical and systematic software architecture improvement will have the following effect.
 
@@ -83,7 +83,7 @@ image::aim42-phases.png["aim42 phases", title="Three Phases of aim42"]
 
 . <<Analyze>>: collect _issues_: problems, risks, deficiencies and technical debt within your system and your development process. Focus on problems in this phase, not on potential solution approaches. In addition, develop (and document) an understanding of internal structures, concepts and architectural approaches.
 
-. <<Evaluate>>: determine the „value“ of issues and their solutions (_improvements_)
+. <<Evaluate>>: determine the "value" of issues and their solutions (_improvements_)
 
 . <<Improve>>: systematically improve code and structures, reduce technical debt, remove waste and optimize.
 
@@ -114,7 +114,7 @@ Fundamental reason for one or several issues.
 Solution, remedy or cure for one or several issues.
 
 |Cost (of issue) | 
-The cost (in any unit appropriate for business, e.g. currency, effort or such) of the issue, related to a frequency or period of time. For example – cost of every occurrence of the issue, or recurring cost per week.
+The cost (in any unit appropriate for business, e.g. money, effort or such) of the issue, related to a frequency or period of time. For example – cost of every occurrence of the issue or recurring cost per week.
 
 |Cost (of improvement) | 
 The cost (in monetary units) of the improvement, remedy, tactic or strategy.
@@ -137,16 +137,16 @@ image::collect-issues-improvements.png[title="Iterate and Collect"]
 
 Issues and improvements need to be 
 
-* related to each other: No improvement-idea without an existing issue - as we do not want to optimize "because we can".
+* related to each other: No idea of improvement without an existing issue - as we do not want to optimize "because we can".
 
-* evaluated in some business-compatible unit (Euro, $ or such) as described above. See <<Evaluate>>.
+* evaluated in some business-compatible unit (e. g. Euro, $) as described above. See <<Evaluate>>.
 
 === Patterns and Practices Provide No Guarantee
 We are *very* sure that aim42 can work for your system or your organization. 
 But (yes, there's always a but) we cannot guarantee: Maybe your software is so
-*extraordinaire*, so very special, that it needs other treatment.
+*extraordinaire*, so very special, that it needs other treatments.
 
-Maybe your organization does not fit our prerequisites, or is way more advanced
+Maybe your organization does not fit our prerequisites or is way more advanced
 than we anticipated in our approach...
 
 You have to use all practices, patterns and approaches of aim42 at your own risk 

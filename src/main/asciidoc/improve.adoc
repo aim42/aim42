@@ -35,13 +35,13 @@ image::improve.jpg["improve-phase", title="Improve-Phase"]
 [horizontal]
 <<Fundamentals>>:: Some principles which you should consider whatever steps you take on your road to improvement.
 
-<<Approaches>>:: Overall (strategic, long-term) decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.  
+<<Approaches>>:: Overall (strategic, long-term) decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.
 
 <<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<improve-categories,categories>>.
 
 
 === Fundamentals
-For improvement we take a number of fundamental principles for granted, 
+For improvement we take a number of fundamental principles for granted,
 depicted in figure <<Improvement Fundamentals>>.
 
 
@@ -52,16 +52,16 @@ image::improve-fundamentals.png[]
 These fundamental principles surely belong to software engineering good practices - but we consider them indispendsable for improvement projects.
 
 [horizontal]
-[pattern]#Fast-Feedback#:: 
-Get feedback to your actions and changes as early as possible, so you can adjust as quickly as adequate. 
+[pattern]#Fast-Feedback#::
+Get feedback to your actions and changes as early as possible, so you can adjust as quickly as adequate.
 
-[pattern]#Improve Iteratively#:: 
+[pattern]#Improve Iteratively#::
 Improve in (potentially small) iterations and/or increments, so
 that change does not disturb or negatively affect the system, its associated
 processes and organisation. Iterations are the prerequiste for our whole _phased improvement_.
 
 [pattern]#Prototype-Improvement#:: Verify the viability and effectiveness of improvements,
-usually in smaller scales with reasonable risks. 
+usually in smaller scales with reasonable risks.
 
 [pattern]#Verify-After-Every-Change#:: Always make sure that changes,
 even minor ones, leave your system intact. (The awesome Jerry Weinberg has written
@@ -75,7 +75,7 @@ of accidental, unneccessary complexity.
 
 [pattern]#Group Improvement Actions#:: Group related actions, so that they refer
 to similar entities and potential synergies are utilized.
- 
+
 
 [[improve-approaches]]
 ===  (Long-Term) Improve Approaches
@@ -88,9 +88,8 @@ image::improve-approaches.png[]
 
 TODO: Describe Approaches
 
-[pattern]#Change-On-Copy#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve the copies independently.
-
-[pattern]#Change-Via-Split#:: Split up the original system into (not neccessarily distinct) parts. Clean-up those parts individually, and then evolve the parts independently. 
+[pattern]#Change-By-Split#:: Split up the original system into (not neccessarily distinct) parts.
+Clean-up those parts individually, and then evolve the parts independently.
 [small]#(similar, but not identical to Change-On-Copy)#
 
 [pattern]#Keep-Data-Toss-Code#:: As value sometimes resides in data, keep data intact and replace the functional/service/process part of a system.
@@ -111,26 +110,29 @@ TODO: Describe Approaches
 
 [pattern]#Strangulate-Bad-Parts#:: TBD
 
-
 [pattern]#Evolution#:: This approach has been extensively practiced by a Swiss Bank and published
-as a  http://www.amazon.de/Managed-Evolution-Strategy-Information-Systems/dp/3642016324[book]. 
+as a  http://www.amazon.de/Managed-Evolution-Strategy-Information-Systems/dp/3642016324[book].
 Underlying idea is to refactor those parts of the system(s) which are actually to be changed, especially to move all interfaces to new service standard and replace all legacy technologies and other couplings (via DB etc). Over time services should emerge that can be moved to a new platform altogether (from Mainframe to Java).
+
+[pattern]#Change-On-Copy#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve the copies independently.
 
 
 include::patterns/improve/big-bang-approach.adoc[]
+include::patterns/improve/change-by-split-approach.adoc[]
 include::patterns/improve/chicken-little-strategy.adoc[]
 include::patterns/improve/database-first-approach.adoc[]
 include::patterns/improve/database-last-approach.adoc[]
 include::patterns/improve/composite-database-approach.adoc[]
 include::patterns/improve/butterfly-methodology.adoc[]
+include::patterns/improve/strangler-approach.adoc[]
 
 
 [[improve-categories]]
 === Categories of Improvement Practices
 
-We divide improvement practices into several categories (shown in 
+We divide improvement practices into several categories (shown in
 the figure below). In contrast to the (more _strategic_) approaches
-these practices are more a _tactical_ nature. 
+these practices are more a _tactical_ nature.
 
 
 [[improvement-categories]]
@@ -141,15 +143,13 @@ image::improve-practice-categories.png[title="Categories of Improvement Practice
 
 
 * <<mprove-processes, Improve Processes>>: Improve processes _around_ the system, its requirements,
-engineering, delivery, operations and management. 
+engineering, delivery, operations and management.
 * <<improve-architecture, Improve Architecture and Code Structure>>: refactor, restructure, modularize and similar practices.
 * <<improve-technical-infrastructure, Improve Technical Infrastructure>>
-* <<improve-analyzability, Improve Analyzability and Evaluability>>: facilitate to find issues, identify root causes or 
+* <<improve-analyzability, Improve Analyzability and Evaluability>>: facilitate to find issues, identify root causes or
 
 
 include::patterns/category-improve-processes.adoc[]
 include::patterns/category-improve-architecture-and-code.adoc[]
 include::patterns/category-improve-technical-infrastructure.adoc[]
 include::patterns/category-improve-analysability.adoc[]
-
-

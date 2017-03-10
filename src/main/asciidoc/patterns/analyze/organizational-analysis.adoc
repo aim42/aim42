@@ -7,9 +7,158 @@ Analyse and inspect organization(s) responsible for the system.
 
 ===== Description
 
-Under discussion!
+Work-in-progress: collecting ideas and currently doing research, therefore still chaotic document
+
+====== Software Organizations and their Effect on Systems
+As Nagappan et al write: _From the historical perspective, Fred Brooks in his classic book "The Mythical Man Month"
+provides an analogy in the chapter on "Why did the (mythical) Tower of Babel Fail?" The observation being that, the
+people had (1) a clear mission; (2) manpower; (3) (raw) materials; (4) time and (5) technology. The project failed because
+of communication, and its consequent organization. Brooks further states that in software systems schedule
+disasters, functional misfits and system bugs arise from a lack of communication between different teams. Quoting Brooks *“The
+purpose of organization is to reduce the amount of communication and coordination necessary;* hence organization is a radical
+attack on the communication problems…”._ What many organization like Amazon, SoundCloud, Otto or Google do these days is to
+create self-contained, cross-functional teams with a high cohesion inside the team and loose coupling between the teams.
+
+Cohesion in programming refers to the degree to which the elements of a component belong together, all the related code
+should be close to each other. For teams the same is true: all people with the necessary skills to create a feature should
+be close together.
+
+Coupling in programming refers to the degree to which the different components depend on each other. Preferably, components
+should be independent from each other as much as possible. For teams the same should be true, different teams should communicate
+as little as possible. Adrian Cockcroft said regarding the independence between service teams that "_You don’t go and
+have a deep discussion with the Google Maps team just to use their Maps API: it's a reasonably stable
+API, you are isolated, it's sort of versioned, occasionally it changes and you may want to do things. So basically you
+build your own service, you build a bounded context around the thing that your team, your 2 or 3 engineers, are building
+and you build a service or a group of services that interface with all the other things that your company is doing, as
+if they were separate companies. It’s a different bounded context. *So you talk to them but you are not tightly coupled_*".
+
+How can an organization be loosely or tightly coupled? What are those properties? MacCormack et al. answered this question
+in a Harvard Business School http://www.hbs.edu/faculty/Publication%20Files/08-039_1861e507-1dc1-4602-85b8-90d71559d85b.pdf[publication]:
+
+Table: Characterizing Different Organizational Forms
+[width="100%",frame="topbot",options="header"]
+|=======
+| |Tightly-Coupled |Loosely-Coupled
+|Goals |Shared, Explicit |Diverse, Implicit
+|Membership |Closed, Contracted |Open, Voluntary
+|Authority |Formal, Hierarchy |Informal, Meritocracy
+|Location |Centralized, Collocated |Decentralized, Distributed
+|Behavior |Planned, Coordinated |Emergent, Independent
+|=======
+
+Of course this is not black and white, there's always some place in between.
+
+====== Conway's Law and what to do about it
+In 1968 Conway observed that _"organizations produce designs which are copies of the communication
+structures of these organizations (If you have four groups working on a compiler, you'll get a 4-pass compiler)"_. Around
+2006 many companies had a frontend, backend and middleware department reflecting the three-tier architecture they were
+building. Modern companies have individual deployable services built by cross-functional teams.
+
+James Coplien wrote in his book that _"If the parts of an organization (e.g. teams,
+departments, or subdivisions) do not closely reflect the essential parts of the product, or if the relationship between
+organizations do not reflect the relationships between product parts, then the project will be in trouble... Therefore:
+Make sure the organization is compatible with the product architecture"_.
+
+David Parnas (1972, 1978) argued that it is easier to split development work across a
+group if people can work independently and in parallel. To support parallelism, Parnas encouraged
+developers to avoid sharing assumptions and data. Specifically, he contended that every developer’s task
+assignment should lie within a product module that is “characterized by its knowledge of a design
+decision that it hides from all others” (1972: p. 1056)
+
+That means that the flexibility of an organization is important to effective design
+and operations. It also means that you first create your architecture and then form the organizational communication
+around it. This is not as crazy as it sounds, because existing departments can still exist, but the people inside those
+departments need to be insourced into the newly formed product teams representing end-to-end the individual services or
+components of the system.
+
+*If you want to improve your architecture you need to improve your organization as well*
+
+TODO: collect more examples of org transformation
+
+Since systems usually live longer than corporate structures, it is important that managers keep their organisation
+flexible. An example for organizational flexibility is Soundcloud.
+They experimented with different organizational models to find the one that fit product development best. That
+experimentation is possible is important to note - many organizations don't do that. They moved over a couple of years
+from the classical approach of separate development and operation teams to a structure where teams can act autonomously
+and build and run their systems without handovers to other teams. Since there is still a need for centralized work they
+created a production engineering team which takes care of common infrastructure ("run the system that runs systems") and
+do internal consulting in case a team needs help.
+For some companies experimentation is really hard, e.g., a large insurance company has 800 people in an operations department and
+claims because of that "You build it, you run it" is not possible, the company could still keep the departments, but in fact it
+practices insourcing operations people (or UX specialists or business analysts, etc.) into the product teams. That way the
+departments, which are hard to change, still exist, but there's still a good chance to create a cohesive team structure.
+
+An example of a popular change of software producing organizations is the move from operations/development/business/testing
+silos to functional silos (e.g. a cross functional team responsible for product search), because the optimized
+process-based organization is horizontally focused on outcomes, not vertically oriented around skills like testing,
+development and operations.
+
+TODO: provide more case studies, e.g. UK Government Digital Services, Google, Amazon, ING, Otto
+
+====== Organizational Structure and its Effect on Quality
+Microsoft did a large https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2008-11.pdf[study] on how
+organizational structure affects software quality. The effect of organizational structure on quality is higher then code
+churn, code complexity, code coverage or bugs found before releasing the software.
+Microsoft looked at a few organisational metrics:
+
+. Number of Engineers (NOE): The more people who touch the code the lower the quality. This is of course something you need to balance. Of course if
+  there is only one person who works on a component, the likelihood of conceptual integrity and few bugs is high (if the
+  persons work quality is also good). If 300 people change the component it is much harder to keep conceptual integrity.
+  However, a company doesn't want knowledge islands, depending on the knowledge of one single person, therefore the company
+  should find the right balance here. Netflix recommends 2-3 people per component, Amazon has the "Two pizza team" rule
+  (only so many people should work on a component or service who can be fed by two pizzas)
+. Number of Ex-Engineers (NOEE): A large loss of team members affects the knowledge retention and thus quality. A similar
+  http://www.se-radio.net/2014/10/episode-212-randy-shoup-on-company-culture/[study] at eBay found out that
+  a resource pool (a pool of developers where projects can take people out) led to very bad quality
+. Edit Frequency (EF): The more source code edits to components the higher the instability and lower the quality (sure, if I never touch code
+  which works I won't introduce new bugs. But we know that we need to test (heavily) changed source code with a greater
+  intensity than less changed parts of the code)
+. Depth of Master Ownership (DMO): The lower the level of ownership the better the quality. What they mean with that is
+  that a component should have only one clear owner and that owner (can be a team) needs to report to only one leader and not many.
+. Percentage of Org contributing to development (PO): The more cohesive the contributors organizationally the higher the
+  quality. Means that it is important to create a team where its members share a common culture, focus and social cohesion.
+. Level of Organizational Code Ownership (OCO): The more cohesive the contributors (edits) the higher is the quality.
+  Means that it is important to create a team where its members share a common culture on how to write and design a system.
+. Overall Organization Ownership (OOW): People who change often the same source code should sit together closely or at
+  least know each other well and have an unproblematic way to communicate. E.g. working on a particular piece of source
+  code with a person in another timezone lowers quality, pair programming leads to higher quality.
+. Organization Intersection Factor (OIF): The more diffused the different organizations contributing code, the lower the
+  quality. If totally unrelated teams contribute to the source code of a component and those changes are small (< 10% of
+  all changed lines) your quality declines. Try to not have too many contributors who only contribute little.
+
+Statistical existence and empirical evidence stemming from organizations research and social-network analysis reveals that low organisational quality connected to software can be found in the relationships across the following
+combinations (combined org metrics appear in brackets): TODO: still a bit unclear
+
+* Low quality: Code is often changed AND the number of developers changing that code is high (EF ↔ NOE)
+* Low quality: Code is often changed AND the number of developers who changed that code left the team/organization is high (EF↔ NOEE)
+* High quality: The team is cohesive and shares a common culture/focus/social cohesion AND they own their code completely
+  and make their own decisions (OCO ↔ DMO)
+* High quality: The team shares a common culture/focus/social cohesion AND shares a common coding culture (OCO ↔ PO)
+* High quality: The team sits together (or low distance or can easily interact) AND shares a common coding culture (OOW ↔ PO)
+* High quality: The team sits together (or low distance or can easily interact) AND they share a common culture/focus/social cohesion (OOW ↔ OCO)
+
+====== Value Stream Mapping
+
+Value stream mapping is a lean-management method for analyzing the current state of events that take a product or service
+from its beginning through to the customer. Examples in the software world would be all the steps needed from having an
+idea to implementing and deploying it (which usually requires a business case, putting it on a roadmap, write requirements,
+create UX prototypes, implementation, test in between).
+
+Two key metrics associated with value stream mapping are value adding times and non value adding times (=waste). If
+something does not directly add value as perceived by the customer, it is waste. If there is a way to do without it,
+it is waste. Mary Poppendieck https://books.google.de/books?id=UalKAgAAQBAJ&pg=PA4&lpg=PA4&dq=If+something+does+not+directly+add+value+as+perceived+by+the+customer,+it+is+waste.+If+there+is+a+way+to+do+without+it,+it+is+waste.&source=bl&ots=eiQCoEpPVe&sig=Hf75DmlIudz50XJlkSef0Vkw3KM&hl=en&sa=X&ved=0ahUKEwiv44Dj_b7QAhUoCsAKHYWnCA8Q6AEIHTAA#v=onepage&q=If%20something%20does%20not%20directly%20add%20value%20as%20perceived%20by%20the%20customer%2C%20it%20is%20waste.%20If%20there%20is%20a%20way%20to%20do%20without%20it%2C%20it%20is%20waste.&f=false[describes]
+seven types of waste in software development: waiting, partially done work, extra process, extra features, task switching,
+defects and motion.
+
+Often, the value stream is broken in a few places where small changes can bring large improvements. Those are the places
+you need to find and where you can improve the architecture. A great example how value stream mapping led to a large architectural
+improvement is Soundcloud's move from monolith to Microservices and from low cohesion and strong coupling of Departments
+to high cohesion and loose coupling of Departments (http://philcalcado.com/2015/09/08/how_we_ended_up_with_microservices.html).
+
+How to do a / examples of value stream mapping: TODO
 
 
+Old stuff -
 Look for:
 
 * violations of Conways' law
@@ -17,3 +166,14 @@ Look for:
 * organization with overly strict constraints
 * organizations lacking constraints (anarchy)
 * orga-problems leading to IT problems
+
+===== Examples
+
+
+
+===== Also Known As
+
+
+===== Related Patterns
+
+<<Bus-Factor>>

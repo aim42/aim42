@@ -6,7 +6,7 @@
 Find out (analyze):
 
 
-* wether quality requirements can be met by the system, 
+* whether quality requirements can be met by the system, 
 * which specific quality requirements are risks with respect to the current architecture,
 * which specific quality requirements are currently non-risks 
 
@@ -17,7 +17,7 @@ Find out (analyze):
 . Prioritize these scenarios with respect to business value or importance for the authoritative stakeholders.
 . For every important scenario: 
 .. analyze the architectural approach the system takes,
-.. decide wether this approach seems appropriate or risky   
+.. decide whether this approach seems appropriate or risky   
 
 ===== Experiences
 

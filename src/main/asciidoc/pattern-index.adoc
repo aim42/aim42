@@ -46,6 +46,11 @@ Category: <<Analyze>>
 Category: <<Improve>>
 +
 
+. *<<big-bang-approach>>*
++
+Approach to replace an old system with a new system with one big bang deployment.
+Category: <<Improve>>
++
 
 . [[Branch-For-Improvement]]
 [pattern]#Branch For Improvement#:: Introduce distinct branches in your version control system to reflect improvements.
@@ -453,16 +458,21 @@ Analyse source code to identify building blocks and their dependencies, determin
 Category: <<Analyze>>
 +
 
+. *<<strangler-approach>>*
++
+Approach to gradually create a new system around the edges of the old, letting it grow slowly over several years until the old system is strangled.
+Category: <<Improve>>
++
+
 . [[Structural-Analysis]]
 [pattern]#Structural Analysis#:: Analyze the static structures (e.g. building block structure) of the <<System>>, e.g. package or module dependencies, runtime- and/or deployment dependencies. See the more specific <<Static-Code-Analysis>>, <<Context-Analysis>> and <<Data-Analysis>>.
 Category: <<Analyze>>
 +
 
 . [[Systematic-Decisions]]
-+
-Systematically prepare and take decisions by finding appropriate options, check assumptions, overcome emotion and prepare to be wrong. See <<heath-decisive, Decisive (by C+D Heath)>>.
+[pattern]#Systematic Decisions#:: Systematically prepare and take decisions by finding appropriate options, check assumptions, overcome emotion and prepare to be wrong. See <<heath-decisive, Decisive (by C+D Heath)>>.
 Category: <<Crosscutting>>
-
++
 
 . *<<Take-What-They-Mean>>*
 +

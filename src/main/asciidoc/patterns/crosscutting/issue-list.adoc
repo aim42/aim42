@@ -19,8 +19,8 @@ Collect all known issues and problems within a system or its associated processe
 
 ==== Representation and Tools
 It's difficult to decide how much formalism to apply in collecting issues and problems:
-Sometimes a wiki-page might suffice, for other systems a full-blown
-issue-tracker can be useful.
+Sometimes a wiki page might suffice, for other systems a full-blown
+issue tracker can be useful.
 
 As always: documentation is only valuable if it can be found easily, which makes electronic approaches more viable. 
 

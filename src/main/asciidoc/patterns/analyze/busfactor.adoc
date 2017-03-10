@@ -1,0 +1,44 @@
+[[Bus-Factor]]
+==== [pattern]#Bus factor#
+
+The bus factor is a measurement of the risk resulting from information and capabilities not being shared among team members, from the phrase "in case they get hit by a bus" (Wikipedia).
+
+===== Intent
+
+Improve the structure of a system or its documentation so that the organisation is not at risk if certain key people leave.
+
+===== Description
+
+In an ideal world, the whole team owns the all code and anybody can safely change anything. Often this is not the case, because
+
+* the (monolithic) system has already grown so large and complex that knowing all the details and concepts are too overwhelming for
+  a single person
+* requirements of certain parts of the domain are always given to the same developer (by the management), because this
+  developer knows everything about the domain and can therefore implement these requirements very fast. Any newbie would need
+  a lot of time to achieve small things and the organisation takes on this organisational debt (they gain an advantage
+  short term, but it could be very problematic long term), because they don't want to invest in distributing knowledge
+* developers want to increase their employability. If only they know about a critical part of the system, they cannot be fired
+  or put under pressure easily. Therefore they want to protect those parts and try hard to not let others work on the code.
+  Sometimes this even leads to deliberate complexity - complexity that has been introduced to obfuscate better understanding
+  by other developers.
+
+Usually, a team has already a good grasp on which parts of the system certain developers own the knowledge almost completely.
+It is vital to get some numbers through mining repository data, e.g. if you think that dev A is the only one knowing about
+some security code, then you can analyze the commit history of the security package. Adam Tornhill gives a lot of ideas
+and also code snippets on how to do that in his book "Your Code As a Crime Scene". What he does is looking at the changed
+lines of a package over all the commits of a certain time frame. If a large amount (e.g. >80%) of those commits is coming from a single
+developers, you should act.
+
+
+===== Experiences
+
+It is often easy to spot and verify problematic knowledge islands, but getting rid of them (e.g. pair programming,
+documentation, automation) is really hard, because the developers living on that knowledge island usually want to
+protect it.
+
+===== Applicability
+
+
+===== Related Patterns
+
+

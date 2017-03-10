@@ -1,0 +1,28 @@
+[[Social Debt]]
+==== [pattern]#Social Debt#
+
+Social debt amounts to additional project cost connected to sub-optimal organisational and socio-technical decisions http://download.springer.com/static/pdf/406/art%253A10.1186%252Fs13174-015-0024-6.pdf?originUrl=http%3A%2F%2Fjisajournal.springeropen.com%2Farticle%2F10.1186%2Fs13174-015-0024-6&token2=exp=1480693061~acl=%2Fstatic%2Fpdf%2F406%2Fart%25253A10.1186%25252Fs13174-015-0024-6.pdf*~hmac=5baf78a443d4aa14817fd79659de0902e2760fc6649377159a028c12f11670dd[publication]:
+
+===== Intent
+
+Evaluate and track the welfare and health of a software development and operation organization or community such that additional project cost can be avoided or somehow managed.
+
+===== Description
+
+Organization, coordination and cooperation are critical forces behind software development and operation. Through well-thought protocols and cooperation guidelines, software architects, developers as much as entire organizations try to orchestrate proper coordination and cooperation but many times such attempts are burdened by sub-optimal organisational decisions, e.g., the adoption of a process model that is not compatible with developers and operators’ background and mindset or even collaborating with an organization that does not and cannot share the same values of the organization in question. These circumstances often result in additional project cost in the form of recurrent delays, condescending behaviour or worse.
+
+Evaluating these circumstances together, trying to minimise their impact on software development and the quality of resulting software products is currently object of intensive study. 
+
+The goal for social debt in the next few years of research is that of reaching a crisp definition that contains the essential traits of social debt which can be refined into practical operationalizations for use by software engineering professionals in need of knowing more about their organizational structure and the properties/cost trade-off that structure currently reflects. 
+
+
+===== Experiences
+
+TODO: still to finish implementing first draft description according to agreements perhaps needs a bit of blending with Sven’s solution
+
+===== Applicability
+
+
+===== Related Patterns
+
+

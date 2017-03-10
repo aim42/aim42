@@ -9,7 +9,7 @@ Identify the source of an error (_bug_) or misbehavior by observing the flow of 
 TIP: Many software developers we met violated the basic rules of debugging. They worked in haste, took wrong assumptions, imagined-instead-of-read or simply hunted bugs at the wrong parts of the system.
 
 ===== Description
-Debuggers are well-known and important tools for most software developers. Yet - finding bugs is often more difficult than expected - despite powerful tool support. 
+Debuggers are well-known and important tools for most software developers. Yet finding bugs is often more difficult than expected - despite powerful tool support. 
 
 Approach the search for bugs, errors in the following order:
 
@@ -19,25 +19,25 @@ Approach the search for bugs, errors in the following order:
 . *Reproduce the error* in the live system. Don't rely on the assumption you can reproduce it - make sure you can reliably _really_ reproduce it.
 . *Obtain the exact version* of all required source code and all involved data.
 . *Reproduce the error in development environment*: This ensures your development environment is consistent to the live system. 
-. *Call your error assumption into question*. Realize what is symptom and what is cause of the error.
+. *Rephrase your error assumption into a question*: Distinguish symptoms from the cause of the error by asking "why?" a few times.
 . *Identify the building blocks* which are involved in the error path.
-. *Understand the error scenario*: You need to know the business or technical scenario (aka the process or activity flow) of the error: What steps within the system or at its external interfaces precede the error? This step is an example of <<View-Based-Understanding>>. 
-    .. Make this scenario *explicit* - draw or scribble a diagram. See the diagram "Divide and conquer" below as an example. Here the error arises in building block 1. You suppose the processing within the system is spaned by the blue marked data path in which the building blocks 2 to 6 are involved. Cut the path in half and check your assumption at the transition of one half to the other (here beetween building block 4 and 3). If no error is observable here then the error occures after the considered transiton. Otherwise you have to look for the error before the transition.
+. *Understand the error scenario*: You need to know the business or technical scenario (aka the process or activity flow) of the error: Which steps within the system or its external interfaces precede the error? This step is an example of <<View-Based-Understanding>>. 
+    .. Make this scenario *explicit* - draw or scribble a diagram. See the diagram "Divide and conquer" below as an example. Here the error arises in building block 1. You suppose the processing within the system is spanned by the blue marked data path in which the building blocks 2 to 6 are involved. Cut the path in half and check your assumption at the transition of one half to the other (here between building block 4 and 3). If no error is observable here then the error occurs after the considered transition. Otherwise you have to look for the error before the transition.
 +
-image::debugging-divide-and-conquer.jpg["Divide and conqer", title="Divide and conquer debugging tactics"]
+image::debugging-divide-and-conquer.jpg["Divide and conquer", title="Divide and conquer debugging tactics"]
 
     .. *Plan your debugging strategy*: Think of the expected outcome of every part of 
        your scenario.  
     .. If you know you're traveling to Pisa (Italy), you won't confuse the Leaning Tower with an error.
 +
-. *Look, don't imagine*: Sherlock Holmes, the succesful detective has formulated the golden rule of debugging: "_It's a capital mistake to theorize before one has data_". Instrument the system or use step debugging. Look _exactly_ what the messages are, read carefully.
-. *Change only one thing at a time* and test if the error disappears: Aim for errors with a pistol, not with a scattergun.
-. Apply the *4-Eye-Principle*: Describe the problem and your state-of-debugging to somebody else. Especially clarify all your assumptions.
+. *Look, don't imagine*: Sherlock Holmes, the successful detective has formulated the golden rule of debugging: "_It's a capital mistake to theorize before one has data_". Instrument the system or use step debugging. Look _exactly_ what the messages are, read carefully.
+. *Change only one thing at a time* and test if the error disappears: Aim for errors with a sniper rifle, not with a shotgun.
+. Apply the *4-Eye-Principle*: Describe the problem and your state of debugging to somebody else. Especially clarify all your assumptions.
 
 
 
 ===== Experiences
-If locating errors takes very long, you're propably facing one of the following issues:
+If locating errors takes very long, you're probably facing one of the following issues:
 
 * You suffer from any assumption that's currently not valid.
 * You _think_ something instead of _observing_ it - you let your mind deceive your eyes or ears.
@@ -45,7 +45,7 @@ If locating errors takes very long, you're propably facing one of the following 
 
 ===== Applicability
 * Whenever a bug or misbehavior of a program is reported, debugging can help to identify its root cause.
-* Debugging can help in understanding a system by make its inner working explicit.
+* Debugging can help to understand a system by make its inner working explicit.
 
 
 ===== Related Patterns

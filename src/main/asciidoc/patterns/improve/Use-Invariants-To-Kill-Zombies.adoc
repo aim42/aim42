@@ -50,10 +50,10 @@ And so on.
 
 This is a classical situation that calls for trade-off decisions, but since this
 piece of code should never be called anyway things like sending an e-mail or
-calling some webservices are not so far out of the question. 
+calling some web services are not so far out of the question. 
 
 If a huge number of deployments is possible without problems it can also be
-feasible to de-escalate slowly and use more and more intrusive ways to handle
+feasible to deescalate slowly and use more and more intrusive ways to handle
 the failed invariant -- write a log entry in the first two weeks, send an SNMP
 trap in the next four weeks and after that send an e-mail (although it doesn't
 hurt to keep the logging turned on).
