@@ -65,8 +65,8 @@ deliver new features. However, this approach will take longer than the second on
 
 ===== Applicability
 
-A big bang replacement is too risky and/or your business wants you to constantly deliver new features and does not accept
-a 1-3 years break for the big rewrite.
+* A big bang replacement is too risky and/or your business wants you to constantly deliver new features and does not accept a 1-3 years break for the big rewrite.
+* "Cost of Delay" of not moving to the new platform as early as possible is higher then the cost of running two systems in parallel
 
 ===== Consequences
 
