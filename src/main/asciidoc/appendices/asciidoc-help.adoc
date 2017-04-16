@@ -17,6 +17,21 @@ We found the following information especially helpful for learning asciidoc:
 
 === Headings
 
+Headings are just headings as described in the AsciiDoctor's Manual entry on
+**http://asciidoctor.org/docs/user-manual/#sections[ sections]**. The important
+thing to keep in mind is the fact that AsciiDoctor actually treats headings
+_semantically_. This means that a level 2 section should come within a section 1
+section and be followed by a level three section, _not_ by a level four section.
+
+Otherwise there should be a compile warning in the gradle build like this
+
+----
+:asciidoctor
+asciidoctor: WARNING: appendices/asciidoc-help.adoc: line 18: section title out of sequence: expected level 2, got level 3
+----
+
+and we try to avoid these.
+
 === Cross-References
 
 
@@ -170,4 +185,3 @@ Sometimes it can be useful to write [small]#smaller text#.
 ----
 ... useful to write [small]#smaller text#.
 ----
-
