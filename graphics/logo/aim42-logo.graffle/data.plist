@@ -4,15 +4,17 @@
 <dict>
 	<key>ApplicationVersion</key>
 	<array>
-		<string>com.omnigroup.OmniGraffle6</string>
-		<string>169.23.0.276662</string>
+		<string>com.omnigroup.OmniGraffle7</string>
+		<string>177.3.0.283059</string>
 	</array>
 	<key>CreationDate</key>
 	<string>2014-01-07 16:35:15 +0000</string>
 	<key>Creator</key>
 	<string>Dr. Gernot Starke</string>
+	<key>CurrentSheet</key>
+	<integer>1</integer>
 	<key>GraphDocumentVersion</key>
-	<integer>12</integer>
+	<integer>13</integer>
 	<key>GuidesLocked</key>
 	<string>NO</string>
 	<key>GuidesVisible</key>
@@ -37,6 +39,8 @@
 	<string>2017-04-27 10:22:16 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
+	<key>MovementHandleVisible</key>
+	<string>NO</string>
 	<key>NotesVisible</key>
 	<string>NO</string>
 	<key>OriginVisible</key>
@@ -63,7 +67,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{595.27557277679443, 841.8897705078125}</string>
+			<string>{595, 842}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
@@ -89,17 +93,22 @@
 			<key>ActiveLayerIndex</key>
 			<integer>0</integer>
 			<key>AutoAdjust</key>
-			<true/>
+			<integer>6</integer>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.27557277679443, 782.8897705078125}}</string>
+				<string>{{0, 0}, {1009.3333333333333, 1174.6666666666667}}</string>
 				<key>Class</key>
-				<string>SolidGraphic</string>
+				<string>ShapedGraphic</string>
 				<key>ID</key>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
+					<key>shadow</key>
+					<dict>
+						<key>Draws</key>
+						<string>NO</string>
+					</dict>
 					<key>stroke</key>
 					<dict>
 						<key>Draws</key>
@@ -145,7 +154,7 @@
 						<real>28</real>
 					</dict>
 					<key>ID</key>
-					<integer>37</integer>
+					<integer>3</integer>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -194,7 +203,7 @@
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>34</integer>
+					<integer>4</integer>
 					<key>Shape</key>
 					<string>Circle</string>
 					<key>Style</key>
@@ -216,9 +225,11 @@
 								<key>b</key>
 								<real>0.0</real>
 								<key>g</key>
-								<real>0.0</real>
+								<real>0.1491314172744751</real>
 								<key>r</key>
 								<real>1</real>
+								<key>space</key>
+								<string>srgb</string>
 							</dict>
 							<key>Width</key>
 							<real>1.5</real>
@@ -235,7 +246,7 @@
 					<key>Flow</key>
 					<string>Resize</string>
 					<key>ID</key>
-					<integer>32</integer>
+					<integer>5</integer>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -277,7 +288,7 @@
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>31</integer>
+					<integer>6</integer>
 					<key>ImageID</key>
 					<integer>2</integer>
 					<key>Style</key>
@@ -305,7 +316,7 @@
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>38</integer>
+					<integer>7</integer>
 				</dict>
 			</array>
 			<key>GridInfo</key>
@@ -317,16 +328,16 @@
 			<key>Layers</key>
 			<array>
 				<dict>
+					<key>Artboards</key>
+					<false/>
 					<key>Lock</key>
-					<string>NO</string>
+					<false/>
 					<key>Name</key>
 					<string>Ebene 1</string>
 					<key>Print</key>
-					<string>YES</string>
-					<key>Slices</key>
-					<string>NO</string>
+					<true/>
 					<key>View</key>
-					<string>YES</string>
+					<true/>
 				</dict>
 			</array>
 			<key>LayoutInfo</key>
@@ -360,22 +371,29 @@
 			<integer>1</integer>
 			<key>VPages</key>
 			<integer>1</integer>
+			<key>VisibleVoidKey</key>
+			<real>1</real>
 		</dict>
 		<dict>
 			<key>ActiveLayerIndex</key>
 			<integer>0</integer>
 			<key>AutoAdjust</key>
-			<true/>
+			<integer>6</integer>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.27557277679443, 782.8897705078125}}</string>
+				<string>{{0, 0}, {1235, 1371}}</string>
 				<key>Class</key>
-				<string>SolidGraphic</string>
+				<string>ShapedGraphic</string>
 				<key>ID</key>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
+					<key>shadow</key>
+					<dict>
+						<key>Draws</key>
+						<string>NO</string>
+					</dict>
 					<key>stroke</key>
 					<dict>
 						<key>Draws</key>
@@ -421,7 +439,7 @@
 						<real>28</real>
 					</dict>
 					<key>ID</key>
-					<integer>37</integer>
+					<integer>3</integer>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -470,7 +488,7 @@
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>34</integer>
+					<integer>4</integer>
 					<key>Shape</key>
 					<string>Circle</string>
 					<key>Style</key>
@@ -492,9 +510,11 @@
 								<key>b</key>
 								<real>0.0</real>
 								<key>g</key>
-								<real>0.0</real>
+								<real>0.1491314172744751</real>
 								<key>r</key>
 								<real>1</real>
+								<key>space</key>
+								<string>srgb</string>
 							</dict>
 							<key>Width</key>
 							<real>1.5</real>
@@ -511,7 +531,7 @@
 					<key>Flow</key>
 					<string>Resize</string>
 					<key>ID</key>
-					<integer>32</integer>
+					<integer>5</integer>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -553,7 +573,7 @@
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>31</integer>
+					<integer>6</integer>
 					<key>ImageID</key>
 					<integer>2</integer>
 					<key>ManualSizeImage</key>
@@ -595,16 +615,16 @@
 			<key>Layers</key>
 			<array>
 				<dict>
+					<key>Artboards</key>
+					<false/>
 					<key>Lock</key>
-					<string>NO</string>
+					<false/>
 					<key>Name</key>
 					<string>Ebene 1</string>
 					<key>Print</key>
-					<string>YES</string>
-					<key>Slices</key>
-					<string>NO</string>
+					<true/>
 					<key>View</key>
-					<string>YES</string>
+					<true/>
 				</dict>
 			</array>
 			<key>LayoutInfo</key>
@@ -638,22 +658,29 @@
 			<integer>2</integer>
 			<key>VPages</key>
 			<integer>1</integer>
+			<key>VisibleVoidKey</key>
+			<real>1</real>
 		</dict>
 		<dict>
 			<key>ActiveLayerIndex</key>
 			<integer>0</integer>
 			<key>AutoAdjust</key>
-			<true/>
+			<integer>6</integer>
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
 				<string>{{0, 0}, {559.27557277679443, 782.8897705078125}}</string>
 				<key>Class</key>
-				<string>SolidGraphic</string>
+				<string>ShapedGraphic</string>
 				<key>ID</key>
 				<integer>2</integer>
 				<key>Style</key>
 				<dict>
+					<key>shadow</key>
+					<dict>
+						<key>Draws</key>
+						<string>NO</string>
+					</dict>
 					<key>stroke</key>
 					<dict>
 						<key>Draws</key>
@@ -699,7 +726,7 @@
 						<real>28</real>
 					</dict>
 					<key>ID</key>
-					<integer>37</integer>
+					<integer>3</integer>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -748,7 +775,7 @@
 						<real>12</real>
 					</dict>
 					<key>ID</key>
-					<integer>34</integer>
+					<integer>4</integer>
 					<key>Shape</key>
 					<string>Circle</string>
 					<key>Style</key>
@@ -770,9 +797,11 @@
 								<key>b</key>
 								<real>0.0</real>
 								<key>g</key>
-								<real>0.0</real>
+								<real>0.1491314172744751</real>
 								<key>r</key>
 								<real>1</real>
+								<key>space</key>
+								<string>srgb</string>
 							</dict>
 							<key>Width</key>
 							<real>1.5</real>
@@ -794,7 +823,7 @@
 						<real>53</real>
 					</dict>
 					<key>ID</key>
-					<integer>32</integer>
+					<integer>5</integer>
 					<key>Style</key>
 					<dict>
 						<key>fill</key>
@@ -836,7 +865,7 @@
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
-					<integer>31</integer>
+					<integer>6</integer>
 					<key>ImageID</key>
 					<integer>2</integer>
 					<key>Style</key>
@@ -868,16 +897,16 @@
 			<key>Layers</key>
 			<array>
 				<dict>
+					<key>Artboards</key>
+					<false/>
 					<key>Lock</key>
-					<string>NO</string>
+					<false/>
 					<key>Name</key>
 					<string>Ebene 1</string>
 					<key>Print</key>
-					<string>YES</string>
-					<key>Slices</key>
-					<string>NO</string>
+					<true/>
 					<key>View</key>
-					<string>YES</string>
+					<true/>
 				</dict>
 			</array>
 			<key>LayoutInfo</key>
@@ -911,6 +940,8 @@
 			<integer>3</integer>
 			<key>VPages</key>
 			<integer>1</integer>
+			<key>VisibleVoidKey</key>
+			<real>1</real>
 		</dict>
 	</array>
 	<key>SmartAlignmentGuidesActive</key>
@@ -921,10 +952,6 @@
 	<false/>
 	<key>WindowInfo</key>
 	<dict>
-		<key>CurrentSheet</key>
-		<integer>1</integer>
-		<key>Expanded_Canvases</key>
-		<array/>
 		<key>Frame</key>
 		<string>{{110, 84}, {1224, 746}}</string>
 		<key>ShowInfo</key>
@@ -935,12 +962,10 @@
 		<true/>
 		<key>SidebarWidth</key>
 		<integer>230</integer>
-		<key>TopSlabHeight</key>
-		<real>250</real>
+		<key>Sidebar_Tab</key>
+		<integer>0</integer>
 		<key>VisibleRegion</key>
-		<string>{{-60, 0}, {680, 601}}</string>
-		<key>Zoom</key>
-		<real>1</real>
+		<string>{{0, 0}, {676, 588}}</string>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -960,5 +985,58 @@
 			</array>
 		</array>
 	</dict>
+	<key>compressOnDiskKey</key>
+	<false/>
+	<key>copyLinkedImagesKey</key>
+	<false/>
+	<key>createSinglePDFKey</key>
+	<false/>
+	<key>exportAreaKey</key>
+	<integer>2</integer>
+	<key>exportQualityKey</key>
+	<real>100</real>
+	<key>exportSizesKey</key>
+	<array>
+		<real>1</real>
+		<string>eps</string>
+	</array>
+	<key>fileFormatKey</key>
+	<integer>0</integer>
+	<key>htmlImageTypeKey</key>
+	<integer>0</integer>
+	<key>includeBackgroundGraphicKey</key>
+	<true/>
+	<key>includeNonPrintingLayersKey</key>
+	<false/>
+	<key>lastExportTypeKey</key>
+	<integer>9</integer>
+	<key>marginWidthKey</key>
+	<real>0.0</real>
+	<key>previewTypeKey</key>
+	<integer>1</integer>
+	<key>readOnlyKey</key>
+	<false/>
+	<key>resolutionForBMPKey</key>
+	<real>1</real>
+	<key>resolutionForGIFKey</key>
+	<real>1</real>
+	<key>resolutionForHTMLKey</key>
+	<real>1</real>
+	<key>resolutionForJPGKey</key>
+	<real>1</real>
+	<key>resolutionForPNGKey</key>
+	<real>1</real>
+	<key>resolutionForTIFFKey</key>
+	<real>1</real>
+	<key>resolutionUnitsKey</key>
+	<integer>0</integer>
+	<key>saveAsFlatFileOptionKey</key>
+	<integer>3</integer>
+	<key>useArtboardsKey</key>
+	<false/>
+	<key>useMarginKey</key>
+	<false/>
+	<key>useNotesKey</key>
+	<false/>
 </dict>
 </plist>
