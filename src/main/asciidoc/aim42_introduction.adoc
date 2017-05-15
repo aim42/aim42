@@ -1,9 +1,13 @@
-== Introduction 
+== Introduction
+
+
+include::aim42-overview.adoc[]
+
 
 === Why is software being changed?
 
-Software systems, at least most of those that are practically used, are changed all the 
-time. Features are added, modified or removed, user interaction is streamlined, 
+Software systems, at least most of those that are practically used, are changed all the
+time. Features are added, modified or removed, user interaction is streamlined,
 performance is tuned, changes to external interfaces or systems are reflected.
 The reasons for changing a system can be grouped into four categories (see <<ISO-14764>>):
 
@@ -18,7 +22,7 @@ The reasons for changing a system can be grouped into four categories (see <<ISO
 ** maintenance costs have to be reduced
 ** existing documentation does not reflect the truth (any more)
 ** resource consumption needs to be optimized
-** system needs to work faster 
+** system needs to work faster
 ** system needs to become more reliable or fault-tolerant
 ** people need new features
 ** system needs to be integrated with _new neighbour_
@@ -48,10 +52,10 @@ image::cost-of-change.jpg["target situation", title="Reality: Maintaining softwa
 // TODO: exchange image to reflect both cost and understandability.
 
 
-These negative effects share a few common root causes: 
+These negative effects share a few common root causes:
 
 . lack of _conceptual integrity_
-. _internal disorder_ 
+. _internal disorder_
 . overly _complex internal structure_, either of source code or data
 . overly _complex concepts_ (cross-cutting solutions for fine-grained problems)
 . overly complex or inappropriate internal processes
@@ -69,12 +73,12 @@ Investment in methodical and systematic software architecture improvement will h
 
 [[figure-target-situation]]
 image::target-situation.jpg["target situation", title="Goal: Maintainable Software"]
- 
-
-=== How does aim42 work? 
 
 
-==== Three Simple Phases 
+=== How does aim42 work?
+
+
+==== Three Simple Phases
 
 aim42 works in a phased iterative manner:
 
@@ -91,10 +95,10 @@ These three phases are performed iteratively - as explained <<Iterative-Approach
 Several <<Crosscutting, cross-cutting practices and patterns>> should be applied in all phases, for example documenting results, <<collect-opportunities-for-improvement>>
 or long- and short-term planning activities.
 
- 
+
 
 ==== Common Terminology
-aim42 relies on a common terminology, a small set of fundamental concepts. 
+aim42 relies on a common terminology, a small set of fundamental concepts.
 
 [[figure-fundamental-concepts]]
 image::aim42-concept-map.png[title="aim42 domain terminology"]
@@ -103,23 +107,23 @@ image::aim42-concept-map.png[title="aim42 domain terminology"]
 [width="80%",cols="5s,10"]
 |=========================================================
 
-|Issue | 
-Any problem, error, fault, risk, suboptimal situation or their causes within the 
+|Issue |
+Any problem, error, fault, risk, suboptimal situation or their causes within the
 <<System>> or processes related to it (e.g. management, operational, development, administrative or organizational activities).
 
-|Cause | 
+|Cause |
 Fundamental reason for one or several issues.
 
-|Improvement | 
+|Improvement |
 Solution, remedy or cure for one or several issues.
 
-|Cost (of issue) | 
+|Cost (of issue) |
 The cost (in any unit appropriate for business, e.g. money, effort or such) of the issue, related to a frequency or period of time. For example – cost of every occurrence of the issue or recurring cost per week.
 
-|Cost (of improvement) | 
+|Cost (of improvement) |
 The cost (in monetary units) of the improvement, remedy, tactic or strategy.
 
-|Risk | 
+|Risk |
 _Potential_ problem. Improvements can change associated risks for the better or the worse, even create new risks.
 
 |=========================================================
@@ -128,30 +132,27 @@ _Potential_ problem. Improvements can change associated risks for the better or 
 
 [[Iterative-Approach]]
 ==== Iterative Approach
-In compliance with modern agile development methodologies, aim42 fundamentally depends on iteration and feedback between the phases. 
+In compliance with modern agile development methodologies, aim42 fundamentally depends on iteration and feedback between the phases.
 
 Within each phase, you collect both issues and opportunities for improvement, as depicted in the illustration below:
 
 [[figure-iterate-and-collect]]
 image::collect-issues-improvements.png[title="Iterate and Collect"]
 
-Issues and improvements need to be 
+Issues and improvements need to be
 
 * related to each other: No idea of improvement without an existing issue - as we do not want to optimize "because we can".
 
 * evaluated in some business-compatible unit (e. g. Euro, $) as described above. See <<Evaluate>>.
 
 === Patterns and Practices Provide No Guarantee
-We are *very* sure that aim42 can work for your system or your organization. 
+We are *very* sure that aim42 can work for your system or your organization.
 But (yes, there's always a but) we cannot guarantee: Maybe your software is so
 *extraordinaire*, so very special, that it needs other treatments.
 
 Maybe your organization does not fit our prerequisites or is way more advanced
 than we anticipated in our approach...
 
-You have to use all practices, patterns and approaches of aim42 at your own risk 
-and responsibility. We (the aim42 contributor team) can by no means be held 
+You have to use all practices, patterns and approaches of aim42 at your own risk
+and responsibility. We (the aim42 contributor team) can by no means be held
 responsible for any results of applying aim42.
-
-
-

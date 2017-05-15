@@ -1,0 +1,33 @@
+=== Overview
+
+
+[cols="3"]
+|===
+|{set:cellbgcolor:#d55e00}**Analyze**  +
+Identify problems and improvement options
+|{set:cellbgcolor:#f0e442}**Evaluate** +
+Estimate cost or value of issues and improvements
+|{set:cellbgcolor:#009e73} **Improve** +
+Apply or perform selected improvements
+|{set:cellbgcolor:#EFC4A2}Understand the system
+|{set:cellbgcolor:#F8F2A9}Estimate issue cost:
+How grave is this problem?
+|{set:cellbgcolor:#A2DBCC}Improve processes
+|{set:cellbgcolor:#EFC4A2}Interview stakeholders
+|{set:cellbgcolor:#F8F2A9}Estimate improvement cost:
+How expensive is this change?
+|{set:cellbgcolor:#A2DBCC}Improve architecture and code
+|{set:cellbgcolor:#EFC4A2}Context analysis
+|{set:cellbgcolor:#F8F2A9}Usually "evaluation" means _estimation_.
+|{set:cellbgcolor:#A2DBCC}Improve technology
+|{set:cellbgcolor:#EFC4A2}Architectural analysis
+|{set:cellbgcolor:#F8F2A9}
+|{set:cellbgcolor:#A2DBCC}Improve organization
+3+|{set:cellbgcolor:#0072b2}**Crosscutting** +
+Manage issues, improvementand their relationships.
+3+|{set:cellbgcolor:#A2CBE3}Manage issues (risks, problems, symptoms, root-causes).
+3+|{set:cellbgcolor:#A2CBE3}Manage (potential) improvements, options or opportunities to get rid of certain issues.
+3+|{set:cellbgcolor:#A2CBE3}Manage the (m:n) relationships between issues and improvements.
+3+|{set:cellbgcolor:#A2CBE3}Plan improvements, interleaved with to day-to-day activities
+
+|===
