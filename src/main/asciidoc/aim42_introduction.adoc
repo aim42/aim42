@@ -47,7 +47,7 @@ _decrease in understandability_: When a system matures it becomes more and more 
 
 
 [[figure-real-situation]]
-image::cost-of-change.jpg["target situation", title="Reality: Maintaining software is too expensive"]
+image::cost-of-change.jpg["target situation", 50%, title="Reality: Maintaining software is too expensive"]
 
 // TODO: exchange image to reflect both cost and understandability.
 
@@ -72,7 +72,7 @@ But as more and more changes, modifications, tweaks and supposed _optimizations_
 Investment in methodical and systematic software architecture improvement will have the following effect.
 
 [[figure-target-situation]]
-image::target-situation.jpg["target situation", title="Goal: Maintainable Software"]
+image::target-situation.jpg["target situation", 50%, title="Goal: Maintainable Software"]
 
 
 === How does aim42 work?

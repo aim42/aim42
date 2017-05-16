@@ -29,5 +29,5 @@ Manage issues, improvementand their relationships.
 3+|{set:cellbgcolor:#A2CBE3}Manage (potential) improvements, options or opportunities to get rid of certain issues.
 3+|{set:cellbgcolor:#A2CBE3}Manage the (m:n) relationships between issues and improvements.
 3+|{set:cellbgcolor:#A2CBE3}Plan improvements, interleaved with to day-to-day activities
-
+{set:cellbgcolor!}
 |===
