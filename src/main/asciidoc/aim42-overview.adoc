@@ -3,11 +3,11 @@
 
 [cols="3"]
 |===
-|{set:cellbgcolor:#d55e00}**Analyze**  +
+^|{set:cellbgcolor:#d55e00}**Analyze**  +
 Identify problems and improvement options
-|{set:cellbgcolor:#f0e442}**Evaluate** +
+^|{set:cellbgcolor:#f0e442}**Evaluate** +
 Estimate cost or value of issues and improvements
-|{set:cellbgcolor:#009e73} **Improve** +
+^|{set:cellbgcolor:#009e73} **Improve** +
 Apply or perform selected improvements
 |{set:cellbgcolor:#EFC4A2}Understand the system
 |{set:cellbgcolor:#F8F2A9}Estimate issue cost:
@@ -23,11 +23,11 @@ How expensive is this change?
 |{set:cellbgcolor:#EFC4A2}Architectural analysis
 |{set:cellbgcolor:#F8F2A9}
 |{set:cellbgcolor:#A2DBCC}Improve organization
-3+|{set:cellbgcolor:#0072b2}**Crosscutting** +
+3+^|{set:cellbgcolor:#2E8BC0}**Crosscutting** +
 Manage issues, improvementand their relationships.
 3+|{set:cellbgcolor:#A2CBE3}Manage issues (risks, problems, symptoms, root-causes).
 3+|{set:cellbgcolor:#A2CBE3}Manage (potential) improvements, options or opportunities to get rid of certain issues.
 3+|{set:cellbgcolor:#A2CBE3}Manage the (m:n) relationships between issues and improvements.
 3+|{set:cellbgcolor:#A2CBE3}Plan improvements, interleaved with to day-to-day activities
-{set:cellbgcolor!}
+3+|{set:cellbgcolor!}
 |===
