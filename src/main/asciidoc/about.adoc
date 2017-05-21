@@ -13,10 +13,10 @@ http://aim42.org[aim42] is a collection of practices and patterns to support sof
 improvement of software systems:
 
 
-. helps to optimize your software and reduce maintenance cost
-. helps to identify critical issues, technical debt and risks
-. supports both business and technical stakeholders
-. grounded in practice , proven approaches, backed by serious research
+. helps to optimize your software and reduce maintenance cost,
+. identifies critical issues, technical debt and risks,
+. supports both business and technical stakeholders,
+. grounded in practice and experience, backed by serious research,
 . free and open-source, <<contributions,contributions>> welcome.
 
 aim42 seamlessly integrates with your day-to-day development work.
