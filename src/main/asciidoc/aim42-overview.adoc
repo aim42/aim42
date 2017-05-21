@@ -1,33 +1,46 @@
 === Overview
 
+aim42 organizes software improvement in three major
+phases (<<Analyze>>, <<Evaluate>> and <<Improve>>),
+build around some <<Crosscutting, crosscutting>> activities.
+
+image::aim42-phases.png["aim42 phases",  50%, title="Three Phases of aim42"]
+
 
 [cols="3"]
 |===
-^|{set:cellbgcolor:#d55e00}**Analyze**  +
+^|{set:cellbgcolor:#fd0023} **Analyze**  +
 Identify problems and improvement options
-^|{set:cellbgcolor:#f0e442}**Evaluate** +
+^|{set:cellbgcolor:#4ca9fc}**Evaluate** +
 Estimate cost or value of issues and improvements
-^|{set:cellbgcolor:#009e73} **Improve** +
+^|{set:cellbgcolor:#45db86} **Improve** +
 Apply or perform selected improvements
-|{set:cellbgcolor:#EFC4A2}Understand the system
-|{set:cellbgcolor:#F8F2A9}Estimate issue cost:
+|{set:cellbgcolor:#fd7387}Understand the system
+|{set:cellbgcolor:#8dc8fd}Estimate issue cost:
 How grave is this problem?
-|{set:cellbgcolor:#A2DBCC}Improve processes
-|{set:cellbgcolor:#EFC4A2}Interview stakeholders
-|{set:cellbgcolor:#F8F2A9}Estimate improvement cost:
-How expensive is this change?
 |{set:cellbgcolor:#A2DBCC}Improve architecture and code
-|{set:cellbgcolor:#EFC4A2}Context analysis
-|{set:cellbgcolor:#F8F2A9}Usually "evaluation" means _estimation_.
+|{set:cellbgcolor:#fd7387}Find issues and risks
+|{set:cellbgcolor:#8dc8fd}Estimate improvement cost:
+How expensive is this change?
+|{set:cellbgcolor:#A2DBCC}Improve processes
+|{set:cellbgcolor:#fd7387}Collect improvement options
+|{set:cellbgcolor:#8dc8fd}Usually "evaluation" means _estimation_
 |{set:cellbgcolor:#A2DBCC}Improve technology
-|{set:cellbgcolor:#EFC4A2}Architectural analysis
-|{set:cellbgcolor:#F8F2A9}
-|{set:cellbgcolor:#A2DBCC}Improve organization
-3+^|{set:cellbgcolor:#2E8BC0}**Crosscutting** +
-Manage issues, improvementand their relationships.
-3+|{set:cellbgcolor:#A2CBE3}Manage issues (risks, problems, symptoms, root-causes).
-3+|{set:cellbgcolor:#A2CBE3}Manage (potential) improvements, options or opportunities to get rid of certain issues.
-3+|{set:cellbgcolor:#A2CBE3}Manage the (m:n) relationships between issues and improvements.
-3+|{set:cellbgcolor:#A2CBE3}Plan improvements, interleaved with to day-to-day activities
+|{set:cellbgcolor:#fd7387}Interview stakehoders
+|{set:cellbgcolor:#8dc8fd}Estimate in intervalls
+|{set:cellbgcolor:#A2DBCC}Improve (technical) concepts
+|{set:cellbgcolor:#fd7387}Analyze context
+|{set:cellbgcolor:#8dc8fd}Evaluate tradeoffs
+|{set:cellbgcolor:#A2DBCC}
+|{set:cellbgcolor:#fd7387}Analyze architecture and code
+|{set:cellbgcolor:#8dc8fd}
+|{set:cellbgcolor:#A2DBCC}
+3+^|{set:cellbgcolor:#b5b6b4}**Crosscutting** +
+Manage issues, improvementand their relationships
+3+|{set:cellbgcolor:#ececec}Manage issues (risks, problems, symptoms, root-causes)
+3+|{set:cellbgcolor:#ececec}Manage improvements
+3+|{set:cellbgcolor:#ececec}Manage the (m:n) relationships between issues and improvements
+3+|{set:cellbgcolor:#ececec}Plan improvements, interleaved with to day-to-day activities
+3+|{set:cellbgcolor:#ececec}Verify improvements (check if improvements resolved appropriate issues)
 3+|{set:cellbgcolor!}
 |===
