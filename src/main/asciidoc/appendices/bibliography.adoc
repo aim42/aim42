@@ -48,7 +48,7 @@ the flexible, multi-language code-analysis toolkit.
 
 * [[[ERDLE]]] ERDLE, C.: Management von Softwaresystemen – Legacy Migrationsstrategien. Seminar an der TU München, Fakultät Informatik, 2005. http://www4.in.tum.de/lehre/seminare/hs/WS0506/mvs/files/Ausarbeitung_Erdle.pdf
 
-* [[Evans03]] Eric Evans: Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley, 2003.
+* [[[Evans03]]] Eric Evans: Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley, 2003.
 
 * [[[Feathers]]] Michael Feathers: Working Effectively with Legacy Code. Prentice Hall, 2005. The author claims "Code without tests is bad code". So true...
 
@@ -86,6 +86,8 @@ A detailed writeup of how (object-oriented) code should look like. Lots of thing
 "`It helps us visualize, plan, and perform business-value-focused improvements over several iterations and increments of work, without ever having a broken codebase`"
 
 * [[[Moyer-Archeology]]] Brian Moyer: http://adm.omg.org/docs/Software_Archeology_4-Mar-2009.pdf[Software Archeology]
+
+* [[[Nygard07]]] Michael T. Nygard: Release It! Design and Deploy Production-Ready Software. Pragmatic Programmers, 2007.
 
 * [[[Object-Oriented-Software-Construction]]] Bertrand Meyer:
   Object-Oriented Software Construction, Prentice Hall (September

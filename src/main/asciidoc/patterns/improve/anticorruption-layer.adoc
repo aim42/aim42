@@ -40,9 +40,9 @@ Apply this pattern when clients shall be protected from internal changes in a mo
 ===== Related Patterns
 
 * <<Isolate-Changes>>, as an alternative or complimenting approach
-* Bulkhead, which can be placed between two systems to avoid the propagation of faults from one system to the other system.
+* Bulkhead (<<Nygard07>>, p. 119ff.), which can be placed between two systems to avoid the propagation of faults from one system to the other system.
 
 ===== References
 
-* <<Evans03>> 364 pp.
+* <<Evans03>> p. 364ff.
 
