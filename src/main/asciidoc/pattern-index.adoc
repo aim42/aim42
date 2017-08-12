@@ -51,6 +51,11 @@ Category: <<Improve>>
 Category: <<Improve>>
 +
 
+. [[Bulkhead]]
+[pattern]#Bulkhead#:: Can be placed between two systems to avoid the propagation of faults from one system to the other system (<<Nygard07>>, p. 119ff.).
+Category: <<Improve>>
++
+
 . *<<Capture-Quality-Requirements>>*
 +
 Part of <<ATAM>>, Capture and document specific quality requirements. Specialisation of <<Requirements-Analysis>>.
