@@ -32,3 +32,4 @@ You have to understand a system with:
 ===== References
 * <<Hunt-Archeology>>, pleasant introduction without adherence to any strict pattern template. Recommended reading.
 * <<Moyer-Archeology>>, short report.
+* <<OORP>>, page 53, "Read all the Code in One Hour" suggest to read all source code in a short period of time to get a rough feeling about the software system.
