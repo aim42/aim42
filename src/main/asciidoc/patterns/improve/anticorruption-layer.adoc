@@ -7,10 +7,15 @@
 
 ===== Intent
 
-An anticorruption layer is a logical layer that provides a stable interface to (potentially) volatile software components. As long as this interface remains untouched developers can implement changes or even exchange own or third-party software without affecting the clients of this interface.
+An anticorruption layer is a logical layer that provides a stable interface to (potentially) volatile software components. As long as this interface remains untouched developers can implement changes or even replace their own or third-party software without affecting the clients of this interface.
 
 ===== Description
+The original definition <<Evans03,[Evans03, p. 365]>>:
 
+[quote, Eric Evans, Domain Driven Design]
+""
+Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models.
+""
 
 ===== Experiences 
 
@@ -29,9 +34,15 @@ Apply this pattern when clients shall be protected from internal changes in a mo
 
 ===== Also Known As
 
+* Isolation layer
+
+
 ===== Related Patterns
 
 * <<Isolate-Changes>>, as an alternative or complimenting approach
+* <<Bulkhead>>, an anticorruption layer between systems
 
 ===== References
+
+* <<Evans03>> p. 364ff.
 
