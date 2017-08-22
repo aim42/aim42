@@ -3,7 +3,7 @@
 [[Evaluate]]
 == Evaluate
 
-image::evaluate.jpg["evaluate-phase", title="Evaluate-Phase"]
+image::01-intro-and-overview/evaluate-phase.png["evaluate-phase", title="Evaluate-Phase"]
 
 === Goals
 
@@ -40,7 +40,7 @@ a|
     * Lines-of-Code (LOC)
 
 | Assumption | a fixed setting for any parameter.
-  See <<Explicit-Assumption>>  
+  See <<Explicit-Assumption>>
 |
 
 | Observation | measure, count, calculate gather real data
