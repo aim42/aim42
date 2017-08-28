@@ -5,14 +5,14 @@
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGraffle7</string>
-		<string>177.3.0.283059</string>
+		<string>177.6.0.286920</string>
 	</array>
 	<key>CreationDate</key>
 	<string>2014-01-07 16:35:15 +0000</string>
 	<key>Creator</key>
 	<string>Dr. Gernot Starke</string>
 	<key>CurrentSheet</key>
-	<integer>1</integer>
+	<integer>0</integer>
 	<key>GraphDocumentVersion</key>
 	<integer>13</integer>
 	<key>GuidesLocked</key>
@@ -36,7 +36,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-04-27 10:22:16 +0000</string>
+	<string>2017-05-29 08:32:22 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>MovementHandleVisible</key>
@@ -284,7 +284,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{63, 180}, {362, 219}}</string>
+					<string>{{63, 305.27999317646027}, {362, 219}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -312,7 +312,7 @@
 				</dict>
 				<dict>
 					<key>Bounds</key>
-					<string>{{103.3333333333332, 155.33333333333326}, {294, 294}}</string>
+					<string>{{35.5, 308.879993095994}, {294, 294}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>ID</key>
@@ -669,7 +669,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559.27557277679443, 782.8897705078125}}</string>
+				<string>{{0, 0}, {1235, 1371}}</string>
 				<key>Class</key>
 				<string>ShapedGraphic</string>
 				<key>ID</key>
@@ -965,7 +965,7 @@
 		<key>Sidebar_Tab</key>
 		<integer>0</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 0}, {676, 588}}</string>
+		<string>{{0, 220.33333333333334}, {450.66666666666669, 392}}</string>
 		<key>ZoomValues</key>
 		<array>
 			<array>

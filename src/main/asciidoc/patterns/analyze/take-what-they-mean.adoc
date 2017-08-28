@@ -9,6 +9,7 @@ Find out the real meaning/intention of stakeholders
 Natural language has the risk that semantics on the sender's side differs from semantics of the receiver: People simply misunderstand each other because the _meaning_ of words differs between people. 
 
 Therefore: what people mean/want/need is sometimes not what they say. This is due either to 
+
 * semantic differences on sender and receive sides, 
 * stressful or inconvenient communication situations (e.g. "the boss is present", communication under pressure), 
 * people are distracted or tired,

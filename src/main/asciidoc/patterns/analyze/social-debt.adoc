@@ -1,7 +1,7 @@
-[[Social Debt]]
+[[Social-Debt]]
 ==== [pattern]#Social Debt#
 
-Social debt amounts to additional project cost connected to sub-optimal organisational and socio-technical decisions http://download.springer.com/static/pdf/406/art%253A10.1186%252Fs13174-015-0024-6.pdf?originUrl=http%3A%2F%2Fjisajournal.springeropen.com%2Farticle%2F10.1186%2Fs13174-015-0024-6&token2=exp=1480693061~acl=%2Fstatic%2Fpdf%2F406%2Fart%25253A10.1186%25252Fs13174-015-0024-6.pdf*~hmac=5baf78a443d4aa14817fd79659de0902e2760fc6649377159a028c12f11670dd[publication]:
+Social debt amounts to additional project cost connected to sub-optimal organisational and socio-technical decisions
 
 ===== Intent
 
@@ -26,3 +26,6 @@ TODO: still to finish implementing first draft description according to agreemen
 ===== Related Patterns
 
 
+===== References
+
+* Damian Tamburri, Philippe Kruchten, Patricia Lago, Hans van Vliet: What is social debt in software engineering? In: Cooperative and Human Aspects of Software Engineering (CHASE), p. 93–96, 2013, Washington, DC. https://jisajournal.springeropen.com/articles/10.1186/s13174-015-0024-6

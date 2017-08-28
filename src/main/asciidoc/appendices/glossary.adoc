@@ -6,7 +6,7 @@
 AIM42:: Architecture Improvement Method.
 
 ATAM:: Architecture Tradeoff Analysis Method. Extensively described in
-<<Clemens-ATAM, Clemens-2001>> and <<SEI-ATAM, online by the SEI>>,
+<<Clements-ATAM, Clemens-2001>> and <<SEI-ATAM, online by the SEI>>,
 briefly described as <<ATAM, aim42 pattern>>.
 
 Failure:: Loss of functionality under defined (_stated_) conditions.

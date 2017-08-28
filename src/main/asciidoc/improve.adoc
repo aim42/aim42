@@ -2,7 +2,7 @@
 [[Improve]]
 == Improve
 
-image::improve.jpg["improve-phase", title="Improve-Phase"]
+image::01-intro-and-overview/improve-phase.png["improve-phase", title="Improve-Phase"]
 
 === Goals
 
