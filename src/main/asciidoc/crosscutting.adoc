@@ -3,6 +3,14 @@
 [[Crosscutting]]
 == Cross-Cutting Practices and Patterns
 
+image::01-intro-and-overview/crosscutting-phase.png["", title="Crosscutting-Phase"]
+
+=== Goals
+
+to be done.
+
+=== Overview
+
 // image map - created manually from OmniGraffle Export
 ++++
 <map name="CrosscuttingPracticesOverview">
@@ -14,7 +22,7 @@
 	<area shape=rect coords="218,181,321,235" href="#Collect-Issues">
 </map>
 
-<img border=0 src="images/crosscutting-patterns-overview.png" 
+<img border=0 src="images/crosscutting-patterns-overview.png"
 usemap="#CrosscuttingPracticesOverview">
 ++++
 
@@ -36,7 +44,7 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 
 
 
-=== Cross-Cutting Practices  
+=== Cross-Cutting Practices
 (given in alphabetical order)
 
 * <<Architectural-Understanding>>
@@ -100,11 +108,11 @@ image::collect-remedies.png["collect remedies", title="Collect Remedies in All P
 [[Collect-Issues]]
 === [pattern]#Collect Issues#
 You should constantly watch out for issues (problems and risks), especially
-during <<Analyze, analysis>> activities like <<Stakeholder-Interviews>> and others. 
+during <<Analyze, analysis>> activities like <<Stakeholder-Interviews>> and others.
 
 The artifact (physical collection) is the <<Issue-List>>.
 
-Regularly match these issues to your 
+Regularly match these issues to your
 <<Collect-Opportunities-For-Improvement, collection of possible improvements>>.
 
 
@@ -195,5 +203,3 @@ but a spectrum of additional options are available - at least if you allow
 your brain to deviate from conventional path or your own preliminary conclusions.
 
 // TODO: quote Dan + Chip Heath here!
-
-

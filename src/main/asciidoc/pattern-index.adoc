@@ -5,13 +5,7 @@ short description and links to the explanation.
 
 . *<<Anticorruption-Layer>>*
 +
-Isolate clients from internal changes of suby-systems or modules. The original definition:
-+
-
-[quote, Eric Evans]
-""
-Create an isolating layer to provide clients with functionality in terms of their own domain model. The layer talks to the other system through its existing interface, requiring little or no modification to the other system. Internally, the layer translates in both directions as necessary between the two models. (Domain Driven Design, page 365)
-""
+Isolate clients from internal changes of sub-systems or modules. 
 Category: <<Improve>>
 +
 
@@ -54,6 +48,11 @@ Category: <<Improve>>
 
 . [[Branch-For-Improvement]]
 [pattern]#Branch For Improvement#:: Introduce distinct branches in your version control system to reflect improvements.
+Category: <<Improve>>
++
+
+. [[Bulkhead]]
+[pattern]#Bulkhead#:: Can be placed between two systems to avoid the propagation of faults from one system to the other system (<<Nygard07>>, p. 119ff.).
 Category: <<Improve>>
 +
 

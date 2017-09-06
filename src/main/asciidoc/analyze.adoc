@@ -4,7 +4,7 @@
 
 == Analyze
 
-image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
+image::01-intro-and-overview/analyze-phase.png["analyze-phase", title="Analyze-Phase"]
 
 === Goals
 
@@ -21,7 +21,7 @@ image::analyze.jpg["analyze-phase", title="Analyze-Phase"]
 
 Look systematically for such issues at various places and with support of various people.
 
-TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<System>>), its technical concepts, code structure, inner workings, major external interfaces and its development process. 
+TIP: To effectively find issues, you need an appropriate amount of _understanding_ of the system under design (<<System>>), its technical concepts, code structure, inner workings, major external interfaces and its development process.
 
 One serious risk in this phase is a premature restriction to certain artifacts or aspects of the system: If you search with a microscope, you're likely to miss several aspects.
 
@@ -51,22 +51,22 @@ Figure: Overview of Most Important Analysis Pracices
 
 Always begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> with important stakeholders.
 
-Improve your <<Architectural-Understanding>> of the <<System>> by 
+Improve your <<Architectural-Understanding>> of the <<System>> by
 
   ** <<Context-Analysis>>
   ** <<Documentation-Analysis>>, read especially the architecture documentation, focus on <<View-Based-Understanding>>.
-  ** <<Development-Process-Analysis>> 
+  ** <<Development-Process-Analysis>>
   ** Perform <<Static-Code-Analysis>> to learn about code structure _in-the-large_. This also helps to identify risky code.
 
 * <<Capture-Quality-Requirements>> from the _authoritative_ stakeholders of the systems.
-* Conduct a <<Qualitative-Analysis>> of the system, its architecture and associated organization, 
+* Conduct a <<Qualitative-Analysis>> of the system, its architecture and associated organization,
 based upon the specific quality requirements
   ** Inspect and analyze all involved organizational processes -
     (development, project management, operations, requirements analysis)
 * Perform <<Runtime-Analysis>> or <<Quantitative-Analysis>>, e.g. performance and load monitoring, process and thread analysis
   ** Inspect the data created, modified and queried by the system for structure, size, volume or specialities
 
-Finally, conduct a <<Root-Cause-Analysis>> for the discovered major issues in close collaboration with the appropriate stakeholders. 
+Finally, conduct a <<Root-Cause-Analysis>> for the discovered major issues in close collaboration with the appropriate stakeholders.
 
 WARNING: Never start solving problems until you have a thorough understanding of the current stakeholder requirements. Otherwise you'll risk wasting effort in areas which no influential stakeholder cares about.
 
@@ -165,4 +165,3 @@ include::patterns/analyze/user-analysis.adoc[]
 include::patterns/analyze/view-based-understanding.adoc[]
 
 include::patterns/analyze/busfactor.adoc[]
-
