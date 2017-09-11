@@ -5,7 +5,7 @@
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGraffle7</string>
-		<string>179.8.0.291433</string>
+		<string>179.17.0.293761</string>
 	</array>
 	<key>CreationDate</key>
 	<string>2014-01-07 16:35:15 +0000</string>
@@ -65,7 +65,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{595, 842}</string>
+			<string>{595.27557277679443, 841.8897705078125}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
@@ -97,7 +97,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {560, 783}}</string>
 				<key>Class</key>
 				<string>GraffleShapes.CanvasBackgroundGraphic</string>
 				<key>ID</key>
@@ -854,7 +854,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {560, 783}}</string>
 				<key>Class</key>
 				<string>GraffleShapes.CanvasBackgroundGraphic</string>
 				<key>ID</key>
@@ -1769,7 +1769,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {560, 783}}</string>
 				<key>Class</key>
 				<string>GraffleShapes.CanvasBackgroundGraphic</string>
 				<key>ID</key>
@@ -2501,7 +2501,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {560, 783}}</string>
 				<key>Class</key>
 				<string>GraffleShapes.CanvasBackgroundGraphic</string>
 				<key>ID</key>
@@ -3233,7 +3233,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {560, 783}}</string>
 				<key>Class</key>
 				<string>GraffleShapes.CanvasBackgroundGraphic</string>
 				<key>ID</key>
@@ -3876,7 +3876,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {560, 783}}</string>
 				<key>Class</key>
 				<string>GraffleShapes.CanvasBackgroundGraphic</string>
 				<key>ID</key>
@@ -4766,7 +4766,7 @@
 			<key>BackgroundGraphic</key>
 			<dict>
 				<key>Bounds</key>
-				<string>{{0, 0}, {559, 783}}</string>
+				<string>{{0, 0}, {560, 783}}</string>
 				<key>Class</key>
 				<string>GraffleShapes.CanvasBackgroundGraphic</string>
 				<key>ID</key>
@@ -7726,8 +7726,8 @@ To 120.0\'ba}</string>
 	<real>100</real>
 	<key>exportSizesKey</key>
 	<array>
-		<real>2</real>
-		<string>pdf</string>
+		<real>1</real>
+		<string>png</string>
 	</array>
 	<key>fileFormatKey</key>
 	<integer>0</integer>
@@ -7738,7 +7738,7 @@ To 120.0\'ba}</string>
 	<key>includeNonPrintingLayersKey</key>
 	<false/>
 	<key>lastExportTypeKey</key>
-	<integer>8</integer>
+	<integer>0</integer>
 	<key>marginWidthKey</key>
 	<real>0.0</real>
 	<key>previewTypeKey</key>
@@ -7754,7 +7754,7 @@ To 120.0\'ba}</string>
 	<key>resolutionForJPGKey</key>
 	<real>1</real>
 	<key>resolutionForPNGKey</key>
-	<real>2.0833332538604736</real>
+	<real>1</real>
 	<key>resolutionForTIFFKey</key>
 	<real>1</real>
 	<key>resolutionUnitsKey</key>
