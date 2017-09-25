@@ -6,21 +6,19 @@ buildscript {
     }
 
     dependencies {
-        classpath 'org.ajoberstar:gradle-git:1.0.0'
+        classpath 'org.ajoberstar:gradle-git-publish:0.3.0'
     }
 }
 
 
 apply plugin: 'org.ajoberstar.github-pages'
-githubPages {
+gitPublish {
+  println "Token: " + System.getenv('GH_TOKEN')
+  System.setProperty('org.ajoberstar.grgit.auth.username', System.getenv('GH_TOKEN'))
   repoUri = 'https://github.com/aim42/aim42.github.io.git'
-  targetBranch = 'master'
-  pages {
+  branch = 'master'
+  contents {
     from('build/docs/html5')
-  }
-  credentials {
-    username = System.getenv('GH_TOKEN')
-    password = ''
   }
 }
 
