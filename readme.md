@@ -29,7 +29,11 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 * follow us on [twitter](https://twitter.com/arc_improve42)
 
 
+We write the content in [AsciiDoc](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/) and
+build with [Gradle](https://gradle.org).
 
+As of September 2017, we removed the AsciiDoc help from the aim42 guide,
+you can find it [here](), under the arc42 organization.
 
 ### Current Status
 

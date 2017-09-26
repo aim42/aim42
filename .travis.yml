@@ -1,4 +1,5 @@
 language: java
+sudo: false
 install: ''
 script:
 - export TERM=dumb
@@ -8,8 +9,10 @@ jdk:
 - oraclejdk8
 env:
   global:
-  - secure: "E6iGay6wQcbhAUM5S5WgjYUmg6b7oJG9l8T2y0WWRgx50oqR0/jGzCYHCJGCHlb9OOZpB2BnhpYS6fCg09MsPYKcgsMXgjYoozWGBYifBIVNI07zQhDByztWr3fsrwrZc31ifqC3EGL/UEwvN5F093rRufDw2jomGpFQn7gL4Kc="
-  - secure: "MsisBUvznuLGG3tcGNVuYXlhh0ukfKZ8fOVgCqMGhH0lLAliCXYPlXrKnly6bg2C33FbAgntHsnEifDKYSx1u3YbBxMXHmL1VfpVj3PIx7ZZ3glffHKqyjF6PTXwHdGReaRHMWLn/iVkgfXEAbxcEwvTxopSw72k3UJG0n/fce0="
+#  - secure: "E6iGay6wQcbhAUM5S5WgjYUmg6b7oJG9l8T2y0WWRgx50oqR0/jGzCYHCJGCHlb9OOZpB2BnhpYS6fCg09MsPYKcgsMXgjYoozWGBYifBIVNI07zQhDByztWr3fsrwrZc31ifqC3EGL/UEwvN5F093rRufDw2jomGpFQn7gL4Kc="
+#  - secure: "MsisBUvznuLGG3tcGNVuYXlhh0ukfKZ8fOVgCqMGhH0lLAliCXYPlXrKnly6bg2C33FbAgntHsnEifDKYSx1u3YbBxMXHmL1VfpVj3PIx7ZZ3glffHKqyjF6PTXwHdGReaRHMWLn/iVkgfXEAbxcEwvTxopSw72k3UJG0n/fce0="
+# Alex token
+  - secure: "mKKV5eM0mcSiJkrX0fzageblt64OgJUnlo7OYIgTT75nsZMPeqwsXyBP6u8Nz5J5UOAAsd/IxuPXBHKcGjgK/ByyJvO2DK/INrB9/jALtFOwa/NXygow7vHV8xSqqHojY64GtaSjOgqNLP6Xfuk7EtiLgm+sSr59ETkL+FfD9Bc="
 
 notifications:
   slack: aim42:10NFl4Fihy7Yk0Cl4bikLSFk
