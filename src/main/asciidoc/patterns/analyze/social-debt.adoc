@@ -20,7 +20,7 @@ The goal for social debt in the next few years of research is that of reaching a
 
 _Still to be done._
 
-<!-- TODO: still to finish implementing first draft description according to agreements perhaps needs a bit of blending with Sven’s solution -->
+// TODO: still to finish implementing first draft description according to agreements perhaps needs a bit of blending with Sven’s solution
 
 
 ===== Applicability
