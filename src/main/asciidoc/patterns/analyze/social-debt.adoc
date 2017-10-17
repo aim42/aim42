@@ -11,33 +11,35 @@ Evaluate and track the welfare and health of a software development and operatio
 
 Organization, coordination and cooperation are critical forces behind software development and operation. Through well-thought protocols and cooperation guidelines, software architects, developers as much as entire organizations try to orchestrate proper coordination and cooperation but many times such attempts are burdened by sub-optimal organisational decisions, e.g., the adoption of a process model that is not compatible with developers and operators’ background and mindset or even collaborating with an organization that does not and cannot share the same values of the organization in question. These circumstances often result in additional project cost in the form of recurrent delays, condescending behaviour or worse.
 
-Evaluating these circumstances together, trying to minimise their impact on software development and the quality of resulting software products is currently object of intensive study. 
+Evaluating these circumstances together, trying to minimise their impact on software development and the quality of resulting software products is currently object of intensive study.
 
-The goal for social debt in the next few years of research is that of reaching a crisp definition that contains the essential traits of social debt which can be refined into practical operationalizations for use by software engineering professionals in need of knowing more about their organizational structure and the properties/cost trade-off that structure currently reflects. 
+The goal for social debt in the next few years of research is that of reaching a crisp definition that contains the essential traits of social debt which can be refined into practical operationalizations for use by software engineering professionals in need of knowing more about their organizational structure and the properties/cost trade-off that structure currently reflects.
 
 
 ===== Experiences
 
-As previously mentioned, we found three recurrent series of circumstances in which architecture decisions and the process of architecting reportedly generated social debt. 
+As previously mentioned, we found three recurrent series of circumstances in which architecture decisions and the process of architecting reportedly generated social debt.
 
-1. * Lonesome Architecting: * we observed this pattern manifesting when non-architects are forced to make decisions while actual architects are ``too few and far apart". One of the software architects reporting this condition in industry also complained that he and his colleagues had [...] not enough time to dedicate to decision-making (and related changes) as well as properly disseminating architecture decisions. Some of the most common consequences we found resulting from this
+1. *Lonesome Architecting:* we observed this pattern manifesting when non-architects are forced to make decisions while actual architects are "too few and far apart".
+One of the software architects reporting this condition in industry also complained that he and his colleagues had [...] not enough time to dedicate to decision-making (and related changes) as well as properly disseminating architecture decisions.
+Some of the most common consequences we found resulting from this
 pattern are: (a) decision unawareness; (b) misalignment between
 product version and architecture; (c) lack of awareness on the
-product's needs; (d) overly fast decision-making to ``patch-up". The
+product's needs; (d) overly fast decision-making to "patch-up". The
 debt in this case is associated to delays needed to find out about
 decisions and apply the necessary modifications, possibly rewriting
 code with considerable waste. Also, from a social point of view, this
 circumstance results in loss of project vision (i.e., frequent quotes
-were ``what are we doing? what does the product need for its
+were "what are we doing? what does the product need for its
 improvement?") with resulting frustration and mistrust.
 
 
 
-2. * Obfuscated Architecting: * Obfuscated architecting takes place when multiple sub-groups emerge in a development network without a harmonised organisational and socio-technical vision necessary to operate in the network. We observed this pattern manifesting when new or changed architecture decisions imply implementation changes that necessitate new people to be included in the development network (e.g., different skills are needed). we observed this pattern in presence of multiple products (both legacy and new) being operated together but in the process of being integrated. New people to be included in the development network lacked the frame of mind and vision needed to understand and cope with the legacy product. This obfuscates the communication of architecture decisions. Some of the most common consequences we found resulting from this pattern are: (a) single communication points for architecture decisions - many developers eventually felt left out of the development network when it came to software architecture, since they could not reach architects properly, this led to time waste and resulting  developers' frustration; (b) circumstances indicating socio-technical code-churn.
+2. *Obfuscated Architecting:* Obfuscated architecting takes place when multiple sub-groups emerge in a development network without a harmonised organisational and socio-technical vision necessary to operate in the network. We observed this pattern manifesting when new or changed architecture decisions imply implementation changes that necessitate new people to be included in the development network (e.g., different skills are needed). we observed this pattern in presence of multiple products (both legacy and new) being operated together but in the process of being integrated. New people to be included in the development network lacked the frame of mind and vision needed to understand and cope with the legacy product. This obfuscates the communication of architecture decisions. Some of the most common consequences we found resulting from this pattern are: (a) single communication points for architecture decisions - many developers eventually felt left out of the development network when it came to software architecture, since they could not reach architects properly, this led to time waste and resulting  developers' frustration; (b) circumstances indicating socio-technical code-churn.
 
 
 
-3. * Architecting by Osmosis: * In layman's terms, osmosis refers to the process of permeating a solvent through a semi-permeable (series of) membrane(s). By comparison, architecting by osmosis means making architecture decisions using knowledge that is filtered through many semi-permeable communication links. we observed architecting by osmosis manifesting when the following sequence of events occurs: (1) the effects of certain decisions reach clients and product operators but result in inoperable software; (2) operators, pushed by clients, share malcontent with developers and suggest technical changes; (3) developers evaluate (and sometimes partially implement) possible technical changes and suggest change to architecture decisions; (4) architects make necessary changes in decisions with knowledge that was partially filtered by all communication layers in the development network.
+3. *Architecting by Osmosis:* In layman's terms, osmosis refers to the process of permeating a solvent through a semi-permeable (series of) membrane(s). By comparison, architecting by osmosis means making architecture decisions using knowledge that is filtered through many semi-permeable communication links. we observed architecting by osmosis manifesting when the following sequence of events occurs: (1) the effects of certain decisions reach clients and product operators but result in inoperable software; (2) operators, pushed by clients, share malcontent with developers and suggest technical changes; (3) developers evaluate (and sometimes partially implement) possible technical changes and suggest change to architecture decisions; (4) architects make necessary changes in decisions with knowledge that was partially filtered by all communication layers in the development network.
 
 
 ===== Applicability
@@ -52,4 +54,4 @@ All Cross-cutting patterns relate to the circumstances defined above.
 
 * Damian Tamburri, Philippe Kruchten, Patricia Lago, Hans van Vliet: What is social debt in software engineering? In: Cooperative and Human Aspects of Software Engineering (CHASE), p. 93–96, 2013, Washington, DC. https://jisajournal.springeropen.com/articles/10.1186/s13174-015-0024-6
 
-* Tamburri, D. A. & Nitto, E. D. (2015), When Software Architecture Leads to Social Debt., in Len Bass; Patricia Lago & Philippe Kruchten, ed., 'WICSA' , IEEE Computer Society, , pp. 61-64 . 
+* Tamburri, D. A. & Nitto, E. D. (2015), When Software Architecture Leads to Social Debt., in Len Bass; Patricia Lago & Philippe Kruchten, ed., 'WICSA' , IEEE Computer Society, , pp. 61-64 .
