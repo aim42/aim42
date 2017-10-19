@@ -142,7 +142,7 @@ image::improve-practice-categories.png[title="Categories of Improvement Practice
 // TODO: Describe meaning/definition of categories
 
 
-* <<mprove-processes, Improve Processes>>: Improve processes _around_ the system, its requirements,
+* <<improve-processes, Improve Processes>>: Improve processes _around_ the system, its requirements,
 engineering, delivery, operations and management.
 * <<improve-architecture, Improve Architecture and Code Structure>>: refactor, restructure, modularize and similar practices.
 * <<improve-technical-infrastructure, Improve Technical Infrastructure>>
