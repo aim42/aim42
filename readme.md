@@ -37,7 +37,7 @@ you can find it [here](), under the arc42 organization.
 
 ### Current Status
 
-[![Build Status](https://img.shields.io/travis/aim42/aim42/master.svg?branch=master)](https://travis-ci.org/aim42/aim42")
+[![Build Status](http://img.shields.io/travis/aim42/aim42/master.svg)](https://travis-ci.org/aim42/aim42)
 [![issues](http://img.shields.io/github/issues/aim42/aim42.svg?)](https://github.com/aim42/aim42/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
 [![Bugs](https://badge.waffle.io/aim42/aim42.svg?label=bug&title=Bugs)](http://waffle.io/aim42/aim42)
 
