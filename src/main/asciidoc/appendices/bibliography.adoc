@@ -104,7 +104,7 @@ online. http://www.michaelogawa.com/research/storylines/[Visualizes interactions
 A pattern-based approach to re-engineer object-oriented legacy systems. It contains a wealth of <<Improve, improvement-patterns>>, some named slightly different than their aim42-brethren.
 
 * [[[Quality-Requirements]]]
-https://bitbucket.org/arc42/quality-requirements[(Free) Examples of Practical Software Quality Requirements].
+https://github.com/arc42/quality-requirements[(Free) Examples of Practical Software Quality Requirements].
 
 * [[Sadalage]] Sadalage, P.: Refactoring Databases: Evolutionary Database Design. Collection of patterns
    for database refactoring. Online: http://databaserefactoring.com/
