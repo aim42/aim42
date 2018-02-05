@@ -3,22 +3,19 @@
 === Contribute to aim42.org icon:smile-o[]
 This content is open source! The source is hosted under the aim42 organization on GitHub.
 
-If you want to help by improving upon it, fork the project, revise the content, then send a pull request. 
+If you want to help by improving upon it, fork the project, revise the content, then send a pull request.
 
-icon:github[2x] Source:: 
-aim42 currently provides a _method guide_, the asciidoc sources are hosted at https://github.com/aim42/aim42[GitHub under the aim42 organization].
+icon:github[2x] Source::
+aim42 currently provides a _method reference, the asciidoc sources are hosted at https://github.com/aim42/aim42[GitHub under the aim42 organization].
 
-icon:bolt[2x] Issues:: 
+icon:bolt[2x] Issues::
 Look over https://github.com/aim42/aim42/issues[our open issues], pick one, fork the repository and resolve the issue. Send over a pull request!
 
-icon:twitter[2x] Twitter:: 
+icon:twitter[2x] Twitter::
 https://twitter.com/arc_improve42[@arc_improve42]
-
-icon:inbox[2x] Mailing list::
-Due to excessive spam, we closed our (human-managed) mailing list - therefore you have to stick to issues (see above) to get in contact with the aim42 team.
 
 icon:comment-o[2x] Suggestions::
 open an issue (see above) and test our reactivity...
 
-[small]#(due to increased spam we had to remove the convenient mailto links, sorry)#
 
+[small]#(due to increased spam we had to remove the convenient mailto links, sorry)#

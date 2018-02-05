@@ -19,7 +19,7 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 ### Learn more
 
 * our [project homepage](http://aim42.org) gives an overview
-* the [online method guide](http://aim42.github.io) provides all (currently available) details (this is our main artifact - currently under intensive development). The method guide is automatically updated with every commit pushed to the central repository by Travis-CI.
+* the [online method reference](http://aim42.github.io) provides all (currently available) details (this is our main artifact - currently under intensive development). The method reference is automatically updated with every commit pushed to the central repository by Travis-CI.
 
 
 ### Contribute
