@@ -4,26 +4,22 @@
 [appendix]
 == Bibliography
 
-* [[AntiPatterns]] William J. Brown: AntiPatterns: Refactoring Software,
- Architecture and Projects in Crisis, John Wiley & Sons, 1998 -- a tried and
- true work on things that tend to go wrong in software development and other
- projects.
-
-* [[arc42]] arc42: Resources for Software Architects. Practical template, liberal licence.
+* [[[arc42]]] arc42: Resources for Software Architects. Practical template, liberal licence.
 Available in a variety of formats, see http://arc42.de[German website] or http://arc42.org[English website].
 
 
-* [[Agans-Debugging]] David J. Agans: Debugging: The 9 Indispensable Rules for Finding Even the Mose
+* [[[Agans-Debugging]]] David J. Agans: Debugging: The 9 Indispensable Rules for Finding Even the Mose
 Elusive Software and Hardware Problems. Amacom Press, 2002. Although most developers take "debugging skills" for granted,
 they sometimes spend too much time tracking too little bugs.
 
-* [[Ambler]] Scott Ambler on Database Refactoring: http://agiledata.org/essays/databaseRefactoring.html
+* [[[Ambler]]] Scott Ambler on Database Refactoring: http://agiledata.org/essays/databaseRefactoring.html
 
 * [[[Annett-Legacy]]] Robert Annett: Working with Legacy Systems: A practical guide to the real systems we inherit.  http://leanpub.com/WorkingWithLegacySystems[Leanpub Publishing].
 
-* [[[SEI-ATAM]]] http://www.sei.cmu.edu/architecture/tools/evaluate/atam.cfm[Architecture Tradeoff Analysis Method].
-Software Engineering Institute, Carnegie Mellon University.
-
+* [[Brown]] William J. Brown: AntiPatterns: Refactoring Software,
+Architecture and Projects in Crisis, John Wiley & Sons, 1998 -- a tried and
+true work on things that tend to go wrong in software development and other
+projects.
 
 * [[[Berglung-AfferentCoupling]]] Tim Berglund (GitHub) on
 http://de.slideshare.net/jaxlondon2012/complexity-theory-and-software-development-tim-berglund[Complexity Theory and Software Development]. Look at slide 73ff on afferent coupling - and keep that in mind for your own refactorings.
@@ -108,7 +104,11 @@ https://github.com/arc42/quality-requirements[(Free) Examples of Practical Softw
 
 * [[Sadalage]] Sadalage, P.: Refactoring Databases: Evolutionary Database Design. Collection of patterns
    for database refactoring. Online: http://databaserefactoring.com/
-   
+
+
+* [[[SEI-ATAM]]] http://www.sei.cmu.edu/architecture/tools/evaluate/atam.cfm[Architecture Tradeoff Analysis Method].
+ Software Engineering Institute, Carnegie Mellon University.
+
 * [[[SERIOUS]]] Software Evolution, Refactoring, Improvement of Operational & Usable Systems.
 https://itea3.org/project/serious.html[ITEA / EUREKA research project].
 Completed in 2008, holds a fairly large number of deliverables. Too bad, some of the result websites
@@ -126,3 +126,8 @@ http://www.fmeainfocentre.com/updates/dec08/Overview%20and%20evaluation%20of%20d
 a variety of programming languages, plugins for different metrics and checks. SonarQube can track results over time - showing the history of code quality for software systems.
 
 * [[[Spolsky-NeverRewrite]]] Joel Spolsky: http://www.joelonsoftware.com/articles/fog0000000069.html[Things You Should Never Do, Part-I]
+
+* [[[Tornhill-CrimeScene]]] Adam Tornhill: https://pragprog.com/book/atcrime/your-code-as-a-crime-scene[Your Code as a Crime Scene].
+Use forensic techniques to arrest defects, bottlenecks and bad design in your programs.
+Pragmatic Programmers, 2015. Despite the seemingly funny title, this is one of the most practical books on analyzing source code from arbitrary languages.
+The http://www.adamtornhill.com/articles/crimescene/codeascrimescene.htm[author] has implemented several of the ideas as open-source tools.
