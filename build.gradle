@@ -89,7 +89,7 @@ task publish(type: GradleBuild) {
     String travisPr = System.getenv('TRAVIS_PULL_REQUEST')
     if ("false".equals(travisPr)) {
         buildFile = 'publish.gradle'
-        tasks = ['publishGhPages']
+        tasks = ['gitPublishPush']
     } else {
         println 'env var TRAVIS_PULL_REQUEST says we build for PR #' + travisPr + ', won\'t publish docs!'
     }

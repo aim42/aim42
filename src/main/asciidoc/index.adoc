@@ -38,9 +38,5 @@ include::appendices/glossary.adoc[]
 
 include::appendices/organizational-stuff.adoc[]
 
-include::appendices/asciidoc-help.adoc[]
-
-// the following file is also not here to stay but should be helpful
-// for people new to the project
 // TODO
 include::appendices/howto-add-new-pattern.adoc[]

@@ -9,13 +9,15 @@
  true work on things that tend to go wrong in software development and other
  projects.
 
-* [[[arc42]]] arc42 - Resources for Software Architects. Practical template, liberal licence.
+* [[arc42]] arc42: Resources for Software Architects. Practical template, liberal licence.
 Available in a variety of formats, see http://arc42.de[German website] or http://arc42.org[English website].
 
-* [[[Agans-Debugging]]] David J. Agans: Debugging: The 9 Indispensable Rules for Finding Even the Mose
+
+* [[Agans-Debugging]] David J. Agans: Debugging: The 9 Indispensable Rules for Finding Even the Mose
 Elusive Software and Hardware Problems. Amacom Press, 2002. Although most developers take "debugging skills" for granted,
 they sometimes spend too much time tracking too little bugs.
 
+* [[Ambler]] Scott Ambler on Database Refactoring: http://agiledata.org/essays/databaseRefactoring.html
 
 * [[[Annett-Legacy]]] Robert Annett: Working with Legacy Systems: A practical guide to the real systems we inherit.  http://leanpub.com/WorkingWithLegacySystems[Leanpub Publishing].
 
@@ -102,8 +104,11 @@ online. http://www.michaelogawa.com/research/storylines/[Visualizes interactions
 A pattern-based approach to re-engineer object-oriented legacy systems. It contains a wealth of <<Improve, improvement-patterns>>, some named slightly different than their aim42-brethren.
 
 * [[[Quality-Requirements]]]
-https://bitbucket.org/arc42/quality-requirements[(Free) Examples of Practical Software Quality Requirements].
+https://github.com/arc42/quality-requirements[(Free) Examples of Practical Software Quality Requirements].
 
+* [[Sadalage]] Sadalage, P.: Refactoring Databases: Evolutionary Database Design. Collection of patterns
+   for database refactoring. Online: http://databaserefactoring.com/
+   
 * [[[SERIOUS]]] Software Evolution, Refactoring, Improvement of Operational & Usable Systems.
 https://itea3.org/project/serious.html[ITEA / EUREKA research project].
 Completed in 2008, holds a fairly large number of deliverables. Too bad, some of the result websites

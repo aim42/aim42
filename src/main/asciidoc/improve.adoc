@@ -6,7 +6,7 @@ image::01-intro-and-overview/improve-phase.png["improve-phase", title="Improve-P
 
 === Goals
 
-. Plan and coordinate measures and opportunities for improvements to eliminate problems and issues found during <<Analyze, analysis>>. A whole <<Determine-Improvement-Approach ,category of practices>> is devoted to this step, called <<Determine-Improvement-Approach>>
+. Execute and coordinate the improvement activities to eliminate problems and issues found during <<Analyze, analysis>>. There is a whole <<improve-practices, bunch of practices>> devoted to this step, and we described the different  <<improvement-approaches, approaches>> you can take to run the improvements.
 
 . Apply selected opportunities for improvement
 
@@ -24,7 +24,7 @@ image::01-intro-and-overview/improve-phase.png["improve-phase", title="Improve-P
 ++++
 <map name="ImproveConceptsOverview">
 <area shape=rect coords="71,50,260,112" href="#improve-practices">
-	<area shape=poly coords="71,54,260,54,260,11,11,11,11,54,11,112,71,112,71,54" href="#improve-approaches">
+	<area shape=poly coords="71,54,260,54,260,11,11,11,11,54,11,112,71,112,71,54" href="#improvement-approaches">
 	<area shape=rect coords="11,112,260,158" href="#improve-fundamentals">
 </map>
 <img border=0 src="images/improve-concepts-overview.jpg" usemap="#ImproveConceptsOverview">
@@ -35,7 +35,7 @@ image::01-intro-and-overview/improve-phase.png["improve-phase", title="Improve-P
 [horizontal]
 <<Fundamentals>>:: Some principles which you should consider whatever steps you take on your road to improvement.
 
-<<Approaches>>:: Overall (strategic, long-term) decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.
+<<improvement-approaches, Approaches>>:: Overall (strategic, long-term) decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.
 
 <<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<improve-categories,categories>>.
 
@@ -77,8 +77,8 @@ of accidental, unneccessary complexity.
 to similar entities and potential synergies are utilized.
 
 
-[[improve-approaches]]
-===  (Long-Term) Improve Approaches
+[[improvement-approaches]]
+===  (Long-Term) Improvement Approaches
 The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement.
 
 [[fig-improvement-approaches]]
@@ -142,7 +142,7 @@ image::improve-practice-categories.png[title="Categories of Improvement Practice
 // TODO: Describe meaning/definition of categories
 
 
-* <<mprove-processes, Improve Processes>>: Improve processes _around_ the system, its requirements,
+* <<improve-processes, Improve Processes>>: Improve processes _around_ the system, its requirements,
 engineering, delivery, operations and management.
 * <<improve-architecture, Improve Architecture and Code Structure>>: refactor, restructure, modularize and similar practices.
 * <<improve-technical-infrastructure, Improve Technical Infrastructure>>
