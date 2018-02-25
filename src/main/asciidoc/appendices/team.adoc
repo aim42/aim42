@@ -5,8 +5,8 @@ For a current and complete overview, please see the https://github.com/aim42/aim
 on Github.
 
 * Gernot Starke (innoQ Fellow, project founder): setup, patterns, practices, maintenance.
-* Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration, numerous discussions. Started the idea of
-a distinct _user guide_...
+* Alex Heusingfeld (innoQ): hero-of-the-build, Travis-CI integration, numerous discussions.
+Started the idea of a distinct _user guide_...
 * Peter Hruschka (Atlantic Systems Guild): reviews + comments,
   especially to the intricacies of the <<Domain-Model>>.
 * Christine Koppelt (innoQ): improvement-patterns

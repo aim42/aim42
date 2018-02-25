@@ -1,0 +1,27 @@
+
+[[improvement-practices]]
+=== (Short-Term) Improvement Practices
+
+We divide improvement practices into several categories (shown in
+the figure below). In contrast to the (more _strategic_) approaches
+these practices are more a _tactical_ nature.
+
+
+[[improve-practice-categories]]
+.Categories of Improvement Practices
+image::improve-practice-categories.png[title="Categories of Improvement Practices"]
+
+// TODO: Describe meaning/definition of categories
+
+
+* <<improve-processes, Improve Processes>>: Improve processes _around_ the system, its requirements,
+engineering, delivery, operations and management.
+* <<improve-architecture, Improve Architecture and Code Structure>>: refactor, restructure, modularize and similar practices.
+* <<improve-technical-infrastructure, Improve Technical Infrastructure>>
+* <<improve-analyzability, Improve Analyzability and Evaluability>>: facilitate to find issues, identify root causes or
+
+
+include::patterns/category-improve-processes.adoc[]
+include::patterns/category-improve-architecture-and-code.adoc[]
+include::patterns/category-improve-technical-infrastructure.adoc[]
+include::patterns/category-improve-analysability.adoc[]

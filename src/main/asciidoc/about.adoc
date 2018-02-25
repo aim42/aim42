@@ -31,3 +31,8 @@ image:https://img.shields.io/github/issues/aim42/aim42.svg[link="https://github.
 image:https://img.shields.io/github/stars/aim42/aim42.svg[link="https://github.com/aim42/aim42",window="_blank", alt="github-stars"]
 image:https://img.shields.io/github/contributors/aim42/aim42.svg[link="https://github.com/aim42/aim42",window="_blank", alt="github-contributors"]
 image:https://img.shields.io/twitter/follow/gernotstarke.svg?style=social&label=Followers[link="https://twitter.com/gernotstarke",window="_blank", alt=""]
+
+=== About this documentation
+This document serves as the _method reference_ - it collects practices and patterns.
+Please don't expect a _user manual_ or step-by-step guidebook here - we're currently
+busy working on the latter. 

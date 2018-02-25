@@ -1,0 +1,50 @@
+
+
+[[improvement-approaches]]
+===  (Long-Term) Improvement Approaches
+The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement.
+
+[[fig-improvement-approaches]]
+.Improvement Approaches
+image::improve-approaches-overview.png[]
+
+
+TODO: Describe Approaches
+
+[pattern]#Change-By-Split#:: Split up the original system into (not neccessarily distinct) parts.
+Clean-up those parts individually, and then evolve the parts independently.
+[small]#(similar, but not identical to Change-On-Copy)#
+
+[pattern]#Keep-Data-Toss-Code#:: As value sometimes resides in data, keep data intact and replace the functional/service/process part of a system.
+
+[pattern]#Frontend-Switch#:: Start creating new backend parts. Frontend routes some requests to those new backend parts, others still to the existing ones. Gradually enhancing the new backend parts, frontend routes more and more requests to new backend.
+
+[pattern]#Big-Bang#:: Keep the existing system for a limited time, apply only critical bugfixes. In parallel, build a replacement system. Replace old by new at predefined time.
+
+[pattern]#Chicken-Little#:: Incrementally (11 steps) build a replacement system. You can choose between Database-First, Database-Last and Composite-Database Approach.
+
+[pattern]#Database-First#:: Do a Big-Bang migration of the database, incrementally implement new applications and interfaces and connect the legacy system to the new database by forward gateways.
+
+[pattern]#Database-Last#:: Keep the existing database for a limited time, incrementally implement new applications and interfaces and connect them to the legacy database by reverse gateways.
+
+[pattern]#Composite-Database#:: Combination of Database-Firt and Database-Last. Beside a forward- and reverse-gateway, there is a need for a transaction-coordinator.
+
+[pattern]#Butterfly-Methodology#:: Data-Migration Method without the need for gateways. Enables zero-downtime migrations by working with temporary data stores.
+
+[pattern]#Strangulate-Bad-Parts#:: TBD
+
+[pattern]#Evolution#:: This approach has been extensively practiced by a Swiss Bank and published
+as a  http://www.amazon.de/Managed-Evolution-Strategy-Information-Systems/dp/3642016324[book].
+Underlying idea is to refactor those parts of the system(s) which are actually to be changed, especially to move all interfaces to new service standard and replace all legacy technologies and other couplings (via DB etc). Over time services should emerge that can be moved to a new platform altogether (from Mainframe to Java).
+
+[pattern]#Change-On-Copy#:: Create two or more identical copies of the whole system. Clean-up (reduce, gut) those copies individually, and then evolve the copies independently.
+
+
+include::patterns/improve/big-bang-approach.adoc[]
+include::patterns/improve/change-by-split-approach.adoc[]
+include::patterns/improve/chicken-little-strategy.adoc[]
+include::patterns/improve/database-first-approach.adoc[]
+include::patterns/improve/database-last-approach.adoc[]
+include::patterns/improve/composite-database-approach.adoc[]
+include::patterns/improve/butterfly-methodology.adoc[]
+include::patterns/improve/strangler-approach.adoc[]
