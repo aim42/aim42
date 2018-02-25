@@ -83,7 +83,7 @@ The central decision you should take is the improvement-approach, the overall, l
 
 [[fig-improvement-approaches]]
 .Improvement Approaches
-image::improve-approaches.png[]
+image::improve-approaches-overview.png[]
 
 
 TODO: Describe Approaches
