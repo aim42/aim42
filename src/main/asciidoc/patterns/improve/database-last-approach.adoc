@@ -22,7 +22,7 @@ employed to convert calls from the newly created
 applications and redirect them to the legacy database
 service, as shown in Fig. 1.
 
-image::improvement-approaches/databaseLast.png["Database-Last-Approach", title="Database-Last-Approach"]
+image::improve-approaches/databaseLast.png["Database-Last-Approach", title="Database-Last-Approach"]
 
 If the legacy database service is to be migrated to a
 relational database management service, then the target

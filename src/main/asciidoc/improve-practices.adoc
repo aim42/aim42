@@ -1,5 +1,5 @@
 
-[[improvement-practices]]
+[[improve-practices]]
 === (Short-Term) Improvement Practices
 
 We divide improvement practices into several categories (shown in

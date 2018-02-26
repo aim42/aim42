@@ -4,5 +4,5 @@
 Conduct long- and short-term planning of improvement activities. Balance
 or align issues and improvements, considering existing goals and constraints.
 
-Consists of long-term decisions (concerning <<improvement-approaches>>) and
+Consists of long-term decisions (concerning <<improve-approaches>>) and
 short-term planning.

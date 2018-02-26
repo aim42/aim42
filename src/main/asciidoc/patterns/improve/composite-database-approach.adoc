@@ -16,7 +16,7 @@ grow as the migration progresses. Eventually the target
 system should perform all the functionality of the
 legacy system and the old legacy system can be retired.
 
-image::improvement-approaches/composite.png["Composite-Database-Approach", title="Composite-Database Approach"]
+image::improve-approaches/composite.png["Composite-Database-Approach", title="Composite-Database Approach"]
 
 During the migration, the old legacy system and its
 target system form a composite information system, as

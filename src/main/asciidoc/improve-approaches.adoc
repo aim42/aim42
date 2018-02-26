@@ -1,10 +1,10 @@
 
 
-[[improvement-approaches]]
+[[improve-approaches]]
 ===  (Long-Term) Improvement Approaches
 The central decision you should take is the improvement-approach, the overall, long-range or *strategic* decision how you want to tackle your improvement.
 
-[[fig-improvement-approaches]]
+[[fig-improve-approaches]]
 .Improvement Approaches
 image::improve-approaches-overview.png[]
 

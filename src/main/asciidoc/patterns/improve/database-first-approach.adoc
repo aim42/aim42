@@ -21,7 +21,7 @@ legacy applications to access the database environment in the target side of the
 Fig. 1.  This gateway translates and redirects these calls forward to the new database service.  Results returned
 by the new database service are similarly translated for used by legacy applications.
 
-image::improvement-approaches/databaseFirst.png["Database-First-Approach", title="Database-First-Approach"]
+image::improve-approaches/databaseFirst.png["Database-First-Approach", title="Database-First-Approach"]
 
 The main advantage of this approach is that once the legacy data has been migrated, the latest programming
 languages and reporting tools can be used to access the data providing immediate productivity benefits. The legacy system can remain operational while legacy applications and interfaces are rebuilt and migrated to the target system one-by-one. When the migration is complete, the gateway will no longer be required and can be decommissioned as the old legacy system is shut down.

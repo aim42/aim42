@@ -6,7 +6,7 @@ image::01-intro-and-overview/improve-phase.png["improve-phase", title="Improve-P
 
 === Goals
 
-. Execute and coordinate the improvement activities to eliminate problems and issues found during <<Analyze, analysis>>. There is a whole <<improve-practices, bunch of practices>> devoted to this step, and we described the different  <<improvement-approaches, approaches>> you can take to run the improvements.
+. Execute and coordinate the improvement activities to eliminate problems and issues found during <<Analyze, analysis>>. There is a whole <<improve-practices, bunch of practices>> devoted to this step, and we described the different  <<improve-approaches, approaches>> you can take to run the improvements.
 
 . Apply selected opportunities for improvement
 
@@ -23,33 +23,33 @@ image::01-intro-and-overview/improve-phase.png["improve-phase", title="Improve-P
 // image map - created manually from OmniGraffle Export
 ++++
 <map name="ImproveConceptsOverview">
-<area shape=rect coords="71,50,260,112" href="#improve-practices">
-	<area shape=poly coords="71,54,260,54,260,11,11,11,11,54,11,112,71,112,71,54" href="#improvement-approaches">
-	<area shape=rect coords="11,112,260,158" href="#improve-fundamentals">
+<area shape=rect coords="43,39,204,96" href="#improve-practices">
+<area shape=rect coords="0,0,249,106" href="#improve-approaches">
+<area shape=rect coords="0,107,249,153" href="#improve-fundamentals">
 </map>
-<img border=0 src="images/improve-concepts-overview.jpg" usemap="#ImproveConceptsOverview">
+<img border=0 src="images/improve-fundamentals-approaches-practices.png" usemap="#ImproveConceptsOverview">
 ++++
 .Concepts For Improvement
 
 
 [horizontal]
-<<Fundamentals>>:: Some principles which you should consider whatever steps you take on your road to improvement.
+<<improve-fundamentals, Fundamentals>>:: Some principles which you should consider whatever steps you take on your road to improvement.
 
-<<improvement-approaches, Approaches>>:: Overall (strategic, long-term) decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.
+<<improve-approaches, Approaches>>:: Overall (strategic, long-term) decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.
 
 <<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<improve-categories,categories>>.
 
 
 === Fundamentals
 For improvement we take a number of fundamental principles for granted,
-depicted in figure <<Improvement Fundamentals>>.
+depicted in figure <<improve-fundamentals, Improvement Fundamentals>>.
 
 
 [[improve-fundamentals]]
 .Improvement Fundamentals
 image::improve-fundamentals.png[]
 
-These fundamental principles surely belong to software engineering good practices - but we consider them indispendsable for improvement projects.
+These fundamental principles surely belong to software engineering good practices - but we consider them indispensable for improvement projects.
 
 [horizontal]
 [pattern]#Fast-Feedback#::
@@ -58,7 +58,7 @@ Get feedback to your actions and changes as early as possible, so you can adjust
 [pattern]#Improve Iteratively#::
 Improve in (potentially small) iterations and/or increments, so
 that change does not disturb or negatively affect the system, its associated
-processes and organisation. Iterations are the prerequiste for our whole _phased improvement_.
+processes and organization. Iterations are the prerequisite for our whole _phased improvement_.
 
 [pattern]#Prototype-Improvement#:: Verify the viability and effectiveness of improvements,
 usually in smaller scales with reasonable risks.
@@ -69,7 +69,7 @@ up several http://secretsofconsulting.blogspot.de/2015/01/some-very-expensive-so
 
 [pattern]#Reduce Complexity#:: Simpler solutions are most often easier to comprehend,
 maintain and operate. Therefore always strive for simplicity and the reduction
-of accidental, unneccessary complexity.
+of accidental, unnecessary complexity.
 
 [pattern]#Explicit Assumption#:: Compensate missing facts (especially requirements, goals, estimates, opinions) by explicit (written) assumptions about those facts. See <<Explicit-Assumption>>.
 
