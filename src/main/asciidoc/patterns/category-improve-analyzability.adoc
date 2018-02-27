@@ -1,0 +1,6 @@
+[[improve-analyzability]]
+=== Practices to Improve Analyzability and Evaluability
+
+[[fig-improve-analyzability]]
+.Practices for "Improve Analyzability"
+image::improve-practice-analyzability.png["Practices for Improve Analyzability", title="Practices to improve analyzability"]

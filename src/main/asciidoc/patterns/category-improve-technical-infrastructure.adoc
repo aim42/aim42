@@ -2,5 +2,5 @@
 === Practices to Improve Technical Infrastructure
 
 [[fig-improve-technical-infrastructure]]
-.Practices for "Improve Technical Infrastructure" 
-image::improve-technical-infrastructure.png["Practices to Improve Technical Infrastructure", 400, title="Practices to improve technical infrastructure"]
+.Practices for "Improve Technical Infrastructure"
+image::improve-practice-technical-infrastructure.png["Practices to Improve Technical Infrastructure", title="Practices to improve technical infrastructure"]

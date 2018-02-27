@@ -4,7 +4,7 @@
 
 We divide improvement practices into several categories (shown in
 the figure below). In contrast to the (more _strategic_) approaches
-these practices are more a _tactical_ nature.
+these practices follow more _tactical_ (short-term) paths.
 
 
 [[improve-practice-categories]]
@@ -24,4 +24,4 @@ engineering, delivery, operations and management.
 include::patterns/category-improve-processes.adoc[]
 include::patterns/category-improve-architecture-and-code.adoc[]
 include::patterns/category-improve-technical-infrastructure.adoc[]
-include::patterns/category-improve-analysability.adoc[]
+include::patterns/category-improve-analyzability.adoc[]

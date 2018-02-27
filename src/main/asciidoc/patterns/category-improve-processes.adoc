@@ -3,5 +3,7 @@
 === Practices to Improve Processes
 
 [[fig-improve-processes]]
-.Practices for "Improve Processes" 
-image::improve-processes.png["Practices for Improve Processes", 400, title="Practices to improve processes"]
+.Practices for "Improve Processes"
+image::improve-practice-processes.png["Practices for Improve Processes", title="Practices to improve processes"]
+
+//TODO describe process practices

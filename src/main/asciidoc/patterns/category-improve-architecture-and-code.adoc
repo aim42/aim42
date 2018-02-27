@@ -1,12 +1,12 @@
 [[improve-architecture]]
 === Improve Architecture and Code Structure
 
-NOTE: This category contains a fairly large number of practices. 
+NOTE: This category contains a fairly large number of practices.
 
 
 [[fig-improve-architecture]]
-.Practices for "Improve Architecture and Code Structure" 
-image::improve-architecture.png["Practices to Improve Architecture", 600, title="Practices to improve architecture and code structure"]
+.Practices for "Improve Architecture and Code Structure"
+image::improve-practice-architecture.png["Practices to Improve Architecture", title="Practices to improve architecture and code structure"]
 
 
 ==== Architecture and Code Practices in Detail
@@ -51,4 +51,3 @@ include::improve/manage-complex-client-dependencies-with-facade.adoc[]
 include::improve/Measure.adoc[]
 include::improve/Use-Invariants-To-Kill-Zombies.adoc[]
 include::improve/Improve-feedback-from-and-for-stakeholders.adoc[]
-
