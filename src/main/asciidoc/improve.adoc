@@ -12,44 +12,47 @@ image::01-intro-and-overview/improve-phase.png["improve-phase", title="Improve-P
 
 * Change code, structures, concepts or processes to achieve better software,
 * Reduce costs and/or technical debt,
-* Eliminate issues found during analysis phase,
+* Eliminate all kinds of issues,
 * Optimize quality attributes (like performance, maintainability, security),
-* Optimize operation and administration processes, effort and cost.
+* Optimize operation and administration processes, thereby reducing effort and cost.
 
 
 
 === Structure of the Improvement Phase
 
-// image map - created manually from OmniGraffle Export
-++++
-<map name="ImproveConceptsOverview">
-<area shape=rect coords="43,39,204,96" href="#improve-practices">
-<area shape=rect coords="0,0,249,106" href="#improve-approaches">
-<area shape=rect coords="0,107,249,153" href="#improve-fundamentals">
-</map>
-<img border=0 src="images/improve-fundamentals-approaches-practices.png" usemap="#ImproveConceptsOverview">
-++++
-.Concepts For Improvement
+image::improve-fundamentals-approaches-practices.png["improve-concepts", title="Overview of Improvement Concepts"]
 
 
 [horizontal]
-<<improve-fundamentals, Fundamentals>>:: Some principles which you should consider whatever steps you take on your road to improvement.
+<<improve-fundamentals, Fundamentals>>:: Some principles which you should consider
+whatever steps you take on your road to improvement.
 
-<<improve-approaches, Approaches>>:: Overall (strategic, long-term) decisions how to tackle improvement. Examples include *Big-Bang*, *Strangulate-Bad-Parts*, *Change-Via-Split*.
+<<improve-approaches, Approaches>>:: Overall (strategic, long-term) decisions how to
+tackle improvement, structured in several categories. Start with the <<improve-approaches-overview, overview>>
+or jump right to the <<improve-approaches-details, details>>.
 
-<<improve-practices, Practices>>:: fine-grained practices or patterns, structured in several <<improve-categories,categories>>.
+<<improve-practices, Practices>>:: fine-grained practices or patterns, structured in
+several categories. Start with the <<improve-practices-overview, overview>> or jump
+right to the <<improve-practices-details, details>>.
 
 
-=== Fundamentals
-For improvement we take a number of fundamental principles for granted,
-depicted in figure <<improve-fundamentals, Improvement Fundamentals>>.
+We'll cover these topics in a top-down manner, starting with a brief overview of the respective
+categories available for approaches and practices.
+
+
 
 
 [[improve-fundamentals]]
-.Improvement Fundamentals
+=== Fundamentals
+For improvement we take a number of fundamental principles for granted,
+depicted in <<improve-fundamentals>>.
+
+
+.Improvement Fundamentals - Overview
 image::improve-fundamentals.png[]
 
-These fundamental principles surely belong to software engineering good practices - but we consider them indispensable for improvement projects.
+These fundamental principles surely belong to software engineering good practices -
+but we consider them indispensable for improvement projects.
 
 [horizontal]
 [pattern]#Fast-Feedback#::
@@ -75,6 +78,58 @@ of accidental, unnecessary complexity.
 
 [pattern]#Group Improvement Actions#:: Group related actions, so that they refer
 to similar entities and potential synergies are utilized.
+
+
+[[improve-approaches-overview]]
+=== Approaches (Overview)
+
+.Categories of Improvement Approaches
+image::improve-approaches-categories.png[]
+
+[horizontal]
+Data Migration::
+Keep your (valuable) data, and toss (or rewrite or otherwise change) your code.
+
+Rewrite::
+Your system is _broken beyond repair_ and you need to completely replace it by a new one.
+Rewrite approaches give you some ideas how and if that might work (spoiler: we fear that [pattern]#Big-Bang# won't work...)
+
+Restructure::
+Improve your system by restructuring your code _in-the-large_. Might involve extraction of
+certain functionalities, splitting your system, improving the modularization or strangulating
+certain (bad) parts of the system (and, of course, replacing those by better solutions).
+
+Improve Modularization::
+Subcategory of _restructure_: improve responsibilities within the system, improving the boundaries
+between components, improving interfaces and similar operations.
+
+Downsize::
+Small is beautiful: Strategies to reduce the amount of _stuff_, e.g. by splitting your system up, extracting certain parts,
+or other ways to reduce LOC or other complexity metrics.
+
+
+You find further information on the  <<improve-approaches-details, detailed approaches here>>.
+
+[[improve-practices-overview]]
+=== Practices (Overview)
+
+.Categories of Improvement Practices
+image::improve-practice-categories.png[]
+
+[horizontal]
+what::
+else
+
+
+=== Approaches, Practices and Regular Development
+In regular development (sometimes known as _daily business_) you will most likely intertwine
+your approach(es) with numerous practices - as depicted in
+<<fig-relation-of-approaches-practices>>.
+
+
+[[fig-relation-of-approaches-practices]]
+.Integrating improvement approaches and practices with regular development
+image::integrate-improve-with-daily-business.png[]
 
 
 include::improve-approaches.adoc[]

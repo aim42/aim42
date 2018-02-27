@@ -3122,9 +3122,9 @@ Practices}</string>
 	<key>WindowInfo</key>
 	<dict>
 		<key>CurrentSheet</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>Frame</key>
-		<string>{{984, 619}, {1362, 710}}</string>
+		<string>{{4, 90}, {1276, 710}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
@@ -3136,7 +3136,7 @@ Practices}</string>
 		<key>Sidebar_Tab</key>
 		<integer>0</integer>
 		<key>VisibleRegion</key>
-		<string>{{0, 0}, {1026.6666666666667, 736}}</string>
+		<string>{{0, 0}, {684, 552}}</string>
 		<key>ZoomValues</key>
 		<array>
 			<array>
@@ -3187,7 +3187,7 @@ Practices}</string>
 	<key>resolutionForGIFKey</key>
 	<real>1</real>
 	<key>resolutionForHTMLKey</key>
-	<real>1</real>
+	<real>1.6666666269302368</real>
 	<key>resolutionForJPGKey</key>
 	<real>1</real>
 	<key>resolutionForPNGKey</key>
