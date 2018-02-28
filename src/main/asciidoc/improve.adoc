@@ -118,13 +118,18 @@ image::improve-practice-categories.png[]
 
 [horizontal]
 Improve Processes and Organization::
-tbd
+Sometimes your issues originate in process or organizational root causes,
+meaning your development, rollout or operations processes are less efficient
+than they should be. This category adresses such problems.
 
 Improve Architecture and Code Structure::
-tbd
+All aspects of sourcecode may be subject to improvement - style, structure,
+dependencies, conventions, naming and the like. Furthermore, structure
+_in the large_ (modules, components, interfaces) or crosscutting and technical
+concepts belong to this area of improvement.
 
 Improve Technical Infrastructure::
-tbd
+Technical infrastructure encompasses both underlying hardware and software.
 
 Improve Analyzability and Evaluatability::
 Make the system easier to analyze and understand, e.g. by improving logging,
