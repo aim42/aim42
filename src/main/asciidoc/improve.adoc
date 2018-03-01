@@ -116,20 +116,25 @@ You find further information on the  <<improve-approaches-details, detailed appr
 .Categories of Improvement Practices
 image::improve-practice-categories.png[]
 
+
 [horizontal]
 Improve Processes and Organization::
 Sometimes your issues originate in process or organizational root causes,
 meaning your development, rollout or operations processes are less efficient
 than they should be. This category adresses such problems.
+For details see <<improve-processes>>.
 
 Improve Architecture and Code Structure::
 All aspects of sourcecode may be subject to improvement - style, structure,
 dependencies, conventions, naming and the like. Furthermore, structure
 _in the large_ (modules, components, interfaces) or crosscutting and technical
 concepts belong to this area of improvement.
+For details see <<improve-architecture>>.
 
 Improve Technical Infrastructure::
 Technical infrastructure encompasses both underlying hardware and software.
+For details see <<improve-technical-infrastructure>>.
+
 
 Improve Analyzability and Evaluatability::
 Make the system easier to analyze and understand, e.g. by improving logging,
@@ -137,7 +142,7 @@ tracing or by introducing clearer structures.
 Enable or facilitate evaluation (e.g. of certain issues) by creating, collecting
 and managing certain numbers (_metrics_),
 either in development-, deploy- or runtime.
-
+For details see <<improve-analyzability>>.
 
 
 === Approaches, Practices and Regular Development
