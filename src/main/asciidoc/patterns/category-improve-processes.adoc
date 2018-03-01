@@ -6,4 +6,5 @@
 .Practices for "Improve Processes"
 image::improve-practice-processes.png["Practices for Improve Processes", title="Practices to improve processes"]
 
-//TODO describe process practices
+For an overview of other improvement practices,
+see <<improve-practices-overview>>.

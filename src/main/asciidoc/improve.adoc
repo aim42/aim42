@@ -81,7 +81,7 @@ to similar entities and potential synergies are utilized.
 
 
 [[improve-approaches-overview]]
-=== Approaches (Overview)
+=== Improvement Approaches (Overview)
 
 .Categories of Improvement Approaches
 image::improve-approaches-categories.png[]
@@ -111,7 +111,7 @@ or other ways to reduce LOC or other complexity metrics.
 You find further information on the  <<improve-approaches-details, detailed approaches here>>.
 
 [[improve-practices-overview]]
-=== Practices (Overview)
+=== Improvement Practices (Overview)
 
 .Categories of Improvement Practices
 image::improve-practice-categories.png[]
@@ -143,6 +143,7 @@ Enable or facilitate evaluation (e.g. of certain issues) by creating, collecting
 and managing certain numbers (_metrics_),
 either in development-, deploy- or runtime.
 For details see <<improve-analyzability>>.
+
 
 
 === Approaches, Practices and Regular Development

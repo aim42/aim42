@@ -4,3 +4,6 @@
 [[fig-improve-analyzability]]
 .Practices for "Improve Analyzability"
 image::improve-practice-analyzability.png["Practices for Improve Analyzability", title="Practices to improve analyzability"]
+
+For an overview of other improvement practices,
+see <<improve-practices-overview>>.

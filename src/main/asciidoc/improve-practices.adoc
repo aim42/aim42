@@ -1,8 +1,11 @@
 
 [[improve-practices]]
-=== (Short-Term) Improvement Practices
+=== Improvement Practices (Details)
 
-We already explained the categories of improvement practices
+Practices, in contrast to approaches, are the short-term
+or tactical improvements.
+
+We already explained the categories of these improvement practices
 in <<improve-practices-overview>>. Here we dive into more details,
 structured along these categories:
 

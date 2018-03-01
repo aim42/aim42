@@ -1,7 +1,7 @@
 
 
 [[improve-approaches-details]]
-===  (Long-Term) Improvement Approaches
+===  Improvement Approaches (Details)
 One of the central decisions involves your long-term improvement-approach,
 the overall, long-range or *strategic* decision how you want to improve your system.
 

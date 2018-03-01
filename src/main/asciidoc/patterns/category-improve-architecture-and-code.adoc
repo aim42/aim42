@@ -8,6 +8,8 @@ NOTE: This category contains a fairly large number of practices.
 .Practices for "Improve Architecture and Code Structure"
 image::improve-practice-architecture.png["Practices to Improve Architecture", title="Practices to improve architecture and code structure"]
 
+For an overview of other improvement practices,
+see <<improve-practices-overview>>.
 
 ==== Architecture and Code Practices in Detail
 

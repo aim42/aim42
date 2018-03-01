@@ -4,3 +4,6 @@
 [[fig-improve-technical-infrastructure]]
 .Practices for "Improve Technical Infrastructure"
 image::improve-practice-technical-infrastructure.png["Practices to Improve Technical Infrastructure", title="Practices to improve technical infrastructure"]
+
+For an overview of other improvement practices,
+see <<improve-practices-overview>>.
