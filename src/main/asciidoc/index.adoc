@@ -11,7 +11,7 @@
 :imagesdir: ./images
 :homepage: http://aim42.org
 :linkattrs:
-:xrefstyle: short
+:xrefstyle: full
 
 include::about.adoc[]
 
