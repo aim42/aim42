@@ -88,7 +88,8 @@ image::improve-approaches-categories.png[]
 
 [horizontal]
 Data Migration::
-Keep your (valuable) data, and toss (or rewrite or otherwise change) your code.
+Keep your (valuable) data, and toss (or rewrite or otherwise change) your code. Oftentimes
+combined with approaches from the categories _rewrite_ or _restructure_.
 
 Rewrite::
 Your system is _broken beyond repair_ and you need to completely replace it by a new one.
@@ -105,7 +106,7 @@ between components, improving interfaces and similar operations.
 
 Downsize::
 Small is beautiful: Strategies to reduce the amount of _stuff_, e.g. by splitting your system up, extracting certain parts,
-or other ways to reduce LOC or other complexity metrics.
+or other ways to reduce LOC or other complexity metrics. Terms like _microservices_ fall into this category.
 
 
 You find further information on the  <<improve-approaches-details, detailed approaches here>>.
