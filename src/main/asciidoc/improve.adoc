@@ -152,6 +152,15 @@ In regular development (sometimes known as _daily business_) you will most likel
 your approach(es) with numerous practices - as depicted in
 <<fig-relation-of-approaches-practices>>.
 
+In both long- and short-term planning (yes - even in highly agile and iterative
+  development models you'll have such planning) you need to balance the following
+  often conflicting goals:
+
+  * short-term profitability by creating business value by delivering
+    features or fixes to production.
+  * long-term maintainability of the system by improving inner quality,
+    improving code structure, technology choices and the like.
+
 
 [[fig-relation-of-approaches-practices]]
 .Integrating improvement approaches and practices with regular development
