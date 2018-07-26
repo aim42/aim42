@@ -26,7 +26,7 @@ How expensive is this change?
 |{set:cellbgcolor:#fd7387}Collect improvement options
 |{set:cellbgcolor:#8dc8fd}Usually "evaluation" means _estimation_
 |{set:cellbgcolor:#A2DBCC}Improve technology
-|{set:cellbgcolor:#fd7387}Interview stakehoders
+|{set:cellbgcolor:#fd7387}Interview stakeholders
 |{set:cellbgcolor:#8dc8fd}Estimate in intervalls
 |{set:cellbgcolor:#A2DBCC}Improve (technical) concepts
 |{set:cellbgcolor:#fd7387}Analyze context
