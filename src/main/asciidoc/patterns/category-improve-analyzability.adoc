@@ -7,3 +7,11 @@ image::improve-practice-analyzability.png["Practices for Improve Analyzability",
 
 For an overview of other improvement practices,
 see <<improve-practices-overview>>.
+
+==== Analyzability and Evaluability Practices in Detail
+
+(given in alphabetical order)
+
+* <<Doc-As-Code>>
+
+include::improve/doc-as-code.adoc[]
