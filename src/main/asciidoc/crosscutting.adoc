@@ -144,9 +144,25 @@ Also known as _educated guess_.
 
 [[Fail-Fast]]
 === [pattern]#Fail Fast#
-The later a lack of quality is identified the higher are the costs to fix it.
-Continuously evaluate the quality of work artifacts and immediately take
-countermeasures or pull the plug as early as possible. Similar to <<Fast-Feedback>>.
+
+"fail fast" is actually a reference to an architecture principle describing a runtime behaviour of a system. I.e. if the application already knows that a remote system is not reachable, it should not try to send other/ more requests to this system so that this system can recover. Instead the application should immediately return either an error message or - even better - a functional fallback value.
+
+Transferring this to software improvements, a fail-fast approach would be to immediately report when an improvement can not be applied. Don't wait e.g. until the end of the sprint to communicate the failure. Instead this early feedback provides the opportunity to reflect and pivot on the improvement before the next sprint is started.
+
+==== Takeaways
+
+- fail-fast is actually an architecture principle for software runtime behaviour
+- report failures as early as possible
+- use failures as opportunities to pivot
+
+
+[[Fast-Feedback]]
+=== [pattern]#Fast Feedback#
+
+Fast Feedback is a well-known term which was e.g. coined in Bruce Tulgan's book with the same name. Usually it's about "frequent, accurate, specific and timely, and FAST feedback" in evaluation of different topics e.g. performance evaluation. Fast Feedback means that we don't want to wait for six to twelve months until we get results or answers on a specific question. Instead we keep participants in a constant feedback loop so they immediately exchange information once they receive it.  
+
+The intention behind this is, the later a lack of quality is identified the higher the costs to fix it. Continuously evaluate the quality of work artifacts and immediately take
+countermeasures or pull the plug as early as possible. Similar to <<Fail-Fast>>.
 
 Suitable methods to identify such situations are:
 
@@ -154,11 +170,6 @@ Suitable methods to identify such situations are:
 * Architecture reviews
 * Peer reviews
 * Testing in early stages
-
-
-[[Fast-Feedback]]
-=== [pattern]#Fast Feedback#
-TODO
 
 See also <<Fail-Fast>>.
 
