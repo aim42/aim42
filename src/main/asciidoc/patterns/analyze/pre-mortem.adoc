@@ -1,0 +1,50 @@
+[[Pre-Mortem]]
+
+==== [pattern]#Pre-Mortem#
+
+
+===== Intent
+Identify issues that could let become the current project a huge disaster.
+
+
+===== Description
+In software projects, post-mortems are often used to learn from a failed projects with the goal to avoid the identified problems in the future. But why wait for so long?
+
+In a pre-mortem workshop, stakeholders are imaging that they are living some months or years in the future to analyse their current project that had been failed miserably.
+They are explicitly encouraged to speak about the main points that did go wrong from the future’s perspective.
+
+The organization of the workshop for a running software project can be done as follows:
+
+1. Preparation: Participants are gathering in a room with a big empty wall. For each participant, a pen, around ten post-its and three adhesive dot markers are handed out.
+2. Scenario: The workshop facilitator tells all participant that they are now in the future and their project has failed. It failed so miserably that it was a total disaster. The project members don’t speak to each other anymore and the whole company gained a bad reputation.
+3. Task: To come over this heavy shock, all former project members are summoned together to spot the reasons for this fiasco. Each of the participants should write down the concrete reasons that led the complete failure (within a 5 minutes timebox, one reason on one post-it).
+4. Communication: Each participant puts their post-it notes on the wall and explains each identified reason in 1-2 short sentences.
+5. Grouping: The facilitator groups the post-its together to main topics and names these main topics with additional post-its that placed onto the emerged groups.
+6. Prioritization: All participants can now use the dot stickers to mark the three most important topics (no accumulation allowed) from their point of view.
+7. Discussion (optional): Possible solutions that address the three most important reasons are discussed and the next steps to implement the solutions are defined.
+
+
+===== Experiences
+A pre-mortem session combines the potential of negative thinking and creative thinking in a relaxed environment.
+Stakeholders are rewarded for the identification of issues instead of being played down or marked as naysayers.
+This leads to a huge amount of input from all kind of participants that would otherwise be quite regarding potential problems.
+The viewpoint from the future frees participants from thinking just in short terms and provides.
+
+
+===== Applicability
+Pre-mortem is a complementary method to <<Stakeholder-Interview, interviews with stakeholders>>,
+that is very efficient due to the focused scenario and multi-perspective format.
+
+
+===== Consequences
+In the evaluate phase, the identified reasons can be a great starting point for further analysis.
+
+Additionally, identified reasons from a pre-mortem session can be seen as potential risks and thus be included and tracked in the project's risk management.
+
+
+===== Related Patterns
+* <<Stakeholder-Interview>>
+
+
+===== References
+* Gary Klein - Performing a Project Premortem (https://hbr.org/2007/09/performing-a-project-premortem[Online article])
