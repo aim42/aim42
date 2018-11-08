@@ -142,6 +142,8 @@ include::patterns/analyze/quantitative-analysis.adoc[]
 
 include::patterns/analyze/pre-interview-questionnaire.adoc[]
 
+include::patterns/analyze/pre-mortem.adoc[]
+
 include::patterns/analyze/questionnaire.adoc[]
 
 include::patterns/analyze/requirements-analysis.adoc[]

@@ -345,6 +345,12 @@ Prior to interviewing stakeholders, present them with a written questionnaire, s
 Category: <<Analyze>>
 +
 
+. *<<Pre-Mortem>>*
++
+Identify issues that could let become the current project a huge disaster.
+Category: <<Analyze>>
++
+
 
 . *<<Qualitative-Analysis>>*
 +
