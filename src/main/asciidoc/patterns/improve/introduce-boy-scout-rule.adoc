@@ -20,7 +20,7 @@ TIP: Often the introduction of concepts like layering is deemed _â€œimpossibleâ€
 
 ===== Description
 
-* Drafting from an <<improvement-backlog>>, define a specific rule set
+* Drafting from an <<Improvement-Backlog>>, define a specific rule set
   on how to improve the contents of specific file types.
 
 * Specify how much effort should be allowed to perform each specific
@@ -32,7 +32,7 @@ TIP: Often the introduction of concepts like layering is deemed _â€œimpossibleâ€
 
 * Install a mechanism to ensure that the things that where too big to
   be cleaned up while visiting the file will end up in the
-  <<improvement-backlog>>.
+  <<Improvement-Backlog>>.
 
 .Example Boy Scout Rule agreement
 
@@ -69,11 +69,10 @@ Item.COMPOUND_ITEMS_THRESHHOLD)+
 ===== Experiences
 
 Introducing the Boy Scout Rule on a heavily deteriorated code base
-induces heavy payback on <<technical-debt>> and often gets challenged
+induces heavy payback on https://en.wikipedia.org/wiki/Technical_debt[technical debt] and often gets challenged
 by team members and senior management. It is important to point out
-that the extended time spent on fixing the artifacts "`as the teams
-goes`" actually is the _explicit_ payment of the <<technical-debt>>
-interest rate.
+that the extended time spent on fixing the artifacts "as the teams
+goes" actually is the _explicit_ payment of the technical debt interest rate.
 
 ===== Risks
 
@@ -111,7 +110,7 @@ parts of the system other approaches have to be utilized.
 * <<Refactoring-Plan>>, as an alternative or complimenting approach
 * <<Introduce-Layering>> can be performed using the Boy Scout Rule
 * <<Anticorruption-Layer>> can be performed using the Boy Scout Rule
-* An <<improvement-backlog>> should be the basis for the tasks
+* An <<Improvement-Backlog>> should be the basis for the tasks
   performed when applying the Boy Scout Rule
 
 ===== References

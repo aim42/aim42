@@ -13,7 +13,7 @@ to _locate_ issues, risks and opportunities for improvement.
 * Business or technical system context, with external interfaces. Learn this
   from <<Context-Analysis>> or <<Infrastructure-Analysis>>.
 
-* Solution strategy, often to be learnt from <<Stakeholder-Interviews>> with
+* Solution strategy, often to be learnt from <<Stakeholder-Interview>> with
   experienced developers of the system.
 
 * Building block structure, the static organization of the source code. 

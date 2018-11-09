@@ -26,7 +26,7 @@ As always: documentation is only valuable if it can be found easily, which makes
 
 For every entry in this issue list we need to <<Estimate-Issue-Cost>>, an estimation of the cost of this issued in any business-related unit. 
 
-In case you already have identified or developed <<opportunities-for-improvement>> adressing this issue,
+In case you already have identified or developed <<Collect-Opportunities-For-Improvement,opportunities for improvement>> adressing this issue,
 links to the corresponding improvements (remedies, tactics, strategies, changes) in the
 <<Improvement-Backlog>> are neccesssary.
 

@@ -1,4 +1,4 @@
-[[chicken-little-strategy]]
-==== [pattern]#Chicken-Little Strategy#
+[[Chicken-Little-Strategy]]
+==== [pattern]#Chicken-Little-Strategy#
 
 to be completed...

@@ -21,7 +21,7 @@ munches on everybody's brain when it is time for the next system-wide change.
 
 This kind of zombie can be killed more safely by employing invariants. 
 
-An <<invariant>> -- as described by Bertrand Meyer in
+An invariant -- as described by Bertrand Meyer in
 <<Object-Oriented-Software-Construction>> -- is a logical expression that always
 is true for a given set of circumstances. He proposes to actually verify those
 invariants _in the code itself_. What happens if the invariant does not hold
@@ -95,7 +95,6 @@ weight of the system.
 * Invariants (and other <<Assertions>>) have been made popular by Bertrand Meyer
   in his seminal book <<Object-Oriented-Software-Construction>>
 * Brian Foote references Zombie code in <<Big-Ball-Of-Mud>>
-* Dead code is an alternate name for the lava-flow anti pattern in
-  <<AntiPatterns>>.
+* Dead code is an alternate name for the lava-flow anti pattern <<Brown>>.
 
 // end of list

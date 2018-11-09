@@ -16,7 +16,7 @@ they sometimes spend too much time tracking too little bugs.
 
 * [[[Annett-Legacy]]] Robert Annett: Working with Legacy Systems: A practical guide to the real systems we inherit.  http://leanpub.com/WorkingWithLegacySystems[Leanpub Publishing].
 
-* [[Brown]] William J. Brown: AntiPatterns: Refactoring Software,
+* [[[Brown]]] William J. Brown: AntiPatterns: Refactorsing Software,
 Architecture and Projects in Crisis, John Wiley & Sons, 1998 -- a tried and
 true work on things that tend to go wrong in software development and other
 projects.

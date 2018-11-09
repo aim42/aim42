@@ -30,7 +30,7 @@ image:https://img.shields.io/travis/aim42/aim42/master.svg[link="https://travis-
 image:https://img.shields.io/github/issues/aim42/aim42.svg[link="https://github.com/aim42/aim42/issues",window="_blank", alt="nr-of-issues:unknown"]
 image:https://img.shields.io/github/stars/aim42/aim42.svg[link="https://github.com/aim42/aim42",window="_blank", alt="github-stars"]
 image:https://img.shields.io/github/contributors/aim42/aim42.svg[link="https://github.com/aim42/aim42",window="_blank", alt="github-contributors"]
-image:https://img.shields.io/twitter/follow/gernotstarke.svg?style=social&label=Followers[link="https://twitter.com/gernotstarke",window="_blank", alt=""]
+image:https://img.shields.io/twitter/follow/gernotstarke.svg?style=social&label=Followers[link="https://twitter.com/gernotstarke",window="_blank", alt="Twitter follower button"]
 
 === About this documentation
 This document serves as the _method reference_ - it collects practices and patterns.

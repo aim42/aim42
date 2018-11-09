@@ -62,10 +62,10 @@ concerned by the problem, we count their number.
 	<area shape=rect coords="346,3,425,62" href="#Estimate-In-Interval">
 	<area shape=rect coords="533,3,653,62" href="#Estimate-Improvement-Cost">
 	<area shape=rect coords="147,3,251,62" href="#Estimate-Issue-Cost">
-	<area shape=rect coords="482,150,618,199" href="#collect-opportunities-for-improvement">
+	<area shape=rect coords="482,150,618,199" href="#Collect-Opportunities-For-Improvement">
 	<area shape=rect coords="200,145,297,193" href="#Collect-Issues">
 </map>
-<img border=0 src="images/evaluate-patterns-conceptmap.png" usemap="#EvaluationPractices">
+<img border=0 src="images/evaluate-patterns-conceptmap.png" usemap="#EvaluationPractices", alt="concept map of the evaluate patterns">
 ++++
 
 

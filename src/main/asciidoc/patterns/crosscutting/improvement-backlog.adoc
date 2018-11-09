@@ -6,7 +6,7 @@ Keep a public, written backlog of possible improvements, remedies, tactics or st
 
 * Revise this backlog in regular intervalls.
 * Define the _owner role_ for this backlog, similar to the _product owner_ in Scrum.
-* Enhance the backlog with information from the <<evaluation>> phase, like cost, effort or risk.
+* Enhance the backlog with information from the <<Evaluate>> phase, like cost, effort or risk.
 
 
 [[figure-improvement-backlog]]
