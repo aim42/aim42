@@ -6,7 +6,7 @@
 
 ===== Description
 
-Rewriting an old system "big bang" is a risky endeavour. It is harder than you think (see "Big Bang Approach" in aim42).
+Rewriting an old system "big bang" is a risky endeavour. It is harder than you think (see <<big-bang-approach>>).
 
 An alternative route is to gradually create a new system around the edges of the old, letting it grow slowly over
 several years until the old system is strangled. The most important reason to consider a strangler application over a

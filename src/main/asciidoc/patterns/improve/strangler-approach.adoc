@@ -6,7 +6,7 @@ Divide a legacy system into different functional domains and replace those step 
 
 ===== Description
 
-Rewriting an old system with the <<Big Bang Approach>> is a risky endeavor. It is harder than you might think at the beginning.
+Rewriting an old system with the <<big-bang-approach>> is a risky endeavor. It is harder than you might think at the beginning.
 
 An alternative way is to gradually create a new system around the edges of the old, letting it grow slowly over
 several years until the old system is strangled. The most important reason to consider a strangler application over a
