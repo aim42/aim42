@@ -411,7 +411,13 @@ Category: <<Analyze>>
 
 . *<<Runtime-Analysis>>*
 +
-Analyze the runtime behavior of the <<System>>, e.g. with respect to time and resource consumption or creation. See <<Profiling>>, <<Performance-Analysis>> and <<Runtime-Artifact-Analysis>>.
+Analyze the runtime behavior of the <<System>>, e.g. with respect to time and resource consumption or creation.
+Category: <<Analyze>>
++
+
+. [[Runtime-Artifact-Analysis]]
+[pattern]#Runtime Artifact Analysis#::
+Artifacts that were created by a running system are a gold mine. They allow you to get a deeper understanding of the inner workings of a software system. Use log management, aggregators and monitoring tools to gather log files. Then analyze usage patterns, stack traces or errors to see what the system is really doing.
 Category: <<Analyze>>
 +
 
