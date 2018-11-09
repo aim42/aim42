@@ -40,10 +40,10 @@ and reason about the code structure
 * high-level overview
 
 ===== Related Patterns
-* <<Architecture-Documentation>>
+* <<Doc-As-Code>>
 * <<Context-Analysis>>
 
 ===== References
 
 * <<arc42>>
-* Kruchten
+* https://en.wikipedia.org/wiki/4%2B1_architectural_view_model[4+1 architectural view model] by Philippe Kruchten
