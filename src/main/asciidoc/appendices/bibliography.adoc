@@ -1,8 +1,8 @@
 :numbered!:
 
-[[bibliography]]
 [appendix]
 == Bibliography
+[bibliography]
 
 * [[[arc42]]] arc42: Resources for Software Architects. Practical template, liberal licence.
 Available in a variety of formats, see http://arc42.de[German website] or http://arc42.org[English website].
