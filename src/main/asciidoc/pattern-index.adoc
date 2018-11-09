@@ -112,9 +112,9 @@ Category: <<Analyze>>
 +
 
 
-. *<<Deprecate-Obsolete-Parts>>*
+. [[Deprecate-Obsolete-Parts]]
 +
-
+[pattern]#Deprecate Obsolete Parts#:: Actively mark parts in software that aren't needed anymore and communicate to your consumers or customers, that you will remove specific functionality in the future.
 Category: <<Improve>>
 +
 
