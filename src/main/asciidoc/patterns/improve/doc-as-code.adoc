@@ -1,0 +1,54 @@
+
+[[Doc-As-Code]]
+
+==== [pattern]#Doc-As-Code#
+
+
+===== Intent
+
+Doc-As-Code is a documentation approach that raises developer-related documentation to the same importance as source code. The core idea of Doc-As-Code is to use the same tools and processes for creating documentation as for creating source code. This ensures that there are no high costs for context switches.
+
+
+===== Description
+Developer-related documentation of software systems is often neglected. In many situations, it’s not the lack of ideas for meaningful content that prevents documentation but the way developers have to do it: Separate programs have to be started and other work processes have to be followed. These and many more other distractions lead to long context switch times.
+
+The additional effort could be a reason for a rather negative attitude towards documentation on the developer side. As a result, the developer’s documentation is neglected and becomes obsolete with the time until it can no longer be used for anything at all. Unfortunately, missing or outdated documentation has negative consequences for the understandability of the entire software system.
+
+There are a few practices that ensure that the acceptance of documentation by software developers increases:
+
+* The documentation format is a simple, text-based format that can be opened and edited in any integrated development environment.
+* The necessary formatting of the texts can be done textually by a corresponding formatting syntax.
+* Diagrams can also be created with a pure text-based approach.
+* Changes to the texts are comparable to standard diffing tools.
+* The documentation is placed directly next to the source code in the same code repository and in the same version control system.
+* The creation of the documentation artifacts (such as PDFs or HTML pages) that should be delivered is completely automated.
+* Automated tests check the structure and links within the document when creating documentation artifacts.
+* The same code review process and tooling is used for checking the documentation as well as for source code.
+* Documentation can be maintained in parallel for different versions and merged if required.
+* Optionally: The additional needed documentation is maintained in the same ticket system and implemented with the same processes as the implementation of new features for the software.
+
+The seamless integration of documentation creation into the software development process means that there are no longer any obstacles for software developers to document necessary facts. By reusing the tools and processes, the documentation work gets the same importance as the writing of source code. Work on documentation becomes as visible as newly written code. The automated creation of documentation artifacts or websites makes the current status of the documentation more clear to other stakeholders such as product owners or project managers.
+
+
+===== Experiences
+
+When documentation and source code are in the very same code repository, developers can be kind of forced to update the documentation when they write new features or update existing ones. With the help of pull requests and code review techniques, it can be very quickly checked if necessary documentation updates were made.
+
+
+===== Applicability
+
+Apply this pattern when there is a clear lack of documentation. Start by defining the minimum required scope of documentation for new features (e. g. take some parts of the arc42 documentation template as a guidance if developers complain that they don't know what to document).
+
+Show the documentation in sprint reviews to make non-technical developers aware of the newly created content.
+
+
+===== Consequences
+
+Can lead to grumbling at the beginning (at the lastest when the first pull request is declined due to missing documentation)
+
+
+===== References
+
+* https://docs-as-co.de/
+* https://doctoolchain.github.io/docToolchain/
+* http://www.writethedocs.org/guide/docs-as-code/
