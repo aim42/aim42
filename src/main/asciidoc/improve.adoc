@@ -6,7 +6,7 @@ image::01-intro-and-overview/improve-phase.png["improve-phase", title="Improve-P
 
 === Goals
 
-. Execute and coordinate the improvement activities to eliminate problems and issues found during <<Analyze, analysis>>. There is a whole <<improve-practices, bunch of practices>> devoted to this step, and we described the different  <<improve-approaches, approaches>> you can take to run the improvements.
+. Execute and coordinate the improvement activities to eliminate problems and issues found during <<Analyze, analysis>>. There is a whole <<improve-practices, bunch of practices>> devoted to this step, and we described the different  <<improve-approaches-overview, approaches>> you can take to run the improvements.
 
 . Apply selected opportunities for improvement
 
@@ -27,13 +27,13 @@ image::improve-fundamentals-approaches-practices.png["improve-concepts", title="
 <<improve-fundamentals, Fundamentals>>:: Some principles which you should consider
 whatever steps you take on your road to improvement.
 
-<<improve-approaches, Approaches>>:: Overall (strategic, long-term) decisions how to
+<<improve-approaches-overview, Approaches>>:: Overall (strategic, long-term) decisions how to
 tackle improvement, structured in several categories. Start with the <<improve-approaches-overview, overview>>
 or jump right to the <<improve-approaches-details, details>>.
 
 <<improve-practices, Practices>>:: fine-grained practices or patterns, structured in
 several categories. Start with the <<improve-practices-overview, overview>> or jump
-right to the <<improve-practices-details, details>>.
+right to the <<improve-approaches-details, details>>.
 
 
 We'll cover these topics in a top-down manner, starting with a brief overview of the respective

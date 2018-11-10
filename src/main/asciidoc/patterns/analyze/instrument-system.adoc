@@ -6,9 +6,7 @@
 
 Use retroactive modification of the executables which target
 cross-cutting concerns to make the existing software-base tell about it's
-internals. Ways to achieve this can include <<Aspect-Oriented-Programming,
-Aspect Oriented Programming (AOP)>>, <<Monkey-Patching, Monkey Patching>> and
-other <<meta-programming, meta programming>> techniques.
+internals. Ways to achieve this can include https://en.wikipedia.org/wiki/Aspect-oriented_programming[aspect-oriented programming (AOP)], https://en.wikipedia.org/wiki/Monkey_patch[Monkey-Patching] and other https://en.wikipedia.org/wiki/Metaprogramming[metaprogramming] techniques.
 
 ===== Intent
 
@@ -66,7 +64,7 @@ original non-instrumented version.
 
 ===== Applicability
 The pattern is almost universally applicable as long as there is a way to
-introduce instrumentation to the executable and <<operations>> can be
+introduce instrumentation to the executable and the operations team can be
 convinced that it is possible to switch back from the instrumented version
 real fast.
 

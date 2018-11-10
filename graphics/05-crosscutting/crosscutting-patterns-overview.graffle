@@ -639,7 +639,7 @@ cost}</string>
 			<key>Link</key>
 			<dict>
 				<key>url</key>
-				<string>#Plan-Improvement</string>
+				<string>#Plan-Improvements</string>
 			</dict>
 			<key>Style</key>
 			<dict>

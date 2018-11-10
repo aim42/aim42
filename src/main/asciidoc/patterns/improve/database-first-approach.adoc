@@ -57,7 +57,7 @@ legacy system can be shut down.
 
 ===== Related Patterns
 
-* <<Chicken-Little Strategy>>
+* <<Chicken-Little-Strategy>>
 
 ===== References
 

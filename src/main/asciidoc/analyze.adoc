@@ -37,7 +37,7 @@ One serious risk in this phase is a premature restriction to certain artifacts o
 <img border=0 src="images/analyze-patterns-overview.png" usemap="#AnalysisOverview" alt="analyze-patterns overview">
 <map name="AnalysisOverview">
 	<area shape=rect coords="262,281,366,340" href="#Development-Process-Analysis">
-	<area shape=rect coords="457,118,576,178" href="#Collect-Improvement-Opportunities">
+	<area shape=rect coords="457,118,576,178" href="#Collect-Opportunities-For-Improvement">
 	<area shape=rect coords="194,401,291,450" href="#Collect-Issues">
 	<area shape=rect coords="3,301,126,350" href="#Quantitative-Analysis">
 	<area shape=rect coords="263,141,382,190" href="#Stakeholder-Interview">
@@ -82,7 +82,7 @@ WARNING: Never start solving problems until you have a thorough understanding of
 	<area shape=rect coords="93,690,175,729" href="#Instrument-System">
 	<area shape=rect coords="196,590,299,629" href="#Infrastructure-Analysis">
 	<area shape=rect coords="294,319,398,379" href="#Development-Process-Analysis">
-	<area shape=rect coords="610,97,729,156" href="#Collect-Improvement-Opportunities">
+	<area shape=rect coords="610,97,729,156" href="#Collect-Opportunities-For-Improvement">
 	<area shape=rect coords="305,508,402,557" href="#Collect-Issues">
 	<area shape=rect coords="28,803,125,852" href="#Static-Code-Analysis">
 	<area shape=rect coords="358,690,449,739" href="#Software-Archeology">
@@ -127,6 +127,9 @@ include::patterns/analyze/development-process-analysis.adoc[]
 include::patterns/analyze/documentation-analysis.adoc[]
 
 include::patterns/analyze/infrastructure-analysis.adoc[]
+
+
+include::patterns/analyze/hierarchical-quality-model.adoc[]
 
 include::patterns/analyze/instrument-system.adoc[]
 

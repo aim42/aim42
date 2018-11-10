@@ -19,7 +19,8 @@ Category: <<Crosscutting>>
 +
 
 . [[Architecture-Backlog]]
-[pattern]#Architecture-Backlog#:: Keep a prioritized list of improvement tasks (_remedies_) with their as a backlog, parallel to the (regular) feature backlog.
+[pattern]#Architecture-Backlog#::
+Keep a prioritized list of improvement tasks (_remedies_) with their as a backlog, parallel to the (regular) feature backlog.
 Category: <<Improve>>
 +
 
@@ -78,7 +79,7 @@ Category: <<Improve>>
 +
 
 
-. *<<collect-opportunities-for-improvement>>*
+. *<<Collect-Opportunities-For-Improvement>>*
 +
 Keep a list of possible and potential measures, remedies, tactics, strategies for improvements. Regularly match those to your <<Collect-Issues, collection of issues>>.
 Category: <<Crosscutting>>
@@ -86,7 +87,7 @@ Category: <<Crosscutting>>
 
 . *<<Collect-Issues>>*
 +
-Keep a list of problems, issues and risks. Regularly match those to your <<collect-opportunities-for-improvement, collection of possible remedies>>.
+Keep a list of problems, issues and risks. Regularly match those to your <<Collect-Opportunities-For-Improvement, collection of possible remedies>>.
 Category: <<Crosscutting>>
 
 
@@ -112,9 +113,9 @@ Category: <<Analyze>>
 +
 
 
-. *<<Deprecate-Obsolete-Parts>>*
+. [[Deprecate-Obsolete-Parts]]
 +
-
+[pattern]#Deprecate Obsolete Parts#:: Actively mark parts in software that aren't needed anymore and communicate to your consumers or customers, that you will remove specific functionality in the future.
 Category: <<Improve>>
 +
 
@@ -132,7 +133,8 @@ Category: <<Analyze>>
 
 
 . [[Document-Problems]]
-[pattern]#Document Problems#:: See <<improvement-backlog, Improvement Backlog>>.
++
+[pattern]#Document Problems#:: See <<Improvement-Backlog, Improvement Backlog>>.
 Category: <<Crosscutting>>
 +
 
@@ -162,6 +164,7 @@ Category: <<Evaluate>>
 +
 
 . *<<Expect-Denial>>*
++
 Some people will oppose your findings, will whitewash or sugarcoat issues, problems or <<Root-Cause-Analysis, root causes>>. Regardless on how careful you prepared your analysis, they will try to diminish or attack your findings. Category: <<Crosscutting>>
 +
 
@@ -210,7 +213,9 @@ Decompose the overall goal of "high quality" into more detailed and precise requ
 Category: <<Analyze>>
 +
 
-. *<<Impact-Analysis>>*:: Determine what impact (in code, concepts and
+. *<<Impact-Analysis>>*
++
+Determine what impact (in code, concepts and
   the organization) a specific action (e.g. refactoring) will or might have.
 Category: <<Crosscutting>>
 +
@@ -295,9 +300,9 @@ Simplify the interaction of a client with a set of service components.
 Category: <<Improve>>
 +
 
-
-. [[Measure]]
-[pattern]#Measure#:: Gather various metrics and visualize them on dashboards in order to make your system behavior more predictable and assumed coincidences explainable. Examples of such metrics are thread pool saturation, number of failed logins, requests per second but also number of successful orders today, amount-of-time-spent-debugging-this-component, code-metrics, amount-of-effort-needed-for-feature...
+. *<<Measure>>*
++
+Gather various metrics and visualize them on dashboards in order to make your system behavior more predictable and assumed coincidences explainable. Examples of such metrics are thread pool saturation, number of failed logins, requests per second but also number of successful orders today, amount-of-time-spent-debugging-this-component, code-metrics, amount-of-effort-needed-for-feature...
 Category: <<Improve>>
 +
 
@@ -354,7 +359,7 @@ Category: <<Analyze>>
 
 . *<<Qualitative-Analysis>>*
 +
-Analyze which quality goals of the <<System>> are at risk and which are met by the current implementation. Needs concrete <<Quality-Requirements>>. See <<Atam>>
+Analyze which quality goals of the <<System>> are at risk and which are met by the current implementation. Needs concrete <<Quality-Requirements>>. See <<ATAM>>.
 Category: <<Analyze>>
 +
 
@@ -411,7 +416,13 @@ Category: <<Analyze>>
 
 . *<<Runtime-Analysis>>*
 +
-Analyze the runtime behavior of the <<System>>, e.g. with respect to time and resource consumption or creation. See <<Profiling>>, <<Performance-Analysis>> and <<Runtime-Artifact-Analysis>>.
+Analyze the runtime behavior of the <<System>>, e.g. with respect to time and resource consumption or creation.
+Category: <<Analyze>>
++
+
+. [[Runtime-Artifact-Analysis]]
+[pattern]#Runtime Artifact Analysis#::
+Artifacts that were created by a running system are a gold mine. They allow you to get a deeper understanding of the inner workings of a software system. Use log management, aggregators and monitoring tools to gather log files. Then analyze usage patterns, stack traces or errors to see what the system is really doing.
 Category: <<Analyze>>
 +
 

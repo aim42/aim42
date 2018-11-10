@@ -3,7 +3,7 @@
 [[Crosscutting]]
 == Cross-Cutting Practices and Patterns
 
-image::01-intro-and-overview/crosscutting-phase.png["", title="Crosscutting-Phase"]
+image::01-intro-and-overview/crosscutting-phase.png["", title="Crosscutting-Phase", alt="Visualization of the crosscutting phase"]
 
 === Goals
 
@@ -23,7 +23,7 @@ to be done.
 </map>
 
 <img border=0 src="images/crosscutting-patterns-overview.png"
-usemap="#CrosscuttingPracticesOverview">
+usemap="#CrosscuttingPracticesOverview", alt="Overview of the crosscutting patterns">
 ++++
 
 === How it works
@@ -68,7 +68,7 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 ++++
 <map name="CrosscuttingPractices">
    	<area shape=poly coords="52,443,133,443,139,446,139,444,142,447,142,446,145,449,145,488,139,491,59,491,52,489,49,488,46,485,46,446,52,443" href="#Goals-Constraints">
-	<area shape=rect coords="302,477,412,526" href="#Plan-Improvement">
+	<area shape=rect coords="302,477,412,526" href="#Plan-Improvements">
 	<area shape=rect coords="11,204,91,238" href="#Widen-Your-Options">
 	<area shape=rect coords="286,82,385,116" href="#Architectural-Understanding">
 	<area shape=poly coords="215,375,295,375,301,378,301,377,305,380,305,378,308,381,308,420,301,423,221,423,215,422,212,420,209,417,209,378,215,375" href="#Issue-List">
@@ -86,7 +86,7 @@ image::issues-and-improvements.png[title="Collect issues and improvements", id="
 
 </map>
 
-<img border=0 src="images/crosscutting-patterns-complete.png" usemap="#CrosscuttingPractices">
+<img border=0 src="images/crosscutting-patterns-complete.png" usemap="#CrosscuttingPractices", alt="Overview of the crosscutting practices">
 ++++
 
 
@@ -100,7 +100,7 @@ You should look for improvement opportunities, remedies, measures,
 tactics and strategies in all of the aim42-phases.
 
 
-// TODO: rename the figure to collect-opportunities-for-improvement
+// TODO: rename the figure to Collect-Opportunities-For-Improvement
 [[figure-collect-remedies]]
 image::collect-remedies.png["collect remedies", title="Collect Remedies in All Phases"]
 
@@ -108,7 +108,7 @@ image::collect-remedies.png["collect remedies", title="Collect Remedies in All P
 [[Collect-Issues]]
 === [pattern]#Collect Issues#
 You should constantly watch out for issues (problems and risks), especially
-during <<Analyze, analysis>> activities like <<Stakeholder-Interviews>> and others.
+during <<Analyze, analysis>> activities like <<Stakeholder-Interview>> and others.
 
 The artifact (physical collection) is the <<Issue-List>>.
 

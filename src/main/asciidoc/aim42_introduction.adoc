@@ -91,8 +91,8 @@ image::aim42-phases.png["aim42 phases", title="Three Phases of aim42"]
 
 . <<Improve>>: systematically improve code and structures, reduce technical debt, remove waste and optimize.
 
-These three phases are performed iteratively - as explained <<Iterative-Approach ,below>>.
-Several <<Crosscutting, cross-cutting practices and patterns>> should be applied in all phases, for example documenting results, <<collect-opportunities-for-improvement>>
+These three phases are performed iteratively - as explained <<Iterative-Approach,below>>.
+Several <<Crosscutting, cross-cutting practices and patterns>> should be applied in all phases, for example documenting results, <<Collect-Opportunities-For-Improvement>>
 or long- and short-term planning activities.
 
 
