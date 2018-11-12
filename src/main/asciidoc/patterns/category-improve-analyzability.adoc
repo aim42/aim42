@@ -12,6 +12,6 @@ see <<improve-practices-overview>>.
 
 (given in alphabetical order)
 
-* <<Doc-As-Code>>
+* <<Docs-As-Code>>
 
-include::improve/doc-as-code.adoc[]
+include::improve/docs-as-code.adoc[]
