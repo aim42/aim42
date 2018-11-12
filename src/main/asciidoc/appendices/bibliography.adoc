@@ -131,3 +131,5 @@ a variety of programming languages, plugins for different metrics and checks. So
 Use forensic techniques to arrest defects, bottlenecks and bad design in your programs.
 Pragmatic Programmers, 2015. Despite the seemingly funny title, this is one of the most practical books on analyzing source code from arbitrary languages.
 The http://www.adamtornhill.com/articles/crimescene/codeascrimescene.htm[author] has implemented several of the ideas as open-source tools.
+
+* [[[Tornhill-XRay]]] Adam Tornhill: https://pragprog.com/book/atevol/software-design-x-rays[Software Design X-Rays: Fix Technical Debt with Behavioral Code Analysis]. Pragmatic Programmers, 2018. This book focuses on the social behavior of software developers. It shows how you can spot knowledge loss, hidden change dependencies and hot spots of bad code.
