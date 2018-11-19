@@ -188,6 +188,7 @@ might have. Identify the resultant effects on system development and operations.
 
 * Failure-Mode-and-Effect-Analysis (http://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis[FMEA]), a method for failure analysis, widely used in various industries
 
+include::patterns/crosscutting/goals-constraints.adoc[]
 
 include::patterns/crosscutting/improvement-backlog.adoc[]
 
@@ -195,9 +196,7 @@ include::patterns/crosscutting/issue-list.adoc[]
 
 include::patterns/crosscutting/plan-improvement.adoc[]
 
-
 include::patterns/crosscutting/report-structure.adoc[]
-
 
 include::patterns/crosscutting/separate-cause-from-effect.adoc[]
 
