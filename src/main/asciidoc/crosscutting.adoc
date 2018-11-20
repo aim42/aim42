@@ -188,6 +188,7 @@ might have. Identify the resultant effects on system development and operations.
 
 * Failure-Mode-and-Effect-Analysis (http://en.wikipedia.org/wiki/Failure_mode_and_effects_analysis[FMEA]), a method for failure analysis, widely used in various industries
 
+include::patterns/crosscutting/goals-constraints.adoc[]
 
 include::patterns/crosscutting/improvement-backlog.adoc[]
 
@@ -195,9 +196,7 @@ include::patterns/crosscutting/issue-list.adoc[]
 
 include::patterns/crosscutting/plan-improvement.adoc[]
 
-
 include::patterns/crosscutting/report-structure.adoc[]
-
 
 include::patterns/crosscutting/separate-cause-from-effect.adoc[]
 
@@ -205,12 +204,4 @@ include::patterns/crosscutting/slide-or-write.adoc[]
 
 include::patterns/crosscutting/traceability.adoc[]
 
-
-[[Widen-Your-Options]]
-=== [pattern]#Widen Your Options#
-Before taking decisions it's often a good idea to widen your decision space,
-look for additional options. Sometimes it's not only "yes-or-no" decisions,
-but a spectrum of additional options are available - at least if you allow
-your brain to deviate from conventional path or your own preliminary conclusions.
-
-// TODO: quote Dan + Chip Heath here!
+include::patterns/crosscutting/widen-your-options.adoc[]

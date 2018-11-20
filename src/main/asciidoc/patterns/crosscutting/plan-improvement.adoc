@@ -2,7 +2,7 @@
 [[Plan-Improvements]]
 === [pattern]#Plan Improvements#
 Conduct long- and short-term planning of improvement activities. Balance
-or align issues and improvements, considering existing goals and constraints.
+or align issues and improvements, considering existing <<Goals-Constraints,goals and constraints>>.
 
 Consists of long-term decisions (concerning <<improve-approaches-overview>>) and
 short-term planning.

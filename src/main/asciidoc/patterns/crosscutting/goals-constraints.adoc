@@ -1,0 +1,31 @@
+[[Goals-Constraints]]
+=== [pattern]#Goals and Constraints#
+
+==== Intent
+Make the overall goals and constraints of the improvement efforts understandable to every stakeholder.
+
+==== Description
+
+It's of the uttermost importance to clarify the expectations and assumption of all stakeholders of a software system.
+There may be conflicting interests or hidden doubts among the project's participants that could let any improvement activity fail severely.
+Clear goals and understandable constraints are a great way to set the direction and the rules of the game.
+
+Goals of improvements activities can be manifold.
+E. g. a goal could be to make sure that the software system gets more understandable.
+Another goal could be to be able to add new features or capabilities more easily in the future.
+
+Goals are restricted by _constraints_. Because we live in a world with finite resources, we have to work with what we have in our (project) environment.
+E. g. constraints could be certain finish dates, organizational or technical limitations.
+
+==== Representation
+
+
+* _<<Capture-Quality-Requirements,Quality scenarios>>_ are a good way to align business' goals with the actual technical requirements and constraints.
+* _Architecture decisions_ contain information about goals and constraints that led to a certain decision.
+* _Architecture Decision Records_ contain the problem statements (=goals) and the drivers (=constraints) that lead to a certain decision.
+* _Impact Mapping_ is another nice methodology to trace goals (=Why?) over constraints (=How?) to the actual implementation (=What?).
+
+==== References
+* Architecture decision in arc42: https://docs.arc42.org/section-9/
+* An introduction to Architectural Decision Records: https://adr.github.io/
+* Impact Mapping: https://www.impactmapping.org/

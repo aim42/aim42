@@ -40,7 +40,7 @@ and reason about the code structure
 * high-level overview
 
 ===== Related Patterns
-* <<Doc-As-Code>>
+* <<Docs-As-Code>>
 * <<Context-Analysis>>
 
 ===== References
