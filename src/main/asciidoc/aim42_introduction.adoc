@@ -148,7 +148,7 @@ Issues and improvements need to be
 === Patterns and Practices Provide No Guarantee
 We are *very* sure that aim42 can work for your system or your organization.
 But (yes, there's always a but) we cannot guarantee: Maybe your software is so
-*extraordinaire*, so very special, that it needs other treatments.
+*extraordinary*, so very special, that it needs other treatments.
 
 Maybe your organization does not fit our prerequisites or is way more advanced
 than we anticipated in our approach...
