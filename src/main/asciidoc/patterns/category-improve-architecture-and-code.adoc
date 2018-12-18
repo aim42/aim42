@@ -19,6 +19,7 @@ see <<improve-practices-overview>>.
 * <<Assertions>>
 * <<Automated-Tests>>
 * <<Branch-For-Improvement>>
+* <<Change-by-Abstraction Refactoring>>
 * <<Extract-Reusable-Component>>
 * <<Front-End-Switch>>
 * <<Group-Improvement-Actions>>
@@ -46,6 +47,7 @@ see <<improve-practices-overview>>.
 
 
 include::improve/anticorruption-layer.adoc[]
+include::improve/change-by-abstraction.adoc[]
 include::improve/Improve-Logging.adoc[]
 include::improve/interface-segregation-principle.adoc[]
 include::improve/introduce-boy-scout-rule.adoc[]
