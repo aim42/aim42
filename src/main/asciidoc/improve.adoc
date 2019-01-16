@@ -104,9 +104,8 @@ Improve Modularization::
 Subcategory of _restructure_: improve responsibilities within the system, improving the boundaries
 between components, improving interfaces and similar operations.
 
-Downsize::
-Small is beautiful: Strategies to reduce the amount of _stuff_, e.g. by splitting your system up, extracting certain parts,
-or other ways to reduce LOC or other complexity metrics. Terms like _microservices_ fall into this category.
+Brainsize::
+Evidence from neuroscience suggests our working memory has a capacity of about four items footnote:[Cowan: The magical number 4 in short-term memory: a reconsideration of mental storage capacity.]. That's why smaller solutions tend to be more maintainable, as the cognitive load on the developers working memory is reduced. These "brainsizing" strategies can be used to reduce the amount of _stuff_, e.g. by splitting your system up, extracting certain parts into abstractions, or other ways to reduce LOC or other complexity metrics. Terms like _microservices_ fall into this category.
 
 
 You find further information on the  <<improve-approaches-details, detailed approaches here>>.
