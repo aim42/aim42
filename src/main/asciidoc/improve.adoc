@@ -101,11 +101,14 @@ certain functionalities, splitting your system, improving the modularization or 
 certain (bad) parts of the system (and, of course, replacing those by better solutions).
 
 Improve Modularization::
-Subcategory of _restructure_: improve responsibilities within the system, improving the boundaries
-between components, improving interfaces and similar operations.
+Subcategory of _restructure_: improve responsibilities within the system, improving the boundaries between components, improving interfaces and similar operations.
 
 Brainsize::
 Evidence from neuroscience suggests our working memory has a capacity of about four items footnote:[Cowan: The magical number 4 in short-term memory: a reconsideration of mental storage capacity.]. That's why smaller solutions tend to be more maintainable, as the cognitive load on the developers working memory is reduced. These "brainsizing" strategies can be used to reduce the amount of _stuff_, e.g. by splitting your system up, extracting certain parts into abstractions, or other ways to reduce LOC or other complexity metrics. Terms like _microservices_ fall into this category.
+
+Improve-Domain-Focus::
+Subcategory of _restructure_:Clear separation of domain-related code from purely technical aspects has long been a useful design heuristic - but is still often violated.
+In addition, aspects belonging to similar areas of the domain should be implemented within the same building-blocks (in Domain-Drive Design terminology called _Bounded Context_). 
 
 
 You find further information on the  <<improve-approaches-details, detailed approaches here>>.
