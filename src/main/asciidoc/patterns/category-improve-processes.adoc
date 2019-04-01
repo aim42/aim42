@@ -8,3 +8,5 @@ image::improve-practice-processes.png["Practices for Improve Processes", title="
 
 For an overview of other improvement practices,
 see <<improve-practices-overview>>.
+
+One way to improve the processes is to resort to https://mobprogramming.org[Mob Programming] for onsite teams or https://www.remotemobprogramming.org[Remote Mob Programming] for distributed teams.
