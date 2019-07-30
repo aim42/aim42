@@ -40,7 +40,7 @@ Apply this pattern when clients shall be protected from internal changes in a mo
 ===== Related Patterns
 
 * <<Isolate-Changes>>, as an alternative or complimenting approach
-* <<Bulkhead>>, an anticorruption layer between systems
+* <<Bulkhead>>, introduces stability boundaries within applications or systems by segmenting runtime resources.
 
 ===== References
 
