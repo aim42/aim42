@@ -5,7 +5,7 @@
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGraffle7</string>
-		<string>191.28.0.317117</string>
+		<string>196.7.0.336351</string>
 	</array>
 	<key>CreationDate</key>
 	<string>2014-08-13 17:27:17 +0000</string>
@@ -28,7 +28,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2018-10-15 20:04:28 +0000</string>
+	<string>2019-07-30 19:57:59 +0000</string>
 	<key>Modifier</key>
 	<string>Dr. Gernot Starke</string>
 	<key>MovementHandleVisible</key>
@@ -64,7 +64,7 @@
 		<key>NSPaperSize</key>
 		<array>
 			<string>size</string>
-			<string>{841.8897705078125, 595.27556133270264}</string>
+			<string>{841.8897705078125, 595.27557277679443}</string>
 		</array>
 		<key>NSPrintReverseOrientation</key>
 		<array>
@@ -132,6 +132,11 @@
 						<string>NO</string>
 					</dict>
 				</dict>
+				<key>Text</key>
+				<dict>
+					<key>TextAlongPathGlyphAnchor</key>
+					<string>center</string>
+				</dict>
 			</dict>
 			<key>BaseZoom</key>
 			<integer>0</integer>
@@ -191,25 +196,7 @@
 								<key>element</key>
 								<string>LINETO</string>
 								<key>point</key>
-								<string>{263.6611431148483, 150.21411296095431}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
 								<string>{263.6611431148483, 188.41881288063593}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{287.4375, 188.41881288063593}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{280.4375, 188.41881288063593}</string>
 							</dict>
 							<dict>
 								<key>element</key>
@@ -298,25 +285,7 @@
 								<key>element</key>
 								<string>LINETO</string>
 								<key>point</key>
-								<string>{263.6611431148483, 150.21411296095431}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
 								<string>{263.6611431148483, 188.41881288063593}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{240.48452296159769, 188.41881288063593}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{247.48452296159769, 188.41881288063593}</string>
 							</dict>
 							<dict>
 								<key>element</key>
@@ -611,7 +580,7 @@
 						mwCGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red127\green127\blue127;\red102\green102\blue102;}
@@ -624,6 +593,8 @@
 
 \f2\b0\fs16 \cf3 Improve\
 Modularization}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -732,7 +703,7 @@ Modularization}</string>
 						CJsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
@@ -744,6 +715,8 @@ Modularization}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs16 \cf2 Downsize}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -851,7 +824,7 @@ Modularization}</string>
 						AGMAYQClCpsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
@@ -863,6 +836,8 @@ Modularization}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs20 \cf2 Data Migration}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -968,7 +943,7 @@ Modularization}</string>
 						YQClCpsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
@@ -980,6 +955,8 @@ Modularization}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs20 \cf2 Restructure}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -1168,7 +1145,7 @@ Modularization}</string>
 						mwCbAZsAmwCGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
@@ -1180,6 +1157,8 @@ Modularization}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs20 \cf2 Rewrite}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -1265,7 +1244,7 @@ Modularization}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -1275,6 +1254,8 @@ Modularization}</string>
 \f1\b \
 Long-Term Improvement\
  Approach}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 					</dict>
 					<key>TextPlacement</key>
 					<integer>0</integer>
@@ -1313,23 +1294,6 @@ Long-Term Improvement\
 					<true/>
 				</dict>
 			</array>
-			<key>LayoutInfo</key>
-			<dict>
-				<key>Animate</key>
-				<string>NO</string>
-				<key>circoMinDist</key>
-				<real>18</real>
-				<key>circoSeparation</key>
-				<real>0.0</real>
-				<key>layoutEngine</key>
-				<string>dot</string>
-				<key>neatoLineLength</key>
-				<real>0.20000000298023224</real>
-				<key>neatoSeparation</key>
-				<real>0.0</real>
-				<key>twopiSeparation</key>
-				<real>0.0</real>
-			</dict>
 			<key>Orientation</key>
 			<integer>2</integer>
 			<key>PrintOnePage</key>
@@ -1392,6 +1356,11 @@ Long-Term Improvement\
 						<key>Draws</key>
 						<string>NO</string>
 					</dict>
+				</dict>
+				<key>Text</key>
+				<dict>
+					<key>TextAlongPathGlyphAnchor</key>
+					<string>center</string>
 				</dict>
 			</dict>
 			<key>BaseZoom</key>
@@ -1531,14 +1500,14 @@ Long-Term Improvement\
 								<key>element</key>
 								<string>LINETO</string>
 								<key>point</key>
-								<string>{454.13244081942122, 279.54529493406312}</string>
+								<string>{454.13244081942116, 279.54529493406312}</string>
 							</dict>
 						</array>
 					</dict>
 					<key>Points</key>
 					<array>
 						<string>{485.99999999999994, 278.83100921977757}</string>
-						<string>{454.13244081942122, 279.54529493406312}</string>
+						<string>{454.13244081942116, 279.54529493406312}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1609,7 +1578,7 @@ Long-Term Improvement\
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -1617,6 +1586,8 @@ Long-Term Improvement\
 
 \f0\fs16 \cf0 Split Along\
 \{CRITERION\}}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -1665,6 +1636,8 @@ Long-Term Improvement\
 					<dict>
 						<key>Pad</key>
 						<real>3</real>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -1672,164 +1645,8 @@ Long-Term Improvement\
 					<string>{{0, 0}, {1, 1}}</string>
 				</dict>
 				<dict>
-					<key>Class</key>
-					<string>LineGraphic</string>
-					<key>FontInfo</key>
-					<dict>
-						<key>Color</key>
-						<dict>
-							<key>space</key>
-							<string>gg22</string>
-							<key>w</key>
-							<string>0</string>
-						</dict>
-						<key>Font</key>
-						<string>Helvetica</string>
-						<key>Size</key>
-						<real>12</real>
-					</dict>
-					<key>Head</key>
-					<dict>
-						<key>ID</key>
-						<integer>6</integer>
-					</dict>
-					<key>ID</key>
-					<integer>3</integer>
-					<key>Layer</key>
-					<integer>0</integer>
-					<key>LogicalPath</key>
-					<dict>
-						<key>elements</key>
-						<array>
-							<dict>
-								<key>element</key>
-								<string>MOVETO</string>
-								<key>point</key>
-								<string>{93.375, 322.10714650121679}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{65.25, 321.75}</string>
-							</dict>
-						</array>
-					</dict>
-					<key>Points</key>
-					<array>
-						<string>{93.375, 322.10714650121679}</string>
-						<string>{65.25, 321.75}</string>
-					</array>
-					<key>Style</key>
-					<dict>
-						<key>fill</key>
-						<dict>
-							<key>Draws</key>
-							<string>NO</string>
-						</dict>
-						<key>shadow</key>
-						<dict>
-							<key>Draws</key>
-							<string>NO</string>
-						</dict>
-						<key>stroke</key>
-						<dict>
-							<key>Cap</key>
-							<integer>2</integer>
-							<key>Legacy</key>
-							<false/>
-							<key>LineType</key>
-							<integer>1</integer>
-						</dict>
-					</dict>
-					<key>Tail</key>
-					<dict>
-						<key>ID</key>
-						<integer>41</integer>
-					</dict>
-				</dict>
-				<dict>
-					<key>Class</key>
-					<string>LineGraphic</string>
-					<key>FontInfo</key>
-					<dict>
-						<key>Color</key>
-						<dict>
-							<key>space</key>
-							<string>gg22</string>
-							<key>w</key>
-							<string>0</string>
-						</dict>
-						<key>Font</key>
-						<string>Helvetica</string>
-						<key>Size</key>
-						<real>12</real>
-					</dict>
-					<key>Head</key>
-					<dict>
-						<key>ID</key>
-						<integer>5</integer>
-						<key>Info</key>
-						<integer>2</integer>
-					</dict>
-					<key>ID</key>
-					<integer>4</integer>
-					<key>Layer</key>
-					<integer>0</integer>
-					<key>LogicalPath</key>
-					<dict>
-						<key>elements</key>
-						<array>
-							<dict>
-								<key>element</key>
-								<string>MOVETO</string>
-								<key>point</key>
-								<string>{39.9375, 338.625}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{39.9375, 390.37499999999994}</string>
-							</dict>
-						</array>
-					</dict>
-					<key>Points</key>
-					<array>
-						<string>{39.9375, 338.625}</string>
-						<string>{39.9375, 390.37499999999994}</string>
-					</array>
-					<key>Style</key>
-					<dict>
-						<key>fill</key>
-						<dict>
-							<key>Draws</key>
-							<string>NO</string>
-						</dict>
-						<key>shadow</key>
-						<dict>
-							<key>Draws</key>
-							<string>NO</string>
-						</dict>
-						<key>stroke</key>
-						<dict>
-							<key>Legacy</key>
-							<false/>
-							<key>Pattern</key>
-							<integer>2</integer>
-						</dict>
-					</dict>
-					<key>Tail</key>
-					<dict>
-						<key>ID</key>
-						<integer>6</integer>
-						<key>Info</key>
-						<integer>1</integer>
-					</dict>
-				</dict>
-				<dict>
 					<key>Bounds</key>
-					<string>{{9.1837795902894186, 390.37499999999994}, {61.507440819421163, 28.624549222817727}}</string>
+					<string>{{232.90742270513772, 326.25}, {61.507440819421163, 28.624549222817727}}</string>
 					<key>Class</key>
 					<string>ShapedGraphic</string>
 					<key>FontInfo</key>
@@ -1926,7 +1743,7 @@ Long-Term Improvement\
 						mwCGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red127\green127\blue127;\red102\green102\blue102;}
@@ -1939,65 +1756,13 @@ Long-Term Improvement\
 
 \f2\b0\fs16 \cf3 Improve\
 Modularization}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>center</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
 					<key>TextRelativeArea</key>
 					<string>{{0, 0}, {1, 1}}</string>
-				</dict>
-				<dict>
-					<key>Bounds</key>
-					<string>{{14.625, 304.875}, {50.625, 33.75}}</string>
-					<key>Class</key>
-					<string>ShapedGraphic</string>
-					<key>FontInfo</key>
-					<dict>
-						<key>Color</key>
-						<dict>
-							<key>space</key>
-							<string>gg22</string>
-							<key>w</key>
-							<string>0</string>
-						</dict>
-						<key>Font</key>
-						<string>Helvetica</string>
-						<key>Size</key>
-						<real>7</real>
-					</dict>
-					<key>ID</key>
-					<integer>6</integer>
-					<key>Layer</key>
-					<integer>0</integer>
-					<key>Magnets</key>
-					<array>
-						<string>{0, 1}</string>
-						<string>{0, -1}</string>
-						<string>{1, 0}</string>
-						<string>{-1, 0}</string>
-					</array>
-					<key>Style</key>
-					<dict>
-						<key>shadow</key>
-						<dict>
-							<key>Draws</key>
-							<string>NO</string>
-						</dict>
-					</dict>
-					<key>Text</key>
-					<dict>
-						<key>Pad</key>
-						<real>3</real>
-						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
-
-\f0\fs16 \cf0 Change by Abstraction}</string>
-						<key>VerticalPad</key>
-						<real>4</real>
-					</dict>
 				</dict>
 				<dict>
 					<key>Class</key>
@@ -2178,7 +1943,7 @@ Modularization}</string>
 						AJsAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
@@ -2190,6 +1955,8 @@ Modularization}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs20 \cf2 Value Based Improvement}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -2303,20 +2070,20 @@ Modularization}</string>
 								<key>element</key>
 								<string>MOVETO</string>
 								<key>point</key>
-								<string>{154.39998264894331, 404.68727461140884}</string>
+								<string>{263.6611431148483, 296.42029493406312}</string>
 							</dict>
 							<dict>
 								<key>element</key>
 								<string>LINETO</string>
 								<key>point</key>
-								<string>{70.691220409710596, 404.68727461140878}</string>
+								<string>{263.6611431148483, 326.25}</string>
 							</dict>
 						</array>
 					</dict>
 					<key>Points</key>
 					<array>
-						<string>{154.39998264894331, 404.68727461140884}</string>
-						<string>{70.691220409710596, 404.68727461140878}</string>
+						<string>{263.6611431148483, 296.42029493406312}</string>
+						<string>{263.6611431148483, 326.25}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -2341,7 +2108,9 @@ Modularization}</string>
 					<key>Tail</key>
 					<dict>
 						<key>ID</key>
-						<integer>27</integer>
+						<integer>36</integer>
+						<key>Info</key>
+						<integer>1</integer>
 					</dict>
 				</dict>
 				<dict>
@@ -2539,7 +2308,7 @@ Modularization}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -2547,6 +2316,8 @@ Modularization}</string>
 
 \f0\fs16 \cf0 Refactor\
 Database}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -2669,13 +2440,15 @@ Database}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
-\f0\fs16 \cf0 Decconfigure}</string>
+\f0\fs16 \cf0 Deconfigure}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>center</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -2877,7 +2650,7 @@ Database}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -2885,6 +2658,8 @@ Database}</string>
 
 \f0\fs16 \cf0 Change By\
 Extraction}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -3157,7 +2932,7 @@ Extraction}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -3165,6 +2940,8 @@ Extraction}</string>
 
 \f0\fs16 \cf0 Big Bang\
 (Cold Turkey)}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -3269,7 +3046,7 @@ Extraction}</string>
 						CJsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red127\green127\blue127;\red102\green102\blue102;}
@@ -3281,6 +3058,8 @@ Extraction}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs16 \cf3 Downsize}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -3508,7 +3287,7 @@ Extraction}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -3516,6 +3295,8 @@ Extraction}</string>
 
 \f0\fs16 \cf0 Isolate Core\
 Domains}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -3623,7 +3404,7 @@ Domains}</string>
 						AGMAYQClCpsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
@@ -3635,6 +3416,8 @@ Domains}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs20 \cf2 Data Migration}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -3682,7 +3465,7 @@ Domains}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -3690,6 +3473,8 @@ Domains}</string>
 
 \f0\fs16 \cf0 Improve\
 Cohesion}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -3814,13 +3599,15 @@ Cohesion}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs16 \cf0 Butterfly}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -3945,13 +3732,15 @@ Cohesion}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs16 \cf0 Chicken Little}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -4001,7 +3790,7 @@ Cohesion}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -4009,6 +3798,8 @@ Cohesion}</string>
 
 \f0\fs16 \cf0 Bridge-to-\
 New-Town}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -4182,7 +3973,7 @@ New-Town}</string>
 						YQClCpsAmwGbAJsAhoaG
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
@@ -4194,6 +3985,8 @@ New-Town}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs20 \cf2 Restructure}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -4273,7 +4066,7 @@ New-Town}</string>
 						hoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
 {\*\expandedcolortbl;;\csgenericrgb\c40000\c40000\c40000;}
@@ -4283,6 +4076,8 @@ New-Town}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f1\fs16 \cf0 Change By Split}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -4417,7 +4212,7 @@ New-Town}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -4425,6 +4220,8 @@ New-Town}</string>
 
 \f0\fs16 \cf0 Keep Data,\
 Toss Code}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -4532,7 +4329,7 @@ Toss Code}</string>
 						mwCbAZsAmwCGhoY=
 						</data>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fswiss\fcharset0 Helvetica;
 }
 {\colortbl;\red255\green255\blue255;\red102\green102\blue102;}
@@ -4544,6 +4341,8 @@ Toss Code}</string>
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f2\b0\fs20 \cf2 Rewrite}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -4591,17 +4390,16 @@ Toss Code}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
-\f0\fs16 \cf0 Strangulate \
-Bad Parts\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
-
-\fs14 \cf0 (aka \'84Switch\'93)}</string>
+\f0\fs16 \cf0 Change By Switch \
+(Strangulate)}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>center</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -4687,7 +4485,7 @@ Bad Parts\
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -4697,6 +4495,8 @@ Bad Parts\
 \f1\b \
 Long-Term Improvement\
  Approach}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 					</dict>
 					<key>TextPlacement</key>
 					<integer>0</integer>
@@ -4743,6 +4543,8 @@ Long-Term Improvement\
 					<dict>
 						<key>Pad</key>
 						<real>3</real>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -4860,23 +4662,6 @@ Long-Term Improvement\
 					<true/>
 				</dict>
 			</array>
-			<key>LayoutInfo</key>
-			<dict>
-				<key>Animate</key>
-				<string>NO</string>
-				<key>circoMinDist</key>
-				<real>18</real>
-				<key>circoSeparation</key>
-				<real>0.0</real>
-				<key>layoutEngine</key>
-				<string>dot</string>
-				<key>neatoLineLength</key>
-				<real>0.20000000298023224</real>
-				<key>neatoSeparation</key>
-				<real>0.0</real>
-				<key>twopiSeparation</key>
-				<real>0.0</real>
-			</dict>
 			<key>Orientation</key>
 			<integer>2</integer>
 			<key>PrintOnePage</key>
@@ -4939,6 +4724,11 @@ Long-Term Improvement\
 						<key>Draws</key>
 						<string>NO</string>
 					</dict>
+				</dict>
+				<key>Text</key>
+				<dict>
+					<key>TextAlongPathGlyphAnchor</key>
+					<string>center</string>
 				</dict>
 			</dict>
 			<key>BaseZoom</key>
@@ -5078,7 +4868,7 @@ Long-Term Improvement\
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -5086,6 +4876,8 @@ Long-Term Improvement\
 
 \f0\fs16 \cf0 Refactor\
 Database}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -5211,13 +5003,15 @@ Database}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs16 \cf0 Decconfigure}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -5420,7 +5214,7 @@ Database}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -5428,6 +5222,8 @@ Database}</string>
 
 \f0\fs16 \cf0 Change By\
 Extraction}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -5771,7 +5567,7 @@ Extraction}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -5779,6 +5575,8 @@ Extraction}</string>
 
 \f0\fs16 \cf0 Big Bang\
 (Cold Turkey)}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -5831,13 +5629,15 @@ Extraction}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs16 \cf0 Downsize}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -5958,13 +5758,15 @@ Extraction}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs16 \cf0 Switch}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -6086,25 +5888,7 @@ Extraction}</string>
 								<key>element</key>
 								<string>LINETO</string>
 								<key>point</key>
-								<string>{263.6611431148483, 222.62267653068406}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
 								<string>{263.6611431148483, 320.99676222126715}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{233.24255918057884, 320.99676222126715}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{240.24255918057884, 320.99676222126715}</string>
 							</dict>
 							<dict>
 								<key>element</key>
@@ -6199,7 +5983,7 @@ Extraction}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -6207,6 +5991,8 @@ Extraction}</string>
 
 \f0\fs16 \cf0 Isolate Core\
 Domains}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -6512,7 +6298,7 @@ Domains}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -6520,6 +6306,8 @@ Domains}</string>
 
 \f0\fs20 \cf0 Value-based\
 Improvement}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -6565,13 +6353,15 @@ Improvement}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs20 \cf0 Data Migration}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -6622,7 +6412,7 @@ Improvement}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -6630,6 +6420,8 @@ Improvement}</string>
 
 \f0\fs16 \cf0 Improve\
 Cohesion}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -6679,13 +6471,15 @@ Cohesion}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs20 \cf0 Change-By-Abstraction}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -6811,13 +6605,15 @@ Cohesion}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs16 \cf0 Butterfly}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -6945,13 +6741,15 @@ Cohesion}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs16 \cf0 Chicken Little}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -7004,7 +6802,7 @@ Cohesion}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -7012,6 +6810,8 @@ Cohesion}</string>
 
 \f0\fs16 \cf0 Bridge-to-\
 New-Town}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -7127,13 +6927,15 @@ New-Town}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs20 \cf0 Restructure}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -7184,7 +6986,7 @@ New-Town}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -7192,6 +6994,8 @@ New-Town}</string>
 
 \f0\fs16 \cf0 Change \
 By Split}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -7238,25 +7042,7 @@ By Split}</string>
 								<key>element</key>
 								<string>LINETO</string>
 								<key>point</key>
-								<string>{263.6611431148483, 114.21411296095431}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
 								<string>{263.6611431148483, 320.99676222126715}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{294.75, 320.99676222126715}</string>
-							</dict>
-							<dict>
-								<key>element</key>
-								<string>LINETO</string>
-								<key>point</key>
-								<string>{287.75, 320.99676222126715}</string>
 							</dict>
 							<dict>
 								<key>element</key>
@@ -7351,7 +7137,7 @@ By Split}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -7359,6 +7145,8 @@ By Split}</string>
 
 \f0\fs16 \cf0 Managed\
 Evolution}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -7409,7 +7197,7 @@ Evolution}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -7417,6 +7205,8 @@ Evolution}</string>
 
 \f0\fs16 \cf0 Keep Data,\
 Toss Code}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -7466,13 +7256,15 @@ Toss Code}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\qc\partightenfactor0
 
 \f0\fs20 \cf0 Rewrite}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -7523,7 +7315,7 @@ Toss Code}</string>
 						<key>Pad</key>
 						<real>3</real>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -7531,6 +7323,8 @@ Toss Code}</string>
 
 \f0\fs16 \cf0 Strangulate \
 Bad Parts}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 						<key>VerticalPad</key>
 						<real>4</real>
 					</dict>
@@ -7614,7 +7408,7 @@ Bad Parts}</string>
 					<key>Text</key>
 					<dict>
 						<key>Text</key>
-						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671
+						<string>{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
 {\fonttbl\f0\fswiss\fcharset0 Helvetica-Light;\f1\fswiss\fcharset0 Helvetica-Bold;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
@@ -7624,6 +7418,8 @@ Bad Parts}</string>
 \f1\b \
 Long-Term Improvement\
  Approach}</string>
+						<key>TextAlongPathGlyphAnchor</key>
+						<string>left</string>
 					</dict>
 					<key>TextPlacement</key>
 					<integer>0</integer>
@@ -7650,23 +7446,6 @@ Long-Term Improvement\
 					<true/>
 				</dict>
 			</array>
-			<key>LayoutInfo</key>
-			<dict>
-				<key>Animate</key>
-				<string>NO</string>
-				<key>circoMinDist</key>
-				<real>18</real>
-				<key>circoSeparation</key>
-				<real>0.0</real>
-				<key>layoutEngine</key>
-				<string>dot</string>
-				<key>neatoLineLength</key>
-				<real>0.20000000298023224</real>
-				<key>neatoSeparation</key>
-				<real>0.0</real>
-				<key>twopiSeparation</key>
-				<real>0.0</real>
-			</dict>
 			<key>Orientation</key>
 			<integer>2</integer>
 			<key>PrintOnePage</key>
@@ -7696,7 +7475,7 @@ Long-Term Improvement\
 		<key>CurrentSheet</key>
 		<integer>1</integer>
 		<key>Frame</key>
-		<string>{{92, 54}, {1348, 785}}</string>
+		<string>{{299, 128}, {1348, 785}}</string>
 		<key>ShowInfo</key>
 		<true/>
 		<key>ShowRuler</key>
@@ -7704,11 +7483,15 @@ Long-Term Improvement\
 		<key>Sidebar</key>
 		<true/>
 		<key>SidebarWidth</key>
-		<integer>216</integer>
+		<integer>244</integer>
 		<key>Sidebar_Tab</key>
 		<integer>0</integer>
 		<key>VisibleRegion</key>
-		<string>{{53.730158730159445, 143.65079365079379}, {581.42857142857133, 447.14285714285717}}</string>
+		<string>{{-56.785714285714327, 32.500000000000028}, {572.85714285714289, 482.14285714285722}}</string>
+		<key>WindowInfo_InspectorTab</key>
+		<array>
+			<string>com.omnigroup.OmniGraffle.inspectorGroup.object</string>
+		</array>
 		<key>ZoomValues</key>
 		<array>
 			<array>
