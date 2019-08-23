@@ -1,4 +1,133 @@
 [[Chicken-Little-Strategy]]
-*==== [pattern]#Chicken-Little Strategy#*
+==== [pattern]#Chicken-Little Approach#
 
-to be completed...
+===== Intent
+Software-Migration with incremental steps to avoid or reduce the risks coming along with the Big Bang approach.
+
+===== Description
+Chicken Little was already described back in the 1990s of the last century by Michael L. Brodie and Michael Stonebreaker and is explained in their great book 'Migrating Legacy Systems' [1].
+
+The name of this approach originates from a Walt Disney cartoon, where the protagonist Chicken Little is a very young hero who saves all with his cautious & conservative character. These are also highly essential & invaluable qualities in software migration.
+
+The name 'Cold Turkey' for a Big Bang migration was also introduced by Brodie and Stonebreaker, which is a synonym for cold detoxification and therefore clearly describes the dislike of the authors in this kind of migration.
+
+The central idea of Chicken Little is to create a composite system consisting of the legacy system and the new target system.
+Incrementally, components of the legacy system are replaced with components of the target system.
+The legacy system thereby shrinks and the target system grows.
+
+The composition is implemented through gateways.
+They transfer both reading and writing requests to the respectively other system.
+A gateway can be a forward or a reverse gateway.
+A forward gateway is integrated into the legacy system and routes requests to the target system.
+A reverse gateway is part of the target system routing to the legacy system.
+
+Brodie and Stonebreaker define Chicken Little as 11 steps.
+Each step is applied for every increment of the migration.
+An increment can be a use case or a bounded context.
+The execution of these 11 steps can be in any order and parallel; steps can be omitted.
+
+. *Incrementally analyze the legacy system*
++
+First, it is necessary to understand the legacy system.
+Consequently reverse engineering is needed to find out the requirements, which in principle are valid for the legacy system as well as for the target system.
+Utilize documentation (if at all exists), but be aware that it is mostly outdated and incomplete.
+Reading legacy source code might be reasonable only in rare cases.
+Apart from that, interview the people who support, manage or use the legacy system.
+In doing so, consider the principle of need-to-know, otherwise, you can fall into analysis paralysis, which results in delayed development.
+
+. *Incrementally decompose the legacy system structure*
++
+In this step, the legacy system is modified to achieve a decomposable structure (3-layer-architecture) or well-defined interfaces.
+This is required for optimally integrating a gateway (step 7).
+The cost of this procedure depends on the current structure of the legacy system and might even be unachievable.
+
+. *Incrementally design the target interface*
++
+GUIs or APIs of the target system are designed and specified, including a general idea of the architecture of the target system.
+A decision is reached whether gateways should be built.
+
+. *Incrementally design the target application*
++
+Similar to the previous step, business logic and rules must be designed and specified.
+
+. *Incrementally design the target database*
++
+Finally, the database must be designed to meet data requirements. A prerequisite is understanding the legacy data store which might be complex, especially if it is not a relational database.
+
+. *Incrementally install the target environment*
++
+First of all, the requirements for the target environment must be identified. Later on, hardware and server machines will have to be installed and tested, a deployment strategy is developed, and a concept regarding user management finalized.
+
+. *Incrementally create and install the necessary gateways*
++
+Now one or more gateways have to be implemented.
+The best way a gateway works is for fully decomposable systems (3-layer-architecture). For that case either use:
++
+* forward database gateway, see <<database-first-approach>>
+* reverse database gateway, see <<database-last-approach>>
+* forward and reverse database gateway, see <<composite-database-approach>>
+
++
+In not fully decomposable systems the gateway must be placed on a higher level, for example between presentation and logic tier.
+It might be possible to receive a 3-layer-architecture in the legacy system by refactoring (step 2).
+As the target system grows and the legacy system shrinks, a gateway is reduced accordingly.
+In the situation of having both a forward and a reverse gateway, this results probably in redundant data in the legacy and target database. Keeping consistency is challenging and distributed transaction (2-phase commit) might be necessary.
+
+. *Incrementally migrate the legacy database*
++
+The target DBMS is installed, and the DB-schema resulting from step 5 is implemented. The data has to be migrated, and a gateway is utilized for legacy application calls.
+
+. *Incrementally migrate the legacy application*
++
+Modules with business logic based on step 4 will have to be rewritten.
+The selection of these migrated modules is based on technical and organizational criteria.
+Take that one which is the simplest, most needed, or that one facing the highest risk.
+
+. *Incrementally migrate the legacy interface*
++
+GUIs and APIs designed in step 3 are implemented.
+
+. *Incrementally cutover to the target system*
++
+Cutover is the process of switching users and their operations from the legacy to the target system.
+Then legacy components can be discarded.
+The smaller these steps are, the lower the risk.
+If one step fails, only this step has to be repeated and not the whole project.
+
+===== Risks
+
+* Gateways can be highly complex.
+Implementing a forward gateway may not be possible due to the structure of the legacy system.
+* It may be difficult to keep consistency between the legacy and the target database.
+* A composite system is highly complex and not easy to comprehend for new team members. The loss of experienced developers and their know-how are even more
+ severe.
+* Estimating time and budget is difficult.
+When the migration begins, it is challenging to estimate how long it will take and how much it will cost.
+* Also, reverse engineering is tricky.
+There is the danger of missing features, so early feedback of users is invaluable.
+
+===== Applicability
+
+Use this approach (or the main ideas) when you need to migrate in a safe and incremental way. It is highly recommended for mission-critical systems.
+
+===== Consequences
+
+Software migration is not easy, and one will need patience and endurance.
+Migration projects can last several years. For that, a strong team is required.
+
+===== Also Known As
+
+Incremental migration
+
+===== Related Patterns
+
+* <<database-first-approach>>
+* <<database-last-approach>>
+* <<composite-database-approach>>
+
+===== References
+
+* [1] <<Brodie-Stonebraker>>
+* [2] Matthias Möser, Abschied nehmen vom Legacy-System, Java Magazin 3.18, https://entwickler.de/leseproben/legacy-systeme-agil-ersetzen-579827753.html
+
+// end of list
