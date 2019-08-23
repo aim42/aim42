@@ -38,10 +38,10 @@ Underlying idea is to refactor those parts of the system(s) which are actually t
 
 
 include::patterns/improve/big-bang-approach.adoc[]
-include::patterns/improve/change-by-split-approach.adoc[]
 include::patterns/improve/chicken-little-strategy.adoc[]
 include::patterns/improve/database-first-approach.adoc[]
 include::patterns/improve/database-last-approach.adoc[]
 include::patterns/improve/composite-database-approach.adoc[]
 include::patterns/improve/butterfly-methodology.adoc[]
+include::patterns/improve/change-by-split-approach.adoc[]
 include::patterns/improve/strangler-approach.adoc[]
