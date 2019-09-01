@@ -17,6 +17,7 @@ Started the idea of a distinct _user guide_...
 * Stefan Tilkov (innoQ): maintenance and evolution patterns.
 * Tammo van Lessen (innoQ): improvement patterns, technical debt contribution
 * Sven Johann (innoQ): several improvements on various patterns
+* Matthias Möser (Kassenärztliche Vereinigung Bayerns): improvement patterns, rewrite
 * (what are you waiting for - *join us*!)
 
 
