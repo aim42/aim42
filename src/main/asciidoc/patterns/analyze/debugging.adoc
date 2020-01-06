@@ -45,7 +45,7 @@ If locating errors takes very long, you're probably facing one of the following 
 
 ===== Applicability
 * Whenever a bug or misbehavior of a program is reported, debugging can help to identify its root cause.
-* Debugging can help to understand a system by make its inner working explicit.
+* Debugging can help to understand a system by making its inner working explicit.
 
 
 ===== Related Patterns
