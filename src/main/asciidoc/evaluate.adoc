@@ -14,7 +14,7 @@ comparable by estimating or measuring their *value*
 . estimate _value_ of problems, issues, risks and their remedies
 . prioritize issues, their remedies and improvement measures
 
-Usually evaluation implies _estimation_, only in few cases can you measure
+Usually, evaluation implies _estimation_, only in few cases can you measure
 or observe the evaluation subject and produce _hard facts_.
 
 === Estimation
@@ -28,7 +28,7 @@ image::evaluate-domain-conceptmap.png[title="Evaluation Concepts Domain Model"]
 |===
 | Domain concept | Explanation | Example
 | Estimation | an _approximation_ of any subject
-  (here: issues,problems or remedies), which is needed because
+  (here: issues, problems or remedies), which is needed because
 	facts or real observations are not available or possible.
 |
 | Subject    |  | a recurring problem in the <<System>> or
@@ -47,7 +47,7 @@ a|
 for parameters  | if every developer is
 concerned by the problem, we count their number.
 
-| Interval   | see <<Estimate-In-Interval>> | between 15 and 25%
+| Interval   | see <<Estimate-In-Interval>> | between 15% and 25%
 
 |===
 
@@ -87,7 +87,7 @@ Estimate the (monetary) value of a given feature, so you can compare features of
 ==== [pattern]#Estimate in Interval#
 ===== Intent
 Estimation is a guess, not a *measurement*.
-Estimates are uncertain, otherwise they would be observations (or measurements!).
+Estimates are uncertain, otherwise, they would be observations (or measurements!).
 
 ===== Description
 Therefore, estimate in intervals, giving a lower and upper bound to your estimate. The difference between the two shows your confidence in the estimate. If this difference is relatively small, it shows high confidence.
@@ -104,21 +104,20 @@ Estimates often rely on assumptions - which should be <<Explicit-Assumption>>.
 ==== [pattern]#Estimate Issue Cost#
 
 ===== Intent
-Find out how much a given issue costs in units of money or effort in a period of time or for every occurence.
+Find out how much a given issue costs in units of money or effort in a period or for every occurrence.
 
 ===== Description
-_Finding out_ the cost of an issue usually requires estimation or guessing, so there is
-uncertainty and propability involved.
+_Finding out_ the cost of an issue usually requires estimation or guessing, so there are
+uncertainty and probability involved.
 
-For example, if a server needs to be rebooted once every 24hrs and an operator needs 30 minutes to perform this reboot (and corresponding activities) - then you can approximate the cost of this problem for, let's say, a month:
+For example, if a server needs to be rebooted once every 24hrs and an operator needs 30 minutes to perform this reboot (and corresponding activities), then you can approximate the cost of this problem for, let's say, a month:
 
-5 workdays × 4 weeks × 30 min = 10hrs of operator-effort.
+5 workdays × 4 weeks × 30 min = 10hrs of operator's effort.
 
-If you multiply with (approximate or average) wage, you get _problem cost_.
+If you multiply with (an approximated or averaged) wage, you get _problem cost_.
 
-. If possible, try to _measure_ or observe instead of guessing or estimating.
-. If you cannot determine real numbers, use <<Explicit-Assumption>>.
-. If you need to guess, estimate or approximate
+* If possible, try to _measure_ or observe instead of guessing or estimating.
+* If you cannot determine real numbers, and you need to guess, estimate or approximate, use <<Explicit-Assumption>>. 
 
 ===== Related Practices
 
