@@ -36,7 +36,7 @@ How expensive is this change?
 |{set:cellbgcolor:#8dc8fd}
 |{set:cellbgcolor:#A2DBCC}
 3+^|{set:cellbgcolor:#b5b6b4}**Crosscutting** +
-Manage issues, improvementand their relationships
+Manage issues, improvement and their relationships
 3+|{set:cellbgcolor:#ececec}Manage issues (risks, problems, symptoms, root-causes)
 3+|{set:cellbgcolor:#ececec}Manage improvements
 3+|{set:cellbgcolor:#ececec}Manage the (m:n) relationships between issues and improvements
