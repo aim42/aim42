@@ -46,7 +46,7 @@ One serious risk in this phase is a premature restriction to certain artifacts o
 	<area shape=rect coords="463,272,576,321" href="#Qualitative-Analysis">
 </map>
 ++++
-Figure: Overview of Most Important Analysis Pracices
+Figure: Overview of Most Important Analysis Practices
 
 
 Always begin with <<Stakeholder-Analysis>>, then conduct <<Stakeholder-Interview>> with important stakeholders.
