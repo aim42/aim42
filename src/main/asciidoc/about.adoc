@@ -3,7 +3,7 @@
 == About aim42
 
 [role="lead"]
-aim 42 supports software evolution, maintenance, migration and improvement - in a systematic and pragmatic way.
+aim42 supports software evolution, maintenance, migration and improvement - in a systematic and pragmatic way.
 
 
 
