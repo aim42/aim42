@@ -6,7 +6,7 @@ This content is open source! The source is hosted under the aim42 organization o
 If you want to help by improving upon it, fork the project, revise the content, then send a pull request.
 
 icon:github[2x] Source::
-aim42 currently provides a _method reference, the asciidoc sources are hosted at https://github.com/aim42/aim42[GitHub under the aim42 organization].
+aim42 currently provides a _method reference_, the asciidoc sources are hosted at https://github.com/aim42/aim42[GitHub under the aim42 organization].
 
 icon:bolt[2x] Issues::
 Look over https://github.com/aim42/aim42/issues[our open issues], pick one, fork the repository and resolve the issue. Send over a pull request!
