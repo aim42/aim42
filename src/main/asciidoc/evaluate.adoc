@@ -92,7 +92,7 @@ Estimates are uncertain, otherwise, they would be observations (or measurements!
 ===== Description
 Therefore, estimate in intervals, giving a lower and upper bound to your estimate. The difference between the two shows your confidence in the estimate. If this difference is relatively small, it shows high confidence.
 
-CAUTION: Be aware of the anchoring effect http://en.wikipedia.org/wiki/Anchoring
+CAUTION: Be aware of the anchoring effect http://en.wikipedia.org/wiki/Anchoring_effect
 
 Good estimates ensure that the estimated value will be contained in the interval with a very high probability.
 
