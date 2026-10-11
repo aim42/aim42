@@ -29,7 +29,6 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 
 * found mistakes or ommissions: create an [issue](https://github.com/aim42/aim42.org-site/issues)
 * have ideas: fork the [repository](https://github.com/aim42/aim42.org-site) and create a pull request. You need a basic understanding of [Git](http://git-scm.com) for this.
-* follow us on [twitter](https://twitter.com/arc_improve42)
 
 
 We write the content in [AsciiDoc](http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/) and

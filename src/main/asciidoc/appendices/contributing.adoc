@@ -11,9 +11,6 @@ aim42 currently provides a _method reference_, the asciidoc sources are hosted a
 icon:bolt[2x] Issues::
 Look over https://github.com/aim42/aim42/issues[our open issues], pick one, fork the repository and resolve the issue. Send over a pull request!
 
-icon:twitter[2x] Twitter::
-https://twitter.com/arc_improve42[@arc_improve42]
-
 icon:comment-o[2x] Suggestions::
 open an issue (see above) and test our reactivity...
 
