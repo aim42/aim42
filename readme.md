@@ -1,4 +1,8 @@
-# [![aim42](./aim42-logo-180x81.png)](http://aim42.org/) Architecture Improvement Method
+# [![aim42](./aim42-logo-180x81.png)](https://aim42.org/) Architecture Improvement Method
+
+> **This repository is archived.** The aim42 method reference has moved into the website:
+> read it at [aim42.org](https://aim42.org), contribute via [aim42/aim42.org-site](https://github.com/aim42/aim42.org-site)
+> (all open issues have been transferred there).
 
 
 ## Software Evolution, Maintenance and Improvement - Done Right!
@@ -18,14 +22,13 @@ liberal [Creative Commons Sharealike 4.0](http://creativecommons.org/licenses/by
 
 ### Learn more
 
-* our [project homepage](http://aim42.org) gives an overview
-* the [online method reference](http://aim42.github.io) provides all (currently available) details (this is our main artifact - currently under intensive development). The method reference is automatically updated with every commit pushed to the central repository by Travis-CI.
+* [aim42.org](https://aim42.org) contains the complete method reference.
 
 
 ### Contribute
 
-* found mistakes or ommissions: create an [issue](https://github.com/aim42/aim42/issues)
-* have ideas: fork the [repository](https://github.com/aim42/aim42) and create a pull request. You need a basic understanding of [Git](http://git-scm.com) for this.
+* found mistakes or ommissions: create an [issue](https://github.com/aim42/aim42.org-site/issues)
+* have ideas: fork the [repository](https://github.com/aim42/aim42.org-site) and create a pull request. You need a basic understanding of [Git](http://git-scm.com) for this.
 * follow us on [twitter](https://twitter.com/arc_improve42)
 
 
@@ -34,13 +37,6 @@ build with [Gradle](https://gradle.org).
 
 As of September 2017, we removed the AsciiDoc help from the aim42 guide,
 you can find it [here](), under the arc42 organization.
-
-### Current Status
-
-[![Build Status](https://img.shields.io/travis/aim42/aim42/master.svg)](https://travis-ci.org/aim42/aim42)
-[![issues](https://img.shields.io/github/issues/aim42/aim42.svg?)](https://github.com/aim42/aim42/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
-[![Bugs](https://badge.waffle.io/aim42/aim42.svg?label=bug&title=Bugs)](http://waffle.io/aim42/aim42)
-
 
 ## Repository Organization
 
