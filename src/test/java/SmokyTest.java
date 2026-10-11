@@ -127,7 +127,7 @@ public class SmokyTest {
 
         // the resulting images contains a list of the following form:
         // < [HtmlImage[<img src="images/aim42-logo.png" alt="aim42-logo">],
-        //   [HtmlImage[<img src="https://travis-ci.org/aim42/aim42.png?branch=master" alt="unknown">],...>
+        //   [HtmlImage[<img src="https://img.shields.io/..." alt="...">],...>
         assertNotNull("List of images shall be nonNull but isn't", images);
 
         // we need to filter for images containing 'src="images/"'...
